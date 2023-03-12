@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/osmium_drill_laser_input_port"
+    }
+  }
+}

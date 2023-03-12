@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mm:block/osmium_drill_controller"
+    },
+    "facing=south": {
+      "model": "mm:block/osmium_drill_controller",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mm:block/osmium_drill_controller",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "mm:block/osmium_drill_controller",
+      "y": 90
+    }
+  }
+}

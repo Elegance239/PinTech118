@@ -417,6 +417,6 @@ onEvent('recipes', event => {
 	event.shapeless('refinedstorage:construction_core', ['refinedstorage:improved_processor', '2x kubejs:aqueous_ingot'])
 
 	event.shapeless('refinedstorage:destruction_core', ['refinedstorage:improved_processor', '2x createchromaticreturn:glowing_ingot'])
-
+	
 })
 

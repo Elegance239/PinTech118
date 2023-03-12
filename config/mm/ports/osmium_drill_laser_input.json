@@ -1,0 +1,11 @@
+{
+    "id": "osmium_drill_laser_input",
+       "name": {
+       "text": "Laser Input Port"
+       },
+       "port": "mm:mekanism_laser",
+       "input": true,
+       "config": {
+       "capacity": 20000000
+       }
+    }

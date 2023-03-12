@@ -42,6 +42,7 @@ event.remove({output:'sophisticatedbackpacks:iron_backpack'})
 event.remove({output:'sophisticatedbackpacks:gold_backpack'})
 event.remove({output:'sophisticatedbackpacks:diamond_backpack'})
 event.remove({output:'sophisticatedbackpacks:netherite_backpack'})
+event.remove({type: "industrialforegoing:laser_drill_ore"})
 
 // I am dumb.
 let IE = (id) => 'immersiveengineering:'+id
