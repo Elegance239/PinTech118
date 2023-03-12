@@ -1,0 +1,42 @@
+{
+    "controllerId": "mm:cnc_fabricator",
+    "name": {},
+    "layout": [
+        [
+            "AAA",
+            "AAA",
+            "AFA"
+        ],
+        [
+            "ABA",
+            "DAC",
+            "AEA"
+        ]
+    ],
+    "key": {
+        "A": {
+            "type": "mm:block",
+            "block": "immersiveengineering:sheetmetal_steel"
+        },
+        "B": {
+            "type": "mm:port",
+            "port": "mm:item",
+            "input": false
+        },
+        "D": {
+            "type": "mm:port",
+            "port": "mm:energy",
+            "input": true
+        },
+        "E": {
+            "type": "mm:port",
+            "port": "mm:item",
+            "input": true
+        },
+        "F": {
+            "type": "mm:port",
+            "port": "mm:fluid",
+            "input": true
+        }
+    }
+}

@@ -599,7 +599,7 @@
 			}]
 		}
 		{
-			x: 34.5d
+			x: 35.5d
 			y: -3.5d
 			dependencies: [
 				"5F786B7ECF77D192"
@@ -993,7 +993,7 @@
 			}]
 		}
 		{
-			x: 31.0d
+			x: 31.5d
 			y: 2.0d
 			dependencies: ["0B3ED590FF5B1D15"]
 			id: "60D907D7FE8916BC"
@@ -1065,7 +1065,7 @@
 		}
 		{
 			x: 22.5d
-			y: 2.0d
+			y: 1.5d
 			id: "6D5EDDE86992C4E8"
 			tasks: [{
 				id: "2A3896548F8B6866"
@@ -1074,19 +1074,8 @@
 			}]
 		}
 		{
-			x: 19.0d
-			y: -6.0d
-			id: "28B2100D03CBC70C"
-			tasks: [{
-				id: "3B75C4FE1CB2B2A9"
-				type: "item"
-				item: "mekanism:thermal_evaporation_controller"
-			}]
-		}
-		{
 			x: 22.5d
 			y: -6.0d
-			dependencies: ["28B2100D03CBC70C"]
 			id: "74FFF220EF6F792F"
 			tasks: [{
 				id: "5F57446786B8468B"
@@ -1207,7 +1196,7 @@
 			}]
 		}
 		{
-			x: 28.5d
+			x: 29.5d
 			y: -2.0d
 			dependencies: ["6647DDCD8D3D9BB3"]
 			id: "5533181FC2EA72F5"

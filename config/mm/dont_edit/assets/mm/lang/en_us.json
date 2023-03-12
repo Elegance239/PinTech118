@@ -1,4 +1,15 @@
 {
+  "block.mm.cnc_fabricator_controller": "CNC Fabricator Controller",
+  "block.mm.energy_input_port": "Energy Input Port",
+  "block.mm.fluid_input_port": "Fluid Input Port",
+  "block.mm.item_input_port": "Item Input Port",
+  "block.mm.item_output_port": "Item Output Port",
+  "block.mm.solar_panel_controller": "Solar Panel",
+  "block.mm.solar_panel_energy_input_port": "Battery Bank Input Port",
+  "block.mm.test_controller": "Test",
+  "container.masterfulmachinery.mm:cnc_fabricator_controller_controller.name": "CNC Fabricator Controller",
+  "container.masterfulmachinery.mm:solar_panel_controller_controller.name": "Solar Panel",
+  "container.masterfulmachinery.mm:test_controller_controller.name": "Test",
   "item.mm.blueprint": "Blueprint",
   "item.mm.structure_wand": "Structure Wand"
 }

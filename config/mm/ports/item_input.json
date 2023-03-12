@@ -1,0 +1,12 @@
+{
+    "id": "item_input",
+       "name": {
+       "text": "Item"
+       },
+       "port": "mm:item",
+       "input": true,
+       "config": {
+        "slotRows": 3,
+        "slotCols": 3
+       }
+    }

@@ -1,0 +1,11 @@
+{
+    "id": "solar_panel_energy_input",
+    "name": {
+      "text": "Battery Bank"
+    },
+    "port": "mm:energy",
+    "input": true,
+    "config": {
+      "capacity": 20000000
+    }
+  }

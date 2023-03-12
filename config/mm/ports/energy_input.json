@@ -1,0 +1,11 @@
+{
+    "id": "energy_input",
+       "name": {
+       "text": "Energy"
+       },
+       "port": "mm:energy",
+       "input": true,
+       "config": {
+       "capacity": 1000000
+       }
+    }
