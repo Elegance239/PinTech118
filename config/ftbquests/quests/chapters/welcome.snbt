@@ -1,0 +1,30 @@
+{
+	id: "4B3FC5F0B51814B8"
+	group: ""
+	order_index: 0
+	filename: "welcome"
+	title: "Welcome!"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Welcome!"
+		x: 0.0d
+		y: 0.0d
+		subtitle: "Why Hello There."
+		description: ["This is an expert pack developed by WhyReason and Perilune. Inspired by the distinct lack of tech progression in E9E currently, we decided that we will make our own modpack, free of magic, only tech, which is welcoming for beginners and gives a challenge towards the end of the game. Have fun!"]
+		size: 5.0d
+		id: "43476F918B83BEF7"
+		tasks: [{
+			id: "2E77B2134A78A3CC"
+			type: "dimension"
+			dimension: "minecraft:overworld"
+		}]
+		rewards: [{
+			id: "563D7A6B15E0D881"
+			type: "item"
+			item: "minecraft:cooked_beef"
+			count: 10
+		}]
+	}]
+	quest_links: [ ]
+}

@@ -1,0 +1,801 @@
+{
+	id: "573AB59CE0838221"
+	group: ""
+	order_index: 2
+	filename: "renewable_ore_sources"
+	title: "Renewable ore sources"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.5d
+			y: -3.5d
+			id: "5EADD06B2AAAC293"
+			tasks: [{
+				id: "0B2C96D0D547CB1B"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 4.0d
+			id: "7E529C77D50B4258"
+			tasks: [{
+				id: "0E4F008FF6772FAE"
+				type: "item"
+				item: "minecraft:raw_copper"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 6.0d
+			id: "2BA919F0EE57C0CD"
+			tasks: [{
+				id: "21F4720A116457B6"
+				type: "item"
+				item: "create:raw_zinc"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 8.5d
+			id: "60D31A84AF30CD9B"
+			tasks: [{
+				id: "2D482638CD7AC8D0"
+				type: "item"
+				item: "thermal:raw_tin"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			id: "1173307062C09391"
+			tasks: [{
+				id: "24B4202128673754"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+		}
+		{
+			icon: "minecraft:redstone"
+			x: -4.5d
+			y: 4.5d
+			id: "3BDEECA07ED8B719"
+			tasks: [{
+				id: "5498F5DC145539A8"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["4472E3BEE16273F1"]
+			id: "1BA1DD86DBA5AAC4"
+			tasks: [{
+				id: "189B17369F3FA006"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["1A66950BD0E5424A"]
+			id: "24851F51852A9E17"
+			tasks: [{
+				id: "0BF8EFB4192BBA71"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			shape: "gear"
+			dependencies: ["5EADD06B2AAAC293"]
+			id: "4472E3BEE16273F1"
+			tasks: [{
+				id: "2D556D6C21EB867F"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			shape: "gear"
+			dependencies: ["1BA1DD86DBA5AAC4"]
+			id: "1A66950BD0E5424A"
+			tasks: [{
+				id: "5816BE956D44514A"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			shape: "gear"
+			dependencies: ["24851F51852A9E17"]
+			id: "07E4E5598E33A059"
+			tasks: [{
+				id: "46BA28B931C079B7"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			dependencies: ["07E4E5598E33A059"]
+			id: "0B474599278477D8"
+			tasks: [{
+				id: "03F0372060D87A99"
+				type: "item"
+				item: "minecraft:raw_iron"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			id: "7C6BE59BB29A3792"
+			tasks: [{
+				id: "589B6A002232194C"
+				type: "item"
+				item: "create:polished_rose_quartz"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			id: "04D58BD89738601E"
+			tasks: [{
+				id: "63E4940F9BA19173"
+				type: "item"
+				item: "thermal:slag"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			shape: "gear"
+			id: "28B7626A3F4DB6DB"
+			tasks: [{
+				id: "1D530F162694E22B"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			title: "Redstone Slag Slurry"
+			icon: "kubejs:redstone_slag_slurry_bucket"
+			x: 4.0d
+			y: 4.5d
+			id: "63DA73F61CE4DD28"
+			tasks: [{
+				id: "594A17DA9EEBE909"
+				type: "checkmark"
+			}]
+		}
+		{
+			icon: "minecraft:water_bucket"
+			x: 0.5d
+			y: 4.5d
+			id: "3235A43DC2DC07A7"
+			tasks: [{
+				id: "2250D3A162AB4232"
+				type: "checkmark"
+			}]
+		}
+		{
+			icon: "thermal:machine_chiller"
+			x: 11.0d
+			y: 6.5d
+			shape: "gear"
+			id: "1BD666D8382981EF"
+			tasks: [{
+				id: "5C6FBD24086AA709"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 4.5d
+			id: "7E7677C252659F18"
+			tasks: [{
+				id: "02DB83FC82A49689"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+		}
+		{
+			icon: "thermal:quartz_dust"
+			x: -1.5d
+			y: 1.0d
+			id: "140A064AFB507B47"
+			tasks: [{
+				id: "6EE5F282CEC0B848"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			id: "5EA73D007023FFFA"
+			tasks: [{
+				id: "2FC41EE09F62072A"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			id: "001F6577A2DCE779"
+			tasks: [{
+				id: "015B076921316082"
+				type: "item"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}]
+		}
+		{
+			title: "Silica-rich water (custom)"
+			x: 3.0d
+			y: 1.0d
+			id: "52E03EF12FF865F5"
+			tasks: [{
+				id: "24A526B0D0C0AC27"
+				type: "item"
+				item: "kubejs:silica_rich_water_bucket"
+			}]
+		}
+		{
+			icon: "thermal:machine_crystallizer"
+			x: 5.5d
+			y: 2.5d
+			id: "5A9EF335958244CF"
+			tasks: [{
+				id: "6F755FD8B44904D9"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			id: "1E3EDC4BE2C30916"
+			tasks: [{
+				id: "494048E71D810B73"
+				type: "item"
+				title: "Silica"
+				item: "minecraft:glass"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.0d
+			id: "661F554F842A6A7B"
+			tasks: [{
+				id: "6936686386F81792"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+		}
+		{
+			icon: "minecraft:copper_ingot"
+			x: -4.5d
+			y: 8.0d
+			id: "6528DD7B21B4EDA4"
+			tasks: [{
+				id: "75B06961B3928EFA"
+				type: "item"
+				item: "minecraft:raw_copper"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.0d
+			id: "6EB2D72C23AACB63"
+			tasks: [{
+				id: "7014B22ABAC9C54A"
+				type: "item"
+				item: "minecraft:pointed_dripstone"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			id: "6BAFA98F5923FB3D"
+			tasks: [{
+				id: "7D7E2975C27AC1A8"
+				type: "item"
+				item: "immersiveengineering:crusher"
+			}]
+		}
+		{
+			title: "dripstone dust (custom)"
+			x: 1.5d
+			y: 8.0d
+			id: "058A4F980B32BF4F"
+			tasks: [{
+				id: "36335676CF02C782"
+				type: "item"
+				item: "kubejs:ground_dripstone"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 9.5d
+			id: "5B41B158B8FA95FC"
+			tasks: [{
+				id: "214D9D894FE06935"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+		}
+		{
+			title: "Raw Copper Dust"
+			x: 9.5d
+			y: 8.0d
+			id: "4CC460A33A42D464"
+			tasks: [{
+				id: "2B82F77ECC8307CB"
+				type: "item"
+				item: "mekanism:dirty_dust_copper"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 9.5d
+			id: "145978ED3CE16998"
+			tasks: [{
+				id: "3150BAD07AC9938D"
+				type: "item"
+				item: "kubejs:slag_powder"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 9.5d
+			id: "1B8556861CF6CBF0"
+			tasks: [{
+				id: "7E20219F9F6799DD"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 8.0d
+			id: "05C102AFF80BDDC6"
+			tasks: [{
+				id: "2B36CD9F59AB2138"
+				type: "item"
+				item: "minecraft:copper_ingot"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 11.5d
+			id: "720522DFBFD48D83"
+			tasks: [{
+				id: "6B6B94404B1E83D1"
+				type: "item"
+				item: "thermal:lead_ingot"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 11.5d
+			subtitle: "The ancients were reckless in their disposal of heavy metals, leading widespread lead contamination of soil across the entire planet. Maybe that's why you're so fucking dumb"
+			id: "65AE8C319617D8AF"
+			tasks: [{
+				id: "69CD043A58DF842E"
+				type: "item"
+				item: "minecraft:oak_sapling"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 11.5d
+			id: "3A62F7AEDCE02F78"
+			tasks: [{
+				id: "0B1D6545AF9BBF70"
+				type: "item"
+				item: "createaddition:biomass"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 11.5d
+			id: "4EA5EACEF46B524F"
+			tasks: [{
+				id: "0FCD30568A496A66"
+				type: "item"
+				item: "pneumaticcraft:vegetable_oil_bucket"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 13.0d
+			id: "7FBF8038732AE313"
+			tasks: [{
+				id: "53195A5A72DDF8D9"
+				type: "item"
+				item: "pneumaticcraft:fluid_mixer"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 13.0d
+			id: "6A649F1B431F74A6"
+			tasks: [{
+				id: "42D166960131CF50"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 13.0d
+			id: "214EF3DE502DAFE7"
+			tasks: [{
+				id: "360812C4A182F71C"
+				type: "item"
+				item: "mekanism:dust_charcoal"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 11.5d
+			id: "63B37415ABAF1587"
+			tasks: [{
+				id: "1A4EB2D7F5ECCA52"
+				type: "item"
+				item: "mekanism:dirty_dust_lead"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 11.5d
+			id: "12315B9BA0D037F4"
+			tasks: [{
+				id: "72E16F73AE28FEAD"
+				type: "item"
+				item: "thermal:lead_ingot"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 13.0d
+			id: "26334625C362F68F"
+			tasks: [{
+				id: "514670417A35BEEB"
+				type: "item"
+				title: "multiservo press"
+				item: "thermal:machine_press"
+			}]
+		}
+		{
+			icon: "minecraft:dead_bubble_coral"
+			x: 5.5d
+			y: 11.5d
+			id: "47A4E7ABB304457D"
+			tasks: [{
+				id: "5E414399042040B4"
+				type: "checkmark"
+				title: "Dehydrated biomass"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 13.0d
+			id: "6DDB83F3C50C869A"
+			tasks: [{
+				id: "2F0E92324BAD5473"
+				type: "item"
+				item: "immersiveengineering:advanced_blast_furnace"
+			}]
+		}
+		{
+			title: "vaporized biomass"
+			x: 11.0d
+			y: 11.5d
+			id: "066B7A16CBD7FE79"
+			tasks: [{
+				id: "073B6F49B2074501"
+				type: "item"
+				item: "minecraft:gunpowder"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 8.0d
+			id: "3DD8978563B07BF2"
+			tasks: [{
+				id: "10681C4BF93C3D86"
+				type: "item"
+				item: "minecraft:raw_copper"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 13.0d
+			id: "5C728F94D708E691"
+			tasks: [{
+				id: "26F08E4A942A0895"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			title: "Desiccated biomass"
+			x: 9.0d
+			y: 11.5d
+			id: "60C654C71E991551"
+			tasks: [{
+				id: "00868B6B522F6271"
+				type: "item"
+				item: "mekanism:dust_lithium"
+			}]
+		}
+		{
+			title: "quicklime"
+			x: 6.5d
+			y: 11.0d
+			id: "68274FBC2C4CFD59"
+			tasks: [{
+				id: "70F290B7F6CF9A33"
+				type: "item"
+				item: "minecraft:calcite"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 9.5d
+			id: "7DBAD51C754D9D58"
+			tasks: [{
+				id: "31B9CA3CD5C26237"
+				type: "item"
+				item: "thermal:machine_bottler"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.5d
+			id: "42476DC30DBC0D25"
+			tasks: [{
+				id: "73DB3850EDE16552"
+				type: "item"
+				item: "immersiveengineering:redstone_acid_bucket"
+			}]
+		}
+		{
+			title: "copper-containing dust (TBD)"
+			x: 5.5d
+			y: 8.0d
+			id: "10215C4969541114"
+			tasks: [{
+				id: "327D7BC4C66528CD"
+				type: "item"
+				item: "kubejs:acidified_ground_dripstone"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 15.5d
+			id: "7CE59AC32BB5E190"
+			tasks: [{
+				id: "0C3183E7A4BBA110"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 4.5d
+			id: "31C556B12EB677A9"
+			tasks: [{
+				id: "5241B324C6FFAAA0"
+				type: "item"
+				item: "immersiveengineering:redstone_acid_bucket"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.5d
+			id: "4DA2A4BA9281931C"
+			tasks: [{
+				id: "7D3129DA74717F7B"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 7.0d
+			id: "4FF4A63D6C8F7478"
+			tasks: [{
+				id: "220F1EB233CCF2E5"
+				type: "item"
+				item: "kubejs:redstone_slag_powder"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 18.0d
+			subtitle: "We will assume redstone is silver chromate. That's the end. There is no reason for this."
+			id: "4380BA3D2A738F62"
+			tasks: [{
+				id: "425350A6A679B980"
+				type: "item"
+				item: "thermal:silver_ingot"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 22.5d
+			id: "59818F60AC000EC6"
+			tasks: [{
+				id: "7722A9D08DCC5F08"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 18.0d
+			id: "3BA511C9C406AD98"
+			tasks: [{
+				id: "51769E0C5F6E28A5"
+				type: "item"
+				item: "minecraft:diorite"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 18.0d
+			id: "53F171BDD607A3E1"
+			tasks: [{
+				id: "79C213DD7D867DA1"
+				type: "item"
+				item: "jaopca:dusts.zinc"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 18.0d
+			id: "29FDBD93CD6F23E3"
+			tasks: [{
+				id: "0A3796CE6D29E9D9"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 20.0d
+			id: "45BD8A1385430750"
+			tasks: [{
+				id: "4183D212CCC7EA86"
+				type: "item"
+				item: "thermal:lightning_charge"
+			}]
+		}
+		{
+			title: "Argentite"
+			x: 4.0d
+			y: 18.0d
+			id: "2166EF241C3B167F"
+			tasks: [{
+				id: "2158BAD75FA8E0B1"
+				type: "item"
+				item: "create:raw_zinc"
+			}]
+		}
+		{
+			title: "Zinc Chromate"
+			x: 4.0d
+			y: 19.0d
+			id: "5F09E006F6EAA675"
+			tasks: [{
+				id: "7FC39857DF2DAAF5"
+				type: "item"
+				item: "jaopca:mekanism_dirty_dusts.zinc"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 20.0d
+			id: "408596ADEFD37879"
+			tasks: [{
+				id: "5F8CCB4A64742C8B"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+		}
+		{
+			title: "Crushed Argentite or sth"
+			x: 8.5d
+			y: 18.0d
+			id: "379C9669385D81F9"
+			tasks: [{
+				id: "1AE9545F677CDDCD"
+				type: "item"
+				item: "create:crushed_silver_ore"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 20.0d
+			id: "401FE0C8F8FE0A4A"
+			tasks: [{
+				id: "7C03B320BE1A56AF"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 20.0d
+			id: "141631007DF28C54"
+			tasks: [{
+				id: "7BE87B05E453CA43"
+				type: "item"
+				item: "immersiveengineering:blastbrick_reinforced"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 18.0d
+			id: "787CF96863CEB65B"
+			tasks: [{
+				id: "385B9DE18FB8AE5D"
+				type: "item"
+				item: "thermal:raw_silver"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.5d
+			id: "720F913A5706F5E0"
+			tasks: [{
+				id: "77831771DF582CB3"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			id: "420B277D5980C76B"
+			tasks: [{
+				id: "68A5E5F73D4061AB"
+				type: "item"
+				item: "thermal:quartz_dust"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			id: "10E76D62AAD745C2"
+			tasks: [{
+				id: "563386944BB98023"
+				type: "item"
+				item: "create:rose_quartz"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 25.0d
+			id: "6D1E27D16248C822"
+			tasks: [{
+				id: "1D27283698D851B4"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

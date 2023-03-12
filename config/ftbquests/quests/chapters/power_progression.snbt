@@ -1,0 +1,132 @@
+{
+	id: "24F8A8C46323FF36"
+	group: ""
+	order_index: 5
+	filename: "power_progression"
+	title: "power progression"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.5d
+			y: 0.5d
+			id: "0CD474A6EF462B67"
+			tasks: [{
+				id: "19A6FCB57772FE59"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			id: "632A69F6DB724611"
+			tasks: [{
+				id: "02874C918ECC7B67"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			id: "67D56F71B6CCF09B"
+			tasks: [{
+				id: "00C7C1742E91C8AC"
+				type: "item"
+				item: "pneumaticcraft:pneumatic_dynamo"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			id: "4EDD5A14F626D259"
+			tasks: [{
+				id: "0B54ADDDC55FDD54"
+				type: "item"
+				item: "mekanismgenerators:solar_generator"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			id: "227191AE5758B8FC"
+			tasks: [{
+				id: "4D48E9602ED60221"
+				type: "item"
+				item: "mekanismgenerators:bio_generator"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			id: "404EB2F400C08EE5"
+			tasks: [{
+				id: "67F6EAABBE911829"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			id: "1ECF7E4D0EE25487"
+			tasks: [{
+				id: "5F79819C2BFAC4C1"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			id: "102B3ACD080F66CB"
+			tasks: [{
+				id: "7B95A05CE2FDD9D9"
+				type: "item"
+				item: "mekanismgenerators:wind_generator"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			id: "58F16845D6929EB6"
+			tasks: [{
+				id: "1CFBA3534DFF9355"
+				type: "item"
+				item: "mekanismgenerators:fission_fuel_assembly"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			id: "6104A7ABCEFEC954"
+			tasks: [{
+				id: "0B9B9C9DF9BB63CC"
+				type: "item"
+				item: "mekanismgenerators:fusion_reactor_controller"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			id: "01398EC6D40673C6"
+			tasks: [{
+				id: "3CBF5B4FFC509EAF"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			id: "46EFE7F4B4F54550"
+			tasks: [{
+				id: "2113D3787410CD30"
+				type: "item"
+				item: "immersiveengineering:diesel_generator"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

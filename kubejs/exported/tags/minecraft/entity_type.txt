@@ -1,0 +1,104 @@
+To refresh this file, delete it and run /reload command again! Last updated: Feb 12, 2023, 11:32:33 PM
+
+#pneumaticcraft:vacuum_trap_whitelisted
+
+#minecraft:axolotl_always_hostiles
+- minecraft:drowned (from Default)
+- minecraft:guardian (from Default)
+- minecraft:elder_guardian (from Default)
+
+#minecraft:freeze_immune_entity_types
+- minecraft:stray (from Default)
+- minecraft:polar_bear (from Default)
+- minecraft:snow_golem (from Default)
+- minecraft:wither (from Default)
+- mekanism:robit (from Mekanism-1.19.2-10.3.8.477.jar)
+- thermal:blizz (from thermal_core-1.19.2-10.2.0.5.jar)
+
+#immersiveengineering:shaderbag/blacklist
+- minecraft:wither (from ImmersiveEngineering-1.19.2-9.1.2-159.jar)
+- minecraft:iron_golem (from ImmersiveEngineering-1.19.2-9.1.2-159.jar)
+
+#per-viam-invenire:replace_vanilla_navigator
+- mekanism:robit (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#industrialforegoing:mob_crusher_blacklist
+- minecraft:ender_dragon (from industrial-foregoing-1.19.2-3.3.2.1-3.jar)
+
+#minecraft:impact_projectiles
+- #minecraft:arrows (from Default)
+- minecraft:snowball (from Default)
+- minecraft:fireball (from Default)
+- minecraft:small_fireball (from Default)
+- minecraft:egg (from Default)
+- minecraft:trident (from Default)
+- minecraft:dragon_fireball (from Default)
+- minecraft:wither_skull (from Default)
+- mekanism:flame (from Mekanism-1.19.2-10.3.8.477.jar)
+- thermal:basalz_projectile (from thermal_core-1.19.2-10.2.0.5.jar)
+- thermal:blitz_projectile (from thermal_core-1.19.2-10.2.0.5.jar)
+- thermal:blizz_projectile (from thermal_core-1.19.2-10.2.0.5.jar)
+
+#minecraft:beehive_inhabitors
+- minecraft:bee (from Default)
+
+#minecraft:skeletons
+- minecraft:skeleton (from Default)
+- minecraft:stray (from Default)
+- minecraft:wither_skeleton (from Default)
+
+#ftbquests:no_loot_crates
+
+#minecraft:arrows
+- minecraft:arrow (from Default)
+- minecraft:spectral_arrow (from Default)
+
+#minecraft:frog_food
+- minecraft:slime (from Default)
+- minecraft:magma_cube (from Default)
+
+#minecraft:freeze_hurts_extra_types
+- minecraft:strider (from Default)
+- minecraft:blaze (from Default)
+- minecraft:magma_cube (from Default)
+
+#pneumaticcraft:omnihopper_blacklisted
+- minecraft:villager (from pneumaticcraft-repressurized-1.19.2-4.2.0-16.jar)
+
+#industrialforegoing:mob_duplicator_blacklist
+
+#ftbchunks:entity_interact_whitelist
+- corpse:corpse? (from ftb-chunks-forge-1902.3.15-build.233.jar)
+
+#forge:bosses
+- minecraft:ender_dragon (from forge-1.19.2-43.2.0-universal.jar)
+- minecraft:wither (from forge-1.19.2-43.2.0-universal.jar)
+
+#minecraft:raiders
+- minecraft:evoker (from Default)
+- minecraft:pillager (from Default)
+- minecraft:ravager (from Default)
+- minecraft:vindicator (from Default)
+- minecraft:illusioner (from Default)
+- minecraft:witch (from Default)
+
+#pneumaticcraft:vacuum_trap_blacklisted
+
+#minecraft:powder_snow_walkable_mobs
+- minecraft:rabbit (from Default)
+- minecraft:endermite (from Default)
+- minecraft:silverfish (from Default)
+- minecraft:fox (from Default)
+- mekanism:robit (from Mekanism-1.19.2-10.3.8.477.jar)
+- thermal:blizz (from thermal_core-1.19.2-10.2.0.5.jar)
+
+#industrialforegoing:mob_imprisonment_tool_blacklist
+
+#minecraft:axolotl_hunt_targets
+- minecraft:tropical_fish (from Default)
+- minecraft:pufferfish (from Default)
+- minecraft:salmon (from Default)
+- minecraft:cod (from Default)
+- minecraft:squid (from Default)
+- minecraft:glow_squid (from Default)
+- minecraft:tadpole (from Default)

@@ -1,0 +1,687 @@
+{
+	id: "4A4D7813E1F70537"
+	group: "06FE0E7D4DE643D6"
+	order_index: 0
+	filename: "getting_started"
+	title: "Chapter 0"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "First Steps"
+			x: -11.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Chop down your first trees!"
+			hide_dependency_lines: false
+			size: 2.0d
+			id: "722CDE337A4DB0F5"
+			tasks: [{
+				id: "7A61CEA311933EF6"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 12L
+			}]
+			rewards: [{
+				id: "347577D591B4F6D3"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 12
+			}]
+		}
+		{
+			title: "You'll need some of these..."
+			x: -7.0d
+			y: -3.0d
+			dependencies: ["722CDE337A4DB0F5"]
+			size: 2.0d
+			id: "50FDF6618BCA041F"
+			tasks: [{
+				id: "77277B8FA8795FA1"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 32L
+			}]
+			rewards: [{
+				id: "34489E143F72D72B"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 32
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			subtitle: "Make a Furnace. Not difficult, eh?"
+			hide_dependency_lines: false
+			dependencies: ["50FDF6618BCA041F"]
+			size: 2.0d
+			id: "19A9CAC021E1C3CD"
+			tasks: [{
+				id: "6D792A50056C0616"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "40A3946A1BD717B2"
+				type: "loot"
+				exclude_from_claim_all: true
+			}]
+		}
+		{
+			title: "Shiny!"
+			x: 0.0d
+			y: -3.0d
+			subtitle: "Gold is one of the base ores in this pack. "
+			dependencies: ["19A9CAC021E1C3CD"]
+			size: 2.0d
+			id: "3F5E6A6B62CCC467"
+			tasks: [{
+				id: "2AF22B51038959D5"
+				type: "item"
+				item: "minecraft:raw_gold"
+			}]
+			rewards: [{
+				id: "05B3A66B0A1C1BA6"
+				type: "item"
+				item: "minecraft:raw_gold"
+				count: 5
+			}]
+		}
+		{
+			title: "Iron!"
+			x: 0.0d
+			y: 3.0d
+			subtitle: "The beginning of your expert journey."
+			dependencies: ["19A9CAC021E1C3CD"]
+			size: 2.0d
+			id: "3C50EB8483313882"
+			tasks: [{
+				id: "0B7FCA4E3629BCD1"
+				type: "item"
+				item: "minecraft:raw_iron"
+			}]
+			rewards: [{
+				id: "3D7700FDBB71B457"
+				type: "item"
+				item: "minecraft:raw_iron"
+				count: 5
+			}]
+		}
+		{
+			title: "Redstone!"
+			x: 0.0d
+			y: 8.5d
+			dependencies: ["19A9CAC021E1C3CD"]
+			size: 2.0d
+			id: "212CF56524FC4C32"
+			tasks: [{
+				id: "7BE48FECFA8F798C"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+			rewards: [{
+				id: "33B01B12218EFDFF"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 10
+			}]
+		}
+		{
+			title: "Nuggets"
+			x: 10.0d
+			y: -1.0d
+			subtitle: "The Blast Furnace is your first way to process elementary ores."
+			dependencies: ["369471B984582E15"]
+			size: 2.0d
+			id: "32BC47EB3141A0E3"
+			tasks: [
+				{
+					id: "5364A62CAA8D3550"
+					type: "item"
+					item: "create:zinc_nugget"
+				}
+				{
+					id: "5944934C67D32F57"
+					type: "item"
+					item: "thermal:tin_nugget"
+				}
+				{
+					id: "638EEA05B8CC391C"
+					type: "item"
+					item: "thermal:silver_nugget"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			subtitle: "The Blast Furnace is your first way to process elementary ores."
+			description: ["Oh, and make a couple of these. You'll know soon..."]
+			dependencies: ["3C50EB8483313882"]
+			size: 3.0d
+			id: "369471B984582E15"
+			tasks: [{
+				id: "16D474070EDC70C0"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+			rewards: [{
+				id: "0335EB4D526EC94A"
+				type: "choice"
+				exclude_from_claim_all: true
+			}]
+		}
+		{
+			x: 10.0d
+			y: 7.0d
+			dependencies: ["369471B984582E15"]
+			size: 2.0d
+			id: "49D1051908697A35"
+			tasks: [{
+				id: "3CBA85D2D9A98131"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 32L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 3.0d
+			subtitle: "Welcome to Create."
+			description: ["Andesite Alloys are the foundation of the Create Mod!"]
+			dependencies: [
+				"49D1051908697A35"
+				"32BC47EB3141A0E3"
+				"390A0A51A68A04AE"
+			]
+			size: 3.0d
+			id: "09800CB0FF81EF57"
+			tasks: [{
+				id: "5BE6BAC8D4DD3EAE"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 10L
+			}]
+			rewards: [{
+				id: "76C3BE0E25258BDA"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 5
+			}]
+		}
+		{
+			title: "Rotational Power!"
+			x: 22.0d
+			y: 3.0d
+			subtitle: "The wheels on the bus go round and round..."
+			dependencies: ["09800CB0FF81EF57"]
+			size: 2.0d
+			id: "638DFC8F928BDF6D"
+			tasks: [{
+				id: "09243193071BDB87"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			x: 26.0d
+			y: 6.0d
+			dependencies: ["638DFC8F928BDF6D"]
+			size: 2.0d
+			id: "3C08C2679E5AF651"
+			tasks: [{
+				id: "4FEC11E7B49BA828"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: 22.0d
+			y: -4.0d
+			dependencies: ["638DFC8F928BDF6D"]
+			size: 2.0d
+			id: "4A5FB1E88D38E8AF"
+			tasks: [
+				{
+					id: "604606C502AFE740"
+					type: "item"
+					item: "create:encased_fan"
+				}
+				{
+					id: "7B65BE3F8703E207"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+			]
+		}
+		{
+			x: 28.0d
+			y: -6.5d
+			subtitle: "Congratulations! You've unlocked 1x Processing for Zinc."
+			dependencies: ["4A5FB1E88D38E8AF"]
+			size: 2.5d
+			id: "01458EA4C58193EA"
+			tasks: [{
+				id: "45A2D039E43EF19C"
+				type: "item"
+				item: "create:zinc_ingot"
+			}]
+		}
+		{
+			title: "Windmill"
+			x: 18.0d
+			y: 9.0d
+			subtitle: "So apparently wind blows 24/7."
+			dependencies: ["638DFC8F928BDF6D"]
+			size: 2.0d
+			id: "034EDB18F53E52FF"
+			tasks: [
+				{
+					id: "1CDE9B73363F406E"
+					type: "item"
+					item: "create:white_sail"
+				}
+				{
+					id: "6EE3199BB825AA53"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+			]
+		}
+		{
+			title: "Brass!"
+			x: 40.21428571428572d
+			y: 3.047619047619044d
+			subtitle: "This is not a Symphony Orchestra."
+			dependencies: ["7FC0FF0A4945731F"]
+			size: 2.5d
+			id: "2109E761EA86FDA2"
+			tasks: [{
+				id: "0A05416B52A083BB"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+		}
+		{
+			x: 26.0d
+			y: 3.0d
+			dependencies: [
+				"638DFC8F928BDF6D"
+				"1D4222E8AB47DE8A"
+			]
+			size: 2.0d
+			id: "19D287CB9CFBE5F4"
+			tasks: [{
+				id: "3049C2144F5A794A"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			title: "Plates"
+			x: 26.0d
+			y: 0.0d
+			subtitle: "With the mechanical press, you no longer need to hammer down ingots!"
+			dependencies: ["19D287CB9CFBE5F4"]
+			size: 2.0d
+			id: "50974D7D04CF8784"
+			tasks: [{
+				id: "7DC880EF12AE6BC0"
+				type: "item"
+				title: "Any #forge:plates"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:plates"
+					}
+				}
+			}]
+		}
+		{
+			x: 43.0d
+			y: 2.0d
+			subtitle: "E6E flashbacks..."
+			dependencies: ["2109E761EA86FDA2"]
+			size: 2.0d
+			id: "2B7D9E6AAA75E2A0"
+			tasks: [{
+				id: "322DB5F94D319CD6"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			x: 48.0d
+			y: -4.0d
+			dependencies: ["4414F50500F81331"]
+			size: 2.0d
+			id: "58E2A4FB6DFEE945"
+			tasks: [{
+				id: "59A89DFE50E73EF2"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+		}
+		{
+			x: 37.0d
+			y: 3.0d
+			dependencies: ["779B4477CD962477"]
+			size: 2.0d
+			id: "7FC0FF0A4945731F"
+			tasks: [{
+				id: "52A8CC503653C14B"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+		}
+		{
+			x: 57.75d
+			y: 5.25d
+			shape: "gear"
+			dependencies: ["08EBCB6CC12D5164"]
+			size: 3.5d
+			id: "784BF5DEA003561C"
+			tasks: [{
+				id: "60A293E1F5EEC9EB"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+		}
+		{
+			title: "Steam Power"
+			x: 34.0d
+			y: 7.0d
+			subtitle: "The Industrial Revolution and its consequences"
+			dependencies: ["779B4477CD962477"]
+			size: 2.0d
+			optional: true
+			id: "64AFCC60AC95CEE8"
+			tasks: [{
+				id: "449A9752ABD271CA"
+				type: "item"
+				item: "create:steam_engine"
+			}]
+		}
+		{
+			title: "Coke Oven"
+			x: 29.0d
+			y: 3.0d
+			description: ["Right click on the central block with the hammer."]
+			dependencies: ["19D287CB9CFBE5F4"]
+			size: 2.0d
+			id: "41C4CC2224348325"
+			tasks: [{
+				id: "3B6412E394A43D98"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "7153A4A992EFD23F"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 35.0d
+			y: 0.0d
+			dependencies: ["41C4CC2224348325"]
+			size: 2.0d
+			id: "2E4ED7EA86BD6E24"
+			tasks: [{
+				id: "0F5B1964D7D0B80C"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+		}
+		{
+			x: 34.0d
+			y: 3.0d
+			dependencies: [
+				"680322D862FC9AFF"
+				"46CEB6BDCF068A20"
+			]
+			size: 2.0d
+			id: "779B4477CD962477"
+			tasks: [{
+				id: "712044C4FA63C50A"
+				type: "item"
+				item: "thermal:steel_ingot"
+			}]
+		}
+		{
+			x: 45.0d
+			y: 0.0d
+			dependencies: [
+				"2E4ED7EA86BD6E24"
+				"2B7D9E6AAA75E2A0"
+			]
+			size: 2.0d
+			id: "4414F50500F81331"
+			tasks: [{
+				id: "49303779BE824DAD"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+		}
+		{
+			x: 32.0d
+			y: 3.0d
+			dependencies: ["41C4CC2224348325"]
+			size: 2.0d
+			id: "680322D862FC9AFF"
+			tasks: [{
+				id: "22BBA7DFF2774C47"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+		}
+		{
+			x: 40.0d
+			y: 7.0d
+			dependencies: ["7FC0FF0A4945731F"]
+			size: 2.0d
+			id: "6A95532F99877B4E"
+			tasks: [{
+				id: "0EA40AB5FE353312"
+				type: "item"
+				item: "thermal:silver_ingot"
+			}]
+		}
+		{
+			x: 22.0d
+			y: 9.0d
+			subtitle: "Totally not a lathe ripoff"
+			description: ["The mechanical Rolling Mill allows the creation of metal rods and wires, albeit with a poor efficiency."]
+			dependencies: ["638DFC8F928BDF6D"]
+			size: 2.0d
+			id: "0E1735EE2DC4DCA6"
+			tasks: [{
+				id: "5F92E0BDD0C6C2F3"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+		}
+		{
+			x: 40.0d
+			y: 10.0d
+			size: 2.0d
+			id: "0E86E3F8974A8EE2"
+			tasks: [{
+				id: "7243568D94010AB3"
+				type: "item"
+				item: "create:polished_rose_quartz"
+			}]
+		}
+		{
+			x: 49.0d
+			y: 6.0d
+			dependencies: [
+				"0E86E3F8974A8EE2"
+				"6A95532F99877B4E"
+				"2109E761EA86FDA2"
+			]
+			size: 2.5d
+			id: "08EBCB6CC12D5164"
+			tasks: [{
+				id: "1128FB3A44644B30"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+		}
+		{
+			x: 48.0d
+			y: 0.0d
+			dependencies: ["4414F50500F81331"]
+			size: 2.0d
+			id: "41C711440563D33E"
+			tasks: [{
+				id: "067B2AD26A0BCDC9"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+		}
+		{
+			x: 51.0d
+			y: 0.0d
+			dependencies: ["41C711440563D33E"]
+			size: 2.0d
+			id: "7D97F95C71567B5F"
+			tasks: [{
+				id: "765D91D8200879FC"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+		}
+		{
+			x: 54.0d
+			y: 0.0d
+			dependencies: ["7D97F95C71567B5F"]
+			size: 2.0d
+			id: "2BD71E0B17790DFB"
+			tasks: [{
+				id: "5246351DDE0CBF9F"
+				type: "item"
+				item: "thermal:tin_ingot"
+			}]
+		}
+		{
+			x: 58.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Nabla x E = -dB/dt"
+			dependencies: [
+				"2BD71E0B17790DFB"
+				"08EBCB6CC12D5164"
+			]
+			size: 3.0d
+			id: "4BDFB30BEB4F3AA2"
+			tasks: [{
+				id: "67CDAE7A8FE7CD42"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+		}
+		{
+			x: 22.0d
+			y: 12.0d
+			description: ["These goggles are a must have for create."]
+			size: 2.0d
+			id: "3EA5C3B13E5414EE"
+			tasks: [{
+				id: "6FCE5299F5B3545E"
+				type: "item"
+				item: "create:goggles"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -2.0d
+			dependencies: ["638DFC8F928BDF6D"]
+			size: 2.0d
+			id: "31AB1B1A485E07FF"
+			tasks: [{
+				id: "7925E98BFCA0717E"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+		}
+		{
+			title: "Tree Farm"
+			x: 29.0d
+			y: 12.0d
+			subtitle: "Trees can grow even though there's a spinning contraption in its way. Welcome to Create."
+			description: ["You are now able to automate logs and planks. Look up Create Tree Farm/Use the Ponder Scenes on the Mechanical Saw to learn more."]
+			size: 1.5d
+			id: "46CEB6BDCF068A20"
+			tasks: [{
+				id: "7252981698DA7F02"
+				type: "item"
+				title: "Any #forge:sapling"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:sapling"
+					}
+				}
+			}]
+		}
+		{
+			title: "Did you Know?"
+			x: 15.0d
+			y: -4.5d
+			description: ["You can hold \"w\" on a create machine to use its Ponder Feature, which helps you understand its mechanics!"]
+			size: 1.5d
+			id: "390A0A51A68A04AE"
+			tasks: [{
+				id: "01B9A80C6D7169AE"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+		}
+		{
+			title: "Iron!"
+			x: 30.0d
+			y: -1.5d
+			description: ["You're now eligible to get infinite iron! Move to the \"Ore Processing\" Tab for more."]
+			size: 1.5d
+			id: "1D4222E8AB47DE8A"
+			tasks: [{
+				id: "6ECE323BEDB61D72"
+				type: "item"
+				item: "minecraft:iron_nugget"
+			}]
+		}
+		{
+			x: 40.5d
+			y: -4.5d
+			description: ["The most important thing of this pack is to automate things. Automate them, come back the next day after your sleep, and get your profits. No resource should be processed/crafted by hand in the mid game..."]
+			size: 3.0d
+			id: "3DC0EF2D68DA5845"
+			tasks: [{
+				id: "716A1AA5230A4D5A"
+				type: "checkmark"
+				title: "Automation"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

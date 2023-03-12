@@ -1,0 +1,161 @@
+{
+	id: "71D9BF693C6A594B"
+	group: ""
+	order_index: 4
+	filename: "utilities"
+	title: "Utilities"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["Here you'll find things that'll make lives easier during your playthrough."]
+			size: 3.0d
+			id: "5D8ABBA7B8FA87EB"
+			tasks: [{
+				id: "4115FEEF02C3ED19"
+				type: "checkmark"
+				title: "Welcome to the Utilities Chapter!"
+			}]
+			rewards: [{
+				id: "3393067CDB62D6EB"
+				type: "item"
+				item: "minecraft:cooked_mutton"
+				count: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			description: ["Sophisticated Backpacks is the backpack mod for this pack. It is highly configurable and allows you to do a variety of things, not limited to storing items only."]
+			dependencies: ["5D8ABBA7B8FA87EB"]
+			size: 2.0d
+			id: "1EA79DC4EDCC64CA"
+			tasks: [{
+				id: "76A8DEB2309BC8C1"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			dependencies: ["1EA79DC4EDCC64CA"]
+			size: 2.0d
+			id: "14F0A9A15B805F5B"
+			tasks: [{
+				id: "3D19799EF3876FEC"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -10.0d
+			dependencies: ["14F0A9A15B805F5B"]
+			size: 2.0d
+			id: "0D4B65D29014E5B3"
+			tasks: [{
+				id: "055F9E8F4C69529B"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -13.0d
+			dependencies: ["0D4B65D29014E5B3"]
+			size: 2.0d
+			id: "4D50ADE979985F1F"
+			tasks: [{
+				id: "79F3694A58D773C1"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -16.0d
+			dependencies: ["4D50ADE979985F1F"]
+			size: 2.0d
+			id: "76E3A0F891472AE8"
+			tasks: [{
+				id: "137C1553EAD2DEC3"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -7.0d
+			dependencies: ["1EA79DC4EDCC64CA"]
+			size: 2.0d
+			id: "16010CBA3EFF3427"
+			tasks: [{
+				id: "41720E198EFEB097"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -10.0d
+			dependencies: ["16010CBA3EFF3427"]
+			size: 2.0d
+			id: "528ED0D84117448F"
+			tasks: [{
+				id: "0403C7AC77EB0278"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -13.0d
+			dependencies: ["528ED0D84117448F"]
+			size: 2.0d
+			id: "6686544A6B519E13"
+			tasks: [{
+				id: "13F8E3D560127417"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -16.0d
+			dependencies: ["6686544A6B519E13"]
+			size: 2.0d
+			id: "07B560B4A2CE761B"
+			tasks: [{
+				id: "550A17EC4AEB95DF"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.0d
+			size: 2.0d
+			id: "125EEF8308F19D29"
+			tasks: [{
+				id: "234C1CCF786CBD1A"
+				type: "item"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -10.0d
+			size: 2.0d
+			id: "772230A0D1C7314E"
+			tasks: [{
+				id: "57B364D20A18F06E"
+				type: "item"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
