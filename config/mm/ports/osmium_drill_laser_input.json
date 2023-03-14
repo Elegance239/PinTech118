@@ -1,7 +1,7 @@
 {
     "id": "osmium_drill_laser_input",
        "name": {
-       "text": "Laser Input Port"
+       "text": "Osmium Drill"
        },
        "port": "mm:mekanism_laser",
        "input": true,

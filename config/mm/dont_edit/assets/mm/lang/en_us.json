@@ -4,15 +4,12 @@
   "block.mm.fluid_input_port": "Fluid Input Port",
   "block.mm.item_input_port": "Item Input Port",
   "block.mm.item_output_port": "Item Output Port",
-  "block.mm.solar_panel_controller": "Solar Panel",
-  "block.mm.solar_panel_energy_input_port": "Battery Bank Input Port",
+  "block.mm.osmium_drill_controller": "Osmium Drill",
+  "block.mm.osmium_drill_laser_input_port": "Osmium Drill Input Port",
   "block.mm.test_controller": "Test",
   "container.masterfulmachinery.mm:cnc_fabricator_controller_controller.name": "CNC Fabricator Controller",
-  "container.masterfulmachinery.mm:solar_panel_controller_controller.name": "Solar Panel",
-  "container.masterfulmachinery.mm:test_controller_controller.name": "Test",
-  "block.mm.osmium_drill_controller": "Osmium Drill",
-  "block.mm.osmium_drill_laser_input_port": "Laser Input Port Input Port",
   "container.masterfulmachinery.mm:osmium_drill_controller_controller.name": "Osmium Drill",
+  "container.masterfulmachinery.mm:test_controller_controller.name": "Test",
   "item.mm.blueprint": "Blueprint",
   "item.mm.structure_wand": "Structure Wand"
 }

@@ -74,5 +74,6 @@ onEvent('item.registry', event => {
 	event.create('advanced_machine_frame_5').displayName('Partial Advanced Machine Frame 5/6')
 	event.create('raw_copper_mote').displayName('Raw Copper Mote')
 	event.create('raw_lead_mote').displayName('Raw Lead Mote')
+	event.create('neoclydium_ingot_test').displayName('Neoclydium Ingot').rarity('epic').maxStackSize(16).texture("kubejs:item/neoclydium_ingot_test")
 	
 })
