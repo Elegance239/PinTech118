@@ -25,6 +25,7 @@ onEvent('recipes', event => {
 				item: 'industrialforegoing:machine_frame_advanced',
 			},
 		],
+		energy: 10000
 	})
 
 	

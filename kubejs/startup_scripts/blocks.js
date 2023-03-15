@@ -13,6 +13,10 @@ onEvent('block.registry', event => {
 	.texture('down', 'kubejs:block/storage_bundle_bottom')
 	event.create('unassembled_laser_matrix').material('glass')
     .textureAll('kubejs:block/unassembled_laser_matrix')
+	event.create('modular_machine_framework').material('metal').displayName('Modular Machine Framework')
+    .textureAll('kubejs:block/modular_machine_framework')
+
+
 })
 
 
