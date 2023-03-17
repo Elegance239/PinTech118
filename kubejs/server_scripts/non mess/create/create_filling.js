@@ -8,7 +8,7 @@ onEvent('recipes', event => {
 			  },
 			  {
 				"amount": 100,
-				"fluid": "kubejs:molten_glass",
+				"fluid": "tconstruct:molten_glass",
 				"nbt": {}
 			  }
 			],

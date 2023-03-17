@@ -106,12 +106,3 @@ onEvent('fluid.registry', event => {
   	.luminosity(0)
 	.temperature(10)
 })
-
-onEvent('fluid.registry', event => {
-	event.create('molten_glass')
-    .thinTexture(0xDADADA)
-    .bucketColor(0xDADADA)
-    .displayName('Molten Glass')
-  	.luminosity(0)
-	.noBucket()
-})

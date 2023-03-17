@@ -10,7 +10,7 @@
 	#Generation Settings for tin ore.
 	[world_generation.tin]
 		#Determines if tin ore should be added to world generation.
-		shouldGenerate = true
+		shouldGenerate = false
 
 		#small tin vein Generation Settings.
 		[world_generation.tin.small]

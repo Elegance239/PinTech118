@@ -1,0 +1,26 @@
+{
+    "duration": 100,
+    "structureId": "namespace:osmium_drill",
+    "name": {
+      "text": "Osmium Drill"
+    },
+    "inputs": [
+        {
+            "type": "mm:simple",
+            "ingredient": {
+                "type": "mm:mekanism_laser",
+                "energy": 60000
+            }
+        }
+    ],
+    "outputs": [
+        {
+            "type": "mm:simple",
+            "ingredient": {
+                "type": "mm:item",
+                "item": "mekanism:ingot_osmium",
+                "count": 1
+            }
+        }
+    ]
+  }
