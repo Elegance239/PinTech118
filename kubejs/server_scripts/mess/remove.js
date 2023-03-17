@@ -173,6 +173,8 @@ let SD = (id) => 'storagedrawers:'+id
         'createchromaticreturn:zinc_recipe',
         'thermal:signalum_dust_4',
         'extrastorage:neural_processor',
+        'immersiveengineering:blueprint/graphite_electrode',
+        'immersiveengineering:metalpress/electrode',
     ]
 
     recipeId.forEach(item => {

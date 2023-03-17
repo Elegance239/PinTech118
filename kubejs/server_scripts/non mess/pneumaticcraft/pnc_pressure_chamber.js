@@ -193,4 +193,20 @@ onEvent('recipes', event => {
 		]
 	})
 
+	event.custom({
+		type: "pneumaticcraft:pressure_chamber",
+		inputs: [
+		  Item.of('minecraft:netherite_ingot').toJson(),
+		  {
+			"type": "pneumaticcraft:stacked_item",
+			"count": 4,
+			"item": "immersiveengineering:ingot_hop_graphite"
+		  },
+		],
+		pressure: 3,
+		results: [
+		  Item.of('immersiveengineering:graphite_electrode').toJson(),
+		]
+	})
+
 })

@@ -1,0 +1,7 @@
+{
+    "type": "mm:fixed",
+    "id": "multi_assembler",
+    "name": {
+      "text": "Multi-Assembler Controller"
+    }
+  }
