@@ -32,22 +32,5 @@ onEvent('recipes', event => {
 
 		energy: 1000
 	})
-
-
-	event.custom({
-		type: 'thermal:crucible',
-		ingredients: [
-
-            
-			{ tag: 'forge:glass', count:1}
-		],
-		results: [
-            { amount: 500, fluid: 'kubejs:molten_glass'}
-
-		
-		],
-
-		energy: 1000
-	})
 })
 

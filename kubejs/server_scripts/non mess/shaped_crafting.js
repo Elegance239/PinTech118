@@ -361,4 +361,50 @@ onEvent('recipes', event => {
             "item": "refinedstorage:advanced_processor"
           },
         })
+
+    event.shaped('mekanism:chemical_injection_chamber', [
+              "ABA",
+              "CDC",
+              "ABA"
+            ],
+            {
+              "A": {
+                "item": "mekanism:alloy_reinforced"
+              },
+              "B": {
+                "item": "thermal:upgrade_augment_1"
+              },
+              "C": {
+                "item": "mekanism:elite_control_circuit"
+              },
+              "D": {
+                "item": "mekanism:purification_chamber"
+              }
+            },
+    )
+
+    event.shaped('mekanism:osmium_compressor', [
+          "AAA",
+          "BCB",
+          "DED"
+        ],
+        {
+          "A": {
+            "item": "immersiveengineering:plate_uranium"
+          },
+          "B": {
+            "item": "mekanism:ingot_osmium"
+          },
+          "C": {
+            "item": "mekanism:chemical_injection_chamber",
+          },
+          "D": {
+            "item": "kubejs:cooling_system"
+          },
+          "E": {
+            "item": "thermal:machine_press"
+          }
+        },
+
+      )
     })

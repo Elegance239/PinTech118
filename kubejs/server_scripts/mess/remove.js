@@ -142,6 +142,8 @@ let SD = (id) => 'storagedrawers:'+id
         'industrialforegoing:laser_lens14',
         'industrialforegoing:laser_lens15',
         'industrialforegoing:laser_drill',
+        'mekanism:chemical_injection_chamber',
+        'mekanism:osmium_compressor',
     ]
 
     removeid.forEach(item => {
