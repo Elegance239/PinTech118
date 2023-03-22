@@ -405,6 +405,64 @@ onEvent('recipes', event => {
             "item": "thermal:machine_press"
           }
         },
+        )
 
-      )
-    })
+    event.shaped('mm:osmium_drill_controller', [
+          "AAA",
+          "ABA",
+          "AAA"
+        ],
+        {
+          "A": {
+            "item": "kubejs:compressed_iron_plate"
+          },
+          "B": {
+            "item": "industrialforegoing:laser_drill"
+          }
+        },
+    )
+
+    event.shaped('mm:osmium_drill_laser_input_port', 
+        [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        {
+          "A": {
+            "item": "kubejs:compressed_iron_plate"
+          },
+          "B": {
+            "item": "mekanism:alloy_reinforced"
+          },
+          "C": {
+            "item": "industrialforegoing:ore_laser_base"
+          }
+        },
+    )
+
+    event.shaped('mekanism:laser', 
+        [
+          "AB ",
+          "CDE",
+          "AB ",
+        ],
+        {
+          "A": {
+            "item": "mekanism:steel_casing"
+          },
+          "B": {
+            "item": "mekanism:alloy_reinforced"
+          },
+          "C": {
+            "item": "mekanism:basic_energy_cube"
+          },
+          "D": {
+            "item": "kubejs:cooling_system"
+          },
+          "E": {
+            "item": "thermal:laser_diode"
+          }
+        },
+    )
+})
