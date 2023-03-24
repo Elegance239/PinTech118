@@ -22,3 +22,7 @@ config/roughlyenoughitems/
 resourcepacks/
 config/roughlyenoughitems/pinyin.properties
 hotbar.nbt
+config/oculus.properties
+config/fastload.properties
+ops.json
+whitelist.json
