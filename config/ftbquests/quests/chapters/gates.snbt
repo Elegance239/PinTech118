@@ -1403,6 +1403,17 @@
 				item: "mekanismgenerators:fusion_reactor_controller"
 			}]
 		}
+		{
+			title: "Quantum Control Circuit"
+			x: 55.5d
+			y: 4.5d
+			id: "6118DC1D6C3C0CEE"
+			tasks: [{
+				id: "100690B71FF859BB"
+				type: "item"
+				item: "advgenerators:controller"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

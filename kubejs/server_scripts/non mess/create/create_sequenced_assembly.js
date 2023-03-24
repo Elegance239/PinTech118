@@ -343,4 +343,36 @@ onEvent('recipes', event => {
         "item": input3
         }
     })
+
+    event.recipes.createSequencedAssembly(
+        [Item.of('kubejs:mixture_basin')],
+        'create:basin',
+        [
+            event.recipes.createFilling('create:basin', 
+            [
+                'create:basin',
+                Fluid.of('tconstruct:molten_signalum', 500)
+            ]),
+            event.recipes.createFilling('create:basin', 
+            [
+                'create:basin',
+                Fluid.of('mekanism:sulfuric_acid', 500)
+            ]),
+            event.recipes.createFilling('create:basin', 
+            [
+                'create:basin',
+                Fluid.of('industrialforegoing:pink_slime', 500)
+            ]),
+            event.recipes.createFilling('create:basin', 
+            [
+                'create:basin',
+                Fluid.of('mekanism:heavy_water', 500)
+            ]),
+            event.recipes.createFilling('create:basin', 
+            [
+                'create:basin',
+                Fluid.of('tconstruct:molten_netherite', 500)
+            ]),
+        ]
+    ).transitionalItem('create:basin').loops(2)
 })

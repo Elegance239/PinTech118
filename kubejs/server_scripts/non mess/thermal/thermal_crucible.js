@@ -32,5 +32,7 @@ onEvent('recipes', event => {
 
 		energy: 1000
 	})
+
+	event.recipes.thermal.crucible(Fluid.of('createchromaticreturn:chromatic_mixture', 5000), 'createchromaticreturn:chromatic_compound')
 })
 
