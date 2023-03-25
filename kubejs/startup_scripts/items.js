@@ -61,7 +61,7 @@ onEvent('item.registry', event => {
 	event.create('contaminated_reinforcement_catalyst').displayName('Contaminated Reinforcement Catalyst')
 	event.create('coolant_capsule').displayName('Coolant Capsule')
 	event.create('composite_mechanical_component').displayName('Composite Mechanical Component')
-	event.create('composite_mechanical_component_u').displayName('Unassembled Composite Mechanical Component')
+	event.create('composite_mechanical_component_u').displayName('Incomplete Composite Mechanical Component')
 	event.create('cooling_system').displayName('Cooling System')
 	event.create('mold_lens').displayName('Mold: Lens')
 	event.create('lens_stuck_in_mold').displayName('Lens Stuck In Mold')
@@ -75,5 +75,6 @@ onEvent('item.registry', event => {
 	event.create('raw_copper_mote').displayName('Raw Copper Mote')
 	event.create('raw_lead_mote').displayName('Raw Lead Mote')
 	event.create('neoclydium_ingot_test').displayName('Neoclydium Ingot').rarity('epic').maxStackSize(16).texture("kubejs:item/neoclydium_ingot_test")
+	event.create('graphene').displayName('Graphene')
 	
 })

@@ -659,7 +659,7 @@
 			}]
 		}
 		{
-			x: 19.0d
+			x: 17.5d
 			y: -1.0d
 			dependencies: ["08CE194EB040F0B4"]
 			id: "131C6535CBDB927C"
@@ -1176,7 +1176,7 @@
 			y: -3.5d
 			dependencies: [
 				"594F8B14A4D919E8"
-				"131C6535CBDB927C"
+				"407F2CD5DE74F12D"
 			]
 			id: "352DE0F07EE90B1D"
 			tasks: [{
@@ -1405,13 +1405,375 @@
 		}
 		{
 			title: "Quantum Control Circuit"
-			x: 55.5d
-			y: 4.5d
+			x: 59.0d
+			y: 6.0d
+			dependencies: ["3B5D6DF191E57D10"]
 			id: "6118DC1D6C3C0CEE"
 			tasks: [{
 				id: "100690B71FF859BB"
 				type: "item"
 				item: "advgenerators:controller"
+			}]
+		}
+		{
+			x: 39.5d
+			y: 1.0d
+			id: "59A5B5508C8D84D0"
+			tasks: [{
+				id: "6622D35117B234E0"
+				type: "item"
+				item: "immersiveengineering:dust_hop_graphite"
+			}]
+		}
+		{
+			x: 42.5d
+			y: 0.0d
+			id: "252A4038E56D2032"
+			tasks: [{
+				id: "7A3AAC75568E15DF"
+				type: "item"
+				item: "mekanism:sulfuric_acid_bucket"
+			}]
+		}
+		{
+			x: 19.0d
+			y: -2.5d
+			dependencies: ["131C6535CBDB927C"]
+			id: "407F2CD5DE74F12D"
+			tasks: [{
+				id: "0153813C82E75AD7"
+				type: "item"
+				item: "mm:multi_assembler_controller"
+			}]
+		}
+		{
+			x: 45.5d
+			y: 2.5d
+			dependencies: [
+				"2820D9FA8F2660FC"
+				"11324CFA1CBF3D1E"
+			]
+			id: "5B79F2B77CE7F177"
+			tasks: [{
+				id: "6A4BFCC58CA0CF26"
+				type: "item"
+				title: "Graphene"
+				item: "kubejs:graphene"
+			}]
+		}
+		{
+			title: "Energizer (Custom)"
+			x: 42.5d
+			y: 3.5d
+			id: "2820D9FA8F2660FC"
+			tasks: [{
+				id: "42EE0741FBA071EE"
+				type: "item"
+				item: "thermal:charge_bench"
+			}]
+		}
+		{
+			x: 45.5d
+			y: 1.5d
+			id: "22F3526DCB5E9B82"
+			tasks: [{
+				id: "3004BF04186AF558"
+				type: "item"
+				item: "thermal:enderium_dust"
+			}]
+		}
+		{
+			x: 45.5d
+			y: 0.5d
+			id: "436ADDD98321A403"
+			tasks: [{
+				id: "1D7F6F012E934D8D"
+				type: "item"
+				item: "mekanism:dust_osmium"
+			}]
+		}
+		{
+			x: 45.5d
+			y: -0.5d
+			id: "34F2A1D0E0F31E7B"
+			tasks: [{
+				id: "7B142398CC275202"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+		}
+		{
+			title: "Superconducting element"
+			x: 47.0d
+			y: 2.5d
+			dependencies: [
+				"436ADDD98321A403"
+				"22F3526DCB5E9B82"
+				"34F2A1D0E0F31E7B"
+				"5B79F2B77CE7F177"
+			]
+			id: "7A85366DFDC0DD36"
+			tasks: [{
+				id: "5AEC53696A4D6979"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+		}
+		{
+			x: 44.5d
+			y: 5.0d
+			id: "48A3D5315743EDA7"
+			tasks: [{
+				id: "4467AD350D320FB4"
+				type: "item"
+				item: "kubejs:composite_mechanical_component"
+			}]
+		}
+		{
+			x: 44.0d
+			y: 6.0d
+			id: "0347DB30A181756E"
+			tasks: [{
+				id: "3C22BC9335BEDEE0"
+				type: "item"
+				item: "mekanism:hdpe_sheet"
+			}]
+		}
+		{
+			x: 45.0d
+			y: 7.5d
+			id: "632F3251D61B545C"
+			tasks: [{
+				id: "68803FA7B1553317"
+				type: "item"
+				item: "thermal:signalum_dust"
+			}]
+		}
+		{
+			x: 44.0d
+			y: 7.0d
+			id: "12CCD5FE9B7127F7"
+			tasks: [{
+				id: "0BAB5FA16338AEB9"
+				type: "item"
+				item: "extrastorage:neural_processor"
+			}]
+		}
+		{
+			title: "Electromechanical Component"
+			x: 47.0d
+			y: 5.0d
+			dependencies: [
+				"2820D9FA8F2660FC"
+				"12CCD5FE9B7127F7"
+				"48A3D5315743EDA7"
+				"0347DB30A181756E"
+				"632F3251D61B545C"
+			]
+			id: "7433DBC1E62CE492"
+			tasks: [{
+				id: "74587421DCBDA59F"
+				type: "item"
+				item: "kubejs:composite_mechanical_component_u"
+			}]
+		}
+		{
+			x: 42.5d
+			y: 1.0d
+			dependencies: ["59A5B5508C8D84D0"]
+			id: "11324CFA1CBF3D1E"
+			tasks: [{
+				id: "398F1335ACE938E5"
+				type: "item"
+				item: "mekanism:chemical_injection_chamber"
+			}]
+		}
+		{
+			x: 47.0d
+			y: 1.0d
+			id: "0FCE037E51DC0CAC"
+			tasks: [{
+				id: "68FEAD7A201265B3"
+				type: "item"
+				item: "kubejs:cryogenic_coolant_bucket"
+			}]
+		}
+		{
+			title: "Superconducting Electromagnet"
+			x: 49.5d
+			y: 3.5d
+			dependencies: [
+				"7433DBC1E62CE492"
+				"7A85366DFDC0DD36"
+				"328BE497F52C4AA6"
+			]
+			id: "3648EA69A9639A61"
+			tasks: [{
+				id: "7F93B489F83C8BCD"
+				type: "item"
+				item: {
+					id: "thermal:flux_magnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Particle Accelerator"
+			x: 52.0d
+			y: 2.5d
+			dependencies: ["3648EA69A9639A61"]
+			id: "0C2120900BD3E138"
+			tasks: [{
+				id: "74D744FF4C7A6435"
+				type: "item"
+				item: "mekanism:teleportation_core"
+			}]
+		}
+		{
+			title: "Supersymmetric Alloy"
+			x: 54.5d
+			y: 2.5d
+			dependencies: ["0C2120900BD3E138"]
+			id: "5C47CFC1EEE23114"
+			tasks: [{
+				id: "6C1E1F4A68A6F49E"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+		}
+		{
+			title: "Nanofabricator?"
+			x: 52.0d
+			y: 4.5d
+			dependencies: ["3648EA69A9639A61"]
+			id: "0B6FF8676D24E05F"
+			tasks: [{
+				id: "021EA2EEB130BF6A"
+				type: "item"
+				item: "mekanism:sps_casing"
+			}]
+		}
+		{
+			x: 52.5d
+			y: 6.5d
+			id: "393676E1080D8218"
+			tasks: [{
+				id: "6ABFE6B6221E2F0C"
+				type: "item"
+				item: "extrastorage:neural_processor"
+			}]
+		}
+		{
+			x: 53.5d
+			y: 7.0d
+			id: "2C8087BE2E4D2A56"
+			tasks: [{
+				id: "3564632011B7F05F"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+		}
+		{
+			x: 45.5d
+			y: 10.0d
+			id: "6345080C92DEFBF9"
+			tasks: [{
+				id: "35CE3DA62E76D531"
+				type: "item"
+				item: "biggerreactors:reactor_coolant_port"
+			}]
+		}
+		{
+			title: "superconducting qubit"
+			x: 54.5d
+			y: 6.0d
+			dependencies: [
+				"0B6FF8676D24E05F"
+				"393676E1080D8218"
+				"2C8087BE2E4D2A56"
+			]
+			id: "5147D237D14ACAC9"
+			tasks: [{
+				id: "0007AA16A7EAFE5A"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+		}
+		{
+			x: 53.5d
+			y: 8.0d
+			id: "1F749CA76F0B62F7"
+			tasks: [{
+				id: "34296D0F62A31CDA"
+				type: "item"
+				item: "thermal:laser_diode"
+			}]
+		}
+		{
+			x: 53.0d
+			y: 9.0d
+			id: "5F9F91AD26F382A9"
+			tasks: [{
+				id: "0401A5F999C036CF"
+				type: "item"
+				item: "thermal:enderium_nugget"
+			}]
+		}
+		{
+			x: 53.5d
+			y: 10.0d
+			id: "3EB4D12EC684B93A"
+			tasks: [{
+				id: "724960D3305D58BA"
+				type: "item"
+				item: "kubejs:composite_mechanical_component_u"
+			}]
+		}
+		{
+			title: "trapped ion qubit"
+			x: 54.5d
+			y: 9.0d
+			id: "0BD7242BEB21F058"
+			tasks: [{
+				id: "39EAE693409BF411"
+				type: "item"
+				item: "mekanism:pellet_plutonium"
+			}]
+		}
+		{
+			x: 56.5d
+			y: 6.0d
+			dependencies: [
+				"5C47CFC1EEE23114"
+				"5147D237D14ACAC9"
+				"0BD7242BEB21F058"
+			]
+			id: "3B5D6DF191E57D10"
+			tasks: [{
+				id: "2688337434785324"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+		}
+		{
+			x: 47.0d
+			y: 3.5d
+			id: "328BE497F52C4AA6"
+			tasks: [{
+				id: "60E992EF3DD5587E"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+		}
+		{
+			x: 56.5d
+			y: 2.5d
+			id: "6D715CC9C5B1940F"
+			tasks: [{
+				id: "43D258E57EA6D264"
+				type: "item"
+				item: "mekanism:teleportation_core"
 			}]
 		}
 	]

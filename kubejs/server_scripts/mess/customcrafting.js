@@ -231,6 +231,18 @@ onEvent('recipes', event => {
 		F:'thermal:rf_coil',
 		P:'industrialforegoing:machine_frame_pity',
 	})
+	event.shaped('2x industrialforegoing:machine_frame_simple', [
+		'HAH',
+		'SCS',
+		'FPF',
+	], {
+		H:'kubejs:composite_mechanical_component',
+		A:'mekanism:basic_control_circuit',
+		S:'thermal:steel_gear',
+		C:'mekanism:steel_casing',
+		F:'thermal:rf_coil',
+		P:'industrialforegoing:machine_frame_pity',
+	})
 
 	event.shaped('industrialforegoing:dissolution_chamber', [
 		'SAS',

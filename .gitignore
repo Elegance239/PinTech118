@@ -26,3 +26,5 @@ config/oculus.properties
 config/fastload.properties
 ops.json
 whitelist.json
+config/oculus.properties
+config/fastload.properties

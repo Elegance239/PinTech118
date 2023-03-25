@@ -1,0 +1,64 @@
+{
+    "controllerId": "mm:multi_assembler",
+    "name": {"text": "Multi-Assembler"},
+    "layout": [
+        [
+            "AAA",
+            "AAA",
+            "AAA",
+            "AAA",
+            "AAA"
+        ],
+        [
+            "ADA",
+            "EFE",
+            "EGE",
+            "EHE",
+            "AIA"
+        ],
+        [
+            "AAA",
+            "AAA",
+            "BAC",
+            "AAA",
+            "AAA"
+        ]
+    ],
+    "key": {
+        "A": {
+            "type": "mm:block",
+            "block": "kubejs:modular_machine_framework"
+        },
+        "B": {
+            "type": "mm:port",
+            "port": "mm:energy",
+            "input": true
+        },
+        "D": {
+            "type": "mm:port",
+            "port": "mm:item",
+            "input": false
+        },
+        "E": {
+            "type": "mm:block",
+            "block": "mekanism:structural_glass"
+        },
+        "F": {
+            "type": "mm:block",
+            "block": "pneumaticcraft:assembly_io_unit_export"
+        },
+        "G": {
+            "type": "mm:block",
+            "block": "pneumaticcraft:assembly_platform"
+        },
+        "H": {
+            "type": "mm:block",
+            "block": "pneumaticcraft:assembly_io_unit_import"
+        },
+        "I": {
+            "type": "mm:port",
+            "port": "mm:item",
+            "input": true
+        }
+    }
+}

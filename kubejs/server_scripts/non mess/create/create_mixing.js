@@ -14,7 +14,7 @@ onEvent('recipes', event => {
             { fluid: 'minecraft:water', amount: 1000}
 		],
 		results: [
-			{ amount: 1000, fluid: 'kubejs:redstone_slag_slurry', nbt: {}}
+			{ amount: 1000, fluid: 'kubejs:redstone_slag_slurry'}
 		],
 		heatRequirement: 'heated',
 	})
@@ -31,7 +31,7 @@ onEvent('recipes', event => {
             { fluid: 'minecraft:water', amount: 1000}
 		],
 		results: [
-			{ amount: 1000, fluid: 'kubejs:redstone_slag_slurry', nbt:{}},
+			{ amount: 1000, fluid: 'kubejs:redstone_slag_slurry'},
 			Item.of('kubejs:slag_powder').toJson()
 		],
 		heatRequirement: 'heated',

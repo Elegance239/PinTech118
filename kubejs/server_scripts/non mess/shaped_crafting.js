@@ -465,4 +465,31 @@ onEvent('recipes', event => {
           }
         },
     )
+    event.shaped('4x kubejs:modular_machine_framework', 
+    [
+      "ABA",
+      "CDC",
+      "AEA"
+    ],
+    {
+      "A": {
+        "item": "immersiveengineering:plate_aluminum"
+      },
+      "B": {
+        "item": "immersiveengineering:heavy_engineering"
+      },
+      "C": {
+        "item": "immersiveengineering:light_engineering"
+      },
+      "D": {
+        "item": "industrialforegoing:machine_frame_simple"
+      },
+      "E": {
+        "item": "immersiveengineering:rs_engineering"
+      }
+    },
+    )
+
+
+   
 })

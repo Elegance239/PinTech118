@@ -1,22 +1,22 @@
 {
-    "duration": 100,
-    "structureId": "namespace:cnc_fabricator",
+    "duration": 400,
+    "structureId": "namespace:multi_assembler",
     "name": {
-      "text": "CNC Fabricator"
+        "text": "Assembling: Incomplete Composite Mechanical Component"
     },
     "inputs": [
         {
             "type": "mm:per_tick",
             "ingredient": {
                 "type": "mm:energy",
-                "amount": 1000
+                "amount": 500
             }
         },
         {
             "type": "mm:simple",
             "ingredient": {
                 "type": "mm:item",
-                "item": "minecraft:dirt",
+                "item": "kubejs:advanced_machine_frame_3",
                 "count": 1
             }
         },
@@ -24,8 +24,16 @@
             "type": "mm:simple",
             "ingredient": {
                 "type": "mm:item",
-                "item": "minecraft:diamond",
-                "count": 1
+                "item": "mekanism:hdpe_sheet",
+                "count": 4
+            }
+        },
+        {
+            "type": "mm:simple",
+            "ingredient": {
+                "type": "mm:item",
+                "item": "kubejs:composite_mechanical_component",
+                "count": 4
             }
         }
     ],
@@ -34,9 +42,9 @@
             "type": "mm:simple",
             "ingredient": {
                 "type": "mm:item",
-                "item": "minecraft:redstone",
+                "item": "kubejs:advanced_machine_frame_4",
                 "count": 1
             }
         }
     ]
-  }
+    }

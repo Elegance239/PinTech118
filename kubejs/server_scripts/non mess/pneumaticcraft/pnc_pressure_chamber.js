@@ -171,7 +171,7 @@ onEvent('recipes', event => {
 		  Item.of("kubejs:highly_enriched_carbon").toJson(),
 		]
 	})
-
+/*
 	event.custom({
 		type: "pneumaticcraft:pressure_chamber",
 		inputs: [
@@ -192,7 +192,7 @@ onEvent('recipes', event => {
 		  Item.of('kubejs:advanced_machine_frame_4').toJson(),
 		]
 	})
-
+*/
 	event.custom({
 		type: "pneumaticcraft:pressure_chamber",
 		inputs: [
