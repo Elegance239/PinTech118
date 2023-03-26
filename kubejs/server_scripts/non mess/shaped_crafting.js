@@ -490,6 +490,110 @@ onEvent('recipes', event => {
     },
     )
 
+    event.shaped('mekanism:isotopic_centrifuge', 
+    [
+        "ACA",
+        "BFB",
+        "DED"
+    ],
+    {
+        "A": {
+          "item": "immersiveengineering:plate_aluminum"
+        },
+        "B": {
+          "item": "mekanismgenerators:reactor_glass"
+        },
+        "C": {
+          "item": "mekanism:elite_chemical_tank"
+        },
+        "D": {
+          "item": "kubejs:composite_mechanical_component"
+        },
+        "E": {
+          "item": "mekanism:elite_control_circuit"
+        },
+        "F": {
+          "item": "thermal:machine_centrifuge"
+        }
+    })
 
-   
+    event.shaped('mekanism:chemical_dissolution_chamber', 
+    [
+        "AAA",
+        "BCB",
+        "DED"
+    ],
+    {
+        "A": {
+          "item": "immersiveengineering:plate_uranium"
+        },
+        "B": {
+          "item": "mekanism:elite_chemical_tank"
+        },
+        "C": {
+          "item": "industrialforegoing:dissolution_chamber"
+        },
+        "D": {
+          "item": "kubejs:composite_mechanical_component"
+        },
+        "E": {
+          "item": "mekanism:elite_control_circuit"
+        }
+    }, 
+    )
+
+    event.shaped('mekanism:chemical_oxidizer', 
+    [
+        "AAA",
+        "BCD",
+        "EFE"
+    ],
+    {
+        "A": {
+          "item": "immersiveengineering:plate_uranium"
+        },
+        "B": {
+          "item": "pneumaticcraft:reinforced_chest"
+        },
+        "C": {
+          "item": "mekanism:steel_casing"
+        },
+        "D": {
+          "item": "mekanism:dynamic_tank"
+        },
+        "E": {
+          "item": "kubejs:composite_mechanical_component"
+        },
+        "F": {
+          "item": "mekanism:elite_control_circuit"
+        }
+    },
+    )
+
+    event.shaped('mekanism:chemical_infuser', 
+    [
+        "AAA",
+        "BCB",
+        "DED"
+    ],
+    {
+        "A": {
+          "item": "immersiveengineering:plate_uranium"
+        },
+        "B": {
+          "item": "mekanism:elite_control_circuit"
+        },
+        "C": {
+          "item": "mekanism:pressurized_reaction_chamber"
+        },
+        "D": {
+          "item": "kubejs:composite_mechanical_component"
+        },
+        "E": {
+          "item": "kubejs:cooling_system"
+        }
+      },
+    )
+
+
 })

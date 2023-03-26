@@ -28,7 +28,5 @@ onEvent('recipes', event => {
 		energy: 10000
 	})
 
-	
-
 })
 

@@ -10,4 +10,5 @@ onEvent('client.generate_assets', event => {
     // rename all items with e in their path to EEEEEEEEEEEE
     // Ingredient.of(/:.*e/).stacks.forEach(item => rename(item, "EEEEEEEEEEEE"))
     rename('create:chromatic_compound', 'Chromatic Compound Base')
+    rename('thermal_extra:polarium_ingot', 'Nickel-Based Superalloy')
   })

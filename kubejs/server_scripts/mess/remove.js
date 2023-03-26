@@ -147,7 +147,11 @@ let SD = (id) => 'storagedrawers:'+id
         'mekanism:laser',
         'createchromaticreturn:shadow_steel',
         'createchromaticreturn:refined_radiance',
-        
+        'createchromaticreturn:chromatic_compound',
+        'mekanism:isotopic_centrifuge',
+        'mekanism:chemical_dissolution_chamber',
+        'mekanism:chemical_oxidizer',
+        'mekanism:chemical_infuser',
     ]
 
     removeid.forEach(item => {

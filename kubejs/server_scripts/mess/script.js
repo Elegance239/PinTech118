@@ -55,36 +55,7 @@ onEvent('recipes', event => {
 		],
 
 	})
-	event.custom({
-		type: 'create:mechanical_crafting',
-		pattern: [
-			'  T  ',
-			' ESE ',
-			'TCMCT',
-			' ESE ',
-			'  T  ',
-		],
-		key: {
-			"T": {
-				"item": "thermal:tin_plate"
-			  },
-			  "E": {
-				"item": "create:electron_tube"
-			  },
-			  "S": {
-				"item": "immersiveengineering:stick_steel"
-			  },
-			  "C": {
-				"item": "createaddition:copper_spool"
-			  },
-			  "M": {
-				"item": "thermal:machine_frame"
-			  },
-		},
-		result: {
-			"item": "createaddition:alternator"
-		},
-	})
+	
 
 	event.custom({
 		type: 'create:mixing',
@@ -535,21 +506,6 @@ onEvent('recipes', event => {
 	  //Coal Processing Chain starts here.
 
 	)
-	event.custom({
-		type:'thermal:refinery',
-		ingredient: [
-			{ amount: 2000, fluid: 'industrialforegoing:sewage', nbt: {}}
-		],
-		"result": [
-		  {
-			item: "kubejs:poo",
-			"count": 1
-		  },
-		  { amount: 200, fluid: 'kubejs:piss', nbt: {}},
-		  { amount: 1000, fluid: 'kubejs:waste', nbt: {}}
-		],
-		"energy_mod": 1
-	  })
 
 	  event.custom({
 		type: 'create:compacting',
