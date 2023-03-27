@@ -209,4 +209,17 @@ onEvent('recipes', event => {
 		]
 	})
 
+	event.custom({
+		type: "pneumaticcraft:pressure_chamber",
+		inputs: [
+		  Item.of('thermal:signalum_dust').toJson(),
+		  Item.of('mekanism:hdpe_sheet').toJson(),
+		  Item.of('kubejs:graphene').toJson(),
+		],
+		pressure: 4,
+		results: [
+		  Item.of('kubejs:conductive_polymer').toJson(),
+		]
+	})
+
 })

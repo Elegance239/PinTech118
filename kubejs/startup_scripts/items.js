@@ -76,5 +76,9 @@ onEvent('item.registry', event => {
 	event.create('raw_lead_mote').displayName('Raw Lead Mote')
 	event.create('neoclydium_ingot_test').displayName('Neoclydium Ingot').rarity('epic').maxStackSize(16).texture("kubejs:item/neoclydium_ingot_test")
 	event.create('graphene').displayName('Graphene')
-	
+	event.create('graphene_oxide').displayName('Graphene Oxide')
+	event.create('rough_graphene').displayName('Rough Graphene')
+	event.create('advanced_component').displayName('Advanced Component')
+	event.create('unpowered_advanced_component').displayName('Unpowered Advanced Component')
+	event.create('conductive_polymer').displayName('Conductive Polymer')
 })

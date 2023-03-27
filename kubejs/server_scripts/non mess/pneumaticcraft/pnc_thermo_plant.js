@@ -170,6 +170,27 @@ onEvent('recipes', event => {
 			  min_temp: 200
 			}
 		})
+
+		event.custom({
+		
+			type: "pneumaticcraft:thermo_plant",
+			exothermic: false,
+			fluid_input: {
+			  type: "pneumaticcraft:fluid",
+			  amount: 1000,
+			  fluid: "minecraft:water"
+			},
+			item_input: {
+				item: "kubejs:rough_graphene"
+			  },
+			item_output: {
+				item: "kubejs:graphene"
+			  },
+			temperature: {
+			  min_temp: 370,
+			  max_temp: 373
+			}
+		})
 })
 
 

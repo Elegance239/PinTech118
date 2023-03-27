@@ -1,7 +1,7 @@
 onEvent('recipes', event => {
     // Change recipes here
 
-    
+    /*
     event.custom({
 
         "type": "immersiveengineering:blueprint",
@@ -15,7 +15,7 @@ onEvent('recipes', event => {
         "result": { "item": "kubejs:composite_mechanical_component_u" }
 
     })
-
+*/
     event.custom({
 
         "type": "immersiveengineering:blueprint",

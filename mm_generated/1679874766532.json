@@ -1,0 +1,59 @@
+{
+    "controllerId": "mm:tesla_infusion_chamber",
+    "name": {},
+    "layout": [
+        [
+            "G G",
+            "   ",
+            "G G"
+        ],
+        [
+            "G G",
+            " H ",
+            "G G"
+        ],
+        [
+            "ADA",
+            "AEC",
+            "AFA"
+        ],
+        [
+            "A A",
+            " B ",
+            "A A"
+        ]
+    ],
+    "key": {
+        "A": {
+            "type": "mm:block",
+            "block": "kubejs:modular_machine_framework"
+        },
+        "B": {
+            "type": "mm:port",
+            "port": "mm:energy",
+            "input": true
+        },
+        "D": {
+            "type": "mm:port",
+            "port": "mm:item",
+            "input": false
+        },
+        "E": {
+            "type": "mm:block",
+            "block": "immersiveengineering:coil_hv"
+        },
+        "F": {
+            "type": "mm:port",
+            "port": "mm:item",
+            "input": true
+        },
+        "G": {
+            "type": "mm:block",
+            "block": "immersiveengineering:tesla_coil"
+        },
+        "H": {
+            "type": "mm:block",
+            "block": "create:depot"
+        }
+    }
+}

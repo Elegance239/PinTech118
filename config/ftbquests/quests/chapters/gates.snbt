@@ -1426,7 +1426,7 @@
 			}]
 		}
 		{
-			x: 42.5d
+			x: 41.0d
 			y: 0.0d
 			id: "252A4038E56D2032"
 			tasks: [{
@@ -1451,7 +1451,7 @@
 			y: 2.5d
 			dependencies: [
 				"2820D9FA8F2660FC"
-				"11324CFA1CBF3D1E"
+				"533950FB83D7C4F8"
 			]
 			id: "5B79F2B77CE7F177"
 			tasks: [{
@@ -1463,13 +1463,13 @@
 		}
 		{
 			title: "Energizer (Custom)"
-			x: 42.5d
-			y: 3.5d
+			x: 44.0d
+			y: 4.5d
 			id: "2820D9FA8F2660FC"
 			tasks: [{
 				id: "42EE0741FBA071EE"
 				type: "item"
-				item: "thermal:charge_bench"
+				item: "immersiveengineering:tesla_coil"
 			}]
 		}
 		{
@@ -1520,8 +1520,8 @@
 			}]
 		}
 		{
-			x: 44.5d
-			y: 5.0d
+			x: 45.5d
+			y: 5.5d
 			id: "48A3D5315743EDA7"
 			tasks: [{
 				id: "4467AD350D320FB4"
@@ -1530,28 +1530,8 @@
 			}]
 		}
 		{
-			x: 44.0d
-			y: 6.0d
-			id: "0347DB30A181756E"
-			tasks: [{
-				id: "3C22BC9335BEDEE0"
-				type: "item"
-				item: "mekanism:hdpe_sheet"
-			}]
-		}
-		{
-			x: 45.0d
-			y: 7.5d
-			id: "632F3251D61B545C"
-			tasks: [{
-				id: "68803FA7B1553317"
-				type: "item"
-				item: "thermal:signalum_dust"
-			}]
-		}
-		{
-			x: 44.0d
-			y: 7.0d
+			x: 46.0d
+			y: 6.5d
 			id: "12CCD5FE9B7127F7"
 			tasks: [{
 				id: "0BAB5FA16338AEB9"
@@ -1567,18 +1547,17 @@
 				"2820D9FA8F2660FC"
 				"12CCD5FE9B7127F7"
 				"48A3D5315743EDA7"
-				"0347DB30A181756E"
-				"632F3251D61B545C"
+				"4DF160F85E68AAF5"
 			]
 			id: "7433DBC1E62CE492"
 			tasks: [{
 				id: "74587421DCBDA59F"
 				type: "item"
-				item: "kubejs:composite_mechanical_component_u"
+				item: "kubejs:advanced_component"
 			}]
 		}
 		{
-			x: 42.5d
+			x: 41.0d
 			y: 1.0d
 			dependencies: ["59A5B5508C8D84D0"]
 			id: "11324CFA1CBF3D1E"
@@ -1774,6 +1753,51 @@
 				id: "43D258E57EA6D264"
 				type: "item"
 				item: "mekanism:teleportation_core"
+			}]
+		}
+		{
+			title: "Graphene Oxide READ DESC"
+			x: 42.5d
+			y: 1.0d
+			description: ["While using item to gas to make sulfuric acid in the injection chamber works, it is ridiculously inefficient, as in 100 sulfur to make 1 graphene, as opposed to 2 sulfur if you go through the chemical process, so realistically you have to automate sulfuric acid"]
+			dependencies: ["11324CFA1CBF3D1E"]
+			id: "5EEA797E6F6F47F1"
+			tasks: [{
+				id: "5EB59E4DEDBDB686"
+				type: "item"
+				item: "kubejs:graphene_oxide"
+			}]
+		}
+		{
+			x: 44.0d
+			y: 1.5d
+			dependencies: ["5EEA797E6F6F47F1"]
+			id: "533950FB83D7C4F8"
+			tasks: [{
+				id: "5DCF9A34FF164674"
+				type: "item"
+				item: "kubejs:rough_graphene"
+			}]
+		}
+		{
+			x: 45.5d
+			y: 4.0d
+			dependencies: ["5B79F2B77CE7F177"]
+			id: "4DF160F85E68AAF5"
+			tasks: [{
+				id: "2E72589336F78731"
+				type: "item"
+				item: "kubejs:conductive_polymer"
+			}]
+		}
+		{
+			x: 42.5d
+			y: 4.5d
+			id: "44C02E4AB1051D5B"
+			tasks: [{
+				id: "0DA2BDEFEE448456"
+				type: "item"
+				item: "thermal:enderium_ingot"
 			}]
 		}
 	]
