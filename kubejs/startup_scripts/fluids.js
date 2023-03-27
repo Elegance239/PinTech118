@@ -116,3 +116,11 @@ onEvent('fluid.registry', event => {
     .viscosity(2000)
     .rarity('rare')
 })
+
+onEvent('fluid.registry', event => {
+	event.create('molten_enderium_alloy_base')
+    .thickTexture(0x34325C)
+    .bucketColor(0x34325C)
+    .displayName('Molten Enderium Alloy Base')
+  	.luminosity(0)
+})
