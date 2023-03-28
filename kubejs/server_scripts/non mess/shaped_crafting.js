@@ -513,7 +513,7 @@ onEvent('recipes', event => {
         "item": "mekanism:elite_control_circuit"
       },
       "F": {
-        "item": "thermal:machine_centrifuge"
+        "item": "kubejs:centrifuge_core"
       }
     })
 
@@ -639,6 +639,26 @@ onEvent('recipes', event => {
       }
     },
   )
+
+  event.shaped('kubejs:centrifuge_core', 
+  [
+      "ABA",
+      "BCB",
+      "ABA"
+    ],
+  {
+      "A": {
+        "item": "mekanism:ingot_osmium"
+      },
+      "B": {
+        "item": "thermal_extra:polarium_plate"
+      },
+      "C": {
+        "item": "thermal:enderium_block"
+      }
+    })
+  
+  
 
 
 })

@@ -11,4 +11,5 @@ onEvent('client.generate_assets', event => {
     // Ingredient.of(/:.*e/).stacks.forEach(item => rename(item, "EEEEEEEEEEEE"))
     rename('create:chromatic_compound', 'Chromatic Compound Base')
     rename('thermal_extra:polarium_ingot', 'Nickel-Based Superalloy')
+    rename('thermal_extra:polarium_plate', 'Superalloy Plate')
   })
