@@ -640,13 +640,13 @@ onEvent('recipes', event => {
     },
   )
 
-  event.shaped('kubejs:centrifuge_core', 
-  [
+  event.shaped('kubejs:centrifuge_core',
+    [
       "ABA",
       "BCB",
       "ABA"
     ],
-  {
+    {
       "A": {
         "item": "mekanism:ingot_osmium"
       },
@@ -657,8 +657,44 @@ onEvent('recipes', event => {
         "item": "thermal:enderium_block"
       }
     })
+
+  event.shaped('kubejs:accelerator_magnet',
+    ["ABA", "CDC", "ABA"],
+    {
+      "A": {
+        "item": "kubejs:modular_machine_framework"
+      },
+      "B": {
+        "item": "immersiveengineering:coil_hv"
+      },
+      "C": {
+        "item": "thermal_extra:polarium_plate"
+      },
+      "D": {
+        "item": "kubejs:superconducting_magnet"
+      }
+    })
+  event.shaped('kubejs:particle_collector',
+    ["ABA", "CDC", "EBE"],
+    {
+      "A": {
+        "item": "kubejs:modular_machine_framework"
+      },
+      "B": {
+        "item": "thermal:netherite_plate"
+      },
+      "C": {
+        "item": "mekanism:block_refined_obsidian"
+      },
+      "D": {
+        "item": "industrialforegoing:machine_frame_advanced"
+      },
+      "E": {
+        "item": "kubejs:advanced_component"
+      }
+    })
   
-  
+
 
 
 })

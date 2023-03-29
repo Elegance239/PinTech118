@@ -25,5 +25,17 @@ onEvent('recipes', event => {
 		],
 		energy: 30000,
 	})
+	event.custom({
+		type: 'thermal:smelter',
+		ingredients:[
+			Ingredient.of('#forge:dusts/enderium').toJson(),
+			Ingredient.of('2x #forge:dusts/signalum').toJson(),
+			Ingredient.of('4x #forge:dusts/osmium').toJson(),
+		],
+		results: [
+			Item.of('kubejs:superconducting_mixture').toJson(),
+		],
+		energy: 80000,
+	})
 
 })

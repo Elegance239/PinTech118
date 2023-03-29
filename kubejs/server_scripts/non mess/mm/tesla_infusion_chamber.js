@@ -1,3 +1,14 @@
+function MMIngredient(item, count) {
+    return {
+      type: "mm:simple",
+      ingredient: {
+        type: "mm:item",
+        item: item,
+        count: count
+      }
+    };
+  }
+
 onEvent("mm.recipes", event => {
     event.build("mm:rough_graphene", {
         duration: 200,
@@ -13,24 +24,10 @@ onEvent("mm.recipes", event => {
                     amount: 2000
                 }
             },
-            {
-                type: "mm:simple",
-                ingredient: {
-                    type: "mm:item",
-                    item: "kubejs:graphene_oxide",
-                    count: 1
-                }
-            },
+            MMIngredient("kubejs:graphene_oxide", 1)
         ],
         outputs: [
-            {
-                type: "mm:simple",
-                ingredient: {
-                    type: "mm:item",
-                    item: "kubejs:rough_graphene",
-                    count: 1
-                }
-            }
+            MMIngredient("kubejs:rough_graphene", 1)
         ]
     })
 
@@ -48,24 +45,10 @@ onEvent("mm.recipes", event => {
                     amount: 2000
                 }
             },
-            {
-                type: "mm:simple",
-                ingredient: {
-                    type: "mm:item",
-                    item: "kubejs:unpowered_advanced_component",
-                    count: 1
-                }
-            },
+            MMIngredient("kubejs:unpowered_advanced_component", 1)
         ],
         outputs: [
-            {
-                type: "mm:simple",
-                ingredient: {
-                    type: "mm:item",
-                    item: "kubejs:advanced_component",
-                    count: 1
-                }
-            }
+            MMIngredient("kubejs:advanced_component", 1)
         ]
     })
 })
