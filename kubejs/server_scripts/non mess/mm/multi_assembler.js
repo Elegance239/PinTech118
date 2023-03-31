@@ -127,6 +127,51 @@ onEvent("mm.recipes", event => {
             MMIngredient("kubejs:superconducting_magnet",1)
         ]
     })
+
+    event.build("mm:advanced_modular_frame", {
+        duration: 200,
+        structureId: "namespace:multi_assembler",
+        name: {
+            text: "Assembling: Advanced Modular Frame"
+        },
+        inputs: [
+            {
+                type: "mm:per_tick",
+                ingredient: {
+                    type: "mm:energy",
+                    amount: 500
+                }
+            },
+            MMIngredient("thermal_extra:polarium_plate",1),
+            MMIngredient("kubejs:modular_machine_framework",1),
+            MMIngredient("kubejs:conductive_polymer",1)
+        ],
+        outputs: [
+            MMIngredient("kubejs:advanced_modular_frame",1)
+        ]
+    })
+
+    event.build("mm:accelerator_frame", {
+        duration: 200,
+        structureId: "namespace:multi_assembler",
+        name: {
+            text: "Assembling: Accelerator Frame"
+        },
+        inputs: [
+            {
+                type: "mm:per_tick",
+                ingredient: {
+                    type: "mm:energy",
+                    amount: 500
+                }
+            },
+            MMIngredient("kubejs:modular_machine_framework",1),
+            MMIngredient("kubejs:compressed_iron_plate",3)
+        ],
+        outputs: [
+            MMIngredient("kubejs:advanced_modular_frame",6)
+        ]
+    })
 })
 
 

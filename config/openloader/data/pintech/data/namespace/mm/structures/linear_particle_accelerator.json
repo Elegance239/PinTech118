@@ -1,0 +1,30 @@
+{
+    "controllerId": "mm:linear_particle_accelerator",
+    "name": {"text": "Linear Particle Accelerator"},
+    "layout": [
+        [
+            "A",
+            "A",
+            "C",
+            "B",
+            "D"
+        ]
+    ],
+    "key": {
+        "A": {
+            "type": "mm:port",
+            "port": "mm:energy",
+            "input": true
+        },
+        "B": {
+            "type": "mm:port",
+            "port": "mm:item",
+            "input": false
+        },
+        "D": {
+            "type": "mm:port",
+            "port": "mm:item",
+            "input": true
+        }
+    }
+}

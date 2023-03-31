@@ -23,6 +23,8 @@ onEvent('block.registry', event => {
 
 	event.create('accelerator_magnet').material('metal').hardness(2.0).lightLevel(1).displayName('Accelerator Magnet')
 	event.create('particle_collector').material('metal').hardness(2.0).displayName('Particle Collector')
+	event.create('advanced_modular_framework').material('metal').hardness(2.0).displayName('Advanced Modular Framework')
+	event.create('accelerator_frame').material('metal').hardness(2.0).displayName('Accelerator Frame')
 })
 
 

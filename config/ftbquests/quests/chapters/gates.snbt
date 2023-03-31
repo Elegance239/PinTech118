@@ -1646,7 +1646,7 @@
 			tasks: [{
 				id: "3564632011B7F05F"
 				type: "item"
-				item: "mekanism:pellet_polonium"
+				item: "kubejs:superconductor"
 			}]
 		}
 		{

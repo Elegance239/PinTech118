@@ -1,7 +1,0 @@
-{
-    "type": "mm:fixed",
-    "id": "cnc_fabricator",
-    "name": {
-      "text": "CNC Fabricator Controller"
-    }
-  }

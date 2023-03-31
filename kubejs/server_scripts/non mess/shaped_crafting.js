@@ -194,7 +194,7 @@ onEvent('recipes', event => {
     G: 'minecraft:glass',
     R: 'thermal:ruby_dust',
     I: 'thermal:invar_plate',
-    F: 'immersiveengineering:toolupgrade_shield_flash',
+    F: 'thermal:silver_plate',
     W: '#forge:wires/electrum'
   })
   event.shaped('pneumaticcraft:pneumatic_cylinder', [
@@ -693,7 +693,24 @@ onEvent('recipes', event => {
         "item": "kubejs:advanced_component"
       }
     })
-  
+
+  event.shaped('mm:linear_particle_accelerator_controller',
+    ["ABA", "ACA", "DDD"],
+    {
+      "A": {
+        "item": "mekanism:elite_control_circuit"
+      },
+      "B": {
+        "item": "kubejs:superconductor"
+      },
+      "C": {
+        "item": "industrialforegoing:machine_frame_advanced"
+      },
+      "D": {
+        "item": "kubejs:advanced_component"
+      }
+    },
+  )
 
 
 
