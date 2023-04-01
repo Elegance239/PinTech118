@@ -658,6 +658,24 @@ onEvent('recipes', event => {
       }
     })
   
+    event.shaped('4x mekanismgenerators:fission_reactor_casing', 
+    [
+        "ABA",
+        "BCB",
+        "ABA"
+    ],
+    {
+        "A": {
+          "item": "thermal_extra:polarium_plate"
+        },
+        "B": {
+          "item": "thermal:lead_plate"
+        },
+        "C": {
+          "item": "mekanism:steel_casing"
+        }
+      },
+    )
   
 
 

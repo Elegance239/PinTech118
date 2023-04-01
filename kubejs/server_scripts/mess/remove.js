@@ -152,6 +152,7 @@ let SD = (id) => 'storagedrawers:'+id
         'mekanism:chemical_dissolution_chamber',
         'mekanism:chemical_oxidizer',
         'mekanism:chemical_infuser',
+        'mekanismgenerators:fission_reactor_casing',
     ]
 
     removeid.forEach(item => {
