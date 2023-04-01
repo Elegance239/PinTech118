@@ -1,0 +1,7 @@
+{
+    "type": "mm:fixed",
+    "id": "linear_particle_accelerator",
+    "name": {
+      "text": "Linear Particle Accelerator Controller"
+    }
+  }

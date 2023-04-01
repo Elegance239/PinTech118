@@ -4,10 +4,10 @@ onEvent('recipes', event => {
 		type: 'thermal:chiller',
 		ingredients: [
 
-            { amount: 1000, fluid: 'immersiveengineering:redstone_acid', nbt: {}}
+			{ amount: 1000, fluid: 'immersiveengineering:redstone_acid', nbt: {} }
 		],
 		results: [
-            {item:'minecraft:redstone', count:4}
+			{ item: 'minecraft:redstone', count: 4 }
 		],
 		energy: 15000
 	})
@@ -16,10 +16,22 @@ onEvent('recipes', event => {
 		type: 'thermal:chiller',
 		ingredients: [
 
-            { amount: 100, fluid: 'mekanism:lithium', nbt: {}}
+			{ amount: 100, fluid: 'mekanism:lithium', nbt: {} }
 		],
 		results: [
-            Item.of('mekanism:dust_lithium').toJson(),
+			Item.of('mekanism:dust_lithium').toJson(),
+		],
+		energy: 20000
+	})
+
+	event.custom({
+		type: 'thermal:chiller',
+		ingredients: [
+			Ingredient.of('kubejs:sintered_superconductor_pellet').toJson(),
+			{ amount: 1000, fluid: 'kubejs:cryogenic_coolant', nbt: {} }
+		],
+		results: [
+			Item.of('kubejs:superconductor').toJson(),
 		],
 		energy: 20000
 	})

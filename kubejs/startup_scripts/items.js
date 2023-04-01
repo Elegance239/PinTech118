@@ -87,4 +87,8 @@ onEvent('item.registry', event => {
 	event.create('enderium_alloy_base').displayName('Enderium Alloy Base')
 	event.create('porous_enderium_dust').displayName('Porous Enderium Dust')
 	event.create('centrifuge_core').displayName('Centrifuge Core')
+	event.create('superconducting_mixture').displayName('Superconducting Mixture')
+	event.create('sintered_superconductor_pellet').displayName('Sintered Superconductor Pellet')
+	event.create('superconductor').displayName('Superconductor').rarity('epic')
+	event.create('superconducting_magnet').displayName('Superconducting Magnet').rarity('uncommon')
 })

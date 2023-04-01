@@ -1516,7 +1516,7 @@
 			tasks: [{
 				id: "5AEC53696A4D6979"
 				type: "item"
-				item: "mekanism:pellet_polonium"
+				item: "kubejs:superconductor"
 			}]
 		}
 		{
@@ -1590,11 +1590,7 @@
 			tasks: [{
 				id: "7F93B489F83C8BCD"
 				type: "item"
-				item: {
-					id: "thermal:flux_magnet"
-					Count: 1b
-					tag: { }
-				}
+				item: "kubejs:superconducting_magnet"
 			}]
 		}
 		{
@@ -1650,7 +1646,7 @@
 			tasks: [{
 				id: "3564632011B7F05F"
 				type: "item"
-				item: "mekanism:pellet_polonium"
+				item: "kubejs:superconductor"
 			}]
 		}
 		{

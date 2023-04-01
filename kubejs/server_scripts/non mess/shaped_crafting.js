@@ -194,7 +194,7 @@ onEvent('recipes', event => {
     G: 'minecraft:glass',
     R: 'thermal:ruby_dust',
     I: 'thermal:invar_plate',
-    F: 'immersiveengineering:toolupgrade_shield_flash',
+    F: 'thermal:silver_plate',
     W: '#forge:wires/electrum'
   })
   event.shaped('pneumaticcraft:pneumatic_cylinder', [
@@ -640,13 +640,13 @@ onEvent('recipes', event => {
     },
   )
 
-  event.shaped('kubejs:centrifuge_core', 
-  [
+  event.shaped('kubejs:centrifuge_core',
+    [
       "ABA",
       "BCB",
       "ABA"
     ],
-  {
+    {
       "A": {
         "item": "mekanism:ingot_osmium"
       },
@@ -677,6 +677,61 @@ onEvent('recipes', event => {
       },
     )
   
+
+  event.shaped('kubejs:accelerator_magnet',
+    ["ABA", "CDC", "ABA"],
+    {
+      "A": {
+        "item": "kubejs:modular_machine_framework"
+      },
+      "B": {
+        "item": "immersiveengineering:coil_hv"
+      },
+      "C": {
+        "item": "thermal_extra:polarium_plate"
+      },
+      "D": {
+        "item": "kubejs:superconducting_magnet"
+      }
+    })
+  event.shaped('kubejs:particle_collector',
+    ["ABA", "CDC", "EBE"],
+    {
+      "A": {
+        "item": "kubejs:modular_machine_framework"
+      },
+      "B": {
+        "item": "thermal:netherite_plate"
+      },
+      "C": {
+        "item": "mekanism:block_refined_obsidian"
+      },
+      "D": {
+        "item": "industrialforegoing:machine_frame_advanced"
+      },
+      "E": {
+        "item": "kubejs:advanced_component"
+      }
+    })
+
+  event.shaped('mm:linear_particle_accelerator_controller',
+    ["ABA", "ACA", "DDD"],
+    {
+      "A": {
+        "item": "mekanism:elite_control_circuit"
+      },
+      "B": {
+        "item": "kubejs:superconductor"
+      },
+      "C": {
+        "item": "industrialforegoing:machine_frame_advanced"
+      },
+      "D": {
+        "item": "kubejs:advanced_component"
+      }
+    },
+  )
+
 
 
 })
