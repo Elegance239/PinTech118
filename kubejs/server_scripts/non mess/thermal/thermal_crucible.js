@@ -6,15 +6,15 @@ onEvent('recipes', event => {
 		ingredients: [
 
             
-			{ tag: 'forge:nuggets/tin', count:1}
+			{ tag: 'forge:ingots/tin', count:1}
 		],
 		results: [
-            { amount: 16, fluid: 'kubejs:solder'}
+            { amount: 90, fluid: 'tconstruct:molten_tin'}
 
 		
 		],
 
-		energy: 1000
+		energy: 10000
 	})
 
 	event.custom({
@@ -25,12 +25,12 @@ onEvent('recipes', event => {
 			{ tag: 'forge:ingots/lead', count:1}
 		],
 		results: [
-            { amount: 144, fluid: 'kubejs:molten_lead'}
+            { amount: 90, fluid: 'tconstruct:molten_lead'}
 
 		
 		],
 
-		energy: 1000
+		energy: 10000
 	})
 
 	event.recipes.thermal.crucible(Fluid.of('createchromaticreturn:chromatic_mixture', 5000), 'createchromaticreturn:chromatic_compound')

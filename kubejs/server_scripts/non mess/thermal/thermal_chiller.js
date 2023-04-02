@@ -36,6 +36,17 @@ onEvent('recipes', event => {
 		energy: 20000
 	})
 
+	event.custom({
+		type: 'thermal:chiller',
+		ingredients: [
+			{ amount: 90, fluid: 'kubejs:molten_enderium_alloy_base', nbt: {} }
+		],
+		results: [
+			Item.of('kubejs:crude_enderium_alloy_base').toJson(),
+		],
+		energy: 10000
+	})
+
 	event.recipes.thermal.chiller('createchromaticreturn:shadow_steel', [Fluid.of('createchromaticreturn:shadow_essence', 8000), 'thermal:chiller_ingot_cast']).energy(8000).id('thermal:chiller/shadow_steel')
 
 	event.recipes.thermal.chiller('createchromaticreturn:refined_radiance', [Fluid.of('createchromaticreturn:refined_mixture', 8000), 'thermal:chiller_ingot_cast']).energy(8000).id('thermal:chiller/refined_radiance')

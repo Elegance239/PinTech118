@@ -10,18 +10,18 @@ function MMIngredient(item, count) {
   }
 
 onEvent("mm.recipes", event => {
-    event.build("mm:advanced_machine_frame", {
-        duration: 600,
-        structureId: "namespace:multi_assembler",
+    event.build("mm:advanced_machine_frame_n", {
+        duration: 300,
+        structureId: "namespace:nanofabricator",
         name: {
-            text: "Assembling: Partial Advanced Machine Frame 4/6"
+            text: "Assembling: Incomplete Composite Mechanical Component"
         },
         inputs: [
             {
                 type: "mm:per_tick",
                 ingredient: {
                     type: "mm:energy",
-                    amount: 500
+                    amount: 1000
                 }
             },
             MMIngredient("kubejs:advanced_machine_frame_3", 1),
@@ -32,9 +32,9 @@ onEvent("mm.recipes", event => {
             MMIngredient("kubejs:advanced_machine_frame_4", 1),
         ]
     })
-    event.build("mm:composite", {
-        duration: 400,
-        structureId: "namespace:multi_assembler",
+    event.build("mm:composite_n", {
+        duration: 200,
+        structureId: "namespace:nanofabricator",
         name: {
             text: "Assembling: Incomplete Composite Mechanical Component"
         },
@@ -43,7 +43,7 @@ onEvent("mm.recipes", event => {
                 type: "mm:per_tick",
                 ingredient: {
                     type: "mm:energy",
-                    amount: 500
+                    amount: 1000
                 }
             },
             MMIngredient("immersiveengineering:component_steel", 1),
@@ -54,9 +54,9 @@ onEvent("mm.recipes", event => {
             MMIngredient("kubejs:composite_mechanical_component_u", 1),
         ]
     })
-    event.build("mm:advanced", {
-        duration: 400,
-        structureId: "namespace:multi_assembler",
+    event.build("mm:advanced_n", {
+        duration: 200,
+        structureId: "namespace:nanofabricator",
         name: {
             text: "Assembling: Unpowered Advanced Component"
         },
@@ -65,7 +65,7 @@ onEvent("mm.recipes", event => {
                 type: "mm:per_tick",
                 ingredient: {
                     type: "mm:energy",
-                    amount: 500
+                    amount: 1000
                 }
             },
             MMIngredient("kubejs:composite_mechanical_component", 1),
@@ -77,9 +77,9 @@ onEvent("mm.recipes", event => {
         ]
     })
 
-    event.build("mm:engineering_block_frame", {
-        duration: 200,
-        structureId: "namespace:multi_assembler",
+    event.build("mm:engineering_block_frame_n", {
+        duration: 100,
+        structureId: "namespace:nanofabricator",
         name: {
             text: "Assembling: Engineering Block Frame"
         },
@@ -88,7 +88,7 @@ onEvent("mm.recipes", event => {
                 type: "mm:per_tick",
                 ingredient: {
                     type: "mm:energy",
-                    amount: 500
+                    amount: 1000
                 }
             },
             MMIngredient("thermal:steel_gear", 1),
@@ -102,9 +102,9 @@ onEvent("mm.recipes", event => {
         ]
     })
 
-    event.build("mm:superconducting_magnet", {
-        duration: 800,
-        structureId: "namespace:multi_assembler",
+    event.build("mm:superconducting_magnet_n", {
+        duration: 400,
+        structureId: "namespace:nanofabricator",
         name: {
             text: "Assembling: Superconducting Magnet"
         },
@@ -113,7 +113,7 @@ onEvent("mm.recipes", event => {
                 type: "mm:per_tick",
                 ingredient: {
                     type: "mm:energy",
-                    amount: 500
+                    amount: 1000
                 }
             },
             MMIngredient("kubejs:superconductor",1),
@@ -128,9 +128,9 @@ onEvent("mm.recipes", event => {
         ]
     })
 
-    event.build("mm:advanced_modular_framework", {
-        duration: 200,
-        structureId: "namespace:multi_assembler",
+    event.build("mm:advanced_modular_framework_n", {
+        duration: 100,
+        structureId: "namespace:nanofabricator",
         name: {
             text: "Assembling: Advanced Modular Framework"
         },
@@ -139,7 +139,7 @@ onEvent("mm.recipes", event => {
                 type: "mm:per_tick",
                 ingredient: {
                     type: "mm:energy",
-                    amount: 500
+                    amount: 1000
                 }
             },
             MMIngredient("thermal_extra:polarium_plate",1),
@@ -151,8 +151,8 @@ onEvent("mm.recipes", event => {
         ]
     })
 
-    event.build("mm:elite_control_circuit", {
-        duration: 200,
+    event.build("mm:elite_control_circuit_n", {
+        duration: 100,
         structureId: "namespace:multi_assembler",
         name: {
             text: "Assembling: Elite Control Circuit"
@@ -162,7 +162,7 @@ onEvent("mm.recipes", event => {
                 type: "mm:per_tick",
                 ingredient: {
                     type: "mm:energy",
-                    amount: 500
+                    amount: 1000
                 }
             },
             MMIngredient('extrastorage:neural_processor',3),
@@ -174,6 +174,7 @@ onEvent("mm.recipes", event => {
             MMIngredient("mekanism:elite_control_circuit",1)
         ]
     })
-})
 
+
+})
 

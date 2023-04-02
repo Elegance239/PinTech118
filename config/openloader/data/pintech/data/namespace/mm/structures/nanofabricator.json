@@ -1,0 +1,79 @@
+{
+    "controllerId": "mm:nanofabricator",
+    "name": {"text": "Nanofabricator"},
+    "layout": [
+        [
+            "AAA",
+            "AAA",
+            "AKA",
+            "AAA",
+            "AAA"
+        ],
+        [
+            "AAA",
+            "E E",
+            "EJE",
+            "E E",
+            "AAA"
+        ],
+        [
+            "ADA",
+            "EFE",
+            "EGE",
+            "EHE",
+            "AIA"
+        ],
+        [
+            "AAA",
+            "AAA",
+            "BAC",
+            "AAA",
+            "AAA"
+        ]
+    ],
+    "key": {
+        "A": {
+            "type": "mm:block",
+            "block": "kubejs:advanced_modular_framework"
+        },
+        "B": {
+            "type": "mm:port",
+            "port": "mm:energy",
+            "input": true
+        },
+        "D": {
+            "type": "mm:port",
+            "port": "mm:item",
+            "input": false
+        },
+        "E": {
+            "type": "mm:block",
+            "block": "mekanism:structural_glass"
+        },
+        "F": {
+            "type": "mm:block",
+            "block": "pneumaticcraft:assembly_io_unit_export"
+        },
+        "G": {
+            "type": "mm:block",
+            "block": "pneumaticcraft:assembly_platform"
+        },
+        "H": {
+            "type": "mm:block",
+            "block": "pneumaticcraft:assembly_io_unit_import"
+        },
+        "I": {
+            "type": "mm:port",
+            "port": "mm:item",
+            "input": true
+        },
+        "J": {
+            "type": "mm:block",
+            "block": "mekanism:laser"
+        },
+        "K": {
+            "type": "mm:block",
+            "block": "kubejs:accelerator_magnet"
+        }
+    }
+}

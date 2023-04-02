@@ -796,6 +796,46 @@
 				item: "minecraft:glowstone_dust"
 			}]
 		}
+		{
+			x: -4.5d
+			y: 27.5d
+			id: "23C6D47F2A150D70"
+			tasks: [{
+				id: "5E0ECE424AC0AC62"
+				type: "item"
+				item: "immersiveengineering:ingot_aluminum"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 30.0d
+			id: "6DC0CE66F2223418"
+			tasks: [{
+				id: "71C79382E32F8073"
+				type: "item"
+				item: "immersiveengineering:ingot_uranium"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 32.5d
+			id: "4530988015A8BF9C"
+			tasks: [{
+				id: "2BAC82714B455EE5"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 35.0d
+			id: "033CBC6C7D796FFE"
+			tasks: [{
+				id: "486DC59FE49038F7"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

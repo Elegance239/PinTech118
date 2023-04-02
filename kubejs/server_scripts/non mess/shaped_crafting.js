@@ -657,26 +657,26 @@ onEvent('recipes', event => {
         "item": "thermal:enderium_block"
       }
     })
-  
-    event.shaped('4x mekanismgenerators:fission_reactor_casing', 
+
+  event.shaped('4x mekanismgenerators:fission_reactor_casing',
     [
-        "ABA",
-        "BCB",
-        "ABA"
+      "ABA",
+      "BCB",
+      "ABA"
     ],
     {
-        "A": {
-          "item": "thermal_extra:polarium_plate"
-        },
-        "B": {
-          "item": "thermal:lead_plate"
-        },
-        "C": {
-          "item": "mekanism:steel_casing"
-        }
+      "A": {
+        "item": "thermal_extra:polarium_plate"
       },
-    )
-  
+      "B": {
+        "item": "thermal:lead_plate"
+      },
+      "C": {
+        "item": "mekanism:steel_casing"
+      }
+    },
+  )
+
 
   event.shaped('kubejs:accelerator_magnet',
     ["ABA", "CDC", "ABA"],
@@ -750,6 +750,27 @@ onEvent('recipes', event => {
       }
     },
   )
+  event.shaped('mm:nanofabricator_controller',
+    ["ABA", "CDC", "EEE"],
+    {
+      "A": {
+        "item": "kubejs:advanced_component"
+      },
+      "B": {
+        "item": "kubejs:superconducting_magnet"
+      },
+      "C": {
+        "item": "mekanism:elite_control_circuit"
+      },
+      "D": {
+        "item": "mm:multi_assembler_controller"
+      },
+      "E": {
+        "item": "thermal:enderium_plate"
+      }
+    },
+  )
+
 
   event.shaped('mekanismgenerators:control_rod_assembly', 
   [

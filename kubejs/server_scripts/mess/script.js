@@ -664,8 +664,8 @@ onEvent('recipes', event => {
 					"item": "create:brass_casing"
 				  },
 				  {
-					"amount": 12,
-					"fluid": "kubejs:molten_lead",
+					"amount": 10,
+					"fluid": "tconstruct:molten_lead",
 					"nbt": {}
 				  }
 				],
@@ -719,8 +719,8 @@ onEvent('recipes', event => {
 					"item": "create:brass_casing"
 				  },
 				  {
-					"amount": 12,
-					"fluid": "kubejs:molten_lead",
+					"amount": 10,
+					"fluid": "tconstruct:molten_lead",
 					"nbt": {}
 				  }
 				],
@@ -775,8 +775,8 @@ onEvent('recipes', event => {
 					"item": "create:brass_casing"
 				  },
 				  {
-					"amount": 12,
-					"fluid": "kubejs:molten_lead",
+					"amount": 10,
+					"fluid": "tconstruct:molten_lead",
 					"nbt": {}
 				  }
 				],
@@ -830,8 +830,8 @@ onEvent('recipes', event => {
 					"item": "create:brass_casing"
 				  },
 				  {
-					"amount": 12,
-					"fluid": "kubejs:molten_lead",
+					"amount": 10,
+					"fluid": "tconstruct:molten_lead",
 					"nbt": {}
 				  }
 				],
@@ -885,8 +885,8 @@ onEvent('recipes', event => {
 					"item": "create:brass_casing"
 				  },
 				  {
-					"amount": 12,
-					"fluid": "kubejs:molten_lead",
+					"amount": 10,
+					"fluid": "tconstruct:molten_lead",
 					"nbt": {}
 				  }
 				],

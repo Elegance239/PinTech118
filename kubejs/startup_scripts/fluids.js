@@ -33,6 +33,7 @@ onEvent('fluid.registry', event => {
   	.luminosity(0)
 })
 
+/*
 onEvent('fluid.registry', event => {
 	event.create('solder')
     .thickTexture(0xCCCCCC)
@@ -48,7 +49,7 @@ onEvent('fluid.registry', event => {
     .displayName('Molten Lead')
   	.luminosity(0)
 })
-
+*/
 onEvent('fluid.registry', event => {
 	event.create('hydrogen_cyanide')
     .thinTexture(0xE3FEFD)

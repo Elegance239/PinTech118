@@ -10,24 +10,24 @@ function MMIngredient(item, count) {
   }
 
 onEvent("mm.recipes", event => {
-    event.build("mm:diamond", {
+    event.build("mm:supersymmetric_particles", {
         duration: 100,
         structureId: "namespace:linear_particle_accelerator",
         name: {
-            text: "Energizing: Rough Graphene"
+            text: "Synthesizing: Supersymmetric Particles"
         },
         inputs: [
             {
                 type: "mm:simple",
                 ingredient: {
                     type: "mm:energy",
-                    amount: 1000000
+                    amount: 15000000
                 }
             },
-            MMIngredient("minecraft:diamond", 1)
+            MMIngredient("thermal:lead_dust", 32)
         ],
         outputs: [
-            MMIngredient("minecraft:emerald", 1)
+            MMIngredient("kubejs:supersymmetric_particles", 1)
         ]
     })
 

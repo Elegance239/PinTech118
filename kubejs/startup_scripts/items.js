@@ -93,4 +93,6 @@ onEvent('item.registry', event => {
 	event.create('superconducting_magnet').displayName('Superconducting Magnet').rarity('uncommon')
 	event.create('enderium_rod_bundle').displayName('Enderium Rod Bundle').rarity('uncommon')
 	event.create('enderium_rod').displayName('Enderium Rod').rarity('uncommon')
+	event.create('supersymmetric_particles').displayName('Supersymmetric Particles').rarity('epic')
+	event.create('supersymmetric_alloy').displayName('Supersymmetric Alloy').rarity('epic')
 })
