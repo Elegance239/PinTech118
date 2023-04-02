@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mm:block/nanofabricator_controller"
+    },
+    "facing=south": {
+      "model": "mm:block/nanofabricator_controller",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mm:block/nanofabricator_controller",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "mm:block/nanofabricator_controller",
+      "y": 90
+    }
+  }
+}

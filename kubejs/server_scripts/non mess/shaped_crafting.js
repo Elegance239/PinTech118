@@ -732,6 +732,42 @@ onEvent('recipes', event => {
     },
   )
 
+  event.shaped('4x mekanismgenerators:fission_fuel_assembly', 
+  [
+      "AAA",
+      "ABA",
+      "ACA"
+  ],
+   {
+      "A": {
+        "item": "thermal_extra:polarium_plate"
+      },
+      "B": {
+        "item": "kubejs:enderium_rod_bundle"
+      },
+      "C": {
+        "item": "mekanism:elite_chemical_tank"
+      }
+    },
+  )
 
-
+  event.shaped('mekanismgenerators:control_rod_assembly', 
+  [
+      "ABA",
+      "BCB",
+      "ABA"
+  ],
+  {
+      "A": {
+        "item": "thermal_extra:polarium_plate"
+      },
+      "B": {
+        "item": "immersiveengineering:graphite_electrode",
+      },
+      "C": {
+        "item": "industrialforegoing:machine_frame_advanced"
+      }
+    },
+  )
+  
 })

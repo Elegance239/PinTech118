@@ -91,4 +91,6 @@ onEvent('item.registry', event => {
 	event.create('sintered_superconductor_pellet').displayName('Sintered Superconductor Pellet')
 	event.create('superconductor').displayName('Superconductor').rarity('epic')
 	event.create('superconducting_magnet').displayName('Superconducting Magnet').rarity('uncommon')
+	event.create('enderium_rod_bundle').displayName('Enderium Rod Bundle').rarity('uncommon')
+	event.create('enderium_rod').displayName('Enderium Rod').rarity('uncommon')
 })
