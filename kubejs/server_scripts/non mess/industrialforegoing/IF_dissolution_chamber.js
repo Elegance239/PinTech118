@@ -27,7 +27,7 @@ onEvent('recipes', event => {
 			"item": "immersiveengineering:wirecoil_copper_ins"
 		  }
 		],
-		"inputFluid": "{Amount:64,FluidName:\"kubejs:solder\"}",
+		"inputFluid": "{Amount:200,FluidName:\"thermal:redstone\"}",
 		"output": {
 		  "count": 1,
 		  "item": "mekanism:basic_control_circuit"
@@ -63,7 +63,7 @@ onEvent('recipes', event => {
 			"item": "kubejs:resistor"
 		  },
 		],
-		"inputFluid": "{Amount:144,FluidName:\"kubejs:solder\"}",
+		"inputFluid": "{Amount:90,FluidName:\"tconstruct:molten_tin\"}",
 		"output": {
 		  "count": 1,
 		  "item": "pneumaticcraft:printed_circuit_board"
@@ -99,7 +99,7 @@ onEvent('recipes', event => {
 			"item": "immersiveengineering:wirecoil_copper_ins"
 		  }
 		],
-		"inputFluid": "{Amount:64,FluidName:\"kubejs:solder\"}",
+		"inputFluid": "{Amount:200,FluidName:\"thermal:redstone\"}",
 		"output": {
 		  "count": 2,
 		  "item": "mekanism:basic_control_circuit"
@@ -132,7 +132,7 @@ onEvent('recipes', event => {
 			"item": "pneumaticcraft:plastic"
 		  },
 		],
-		"inputFluid": "{Amount:144,FluidName:\"kubejs:solder\"}",
+		"inputFluid": "{Amount:90,FluidName:\"tconstruct:molten_tin\"}",
 		"output": {
 		  "count": 1,
 		  "item": "kubejs:logic_gate"
@@ -177,7 +177,7 @@ onEvent('recipes', event => {
 		},
 		"processingTime": 300
 	  })
-
+/*
 	  event.custom({
 		"type": "industrialforegoing:dissolution_chamber",
 		"input": [
@@ -219,5 +219,6 @@ onEvent('recipes', event => {
 		},
 		"processingTime": 300
 	  })
+	  */
 })
 

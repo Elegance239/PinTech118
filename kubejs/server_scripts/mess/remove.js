@@ -14,7 +14,7 @@ event.remove({output:'thermal:redstone_servo'})
 event.remove({output:'create:steam_engine'})
 event.remove({output:'createaddition:alternator'})
 event.remove({output:'immersiveengineering:cokebrick'})
-event.remove({output:'thermal:obsidian_glass'})
+event.remove({input: 'minecraft:fire_charge', output:'thermal:obsidian_glass'})
 event.remove({output:'create:brass_casing'})
 event.remove({id: 'thermal:machines/smelter/smelter_alloy_steel'})
 event.remove({input:'immersiveengineering:hammer', output:'#forge:dusts'})
@@ -190,6 +190,8 @@ let SD = (id) => 'storagedrawers:'+id
         'tconstruct:smeltery/melting/obsidian/dust',
         'tconstruct:smeltery/alloys/molten_obsidian',
         'create:crushing/obsidian',
+        'thermal:machines/smelter/smelter_alloy_enderium',
+        'mekanism:control_circuit/basic'
     ]
 
     recipeId.forEach(item => {

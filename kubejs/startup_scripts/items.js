@@ -91,4 +91,6 @@ onEvent('item.registry', event => {
 	event.create('sintered_superconductor_pellet').displayName('Sintered Superconductor Pellet')
 	event.create('superconductor').displayName('Superconductor').rarity('epic')
 	event.create('superconducting_magnet').displayName('Superconducting Magnet').rarity('uncommon')
+	event.create('supersymmetric_particles').displayName('Supersymmetric Particles').rarity('epic')
+	event.create('supersymmetric_alloy').displayName('Supersymmetric Alloy').rarity('epic')
 })

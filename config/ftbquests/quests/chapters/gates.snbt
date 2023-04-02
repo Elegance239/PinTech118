@@ -196,7 +196,7 @@
 		}
 		{
 			x: -8.0d
-			y: -0.5d
+			y: -1.0d
 			dependencies: ["67AAD58C9865B739"]
 			id: "39A0BE58D389FF64"
 			tasks: [{
@@ -235,8 +235,8 @@
 			y: -2.5d
 			dependencies: [
 				"3A276F49C45FD53D"
-				"2399179CAD38A108"
 				"3C451E6A8BA92B33"
+				"39A0BE58D389FF64"
 			]
 			id: "589E4CFC1A58314C"
 			tasks: [{
@@ -365,18 +365,6 @@
 				id: "614F954D6E53357E"
 				type: "item"
 				item: "pneumaticcraft:assembly_laser"
-			}]
-		}
-		{
-			title: "solder"
-			x: -9.0d
-			y: -1.0d
-			dependencies: ["67AAD58C9865B739"]
-			id: "2399179CAD38A108"
-			tasks: [{
-				id: "6419B4397228A91B"
-				type: "item"
-				item: "immersiveengineering:concrete_bucket"
 			}]
 		}
 		{
@@ -1794,6 +1782,17 @@
 				id: "0DA2BDEFEE448456"
 				type: "item"
 				item: "thermal:enderium_ingot"
+			}]
+		}
+		{
+			title: "Neutronium"
+			x: 54.5d
+			y: 1.0d
+			id: "049773865983C7EC"
+			tasks: [{
+				id: "601991339BDB97DF"
+				type: "item"
+				item: "extendedcrafting:crystaltine_ingot"
 			}]
 		}
 	]
