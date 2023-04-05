@@ -732,7 +732,7 @@ onEvent('recipes', event => {
     },
   )
 
-  event.shaped('4x mekanismgenerators:fission_fuel_assembly', 
+  event.shaped('2x mekanismgenerators:fission_fuel_assembly', 
   [
       "AAA",
       "ABA",

@@ -9,13 +9,11 @@
   "block.mm.osmium_drill_controller": "Osmium Drill",
   "block.mm.osmium_drill_laser_input_port": "Osmium Drill Input Port",
   "block.mm.tesla_infusion_chamber_controller": "Tesla Infusion Chamber Controller",
-  "block.mm.test_controller": "Test",
   "container.masterfulmachinery.mm:linear_particle_accelerator_controller_controller.name": "Linear Particle Accelerator Controller",
   "container.masterfulmachinery.mm:multi_assembler_controller_controller.name": "Multi-Assembler Controller",
   "container.masterfulmachinery.mm:nanofabricator_controller_controller.name": "Nanofabricator Controller",
   "container.masterfulmachinery.mm:osmium_drill_controller_controller.name": "Osmium Drill",
   "container.masterfulmachinery.mm:tesla_infusion_chamber_controller_controller.name": "Tesla Infusion Chamber Controller",
-  "container.masterfulmachinery.mm:test_controller_controller.name": "Test",
   "item.mm.blueprint": "Blueprint",
   "item.mm.structure_wand": "Structure Wand"
 }

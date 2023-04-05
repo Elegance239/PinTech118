@@ -1063,8 +1063,8 @@
 			}]
 		}
 		{
-			x: 42.0d
-			y: -7.0d
+			x: 40.0d
+			y: -9.0d
 			id: "527BD7EBE30F1184"
 			tasks: [{
 				id: "34DD80F9E66AD25D"
@@ -1094,8 +1094,8 @@
 			}]
 		}
 		{
-			x: 44.0d
-			y: -8.0d
+			x: 41.0d
+			y: -7.5d
 			dependencies: [
 				"07CB281975E4F60E"
 				"527BD7EBE30F1184"
@@ -1109,8 +1109,8 @@
 			}]
 		}
 		{
-			x: 42.0d
-			y: -8.0d
+			x: 41.0d
+			y: -9.0d
 			id: "0722057C4F749DD2"
 			tasks: [{
 				id: "00E42D404BC156A9"
@@ -1206,8 +1206,8 @@
 		}
 		{
 			title: "Fissile Fuel"
-			x: 45.5d
-			y: -8.0d
+			x: 43.0d
+			y: -7.5d
 			dependencies: ["7F9339D3F80C1961"]
 			id: "13754D0FC21D2430"
 			tasks: [{
@@ -1228,9 +1228,9 @@
 			}]
 		}
 		{
-			x: 56.5d
-			y: -8.0d
-			dependencies: ["31252E86D8E634A8"]
+			x: 57.0d
+			y: -7.5d
+			dependencies: ["55A41C9DF3C6FDE8"]
 			id: "20E8D37F82E44653"
 			tasks: [{
 				id: "2CFCC6D56763B1DD"
@@ -1239,9 +1239,13 @@
 			}]
 		}
 		{
-			x: 54.0d
-			y: -5.0d
-			dependencies: ["31252E86D8E634A8"]
+			x: 52.0d
+			y: -7.5d
+			dependencies: [
+				"31252E86D8E634A8"
+				"0172D600414E8D29"
+				"24AE3574887FC083"
+			]
 			id: "63714C141FE401CB"
 			tasks: [{
 				id: "74F7A556B3E7076F"
@@ -1250,8 +1254,9 @@
 			}]
 		}
 		{
-			x: 55.0d
-			y: -5.0d
+			x: 54.5d
+			y: -7.5d
+			dependencies: ["63714C141FE401CB"]
 			id: "55A41C9DF3C6FDE8"
 			tasks: [{
 				id: "460CFEDE1A6CA257"
@@ -1260,7 +1265,7 @@
 			}]
 		}
 		{
-			x: 50.5d
+			x: 47.0d
 			y: -9.0d
 			id: "2FF88ECA773AC1BE"
 			tasks: [{
@@ -1270,8 +1275,8 @@
 			}]
 		}
 		{
-			x: 50.5d
-			y: -8.0d
+			x: 46.0d
+			y: -9.0d
 			id: "576AAF78839EB756"
 			tasks: [{
 				id: "63E193AFB3F1922A"
@@ -1280,8 +1285,8 @@
 			}]
 		}
 		{
-			x: 50.5d
-			y: -7.0d
+			x: 45.0d
+			y: -9.0d
 			id: "55E60203A7559AC5"
 			tasks: [{
 				id: "2BC7242C2E2D72D1"
@@ -1290,8 +1295,8 @@
 			}]
 		}
 		{
-			x: 50.5d
-			y: -6.0d
+			x: 48.0d
+			y: -9.0d
 			id: "42A5654F3D20B121"
 			tasks: [{
 				id: "5BDC15739EFD0DD0"
@@ -1300,7 +1305,7 @@
 			}]
 		}
 		{
-			x: 53.0d
+			x: 58.0d
 			y: -3.0d
 			id: "0399573993BF6035"
 			tasks: [{
@@ -1311,7 +1316,7 @@
 		}
 		{
 			x: 59.0d
-			y: -9.0d
+			y: -9.5d
 			id: "158F0AE750671380"
 			tasks: [{
 				id: "34853574F0BBD8CF"
@@ -1321,7 +1326,7 @@
 		}
 		{
 			x: 59.0d
-			y: -8.0d
+			y: -7.5d
 			dependencies: ["20E8D37F82E44653"]
 			id: "6CD07B496E600DE2"
 			tasks: [{
@@ -1332,7 +1337,7 @@
 		}
 		{
 			x: 59.0d
-			y: -7.0d
+			y: -5.5d
 			id: "603DE80B1A35D637"
 			tasks: [{
 				id: "07BE8B1AA1C36F10"
@@ -1341,8 +1346,12 @@
 			}]
 		}
 		{
-			x: 54.0d
-			y: -8.0d
+			x: 49.5d
+			y: -6.0d
+			dependencies: [
+				"020CFB92589572E4"
+				"748A2516885DAC16"
+			]
 			id: "31252E86D8E634A8"
 			tasks: [{
 				id: "755C7F1FC85B341F"
@@ -1351,23 +1360,13 @@
 			}]
 		}
 		{
-			x: 52.5d
-			y: -8.0d
+			x: 49.5d
+			y: -4.5d
 			id: "748A2516885DAC16"
 			tasks: [{
 				id: "4093B2363EE1C265"
 				type: "item"
 				item: "mekanism:solar_neutron_activator"
-			}]
-		}
-		{
-			x: 48.0d
-			y: -9.0d
-			id: "760137D4FB534523"
-			tasks: [{
-				id: "11F3C368157D51FD"
-				type: "item"
-				item: "thermal:enderium_ingot"
 			}]
 		}
 		{
@@ -1381,8 +1380,8 @@
 			}]
 		}
 		{
-			x: 56.5d
-			y: -10.5d
+			x: 57.0d
+			y: -13.0d
 			dependencies: ["20E8D37F82E44653"]
 			id: "51F6AD17327FECA1"
 			tasks: [{
@@ -1793,6 +1792,95 @@
 				id: "601991339BDB97DF"
 				type: "item"
 				item: "extendedcrafting:crystaltine_ingot"
+			}]
+		}
+		{
+			title: "Nuclear Waste"
+			x: 46.5d
+			y: -7.5d
+			dependencies: [
+				"55E60203A7559AC5"
+				"2FF88ECA773AC1BE"
+				"576AAF78839EB756"
+				"42A5654F3D20B121"
+				"13754D0FC21D2430"
+				"09CF1BED88E1A10B"
+			]
+			id: "020CFB92589572E4"
+			tasks: [{
+				id: "25FAB41E6A6377E8"
+				type: "item"
+				item: "mekanism:radioactive_waste_barrel"
+			}]
+		}
+		{
+			x: 49.5d
+			y: -7.5d
+			dependencies: ["020CFB92589572E4"]
+			id: "471B4180426AF222"
+			tasks: [{
+				id: "35BCD73FA6145EC3"
+				type: "item"
+				item: "mekanism:isotopic_centrifuge"
+			}]
+		}
+		{
+			x: 49.5d
+			y: -10.5d
+			dependencies: ["471B4180426AF222"]
+			id: "4100BDCEAC90FE7D"
+			tasks: [{
+				id: "288DAFACE1878BEC"
+				type: "item"
+				item: "mekanism:pellet_plutonium"
+			}]
+		}
+		{
+			x: 52.0d
+			y: -4.5d
+			id: "0172D600414E8D29"
+			tasks: [{
+				id: "5FC45D19444CF308"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+		}
+		{
+			x: 52.0d
+			y: -10.5d
+			dependencies: ["1B93A25CEE067CC6"]
+			id: "24AE3574887FC083"
+			tasks: [{
+				id: "1681023365C3ECCA"
+				type: "item"
+				item: "createchromaticreturn:chromatic_mixture_bucket"
+			}]
+		}
+		{
+			x: 62.0d
+			y: -7.5d
+			dependencies: [
+				"6CD07B496E600DE2"
+				"158F0AE750671380"
+				"603DE80B1A35D637"
+			]
+			id: "4C8149380E741E36"
+			tasks: [{
+				id: "331FB87169530054"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+		}
+		{
+			title: "READ DESC"
+			x: 52.0d
+			y: -13.0d
+			description: ["Liquids for Chromatic Mixture are currently still in progress. One which is confirmed is made from pink slime and then processed."]
+			id: "1B93A25CEE067CC6"
+			tasks: [{
+				id: "28F61BB8239411D1"
+				type: "item"
+				item: "kubejs:mixture_basin"
 			}]
 		}
 	]

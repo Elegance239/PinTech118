@@ -20,5 +20,14 @@ onEvent('recipes', event => {
         "itemOutput":{"item":"kubejs:advanced_machine_frame_3"}
     })
 
+    event.custom(
+		{"type":"mekanism:reaction",
+        "duration":100,
+        "fluidInput":{"amount":2000,"fluid":"createchromaticreturn:chromatic_mixture"},
+        "gasInput":{"amount":1000,"gas":"mekanism:polonium"},
+        "itemInput":{"amount":1,"ingredient":{"item":"mekanism:alloy_reinforced"}},
+        "itemOutput":{"item":"mekanism:alloy_atomic"}
+    })
+
 })
 
