@@ -220,5 +220,43 @@ onEvent('recipes', event => {
 		"processingTime": 300
 	  })
 	  */
+
+	  event.custom({
+		"type": "industrialforegoing:dissolution_chamber",
+		"input": [
+		  {
+			"item": "thermal_extra:polarium_plate"
+		  },
+		  {
+			"item": "thermal_extra:polarium_plate"
+		  },
+		  {
+			"item": "thermal_extra:polarium_plate"
+		  },
+		  {
+			"item": "thermal_extra:polarium_plate"
+		  },
+		  {
+			"item": "kubejs:aqueous_ingot"
+		  },
+		  {
+			"item": "kubejs:aqueous_ingot"
+		  },
+		  {
+			"item": "kubejs:aqueous_ingot"
+		  },
+		  {
+			"item": "kubejs:aqueous_ingot"
+		  },
+		  
+
+		],
+		"inputFluid": "{Amount:500,FluidName:\"pneumaticcraft:lubricant\"}",
+		"output": {
+		  "count": 1,
+		  "item": "kubejs:superalloy_capsule"
+		},
+		"processingTime": 300
+	  })
 })
 

@@ -4,4 +4,9 @@ onEvent('recipes', event => {
         'minecraft:obsidian'
 
     ).id('create:crushing/obsidian')
+
+    event.recipes.createCrushing(
+        'kubejs:chromatic_dust',
+        'createchromaticreturn:chromatic_compound',
+    ).id('create:crushing/chromatic_compound')
 })

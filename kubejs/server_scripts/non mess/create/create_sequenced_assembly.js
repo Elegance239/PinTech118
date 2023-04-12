@@ -351,28 +351,74 @@ onEvent('recipes', event => {
             event.recipes.createFilling('create:basin', 
             [
                 'create:basin',
-                Fluid.of('tconstruct:molten_signalum', 500)
+                Fluid.of('thermal_extra:zauvium', 500)
             ]),
             event.recipes.createFilling('create:basin', 
             [
                 'create:basin',
-                Fluid.of('mekanism:sulfuric_acid', 500)
+                Fluid.of('thermal_extra:nectium', 500)
             ]),
             event.recipes.createFilling('create:basin', 
             [
                 'create:basin',
-                Fluid.of('industrialforegoing:pink_slime', 500)
+                Fluid.of('thermal_extra:drownium', 500)
             ]),
             event.recipes.createFilling('create:basin', 
             [
                 'create:basin',
-                Fluid.of('mekanism:heavy_water', 500)
+                Fluid.of('thermal_extra:nebulium', 500)
             ]),
             event.recipes.createFilling('create:basin', 
             [
                 'create:basin',
-                Fluid.of('tconstruct:molten_netherite', 500)
+                Fluid.of('thermal_extra:vukaium', 500)
             ]),
         ]
     ).transitionalItem('create:basin').loops(2)
+
+    event.recipes.createSequencedAssembly(
+        'kubejs:plated_machine_frame',
+        'kubejs:cut_machine_frame',
+        [
+            event.recipes.createDeploying(
+                'kubejs:cut_machine_frame', 
+                ['kubejs:cut_machine_frame', '#create:sandpaper']
+            ).keepHeldItem(),
+
+            event.recipes.createDeploying(
+                'kubejs:cut_machine_frame', 
+                ['kubejs:cut_machine_frame', 'thermal_extra:polarium_plate']
+            ),
+
+            event.recipes.createDeploying(
+                'kubejs:cut_machine_frame', 
+                ['kubejs:cut_machine_frame', 'thermal_extra:polarium_plate']
+            ),
+
+            event.recipes.createDeploying(
+                'kubejs:cut_machine_frame', 
+                ['kubejs:cut_machine_frame', 'thermal_extra:polarium_plate']
+            ),
+
+            event.recipes.createDeploying(
+                'kubejs:cut_machine_frame', 
+                ['kubejs:cut_machine_frame', 'thermal_extra:polarium_plate']
+            ),
+
+            event.recipes.createDeploying(
+                'kubejs:cut_machine_frame', 
+                ['kubejs:cut_machine_frame', 'thermal_extra:polarium_plate']
+            ),
+
+            event.recipes.createDeploying(
+                'kubejs:cut_machine_frame', 
+                ['kubejs:cut_machine_frame', 'thermal_extra:polarium_plate']
+            ),
+            
+            event.recipes.createDeploying(
+                'kubejs:cut_machine_frame', 
+                ['kubejs:cut_machine_frame', 'immersiveengineering:hammer']
+            ).keepHeldItem(),
+        ]
+    ).transitionalItem('kubejs:cut_machine_frame').loops(1)
 })

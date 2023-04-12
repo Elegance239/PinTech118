@@ -222,4 +222,15 @@ onEvent('recipes', event => {
 		]
 	})
 
+	event.custom({
+		type: "pneumaticcraft:pressure_chamber",
+		inputs: [
+		  Item.of('kubejs:plated_machine_frame').toJson(),
+		],
+		pressure: 4.5,
+		results: [
+		  Item.of('kubejs:pressurized_machine_frame').toJson(),
+		]
+	})
+
 })

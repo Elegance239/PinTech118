@@ -110,7 +110,7 @@ onEvent('fluid.registry', event => {
 
 onEvent('fluid.registry', event => {
 	event.create('createchromaticreturn:chromatic_mixture')
-    .thinTexture(0x5D2363)
+    .stillTexture('kubejs:block/chromaticmixture')
     .bucketColor(0x5D2363)
     .displayName('Chromatic Mixture')
   	.luminosity(1)
@@ -125,3 +125,10 @@ onEvent('fluid.registry', event => {
     .displayName('Molten Enderium Alloy Base')
   	.luminosity(0)
 })
+
+/* onEvent('fluid.registry', event => {
+	event.create('radiant_gas')
+    .stillTexture('kubejs:block/radiant_gas')
+    .gaseous()
+}) 
+*/

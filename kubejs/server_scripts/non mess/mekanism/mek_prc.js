@@ -28,6 +28,23 @@ onEvent('recipes', event => {
         "itemInput":{"amount":1,"ingredient":{"item":"mekanism:alloy_reinforced"}},
         "itemOutput":{"item":"mekanism:alloy_atomic"}
     })
+    
+    event.custom(
+		{"type":"mekanism:reaction",
+        "duration":100,
+        "fluidInput":{"amount":2000,"fluid":"minecraft:water"},
+        "gasInput":{"amount":1000,"gas":"mekanism:polonium"},
+        "itemInput":{"amount":1,"ingredient":{"item":"kubejs:superalloy_capsule"}},
+        "itemOutput":{"item":"mekanism:pellet_polonium"}
+    })
 
+    event.custom(
+		{"type":"mekanism:reaction",
+        "duration":100,
+        "fluidInput":{"amount":2000,"fluid":"minecraft:water"},
+        "gasInput":{"amount":1000,"gas":"mekanism:plutonium"},
+        "itemInput":{"amount":1,"ingredient":{"item":"kubejs:superalloy_capsule"}},
+        "itemOutput":{"item":"mekanism:pellet_plutonium"}
+    })
 })
 

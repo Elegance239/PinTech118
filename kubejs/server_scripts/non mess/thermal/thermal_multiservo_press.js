@@ -93,5 +93,15 @@ onEvent('recipes', event => {
 			Item.of('minecraft:raw_copper').toJson(),
 		]
 	})
+
+	event.custom({
+		type: 'thermal:press',
+		ingredients: [
+			Ingredient.of('kubejs:plutonium_superalloy').toJson(),
+		],
+		results: [
+			Item.of('kubejs:plutonium_superalloy_plate').toJson(),
+		]
+	})
 })
 

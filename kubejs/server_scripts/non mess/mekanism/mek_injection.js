@@ -37,5 +37,10 @@ onEvent('recipes', event => {
         }
     })
 
+    event.recipes.mekanismInjecting(
+        'kubejs:dissolved_machine_frame',
+        'industrialforegoing:machine_frame_advanced',
+        {gas: 'mekanism:sulfuric_acid', amount: 5}
+    )
 
 })

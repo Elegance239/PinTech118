@@ -4,6 +4,7 @@ console.info('Hello, World! (You will see this line every time client resources 
 
 onEvent('client.generate_assets', event => {
     const rename = (item, newName) => event.addLang(Item.of(item).item.getDescriptionId(), newName)
+    const renamefluid = (fluid, newName) => event.addLang(Fluid.of(fluid).fluid.getDescriptionId(), newName)
   
     // rename mutton to BAAAAAAA
     rename('immersiveengineering:steel_scaffolding_wooden_top', "Wooden Top Steel Scaffolding")

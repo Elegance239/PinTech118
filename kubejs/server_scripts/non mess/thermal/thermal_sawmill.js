@@ -25,5 +25,14 @@ onEvent('recipes', event => {
 		]
 	})
 
+	event.custom({
+		type: 'thermal:sawmill',
+		ingredients: [
+			{item: 'kubejs:core_machine_frame'},
+		],
+		results: [
+			{item: 'kubejs:cut_machine_frame'},
+		]
+	})
 })
 

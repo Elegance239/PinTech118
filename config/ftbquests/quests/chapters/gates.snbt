@@ -1206,7 +1206,7 @@
 		}
 		{
 			title: "Fissile Fuel"
-			x: 43.0d
+			x: 44.0d
 			y: -7.5d
 			dependencies: ["7F9339D3F80C1961"]
 			id: "13754D0FC21D2430"
@@ -1228,9 +1228,9 @@
 			}]
 		}
 		{
-			x: 57.0d
-			y: -7.5d
-			dependencies: ["55A41C9DF3C6FDE8"]
+			x: 59.5d
+			y: -10.5d
+			dependencies: ["58E84CC1C23DF85F"]
 			id: "20E8D37F82E44653"
 			tasks: [{
 				id: "2CFCC6D56763B1DD"
@@ -1256,7 +1256,10 @@
 		{
 			x: 54.5d
 			y: -7.5d
-			dependencies: ["63714C141FE401CB"]
+			dependencies: [
+				"63714C141FE401CB"
+				"0D7F394F95C03DA8"
+			]
 			id: "55A41C9DF3C6FDE8"
 			tasks: [{
 				id: "460CFEDE1A6CA257"
@@ -1306,7 +1309,7 @@
 		}
 		{
 			x: 58.0d
-			y: -3.0d
+			y: -1.5d
 			id: "0399573993BF6035"
 			tasks: [{
 				id: "30BA75065C37128A"
@@ -1315,19 +1318,12 @@
 			}]
 		}
 		{
-			x: 59.0d
-			y: -9.5d
-			id: "158F0AE750671380"
-			tasks: [{
-				id: "34853574F0BBD8CF"
-				type: "item"
-				item: "mekanism:supercharged_coil"
-			}]
-		}
-		{
-			x: 59.0d
+			x: 59.5d
 			y: -7.5d
-			dependencies: ["20E8D37F82E44653"]
+			dependencies: [
+				"20E8D37F82E44653"
+				"55A41C9DF3C6FDE8"
+			]
 			id: "6CD07B496E600DE2"
 			tasks: [{
 				id: "47FA84310316DCDC"
@@ -1336,8 +1332,9 @@
 			}]
 		}
 		{
-			x: 59.0d
-			y: -5.5d
+			x: 64.5d
+			y: -2.5d
+			dependencies: ["55A41C9DF3C6FDE8"]
 			id: "603DE80B1A35D637"
 			tasks: [{
 				id: "07BE8B1AA1C36F10"
@@ -1380,9 +1377,8 @@
 			}]
 		}
 		{
-			x: 57.0d
+			x: 67.5d
 			y: -13.0d
-			dependencies: ["20E8D37F82E44653"]
 			id: "51F6AD17327FECA1"
 			tasks: [{
 				id: "64F23F43BC1D5DF8"
@@ -1826,7 +1822,7 @@
 		}
 		{
 			x: 49.5d
-			y: -10.5d
+			y: -14.0d
 			dependencies: ["471B4180426AF222"]
 			id: "4100BDCEAC90FE7D"
 			tasks: [{
@@ -1848,7 +1844,6 @@
 		{
 			x: 52.0d
 			y: -10.5d
-			dependencies: ["1B93A25CEE067CC6"]
 			id: "24AE3574887FC083"
 			tasks: [{
 				id: "1681023365C3ECCA"
@@ -1857,12 +1852,12 @@
 			}]
 		}
 		{
-			x: 62.0d
+			x: 64.5d
 			y: -7.5d
 			dependencies: [
 				"6CD07B496E600DE2"
-				"158F0AE750671380"
 				"603DE80B1A35D637"
+				"079586BDC39EE9AB"
 			]
 			id: "4C8149380E741E36"
 			tasks: [{
@@ -1872,15 +1867,112 @@
 			}]
 		}
 		{
-			title: "READ DESC"
-			x: 52.0d
-			y: -13.0d
-			description: ["Liquids for Chromatic Mixture are currently still in progress. One which is confirmed is made from pink slime and then processed."]
-			id: "1B93A25CEE067CC6"
+			x: 59.5d
+			y: -21.0d
+			dependencies: ["5D449C924247F322"]
+			id: "41964776750FAB9D"
 			tasks: [{
-				id: "28F61BB8239411D1"
+				id: "62F4A7037FD19062"
+				type: "item"
+				item: "createchromaticreturn:chromatic_compound"
+			}]
+		}
+		{
+			x: 52.0d
+			y: -21.0d
+			dependencies: ["24AE3574887FC083"]
+			id: "5D449C924247F322"
+			tasks: [{
+				id: "3BAFF76D567C7AC1"
 				type: "item"
 				item: "kubejs:mixture_basin"
+			}]
+		}
+		{
+			x: 59.5d
+			y: -18.5d
+			dependencies: ["41964776750FAB9D"]
+			id: "11744A3770999F66"
+			tasks: [{
+				id: "3100F84068382A7A"
+				type: "item"
+				item: "create:refined_radiance"
+			}]
+		}
+		{
+			x: 59.5d
+			y: -16.0d
+			dependencies: ["11744A3770999F66"]
+			id: "3CB1464EC6FBF57D"
+			tasks: [{
+				id: "473B97C7459880EB"
+				type: "item"
+				item: "kubejs:neoclydium_ingot_test"
+			}]
+		}
+		{
+			title: "Texture Work not done!!!!! Left for later."
+			x: 59.5d
+			y: -13.5d
+			dependencies: ["3CB1464EC6FBF57D"]
+			id: "58E84CC1C23DF85F"
+			tasks: [{
+				id: "675D1D92DB6BC755"
+				type: "item"
+				item: "kubejs:neoclydium_core"
+			}]
+		}
+		{
+			x: 64.5d
+			y: 3.5d
+			id: "42029B62BF19D36E"
+			tasks: [{
+				id: "007985F5BE3985C5"
+				type: "item"
+				item: "createchromaticreturn:multiplite_ingot"
+			}]
+		}
+		{
+			x: 65.5d
+			y: 3.5d
+			id: "1E156CA6687302FD"
+			tasks: [{
+				id: "30DD20C81063F93E"
+				type: "item"
+				item: "createchromaticreturn:multiplite_tube"
+			}]
+		}
+		{
+			x: 54.5d
+			y: -14.0d
+			dependencies: ["4100BDCEAC90FE7D"]
+			id: "0D7F394F95C03DA8"
+			tasks: [{
+				id: "00C726D5AAFE9501"
+				type: "item"
+				item: "kubejs:plutonium_superalloy_plate"
+			}]
+		}
+		{
+			x: 62.0d
+			y: -5.5d
+			dependencies: ["55A41C9DF3C6FDE8"]
+			id: "079586BDC39EE9AB"
+			tasks: [{
+				id: "196F9F5C4294CEE1"
+				type: "item"
+				item: "mekanism:supercharged_coil"
+			}]
+		}
+		{
+			x: 69.5d
+			y: -7.5d
+			dependencies: ["4C8149380E741E36"]
+			id: "4CAF684164B9492D"
+			tasks: [{
+				id: "27BCC5A025A6FCD3"
+				type: "item"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
 			}]
 		}
 	]

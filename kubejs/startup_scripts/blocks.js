@@ -25,6 +25,42 @@ onEvent('block.registry', event => {
 	event.create('particle_collector').material('metal').hardness(2.0).displayName('Particle Collector')
 	event.create('advanced_modular_framework').material('metal').hardness(2.0).displayName('Advanced Modular Framework')
 	event.create('accelerator_frame').material('metal').hardness(2.0).displayName('Accelerator Frame')
+
+	event.create('dissolved_machine_frame').displayName('Dissolved Machine Frame')
+	.textureAll('kubejs:item/machine_frame/side')
+	.texture('up', 'kubejs:item/machine_frame/dissolved_top')
+	.texture('down', 'kubejs:item/machine_frame/bottom')
+	.material('metal')
+
+	event.create('core_machine_frame').displayName('Core-Inserted Machine Frame')
+	.textureAll('kubejs:item/machine_frame/side')
+	.texture('up', 'kubejs:item/machine_frame/core_top')
+	.texture('down', 'kubejs:item/machine_frame/bottom')
+	.material('metal')
+
+	event.create('filled_machine_frame').displayName('Filled Machine Frame')
+	.textureAll('kubejs:item/machine_frame/side')
+	.texture('up', 'kubejs:item/machine_frame/filled_top')
+	.texture('down', 'kubejs:item/machine_frame/bottom')
+	.material('metal')
+
+	event.create('cut_machine_frame').displayName('Cut Machine Frame')
+	.textureAll('kubejs:item/machine_frame/crooked_side')
+	.texture('up', 'kubejs:item/machine_frame/filled_top')
+	.texture('down', 'kubejs:item/machine_frame/bottom')
+	.material('metal')
+
+	event.create('plated_machine_frame').displayName('Plated Machine Frame')
+	.textureAll('kubejs:item/machine_frame/supreme_side')
+	.texture('up', 'kubejs:item/machine_frame/unpressurized_top')
+	.texture('down', 'kubejs:item/machine_frame/bottom')
+	.material('metal')
+	
+	event.create('pressurized_machine_frame').displayName('Pressurized Machine Frame')
+	.textureAll('kubejs:item/machine_frame/supreme_side')
+	.texture('up', 'kubejs:item/machine_frame/supreme_top')
+	.texture('down', 'kubejs:item/machine_frame/supreme_bottom')
+	.material('metal')
 })
 
 

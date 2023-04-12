@@ -790,5 +790,81 @@ onEvent('recipes', event => {
       }
     },
   )
+
+  event.shaped('mekanism:solar_neutron_activator', 
+  [
+      " A ",
+      "BCB",
+      "DED"
+    ],
+    {
+      "A": {
+        "item": "mekanismgenerators:solar_generator"
+      },
+      "B": {
+        "item": "mekanism:elite_control_circuit"
+      },
+      "C": {
+        "item": "industrialforegoing:machine_frame_advanced"
+      },
+      "D": {
+        "item": "kubejs:composite_mechanical_component"
+      },
+      "E": {
+        "item": "mekanism:elite_chemical_tank"
+      }
+    }
+  
+  )
+
+  event.shaped('industrialforegoing:mob_slaughter_factory',
+  [
+      "ABA",
+      "CDC",
+      "AEA"
+  ],
+  {
+      "A": {
+        "item": "mekanism:hdpe_sheet"
+      },
+      "B": {
+        "item": "kubejs:animal_flesh"
+      },
+      "C": {
+        "item": "mekanism:advanced_chemical_tank"
+      },
+      "D": {
+        "item": "industrialforegoing:machine_frame_advanced"
+      },
+      "E": {
+        "item": "mekanism:elite_control_circuit"
+      }
+    },
+  )
+
+  event.shaped('kubejs:animal_flesh',
+  [
+      " A ",
+      "BCD",
+      " E "
+  ],
+  {
+      "A": {
+        "item": "immersiveengineering:windmill_blade"
+      },
+      "B": {
+        "item": "farmersdelight:netherite_knife"
+      },
+      "C": {
+        "item": "thermal:saw_blade"
+      },
+      "D": {
+        "item": "minecraft:netherite_sword"
+      },
+      "E": {
+        "item": "pneumaticcraft:turbine_blade"
+      }
+    },
+  )
   
 })

@@ -14,6 +14,9 @@ onEvent('recipes', event => {
 		energy: 4000
 	})
 
-
+	event.recipes.thermal.pulverizer(
+		Item.of('kubejs:chromatic_dust'), 
+		Item.of('createchromaticreturn:chromatic_compound')
+	).energy(2000)
 })
 

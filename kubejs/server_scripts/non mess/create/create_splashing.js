@@ -22,5 +22,13 @@ onEvent('recipes', event => {
 		]
 	})
 
-
+	event.custom({
+		type: 'create:splashing',
+		ingredients: [
+			Ingredient.of('kubejs:pressurized_machine_frame').toJson(),
+		],
+		results: [
+			Item.of('industrialforegoing:machine_frame_supreme').toJson(),
+		]
+	})
 })

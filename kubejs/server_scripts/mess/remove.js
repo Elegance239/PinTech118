@@ -156,6 +156,9 @@ let SD = (id) => 'storagedrawers:'+id
         'mekanismgenerators:control_rod_assembly',
         'mekanismgenerators:fission_fuel_assembly',
         'mekanism:alloy_atomic',
+        'mekanism:pellet_plutonium',
+        'mekanism:pellet_polonium',
+        'industrialforegoing:machine_frame_supreme',
     ]
 
     removeid.forEach(item => {
@@ -194,7 +197,8 @@ let SD = (id) => 'storagedrawers:'+id
         'tconstruct:smeltery/alloys/molten_obsidian',
         'create:crushing/obsidian',
         'thermal:machines/smelter/smelter_alloy_enderium',
-        'mekanism:control_circuit/basic'
+        'mekanism:control_circuit/basic',
+        'createchromaticreturn:refined_mixture_recipe',
     ]
 
     recipeId.forEach(item => {
