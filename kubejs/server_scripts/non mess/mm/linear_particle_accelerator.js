@@ -11,7 +11,7 @@ function MMIngredient(item, count) {
 
 onEvent("mm.recipes", event => {
     event.build("mm:supersymmetric_particles", {
-        duration: 100,
+        duration: 1200,
         structureId: "namespace:linear_particle_accelerator",
         name: {
             text: "Synthesizing: Supersymmetric Particles"

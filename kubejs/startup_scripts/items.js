@@ -101,4 +101,7 @@ onEvent('item.registry', event => {
 	event.create('superalloy_capsule').displayName('Superalloy Capsule')
 	event.create('plutonium_superalloy').displayName('Plutonium Superalloy').rarity('uncommon')
 	event.create('plutonium_superalloy_plate').displayName('Plutonium Superalloy Plate').rarity('uncommon')
+	event.create('ion_trap').displayName('Ion Trap')
+	event.create('superconducting_circuit').displayName('Superconducting Circuit')
+	event.create('quantum_core').displayName('Quantum Core')
 })
