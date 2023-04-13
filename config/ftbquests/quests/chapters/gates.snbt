@@ -1387,7 +1387,6 @@
 			}]
 		}
 		{
-			title: "Quantum Control Circuit"
 			x: 59.0d
 			y: 6.0d
 			dependencies: ["3B5D6DF191E57D10"]
@@ -1395,7 +1394,7 @@
 			tasks: [{
 				id: "100690B71FF859BB"
 				type: "item"
-				item: "advgenerators:controller"
+				item: "kubejs:quantum_computer"
 			}]
 		}
 		{
@@ -1597,7 +1596,7 @@
 			tasks: [{
 				id: "6C1E1F4A68A6F49E"
 				type: "item"
-				item: "extendedcrafting:the_ultimate_ingot"
+				item: "kubejs:supersymmetric_alloy"
 			}]
 		}
 		{
@@ -1655,7 +1654,7 @@
 			tasks: [{
 				id: "0007AA16A7EAFE5A"
 				type: "item"
-				item: "mekanism:elite_control_circuit"
+				item: "kubejs:superconducting_circuit"
 			}]
 		}
 		{
@@ -1696,7 +1695,7 @@
 			tasks: [{
 				id: "39EAE693409BF411"
 				type: "item"
-				item: "mekanism:pellet_plutonium"
+				item: "kubejs:activated_ion_trap"
 			}]
 		}
 		{
@@ -1711,7 +1710,7 @@
 			tasks: [{
 				id: "2688337434785324"
 				type: "item"
-				item: "fluxnetworks:flux_core"
+				item: "kubejs:quantum_cpu"
 			}]
 		}
 		{

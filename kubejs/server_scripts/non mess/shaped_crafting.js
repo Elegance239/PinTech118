@@ -461,7 +461,7 @@ onEvent('recipes', event => {
         "item": "kubejs:cooling_system"
       },
       "E": {
-        "item": "thermal:laser_diode"
+        "item": "kubejs:laser_array"
       }
     },
   )
@@ -721,7 +721,7 @@ onEvent('recipes', event => {
         "item": "mekanism:elite_control_circuit"
       },
       "B": {
-        "item": "kubejs:superconductor"
+        "item": "kubejs:superconducting_wire"
       },
       "C": {
         "item": "industrialforegoing:machine_frame_advanced"
@@ -732,13 +732,13 @@ onEvent('recipes', event => {
     },
   )
 
-  event.shaped('2x mekanismgenerators:fission_fuel_assembly', 
-  [
+  event.shaped('2x mekanismgenerators:fission_fuel_assembly',
+    [
       "AAA",
       "ABA",
       "ACA"
-  ],
-   {
+    ],
+    {
       "A": {
         "item": "thermal_extra:polarium_plate"
       },
@@ -772,13 +772,13 @@ onEvent('recipes', event => {
   )
 
 
-  event.shaped('mekanismgenerators:control_rod_assembly', 
-  [
+  event.shaped('mekanismgenerators:control_rod_assembly',
+    [
       "ABA",
       "BCB",
       "ABA"
-  ],
-  {
+    ],
+    {
       "A": {
         "item": "thermal_extra:polarium_plate"
       },
@@ -791,8 +791,8 @@ onEvent('recipes', event => {
     },
   )
 
-  event.shaped('mekanism:solar_neutron_activator', 
-  [
+  event.shaped('mekanism:solar_neutron_activator',
+    [
       " A ",
       "BCB",
       "DED"
@@ -814,16 +814,16 @@ onEvent('recipes', event => {
         "item": "mekanism:elite_chemical_tank"
       }
     }
-  
+
   )
 
   event.shaped('industrialforegoing:mob_slaughter_factory',
-  [
+    [
       "ABA",
       "CDC",
       "AEA"
-  ],
-  {
+    ],
+    {
       "A": {
         "item": "mekanism:hdpe_sheet"
       },
@@ -843,12 +843,12 @@ onEvent('recipes', event => {
   )
 
   event.shaped('kubejs:animal_flesh',
-  [
+    [
       " A ",
       "BCD",
       " E "
-  ],
-  {
+    ],
+    {
       "A": {
         "item": "immersiveengineering:windmill_blade"
       },
@@ -866,5 +866,22 @@ onEvent('recipes', event => {
       }
     },
   )
-  
+
+  event.shaped('kubejs:laser_array',
+    ["ABA",
+      "ACA",
+      "   "],
+    {
+      "A": {
+        "item": "thermal:laser_diode"
+      },
+      "B": {
+        "item": "industrialforegoing:laser_lens0"
+      },
+      "C": {
+        "item": "mekanism:advanced_control_circuit"
+      }
+    },
+  )
+
 })

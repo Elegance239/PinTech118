@@ -116,7 +116,7 @@ onEvent("mm.recipes", event => {
                     amount: 500
                 }
             },
-            MMIngredient("kubejs:superconductor",1),
+            MMIngredient("kubejs:superconducting_wire",1),
             MMIngredient("kubejs:advanced_component",3),
             MMIngredient("kubejs:cooling_system",2),
             MMIngredient("mekanism:elite_control_circuit",1),

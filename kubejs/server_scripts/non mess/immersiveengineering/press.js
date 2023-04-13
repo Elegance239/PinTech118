@@ -5,4 +5,6 @@ onEvent('recipes', event => {
 
     event.recipes.immersiveengineeringMetalPress('kubejs:plutonium_superalloy_plate', 'kubejs:plutonium_superalloy', 'immersiveengineering:mold_plate')
 
+    event.recipes.immersiveengineeringMetalPress('kubejs:superconducting_wire', 'kubejs:superconductor', 'immersiveengineering:mold_wire')
+
 })

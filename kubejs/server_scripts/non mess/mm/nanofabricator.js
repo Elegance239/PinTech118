@@ -10,6 +10,33 @@ function MMIngredient(item, count) {
   }
 
 onEvent("mm.recipes", event => {
+    /* ***** UNIQUE RECIPES ***** */
+    event.build("mm:ion_trap_n", {
+        duration: 200,
+        structureId: "namespace:nanofabricator",
+        name: {
+            text: "Assembling: Ion Trap"
+        },
+        inputs: [
+            {
+                type: "mm:per_tick",
+                ingredient: {
+                    type: "mm:energy",
+                    amount: 1000
+                }
+            },
+            MMIngredient("immersiveengineering:stick_aluminum", 3),
+            MMIngredient("thermal:rf_coil", 1),
+            MMIngredient("kubejs:laser_array", 2),
+            MMIngredient("kubejs:advanced_component", 1),
+        ],
+        outputs: [
+            MMIngredient("kubejs:ion_trap", 1),
+        ]
+    })
+
+
+    /* ***** MULTI-ASSEMBLER UPGRADES ***** */ 
     event.build("mm:advanced_machine_frame_n", {
         duration: 300,
         structureId: "namespace:nanofabricator",
@@ -116,7 +143,7 @@ onEvent("mm.recipes", event => {
                     amount: 1000
                 }
             },
-            MMIngredient("kubejs:superconductor",1),
+            MMIngredient("kubejs:superconducting_wire",1),
             MMIngredient("kubejs:advanced_component",3),
             MMIngredient("kubejs:cooling_system",2),
             MMIngredient("mekanism:elite_control_circuit",1),
@@ -174,6 +201,12 @@ onEvent("mm.recipes", event => {
             MMIngredient("mekanism:elite_control_circuit",1)
         ]
     })
+
+
+
+
+
+
 
 
 })

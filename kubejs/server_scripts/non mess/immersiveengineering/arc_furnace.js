@@ -47,4 +47,13 @@ onEvent('recipes', event => {
         "results":[{"item":'kubejs:porous_enderium_dust'}],
         "time":400
     })
+
+    event.custom({
+        "type":"immersiveengineering:arc_furnace",
+        "additives":[{item:'kubejs:graphene', count:2},{item:'minecraft:diamond', count:2}, {item:'minecraft:netherite_ingot', count:1}],
+        "energy":409600,
+        "input":{item:'kubejs:supersymmetric_particles'},
+        "results":[{"item":'kubejs:supersymmetric_alloy'}],
+        "time":400
+    })
 })

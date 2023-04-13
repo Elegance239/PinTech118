@@ -258,5 +258,44 @@ onEvent('recipes', event => {
 		},
 		"processingTime": 300
 	  })
+
+
+	  event.custom({
+		"type": "industrialforegoing:dissolution_chamber",
+		"input": [
+		  {
+			"item": 'kubejs:conductive_polymer'
+		  },
+		  {
+			"item": 'extrastorage:neural_processor'
+		  },
+		  {
+			"item": 'extrastorage:neural_processor'
+		  },
+		  {
+			"item": 'extrastorage:neural_processor'
+		  },
+		  {
+			"item": "pneumaticcraft:printed_circuit_board"
+		  },
+		  {
+			"item": "pneumaticcraft:printed_circuit_board"
+		  },
+		  {
+			"item": "kubejs:superconducting_wire"
+		  },
+		  {
+			"item": "kubejs:cooling_system"
+		  },
+		  
+
+		],
+		"inputFluid": "{Amount:180,FluidName:\"tconstruct:molten_refined_glowstone\"}",
+		"output": {
+		  "count": 1,
+		  "item": "kubejs:superconducting_circuit"
+		},
+		"processingTime": 300
+	  })
 })
 
