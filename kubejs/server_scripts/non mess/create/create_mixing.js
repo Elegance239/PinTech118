@@ -110,7 +110,7 @@ onEvent('recipes', event => {
 
 	event.recipes.create.mixing(
 		Fluid.of('thermal_extra:nectium', 500),
-		[Fluid.of('tconstruct:molten_refined_glowstone', 1000), Fluid.of('tconstruct:molten_refined_glowstone', 90)]
+		[Fluid.of('tconstruct:molten_refined_glowstone', 1000), Fluid.of('tconstruct:molten_lumium', 90)]
 	)
 
 	event.recipes.create.mixing(
