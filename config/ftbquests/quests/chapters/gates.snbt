@@ -1974,6 +1974,17 @@
 				item: "mekanism:antiprotonic_nucleosynthesizer"
 			}]
 		}
+		{
+			x: 7.5d
+			y: 1.0d
+			dependencies: ["0583DD57DFA0EFB8"]
+			id: "09CF7C86BFBAD526"
+			tasks: [{
+				id: "5672231D4D8149B6"
+				type: "item"
+				item: "advgenerators:turbine_rotor_tier1"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

@@ -209,6 +209,7 @@ onEvent('recipes', event => {
 		]
 	})
 
+
 	event.custom({
 		type: "pneumaticcraft:pressure_chamber",
 		inputs: [
@@ -233,4 +234,30 @@ onEvent('recipes', event => {
 		]
 	})
 
+	event.custom({
+		type: "pneumaticcraft:pressure_chamber",
+		inputs: [
+		  Item.of('minecraft:netherite_ingot').toJson(),
+		  {
+			"type": "pneumaticcraft:stacked_item",
+			"count": 3,
+			"item": "mekanism:ingot_refined_obsidian"
+		  },
+		  {
+			"type": "pneumaticcraft:stacked_item",
+			"count": 3,
+			"item": "kubejs:conductive_polymer"
+		  },
+		  {
+			"type": "pneumaticcraft:stacked_item",
+			"count": 5,
+			"item": "immersiveengineering:plate_aluminum"
+		  },
+		  Item.of('kubejs:advanced_processor_bundle').toJson(),
+		],
+		pressure: 3,
+		results: [
+		  Item.of('kubejs:quantum_cpu_package').toJson(),
+		]
+	})
 })

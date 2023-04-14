@@ -61,4 +61,18 @@ onEvent('recipes', event => {
         }
     })
 
+    event.custom({
+        type: "pneumaticcraft:assembly_laser",
+        input: {
+            item: 'kubejs:compressed_iron_plate',
+        },
+        program: "laser",
+        result: 		  {
+			"type": "pneumaticcraft:stacked_item",
+			"count": 2,
+			"item": "advgenerators:iron_frame"
+		  },
+
+    })
+
 })

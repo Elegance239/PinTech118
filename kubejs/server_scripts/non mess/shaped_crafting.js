@@ -883,5 +883,193 @@ onEvent('recipes', event => {
       }
     },
   )
+  event.shaped('kubejs:quantum_computer',
+    ["ABA",
+      "CDC",
+      "ABA"],
+    {
+      "A": {
+        "item": "thermal_extra:polarium_plate"
+      },
+      "B": {
+        "item": "kubejs:conductive_polymer"
+      },
+      "C": {
+        "item": "kubejs:quantum_cpu"
+      },
+      "D": {
+        "item": "thermal:upgrade_augment_3"
+      }
+    },
+  )
 
+  event.shaped('8x advgenerators:iron_tubing',
+    [" A ",
+      "ABA",
+      " A "],
+    {
+      "A": {
+        "item": "immersiveengineering:wire_steel"
+      },
+      "B": {
+        "item": "kubejs:compressed_iron_rod"
+      }
+    },
+  )
+
+  event.shaped('2x advgenerators:turbine_blade',
+    ["AAB", "AAB", "  B"],
+    {
+      "A": {
+        "item": "thermal:invar_plate"
+      },
+      "B": {
+        "item": "kubejs:compressed_iron_rod"
+      }
+    },
+  )
+
+  event.shaped('advgenerators:turbine_rotor_tier1',
+    ["AAA", "ABA", "AAA"],
+    {
+      "A": {
+        "item": "advgenerators:turbine_blade"
+      },
+      "B": {
+        "item": "immersiveengineering:component_steel"
+      }
+    },
+  )
+
+  event.shaped('advgenerators:turbine_rotor_tier2',
+    ["AAA", "BCB", "AAA"],
+    {
+      "A": {
+        "item": "mekanism:alloy_infused"
+      },
+      "B": {
+        "item": "thermal:invar_gear"
+      },
+      "C": {
+        "item": "advgenerators:turbine_rotor_tier1"
+      }
+    },
+  )
+
+  event.shaped('advgenerators:turbine_rotor_tier3',
+    ["ABA", "CDC", "AAA"],
+    {
+      "A": {
+        "item": "immersiveengineering:plate_aluminum"
+      },
+      "B": {
+        "item": "kubejs:composite_mechanical_component"
+      },
+      "C": {
+        "item": "mekanism:hdpe_sheet"
+      },
+      "D": {
+        "item": "advgenerators:turbine_rotor_tier2"
+      }
+    },
+  )
+
+  event.shaped('advgenerators:turbine_rotor_tier4',
+    ["ABA", "ACA", "ABA"],
+    {
+      "A": {
+        "item": "mekanism:ingot_refined_obsidian"
+      },
+      "B": {
+        "item": "kubejs:composite_mechanical_component"
+      },
+      "C": {
+        "item": "advgenerators:turbine_rotor_tier3"
+      }
+    },
+  )
+
+  event.shaped('advgenerators:turbine_rotor_tier5',
+    ["ABA", "ACA", "AAA"],
+    {
+      "A": {
+        "item": "thermal_extra:polarium_plate"
+      },
+      "B": {
+        "item": "thermal:enderium_gear"
+      },
+      "C": {
+        "item": "advgenerators:turbine_rotor_tier4"
+      }
+    },
+  )
+
+  event.shaped('advgenerators:controller',
+    ["ABA", "BCB", "ABA"],
+    {
+    "A": {
+        "item": "advgenerators:iron_frame"
+    },
+    "B": {
+        "item": "mekanism:advanced_control_circuit"
+    },
+    "C": {
+        "item": "kubejs:improved_processor_bundle"
+    }
+},
+)
+
+event.shaped("advgenerators:efficiency_upgrade_tier1",
+    ["ABA", "CDE", "ABA"],
+    {
+    "A": {
+        "item": "advgenerators:iron_frame"
+    },
+    "B": {
+        "item": "advgenerators:turbine_rotor_tier3"
+    },
+    "C": {
+        "item": "advgenerators:pressure_valve"
+    },
+    "D": {
+        "item": "industrialforegoing:machine_frame_simple"
+    },
+    "E": {
+        "item": "immersiveengineering:heavy_engineering"
+    }
+},
+)
+
+event.shaped('advgenerators:advanced_pressure_valve',
+    ["ABA", "CBC", "ABA"],
+    {
+    "A": {
+        "item": "thermal_extra:polarium_plate"
+    },
+    "B": {
+        "item": "kubejs:composite_mechanical_component"
+    },
+    "C": {
+        "item": "thermal:netherite_plate"
+    }
+},
+)
+
+event.shaped("advgenerators:efficiency_upgrade_tier2",
+    ["ABA", "CDC", "ABA"],
+    {
+    "A": {
+        "item": "mekanism:ingot_refined_obsidian"
+    },
+    "B": {
+        "item": "kubejs:cooling_system"
+    },
+    "C": {
+        "item": "advgenerators:advanced_pressure_valve"
+    },
+    "D": {
+        "item": "industrialforegoing:machine_frame_advanced"
+    }
+},
+)
 })

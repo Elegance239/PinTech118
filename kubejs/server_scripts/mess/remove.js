@@ -159,6 +159,19 @@ let SD = (id) => 'storagedrawers:'+id
         'mekanism:pellet_plutonium',
         'mekanism:pellet_polonium',
         'industrialforegoing:machine_frame_supreme',
+        "advgenerators:iron_tubing",
+        "advgenerators:iron_wiring",
+        "advgenerators:controller",
+        "advgenerators:iron_frame",
+        "advgenerators:turbine_rotor_tier1",
+        "advgenerators:turbine_rotor_tier2",
+        "advgenerators:turbine_rotor_tier3",
+        "advgenerators:turbine_rotor_tier4",
+        "advgenerators:turbine_rotor_tier5",
+        "advgenerators:turbine_blade",
+        "advgenerators:efficiency_upgrade_tier1",
+        "advgenerators:efficiency_upgrade_tier2",
+        "advgenerators:advanced_pressure_valve",
     ]
 
     removeid.forEach(item => {

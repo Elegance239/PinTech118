@@ -109,4 +109,6 @@ onEvent('item.registry', event => {
 	event.create('quantum_cpu_package').displayName('Quantum CPU Package')
 	event.create('quantum_computer').displayName('Quantum Computer')
 	event.create('laser_array').displayName('Laser Array')
+	event.create('neutronium').displayName('Neutronium').glow(true)
+	event.create('neutronium_plate').displayName('Neutronium Plate').glow(true)
 })

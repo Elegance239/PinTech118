@@ -50,7 +50,7 @@ onEvent('recipes', event => {
 
     event.custom({
         "type":"immersiveengineering:arc_furnace",
-        "additives":[{item:'kubejs:graphene', count:2},{item:'minecraft:diamond', count:2}, {item:'minecraft:netherite_ingot', count:1}],
+        "additives":[{item:'kubejs:graphene', count:4},{item:'minecraft:diamond', count:3}, {item:'minecraft:netherite_ingot', count:1}],
         "energy":409600,
         "input":{item:'kubejs:supersymmetric_particles'},
         "results":[{"item":'kubejs:supersymmetric_alloy'}],

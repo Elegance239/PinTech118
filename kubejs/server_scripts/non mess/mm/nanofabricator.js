@@ -35,6 +35,31 @@ onEvent("mm.recipes", event => {
         ]
     })
 
+    event.build("mm:quantum_cpu_n", {
+        duration: 500,
+        structureId: "namespace:nanofabricator",
+        name: {
+            text: "Assembling: Quantum CPU"
+        },
+        inputs: [
+            {
+                type: "mm:per_tick",
+                ingredient: {
+                    type: "mm:energy",
+                    amount: 1000
+                }
+            },
+            MMIngredient("kubejs:supersymmetric_alloy", 1),
+            MMIngredient("mekanism:elite_control_circuit", 1),
+            MMIngredient("kubejs:activated_ion_trap", 4),
+            MMIngredient("kubejs:superconducting_circuit", 3),
+            MMIngredient("kubejs:quantum_cpu_package", 1),
+        ],
+        outputs: [
+            MMIngredient("kubejs:quantum_cpu", 1),
+        ]
+    })
+
 
     /* ***** MULTI-ASSEMBLER UPGRADES ***** */ 
     event.build("mm:advanced_machine_frame_n", {
