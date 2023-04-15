@@ -37,5 +37,18 @@ onEvent('recipes', event => {
 		],
 		energy: 80000,
 	})
+	event.custom({
+		type: 'thermal:smelter',
+		ingredients:[
+			{ item: 'kubejs:reinforced_alloy_base', count:3},
+			Ingredient.of('kubejs:reinforcement_catalyst').toJson(),
+		],
+		results: [
+			{ item: 'mekanism:alloy_reinforced', count:3},
+			Ingredient.of('kubejs:contaminated_reinforcement_catalyst').toJson(),
+		],
+		energy: 8000,
+	})
+	
 
 })

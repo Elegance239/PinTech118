@@ -126,6 +126,15 @@ onEvent('fluid.registry', event => {
   	.luminosity(0)
 })
 
+onEvent('fluid.registry', event => {
+	event.create('molten_compressed_iron')
+    .thickTexture(0x515253)
+    .bucketColor(0x515253)
+    .displayName('Molten Compressed Iron')
+  	.luminosity(0)
+})
+
+
 /* onEvent('fluid.registry', event => {
 	event.create('radiant_gas')
     .stillTexture('kubejs:block/radiant_gas')

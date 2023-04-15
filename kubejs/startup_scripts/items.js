@@ -113,4 +113,9 @@ onEvent('item.registry', event => {
 	event.create('neutronium_plate').displayName('Neutronium Plate').glow(true)
 	event.create('neoclydium_diode').displayName('Neoclydium Diode').rarity('epic').texture('kubejs:item/neoclydium_diode')
 	event.create('neoclydium_wire').displayName('Neoclydium Wire').rarity('epic').texture('kubejs:item/neoclydium_wire')
+	event.create('argentite').displayName('Argentite')
+	event.create('crushed_argentite').displayName('Crushed Argentite')
+	event.create('zinc_chromate').displayName('Zinc Chromate')
+	event.create('reinforced_alloy_base').displayName('Reinforced Alloy Base')
+
 })

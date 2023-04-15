@@ -172,6 +172,10 @@ let SD = (id) => 'storagedrawers:'+id
         "advgenerators:efficiency_upgrade_tier1",
         "advgenerators:efficiency_upgrade_tier2",
         "advgenerators:advanced_pressure_valve",
+        "advgenerators:turbine_kit_tier2",
+        "advgenerators:turbine_kit_tier3",
+        "advgenerators:turbine_kit_tier4",
+        "advgenerators:turbine_kit_tier5",
         'mekanism:ultimate_control_circuit',
         'mekanism:supercharged_coil',
         'mekanism:antiprotonic_nucleosynthesizer',
@@ -215,6 +219,7 @@ let SD = (id) => 'storagedrawers:'+id
         'thermal:machines/smelter/smelter_alloy_enderium',
         'mekanism:control_circuit/basic',
         'createchromaticreturn:refined_mixture_recipe',
+        'mekanism:metallurgic_infusing/alloy/reinforced'
     ]
 
     recipeId.forEach(item => {

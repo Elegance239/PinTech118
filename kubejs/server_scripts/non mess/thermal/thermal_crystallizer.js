@@ -88,5 +88,20 @@ onEvent('recipes', event => {
 
 		energy: 600
 	})
+
+	event.custom({
+		type: 'thermal:crystallizer',
+		ingredients: [
+
+            { amount: 90, fluid: 'kubejs:molten_compressed_iron', nbt: {}},
+			{ item: 'mekanism:alloy_infused', count:2},
+			{ item: 'kubejs:aqueous_ingot', count:2}
+		],
+		results: [
+            { item: 'kubejs:reinforced_alloy_base', count:1},
+		],
+
+		energy: 3000
+	})
 })
 

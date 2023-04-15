@@ -127,6 +127,46 @@
 				item: "immersiveengineering:diesel_generator"
 			}]
 		}
+		{
+			x: 1.5d
+			y: 1.0d
+			id: "057CA64DEE929197"
+			tasks: [{
+				id: "545D031FC9E890C8"
+				type: "item"
+				item: "advgenerators:turbine_rotor_tier1"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			id: "6C094E27C4F4D052"
+			tasks: [{
+				id: "61D9D1A2441053DC"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.5d
+			id: "59C777019C601D40"
+			tasks: [{
+				id: "1C0329B431438F08"
+				type: "item"
+				item: "thermal:redstone_servo"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			id: "6282EB64C3A8BE60"
+			tasks: [{
+				id: "613804F3C1721495"
+				type: "item"
+				item: "thermal:rf_coil"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

@@ -56,4 +56,12 @@ onEvent('recipes', event => {
         "results":[{"item":'kubejs:supersymmetric_alloy'}],
         "time":400
     })
+    event.custom({
+        "type":"immersiveengineering:arc_furnace",
+        "additives":[{item:'minecraft:copper_ingot', count:8},{item:'mekanism:alloy_infused', count:3}, {item:'mekanism:enriched_redstone', count:3}],
+        "energy":102400,
+        "input":{item:'mekanism:dust_refined_obsidian'},
+        "results":[{"item":'thermal:signalum_ingot'}],
+        "time":200
+    })
 })

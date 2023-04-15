@@ -45,7 +45,7 @@ onEvent("mm.recipes", event => {
                     amount: 15000000
                 }
             },
-            MMIngredient("thermal:osmium_dust", 32)
+            MMIngredient("mekanism:dust_osmium", 32)
         ],
         outputs: [
             MMIngredient("kubejs:neutronium", 1)

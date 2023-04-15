@@ -956,6 +956,21 @@ onEvent('recipes', event => {
     },
   )
 
+  event.shaped('advgenerators:turbine_kit_tier2',
+  ["AAA", "BCB", "AAA"],
+  {
+    "A": {
+      "item": "mekanism:alloy_infused"
+    },
+    "B": {
+      "item": "thermal:invar_gear"
+    },
+    "C": {
+      "item": "advgenerators:upgrade_kit"
+    }
+  },
+)
+
   event.shaped('advgenerators:turbine_rotor_tier3',
     ["ABA", "CDC", "AAA"],
     {
@@ -974,6 +989,24 @@ onEvent('recipes', event => {
     },
   )
 
+  event.shaped('advgenerators:turbine_kit_tier3',
+  ["ABA", "CDC", "AAA"],
+  {
+    "A": {
+      "item": "immersiveengineering:plate_aluminum"
+    },
+    "B": {
+      "item": "kubejs:composite_mechanical_component"
+    },
+    "C": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "D": {
+      "item": "advgenerators:upgrade_kit"
+    }
+  },
+)
+
   event.shaped('advgenerators:turbine_rotor_tier4',
     ["ABA", "ACA", "ABA"],
     {
@@ -989,6 +1022,21 @@ onEvent('recipes', event => {
     },
   )
 
+  event.shaped('advgenerators:turbine_kit_tier4',
+  ["ABA", "ACA", "ABA"],
+  {
+    "A": {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    "B": {
+      "item": "kubejs:composite_mechanical_component"
+    },
+    "C": {
+      "item": "advgenerators:upgrade_kit"
+    }
+  },
+)
+
   event.shaped('advgenerators:turbine_rotor_tier5',
     ["ABA", "ACA", "AAA"],
     {
@@ -1003,6 +1051,21 @@ onEvent('recipes', event => {
       }
     },
   )
+
+  event.shaped('advgenerators:turbine_kit_tier5',
+  ["ABA", "ACA", "AAA"],
+  {
+    "A": {
+      "item": "thermal_extra:polarium_plate"
+    },
+    "B": {
+      "item": "thermal:enderium_gear"
+    },
+    "C": {
+      "item": "advgenerators:upgrade_kit"
+    }
+  },
+)
 
   event.shaped('advgenerators:controller',
     ["ABA", "BCB", "ABA"],
@@ -1040,8 +1103,8 @@ onEvent('recipes', event => {
     },
   )
 
-  event.shaped('advgenerators:advanced_pressure_valve',
-    ["ABA", "CBC", "ABA"],
+event.shaped('advgenerators:advanced_pressure_valve',
+    ["ABA", "CDC", "ABA"],
     {
       "A": {
         "item": "thermal_extra:polarium_plate"
@@ -1051,9 +1114,12 @@ onEvent('recipes', event => {
       },
       "C": {
         "item": "thermal:netherite_plate"
-      }
     },
-  )
+    "D": {
+      "item": "mekanism:elite_control_circuit"
+  },
+},
+)
 
   event.shaped("advgenerators:efficiency_upgrade_tier2",
     ["ABA", "CDC", "ABA"],

@@ -38,7 +38,7 @@
 			}]
 		}
 		{
-			x: -10.0d
+			x: -9.5d
 			y: 8.5d
 			id: "60D31A84AF30CD9B"
 			tasks: [{
@@ -798,7 +798,7 @@
 		}
 		{
 			x: -4.5d
-			y: 27.5d
+			y: 29.0d
 			id: "23C6D47F2A150D70"
 			tasks: [{
 				id: "5E0ECE424AC0AC62"
@@ -808,7 +808,7 @@
 		}
 		{
 			x: -4.5d
-			y: 30.0d
+			y: 33.0d
 			id: "6DC0CE66F2223418"
 			tasks: [{
 				id: "71C79382E32F8073"
@@ -818,7 +818,7 @@
 		}
 		{
 			x: -4.5d
-			y: 32.5d
+			y: 36.5d
 			id: "4530988015A8BF9C"
 			tasks: [{
 				id: "2BAC82714B455EE5"
@@ -828,12 +828,152 @@
 		}
 		{
 			x: -4.5d
-			y: 35.0d
+			y: 40.5d
 			id: "033CBC6C7D796FFE"
 			tasks: [{
 				id: "486DC59FE49038F7"
 				type: "item"
 				item: "minecraft:netherite_scrap"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 29.0d
+			id: "167A9384D4496DFD"
+			tasks: [{
+				id: "4BFC8C6BE4D136D3"
+				type: "item"
+				item: "minecraft:brick"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 33.0d
+			id: "55AF9271152302B7"
+			tasks: [{
+				id: "2494A3ED6CF4CC8D"
+				type: "item"
+				item: "minecraft:coal"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 36.5d
+			id: "0B4F69A20EACA134"
+			tasks: [{
+				id: "0EE2D7D2B8E8CA31"
+				type: "item"
+				item: "kubejs:graphene"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 28.0d
+			id: "1B17DCED81A9ADD4"
+			tasks: [{
+				id: "65D5917F48DEB060"
+				type: "item"
+				item: "minecraft:granite"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 30.0d
+			id: "412AE546CE40ADD8"
+			tasks: [{
+				id: "4266A163E3D088A3"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 41.0d
+			id: "46DF4B91D2D688EB"
+			tasks: [{
+				id: "715E0F81908AC4B6"
+				type: "item"
+				item: "minecraft:blackstone"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 40.0d
+			id: "7F82816A70E0033E"
+			tasks: [{
+				id: "5CD03F71A27C7897"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 25.0d
+			id: "0CCD2EF95CBEC127"
+			tasks: [{
+				id: "320E55000F86A84F"
+				type: "item"
+				item: "thermal:glowstone_bucket"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 26.0d
+			id: "6A0CE4B2A8CAFB81"
+			tasks: [{
+				id: "1438977E5103E7B3"
+				type: "item"
+				item: "minecraft:netherrack"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 24.0d
+			id: "50BC64399756D831"
+			tasks: [{
+				id: "711972034E813189"
+				type: "item"
+				item: "createchromaticreturn:glowing_ingot"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 11.5d
+			id: "21A5A5B76E278129"
+			tasks: [{
+				id: "1C3ED6092059764F"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 29.0d
+			id: "149EDC7F789D5170"
+			tasks: [{
+				id: "0D8E8AC53DF33FDE"
+				type: "item"
+				item: "mekanism:chemical_oxidizer"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 35.5d
+			id: "1275849534EC9281"
+			tasks: [{
+				id: "4E4217BE0971B44B"
+				type: "item"
+				item: "mekanism:hydrogen_bucket"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 37.5d
+			id: "237E2CD71D5D05DB"
+			tasks: [{
+				id: "0FCD3084E6C935A1"
+				type: "item"
+				item: "mekanism:ethene_bucket"
 			}]
 		}
 	]
