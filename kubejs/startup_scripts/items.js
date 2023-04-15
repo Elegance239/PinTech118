@@ -111,4 +111,6 @@ onEvent('item.registry', event => {
 	event.create('laser_array').displayName('Laser Array')
 	event.create('neutronium').displayName('Neutronium').glow(true)
 	event.create('neutronium_plate').displayName('Neutronium Plate').glow(true)
+	event.create('neoclydium_diode').displayName('Neoclydium Diode').rarity('epic').texture('kubejs:item/neoclydium_diode')
+	event.create('neoclydium_wire').displayName('Neoclydium Wire').rarity('epic').texture('kubejs:item/neoclydium_wire')
 })

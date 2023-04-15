@@ -172,7 +172,10 @@ let SD = (id) => 'storagedrawers:'+id
         "advgenerators:efficiency_upgrade_tier1",
         "advgenerators:efficiency_upgrade_tier2",
         "advgenerators:advanced_pressure_valve",
-    ]
+        'mekanism:ultimate_control_circuit',
+        'mekanism:supercharged_coil',
+        'mekanism:antiprotonic_nucleosynthesizer',
+    ]                                               
 
     removeid.forEach(item => {
         event.remove({output: item})

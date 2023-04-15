@@ -1007,69 +1007,160 @@ onEvent('recipes', event => {
   event.shaped('advgenerators:controller',
     ["ABA", "BCB", "ABA"],
     {
-    "A": {
+      "A": {
         "item": "advgenerators:iron_frame"
-    },
-    "B": {
+      },
+      "B": {
         "item": "mekanism:advanced_control_circuit"
-    },
-    "C": {
+      },
+      "C": {
         "item": "kubejs:improved_processor_bundle"
-    }
-},
-)
+      }
+    },
+  )
 
-event.shaped("advgenerators:efficiency_upgrade_tier1",
+  event.shaped("advgenerators:efficiency_upgrade_tier1",
     ["ABA", "CDE", "ABA"],
     {
-    "A": {
+      "A": {
         "item": "advgenerators:iron_frame"
-    },
-    "B": {
+      },
+      "B": {
         "item": "advgenerators:turbine_rotor_tier3"
-    },
-    "C": {
+      },
+      "C": {
         "item": "advgenerators:pressure_valve"
-    },
-    "D": {
+      },
+      "D": {
         "item": "industrialforegoing:machine_frame_simple"
-    },
-    "E": {
+      },
+      "E": {
         "item": "immersiveengineering:heavy_engineering"
-    }
-},
-)
+      }
+    },
+  )
 
-event.shaped('advgenerators:advanced_pressure_valve',
+  event.shaped('advgenerators:advanced_pressure_valve',
     ["ABA", "CBC", "ABA"],
     {
-    "A": {
+      "A": {
         "item": "thermal_extra:polarium_plate"
-    },
-    "B": {
+      },
+      "B": {
         "item": "kubejs:composite_mechanical_component"
-    },
-    "C": {
+      },
+      "C": {
         "item": "thermal:netherite_plate"
-    }
-},
-)
+      }
+    },
+  )
 
-event.shaped("advgenerators:efficiency_upgrade_tier2",
+  event.shaped("advgenerators:efficiency_upgrade_tier2",
     ["ABA", "CDC", "ABA"],
     {
-    "A": {
+      "A": {
         "item": "mekanism:ingot_refined_obsidian"
-    },
-    "B": {
+      },
+      "B": {
         "item": "kubejs:cooling_system"
-    },
-    "C": {
+      },
+      "C": {
         "item": "advgenerators:advanced_pressure_valve"
-    },
-    "D": {
+      },
+      "D": {
         "item": "industrialforegoing:machine_frame_advanced"
-    }
-},
-)
+      }
+    },
+  )
+
+  event.shaped('kubejs:neoclydium_diode', 
+  [
+      "ABA",
+      "CDC",
+      "E E"
+    ],
+    {
+      "A": {
+        "item": "thermal:lumium_glass"
+      },
+      "B": {
+        "item": "kubejs:neoclydium_ingot_test"
+      },
+      "C": {
+        "item": "thermal_extra:polarium_plate"
+      },
+      "D": {
+        "item": "kubejs:plutonium_superalloy_plate"
+      },
+      "E": {
+        "item": "kubejs:neoclydium_wire"
+      }
+    },
+  )
+
+  event.shaped('mekanism:ultimate_control_circuit', 
+  [
+      "ABA",
+      "CDC",
+      "AEA"
+  ],
+  {
+      "A": {
+        "item": "kubejs:plutonium_superalloy_plate"
+      },
+      "B": {
+        "item": "kubejs:neoclydium_diode"
+      },
+      "C": {
+        "item": "mekanism:alloy_atomic"
+      },
+      "D": {
+        "item": "mekanism:elite_control_circuit"
+      },
+      "E": {
+        "item": "thermal:upgrade_augment_2"
+      }
+    },
+  )
+
+  event.shaped('4x mekanism:sps_casing', 
+  [
+      "ABA",
+      "BCB",
+      "ABA"
+    ],
+    {
+      "A": {
+        "item": "mekanism:hdpe_sheet"
+      },
+      "B": {
+        "item": "kubejs:plutonium_superalloy_plate"
+      },
+      "C": {
+        "item": "industrialforegoing:machine_frame_supreme"
+      }
+    },
+  )
+
+  event.shaped('mekanism:antiprotonic_nucleosynthesizer',
+  [
+      "ABA",
+      "CDC",
+      "ABA"
+  ],
+    {
+      "A": {
+        "item": "kubejs:neutronium_plate"
+      },
+      "B": {
+        "item": "mekanism:hdpe_sheet"
+      },
+      "C": {
+        "item": "mekanism:ultimate_control_circuit"
+      },
+      "D": {
+        "item": "mekanism:chemical_injection_chamber"
+      }
+    },
+  )
 })
