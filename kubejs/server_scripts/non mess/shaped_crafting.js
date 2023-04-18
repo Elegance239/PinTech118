@@ -957,19 +957,19 @@ onEvent('recipes', event => {
   )
 
   event.shaped('advgenerators:turbine_kit_tier2',
-  ["AAA", "BCB", "AAA"],
-  {
-    "A": {
-      "item": "mekanism:alloy_infused"
+    ["AAA", "BCB", "AAA"],
+    {
+      "A": {
+        "item": "mekanism:alloy_infused"
+      },
+      "B": {
+        "item": "thermal:invar_gear"
+      },
+      "C": {
+        "item": "advgenerators:upgrade_kit"
+      }
     },
-    "B": {
-      "item": "thermal:invar_gear"
-    },
-    "C": {
-      "item": "advgenerators:upgrade_kit"
-    }
-  },
-)
+  )
 
   event.shaped('advgenerators:turbine_rotor_tier3',
     ["ABA", "CDC", "AAA"],
@@ -990,22 +990,22 @@ onEvent('recipes', event => {
   )
 
   event.shaped('advgenerators:turbine_kit_tier3',
-  ["ABA", "CDC", "AAA"],
-  {
-    "A": {
-      "item": "immersiveengineering:plate_aluminum"
+    ["ABA", "CDC", "AAA"],
+    {
+      "A": {
+        "item": "immersiveengineering:plate_aluminum"
+      },
+      "B": {
+        "item": "kubejs:composite_mechanical_component"
+      },
+      "C": {
+        "item": "mekanism:hdpe_sheet"
+      },
+      "D": {
+        "item": "advgenerators:upgrade_kit"
+      }
     },
-    "B": {
-      "item": "kubejs:composite_mechanical_component"
-    },
-    "C": {
-      "item": "mekanism:hdpe_sheet"
-    },
-    "D": {
-      "item": "advgenerators:upgrade_kit"
-    }
-  },
-)
+  )
 
   event.shaped('advgenerators:turbine_rotor_tier4',
     ["ABA", "ACA", "ABA"],
@@ -1023,19 +1023,19 @@ onEvent('recipes', event => {
   )
 
   event.shaped('advgenerators:turbine_kit_tier4',
-  ["ABA", "ACA", "ABA"],
-  {
-    "A": {
-      "item": "mekanism:ingot_refined_obsidian"
+    ["ABA", "ACA", "ABA"],
+    {
+      "A": {
+        "item": "mekanism:ingot_refined_obsidian"
+      },
+      "B": {
+        "item": "kubejs:composite_mechanical_component"
+      },
+      "C": {
+        "item": "advgenerators:upgrade_kit"
+      }
     },
-    "B": {
-      "item": "kubejs:composite_mechanical_component"
-    },
-    "C": {
-      "item": "advgenerators:upgrade_kit"
-    }
-  },
-)
+  )
 
   event.shaped('advgenerators:turbine_rotor_tier5',
     ["ABA", "ACA", "AAA"],
@@ -1053,19 +1053,19 @@ onEvent('recipes', event => {
   )
 
   event.shaped('advgenerators:turbine_kit_tier5',
-  ["ABA", "ACA", "AAA"],
-  {
-    "A": {
-      "item": "thermal_extra:polarium_plate"
+    ["ABA", "ACA", "AAA"],
+    {
+      "A": {
+        "item": "thermal_extra:polarium_plate"
+      },
+      "B": {
+        "item": "thermal:enderium_gear"
+      },
+      "C": {
+        "item": "advgenerators:upgrade_kit"
+      }
     },
-    "B": {
-      "item": "thermal:enderium_gear"
-    },
-    "C": {
-      "item": "advgenerators:upgrade_kit"
-    }
-  },
-)
+  )
 
   event.shaped('advgenerators:controller',
     ["ABA", "BCB", "ABA"],
@@ -1103,7 +1103,7 @@ onEvent('recipes', event => {
     },
   )
 
-event.shaped('advgenerators:advanced_pressure_valve',
+  event.shaped('advgenerators:advanced_pressure_valve',
     ["ABA", "CDC", "ABA"],
     {
       "A": {
@@ -1114,12 +1114,12 @@ event.shaped('advgenerators:advanced_pressure_valve',
       },
       "C": {
         "item": "thermal:netherite_plate"
+      },
+      "D": {
+        "item": "mekanism:elite_control_circuit"
+      },
     },
-    "D": {
-      "item": "mekanism:elite_control_circuit"
-  },
-},
-)
+  )
 
   event.shaped("advgenerators:efficiency_upgrade_tier2",
     ["ABA", "CDC", "ABA"],
@@ -1139,8 +1139,8 @@ event.shaped('advgenerators:advanced_pressure_valve',
     },
   )
 
-  event.shaped('kubejs:neoclydium_diode', 
-  [
+  event.shaped('kubejs:neoclydium_diode',
+    [
       "ABA",
       "CDC",
       "E E"
@@ -1164,13 +1164,13 @@ event.shaped('advgenerators:advanced_pressure_valve',
     },
   )
 
-  event.shaped('mekanism:ultimate_control_circuit', 
-  [
+  event.shaped('mekanism:ultimate_control_circuit',
+    [
       "ABA",
       "CDC",
       "AEA"
-  ],
-  {
+    ],
+    {
       "A": {
         "item": "kubejs:plutonium_superalloy_plate"
       },
@@ -1189,8 +1189,8 @@ event.shaped('advgenerators:advanced_pressure_valve',
     },
   )
 
-  event.shaped('4x mekanism:sps_casing', 
-  [
+  event.shaped('4x mekanism:sps_casing',
+    [
       "ABA",
       "BCB",
       "ABA"
@@ -1209,11 +1209,11 @@ event.shaped('advgenerators:advanced_pressure_valve',
   )
 
   event.shaped('mekanism:antiprotonic_nucleosynthesizer',
-  [
+    [
       "ABA",
       "CDC",
       "ABA"
-  ],
+    ],
     {
       "A": {
         "item": "kubejs:neutronium_plate"
@@ -1226,6 +1226,42 @@ event.shaped('advgenerators:advanced_pressure_valve',
       },
       "D": {
         "item": "mekanism:chemical_injection_chamber"
+      }
+    },
+  )
+
+  event.shaped('mekanismgenerators:solar_panel',
+    ["AAA", "BCB", "DDD"],
+    {
+      "A": {
+        "item": "minecraft:glass_pane"
+      },
+      "B": {
+        "item": "minecraft:redstone"
+      },
+      "C": {
+        "item": "thermal:gold_plate"
+      },
+      "D": {
+        "item": "thermal:copper_plate"
+      }
+    },
+  )
+
+  event.shaped('mekanismgenerators:solar_generator',
+    ["AAA", "BCB", "BDB"],
+    {
+      "A": {
+        "item": "mekanismgenerators:solar_panel"
+      },
+      "B": {
+        "item": "thermal:constantan_plate"
+      },
+      "C": {
+        "item": "thermal:rf_coil"
+      },
+      "D": {
+        "item": "immersiveengineering:stick_steel"
       }
     },
   )
