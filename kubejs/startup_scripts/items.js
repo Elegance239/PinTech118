@@ -117,5 +117,6 @@ onEvent('item.registry', event => {
 	event.create('crushed_argentite').displayName('Crushed Argentite')
 	event.create('zinc_chromate').displayName('Zinc Chromate')
 	event.create('reinforced_alloy_base').displayName('Reinforced Alloy Base')
+	event.create('chin_new').displayName('Chin').rarity('epic')
 
 })

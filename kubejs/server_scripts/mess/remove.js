@@ -179,6 +179,20 @@ let SD = (id) => 'storagedrawers:'+id
         'mekanism:ultimate_control_circuit',
         'mekanism:supercharged_coil',
         'mekanism:antiprotonic_nucleosynthesizer',
+        'sophisticatedbackpacks:stack_upgrade_tier_1',
+        'sophisticatedbackpacks:stack_upgrade_tier_2',
+        'sophisticatedbackpacks:stack_upgrade_tier_3',
+        'sophisticatedbackpacks:stack_upgrade_tier_4',
+        'sophisticatedbackpacks:pickup_upgrade',
+        'sophisticatedbackpacks:advanced_pickup_upgrade',
+        'sophisticatedbackpacks:filter_upgrade', 
+        'sophisticatedbackpacks:advanced_filter_upgrade',
+        'sophisticatedbackpacks:crafting_upgrade',
+        'sophisticatedbackpacks:magnet_upgrade',
+        'sophisticatedbackpacks:advanced_magnet_upgrade',
+        'sophisticatedbackpacks:tool_swapper_upgrade',
+        'sophisticatedbackpacks:advanced_tool_swapper_upgrade',
+
     ]                                               
 
     removeid.forEach(item => {

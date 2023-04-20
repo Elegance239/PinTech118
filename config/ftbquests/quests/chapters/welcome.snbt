@@ -19,12 +19,19 @@
 			type: "dimension"
 			dimension: "minecraft:overworld"
 		}]
-		rewards: [{
-			id: "563D7A6B15E0D881"
-			type: "item"
-			item: "minecraft:cooked_beef"
-			count: 10
-		}]
+		rewards: [
+			{
+				id: "563D7A6B15E0D881"
+				type: "item"
+				item: "minecraft:cooked_beef"
+				count: 10
+			}
+			{
+				id: "65FABCF919A7DEF0"
+				type: "item"
+				item: "kubejs:chin_new"
+			}
+		]
 	}]
 	quest_links: [ ]
 }

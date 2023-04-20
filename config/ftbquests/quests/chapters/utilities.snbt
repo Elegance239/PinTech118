@@ -18,12 +18,6 @@
 				type: "checkmark"
 				title: "Welcome to the Utilities Chapter!"
 			}]
-			rewards: [{
-				id: "3393067CDB62D6EB"
-				type: "item"
-				item: "minecraft:cooked_mutton"
-				count: 10
-			}]
 		}
 		{
 			x: 0.0d

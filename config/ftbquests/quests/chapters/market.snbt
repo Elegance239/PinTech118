@@ -1,0 +1,20 @@
+{
+	id: "0381ABC054ADEBFF"
+	group: ""
+	order_index: 6
+	filename: "market"
+	title: "Market"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "3BB8A98068B70F0C"
+		tasks: [{
+			id: "0FCE1AC16432355F"
+			type: "item"
+			item: "kubejs:chin_new"
+		}]
+	}]
+	quest_links: [ ]
+}

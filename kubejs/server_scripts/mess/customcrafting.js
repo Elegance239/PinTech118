@@ -413,13 +413,11 @@ onEvent('recipes', event => {
 		]
 	)
 	
-	event.shaped('refinedstorage:crafter', [
-		'BCI',
-		'QFQ',
-		'IDB',
+	event.shaped('2x refinedstorage:crafter', [
+		'QCQ',
+		' F ',
+		'QDQ',
 	], {
-		B:'refinedstorage:basic_processor',
-		I:'refinedstorage:improved_processor',
 		C:'refinedstorage:construction_core',
 		Q:'refinedstorage:quartz_enriched_iron',
 		F:'mekanism:formulaic_assemblicator',

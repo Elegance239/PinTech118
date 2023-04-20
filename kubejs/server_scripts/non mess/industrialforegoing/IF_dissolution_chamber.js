@@ -297,6 +297,22 @@ onEvent('recipes', event => {
 		},
 		"processingTime": 300
 	  })
+	
 
+	  event.custom({
+		"type": "industrialforegoing:dissolution_chamber",
+		"input": [
+
+		  {
+			"item": 'sophisticatedbackpacks:stack_upgrade_tier_3'
+		  },
+		],
+		"inputFluid": "{Amount:810,FluidName:\"tconstruct:molten_netherite\"}",
+		"output": {
+		  "count": 1,
+		  "item": "sophisticatedbackpacks:stack_upgrade_tier_4"
+		},
+		"processingTime": 300
+	  })
 })
 
