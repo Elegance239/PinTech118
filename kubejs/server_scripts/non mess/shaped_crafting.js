@@ -1265,4 +1265,37 @@ onEvent('recipes', event => {
       }
     },
   )
+
+  event.shaped('mekanism:energy_tablet',
+    ["ABA", "CBC", "ABA"],
+    {
+    "A": {
+        "item": "minecraft:redstone"
+    },
+    "B": {
+        "item": "thermal:gold_plate"
+    },
+    "C": {
+        "item": "create:polished_rose_quartz"
+    }
+},
+)
+
+event.shaped('mekanism:advanced_energy_cube',
+["ABA", "CDC", "ABA"],
+{
+"A": {
+    "item": "mekanism:alloy_infused"
+},
+"B": {
+    "item": "mekanism:energy_tablet"
+},
+"C": {
+    "item": "thermal:signalum_ingot"
+},
+"D": {
+    "item": "mekanism:basic_energy_cube"
+}
+},
+)
 })

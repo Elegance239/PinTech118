@@ -2,19 +2,19 @@
 #Machine Energy Usage Config. This config is synced from server to client.
 [usage]
 	#Energy per operation tick (Joules).
-	enrichmentChamber = "50"
+	enrichmentChamber = "150"
 	#Energy per operation tick (Joules).
-	osmiumCompressor = "100"
+	osmiumCompressor = "300"
 	#Energy per operation tick (Joules).
-	combiner = "50"
+	combiner = "150"
 	#Energy per operation tick (Joules).
-	crusher = "50"
+	crusher = "150"
 	#Energy per operation tick (Joules).
-	metallurgicInfuser = "50"
+	metallurgicInfuser = "200"
 	#Energy per operation tick (Joules).
-	purificationChamber = "200"
+	purificationChamber = "300"
 	#Energy per operation tick (Joules).
-	energizedSmelter = "50"
+	energizedSmelter = "150"
 	#Energy per operation tick (Joules).
 	digitalMiner = "1000"
 	#Energy per operation tick (Joules).
@@ -22,15 +22,15 @@
 	#Energy that can be transferred at once per charge operation (Joules).
 	chargePad = "1024000"
 	#Energy per operation tick (Joules).
-	rotaryCondensentrator = "50"
+	rotaryCondensentrator = "150"
 	#Energy per operation tick (Joules).
-	oxidationChamber = "200"
+	oxidationChamber = "400"
 	#Energy per operation tick (Joules).
-	chemicalInfuser = "200"
+	chemicalInfuser = "400"
 	#Energy per operation tick (Joules).
-	chemicalInjectionChamber = "400"
+	chemicalInjectionChamber = "600"
 	#Energy per operation tick (Joules).
-	precisionSawmill = "50"
+	precisionSawmill = "150"
 	#Energy per operation tick (Joules).
 	chemicalDissolutionChamber = "400"
 	#Energy per operation tick (Joules).

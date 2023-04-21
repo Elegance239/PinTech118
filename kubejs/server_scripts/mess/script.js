@@ -400,7 +400,9 @@ onEvent('recipes', event => {
 			{ amount: 100, fluid: 'thermal:resin', nbt: {}}
 		],
 		results: [
-			Item.of('kubejs:resistor').toJson(),
+			{
+				"item": "kubejs:resistor", count:2
+			  },
 		],
 	})
 

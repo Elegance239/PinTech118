@@ -4,7 +4,7 @@ onEvent('recipes', event => {
 	event.custom({
 		type: "thermal:bottler",
 		ingredient: [
-			{ amount: 50, fluid: "immersiveengineering:redstone_acid", nbt:{}},
+			{ amount: 5, fluid: "immersiveengineering:redstone_acid", nbt:{}},
 			{ item: 'kubejs:ground_dripstone'},
 		],
 		result: [

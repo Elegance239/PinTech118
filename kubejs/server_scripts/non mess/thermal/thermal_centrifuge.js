@@ -10,14 +10,14 @@ onEvent('recipes', event => {
         result: [
           {
             item: "kubejs:raw_copper_mote",
-            chance:2.0
+            chance:0.8
           },
           {
             item: "kubejs:slag_powder",
-            count:1
+            chance:0.1
           }
         ],
-        energy: 1600
+        energy: 200
 	})
 
 })

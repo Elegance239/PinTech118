@@ -192,7 +192,11 @@ let SD = (id) => 'storagedrawers:'+id
         'sophisticatedbackpacks:advanced_magnet_upgrade',
         'sophisticatedbackpacks:tool_swapper_upgrade',
         'sophisticatedbackpacks:advanced_tool_swapper_upgrade',
-
+        "mekanismgenerators:solar_panel",
+        "mekanismgenerators:solar_generator",
+        'mekanism:energy_tablet',
+        'mekanism:advanced_energy_cube',
+        "minecraft:pointed_dripstone"
     ]                                               
 
     removeid.forEach(item => {
