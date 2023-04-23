@@ -50,5 +50,28 @@ onEvent('recipes', event => {
 		energy: 8000,
 	})
 	
+	event.custom({
+		type: 'thermal:smelter',
+		ingredients:[
+			{ item: 'minecraft:brick', count:1},
+			{ item: 'minecraft:andesite', count:1},
+		],
+		results: [
+			{ item: 'kubejs:crude_alumina', count:1},
+		],
+		energy: 4000,
+	})
+	event.custom({
+		type: 'thermal:smelter',
+		ingredients:[
+			{ item: 'minecraft:brick', count:4},
+			{ item: 'minecraft:andesite', count:4},
+			{ tag: 'quark:corundum', count:1},
+		],
+		results: [
+			{ item: 'kubejs:crude_alumina', count:12},
+		],
+		energy: 16000,
+	})
 
 })

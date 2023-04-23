@@ -7,6 +7,8 @@ onEvent('mekanism.gas.registry', event => {
     event.create("incandescent_gas").color(0xCECECE)
     event.create("glowing_gas").color(0xFED061)
     event.create("radiant_gas").color(0xFDFCFF)
+    event.create("gaseous_aluminum").color(0xCCCCCC)
+    event.create("gaseous_impure_alumina").color(0xada59c)
 })
 
 onEvent('mekanism.infuse_type.registry', event => {

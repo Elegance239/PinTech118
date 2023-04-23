@@ -75,6 +75,10 @@ onEvent('item.registry', event => {
 
 	event.create('raw_copper_mote').displayName('Raw Copper Mote')
 	event.create('raw_lead_mote').displayName('Raw Lead Mote')
+	event.create('raw_tin_mote').displayName('Raw Tin Mote')
+	event.create('raw_silver_mote').displayName('Raw Silver Mote')
+	event.create('raw_bauxite_mote').displayName('Raw Bauxite Mote')
+	event.create('raw_nickel_mote').displayName('Raw Nickel Mote')
 
 	event.create('neoclydium_ingot_test').displayName('Neoclydium Ingot').rarity('epic').maxStackSize(16).texture("kubejs:item/neoclydium_ingot_test")
 	event.create('graphene').displayName('Graphene')
@@ -118,5 +122,5 @@ onEvent('item.registry', event => {
 	event.create('zinc_chromate').displayName('Zinc Chromate')
 	event.create('reinforced_alloy_base').displayName('Reinforced Alloy Base')
 	event.create('chin_new').displayName('Chin').rarity('epic')
-
+	event.create('crude_alumina').displayName('Crude Alumina')
 })

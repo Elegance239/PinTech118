@@ -836,6 +836,126 @@
 				item: "minecraft:netherite_scrap"
 			}]
 		}
+		{
+			x: -2.0d
+			y: 28.0d
+			id: "7A520571DB033407"
+			tasks: [{
+				id: "551C184C7ED3357A"
+				type: "item"
+				item: "minecraft:brick"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 27.0d
+			id: "6BF637DE2C61789F"
+			tasks: [{
+				id: "7442C8FB9EE5BC98"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 27.5d
+			id: "5152CBCF6AD4216B"
+			tasks: [{
+				id: "2B1D37083D9C17AC"
+				type: "item"
+				item: "mekanism:sawdust"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 28.5d
+			id: "4E522CEC3E0F3CAA"
+			tasks: [{
+				id: "73C82EC9B8FD424A"
+				type: "item"
+				item: "mekanism:hydrofluoric_acid_bucket"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 27.5d
+			id: "14A19D8713491255"
+			tasks: [{
+				id: "656A5C4343C5F29A"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 28.5d
+			id: "5EF0AB1C07D021AE"
+			tasks: [{
+				id: "5C29A3E1C60F73D6"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 27.5d
+			id: "6BD37D0D1C0696DA"
+			tasks: [{
+				id: "5EDFCD2FAF8705F7"
+				type: "item"
+				item: "tconstruct:molten_aluminum_bucket"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 34.5d
+			id: "1D41B6FCBE80B648"
+			tasks: [{
+				id: "4363EC812C2D91EC"
+				type: "item"
+				item: "minecraft:blackstone"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 36.5d
+			id: "56C526089F5E5539"
+			tasks: [{
+				id: "0DCBA9E7CC3C4049"
+				type: "item"
+				item: "mekanism:ingot_osmium"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 35.5d
+			id: "3A29F45E14E73F46"
+			tasks: [{
+				id: "4E6B8012919BECF7"
+				type: "item"
+				item: "kubejs:graphene"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 20.5d
+			id: "40501ACFD351400D"
+			tasks: [{
+				id: "16CA143651B88317"
+				type: "item"
+				item: "thermal:nickel_ingot"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 20.5d
+			id: "372CC2D05894F666"
+			tasks: [{
+				id: "7AD7E6FF6F3AECE8"
+				type: "item"
+				item: "minecraft:raw_copper"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

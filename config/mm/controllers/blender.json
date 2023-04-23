@@ -1,0 +1,7 @@
+{
+    "type": "mm:fixed",
+    "id": "blender",
+    "name": {
+      "text": "Blender Controller"
+    }
+  }

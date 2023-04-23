@@ -192,7 +192,7 @@ onEvent('recipes', event => {
     'W W'
   ], {
     G: 'minecraft:glass',
-    R: 'thermal:ruby_dust',
+    R: 'thermal:cinnabar_dust',
     I: 'thermal:invar_plate',
     F: 'thermal:silver_plate',
     W: '#forge:wires/electrum'

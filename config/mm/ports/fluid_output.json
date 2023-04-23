@@ -1,0 +1,11 @@
+{
+    "id": "fluid_input",
+       "name": {
+       "text": "Fluid"
+       },
+       "port": "mm:fluid",
+       "input": false,
+       "config": {
+       "capacity": 10000
+       }
+    }

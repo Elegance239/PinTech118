@@ -147,4 +147,15 @@ onEvent('recipes', event => {
 		Item.of('kubejs:plutonium_superalloy'),
 		[Item.of('mekanism:pellet_plutonium'), Item.of('2x immersiveengineering:ingot_hop_graphite'), Item.of('thermal_extra:polarium_ingot'), Fluid.of('minecraft:water', 500)]
 	)
+
+	event.custom({
+		type: 'create:mixing',
+		ingredients: [
+			Ingredient.of('kubejs:crude_alumina').toJson(),
+            { fluid: 'mekanism:hydrofluoric_acid', amount: 200}
+		],
+		results: [
+			{ fluid: 'kubejs:impure_alumina_solution', amount: 100},
+		],
+	})
 })
