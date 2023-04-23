@@ -123,4 +123,6 @@ onEvent('item.registry', event => {
 	event.create('reinforced_alloy_base').displayName('Reinforced Alloy Base')
 	event.create('chin_new').displayName('Chin').rarity('epic')
 	event.create('crude_alumina').displayName('Crude Alumina')
+	event.create('tarnished_iron_ingot').displayName('Tarnished Iron Ingot')
+	event.create('tarnished_copper_ingot').displayName('Tarnished Copper Ingot')
 })
