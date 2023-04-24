@@ -196,7 +196,15 @@ let SD = (id) => 'storagedrawers:'+id
         "mekanismgenerators:solar_generator",
         'mekanism:energy_tablet',
         'mekanism:advanced_energy_cube',
-        "minecraft:pointed_dripstone"
+        "minecraft:pointed_dripstone",
+        'trashcans:item_trash_can',
+        "trashcans:liquid_trash_can",
+        "trashcans:energy_trash_can",
+        'rftoolsutility:screen', 
+        'buildinggadgets:gadget_building',
+        'buildinggadgets:gadget_exchanging', 
+        'buildinggadgets:gadget_copy_paste', 
+        'buildinggadgets:gadget_destruction',
     ]                                               
 
     removeid.forEach(item => {

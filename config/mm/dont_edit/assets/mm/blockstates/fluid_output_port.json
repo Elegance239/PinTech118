@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/fluid_output_port"
+    }
+  }
+}

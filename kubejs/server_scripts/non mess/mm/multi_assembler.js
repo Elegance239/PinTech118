@@ -175,30 +175,6 @@ onEvent("mm.recipes", event => {
         ]
     })
 
-    event.build("mm:supercharged_coil", {
-        duration: 200,
-        structureId: "namespace:multi_assembler",
-        name: {
-            text: "Assembling: Supercharged Coil"
-        },
-        inputs: [
-            {
-                type: "mm:per_tick",
-                ingredient: {
-                    type: "mm:energy",
-                    amount: 500
-                }
-            },
-            MMIngredient('kubejs:superconducting_wire',3),
-            MMIngredient("mekanism:laser",1),
-            MMIngredient('mekanism:ultimate_control_circuit',2),
-            MMIngredient("mekanism:pellet_polonium",4)
-        ],
-        outputs: [
-            MMIngredient("mekanism:supercharged_coil",1)
-        ]
-    })
-
 })
 
 

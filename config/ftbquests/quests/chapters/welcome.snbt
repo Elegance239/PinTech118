@@ -6,32 +6,139 @@
 	title: "Welcome!"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "Welcome!"
-		x: 0.0d
-		y: 0.0d
-		subtitle: "Why Hello There."
-		description: ["This is an expert pack developed by WhyReason and Perilune. Inspired by the distinct lack of tech progression in E9E currently, we decided that we will make our own modpack, free of magic, only tech, which is welcoming for beginners and gives a challenge towards the end of the game. Have fun!"]
-		size: 5.0d
-		id: "43476F918B83BEF7"
-		tasks: [{
-			id: "2E77B2134A78A3CC"
-			type: "dimension"
-			dimension: "minecraft:overworld"
-		}]
-		rewards: [
-			{
-				id: "563D7A6B15E0D881"
+	quests: [
+		{
+			title: "Welcome!"
+			icon: "kubejs:chin_new"
+			x: 0.0d
+			y: -4.5d
+			description: [
+				""
+				"This pack has been made because E9E is basically a magic pack and screw non-tech packs so here we are. "
+			]
+			size: 3.0d
+			id: "43476F918B83BEF7"
+			tasks: [{
+				id: "2E77B2134A78A3CC"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [
+				{
+					id: "563D7A6B15E0D881"
+					type: "item"
+					item: "minecraft:cooked_beef"
+					count: 10
+				}
+				{
+					id: "65FABCF919A7DEF0"
+					type: "item"
+					item: "kubejs:chin_new"
+				}
+			]
+		}
+		{
+			title: "Chapter 0"
+			icon: "create:electron_tube"
+			x: -9.0d
+			y: -0.75d
+			description: ["To manipulating rotational power..."]
+			dependencies: ["41451BC9F9190E52"]
+			size: 1.5d
+			id: "5D2D61F812B1C8AC"
+			tasks: [{
+				id: "27FC76D872D195C6"
+				type: "checkmark"
+				title: "0"
+			}]
+		}
+		{
+			title: "Chapter 1"
+			icon: "refinedstorage:disk_drive"
+			x: -4.5d
+			y: 1.5d
+			description: [""]
+			dependencies: ["5D2D61F812B1C8AC"]
+			size: 1.5d
+			id: "3A0E7F6978D87173"
+			tasks: [{
+				id: "01333AA11106E32B"
+				type: "checkmark"
+				title: "1"
+			}]
+		}
+		{
+			title: "Chapter 2"
+			icon: "thermal:enderium_ingot"
+			x: 0.0d
+			y: -0.75d
+			description: [""]
+			dependencies: ["3A0E7F6978D87173"]
+			size: 1.5d
+			id: "53486C827B31DC48"
+			tasks: [{
+				id: "07A3A4A9C65561AC"
+				type: "checkmark"
+				title: "2"
+			}]
+		}
+		{
+			title: "Chapter 3a"
+			icon: "mekanism:pellet_antimatter"
+			x: 4.5d
+			y: -3.0d
+			dependencies: ["53486C827B31DC48"]
+			size: 1.5d
+			id: "7845DB3083B6ABDA"
+			tasks: [{
+				id: "4F3DF157524FF89F"
+				type: "checkmark"
+				title: "3"
+			}]
+		}
+		{
+			title: "Chapter 3b"
+			icon: "kubejs:quantum_computer"
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["53486C827B31DC48"]
+			size: 1.5d
+			id: "4265D52794B427C5"
+			tasks: [{
+				id: "50561E84E7E39D84"
+				type: "checkmark"
+				title: "3b"
+			}]
+		}
+		{
+			title: "Chapter 4"
+			x: 9.0d
+			y: -0.75d
+			dependencies: [
+				"7845DB3083B6ABDA"
+				"4265D52794B427C5"
+			]
+			size: 1.5d
+			id: "224D3B815842339D"
+			tasks: [{
+				id: "528CB7C132FE52F3"
+				type: "checkmark"
+				title: "4"
+			}]
+		}
+		{
+			title: "Baby Steps"
+			x: -4.5d
+			y: -3.0d
+			description: ["A journey must begin with you punching a tree. Or maybe you'll find wood in chests. I don't know. But technically you're supposed to punch a tree. So go and punch a tree."]
+			size: 1.5d
+			id: "41451BC9F9190E52"
+			tasks: [{
+				id: "3E67B5628E68A4F1"
 				type: "item"
-				item: "minecraft:cooked_beef"
-				count: 10
-			}
-			{
-				id: "65FABCF919A7DEF0"
-				type: "item"
-				item: "kubejs:chin_new"
-			}
-		]
-	}]
+				item: "minecraft:oak_log"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

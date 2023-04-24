@@ -35,7 +35,7 @@ onEvent("mm.recipes", event => {
         duration: 1200,
         structureId: "namespace:linear_particle_accelerator",
         name: {
-            text: "Synthesizing: Supersymmetric Particles"
+            text: "Synthesizing: Neutronium"
         },
         inputs: [
             {

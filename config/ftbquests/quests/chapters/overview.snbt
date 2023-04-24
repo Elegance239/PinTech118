@@ -1,0 +1,353 @@
+{
+	id: "138E1458E57021D8"
+	group: ""
+	order_index: 7
+	filename: "overview"
+	title: "Overview"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:oak_log"
+			x: -10.5d
+			y: 0.0d
+			shape: "square"
+			size: 1.5d
+			id: "21CA8A84695E2700"
+			tasks: [{
+				id: "04410A433D43F9ED"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["21CA8A84695E2700"]
+			size: 1.5d
+			id: "3560B8EDD4626689"
+			tasks: [{
+				id: "03DED18B3AE78F74"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["3560B8EDD4626689"]
+			size: 1.5d
+			id: "4E1570B83A1FF895"
+			tasks: [{
+				id: "716648A1768BDA92"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+		}
+		{
+			title: "Dissolution Chamber"
+			icon: "industrialforegoing:dissolution_chamber"
+			x: 0.75d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["4E1570B83A1FF895"]
+			size: 1.5d
+			id: "60F2EEFB03695293"
+			tasks: [{
+				id: "5B00A523FCC02769"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 3.75d
+			shape: "square"
+			dependencies: ["60F2EEFB03695293"]
+			size: 1.5d
+			id: "7F4D16B2F1438203"
+			tasks: [{
+				id: "19DE486E8EE5D304"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["60F2EEFB03695293"]
+			size: 1.5d
+			id: "7EAE7F2EE0C31580"
+			tasks: [{
+				id: "2D9161491A06A57C"
+				type: "item"
+				item: "pneumaticcraft:assembly_controller"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.75d
+			shape: "square"
+			dependencies: ["7EAE7F2EE0C31580"]
+			size: 1.5d
+			id: "60A2711CAF238C00"
+			tasks: [{
+				id: "438D9C3797F81A0E"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 8.25d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["571133FD7BBDEDB4"]
+			size: 1.5d
+			id: "5C426B4ED635B7D2"
+			tasks: [{
+				id: "2CCC8A1936D758E4"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.25d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4E1570B83A1FF895"]
+			size: 1.5d
+			id: "6A79FBE355566E75"
+			tasks: [{
+				id: "48EFB6BC4BA88926"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 8.25d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"60F2EEFB03695293"
+				"6A79FBE355566E75"
+			]
+			size: 1.5d
+			id: "571133FD7BBDEDB4"
+			tasks: [{
+				id: "74481168230FD00E"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 8.25d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5C426B4ED635B7D2"]
+			size: 1.5d
+			id: "1DFF933F958FC935"
+			tasks: [{
+				id: "4A46708B548FE879"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+		}
+		{
+			x: 0.75d
+			y: -3.75d
+			shape: "square"
+			dependencies: ["60F2EEFB03695293"]
+			size: 1.5d
+			id: "227DC796C3597A74"
+			tasks: [{
+				id: "17EDBB291FB557C8"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.75d
+			shape: "square"
+			dependencies: ["7EAE7F2EE0C31580"]
+			size: 1.5d
+			id: "64F509CA7FBE98C1"
+			tasks: [{
+				id: "3598FD2FEFA0A1B4"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+		}
+		{
+			x: 8.25d
+			y: -3.75d
+			shape: "square"
+			dependencies: ["6223424033EF1EB7"]
+			size: 1.5d
+			id: "1373DAD3EF222834"
+			tasks: [{
+				id: "0EE5B4136809F50E"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+		}
+		{
+			x: 19.5d
+			y: -6.0d
+			shape: "square"
+			dependencies: ["22D008AEDCCEE83F"]
+			size: 1.5d
+			id: "48612817DB0142DA"
+			tasks: [{
+				id: "6083AC788CB36586"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+		}
+		{
+			x: 8.25d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["7EAE7F2EE0C31580"]
+			size: 1.5d
+			id: "6223424033EF1EB7"
+			tasks: [{
+				id: "69D011C9E6AE5C03"
+				type: "item"
+				item: "mm:multi_assembler_controller"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["6223424033EF1EB7"]
+			size: 1.5d
+			id: "2A69D30089EA20B1"
+			tasks: [{
+				id: "11A580EC3B2FDB27"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+		}
+		{
+			x: 15.75d
+			y: -2.25d
+			shape: "square"
+			dependencies: ["2A69D30089EA20B1"]
+			size: 1.5d
+			id: "174C0E1A1B864419"
+			tasks: [{
+				id: "5428E9018EEEBC53"
+				type: "item"
+				item: "mekanismgenerators:fission_fuel_assembly"
+			}]
+		}
+		{
+			x: 23.25d
+			y: -2.25d
+			shape: "square"
+			dependencies: ["22D008AEDCCEE83F"]
+			size: 1.5d
+			id: "0833F56B1AD6EE3B"
+			tasks: [{
+				id: "00991D4550A11D3B"
+				type: "item"
+				item: "mekanism:sps_casing"
+			}]
+		}
+		{
+			x: 27.0d
+			y: -2.25d
+			shape: "square"
+			dependencies: ["0833F56B1AD6EE3B"]
+			size: 1.5d
+			id: "5511F1FFF6727912"
+			tasks: [{
+				id: "66E46C679A5E41EC"
+				type: "item"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+			}]
+		}
+		{
+			x: 15.75d
+			y: 2.25d
+			shape: "square"
+			dependencies: ["2A69D30089EA20B1"]
+			size: 1.5d
+			id: "6D56B11F12EA3EA4"
+			tasks: [{
+				id: "1E5117100F63C248"
+				type: "item"
+				item: "kubejs:superconductor"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 2.25d
+			shape: "square"
+			dependencies: ["6D56B11F12EA3EA4"]
+			size: 1.5d
+			id: "4EE535336091F3E6"
+			tasks: [{
+				id: "16B6CB83F893DCEE"
+				type: "item"
+				item: "mm:nanofabricator_controller"
+			}]
+		}
+		{
+			x: 23.25d
+			y: 2.25d
+			shape: "square"
+			dependencies: ["4EE535336091F3E6"]
+			size: 1.5d
+			id: "1DA568C0E12EC541"
+			tasks: [{
+				id: "6211F1E4818B2333"
+				type: "item"
+				item: "kubejs:supersymmetric_particles"
+			}]
+		}
+		{
+			x: 19.5d
+			y: -2.25d
+			shape: "square"
+			dependencies: ["174C0E1A1B864419"]
+			size: 1.5d
+			id: "22D008AEDCCEE83F"
+			tasks: [{
+				id: "2C91BE5D414BF1F7"
+				type: "item"
+				item: "kubejs:plutonium_superalloy"
+			}]
+		}
+		{
+			x: 27.0d
+			y: 2.25d
+			shape: "square"
+			dependencies: ["1DA568C0E12EC541"]
+			size: 1.5d
+			id: "3AB8E7FEDB43FB5A"
+			tasks: [{
+				id: "76C87C65BBD82D3D"
+				type: "item"
+				item: "kubejs:quantum_computer"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

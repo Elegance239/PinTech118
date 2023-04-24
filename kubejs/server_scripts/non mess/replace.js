@@ -9,5 +9,6 @@ onEvent('recipes', event => {
 	event.replaceInput({id:'extendedcrafting:advanced_table'}, 'extendedcrafting:basic_table', 'minecraft:crafting_table')
     event.replaceInput({id:'sophisticatedbackpacks:upgrade_base'}, 'minecraft:string', 'immersiveengineering:hemp_fabric')
     event.replaceInput({id:'sophisticatedbackpacks:upgrade_base'}, 'minecraft:iron_ingot', 'thermal:steel_ingot')
+	event.replaceInput({id:'rftoolsbase:machine_base'}, 'minecraft:gold_nugget', 'thermal:electrum_nugget')
 
 })
