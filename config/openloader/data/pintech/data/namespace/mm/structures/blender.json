@@ -1,6 +1,8 @@
 {
     "controllerId": "mm:blender",
-    "text": "Blender",
+    "name": {
+        "text": "Blender"
+    },
     "layout": [
         [
             "FB",
