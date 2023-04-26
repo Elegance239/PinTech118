@@ -2,7 +2,7 @@
 onEvent('item.registry', event => {
 	// Register new items here
 	// event.create('example_item').displayName('Example Item')
-	event.create('vap_biomass').displayName('Vaporized Biomass')
+	
 	event.create('clean_filtered_gravel').displayName('Clean Filtered Gravel')
 	event.create('failed_zinc_nugget').displayName('Failed Zinc Nugget')
 	event.create('ground_dripstone').displayName('Ground Dripstone')
@@ -125,4 +125,7 @@ onEvent('item.registry', event => {
 	event.create('crude_alumina').displayName('Crude Alumina')
 	event.create('tarnished_iron_ingot').displayName('Tarnished Iron Ingot')
 	event.create('tarnished_copper_ingot').displayName('Tarnished Copper Ingot')
+	event.create('dehydrated_biomass').displayName('Dehydrated Biomass')
+	event.create('desiccated_biomass').displayName('Desiccated Biomass')
+	event.create('vaporized_biomass').displayName('Vaporized Biomass')
 })
