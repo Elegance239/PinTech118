@@ -152,7 +152,7 @@ onEvent('recipes', event => {
 		type: 'create:mixing',
 		ingredients: [
 			Ingredient.of('kubejs:crude_alumina').toJson(),
-            { fluid: 'mekanism:hydrofluoric_acid', amount: 200}
+            { fluid: 'mekanism:hydrofluoric_acid', amount: 100}
 		],
 		results: [
 			{ fluid: 'kubejs:impure_alumina_solution', amount: 100},

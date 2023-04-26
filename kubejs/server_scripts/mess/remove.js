@@ -1,8 +1,8 @@
 // priority: 0
 
 onEvent('recipes', event => {
-event.remove({type:'minecraft:smelting', output:'#forge:ingots'})
-event.remove({type:'minecraft:blasting', output:'#forge:ingots'})
+event.remove({type:'minecraft:smelting', output:'#forge:ingots', not:[{input:"#forge:dusts"},{input:"#forge:raw_materials"}]})
+event.remove({type:'minecraft:blasting', output:'#forge:ingots', not:[{input:"#forge:dusts"},{input:"#forge:raw_materials"}]})
 event.remove({output:'create:electron_tube'})
 event.remove({output:'create:mechanical_press'})
 event.remove({output:'create:deployer'})
@@ -245,7 +245,14 @@ let SD = (id) => 'storagedrawers:'+id
         'thermal:machines/smelter/smelter_alloy_enderium',
         'mekanism:control_circuit/basic',
         'createchromaticreturn:refined_mixture_recipe',
-        'mekanism:metallurgic_infusing/alloy/reinforced'
+        'mekanism:metallurgic_infusing/alloy/reinforced',
+        'tconstruct:smeltery/alloys/molten_enderium',
+        'tconstruct:smeltery/alloys/molten_signalum',
+        'tconstruct:smeltery/alloys/molten_invar',
+        'tconstruct:smeltery/alloys/molten_lumium',
+        'tconstruct:smeltery/alloys/molten_netherite',
+        'tconstruct:compat/refined_obsidian_ingot',
+        'tconstruct:compat/refined_glowstone_ingot',
     ]
 
     recipeId.forEach(item => {

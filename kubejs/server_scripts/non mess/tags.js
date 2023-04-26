@@ -18,8 +18,10 @@ onEvent('item.tags', event => {
     event.add('forge:raw_materials/silver', 'kubejs:processed_raw_silver')
     event.remove('forge:raw_materials/silver', 'thermal:raw_silver')
 
-    event.add('forge:raw_materials/zinc', 'kubejs:processed_raw_zinc')
+    /*event.add('forge:raw_materials/zinc', 'kubejs:processed_raw_zinc')
+    event.add('forge:raw_materials', 'kubejs:processed_raw_zinc')
     event.remove('forge:raw_materials/zinc', 'create:raw_zinc')
+    event.remove('forge:raw_materials', 'create:raw_zinc')*/
 
     event.add('forge:raw_materials/tin', 'kubejs:processed_raw_tin')
     event.remove('forge:raw_materials/tin', 'thermal:raw_tin')

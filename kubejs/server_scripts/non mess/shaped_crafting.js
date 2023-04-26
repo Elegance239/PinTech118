@@ -1269,33 +1269,55 @@ onEvent('recipes', event => {
   event.shaped('mekanism:energy_tablet',
     ["ABA", "CBC", "ABA"],
     {
-    "A": {
+      "A": {
         "item": "minecraft:redstone"
-    },
-    "B": {
+      },
+      "B": {
         "item": "thermal:gold_plate"
-    },
-    "C": {
+      },
+      "C": {
         "item": "create:polished_rose_quartz"
-    }
-},
-)
+      }
+    },
+  )
 
-event.shaped('mekanism:advanced_energy_cube',
-["ABA", "CDC", "ABA"],
-{
-"A": {
-    "item": "mekanism:alloy_infused"
-},
-"B": {
-    "item": "mekanism:energy_tablet"
-},
-"C": {
-    "item": "thermal:signalum_ingot"
-},
-"D": {
-    "item": "mekanism:basic_energy_cube"
-}
-},
-)
+  event.shaped('mekanism:advanced_energy_cube',
+    ["ABA", "CDC", "ABA"],
+    {
+      "A": {
+        "item": "mekanism:alloy_infused"
+      },
+      "B": {
+        "item": "mekanism:energy_tablet"
+      },
+      "C": {
+        "item": "thermal:signalum_ingot"
+      },
+      "D": {
+        "item": "mekanism:basic_energy_cube"
+      }
+    },
+  )
+
+  event.shaped('mm:blender_controller',
+    ["ABA", "CDC", "EEE"],
+    {
+      "A": {
+        "item": "mekanism:alloy_reinforced"
+      },
+      "B": {
+        "item": "thermal:diamond_gear"
+      },
+      "C": {
+        "item": "mekanism:advanced_control_circuit"
+      },
+      "D": {
+        "item": "pneumaticcraft:fluid_mixer"
+      },
+      "E": {
+        "item": "kubejs:modular_machine_framework"
+      }
+    },
+  )
 })
+

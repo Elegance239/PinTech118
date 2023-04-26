@@ -1,7 +1,16 @@
 onEvent('recipes', event => {
-     /* event.custom({
+     event.custom({
         "type": "lychee:lightning_channeling",
         "item_in": [
+            {
+                "item": "minecraft:diorite"
+            },
+            {
+                "item": "minecraft:diorite"
+            },
+            {
+                "item": "minecraft:diorite"
+            },
             {
                 "item": "minecraft:diorite"
             },
@@ -11,14 +20,27 @@ onEvent('recipes', event => {
             {
                 "item": "minecraft:redstone"
             },
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "item": "minecraft:redstone"
+            },
+            {
+                "item": "minecraft:redstone"
+            },
         ],
         "post": [
             {
                 "type": "drop_item",
-                "item": "minecraft:iron_ingot",
+                "item": "kubejs:argentite",
+            },
+            {
+                "type": "drop_item",
+                "item": "kubejs:zinc_chromate",
             }
         ]
-    }) */
+    }) 
 
     event.custom(
         {

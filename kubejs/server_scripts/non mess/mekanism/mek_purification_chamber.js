@@ -18,6 +18,28 @@ onEvent('recipes', event => {
                 "count": 1
             }
         }
+
+        
+	)
+
+    event.custom(
+		{
+            "type": "mekanism:purifying",
+            "itemInput": {
+                "ingredient": {
+                    "item": 'kubejs:zinc_chromate'
+                }
+            },
+            "chemicalInput": {
+                "amount": 1,
+                "gas": "mekanism:oxygen"
+            },
+            "output": {
+                "item": "jaopca:mekanism_clumps.zinc",
+                "count": 1
+            }
+        }
+        
         
 	)
     })

@@ -136,7 +136,7 @@ onEvent('fluid.registry', event => {
 
 onEvent('fluid.registry', event => {
 	event.create('alumina_solution')
-    .thickTexture(0xCCCCCC)
+    .thinTexture(0xCCCCCC)
     .bucketColor(0xCCCCCC)
     .displayName('Alumina Solution')
   	.luminosity(0)
@@ -144,7 +144,7 @@ onEvent('fluid.registry', event => {
 
 onEvent('fluid.registry', event => {
 	event.create('impure_alumina_solution')
-    .thickTexture(0xada59c)
+    .thinTexture(0xada59c)
     .bucketColor(0xada59c)
     .displayName('Impure Alumina Solution')
   	.luminosity(0)

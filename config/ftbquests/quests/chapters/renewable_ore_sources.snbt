@@ -956,6 +956,36 @@
 				item: "minecraft:raw_copper"
 			}]
 		}
+		{
+			x: -5.5d
+			y: 15.5d
+			id: "31924FD969517C92"
+			tasks: [{
+				id: "1834A7CB6621BE83"
+				type: "item"
+				item: "minecraft:diorite"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 15.5d
+			id: "2F12DEE469E2FC19"
+			tasks: [{
+				id: "4BDD922D3B34213A"
+				type: "item"
+				item: "quark:limestone"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 15.5d
+			id: "6E637A9F1DA018FA"
+			tasks: [{
+				id: "66625BCC5B8F36FD"
+				type: "item"
+				item: "minecraft:calcite"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
