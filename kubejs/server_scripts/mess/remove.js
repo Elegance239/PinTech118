@@ -262,6 +262,11 @@ let SD = (id) => 'storagedrawers:'+id
         'tconstruct:smeltery/alloys/molten_netherite',
         'tconstruct:compat/refined_obsidian_ingot',
         'tconstruct:compat/refined_glowstone_ingot',
+        'createchromaticreturn:i_to_uranium',
+        'createchromaticreturn:cf_to_gs',
+        'createchromaticreturn:polonium_nugget_recipe',
+        'createchromaticreturn:plutonium_nugget_recipe',
+        'createchromaticreturn:antimatter_recipe',
     ]
 
     recipeId.forEach(item => {

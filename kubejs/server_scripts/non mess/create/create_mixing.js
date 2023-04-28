@@ -158,4 +158,13 @@ onEvent('recipes', event => {
 			{ fluid: 'kubejs:impure_alumina_solution', amount: 100},
 		],
 	})
+
+	event.recipes.create.mixing(
+		Item.of('kubejs:desiccated_biomass'),
+		[Item.of('kubejs:dehydrated_biomass'), Item.of('kubejs:calcium_oxide')]
+	)
+
+
+	event.replaceInput({id:"createaddition:mixing/biomass_from_sticks"}, 'minecraft:stick', '8x mekanism:bio_fuel')
+
 })

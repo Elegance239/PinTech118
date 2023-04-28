@@ -64,4 +64,12 @@ onEvent('recipes', event => {
         "results":[{"item":'thermal:signalum_ingot'}],
         "time":200
     })
+    event.custom({
+        "type":"immersiveengineering:arc_furnace",
+        "additives":[],
+        "energy":12800,
+        "input":{item:'kubejs:desiccated_biomass'},
+        "results":[{"item":'kubejs:vaporized_biomass'}],
+        "time":50
+    })
 })

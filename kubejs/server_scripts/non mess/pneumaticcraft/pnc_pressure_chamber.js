@@ -260,4 +260,17 @@ onEvent('recipes', event => {
 		  Item.of('kubejs:quantum_cpu_package').toJson(),
 		]
 	})
+
+	event.custom({
+		type: "pneumaticcraft:pressure_chamber",
+		inputs: [
+		  Item.of('minecraft:cobblestone').toJson(),
+		  Item.of('kubejs:slag_powder').toJson(),
+		  Item.of('minecraft:bone_meal').toJson(),
+		],
+		pressure: 3,
+		results: [
+		  Item.of('minecraft:calcite').toJson(),
+		]
+	})
 })

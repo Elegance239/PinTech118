@@ -115,6 +115,15 @@ onEvent('recipes', event => {
 		]
 	})
 
+	event.custom({
+		type: 'thermal:press',
+		ingredients: [
+			Ingredient.of('createaddition:biomass').toJson(),
+		],
+		results: [
+			Item.of('kubejs:dehydrated_biomass').toJson(),
+		]
+	})
 
 })
 

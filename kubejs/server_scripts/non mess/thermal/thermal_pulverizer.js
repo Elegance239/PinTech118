@@ -18,5 +18,10 @@ onEvent('recipes', event => {
 		Item.of('kubejs:chromatic_dust'), 
 		Item.of('createchromaticreturn:chromatic_compound')
 	).energy(2000)
+
+	event.recipes.thermal.pulverizer(
+		Item.of('4x kubejs:slag_powder'), 
+		{ tag: 'forge:slag', count: 1},
+	).energy(2000)
 })
 

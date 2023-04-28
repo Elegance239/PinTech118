@@ -31,39 +31,39 @@ function MMItem(item, count) {
 
 onEvent("mm.recipes", event => {
     event.build("mm:cryogenic_coolant", {
-        duration: 50,
+        duration: 20,
         structureId: "namespace:blender",
         name: {
             text: "Mixing: Cryogenic Coolant"
         },
         inputs: [
             MMEnergy(200),
-            MMFluid("kubejs:liquid_nitrogen", 100),
-            MMFluid("mekanism:hydrogen", 100)
+            MMFluid("kubejs:liquid_nitrogen", 50),
+            MMFluid("mekanism:hydrogen", 50)
         ],
         outputs: [
-            MMFluid("kubejs:cryogenic_coolant", 100),
+            MMFluid("kubejs:cryogenic_coolant", 50),
         ]
     })
 
     event.build("mm:cryogenic_coolant", {
-        duration: 50,
+        duration: 20,
         structureId: "namespace:blender",
         name: {
             text: "Mixing: Cryogenic Coolant"
         },
         inputs: [
             MMEnergy(200),
-            MMFluid("mekanism:hydrofluoric_acid", 100),
+            MMFluid("mekanism:hydrofluoric_acid", 50),
             MMItem("kubejs:crude_alumina",1)
         ],
         outputs: [
-            MMFluid('kubejs:impure_alumina_solution', 100),
+            MMFluid('kubejs:impure_alumina_solution', 50),
         ]
     })
 
     event.build("mm:superalloy", {
-        duration: 100,
+        duration: 80,
         structureId: "namespace:blender",
         name: {
             text: "Mixing: Superalloy"
@@ -77,6 +77,22 @@ onEvent("mm.recipes", event => {
         ],
         outputs: [
             MMItem('thermal_extra:polarium_ingot',1),
+        ]
+    })
+
+    event.build("mm:superalloy", {
+        duration: 20,
+        structureId: "namespace:blender",
+        name: {
+            text: "Mixing: Superalloy"
+        },
+        inputs: [
+            MMEnergy(200),      
+            MMItem('kubejs:dehydrated_biomass',1),
+            MMItem('kubejs:calcium_oxide',1),
+        ],
+        outputs: [
+            MMItem('kubejs:desiccated_biomass',1),
         ]
     })
 })

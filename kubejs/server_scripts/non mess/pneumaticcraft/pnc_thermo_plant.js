@@ -191,6 +191,28 @@ onEvent('recipes', event => {
 			max_temp: 373
 		}
 	})
+
+	
+	event.custom({
+
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		fluid_input: {
+			type: "pneumaticcraft:fluid",
+			amount: 100,
+			fluid: "minecraft:water"
+		},
+		item_input: {
+			item: "minecraft:calcite"
+		},
+		item_output: {
+			item: "create:limestone"
+		},
+		temperature: {
+			min_temp: 473
+		}
+	})
+	
 })
 
 

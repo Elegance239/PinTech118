@@ -17,8 +17,24 @@ onEvent('recipes', event => {
             chance:0.1
           }
         ],
-        energy: 200
+        energy: 400
 	})
 
+  event.custom({
+    type: "thermal:centrifuge",
+    ingredient: {
+      item: "kubejs:vaporized_biomass",
+      count:1
+    },
+    result: [
+      {
+        item: "kubejs:raw_lead_mote",
+      },
+      {
+        item: "mekanism:dust_charcoal",
+      }
+    ],
+    energy: 400
+})
 })
 

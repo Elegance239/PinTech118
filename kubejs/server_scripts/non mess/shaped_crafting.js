@@ -1384,25 +1384,27 @@ onEvent('recipes', event => {
   },
   )
 
-})
   event.shaped('mm:blender_controller',
-    ["ABA", "CDC", "EEE"],
-    {
-      "A": {
-        "item": "mekanism:alloy_reinforced"
-      },
-      "B": {
-        "item": "thermal:diamond_gear"
-      },
-      "C": {
-        "item": "mekanism:advanced_control_circuit"
-      },
-      "D": {
-        "item": "pneumaticcraft:fluid_mixer"
-      },
-      "E": {
-        "item": "kubejs:modular_machine_framework"
-      }
+  ["ABA", "CDC", "EEE"],
+  {
+    "A": {
+      "item": "mekanism:alloy_reinforced"
     },
-  )
+    "B": {
+      "item": "thermal:diamond_gear"
+    },
+    "C": {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    "D": {
+      "item": "pneumaticcraft:fluid_mixer"
+    },
+    "E": {
+      "item": "kubejs:modular_machine_framework"
+    }
+  },
+)
+
+})
+
 

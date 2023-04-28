@@ -38,6 +38,18 @@ onEvent('recipes', event => {
 		[Fluid.of('thermal:redstone', 800), 'advgenerators:iron_tubing']
 	).energy(2000)
 	
-
+	event.recipes.thermal.bottler(
+		'createaddition:biomass', 
+		[Fluid.of('createaddition:seed_oil', 100), Item.of('8x mekanism:bio_fuel')]
+	).energy(2000)
+	event.recipes.thermal.bottler(
+		'createaddition:biomass', 
+		[Fluid.of('pneumaticcraft:vegetable_oil', 100), Item.of('8x mekanism:bio_fuel')]
+	).energy(2000)
+	event.recipes.thermal.bottler(
+		'createaddition:biomass', 
+		[Fluid.of('immersiveengineering:plantoil', 100), Item.of('8x mekanism:bio_fuel')]
+	).energy(2000)
+		
 })
 
