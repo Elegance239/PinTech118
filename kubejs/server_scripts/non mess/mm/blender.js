@@ -79,12 +79,13 @@ onEvent("mm.recipes", event => {
             MMItem('thermal_extra:polarium_ingot',1),
         ]
     })
+    
 
-    event.build("mm:superalloy", {
+    event.build("mm:desiccated_biomass", {
         duration: 20,
         structureId: "namespace:blender",
         name: {
-            text: "Mixing: Superalloy"
+            text: "Mixing: Desiccated Biomass"
         },
         inputs: [
             MMEnergy(200),      
@@ -95,4 +96,5 @@ onEvent("mm.recipes", event => {
             MMItem('kubejs:desiccated_biomass',1),
         ]
     })
+    
 })
