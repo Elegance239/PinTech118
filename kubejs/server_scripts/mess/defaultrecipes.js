@@ -10,17 +10,17 @@ onEvent('recipes', event => {
 		['thermal:tin_nugget','thermal:tin_ore'],
 		['thermal:silver_nugget','thermal:silver_ore'],
 	];
-
+	/*
 	tier0ingots.forEach((item) => {
 		event.smelting(item[0],item[1]);
 	})
-
+	
 	tier2ingots.forEach((item) => {
 		event.blasting(item[0],item[1]);
 	});
-
-    event.blasting('create:zinc_ingot', 'create:crushed_zinc_ore');
-    event.blasting('3x create:zinc_nugget', 'create:raw_zinc');
+	*/
+    //event.blasting('create:zinc_ingot', 'create:crushed_zinc_ore');
+    //event.blasting('3x create:zinc_nugget', 'create:raw_zinc');
 
     const allIngots = [
         ['minecraft:iron_ingot','9x minecraft:iron_nugget'],

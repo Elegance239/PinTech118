@@ -21,7 +21,7 @@ onEvent('recipes', event => {
         energy: 3200
     })
 
-    event.custom({
+    /*event.custom({
         type: 'thermal:smelter',
         ingredients: [
             { item: 'create:raw_zinc', count:1}
@@ -30,7 +30,7 @@ onEvent('recipes', event => {
             { item: 'kubejs:processed_raw_zinc', count:1},
         ],
         energy: 3200
-    })
+    })*/
 
     event.custom({
         type: 'thermal:smelter',

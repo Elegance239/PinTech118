@@ -5,7 +5,7 @@ console.info('Hello, World! (You will see this line every time server resources 
 onEvent('recipes', event => {
 	// Change recipes here
 	
-	event.custom({
+	/*event.custom({
 		type: 'create:pressing',
 		ingredients: [
 			Ingredient.of('thermal:tin_ingot').toJson()
@@ -13,7 +13,7 @@ onEvent('recipes', event => {
 		results: [
 			Item.of('thermal:tin_plate').toJson(),
 		],
-	})
+	})*/
 	event.custom({
 		type: 'create:pressing',
 		ingredients: [
@@ -135,28 +135,15 @@ onEvent('recipes', event => {
 		}
 	  })
 	  event.custom({
-		"type": "create:splashing",
-		"ingredients": [
-		  {
-			"item": "thermal:raw_silver"
-		  }
-		],
-		"results": [
-		  {
-			"item": "kubejs:processed_raw_silver"
-		  }
-		],
-	  })
-	  event.custom({
-		"type": "create:compacting",
+		"type": "create:mixing",
 		"ingredients": [
 			{
-				"item": "kubejs:processed_raw_silver"
+				"item": "thermal:raw_silver"
 			}
 		],
 		"results": [
 			{
-				"item": "thermal:silver_ingot"
+				"item": "kubejs:processed_raw_silver"
 			}
 		],
 		heatRequirement: "heated",

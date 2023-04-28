@@ -24,6 +24,7 @@ onEvent('recipes', event => {
 			"result": [
 			  {
 				"item": item[1],
+				count: 2
 			  }
 			],
 			"energy": 800
@@ -97,11 +98,23 @@ onEvent('recipes', event => {
 	event.custom({
 		type: 'thermal:press',
 		ingredients: [
+			Ingredient.of('32x kubejs:raw_lead_mote').toJson(),
+		],
+		results: [
+			Item.of('thermal:raw_lead').toJson(),
+		]
+	})
+
+	event.custom({
+		type: 'thermal:press',
+		ingredients: [
 			Ingredient.of('kubejs:plutonium_superalloy').toJson(),
 		],
 		results: [
 			Item.of('kubejs:plutonium_superalloy_plate').toJson(),
 		]
 	})
+
+
 })
 
