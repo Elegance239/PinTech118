@@ -7,13 +7,21 @@
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
+		title: "Welcome to the Market!"
 		x: 0.0d
 		y: 0.0d
+		description: ["The Market is the place where you can use your hard-earned chin to buy raw materials, which may or may not aid you in your quest. "]
+		size: 3.0d
 		id: "3BB8A98068B70F0C"
 		tasks: [{
 			id: "0FCE1AC16432355F"
 			type: "item"
 			item: "kubejs:chin_new"
+		}]
+		rewards: [{
+			id: "365B26F4905CEAC1"
+			type: "xp_levels"
+			xp_levels: 2
 		}]
 	}]
 	quest_links: [ ]

@@ -10,5 +10,8 @@ onEvent('recipes', event => {
     event.replaceInput({id:'sophisticatedbackpacks:upgrade_base'}, 'minecraft:string', 'immersiveengineering:hemp_fabric')
     event.replaceInput({id:'sophisticatedbackpacks:upgrade_base'}, 'minecraft:iron_ingot', 'thermal:steel_ingot')
 	event.replaceInput({id:'rftoolsbase:machine_base'}, 'minecraft:gold_nugget', 'thermal:electrum_nugget')
+	event.replaceInput({id:'ironjetpacks:iron_jetpack'}, 'ironjetpacks:wood', '')
+	event.replaceInput({id:'thermal:augments/item_filter_augment'}, 'thermal:signalum_ingot', 'thermal:invar_ingot')
+	event.replaceInput({id:'thermal:augments/fluid_filter_augment'}, 'thermal:signalum_ingot', 'thermal:invar_ingot')
 
 })

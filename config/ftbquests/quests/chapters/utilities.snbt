@@ -21,10 +21,10 @@
 		}
 		{
 			x: 0.0d
-			y: -4.0d
+			y: -3.75d
 			description: ["Sophisticated Backpacks is the backpack mod for this pack. It is highly configurable and allows you to do a variety of things, not limited to storing items only."]
 			dependencies: ["5D8ABBA7B8FA87EB"]
-			size: 2.0d
+			size: 1.5d
 			id: "1EA79DC4EDCC64CA"
 			tasks: [{
 				id: "76A8DEB2309BC8C1"
@@ -34,9 +34,9 @@
 		}
 		{
 			x: 0.0d
-			y: -7.0d
+			y: -6.75d
 			dependencies: ["1EA79DC4EDCC64CA"]
-			size: 2.0d
+			size: 1.5d
 			id: "14F0A9A15B805F5B"
 			tasks: [{
 				id: "3D19799EF3876FEC"
@@ -46,9 +46,9 @@
 		}
 		{
 			x: 0.0d
-			y: -10.0d
+			y: -9.75d
 			dependencies: ["14F0A9A15B805F5B"]
-			size: 2.0d
+			size: 1.5d
 			id: "0D4B65D29014E5B3"
 			tasks: [{
 				id: "055F9E8F4C69529B"
@@ -58,9 +58,9 @@
 		}
 		{
 			x: 0.0d
-			y: -13.0d
+			y: -12.75d
 			dependencies: ["0D4B65D29014E5B3"]
-			size: 2.0d
+			size: 1.5d
 			id: "4D50ADE979985F1F"
 			tasks: [{
 				id: "79F3694A58D773C1"
@@ -70,9 +70,9 @@
 		}
 		{
 			x: 0.0d
-			y: -16.0d
+			y: -15.75d
 			dependencies: ["4D50ADE979985F1F"]
-			size: 2.0d
+			size: 1.5d
 			id: "76E3A0F891472AE8"
 			tasks: [{
 				id: "137C1553EAD2DEC3"
@@ -82,9 +82,9 @@
 		}
 		{
 			x: 3.0d
-			y: -7.0d
+			y: -6.75d
 			dependencies: ["1EA79DC4EDCC64CA"]
-			size: 2.0d
+			size: 1.5d
 			id: "16010CBA3EFF3427"
 			tasks: [{
 				id: "41720E198EFEB097"
@@ -94,9 +94,9 @@
 		}
 		{
 			x: 3.0d
-			y: -10.0d
+			y: -9.75d
 			dependencies: ["16010CBA3EFF3427"]
-			size: 2.0d
+			size: 1.5d
 			id: "528ED0D84117448F"
 			tasks: [{
 				id: "0403C7AC77EB0278"
@@ -106,9 +106,9 @@
 		}
 		{
 			x: 3.0d
-			y: -13.0d
+			y: -12.75d
 			dependencies: ["528ED0D84117448F"]
-			size: 2.0d
+			size: 1.5d
 			id: "6686544A6B519E13"
 			tasks: [{
 				id: "13F8E3D560127417"
@@ -118,9 +118,9 @@
 		}
 		{
 			x: 3.0d
-			y: -16.0d
+			y: -15.75d
 			dependencies: ["6686544A6B519E13"]
-			size: 2.0d
+			size: 1.5d
 			id: "07B560B4A2CE761B"
 			tasks: [{
 				id: "550A17EC4AEB95DF"
@@ -130,8 +130,8 @@
 		}
 		{
 			x: -3.0d
-			y: -7.0d
-			size: 2.0d
+			y: -6.75d
+			size: 1.5d
 			id: "125EEF8308F19D29"
 			tasks: [{
 				id: "234C1CCF786CBD1A"
@@ -141,8 +141,8 @@
 		}
 		{
 			x: -3.0d
-			y: -10.0d
-			size: 2.0d
+			y: -9.75d
+			size: 1.5d
 			id: "772230A0D1C7314E"
 			tasks: [{
 				id: "57B364D20A18F06E"

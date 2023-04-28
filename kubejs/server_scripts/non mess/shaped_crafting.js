@@ -1269,33 +1269,119 @@ onEvent('recipes', event => {
   event.shaped('mekanism:energy_tablet',
     ["ABA", "CBC", "ABA"],
     {
-    "A": {
+      "A": {
         "item": "minecraft:redstone"
-    },
-    "B": {
+      },
+      "B": {
         "item": "thermal:gold_plate"
-    },
-    "C": {
+      },
+      "C": {
         "item": "create:polished_rose_quartz"
-    }
-},
-)
+      }
+    },
+  )
 
-event.shaped('mekanism:advanced_energy_cube',
-["ABA", "CDC", "ABA"],
-{
-"A": {
-    "item": "mekanism:alloy_infused"
-},
-"B": {
-    "item": "mekanism:energy_tablet"
-},
-"C": {
-    "item": "thermal:signalum_ingot"
-},
-"D": {
-    "item": "mekanism:basic_energy_cube"
-}
-},
-)
+  event.shaped('mekanism:advanced_energy_cube',
+    ["ABA", "CDC", "ABA"],
+    {
+      "A": {
+        "item": "mekanism:alloy_infused"
+      },
+      "B": {
+        "item": "mekanism:energy_tablet"
+      },
+      "C": {
+        "item": "thermal:signalum_ingot"
+      },
+      "D": {
+        "item": "mekanism:basic_energy_cube"
+      }
+    },
+  )
+
+  event.shaped('thermal:upgrade_augment_1',
+    [
+      "ABA",
+      "CDC",
+      "ABA"
+    ],
+    {
+      "A": {
+        "item": "thermal:invar_ingot"
+      },
+      "B": {
+        "item": "thermal:obsidian_glass"
+      },
+      "C": {
+        "item": "immersiveengineering:electron_tube"
+      },
+      "D": {
+        "item": "thermal:invar_gear"
+      }
+    },
+  )
+
+  event.shaped('thermal:upgrade_augment_2',
+    [
+      "ABA",
+      "CDC",
+      "ABA"
+    ],
+    {
+      "A": {
+        "item": "thermal:lumium_ingot"
+      },
+      "B": {
+        "item": "thermal:lumium_glass"
+      },
+      "C": {
+        "item": "thermal:signalum_glass"
+      },
+      "D": {
+        "item": "thermal:upgrade_augment_1"
+      }
+    },
+  )
+
+  event.shaped('thermal:upgrade_augment_3',
+    [
+      "ABA",
+      "CDC",
+      "ABA"
+    ],
+    {
+      "A": {
+        "item": "thermal:enderium_ingot"
+      },
+      "B": {
+        "item": "thermal:enderium_glass"
+      },
+      "C": {
+        "item": "kubejs:composite_mechanical_component"
+      },
+      "D": {
+        "item": "thermal:upgrade_augment_2"
+      }
+    },
+  )
+
+  event.shaped('thermal_extra:dragon_integral_component',
+  [
+      " A ",
+      "BCB",
+      " A "
+  ],
+  {
+      "A": {
+        "item": "thermal_extra:dragon_breath_plating"
+      },
+      "B": {
+        "item": "kubejs:advanced_component"
+      },
+      "C": {
+        "item": "thermal:upgrade_augment_3"
+      }
+  },
+  )
+
 })

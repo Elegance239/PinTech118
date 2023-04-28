@@ -45,6 +45,7 @@ event.remove({output:'sophisticatedbackpacks:netherite_backpack'})
 event.remove({type: "industrialforegoing:laser_drill_ore"})
 event.remove({id: 'tconstruct:smeltery/alloys/molten_refined_obsidian'})
 
+
 // I am dumb.
 let IE = (id) => 'immersiveengineering:'+id
 let IF = (id) => 'industrialforegoing:'+id
@@ -205,6 +206,11 @@ let SD = (id) => 'storagedrawers:'+id
         'buildinggadgets:gadget_exchanging', 
         'buildinggadgets:gadget_copy_paste', 
         'buildinggadgets:gadget_destruction',
+        'ironjetpacks:iron',
+        'thermal:upgrade_augment_1',
+        'thermal:upgrade_augment_2',
+        'thermal:upgrade_augment_3',
+        'thermal_extra:dragon_integral_component',
     ]                                               
 
     removeid.forEach(item => {
@@ -245,7 +251,10 @@ let SD = (id) => 'storagedrawers:'+id
         'thermal:machines/smelter/smelter_alloy_enderium',
         'mekanism:control_circuit/basic',
         'createchromaticreturn:refined_mixture_recipe',
-        'mekanism:metallurgic_infusing/alloy/reinforced'
+        'mekanism:metallurgic_infusing/alloy/reinforced',
+        'immersiveengineering:alloysmelter/invar',
+        'immersiveengineering:arcfurnace/alloy_invar',
+        'tconstruct:smeltery/alloys/molten_invar',
     ]
 
     recipeId.forEach(item => {

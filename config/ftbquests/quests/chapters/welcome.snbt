@@ -42,7 +42,7 @@
 			icon: "create:electron_tube"
 			x: -9.0d
 			y: -0.75d
-			description: ["To manipulating rotational power..."]
+			description: ["You'll be tinkering around with Create and rotational power..."]
 			dependencies: ["41451BC9F9190E52"]
 			size: 1.5d
 			id: "5D2D61F812B1C8AC"
@@ -51,13 +51,21 @@
 				type: "checkmark"
 				title: "0"
 			}]
+			rewards: [{
+				id: "0E7519FA8CB85276"
+				type: "item"
+				item: "kubejs:chin_new"
+			}]
 		}
 		{
 			title: "Chapter 1"
 			icon: "refinedstorage:disk_drive"
 			x: -4.5d
 			y: 1.5d
-			description: [""]
+			description: [
+				""
+				"To your own RS/AE2 Storage System considerably early, so you don't have to search around for chests non-stop."
+			]
 			dependencies: ["5D2D61F812B1C8AC"]
 			size: 1.5d
 			id: "3A0E7F6978D87173"
@@ -66,13 +74,21 @@
 				type: "checkmark"
 				title: "1"
 			}]
+			rewards: [{
+				id: "7575B0A3E7E73ECD"
+				type: "item"
+				item: "kubejs:chin_new"
+			}]
 		}
 		{
 			title: "Chapter 2"
 			icon: "thermal:enderium_ingot"
 			x: 0.0d
 			y: -0.75d
-			description: [""]
+			description: [
+				""
+				"You'll be obtaining exotic materials which can be a pain to make, but the key is automation."
+			]
 			dependencies: ["3A0E7F6978D87173"]
 			size: 1.5d
 			id: "53486C827B31DC48"
@@ -81,12 +97,18 @@
 				type: "checkmark"
 				title: "2"
 			}]
+			rewards: [{
+				id: "28A99EDE0C75BBF0"
+				type: "item"
+				item: "kubejs:chin_new"
+			}]
 		}
 		{
 			title: "Chapter 3a"
 			icon: "mekanism:pellet_antimatter"
 			x: 4.5d
 			y: -3.0d
+			description: ["To giant multiblock structures and custom machines..."]
 			dependencies: ["53486C827B31DC48"]
 			size: 1.5d
 			id: "7845DB3083B6ABDA"
@@ -95,12 +117,18 @@
 				type: "checkmark"
 				title: "3"
 			}]
+			rewards: [{
+				id: "41A998E38691D53E"
+				type: "item"
+				item: "kubejs:chin_new"
+			}]
 		}
 		{
 			title: "Chapter 3b"
 			icon: "kubejs:quantum_computer"
 			x: 4.5d
 			y: 1.5d
+			description: ["To technological advancements one has never seen..."]
 			dependencies: ["53486C827B31DC48"]
 			size: 1.5d
 			id: "4265D52794B427C5"
@@ -108,6 +136,11 @@
 				id: "50561E84E7E39D84"
 				type: "checkmark"
 				title: "3b"
+			}]
+			rewards: [{
+				id: "012A389E6D32EF64"
+				type: "item"
+				item: "kubejs:chin_new"
 			}]
 		}
 		{
@@ -125,18 +158,28 @@
 				type: "checkmark"
 				title: "4"
 			}]
+			rewards: [{
+				id: "589CF8A8F1F4F58F"
+				type: "item"
+				item: "kubejs:chin_new"
+			}]
 		}
 		{
 			title: "Baby Steps"
+			icon: "minecraft:oak_log"
 			x: -4.5d
 			y: -3.0d
 			description: ["A journey must begin with you punching a tree. Or maybe you'll find wood in chests. I don't know. But technically you're supposed to punch a tree. So go and punch a tree."]
 			size: 1.5d
 			id: "41451BC9F9190E52"
 			tasks: [{
-				id: "3E67B5628E68A4F1"
+				id: "6B0AC083F18BF3E5"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "10BE646B05F2B9FB"
 				type: "item"
-				item: "minecraft:oak_log"
+				item: "kubejs:chin_new"
 			}]
 		}
 	]

@@ -1,6 +1,6 @@
 {
   "name": "copper",
-  "disable": false,
+  "disable": true,
   "tier": 1,
   "color": "ee825b",
   "armorPoints": 2,
