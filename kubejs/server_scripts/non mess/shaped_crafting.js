@@ -1405,5 +1405,4 @@ onEvent('recipes', event => {
       }
     },
   )
-})
 
