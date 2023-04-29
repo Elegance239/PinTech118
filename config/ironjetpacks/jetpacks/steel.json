@@ -1,6 +1,6 @@
 {
   "name": "netherite",
-  "disable": false,
+  "disable": true,
   "tier": 3,
   "color": "565656",
   "armorPoints": 7,

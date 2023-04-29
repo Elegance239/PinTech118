@@ -1895,7 +1895,7 @@
 			tasks: [{
 				id: "3100F84068382A7A"
 				type: "item"
-				item: "create:refined_radiance"
+				item: "createchromaticreturn:refined_radiance"
 			}]
 		}
 		{

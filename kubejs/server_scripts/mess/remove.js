@@ -211,6 +211,7 @@ let SD = (id) => 'storagedrawers:'+id
         'thermal:upgrade_augment_2',
         'thermal:upgrade_augment_3',
         'thermal_extra:dragon_integral_component',
+        'thermal:machine_cycle_augment',
     ]                                               
 
     removeid.forEach(item => {

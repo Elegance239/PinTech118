@@ -1366,12 +1366,12 @@ onEvent('recipes', event => {
   )
 
   event.shaped('thermal_extra:dragon_integral_component',
-  [
+    [
       " A ",
       "BCB",
       " A "
-  ],
-  {
+    ],
+    {
       "A": {
         "item": "thermal_extra:dragon_breath_plating"
       },
@@ -1381,30 +1381,50 @@ onEvent('recipes', event => {
       "C": {
         "item": "thermal:upgrade_augment_3"
       }
-  },
+    },
   )
 
   event.shaped('mm:blender_controller',
-  ["ABA", "CDC", "EEE"],
-  {
-    "A": {
-      "item": "mekanism:alloy_reinforced"
+    ["ABA", "CDC", "EEE"],
+    {
+      "A": {
+        "item": "mekanism:alloy_reinforced"
+      },
+      "B": {
+        "item": "thermal:diamond_gear"
+      },
+      "C": {
+        "item": "mekanism:advanced_control_circuit"
+      },
+      "D": {
+        "item": "pneumaticcraft:fluid_mixer"
+      },
+      "E": {
+        "item": "kubejs:modular_machine_framework"
+      }
     },
-    "B": {
-      "item": "thermal:diamond_gear"
-    },
-    "C": {
-      "item": "mekanism:advanced_control_circuit"
-    },
-    "D": {
-      "item": "pneumaticcraft:fluid_mixer"
-    },
-    "E": {
-      "item": "kubejs:modular_machine_framework"
-    }
-  },
-)
+  )
 
+  event.shaped('thermal:machine_cycle_augment',
+    [
+      "ABA",
+      "CDC",
+      "ABA"
+    ],
+    {
+      "A": {
+        "item": "thermal:silver_plate"
+      },
+      "B": {
+        "item": "thermal:electrum_plate"
+      },
+      "C": {
+        "item": "thermal:constantan_plate"
+      },
+      "D": {
+        "item": "thermal:redstone_servo"
+      }
+    },
+  )
+  
 })
-
-
