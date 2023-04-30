@@ -29,7 +29,7 @@ onEvent('recipes', event => {
 	event.custom({
 
 		type: "pneumaticcraft:thermo_plant",
-		"air_use_multiplier": 10.0,
+		"air_use_multiplier": 20.0,
 		exothermic: false,
 		fluid_input: {
 			type: "pneumaticcraft:fluid",
@@ -216,23 +216,18 @@ onEvent('recipes', event => {
 	event.custom({
 
 		type: "pneumaticcraft:thermo_plant",
-		"air_use_multiplier": 10.0,
+		"air_use_multiplier": 1000.0,
 		exothermic: false,
-		fluid_input: {
-			type: "pneumaticcraft:fluid",
-			amount: 8000,
-			fluid: "thermal:glowstone"
-		},
 		item_output: {
-			item: "minecraft:netherite_ingot"
+			item: "kubejs:impure_diamond"
 		},
 		item_input: {
-			item: "kubejs:unprocessed_netherite_alloy"
+			item: "kubejs:diamond_seed"
 		},
-		pressure: 8,
-		"speed": 0.2,
+		pressure: 9.8,
+		"speed": 0.01,
 		temperature: {
-			min_temp: 2073
+			min_temp: 2223
 		}
 	})
 })

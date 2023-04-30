@@ -986,6 +986,76 @@
 				item: "minecraft:calcite"
 			}]
 		}
+		{
+			x: 2.0d
+			y: 25.0d
+			id: "6BCF3D6A28AF8CB4"
+			tasks: [{
+				id: "7EECDDDCE9535EA1"
+				type: "item"
+				item: "kubejs:phosphor_blend"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 25.5d
+			id: "35FADEFEF399592A"
+			tasks: [{
+				id: "532BB64F59B13273"
+				type: "item"
+				item: "jaopca:dusts.zinc"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 24.5d
+			id: "4EB79443B0D168C0"
+			tasks: [{
+				id: "291E49D696A2B3F8"
+				type: "item"
+				item: "kubejs:silica_dust"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 25.0d
+			id: "0307EA9BA4058696"
+			tasks: [{
+				id: "5715855DDC78B00B"
+				type: "item"
+				item: "immersiveengineering:dust_uranium"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 24.0d
+			id: "74632F80F7D37742"
+			tasks: [{
+				id: "7C1E20987E2E6124"
+				type: "item"
+				item: "minecraft:soul_sand"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 24.0d
+			id: "7AFAE76AFAE8E500"
+			tasks: [{
+				id: "74F88C42FDFFAFC2"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 25.0d
+			id: "0D16D86CBFAC5126"
+			tasks: [{
+				id: "21F2F0C0A8CC8CE1"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

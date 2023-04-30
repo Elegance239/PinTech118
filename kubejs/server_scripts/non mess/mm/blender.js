@@ -46,11 +46,11 @@ onEvent("mm.recipes", event => {
         ]
     })
 
-    event.build("mm:cryogenic_coolant", {
+    event.build("mm:impure_alumina", {
         duration: 40,
         structureId: "namespace:blender",
         name: {
-            text: "Mixing: Cryogenic Coolant"
+            text: "Mixing: Alumina"
         },
         inputs: [
             MMEnergy(200),
@@ -130,6 +130,23 @@ onEvent("mm.recipes", event => {
         ],
         outputs: [
             MMItem('kubejs:neoclydium_ingot_test',1),
+        ]
+    })
+
+    event.build("mm:plastic", {
+        duration: 40,
+        structureId: "namespace:blender",
+        name: {
+            text: "Mixing: Plastic"
+        },
+        inputs: [
+            MMEnergy(200),      
+            MMItem('thermal:sulfur_dust',1),
+            MMFluid("minecraft:water", 1000),
+            MMItem('thermal:rubber',4),
+        ],
+        outputs: [
+            MMItem('industrialforegoing:plastic',6),
         ]
     })
 })

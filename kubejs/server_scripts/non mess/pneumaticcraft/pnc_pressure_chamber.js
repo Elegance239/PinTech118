@@ -289,4 +289,20 @@ onEvent('recipes', event => {
 		  Item.of('kubejs:sintered_superconductor_pellet').toJson(),
 		]
 	})
+	event.custom({
+		type: "pneumaticcraft:pressure_chamber",
+		inputs: [
+		  Item.of('kubejs:enriched_diamond_nugget').toJson(),
+		  {
+			"type": "pneumaticcraft:stacked_item",
+			"count": 8,
+			"item": "immersiveengineering:dust_hop_graphite"
+		  },
+		  Item.of('jaopca:dusts.cobalt').toJson(),
+		],
+		pressure: 4,
+		results: [
+		  Item.of('kubejs:diamond_seed').toJson(),
+		]
+	})
 })

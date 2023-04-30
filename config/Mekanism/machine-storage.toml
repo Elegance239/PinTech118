@@ -42,7 +42,7 @@
 	#Base energy storage (Joules).
 	seismicVibrator = "20000"
 	#Base energy storage (Joules).
-	pressurizedReactionBase = "2000"
+	pressurizedReactionBase = "20000"
 	#Base energy storage (Joules).
 	fluidicPlenisher = "40000"
 	#Base energy storage (Joules).

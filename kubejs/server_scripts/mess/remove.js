@@ -44,6 +44,8 @@ event.remove({output:'sophisticatedbackpacks:diamond_backpack'})
 event.remove({output:'sophisticatedbackpacks:netherite_backpack'})
 event.remove({type: "industrialforegoing:laser_drill_ore"})
 event.remove({id: 'tconstruct:smeltery/alloys/molten_refined_obsidian'})
+event.remove({input: 'create:cinder_flour', output:'minecraft:glowstone_dust'})
+event.remove({input: 'industrialforegoing:dryrubber', output:'industrialforegoing:plastic'})
 
 
 // I am dumb.
@@ -269,6 +271,7 @@ let SD = (id) => 'storagedrawers:'+id
         'createchromaticreturn:polonium_nugget_recipe',
         'createchromaticreturn:plutonium_nugget_recipe',
         'createchromaticreturn:antimatter_recipe',
+        'create:crushing/prismarine_crystals',
     ]
 
     recipeId.forEach(item => {

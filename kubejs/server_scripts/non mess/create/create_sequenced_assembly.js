@@ -421,4 +421,26 @@ onEvent('recipes', event => {
             ).keepHeldItem(),
         ]
     ).transitionalItem('kubejs:cut_machine_frame').loops(1)
+
+    event.recipes.createSequencedAssembly(
+        [Item.of('16x minecraft:glowstone_dust')],
+        'kubejs:phosphor_blend',
+        [
+            event.recipes.createFilling('kubejs:phosphor_blend', 
+            [
+                'kubejs:phosphor_blend',
+                Fluid.of('tconstruct:liquid_soul', 1000)
+            ]),
+            event.recipes.createFilling('kubejs:phosphor_blend', 
+            [
+                'kubejs:phosphor_blend',
+                Fluid.of('tconstruct:liquid_soul', 1000)
+            ]),
+            event.recipes.createFilling('kubejs:phosphor_blend', 
+            [
+                'kubejs:phosphor_blend',
+                Fluid.of('minecraft:lava', 1000)
+            ]),
+        ]
+    ).transitionalItem('kubejs:phosphor_blend').loops(1)
 })

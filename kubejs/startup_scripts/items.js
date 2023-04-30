@@ -135,4 +135,5 @@ onEvent('item.registry', event => {
 	event.create('impure_diamond').displayName('Impure Diamond')
 	event.create('phosphor_blend').displayName('Phosphor Blend')
 	event.create('diamond_seed').displayName('Diamond Seed')
+	event.create('unassembled_advanced_control_circuit').displayName('Unassembled Advanced Control Circuit')
 })

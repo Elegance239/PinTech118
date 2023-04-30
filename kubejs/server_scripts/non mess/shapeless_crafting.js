@@ -6,4 +6,5 @@ onEvent('recipes', event => {
     event.shapeless('minecraft:gravel', ['9x kubejs:slag_powder']) 
     event.shapeless('kubejs:enderium_rod_bundle', ['4x kubejs:enderium_rod'])
     event.shapeless('24x kubejs:accelerator_frame', ['3x kubejs:compressed_iron_plate', 'kubejs:modular_machine_framework']) 
+    event.shapeless('kubejs:phosphor_blend',['#forge:dusts/uranium','kubejs:silica_dust', '3x #forge:dusts/zinc',  '2x #forge:dusts/sulfur'])
 })

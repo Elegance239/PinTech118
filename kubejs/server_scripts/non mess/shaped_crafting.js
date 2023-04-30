@@ -1313,10 +1313,10 @@ onEvent('recipes', event => {
         "item": "thermal:obsidian_glass"
       },
       "C": {
-        "item": "immersiveengineering:electron_tube"
+        "item": "thermal:steel_gear"
       },
       "D": {
-        "item": "thermal:invar_gear"
+        "item": "immersiveengineering:component_electronic_adv"
       }
     },
   )

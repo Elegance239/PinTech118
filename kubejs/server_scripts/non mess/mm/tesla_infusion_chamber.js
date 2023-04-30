@@ -53,7 +53,7 @@ onEvent("mm.recipes", event => {
     })
 
     event.build("mm:activated_ion_trap", {
-        duration: 600,
+        duration: 500,
         structureId: "namespace:tesla_infusion_chamber",
         name: {
             text: "Energizing: Ion Trap"

@@ -46,5 +46,14 @@ onEvent('recipes', event => {
         "itemInput":{"amount":1,"ingredient":{"item":"kubejs:superalloy_capsule"}},
         "itemOutput":{"item":"mekanism:pellet_plutonium"}
     })
+
+    event.custom(
+		{"type":"mekanism:reaction",
+        "duration":20000,
+        "fluidInput":{"amount":1000,"fluid":"mekanism:ethene"},
+        "gasInput":{"amount":5000,"gas":"mekanism:hydrogen"},
+        "itemInput":{"amount":1,"ingredient":{"item":"kubejs:impure_diamond"}},
+        "itemOutput":{"item":"minecraft:diamond"}
+    })
 })
 
