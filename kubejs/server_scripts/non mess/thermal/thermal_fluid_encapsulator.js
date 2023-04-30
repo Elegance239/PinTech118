@@ -50,6 +50,10 @@ onEvent('recipes', event => {
 		'createaddition:biomass', 
 		[Fluid.of('immersiveengineering:plantoil', 100), Item.of('8x mekanism:bio_fuel')]
 	).energy(2000)
-		
+	
+	event.recipes.thermal.bottler(
+		'kubejs:iron_oxide', 
+		[Fluid.of('mekanism:oxygen', 100), Item.of('thermal:iron_dust')]
+	).energy(2000)
 })
 

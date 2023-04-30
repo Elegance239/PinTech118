@@ -22,4 +22,17 @@ onEvent('recipes', event => {
         ],
         heatRequirement: "superheated"
     })
+
+    event.custom({
+        type:'create:compacting',
+        ingredients: [
+            Ingredient.of('minecraft:egg').toJson(),
+            Ingredient.of('minecraft:sugar').toJson(),
+            Ingredient.of('create:cinder_flour').toJson(),
+            Item.of('24x kubejs:pyrotheum').toJson(),
+        ],
+        results: [
+            Item.of('create:blaze_cake_base').toJson(),
+        ],
+    })
 })

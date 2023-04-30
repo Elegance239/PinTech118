@@ -167,4 +167,10 @@ onEvent('recipes', event => {
 
 	event.replaceInput({id:"createaddition:mixing/biomass_from_sticks"}, 'minecraft:stick', '8x mekanism:bio_fuel')
 
+	event.recipes.create.mixing(
+		Item.of('kubejs:pyrotheum'),
+		[Item.of('2x kubejs:iron_oxide'), Item.of('2x immersiveengineering:dust_aluminum'), Item.of('mekanism:dust_lithium'), Item.of('minecraft:blaze_powder')]
+	)
+
+
 })

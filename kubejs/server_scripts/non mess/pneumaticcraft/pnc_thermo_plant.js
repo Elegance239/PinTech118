@@ -213,6 +213,28 @@ onEvent('recipes', event => {
 		}
 	})
 	
+	event.custom({
+
+		type: "pneumaticcraft:thermo_plant",
+		"air_use_multiplier": 10.0,
+		exothermic: false,
+		fluid_input: {
+			type: "pneumaticcraft:fluid",
+			amount: 8000,
+			fluid: "thermal:glowstone"
+		},
+		item_output: {
+			item: "minecraft:netherite_ingot"
+		},
+		item_input: {
+			item: "kubejs:unprocessed_netherite_alloy"
+		},
+		pressure: 8,
+		"speed": 0.2,
+		temperature: {
+			min_temp: 2073
+		}
+	})
 })
 
 

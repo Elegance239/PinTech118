@@ -31,7 +31,7 @@ function MMItem(item, count) {
 
 onEvent("mm.recipes", event => {
     event.build("mm:cryogenic_coolant", {
-        duration: 20,
+        duration: 40,
         structureId: "namespace:blender",
         name: {
             text: "Mixing: Cryogenic Coolant"
@@ -47,7 +47,7 @@ onEvent("mm.recipes", event => {
     })
 
     event.build("mm:cryogenic_coolant", {
-        duration: 20,
+        duration: 40,
         structureId: "namespace:blender",
         name: {
             text: "Mixing: Cryogenic Coolant"
@@ -63,17 +63,18 @@ onEvent("mm.recipes", event => {
     })
 
     event.build("mm:superalloy", {
-        duration: 80,
+        duration: 40,
         structureId: "namespace:blender",
         name: {
             text: "Mixing: Superalloy"
         },
         inputs: [
-            MMEnergy(500),      //500RF/t = superheat, 200RF/t = normal/heated
+            MMEnergy(200),      //500RF/t = superheat, 200RF/t = normal/heated
             MMItem('kubejs:highly_enriched_carbon',1),
             MMItem('mekanism:alloy_reinforced',1),
             MMItem('thermal:nickel_ingot',1),
-            MMItem("pneumaticcraft:ingot_iron_compressed",1)
+            MMItem("pneumaticcraft:ingot_iron_compressed",1),
+            MMItem('kubejs:pyrotheum',1)
         ],
         outputs: [
             MMItem('thermal_extra:polarium_ingot',1),
@@ -82,7 +83,7 @@ onEvent("mm.recipes", event => {
     
 
     event.build("mm:desiccated_biomass", {
-        duration: 20,
+        duration: 40,
         structureId: "namespace:blender",
         name: {
             text: "Mixing: Desiccated Biomass"
@@ -96,5 +97,39 @@ onEvent("mm.recipes", event => {
             MMItem('kubejs:desiccated_biomass',1),
         ]
     })
+
+    event.build("mm:pyrotheum", {
+        duration: 40,
+        structureId: "namespace:blender",
+        name: {
+            text: "Mixing: Pyrotheum"
+        },
+        inputs: [
+            MMEnergy(200),      
+            MMItem('kubejs:iron_oxide',2),
+            MMItem('immersiveengineering:dust_aluminum',2),
+            MMItem('mekanism:dust_lithium',1),
+            MMItem('minecraft:blaze_powder',1),
+        ],
+        outputs: [
+            MMItem('kubejs:pyrotheum',1),
+        ]
+    })
     
+    event.build("mm:neoclydium", {
+        duration: 40,
+        structureId: "namespace:blender",
+        name: {
+            text: "Mixing: Neoclydium"
+        },
+        inputs: [
+            MMEnergy(200),      
+            MMItem('createchromaticreturn:refined_radiance',2),
+            MMFluid("tconstruct:molten_electrum", 450),
+            MMItem('kubejs:pyrotheum',1),
+        ],
+        outputs: [
+            MMItem('kubejs:neoclydium_ingot_test',1),
+        ]
+    })
 })

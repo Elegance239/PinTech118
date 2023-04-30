@@ -273,4 +273,20 @@ onEvent('recipes', event => {
 		  Item.of('minecraft:calcite').toJson(),
 		]
 	})
+	event.custom({
+		type: "pneumaticcraft:pressure_chamber",
+		inputs: [
+		  Item.of('kubejs:superconducting_mixture').toJson(),
+		  {
+			"type": "pneumaticcraft:stacked_item",
+			"count": 2,
+			"item": "kubejs:graphene"
+		  },
+		  Item.of('kubejs:pyrotheum').toJson(),
+		],
+		pressure: 4,
+		results: [
+		  Item.of('kubejs:sintered_superconductor_pellet').toJson(),
+		]
+	})
 })

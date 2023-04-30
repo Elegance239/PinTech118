@@ -23,5 +23,24 @@ onEvent('recipes', event => {
 		Item.of('4x kubejs:slag_powder'), 
 		{ tag: 'forge:slag', count: 1},
 	).energy(2000)
+
+	event.custom({
+        type: "thermal:pulverizer",
+        ingredient: {
+          item: "kubejs:acidified_ground_dripstone",
+          count:1
+        },
+        result: [
+          {
+            item: "kubejs:raw_copper_mote",
+            chance:0.3
+          },
+          {
+            item: "kubejs:raw_tin_mote",
+            chance:0.1
+          }
+        ],
+        energy: 1000
+	})
 })
 
