@@ -101,8 +101,6 @@ onEvent('recipes', event => {
 		[Fluid.of('minecraft:water', 500), 'minecraft:obsidian']
 		).superheated().id('create:mixing/molten_obsidian')
 
-	event.recipes.create.mixing(Item.of('thermal_extra:polarium_ingot'), [Item.of('thermal:nickel_ingot'), Item.of('kubejs:highly_enriched_carbon'), Item.of('pneumaticcraft:ingot_iron_compressed'), Item.of('mekanism:alloy_reinforced')]).superheated()
-
 	event.recipes.create.mixing(
 		Fluid.of('thermal_extra:zauvium', 500),
 		[Fluid.of('thermal:redstone', 1000), Fluid.of('tconstruct:molten_signalum', 90)]

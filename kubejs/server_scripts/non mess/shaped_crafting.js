@@ -1335,7 +1335,7 @@ onEvent('recipes', event => {
         "item": "thermal:lumium_glass"
       },
       "C": {
-        "item": "thermal:signalum_glass"
+        "item": "immersiveengineering:component_steel"
       },
       "D": {
         "item": "thermal:upgrade_augment_1"
@@ -1426,5 +1426,73 @@ onEvent('recipes', event => {
       }
     },
   )
-  
+  event.shaped('extrastorage:iron_crafter',
+    [
+      " A ",
+      "BCB",
+      " D "
+    ],
+    {
+      "A": {
+        "item": "refinedstorage:crafting_upgrade"
+      },
+      "B": {
+        "item": "immersiveengineering:component_steel"
+      },
+      "C": {
+        "item": "refinedstorage:crafter"
+      },
+      "D": {
+        "item": "storagedrawers:iron_storage_upgrade"
+      }
+    },
+  )
+
+  event.shaped('extrastorage:gold_crafter',
+    [
+      " A ",
+      "BCB",
+      " D "
+    ],
+    {
+      "A": {
+        "item": "mekanism:upgrade_speed"
+      },
+      "B": {
+        "item": "extrastorage:neural_processor"
+      },
+      "C": {
+        "item": "extrastorage:iron_crafter"
+      },
+      "D": {
+        "item": "storagedrawers:gold_storage_upgrade"
+      }
+    },
+  )
+
+  event.shaped('extrastorage:diamond_crafter',
+    [
+      "ABA",
+      "CDC",
+      "AEA"
+    ],
+    {
+      "A": {
+        "item": "mekanism:upgrade_speed"
+      },
+      "B": {
+        "item": "kubejs:cooling_system"
+      },
+      "C": {
+        "item": "kubejs:composite_mechanical_component"
+      },
+      "D": {
+        "item": "extrastorage:gold_crafter"
+      },
+      "E": {
+        "item": "storagedrawers:diamond_storage_upgrade"
+      }
+    },
+
+  )
 })

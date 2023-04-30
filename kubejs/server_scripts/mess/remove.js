@@ -214,7 +214,12 @@ let SD = (id) => 'storagedrawers:'+id
         'thermal:upgrade_augment_3',
         'thermal_extra:dragon_integral_component',
         'thermal:machine_cycle_augment',
-        'create:blaze_cake_base'
+        'create:blaze_cake_base',
+        'thermal_extra:advanced_augment_base',
+        'extrastorage:iron_crafter',
+        'extrastorage:gold_crafter',
+        'extrastorage:diamond_crafter',
+        'extrastorage:netherite_crafter',
     ]                                               
 
     removeid.forEach(item => {

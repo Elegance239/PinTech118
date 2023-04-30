@@ -136,4 +136,6 @@ onEvent('item.registry', event => {
 	event.create('phosphor_blend').displayName('Phosphor Blend')
 	event.create('diamond_seed').displayName('Diamond Seed')
 	event.create('unassembled_advanced_control_circuit').displayName('Unassembled Advanced Control Circuit')
+	event.create('vukaium_plate_bundle').displayName('Vukaium Plate Bundle')
+	event.create('superalloy_plate_bundle').displayName('Superalloy Plate Bundle')
 })

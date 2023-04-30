@@ -125,5 +125,15 @@ onEvent('recipes', event => {
 		]
 	})
 
+	event.custom({
+		type: 'thermal:press',
+		ingredients: [
+			Ingredient.of('kubejs:vukaium_plate_bundle').toJson(),
+		],
+		results: [
+			Item.of('thermal_extra:advanced_augment_base').toJson(),
+		]
+	})
+
 })
 

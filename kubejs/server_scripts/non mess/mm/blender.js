@@ -149,4 +149,135 @@ onEvent("mm.recipes", event => {
             MMItem('industrialforegoing:plastic',6),
         ]
     })
+    event.build("mm:zauvium", {
+        duration: 40,
+        structureId: "namespace:blender",
+        name: {
+            text: "Mixing: Zauvium"
+        },
+        inputs: [
+            MMEnergy(200),      
+            MMFluid('thermal:redstone', 1000),
+            MMFluid('tconstruct:molten_signalum', 90),
+        ],
+        outputs: [
+            MMFluid('thermal_extra:zauvium', 500),
+        ]
+    })
+
+    event.build("mm:nectium", {
+        duration: 40,
+        structureId: "namespace:blender",
+        name: {
+            text: "Mixing: Nectium"
+        },
+        inputs: [
+            MMEnergy(200),      
+            MMFluid('tconstruct:molten_refined_glowstone', 1000),
+            MMFluid('tconstruct:molten_lumium', 90),
+        ],
+        outputs: [
+            MMFluid('thermal_extra:nectium', 500),
+        ]
+    })
+
+    event.build("mm:nebulium", {
+        duration: 40,
+        structureId: "namespace:blender",
+        name: {
+            text: "Mixing: Nebulium"
+        },
+        inputs: [
+            MMEnergy(200),      
+            MMFluid('industrialforegoing:pink_slime', 1000),
+            MMFluid('tconstruct:molten_refined_obsidian', 90),
+        ],
+        outputs: [
+            MMFluid('thermal_extra:nebulium', 500),
+        ]
+    })
+
+    event.build("mm:vukaium", {
+        duration: 40,
+        structureId: "namespace:blender",
+        name: {
+            text: "Mixing: Vukaium"
+        },
+        inputs: [
+            MMEnergy(200),      
+            MMFluid('industrialforegoing:essence', 1000),
+            MMFluid('tconstruct:molten_uranium', 90),
+        ],
+        outputs: [
+            MMFluid('thermal_extra:vukaium', 500),
+        ]
+    })
+
+    event.build("mm:drownium", {
+        duration: 40,
+        structureId: "namespace:blender",
+        name: {
+            text: "Mixing: Drownium"
+        },
+        inputs: [
+            MMEnergy(200),      
+            MMFluid('kubejs:cryogenic_coolant', 1000),
+            MMFluid('tconstruct:molten_enderium', 90),
+        ],
+        outputs: [
+            MMFluid('thermal_extra:drownium', 500),
+        ]
+    })
+
+	event.build("mm:cheaper_drownium", {
+        duration: 40,
+        structureId: "namespace:blender",
+        name: {
+            text: "Mixing: Drownium"
+        },
+        inputs: [
+            MMEnergy(200),      
+            MMFluid('kubejs:cryogenic_coolant', 1000),
+            MMFluid('thermal_extra:dragon_enderium', 45),
+        ],
+        outputs: [
+            MMFluid('thermal_extra:drownium', 500),
+        ]
+    })
+
+    event.build("mm:shadowessence", {
+        duration: 80,
+        structureId: "namespace:blender",
+        name: {
+            text: "Mixing: Shadow Essence"
+        },
+        inputs: [
+            MMEnergy(500),      
+            MMItem('fluxnetworks:flux_dust', 5),
+            MMItem('thermal:steel_coin', 4),
+            MMItem('thermal:tar', 3),
+            MMItem('minecraft:obsidian', 2),
+            MMItem('minecraft:dragon_egg', 1),
+            MMFluid('createchromaticreturn:refined_mixture', 5000),
+        ],
+        outputs: [
+            MMFluid('createchromaticreturn:shadow_essence', 5000),
+        ]
+    })
+
+    event.build("mm:dragon", {
+        duration: 40,
+        structureId: "namespace:blender",
+        name: {
+            text: "Mixing: Dragon Enderium"
+        },
+        inputs: [
+            MMEnergy(200),      
+            MMItem('minecraft:dragon_breath', 1),
+            MMFluid('tconstruct:molten_enderium', 45),
+        ],
+        outputs: [
+            MMFluid('thermal_extra:dragon_enderium', 90),
+        ]
+    })
 })

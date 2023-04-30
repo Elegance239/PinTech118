@@ -314,5 +314,21 @@ onEvent('recipes', event => {
 		},
 		"processingTime": 300
 	  })
+
+	  event.custom({
+		"type": "industrialforegoing:dissolution_chamber",
+		"input": [
+
+		  {
+			"item": 'extrastorage:diamond_crafter'
+		  },
+		],
+		"inputFluid": "{Amount:1000,FluidName:\"createchromaticreturn:shadow_essence\"}",
+		"output": {
+		  "count": 1,
+		  "item": "extrastorage:netherite_crafter"
+		},
+		"processingTime": 320
+	  })
 })
 

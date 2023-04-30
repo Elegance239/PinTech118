@@ -10,4 +10,6 @@ onEvent('recipes', event => {
         ],
     })
 
+    event.recipes.createPressing('thermal_extra:advanced_augment_base', 'kubejs:vukaium_plate_bundle')
+
 })

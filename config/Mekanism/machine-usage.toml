@@ -40,7 +40,7 @@
 	#Energy per operation tick (Joules).
 	seismicVibrator = "50"
 	#Energy per operation tick (Joules).
-	pressurizedReactionBase = "400"
+	pressurizedReactionBase = "5"
 	#Energy per operation tick (Joules).
 	fluidicPlenisher = "100"
 	#Energy per operation tick (Joules).

@@ -27,11 +27,6 @@ onEvent('recipes', event => {
 		],
 		energy: 10000
 	})
-
-	event.recipes.thermal.bottler(
-		'kubejs:filled_machine_frame', 
-		[Fluid.of('thermal:resin', 5000), 'kubejs:core_machine_frame']
-	).energy(2000)
 	
 	event.recipes.thermal.bottler(
 		'advgenerators:iron_wiring', 

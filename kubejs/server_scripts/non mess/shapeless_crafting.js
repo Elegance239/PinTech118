@@ -7,4 +7,6 @@ onEvent('recipes', event => {
     event.shapeless('kubejs:enderium_rod_bundle', ['4x kubejs:enderium_rod'])
     event.shapeless('24x kubejs:accelerator_frame', ['3x kubejs:compressed_iron_plate', 'kubejs:modular_machine_framework']) 
     event.shapeless('kubejs:phosphor_blend',['#forge:dusts/uranium','kubejs:silica_dust', '3x #forge:dusts/zinc',  '2x #forge:dusts/sulfur'])
+    event.shapeless('kubejs:superalloy_plate_bundle', '3x thermal_extra:polarium_plate')
+    event.shapeless('kubejs:vukaium_plate_bundle', '3x thermal_extra:vukaium_plate')
 })

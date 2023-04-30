@@ -387,33 +387,14 @@ onEvent('recipes', event => {
 
             event.recipes.createDeploying(
                 'kubejs:cut_machine_frame', 
-                ['kubejs:cut_machine_frame', 'thermal_extra:polarium_plate']
+                ['kubejs:cut_machine_frame', 'kubejs:superalloy_plate_bundle']
             ),
 
             event.recipes.createDeploying(
                 'kubejs:cut_machine_frame', 
-                ['kubejs:cut_machine_frame', 'thermal_extra:polarium_plate']
+                ['kubejs:cut_machine_frame', 'kubejs:superalloy_plate_bundle']
             ),
 
-            event.recipes.createDeploying(
-                'kubejs:cut_machine_frame', 
-                ['kubejs:cut_machine_frame', 'thermal_extra:polarium_plate']
-            ),
-
-            event.recipes.createDeploying(
-                'kubejs:cut_machine_frame', 
-                ['kubejs:cut_machine_frame', 'thermal_extra:polarium_plate']
-            ),
-
-            event.recipes.createDeploying(
-                'kubejs:cut_machine_frame', 
-                ['kubejs:cut_machine_frame', 'thermal_extra:polarium_plate']
-            ),
-
-            event.recipes.createDeploying(
-                'kubejs:cut_machine_frame', 
-                ['kubejs:cut_machine_frame', 'thermal_extra:polarium_plate']
-            ),
             
             event.recipes.createDeploying(
                 'kubejs:cut_machine_frame', 
