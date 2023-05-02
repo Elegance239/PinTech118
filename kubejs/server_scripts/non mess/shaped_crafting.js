@@ -1499,132 +1499,132 @@ onEvent('recipes', event => {
   event.shaped('immersiveengineering:dynamo',
     [" A ", "BCB", "DED"],
     {
-    "A": {
+      "A": {
         "item": "thermal:rf_coil"
-    },
-    "B": {
+      },
+      "B": {
         "item": "minecraft:redstone"
-    },
-    "C": {
+      },
+      "C": {
         "item": "immersiveengineering:component_steel"
-    },
-    "D": {
+      },
+      "D": {
         "item": "minecraft:iron_ingot"
-    },
-    "E": {
+      },
+      "E": {
         "item": "immersiveengineering:coil_lv"
-    }
-},
-)
+      }
+    },
+  )
 
-event.shaped('thermal:dynamo_stirling',
+  event.shaped('thermal:dynamo_stirling',
     [" A ", "BCB", "BDB"],
     {
-    "A": {
+      "A": {
         "item": "thermal:rf_coil"
-    },
-    "B": {
+      },
+      "B": {
         "item": "thermal:steel_plate"
-    },
-    "C": {
+      },
+      "C": {
         "item": "thermal:constantan_gear"
-    },
-    "D": {
+      },
+      "D": {
         "item": "immersiveengineering:coil_lv"
-    }
-},
-)
+      }
+    },
+  )
 
-event.shaped('immersiveengineering:thermoelectric_generator',
+  event.shaped('immersiveengineering:thermoelectric_generator',
     ["ABA", "CDC", "CCC"],
     {
-    "A": {
+      "A": {
         "item": "immersiveengineering:component_steel"
-    },
-    "B": {
+      },
+      "B": {
         "item": "thermal:rf_coil"
-    },
-    "C": {
+      },
+      "C": {
         "item": "thermal:constantan_plate"
-    },
-    "D": {
+      },
+      "D": {
         "item": "immersiveengineering:coil_lv"
-    }
-},
-)
+      }
+    },
+  )
 
-event.shaped('mekanismgenerators:bio_generator',
+  event.shaped('mekanismgenerators:bio_generator',
     ["AAA", "BCB", "DBD"],
     {
-    "A": {
+      "A": {
         "item": "mekanism:bio_fuel"
-    },
-    "B": {
+      },
+      "B": {
         "item": "thermal:dynamo_stirling"
-    },
-    "C": {
+      },
+      "C": {
         "item": "pneumaticcraft:pneumatic_cylinder"
-    },
-    "D": {
+      },
+      "D": {
         "item": "mekanism:basic_control_circuit"
-    }
-},
-)
+      }
+    },
+  )
 
-event.shaped('mekanismgenerators:advanced_solar_generator',
+  event.shaped('mekanismgenerators:advanced_solar_generator',
     ["ABA", "ACA", "DDD"],
     {
-    "A": {
+      "A": {
         "item": "mekanismgenerators:solar_generator"
-    },
-    "B": {
+      },
+      "B": {
         "item": "thermal:signalum_dust"
-    },
-    "C": {
+      },
+      "C": {
         "item": "mekanism:basic_control_circuit"
-    },
-    "D": {
+      },
+      "D": {
         "item": "immersiveengineering:stick_steel"
-    }
-},
-)
+      }
+    },
+  )
 
-event.shaped('mekanismgenerators:wind_generator',
+  event.shaped('mekanismgenerators:wind_generator',
     ["ABA", "CDC", "CEC"],
     {
-    "A": {
+      "A": {
         "item": "mekanism:advanced_control_circuit"
-    },
-    "B": {
+      },
+      "B": {
         "item": "mekanismgenerators:turbine_blade"
-    },
-    "C": {
+      },
+      "C": {
         "item": "kubejs:composite_mechanical_component"
-    },
-    "D": {
+      },
+      "D": {
         "item": "advgenerators:turbine_rotor_tier2"
-    },
-    "E": {
+      },
+      "E": {
         "item": "immersiveengineering:heavy_engineering"
-    }
-},
-)
+      }
+    },
+  )
 
-event.shaped('rftoolsbase:machine_frame',
+  event.shaped('rftoolsbase:machine_frame',
     ["ABA", "CDC", "ABA"],
     {
-    "A": {
+      "A": {
         "item": "kubejs:compressed_iron_plate"
-    },
-    "B": {
+      },
+      "B": {
         "item": "pneumaticcraft:plastic"
-    },
-    "C": {
+      },
+      "C": {
         "item": "mekanism:basic_control_circuit"
-    },
-    "D": {
+      },
+      "D": {
         "item": "mekanism:steel_casing"
-    }
-},
-)
+      }
+    },
+  )
 })

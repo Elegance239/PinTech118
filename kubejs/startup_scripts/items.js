@@ -138,4 +138,6 @@ onEvent('item.registry', event => {
 	event.create('unassembled_advanced_control_circuit').displayName('Unassembled Advanced Control Circuit')
 	event.create('vukaium_plate_bundle').displayName('Vukaium Plate Bundle')
 	event.create('superalloy_plate_bundle').displayName('Superalloy Plate Bundle')
+	event.create('upgrade_base').displayName('Upgrade Base')
+	event.create('augment_base').displayName('Augment Base')
 })
