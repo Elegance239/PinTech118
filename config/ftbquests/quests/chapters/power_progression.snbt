@@ -20,6 +20,7 @@
 		{
 			x: -3.0d
 			y: 0.5d
+			subtitle: "40"
 			id: "632A69F6DB724611"
 			tasks: [{
 				id: "02874C918ECC7B67"
@@ -29,17 +30,8 @@
 		}
 		{
 			x: -3.0d
-			y: 2.5d
-			id: "67D56F71B6CCF09B"
-			tasks: [{
-				id: "00C7C1742E91C8AC"
-				type: "item"
-				item: "pneumaticcraft:pneumatic_dynamo"
-			}]
-		}
-		{
-			x: -3.0d
 			y: -1.5d
+			subtitle: "20"
 			id: "4EDD5A14F626D259"
 			tasks: [{
 				id: "0B54ADDDC55FDD54"
@@ -50,6 +42,7 @@
 		{
 			x: -0.5d
 			y: -1.5d
+			subtitle: "200"
 			id: "227191AE5758B8FC"
 			tasks: [{
 				id: "4D48E9602ED60221"
@@ -60,6 +53,7 @@
 		{
 			x: -0.5d
 			y: 0.0d
+			subtitle: "40"
 			id: "404EB2F400C08EE5"
 			tasks: [{
 				id: "67F6EAABBE911829"
@@ -70,6 +64,7 @@
 		{
 			x: -0.5d
 			y: 1.0d
+			subtitle: "60"
 			id: "1ECF7E4D0EE25487"
 			tasks: [{
 				id: "5F79819C2BFAC4C1"
@@ -80,6 +75,7 @@
 		{
 			x: 1.5d
 			y: -1.5d
+			subtitle: "200"
 			id: "102B3ACD080F66CB"
 			tasks: [{
 				id: "7B95A05CE2FDD9D9"
@@ -110,6 +106,7 @@
 		{
 			x: -0.5d
 			y: -3.0d
+			subtitle: "120"
 			id: "01398EC6D40673C6"
 			tasks: [{
 				id: "3CBF5B4FFC509EAF"
@@ -119,12 +116,75 @@
 		}
 		{
 			x: 1.5d
-			y: 0.0d
+			y: 0.5d
+			subtitle: "4096"
 			id: "46EFE7F4B4F54550"
 			tasks: [{
 				id: "2113D3787410CD30"
 				type: "item"
 				item: "immersiveengineering:diesel_generator"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			subtitle: "60"
+			id: "57181A434D21B5CA"
+			tasks: [{
+				id: "5F3EAD1EFD034A70"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			id: "77072D9D36E4F77A"
+			tasks: [{
+				id: "46820EBCB8C86B27"
+				type: "item"
+				item: "advgenerators:turbine_rotor_tier1"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			id: "0C84B224E08EA959"
+			tasks: [{
+				id: "029271134ECB5144"
+				type: "item"
+				item: "biggerreactors:reactor_glass"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			id: "5AF7A1A4D89BFFA6"
+			tasks: [{
+				id: "2BAFBD12E856C2B3"
+				type: "item"
+				item: "mekanismgenerators:gas_burning_generator"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			subtitle: "40"
+			id: "738BBFA0F5CD1F87"
+			tasks: [{
+				id: "2D675C3114D419B1"
+				type: "item"
+				item: "mekanismgenerators:heat_generator"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			id: "6527CC9251308215"
+			tasks: [{
+				id: "1E6670A1D54C4DFA"
+				type: "item"
+				item: "kubejs:supersymmetric_particles"
 			}]
 		}
 	]

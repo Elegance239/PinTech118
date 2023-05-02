@@ -220,6 +220,20 @@ let SD = (id) => 'storagedrawers:'+id
         'extrastorage:gold_crafter',
         'extrastorage:diamond_crafter',
         'extrastorage:netherite_crafter',
+        'immersiveengineering:alloybrick',
+        'immersiveengineering:dynamo',
+        'thermal:dynamo_stirling',
+        'immersiveengineering:thermoelectric_generator',
+        'mekanismgenerators:bio_generator',
+        'mekanismgenerators:advanced_solar_generator',
+        'mekanismgenerators:wind_generator',
+        'thermal:dynamo_magmatic',
+        'thermal:dynamo_gourmand',
+        'thermal:dynamo_lapidary',
+        'thermal:dynamo_numismatic',
+        'thermal:dynamo_compression',
+        'mekanismgenerators:heat_generator',
+        'rftoolsbase:machine_frame'
     ]                                               
 
     removeid.forEach(item => {
@@ -277,6 +291,13 @@ let SD = (id) => 'storagedrawers:'+id
         'createchromaticreturn:plutonium_nugget_recipe',
         'createchromaticreturn:antimatter_recipe',
         'create:crushing/prismarine_crystals',
+        'immersiveengineering:crafting/electrum_mix',
+        'immersiveengineering:crafting/constantan_mix',
+        'createaddition:compat/immersiveengineering/electrum',
+        'createaddition:compat/immersiveengineering/constantan',
+        'create:splashing/soul_sand',
+        'create:crushing/diorite',
+        'create:crushing/diorite_recycling'
     ]
 
     recipeId.forEach(item => {

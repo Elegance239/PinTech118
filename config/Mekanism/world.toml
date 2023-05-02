@@ -97,7 +97,7 @@
 	#Generation Settings for osmium ore.
 	[world_generation.osmium]
 		#Determines if osmium ore should be added to world generation.
-		shouldGenerate = true
+		shouldGenerate = false
 
 		#upper osmium vein Generation Settings.
 		[world_generation.osmium.upper]
@@ -399,7 +399,7 @@
 	#Generation Settings for lead ore.
 	[world_generation.lead]
 		#Determines if lead ore should be added to world generation.
-		shouldGenerate = true
+		shouldGenerate = false
 
 		#normal lead vein Generation Settings.
 		[world_generation.lead.normal]

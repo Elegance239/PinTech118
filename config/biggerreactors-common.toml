@@ -20,7 +20,7 @@
     #
     # Default: true
     #
-    EnableUraniumGeneration = true
+    EnableUraniumGeneration = false
 
 [Reactor]
     #
@@ -45,13 +45,13 @@
     # Valid range: (0,)
     # Default: 1.0
     #
-    FuelUsageMultiplier = 1.0
+    FuelUsageMultiplier = 1.5
 
     #
     # Valid range: (0,)
     # Default: 1.0
     #
-    OutputMultiplier = 1.0
+    OutputMultiplier = 0.5
 
     [Reactor.GUI]
         #

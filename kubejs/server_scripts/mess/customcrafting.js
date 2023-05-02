@@ -64,7 +64,7 @@ onEvent('recipes', event => {
 		'GSG',
 		' E '
 	], {
-		G:'createaddition:gold_spool',
+		G:'immersiveengineering:wirecoil_electrum',
 		E:'thermal:electrum_plate',
 		S:'thermal:redstone_servo'
 	})
