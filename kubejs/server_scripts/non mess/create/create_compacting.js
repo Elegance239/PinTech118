@@ -35,4 +35,15 @@ onEvent('recipes', event => {
             Item.of('create:blaze_cake_base').toJson(),
         ],
     })
+
+    event.custom({
+        type:'create:compacting',
+        ingredients: [
+            Ingredient.of('tconstruct:grout').toJson(),
+        ],
+        results: [
+            Item.of('tconstruct:seared_brick').toJson(),
+        ],
+        heatRequirement: "heated"
+    })
 })

@@ -207,7 +207,7 @@ onEvent('recipes', event => {
     R: 'kubejs:compressed_iron_rod',
     M: 'immersiveengineering:component_steel'
   })
-  event.shaped('mekanism:advanced_control_circuit', [
+  event.shaped('kubejs:unassembled_advanced_control_circuit', [
     'PBP',
     'LSL',
     'PBP'

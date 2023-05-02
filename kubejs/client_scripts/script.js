@@ -18,4 +18,8 @@ onEvent('client.generate_assets', event => {
     rename('extrastorage:gold_crafter', 'Crafter Tier 3')
     rename('extrastorage:diamond_crafter', 'Crafter Tier 4')
     rename('extrastorage:netherite_crafter', 'Crafter Tier 5')
+    rename('createaddition:capacitor', 'Primitive Capacitor')
+    rename('immersiveengineering:graphite_electrode', 'Reinforced Electrode')
+    rename('industrialforegoing:plastic', 'Crude Plastic')
+    
   })

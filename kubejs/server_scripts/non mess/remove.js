@@ -233,7 +233,8 @@ let SD = (id) => 'storagedrawers:'+id
         'thermal:dynamo_numismatic',
         'thermal:dynamo_compression',
         'mekanismgenerators:heat_generator',
-        'rftoolsbase:machine_frame'
+        'rftoolsbase:machine_frame',
+        'createaddition:straw',
     ]                                               
 
     removeid.forEach(item => {

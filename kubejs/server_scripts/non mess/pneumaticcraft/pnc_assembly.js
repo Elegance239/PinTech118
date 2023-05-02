@@ -75,4 +75,16 @@ onEvent('recipes', event => {
 
     })
 
+    event.custom({
+        type: "pneumaticcraft:assembly_laser",
+        input: {
+            item: 'kubejs:unassembled_advanced_control_circuit',
+        },
+        program: "laser",
+        result: 		  {
+            item: 'mekanism:advanced_control_circuit',
+        },
+
+    })
+
 })
