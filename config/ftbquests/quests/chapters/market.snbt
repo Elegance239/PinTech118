@@ -6,23 +6,232 @@
 	title: "Market"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "Welcome to the Market!"
-		x: 0.0d
-		y: 0.0d
-		description: ["The Market is the place where you can use your hard-earned chin to buy raw materials, which may or may not aid you in your quest. "]
-		size: 3.0d
-		id: "3BB8A98068B70F0C"
-		tasks: [{
-			id: "0FCE1AC16432355F"
-			type: "item"
-			item: "kubejs:chin_new"
-		}]
-		rewards: [{
-			id: "365B26F4905CEAC1"
-			type: "xp_levels"
-			xp_levels: 2
-		}]
-	}]
+	quests: [
+		{
+			title: "Welcome to the Market!"
+			x: 0.0d
+			y: 0.0d
+			description: ["The Market is the place where you can use your hard-earned chin to buy raw materials, which may or may not aid you in your quest. "]
+			size: 3.0d
+			id: "3BB8A98068B70F0C"
+			tasks: [{
+				id: "0FCE1AC16432355F"
+				type: "item"
+				item: "kubejs:chin_new"
+			}]
+			rewards: [{
+				id: "365B26F4905CEAC1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			size: 1.5d
+			id: "1D6E901C4CA685A7"
+			tasks: [{
+				id: "47D7F7CBE6CA0C1D"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -9.75d
+			size: 1.5d
+			id: "626956CD3835C34E"
+			tasks: [{
+				id: "754A476BC580A8BE"
+				type: "item"
+				item: "minecraft:granite"
+			}]
+		}
+		{
+			x: -2.25d
+			y: -9.75d
+			size: 1.5d
+			id: "222358C92566DA91"
+			tasks: [{
+				id: "4C8F05685B6DB265"
+				type: "item"
+				item: "minecraft:diorite"
+			}]
+			rewards: [{
+				id: "655EE1575714E2EC"
+				type: "item"
+				item: "minecraft:diorite"
+				count: 32
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.75d
+			size: 1.5d
+			id: "0F2098D72E365ABD"
+			tasks: [{
+				id: "6752F3156200ECDC"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
+		}
+		{
+			x: -2.25d
+			y: -7.5d
+			size: 1.5d
+			id: "5551E48B34027E2D"
+			tasks: [{
+				id: "0D2E706AC4D93D18"
+				type: "item"
+				item: "minecraft:calcite"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -7.5d
+			size: 1.5d
+			id: "148AFA1E4141B86F"
+			tasks: [{
+				id: "72DE5EA040D643CA"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+		}
+		{
+			title: "Oak Log x16"
+			icon: "minecraft:oak_log"
+			x: -4.5d
+			y: -9.75d
+			size: 1.5d
+			id: "3E6034ED324A27C3"
+			tasks: [{
+				id: "7BCEDDBC863AF05B"
+				type: "item"
+				icon: "kubejs:chin_new"
+				item: "kubejs:chin_new"
+			}]
+			rewards: [{
+				id: "586FFF30F11973B3"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 16
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.5d
+			size: 1.5d
+			id: "60A1BEA25C9B1A56"
+			tasks: [{
+				id: "0A63DCA625483518"
+				type: "item"
+				item: "minecraft:oak_planks"
+			}]
+			rewards: [
+				{
+					id: "1E51EB0CF04813F1"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 64
+				}
+				{
+					id: "00E9796AD830ADBF"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "Spruce Logs x16"
+			icon: "minecraft:spruce_log"
+			x: -6.75d
+			y: -9.75d
+			size: 1.5d
+			id: "462C4912A06230DE"
+			tasks: [{
+				id: "6D63905C1B9A995D"
+				type: "item"
+				item: "kubejs:chin_new"
+			}]
+			rewards: [{
+				id: "3136B37002DDDD0D"
+				type: "item"
+				item: "minecraft:spruce_log"
+				count: 16
+			}]
+		}
+		{
+			title: "Spruce Planks x96"
+			icon: "minecraft:spruce_planks"
+			x: -6.75d
+			y: -7.5d
+			size: 1.5d
+			id: "7651DC26EA59EE18"
+			tasks: [{
+				id: "1AFC3E10DB83EC08"
+				type: "item"
+				item: "kubejs:chin_new"
+			}]
+			rewards: [
+				{
+					id: "7AD5DCDE7A175235"
+					type: "item"
+					item: "minecraft:spruce_planks"
+					count: 64
+				}
+				{
+					id: "4021C1632276A1D2"
+					type: "item"
+					item: "minecraft:spruce_planks"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 6.75d
+			y: -9.75d
+			size: 1.5d
+			id: "2F08B65795824BC5"
+			tasks: [{
+				id: "54184D29BE3DAD5C"
+				type: "item"
+				item: "minecraft:birch_log"
+			}]
+		}
+		{
+			x: 6.75d
+			y: -7.5d
+			size: 1.5d
+			id: "2D1DEE2CA8985AA8"
+			tasks: [{
+				id: "633A6E5F74A5348C"
+				type: "item"
+				item: "minecraft:birch_planks"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -9.75d
+			size: 1.5d
+			id: "77B597B72561E534"
+			tasks: [{
+				id: "6B89040F47CF7546"
+				type: "item"
+				item: "minecraft:jungle_log"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -7.5d
+			size: 1.5d
+			id: "77B6B3CFFB8DC880"
+			tasks: [{
+				id: "49589A8E15238621"
+				type: "item"
+				item: "minecraft:jungle_planks"
+			}]
+		}
+	]
 	quest_links: [ ]
 }
