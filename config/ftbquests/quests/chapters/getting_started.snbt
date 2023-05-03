@@ -13,6 +13,7 @@
 			y: 0.0d
 			shape: "square"
 			subtitle: "Chop down your first trees!"
+			description: ["So, let us return to monke, and focus on the first thing we technically should do when we start up a game of Minecraft. You go and punch a tree. I don't really care if it hurts, or if you don't want to. "]
 			hide_dependency_lines: false
 			size: 2.0d
 			id: "722CDE337A4DB0F5"
@@ -40,6 +41,7 @@
 			title: "You'll need some of these..."
 			x: -7.0d
 			y: -3.0d
+			description: ["And then you go and mine stone."]
 			dependencies: ["722CDE337A4DB0F5"]
 			size: 2.0d
 			id: "50FDF6618BCA041F"
@@ -60,6 +62,7 @@
 			x: -5.0d
 			y: 3.0d
 			subtitle: "Make a Furnace. Not difficult, eh?"
+			description: ["Processing Ores is going to be a big theme of this pack. There will be many ores that you can't smelt in a furnace now, and that's okay, because we intended to."]
 			hide_dependency_lines: false
 			dependencies: ["50FDF6618BCA041F"]
 			size: 2.0d
@@ -135,32 +138,6 @@
 			}]
 		}
 		{
-			title: "Nuggets"
-			x: 10.0d
-			y: -1.0d
-			subtitle: "The Blast Furnace is your first way to process elementary ores."
-			dependencies: ["369471B984582E15"]
-			size: 2.0d
-			id: "32BC47EB3141A0E3"
-			tasks: [
-				{
-					id: "5364A62CAA8D3550"
-					type: "item"
-					item: "create:zinc_nugget"
-				}
-				{
-					id: "5944934C67D32F57"
-					type: "item"
-					item: "thermal:tin_nugget"
-				}
-				{
-					id: "638EEA05B8CC391C"
-					type: "item"
-					item: "thermal:silver_nugget"
-				}
-			]
-		}
-		{
 			x: 5.0d
 			y: 3.0d
 			subtitle: "The Blast Furnace is your first way to process elementary ores."
@@ -181,7 +158,7 @@
 		}
 		{
 			x: 10.0d
-			y: 7.0d
+			y: 3.0d
 			dependencies: ["369471B984582E15"]
 			size: 2.0d
 			id: "49D1051908697A35"
@@ -199,7 +176,6 @@
 			description: ["Andesite Alloys are the foundation of the Create Mod!"]
 			dependencies: [
 				"49D1051908697A35"
-				"32BC47EB3141A0E3"
 				"390A0A51A68A04AE"
 			]
 			size: 3.0d
@@ -222,6 +198,7 @@
 			x: 22.0d
 			y: 3.0d
 			subtitle: "The wheels on the bus go round and round..."
+			description: ["Create uses SU (Stress Units) as its power source for its machines. You can learn more about it by watching a youtube video, or by the ponder feature."]
 			dependencies: ["09800CB0FF81EF57"]
 			size: 2.0d
 			id: "638DFC8F928BDF6D"
@@ -234,6 +211,7 @@
 		{
 			x: 26.0d
 			y: 6.0d
+			description: ["The mixer has 3 modes of operation, non-heated, heated and superheated. If a recipe doesn't work, check the heating requirement of the recipe."]
 			dependencies: ["638DFC8F928BDF6D"]
 			size: 2.0d
 			id: "3C08C2679E5AF651"
@@ -246,6 +224,7 @@
 		{
 			x: 22.0d
 			y: -4.0d
+			description: ["The encased fan opens up a myriad of opportunities for processing items."]
 			dependencies: ["638DFC8F928BDF6D"]
 			size: 2.0d
 			id: "4A5FB1E88D38E8AF"
@@ -261,19 +240,6 @@
 					item: "minecraft:water_bucket"
 				}
 			]
-		}
-		{
-			x: 28.0d
-			y: -6.5d
-			subtitle: "Congratulations! You've unlocked 1x Processing for Zinc."
-			dependencies: ["4A5FB1E88D38E8AF"]
-			size: 2.5d
-			id: "01458EA4C58193EA"
-			tasks: [{
-				id: "45A2D039E43EF19C"
-				type: "item"
-				item: "create:zinc_ingot"
-			}]
 		}
 		{
 			title: "Windmill"
@@ -328,7 +294,7 @@
 		{
 			title: "Plates"
 			x: 26.0d
-			y: 0.0d
+			y: -2.0d
 			subtitle: "With the mechanical press, you no longer need to hammer down ingots!"
 			dependencies: ["19D287CB9CFBE5F4"]
 			size: 2.0d
@@ -362,6 +328,7 @@
 		{
 			x: 48.0d
 			y: -4.0d
+			description: ["The ponder scene will explain in detail the use of this machine."]
 			dependencies: ["4414F50500F81331"]
 			size: 2.0d
 			id: "58E2A4FB6DFEE945"
@@ -387,6 +354,7 @@
 			x: 57.75d
 			y: 5.25d
 			shape: "gear"
+			description: ["Your first machine frame of many! Consider yourself entering the early-game now."]
 			dependencies: ["08EBCB6CC12D5164"]
 			size: 3.5d
 			id: "784BF5DEA003561C"
@@ -401,6 +369,7 @@
 			x: 34.0d
 			y: 7.0d
 			subtitle: "The Industrial Revolution and its consequences"
+			description: ["Watch the ponder scene. It is immensely helpful."]
 			dependencies: ["779B4477CD962477"]
 			size: 2.0d
 			optional: true
@@ -415,7 +384,7 @@
 			title: "Coke Oven"
 			x: 29.0d
 			y: 3.0d
-			description: ["Right click on the central block with the hammer."]
+			description: ["Right click on the central block (3x3x3) with the hammer."]
 			dependencies: ["19D287CB9CFBE5F4"]
 			size: 2.0d
 			id: "41C4CC2224348325"
@@ -438,8 +407,9 @@
 			}]
 		}
 		{
-			x: 35.0d
+			x: 32.0d
 			y: 0.0d
+			description: ["With Creosote Oil from the coke oven, you can obtain treated wood and use the coal coke to make steel. "]
 			dependencies: ["41C4CC2224348325"]
 			size: 2.0d
 			id: "2E4ED7EA86BD6E24"
@@ -467,6 +437,7 @@
 		{
 			x: 45.0d
 			y: 0.0d
+			description: ["The first sequenced assembly... Of many."]
 			dependencies: [
 				"2E4ED7EA86BD6E24"
 				"2B7D9E6AAA75E2A0"
@@ -482,6 +453,7 @@
 		{
 			x: 32.0d
 			y: 3.0d
+			description: ["Same as the coke oven."]
 			dependencies: ["41C4CC2224348325"]
 			size: 2.0d
 			id: "680322D862FC9AFF"
@@ -495,6 +467,7 @@
 		{
 			x: 40.0d
 			y: 7.0d
+			description: ["Ores from now on need to be processed in various methods before they can be turned into their ingot form."]
 			dependencies: ["7FC0FF0A4945731F"]
 			size: 2.0d
 			id: "6A95532F99877B4E"
@@ -532,6 +505,7 @@
 		{
 			x: 49.0d
 			y: 6.0d
+			description: ["A very good tip that will make you less likely to ragequit is to automate essential components, such as this, casings, and machine frames. They are used extensively in our pack."]
 			dependencies: [
 				"0E86E3F8974A8EE2"
 				"6A95532F99877B4E"
@@ -548,6 +522,7 @@
 		{
 			x: 48.0d
 			y: 0.0d
+			description: ["When in doubt, ponder."]
 			dependencies: ["4414F50500F81331"]
 			size: 2.0d
 			id: "41C711440563D33E"
@@ -560,6 +535,7 @@
 		{
 			x: 51.0d
 			y: 0.0d
+			description: ["Ponder."]
 			dependencies: ["41C711440563D33E"]
 			size: 2.0d
 			id: "7D97F95C71567B5F"
@@ -587,6 +563,7 @@
 			y: 0.0d
 			shape: "square"
 			subtitle: "Nabla x E = -dB/dt"
+			description: ["When in doubt, ponder. But this is the last thing you can ponder on. "]
 			dependencies: [
 				"2BD71E0B17790DFB"
 				"08EBCB6CC12D5164"
@@ -614,6 +591,7 @@
 		{
 			x: 18.0d
 			y: -2.0d
+			description: ["The electric motor allows converting FE (Forge Energy) into Create SU. You can use this after unlocking power generation sources."]
 			dependencies: ["638DFC8F928BDF6D"]
 			size: 2.0d
 			id: "31AB1B1A485E07FF"
@@ -659,10 +637,10 @@
 		}
 		{
 			title: "Iron!"
-			x: 30.0d
-			y: -1.5d
-			description: ["You're now eligible to get infinite iron! Move to the \"Ore Processing\" Tab for more."]
-			size: 1.5d
+			x: 29.0d
+			y: -2.0d
+			description: ["One of the special features of this pack is our unique ore generation and processing. At this stage, you can already obtain infinite iron. Check the ore generation quest tab for more."]
+			size: 2.0d
 			id: "1D4222E8AB47DE8A"
 			tasks: [{
 				id: "6ECE323BEDB61D72"
