@@ -23,11 +23,11 @@
 	#The second line of text under the app name
 	state = "Game Starting..."
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = ["https://cdn.discordapp.com/app-assets/762726289341677668/762727693144948777.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
-	smallImageKey = ["mclogonew"]
+	smallImageKey = ["https://cdn.discordapp.com/app-assets/762726289341677668/762727693144948777.png"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
 	#The buttons to display on Discord
@@ -42,11 +42,11 @@
 	#The seconds line of text under the app name
 	state = "Chilling in the menu"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = ["https://cdn.discordapp.com/app-assets/762726289341677668/762727693144948777.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
-	smallImageKey = ["mclogonew"]
+	smallImageKey = ["https://cdn.discordapp.com/app-assets/762726289341677668/762727693144948777.png"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
 	#The buttons to display on Discord
@@ -61,11 +61,11 @@
 	#The second line of text under the app name
 	state = "Searching for friends"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = ["https://cdn.discordapp.com/app-assets/762726289341677668/762727693144948777.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
-	smallImageKey = ["mclogonew"]
+	smallImageKey = ["https://cdn.discordapp.com/app-assets/762726289341677668/762727693144948777.png"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
 	#The buttons to display on Discord
@@ -80,11 +80,11 @@
 	#The second line of text under the app name
 	state = "Browsing Realms"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = ["https://cdn.discordapp.com/app-assets/762726289341677668/762727693144948777.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
-	smallImageKey = ["mclogo"]
+	smallImageKey = ["https://cdn.discordapp.com/app-assets/762726289341677668/762727693144948777.png"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
 	#The buttons to display on Discord
@@ -99,11 +99,11 @@
 	#The second line of text under the app name
 	state = "Joining Game"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = ["https://cdn.discordapp.com/app-assets/762726289341677668/762727693144948777.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
-	smallImageKey = ["mclogo"]
+	smallImageKey = ["https://cdn.discordapp.com/app-assets/762726289341677668/762727693144948777.png"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
 	#The buttons to display on Discord
@@ -118,11 +118,11 @@
 	#The second line of text under the app name
 	state = "Playing lonely mode"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	largeImageKey = ["https://cdn.discordapp.com/app-assets/762726289341677668/762727693144948777.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
-	smallImageKey = ["mclogonew"]
+	smallImageKey = ["https://cdn.discordapp.com/app-assets/762726289341677668/762727693144948777.png"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
 	#The buttons to display on Discord
@@ -139,11 +139,11 @@
 	#The second line of text under the app name
 	state = "Contemplating Existence"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogo"]
+	largeImageKey = ["https://cdn.discordapp.com/app-assets/762726289341677668/762727693144948777.png"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
 	#The Asset ID of the image to display as the small image
-	smallImageKey = ["mclogo"]
+	smallImageKey = ["https://cdn.discordapp.com/app-assets/762726289341677668/762727693144948777.png"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
 	#The buttons to display on Discord
