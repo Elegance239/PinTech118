@@ -15,4 +15,7 @@ onEvent('recipes', event => {
     event.shapeless('thermal:dynamo_numismatic', ['thermal:dynamo_stirling','minecraft:ender_eye'])
     event.shapeless('thermal:dynamo_compression', ['thermal:dynamo_stirling','pneumaticcraft:small_tank'])
     event.shapeless('mekanismgenerators:heat_generator', ['immersiveengineering:thermoelectric_generator','pneumaticcraft:small_tank'])
+    event.shapeless('mekanism:upgrade_speed', ['kubejs:upgrade_base','thermal:lumium_plate'])
+    event.shapeless('mekanism:upgrade_energy', ['kubejs:upgrade_base','thermal:rf_coil'])
+    event.shapeless('mekanism:upgrade_gas', ['kubejs:upgrade_base','kubejs:composite_mechanical_component'])
 })

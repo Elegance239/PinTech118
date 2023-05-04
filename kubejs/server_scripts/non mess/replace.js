@@ -13,5 +13,7 @@ onEvent('recipes', event => {
 	event.replaceInput({id:'ironjetpacks:iron_jetpack'}, 'ironjetpacks:wood', '')
 	event.replaceInput({id:'thermal:augments/item_filter_augment'}, 'thermal:signalum_ingot', 'thermal:invar_ingot')
 	event.replaceInput({id:'thermal:augments/fluid_filter_augment'}, 'thermal:signalum_ingot', 'thermal:invar_ingot')
-
+	event.replaceInput({id:'thermal:augments/machine_speed_augment'}, 'thermal:rf_coil', 'kubejs:augment_base')
+	event.replaceInput({id:'thermal:augments/machine_efficiency_augment'}, 'thermal:rf_coil', 'kubejs:augment_base')
+	event.replaceInput({id:'thermal:augments/dynamo_fuel_augment'}, '#thermal:glass_hardened', 'kubejs:augment_base')
 })

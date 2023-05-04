@@ -235,6 +235,11 @@ let SD = (id) => 'storagedrawers:'+id
         'mekanismgenerators:heat_generator',
         'rftoolsbase:machine_frame',
         'createaddition:straw',
+        'mekanism:basic_tier_installer',
+        'thermal:dynamo_output_augment',
+        'mekanism:upgrade_speed',
+        'mekanism:upgrade_energy',
+        'mekanism:upgrade_gas'
     ]                                               
 
     removeid.forEach(item => {
@@ -298,7 +303,8 @@ let SD = (id) => 'storagedrawers:'+id
         'createaddition:compat/immersiveengineering/constantan',
         'create:splashing/soul_sand',
         'create:crushing/diorite',
-        'create:crushing/diorite_recycling'
+        'create:crushing/diorite_recycling',
+        'thermal:machines/smelter/smelter_alloy_lumium'
     ]
 
     recipeId.forEach(item => {

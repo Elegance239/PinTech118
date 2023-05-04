@@ -1627,4 +1627,68 @@ onEvent('recipes', event => {
       }
     },
   )
+  event.shaped('kubejs:augment_base',
+    ["ABA", "CDC", "ABA"],
+    {
+    "A": {
+        "item": "thermal:lumium_coin"
+    },
+    "B": {
+        "item": "thermal:invar_plate"
+    },
+    "C": {
+        "item": "mekanism:basic_control_circuit"
+    },
+    "D": {
+        "item": "thermal:rf_coil"
+    }
+},
+)
+event.shaped('kubejs:upgrade_base',
+["ABA", "CDC", "ABA"],
+{
+"A": {
+    "item": "thermal:lumium_coin"
+},
+"B": {
+    "item": "mekanism:alloy_infused"
+},
+"C": {
+    "item": "mekanism:basic_control_circuit"
+},
+"D": {
+    "item": "thermal:invar_plate"
+}
+},
+)
+
+event.shaped('mekanism:basic_tier_installer',
+    ["ABA", "BCB", "ABA"],
+    {
+    "A": {
+        "item": "mekanism:basic_control_circuit"
+    },
+    "B": {
+        "item": "thermal:lumium_ingot"
+    },
+    "C": {
+        "item": "thermal:upgrade_augment_1"
+    }
+},
+)
+
+event.shaped('thermal:dynamo_output_augment',
+    [" A ", "BCB", " A "],
+    {
+    "A": {
+        "item": "thermal:silver_gear"
+    },
+    "B": {
+        "item": "kubejs:compressed_iron_plate"
+    },
+    "C": {
+        "item": "kubejs:augment_base"
+    }
+},
+)
 })
