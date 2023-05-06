@@ -189,18 +189,6 @@ onEvent('recipes', event => {
 		M:'thermal:machine_frame',
 		R:'thermal:redstone_servo'
 	})
-	event.shaped('thermal:machine_refinery', [
-		'SBS',
-		'TMT',
-		'FRF'
-	], {
-		T:'mekanism:basic_fluid_tank',
-		B:'minecraft:blast_furnace',
-		S:'thermal:steel_plate',
-		M:'thermal:machine_frame',
-		F:'create:fluid_pipe',
-		R:'thermal:redstone_servo'
-	})
 	event.shaped('mekanism:basic_fluid_tank', [
 		'RIR',
 		'H H',

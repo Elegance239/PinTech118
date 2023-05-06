@@ -42,7 +42,10 @@
 			icon: "create:electron_tube"
 			x: -9.0d
 			y: -0.75d
-			description: ["You'll be tinkering around with Create and rotational power..."]
+			description: [
+				"Starting off with a totally original idea: Create!"
+				"To kickstart an industry, you will need power, but the magic of electricity is still far away. Use mechanical power to your advantage, and unlock several important materials and devices to pave your way towards electricity."
+			]
 			dependencies: ["41451BC9F9190E52"]
 			size: 1.5d
 			id: "5D2D61F812B1C8AC"
@@ -66,7 +69,7 @@
 				""
 				"To your own RS/AE2 Storage System considerably early, so you don't have to search around for chests non-stop."
 			]
-			dependencies: ["5D2D61F812B1C8AC"]
+			dependencies: ["7FDA6E3D0EE47C97"]
 			size: 1.5d
 			id: "3A0E7F6978D87173"
 			tasks: [{
@@ -82,14 +85,14 @@
 		}
 		{
 			title: "Chapter 2"
-			icon: "thermal:enderium_ingot"
+			icon: "mekanism:laser"
 			x: 0.0d
 			y: -0.75d
 			description: [
-				""
-				"You'll be obtaining exotic materials which can be a pain to make, but the key is automation."
+				"You now have an excellent manufacturing base, churning out a diverse selection of components. Now it's time to go a step further."
+				"Seek out stronger materials; obtain the elusive reinforcement catalyst, and refine previously unattainable minerals. Harness temperature extremes and high energy processes, create complex manufacturing and processing setups, and go as far as the laws of physics would let you."
 			]
-			dependencies: ["3A0E7F6978D87173"]
+			dependencies: ["7FDA6E3D0EE47C97"]
 			size: 1.5d
 			id: "53486C827B31DC48"
 			tasks: [{
@@ -105,10 +108,13 @@
 		}
 		{
 			title: "Chapter 3a"
-			icon: "mekanism:pellet_antimatter"
+			icon: "mekanismgenerators:control_rod_assembly"
 			x: 4.5d
 			y: -3.0d
-			description: ["To giant multiblock structures and custom machines..."]
+			description: [
+				"You begin thinking the uranium pile sitting in storage may be good for something, other than making the air spicy."
+				"Split the atom. Harvest limitless untapped energy, and synthesize superheavy elements. Create alloys with materials that God never intended to combine."
+			]
 			dependencies: ["53486C827B31DC48"]
 			size: 1.5d
 			id: "7845DB3083B6ABDA"
@@ -128,7 +134,10 @@
 			icon: "kubejs:quantum_computer"
 			x: 4.5d
 			y: 1.5d
-			description: ["To technological advancements one has never seen..."]
+			description: [
+				"The laws of physics have held you back long enough. Now it's time to break them."
+				"Begin diving into nanoengineering, and synthesize materials with previously impossible properties. Build the particle accelerator to peer into the quantum realm. Cosntruct the long hypothesized Quantum Computer, all while keeping up with the enormous power demand of your sprawling factory."
+			]
 			dependencies: ["53486C827B31DC48"]
 			size: 1.5d
 			id: "4265D52794B427C5"
@@ -147,6 +156,7 @@
 			title: "Chapter 4"
 			x: 9.0d
 			y: -0.75d
+			description: ["The time has come. Do [the thing that you have been waiting for, which the whole point of the modpack]. If this placeholder is still here by the time you play this modpack, we have failed and we sincerely apologize."]
 			dependencies: [
 				"7845DB3083B6ABDA"
 				"4265D52794B427C5"
@@ -167,8 +177,8 @@
 		{
 			title: "Baby Steps"
 			icon: "minecraft:oak_log"
-			x: -4.5d
-			y: -3.0d
+			x: -12.75d
+			y: -0.75d
 			description: ["A journey must begin with you punching a tree. Or maybe you'll find wood in chests. I don't know. But technically you're supposed to punch a tree. So go and punch a tree."]
 			size: 1.5d
 			id: "41451BC9F9190E52"
@@ -180,6 +190,23 @@
 				id: "10BE646B05F2B9FB"
 				type: "item"
 				item: "kubejs:chin_new"
+			}]
+		}
+		{
+			icon: "pneumaticcraft:assembly_drill"
+			x: -4.5d
+			y: -0.75d
+			description: [
+				"Now the fun can begin."
+				"With the power of electricity, you can set up some serious manufacturing. As technology marches forward, high strength alloys, precision machined parts, and solid-state circuitry are at your fingertips. But to reach these heights, you will need a robust supply chain of raw materials, and an efficient processing chain aided by heavy machinery. Luckily, more logistics and organization options open up as you explore the power of digital technology."
+			]
+			dependencies: ["5D2D61F812B1C8AC"]
+			size: 1.5d
+			id: "7FDA6E3D0EE47C97"
+			tasks: [{
+				id: "0E36FE87AAEC044A"
+				type: "checkmark"
+				title: "Chapter 1"
 			}]
 		}
 	]

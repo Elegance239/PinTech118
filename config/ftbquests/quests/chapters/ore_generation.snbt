@@ -11,7 +11,10 @@
 			x: -20.0d
 			y: 4.0d
 			subtitle: "Tired of Mining? The title of this game is \"Minecraft\"."
-			description: ["This chapter is dedicated to you, the player, who doesn't want to mine. You will be able to generate ores from renewable methods, but at a high cost of machines. And maybe your sanity. Who knows?"]
+			description: [
+				"This chapter is dedicated to you, the player, who doesn't want to mine, presumably. And let's be real, even if you do want to mine, you will never have enough. You will be able to generate ores from renewable methods, but at a high cost of machines. And maybe your sanity. Who knows?"
+				"All easy automatic miners like quarries have been removed. (Unless you create a mining machine with create, because we're not entirely sure how to prevent that.) Good luck."
+			]
 			size: 2.0d
 			id: "36C1754362C26041"
 			tasks: [{

@@ -4,7 +4,7 @@
 	#The Application ID of the Discord App to use
 	applicationID = 1103594766320537660
 	#Enable/Disable the mod
-	enabled = true
+	enabled = false
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
 	debugging = false
 	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
@@ -125,6 +125,7 @@
 	smallImageKey = ["https://cdn.discordapp.com/app-assets/762726289341677668/762727693144948777.png"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
+
 	#The buttons to display on Discord
 	[[single_player.buttons]]
 		label = "Spy"
@@ -146,11 +147,11 @@
 	smallImageKey = ["https://cdn.discordapp.com/app-assets/762726289341677668/762727693144948777.png"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
+
 	#The buttons to display on Discord
 	[[multi_player.buttons]]
 		label = "Spy"
 		url = "https://youtu.be/dQw4w9WgXcQ"
-
 
 #The Realms Game Event
 [realms]

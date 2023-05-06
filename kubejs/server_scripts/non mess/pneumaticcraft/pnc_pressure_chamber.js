@@ -21,7 +21,7 @@ onEvent('recipes', event => {
 		inputs: [
 		  { type: "pneumaticcraft:stacked_item", item: "thermal:steel_ingot", count: 4 },
 		  Item.of("thermal:lead_ingot").toJson(),
-		  Item.of("mekanism:dust_refined_obsidian").toJson(),
+		  
 		],
 		pressure: 3.5,
 		results: [

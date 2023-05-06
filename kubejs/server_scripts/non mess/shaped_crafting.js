@@ -936,7 +936,7 @@ onEvent('recipes', event => {
         "item": "advgenerators:turbine_blade"
       },
       "B": {
-        "item": "immersiveengineering:component_steel"
+        "item": "thermal:dynamo_stirling"
       }
     },
   )
@@ -1688,6 +1688,17 @@ event.shaped('thermal:dynamo_output_augment',
     },
     "C": {
         "item": "kubejs:augment_base"
+    }
+},
+)
+event.shaped('grapplemod:baseupgradeitem',
+    [" A ", "ABA", " B "],
+    {
+    "A": {
+        "item": "thermal:lumium_ingot"
+    },
+    "B": {
+        "item": "thermal:hazmat_fabric"
     }
 },
 )

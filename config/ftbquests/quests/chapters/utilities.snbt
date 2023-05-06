@@ -211,6 +211,17 @@
 				item: "sophisticatedbackpacks:crafting_upgrade"
 			}]
 		}
+		{
+			title: "please get this fucking abomination out of my face"
+			x: -3.0d
+			y: -4.5d
+			id: "1669CBFE021448AE"
+			tasks: [{
+				id: "62ADAE730AF91C3D"
+				type: "item"
+				item: "pneumaticcraft:speed_upgrade"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

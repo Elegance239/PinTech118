@@ -239,7 +239,8 @@ let SD = (id) => 'storagedrawers:'+id
         'thermal:dynamo_output_augment',
         'mekanism:upgrade_speed',
         'mekanism:upgrade_energy',
-        'mekanism:upgrade_gas'
+        'mekanism:upgrade_gas',
+        'grapplemod:baseupgradeitem'
     ]                                               
 
     removeid.forEach(item => {
