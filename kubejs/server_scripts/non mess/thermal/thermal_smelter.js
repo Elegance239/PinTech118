@@ -85,4 +85,15 @@ onEvent('recipes', event => {
 		],
 		energy: 4000,
 	})
+
+	event.custom({
+		type: 'thermal:smelter',
+		ingredients: [
+			{ item: 'kubejs:impure_gold', count: 1},
+		],
+		results: [
+			{item: 'minecraft:gold_nugget', chance: 0.9},
+		],
+		energy: 350,
+	})
 })

@@ -101,7 +101,7 @@
 		}
 		{
 			x: -5.0d
-			y: 4.5d
+			y: 4.0d
 			id: "546319BFBFC3E092"
 			tasks: [{
 				id: "3FBD04F1EB3C8DF4"
@@ -221,7 +221,7 @@
 		}
 		{
 			x: -3.5d
-			y: 0.0d
+			y: -1.5d
 			dependencies: ["1C8D006B9FF467A5"]
 			id: "69DF7663F8FF6FD6"
 			tasks: [{
@@ -242,8 +242,8 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: -1.5d
+			x: -13.0d
+			y: 0.0d
 			dependencies: ["5CCC7AA44B7512BC"]
 			id: "53F348197CEAFFBC"
 			tasks: [{
@@ -253,8 +253,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: -1.5d
+			x: -11.0d
+			y: 0.0d
 			dependencies: ["53F348197CEAFFBC"]
 			id: "4BD0F15223F962B6"
 			tasks: [{
@@ -290,7 +290,7 @@
 			}]
 		}
 		{
-			x: -18.5d
+			x: -19.0d
 			y: 4.0d
 			id: "27416E7E118DD7BD"
 			tasks: [{
@@ -311,7 +311,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -4.5d
 			y: -5.0d
 			dependencies: ["41A3B0A7B9B7FC80"]
 			id: "7079620C8E7A8827"
@@ -392,7 +392,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -8.0d
 			y: -5.0d
 			dependencies: [
 				"1C8D006B9FF467A5"
@@ -418,7 +418,7 @@
 		}
 		{
 			x: -0.5d
-			y: 0.0d
+			y: -1.5d
 			dependencies: ["69DF7663F8FF6FD6"]
 			id: "3EBC06E4A59A241F"
 			tasks: [{
@@ -487,7 +487,7 @@
 		}
 		{
 			x: -2.0d
-			y: 1.5d
+			y: 0.5d
 			dependencies: ["69DF7663F8FF6FD6"]
 			id: "4A5BF347BA5E9E0B"
 			tasks: [{
@@ -570,7 +570,7 @@
 			title: "Industrial Squeezer"
 			icon: "immersiveengineering:squeezer"
 			x: -0.5d
-			y: 1.0d
+			y: 0.0d
 			hide_dependency_lines: true
 			dependencies: ["44D2AC4ACEAD5C04"]
 			id: "66BAAC8C1A6B9A3B"

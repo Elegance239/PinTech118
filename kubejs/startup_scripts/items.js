@@ -140,4 +140,7 @@ onEvent('item.registry', event => {
 	event.create('superalloy_plate_bundle').displayName('Superalloy Plate Bundle')
 	event.create('upgrade_base').displayName('Upgrade Base')
 	event.create('augment_base').displayName('Augment Base')
+	event.create('sieve').displayName('Sieve')
+	event.create('sieve_with_gold').displayName('Sieve with Gold')
+	event.create('sieve_with_gold_wet').displayName('Wet Sieve with Gold')
 })

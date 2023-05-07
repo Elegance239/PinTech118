@@ -6,18 +6,6 @@
 	title: "Storage"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: 0.0d
-		y: -4.5d
-		width: 5.0d
-		height: 5.0d
-		rotation: 0.0d
-		image: "kubejs:textures/item/images/sapjack.png"
-		hover: ["Water."]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
 			title: "Welcome to the Storage Chapter!"
@@ -220,6 +208,17 @@
 				id: "62ADAE730AF91C3D"
 				type: "item"
 				item: "pneumaticcraft:speed_upgrade"
+			}]
+		}
+		{
+			title: "Request Granted."
+			x: -3.0d
+			y: -3.0d
+			id: "1F94C7BC0D970AB9"
+			tasks: [{
+				id: "3D6DE50566517707"
+				type: "item"
+				item: "mekanism:upgrade_speed"
 			}]
 		}
 	]

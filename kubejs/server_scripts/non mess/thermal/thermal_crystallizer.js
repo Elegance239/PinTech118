@@ -31,7 +31,7 @@ onEvent('recipes', event => {
 
 		energy: 20000
 	})
-
+	/*
 	event.custom({
 		type: 'thermal:crystallizer',
 		ingredients: [
@@ -88,6 +88,7 @@ onEvent('recipes', event => {
 
 		energy: 600
 	})
+	*/
 
 	event.custom({
 		type: 'thermal:crystallizer',

@@ -46,7 +46,9 @@ event.remove({type: "industrialforegoing:laser_drill_ore"})
 event.remove({id: 'tconstruct:smeltery/alloys/molten_refined_obsidian'})
 event.remove({input: 'create:cinder_flour', output:'minecraft:glowstone_dust'})
 event.remove({input: 'industrialforegoing:dryrubber', output:'industrialforegoing:plastic'})
-
+event.remove({input: '#forge:raw_materials', output: '#forge:ores'})
+event.remove({input: 'minecraft:deepslate_gold_ore', output: 'minecraft:gold_nugget'})
+event.remove({input: 'minecraft:deepslate_gold_ore', output: 'minecraft:cobblestone'})
 
 // I am dumb.
 let IE = (id) => 'immersiveengineering:'+id
@@ -240,7 +242,8 @@ let SD = (id) => 'storagedrawers:'+id
         'mekanism:upgrade_speed',
         'mekanism:upgrade_energy',
         'mekanism:upgrade_gas',
-        'grapplemod:baseupgradeitem'
+        'grapplemod:baseupgradeitem',
+        'mekanism:combiner',
     ]                                               
 
     removeid.forEach(item => {
@@ -305,7 +308,8 @@ let SD = (id) => 'storagedrawers:'+id
         'create:splashing/soul_sand',
         'create:crushing/diorite',
         'create:crushing/diorite_recycling',
-        'thermal:machines/smelter/smelter_alloy_lumium'
+        'thermal:machines/smelter/smelter_alloy_lumium',
+        'createchromaticreturn:shadow_essence_recipe',
     ]
 
     recipeId.forEach(item => {

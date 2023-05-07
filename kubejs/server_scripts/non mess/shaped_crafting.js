@@ -1630,76 +1630,101 @@ onEvent('recipes', event => {
   event.shaped('kubejs:augment_base',
     ["ABA", "CDC", "ABA"],
     {
-    "A": {
+      "A": {
         "item": "thermal:lumium_coin"
-    },
-    "B": {
+      },
+      "B": {
         "item": "thermal:invar_plate"
-    },
-    "C": {
+      },
+      "C": {
         "item": "mekanism:basic_control_circuit"
-    },
-    "D": {
+      },
+      "D": {
         "item": "thermal:rf_coil"
-    }
-},
-)
-event.shaped('kubejs:upgrade_base',
-["ABA", "CDC", "ABA"],
-{
-"A": {
-    "item": "thermal:lumium_coin"
-},
-"B": {
-    "item": "mekanism:alloy_infused"
-},
-"C": {
-    "item": "mekanism:basic_control_circuit"
-},
-"D": {
-    "item": "thermal:invar_plate"
-}
-},
-)
+      }
+    },
+  )
+  event.shaped('kubejs:upgrade_base',
+    ["ABA", "CDC", "ABA"],
+    {
+      "A": {
+        "item": "thermal:lumium_coin"
+      },
+      "B": {
+        "item": "mekanism:alloy_infused"
+      },
+      "C": {
+        "item": "mekanism:basic_control_circuit"
+      },
+      "D": {
+        "item": "thermal:invar_plate"
+      }
+    },
+  )
 
-event.shaped('mekanism:basic_tier_installer',
+  event.shaped('mekanism:basic_tier_installer',
     ["ABA", "BCB", "ABA"],
     {
-    "A": {
+      "A": {
         "item": "mekanism:basic_control_circuit"
-    },
-    "B": {
+      },
+      "B": {
         "item": "thermal:lumium_ingot"
-    },
-    "C": {
+      },
+      "C": {
         "item": "thermal:upgrade_augment_1"
-    }
-},
-)
+      }
+    },
+  )
 
-event.shaped('thermal:dynamo_output_augment',
+  event.shaped('thermal:dynamo_output_augment',
     [" A ", "BCB", " A "],
     {
-    "A": {
+      "A": {
         "item": "thermal:silver_gear"
-    },
-    "B": {
+      },
+      "B": {
         "item": "kubejs:compressed_iron_plate"
-    },
-    "C": {
+      },
+      "C": {
         "item": "kubejs:augment_base"
-    }
-},
-)
-event.shaped('grapplemod:baseupgradeitem',
+      }
+    },
+  )
+  event.shaped('grapplemod:baseupgradeitem',
     [" A ", "ABA", " B "],
     {
-    "A": {
+      "A": {
         "item": "thermal:lumium_ingot"
-    },
-    "B": {
+      },
+      "B": {
         "item": "thermal:hazmat_fabric"
-    }
-},
-)
+      }
+    },
+  )
+
+  event.shaped('mekanism:combiner',
+    [
+      "ABA",
+      "CDC",
+      "ABA"
+    ],
+    {
+      "A": {
+        "item": "mekanism:alloy_infused"
+      },
+      "B": {
+        "item": "allthecompressed:cobblestone_block_1x"
+      },
+      "C": {
+        "item": "mekanism:basic_control_circuit"
+      },
+      "D": {
+        "item": "thermal:machine_press"
+      }
+    },
+
+  )
+
+  
 })
