@@ -11,5 +11,5 @@ onEvent('recipes', event => {
 
     event.recipes.immersiveengineeringMetalPress('kubejs:neoclydium_wire', 'kubejs:neoclydium_ingot_test', 'immersiveengineering:mold_wire')
 
-    event.recipes.immersiveengineeringMetalPress('kubejs:neoclydium_core', 'kubejs:neoclydium_ingot_test', 'immersiveengineering:mold_core')
+    event.recipes.immersiveengineeringMetalPress('kubejs:neoclydium_core', 'kubejs:neoclydium_ingot_test', 'kubejs:mold_core')
 })

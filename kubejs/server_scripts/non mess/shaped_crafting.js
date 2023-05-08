@@ -1729,54 +1729,105 @@ onEvent('recipes', event => {
   event.shaped('mm:energy_input_port',
     [" A ", " B ", " A "],
     {
-    "A": {
+      "A": {
         "item": "kubejs:modular_machine_framework"
-    },
-    "B": {
+      },
+      "B": {
         "item": "thermal:rf_coil"
-    }
-},
-)
-event.shaped('mm:item_input_port',
-[" A ", " B ", " A "],
-{
-"A": {
-    "item": "kubejs:modular_machine_framework"
-},
-"B": {
-    "item": "pneumaticcraft:omnidirectional_hopper"
-}
-},
-)
+      }
+    },
+  )
+  event.shaped('mm:item_input_port',
+    [" A ", " B ", " A "],
+    {
+      "A": {
+        "item": "kubejs:modular_machine_framework"
+      },
+      "B": {
+        "item": "pneumaticcraft:omnidirectional_hopper"
+      }
+    },
+  )
 
-event.shaped('mm:fluid_input_port',
-[" A ", " B ", " A "],
-{
-"A": {
-    "item": "kubejs:modular_machine_framework"
-},
-"B": {
-    "item": "pneumaticcraft:liquid_hopper"
-}
-},
-)
+  event.shaped('mm:fluid_input_port',
+    [" A ", " B ", " A "],
+    {
+      "A": {
+        "item": "kubejs:modular_machine_framework"
+      },
+      "B": {
+        "item": "pneumaticcraft:liquid_hopper"
+      }
+    },
+  )
 
-event.shaped('pneumaticcraft:air_compressor',
+  event.shaped('pneumaticcraft:air_compressor',
     ["ABA", "CDC", "CCC"],
     {
-    "A": {
+      "A": {
         "item": "kubejs:compressed_iron_plate"
-    },
-    "B": {
+      },
+      "B": {
         "item": "pneumaticcraft:pressure_tube"
-    },
-    "C": {
+      },
+      "C": {
         "item": "pneumaticcraft:reinforced_bricks"
-    },
-    "D": {
+      },
+      "D": {
         "item": "thermal:dynamo_stirling"
-    }
-},
-)
-  
+      }
+    },
+  )
+
+
+  event.shaped('enderstorage:ender_chest',
+    [
+      "ABA",
+      "CDC",
+      "AEA"
+    ],
+    {
+      "A": {
+        "item": "minecraft:blaze_rod"
+      },
+      "B": {
+        "tag": "forge:wool"
+      },
+      "C": {
+        "item": "mekanism:alloy_reinforced"
+      },
+      "D": {
+        "item": "ironchest:obsidian_chest"
+      },
+      "E": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+  )
+
+  event.shaped('enderstorage:ender_tank',
+    [
+      "ABA",
+      "CDC",
+      "AEA"
+    ],
+    {
+      "A": {
+        "item": "minecraft:blaze_rod"
+      },
+      "B": {
+        "item": "minecraft:white_wool"
+      },
+      "C": {
+        "item": "mekanism:alloy_reinforced"
+      },
+      "D": {
+        "item": "mekanism:advanced_fluid_tank"
+      },
+      "E": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+
+  )
 })

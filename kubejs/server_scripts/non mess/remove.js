@@ -244,7 +244,10 @@ let SD = (id) => 'storagedrawers:'+id
         'mekanism:upgrade_gas',
         'grapplemod:baseupgradeitem',
         'mekanism:combiner',
-        'pneumaticcraft:air_compressor'
+        'pneumaticcraft:air_compressor',
+        'enderstorage:ender_chest',
+        'enderstorage:ender_tank',
+        'mekanism:sps_casing',
     ]                                               
 
     removeid.forEach(item => {

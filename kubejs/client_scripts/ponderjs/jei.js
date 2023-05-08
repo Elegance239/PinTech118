@@ -9,4 +9,5 @@ onEvent('jei.add.items', event => {
 onEvent('jei.hide.items', event => {
   event.hide(Item.of('mm:osmium_drill_controller'))
   event.hide(Item.of('mm:osmium_drill_laser_input_port'))
+  event.hide(Item.of('mekanism:structural_glass'))
 })

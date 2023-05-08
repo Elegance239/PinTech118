@@ -3,7 +3,7 @@ onEvent('recipes', event => {
         {
             "type": "mekanism:combining",
             "extraInput": { "ingredient": { "item": "minecraft:deepslate" } },
-            "mainInput": {"amount": 18, "ingredient": { "item": "minecraft:gold_nugget" } },
+            "mainInput": {"amount": 18, "ingredient": { "item": "kubejs:gold_drop" } },
             "output": { "item": "kubejs:gold_combine" }
         })
 })

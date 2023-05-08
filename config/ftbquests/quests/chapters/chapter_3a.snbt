@@ -1,0 +1,707 @@
+{
+	id: "2F4CDF27066DC836"
+	group: "364B87E0D6424FF0"
+	order_index: 0
+	filename: "chapter_3a"
+	title: "Chapter 3a"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Input: Uranium"
+			x: -19.0d
+			y: 0.0d
+			description: ["There is no better time for this - You've brought a factory up from the dirt. Do not turn it into waste. Begin your journey in Chapter 3a as you turn the pile of uranium in your storage into refined radioactive materials."]
+			size: 2.0d
+			id: "3ED57D358176DAC6"
+			tasks: [
+				{
+					id: "24FC3AF9A92F0356"
+					type: "item"
+					item: "thermal:enderium_ingot"
+				}
+				{
+					id: "33CBE1B7D6EF9342"
+					type: "checkmark"
+					title: "Tick"
+				}
+				{
+					id: "0EE3C9E6AD837D94"
+					type: "item"
+					item: "immersiveengineering:ingot_uranium"
+				}
+			]
+		}
+		{
+			title: "Fissile Fuel"
+			x: -9.0d
+			y: 0.0d
+			description: ["Prove your completion of generation of fissile fuel by filling an entire basic chemical tank with fissile fuel. "]
+			dependencies: [
+				"398BAACC3765C32E"
+				"1B8F0B5094865117"
+				"0039AC53D9E5F704"
+				"3CF81708EB106B91"
+				"3B2C2D3CD205167E"
+				"2389E799569442E2"
+				"13651C3127F1D7A7"
+				"491289B86815A16A"
+				"2772B432F755102A"
+			]
+			size: 1.5d
+			id: "30314CF2B247CED2"
+			tasks: [{
+				id: "2EA887C3C68480EA"
+				type: "item"
+				item: {
+					id: "mekanism:basic_chemical_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									gasName: "mekanism:fissile_fuel"
+									amount: 64000L
+								}
+							}]
+						}
+					}
+				}
+				match_nbt: true
+			}]
+		}
+		{
+			x: -14.0d
+			y: -6.0d
+			dependencies: ["3ED57D358176DAC6"]
+			id: "398BAACC3765C32E"
+			tasks: [{
+				id: "20D37F1919260DA5"
+				type: "item"
+				item: "mekanism:chemical_oxidizer"
+				count: 2L
+			}]
+		}
+		{
+			x: -14.0d
+			y: -4.0d
+			dependencies: ["3ED57D358176DAC6"]
+			id: "1B8F0B5094865117"
+			tasks: [{
+				id: "53865CE2AFA3EA89"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+				count: 3L
+			}]
+		}
+		{
+			x: -14.0d
+			y: -2.0d
+			dependencies: ["3ED57D358176DAC6"]
+			id: "0039AC53D9E5F704"
+			tasks: [{
+				id: "2BABF6E83AA802CC"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 0.0d
+			dependencies: ["3ED57D358176DAC6"]
+			id: "3CF81708EB106B91"
+			tasks: [{
+				id: "08AD15C7DFDD594A"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 2.0d
+			dependencies: ["3ED57D358176DAC6"]
+			id: "3B2C2D3CD205167E"
+			tasks: [{
+				id: "6C855BEFFEC7F57C"
+				type: "item"
+				item: "mekanism:chemical_dissolution_chamber"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 4.0d
+			dependencies: ["3ED57D358176DAC6"]
+			id: "2389E799569442E2"
+			tasks: [{
+				id: "0D0BB3271B3239B2"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 6.0d
+			dependencies: ["3ED57D358176DAC6"]
+			id: "13651C3127F1D7A7"
+			tasks: [{
+				id: "1BBC6A6D2E423B1E"
+				type: "item"
+				item: "mekanism:isotopic_centrifuge"
+			}]
+		}
+		{
+			title: "Input: Sulfur"
+			x: -9.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["3ED57D358176DAC6"]
+			id: "491289B86815A16A"
+			tasks: [{
+				id: "7F8A449FEBD88FAF"
+				type: "item"
+				item: "thermal:sulfur_dust"
+			}]
+		}
+		{
+			title: "Input: Fluorite"
+			x: -9.0d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["3ED57D358176DAC6"]
+			id: "2772B432F755102A"
+			tasks: [{
+				id: "0C71C50AE3EF4311"
+				type: "item"
+				item: "mekanism:fluorite_gem"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			description: ["This quest will guide you in building a simple and small fission reactor only. To increase the burn rate, you will have to increase the scale of the reactor. For more details, visit the FTB Wiki on the Fission Reactor. One port represents one input/output."]
+			dependencies: [
+				"30314CF2B247CED2"
+				"7689FEBD88BE0792"
+				"341ECBB946DB1C72"
+			]
+			size: 1.5d
+			id: "336A425683E29F01"
+			tasks: [
+				{
+					id: "4B80E415EF251156"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_casing"
+					count: 66L
+				}
+				{
+					id: "3D7C37107F2DEAF2"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 48L
+				}
+				{
+					id: "4DBFFA005A4584EC"
+					type: "item"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					count: 15L
+				}
+				{
+					id: "0B2418B6C534916A"
+					type: "item"
+					item: "mekanismgenerators:control_rod_assembly"
+					count: 5L
+				}
+				{
+					id: "09C2DA90E94FA86A"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_port"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			description: ["Your reactor may explode for many different reasons, such as overheating, excess buildup of steam or waste, etc. To prevent this, you can use the logic adapter to scram the reactor. Of course, this is optional. If you want to go all in and kaboom, I'm not stopping you."]
+			hide_dependency_lines: true
+			dependencies: ["30314CF2B247CED2"]
+			optional: true
+			id: "7689FEBD88BE0792"
+			tasks: [{
+				id: "3E89F74081583B7C"
+				type: "item"
+				item: "mekanismgenerators:fission_reactor_logic_adapter"
+				count: 2L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["336A425683E29F01"]
+			id: "43392D43439252C3"
+			tasks: [{
+				id: "396597C04962EF74"
+				type: "item"
+				item: "mekanism:solar_neutron_activator"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["336A425683E29F01"]
+			id: "20771A9C61CEA2DC"
+			tasks: [{
+				id: "240477D0CD44BC35"
+				type: "item"
+				item: "mekanism:isotopic_centrifuge"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "4B3E2F36905A2BB6"
+			tasks: [{
+				id: "1ED6F05E5939A900"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			dependencies: [
+				"43392D43439252C3"
+				"4B3E2F36905A2BB6"
+			]
+			id: "766BF7AB701B3CF9"
+			tasks: [{
+				id: "115613A9F2CE41ED"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			dependencies: [
+				"20771A9C61CEA2DC"
+				"4B3E2F36905A2BB6"
+			]
+			id: "1F39B01D3E9AA65F"
+			tasks: [{
+				id: "1643D031F18B2858"
+				type: "item"
+				item: "mekanism:pellet_plutonium"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			description: ["You might want to let the used nuclear waste decay. And that is very understandable. Mekanism provides you with waste barrels to store used nuclear waste. They can only be stacked downwards."]
+			hide_dependency_lines: true
+			dependencies: ["30314CF2B247CED2"]
+			optional: true
+			id: "341ECBB946DB1C72"
+			tasks: [{
+				id: "4D38CBFFBDE36D64"
+				type: "item"
+				item: "mekanism:radioactive_waste_barrel"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			description: ["The atomic alloy is within reach given that you've constructed a fission reactor, a virtually infinite supply of fissile fuel and patience. Now, it is time for us to bring our automation to the next level. Synthesize the miraculous chromatic mixture, and good luck, you will need it."]
+			dependencies: [
+				"43392D43439252C3"
+				"2BE135B9938CB9C1"
+			]
+			id: "42D4C9695D962E3C"
+			tasks: [{
+				id: "45EF49E80E71EDF2"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -11.0d
+			dependencies: [
+				"1B3ED5650679E877"
+				"42C9380BA69EB7ED"
+				"3838E0112607357A"
+				"12C6678F87F87FA9"
+				"2A8DBA1A987F8CA9"
+			]
+			id: "45255D6F6CCC2766"
+			tasks: [{
+				id: "5F72E44FB9D118C6"
+				type: "item"
+				item: "kubejs:mixture_basin"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -12.5d
+			hide_dependency_lines: true
+			dependencies: ["43392D43439252C3"]
+			id: "2A8DBA1A987F8CA9"
+			tasks: [{
+				id: "5C132F4AE5A1E48A"
+				type: "item"
+				item: "thermal_extra:vukaium_bucket"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -12.5d
+			hide_dependency_lines: true
+			dependencies: ["43392D43439252C3"]
+			id: "12C6678F87F87FA9"
+			tasks: [{
+				id: "26282857D6D43B34"
+				type: "item"
+				item: "thermal_extra:nebulium_bucket"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -12.5d
+			hide_dependency_lines: true
+			dependencies: ["43392D43439252C3"]
+			id: "1B3ED5650679E877"
+			tasks: [{
+				id: "15798FF7026D53A6"
+				type: "item"
+				item: "thermal_extra:drownium_bucket"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -12.5d
+			hide_dependency_lines: true
+			dependencies: ["43392D43439252C3"]
+			id: "3838E0112607357A"
+			tasks: [{
+				id: "58FECF651AA2ECBE"
+				type: "item"
+				item: "thermal_extra:nectium_bucket"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -12.5d
+			hide_dependency_lines: true
+			dependencies: ["43392D43439252C3"]
+			id: "42C9380BA69EB7ED"
+			tasks: [{
+				id: "617821B17E892EA0"
+				type: "item"
+				item: "thermal_extra:zauvium_bucket"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -8.5d
+			dependencies: ["45255D6F6CCC2766"]
+			id: "2BE135B9938CB9C1"
+			tasks: [{
+				id: "30B9491F2A62DE86"
+				type: "item"
+				item: "createchromaticreturn:chromatic_mixture_bucket"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -8.5d
+			description: ["One chromatic compound contains the essence of almost all elementary ingots, an entire factory, and your sanity."]
+			dependencies: ["2BE135B9938CB9C1"]
+			id: "74CF73EF90DFD372"
+			tasks: [{
+				id: "2312606CDA32CE15"
+				type: "item"
+				item: "createchromaticreturn:chromatic_compound"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -8.5d
+			description: ["Inactivity serves no purpose whatsoever. It is time to take action to refine your chromatic compound into even more refined, pure compounds. "]
+			dependencies: ["74CF73EF90DFD372"]
+			id: "5937AE04F3132D91"
+			tasks: [{
+				id: "189D054C34160D28"
+				type: "item"
+				item: "kubejs:chromatic_dust"
+			}]
+		}
+		{
+			title: "Chromatic Gas"
+			x: 11.5d
+			y: -8.5d
+			dependencies: ["5937AE04F3132D91"]
+			id: "309609BF07688926"
+			tasks: [{
+				id: "43B99D4754FB0652"
+				type: "item"
+				item: {
+					id: "mekanism:basic_chemical_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									gasName: "kubejs:chromatic_gas"
+									amount: 5000L
+								}
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: -8.5d
+			dependencies: ["309609BF07688926"]
+			id: "4A45E50592C00D9C"
+			tasks: [{
+				id: "2584CA1D1E4144B3"
+				type: "item"
+				item: {
+					id: "mekanism:basic_chemical_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									gasName: "kubejs:chromoxy_gas"
+									amount: 5000L
+								}
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: -8.5d
+			dependencies: ["4A45E50592C00D9C"]
+			id: "3F6A2C471BED2518"
+			tasks: [{
+				id: "04E89EC41F60C443"
+				type: "item"
+				item: {
+					id: "mekanism:basic_chemical_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									gasName: "kubejs:incandescent_gas"
+									amount: 5000L
+								}
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: -6.0d
+			dependencies: ["3F6A2C471BED2518"]
+			id: "0DCA98CFD144774E"
+			tasks: [{
+				id: "17132101DA66C03D"
+				type: "item"
+				item: {
+					id: "mekanism:basic_chemical_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									gasName: "kubejs:radiant_gas"
+									amount: 5000L
+								}
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: -6.0d
+			description: ["The purest of the pure. A glare so white it stings the soul. "]
+			dependencies: ["0DCA98CFD144774E"]
+			id: "7E6367EEFD9C42C3"
+			tasks: [{
+				id: "6C3BAE5AFD4C04B9"
+				type: "item"
+				item: "createchromaticreturn:refined_radiance"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			description: ["Purity added to a diode. A perfect blend."]
+			dependencies: ["2B303169CBE2E6DB"]
+			id: "231D45C5D1A73174"
+			tasks: [{
+				id: "2E9C6FA67F93C553"
+				type: "item"
+				item: "kubejs:neoclydium_diode"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			dependencies: ["1F39B01D3E9AA65F"]
+			id: "77D52A100132A810"
+			tasks: [{
+				id: "176B11CE9665E49C"
+				type: "item"
+				item: "kubejs:plutonium_superalloy"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			subtitle: "Are you still with me? You look a bit tired. "
+			description: ["The Ultimate Control Circuit is arguably one of the most groundbreaking achievements you will have achieved so far. Consider yourself filled with limitless power."]
+			dependencies: [
+				"42D4C9695D962E3C"
+				"231D45C5D1A73174"
+				"77D52A100132A810"
+			]
+			id: "000D19491DA2B747"
+			tasks: [{
+				id: "68D0B0D17106DA07"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+		}
+		{
+			title: "Supercritical Phase Shifter"
+			x: 13.0d
+			y: 0.0d
+			description: ["You're so close. So so close. Feel the victory in your hands. Never have you fathomed the possibility of grasping antimatter in your very own hands. You will need at least one supercharged coil, which you can add depending on how much power you can generate. Search up Mekanism SPS if you have any questions."]
+			dependencies: [
+				"000D19491DA2B747"
+				"0F31B0FA208E8CD3"
+			]
+			id: "5A832F9AD307F1ED"
+			tasks: [
+				{
+					id: "42ACBC463A728DD7"
+					type: "item"
+					item: "mekanism:sps_casing"
+					count: 60L
+				}
+				{
+					id: "7AC094A931ABB04E"
+					type: "item"
+					item: "mekanism:sps_port"
+					count: 3L
+				}
+				{
+					id: "7ECBAC8F3BF9E300"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 64L
+				}
+				{
+					id: "741E9944CAA07AEA"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 63L
+				}
+				{
+					id: "159856D813C9747C"
+					type: "item"
+					item: "mekanism:supercharged_coil"
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: 0.0d
+			description: ["The end is nigh."]
+			dependencies: ["5A832F9AD307F1ED"]
+			id: "20C611C294E5A009"
+			tasks: [{
+				id: "1D2A696C3BA6E0E3"
+				type: "item"
+				item: "mekanism:chemical_crystallizer"
+			}]
+		}
+		{
+			x: 22.0d
+			y: 0.0d
+			subtitle: "Masochism at its finest."
+			description: ["Feel the pride surge through your veins. The rage, the suffering, the agony you've gone through just to acquire one antimatter pellet. "]
+			dependencies: ["20C611C294E5A009"]
+			id: "43810EEE044CE72C"
+			tasks: [{
+				id: "2068381982320E6F"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+		}
+		{
+			x: 26.0d
+			y: 0.0d
+			description: ["Using antimatter to convert items is one of the most broken, illegal things there is. And now you have the capability to do it."]
+			dependencies: ["43810EEE044CE72C"]
+			id: "6536FBACD01195AE"
+			tasks: [{
+				id: "3501DAEFF55D30EF"
+				type: "item"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -3.0d
+			description: ["But wait! Don't you forget about your dearest machine frames, who keep slapping you in the darn face. "]
+			dependencies: ["7446E60D5058C25D"]
+			id: "0F31B0FA208E8CD3"
+			tasks: [{
+				id: "66529C5D65DEE4BF"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.0d
+			dependencies: ["7E6367EEFD9C42C3"]
+			id: "2B303169CBE2E6DB"
+			tasks: [{
+				id: "20413926131D8970"
+				type: "item"
+				item: "kubejs:neoclydium_ingot_test"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -3.0d
+			dependencies: ["2B303169CBE2E6DB"]
+			id: "7446E60D5058C25D"
+			tasks: [{
+				id: "140A32E0B5C233FB"
+				type: "item"
+				item: "kubejs:neoclydium_core"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

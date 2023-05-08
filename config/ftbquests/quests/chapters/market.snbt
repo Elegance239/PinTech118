@@ -12,7 +12,7 @@
 			x: 0.0d
 			y: 0.0d
 			description: ["The Market is the place where you can use your hard-earned chin to buy raw materials, which may or may not aid you in your quest. "]
-			size: 3.0d
+			size: 2.0d
 			id: "3BB8A98068B70F0C"
 			tasks: [{
 				id: "0FCE1AC16432355F"
@@ -26,36 +26,54 @@
 			}]
 		}
 		{
+			title: "Stone"
+			icon: "minecraft:stone"
 			x: 0.0d
 			y: -7.5d
-			size: 1.5d
+			can_repeat: true
 			id: "1D6E901C4CA685A7"
 			tasks: [{
 				id: "47D7F7CBE6CA0C1D"
 				type: "item"
+				item: "kubejs:chin_new"
+			}]
+			rewards: [{
+				id: "293A39D9241E982F"
+				type: "item"
 				item: "minecraft:stone"
+				count: 32
 			}]
 		}
 		{
-			x: 2.25d
-			y: -9.75d
-			size: 1.5d
+			title: "Granite"
+			icon: "minecraft:granite"
+			x: 1.5d
+			y: -9.0d
+			can_repeat: true
 			id: "626956CD3835C34E"
 			tasks: [{
 				id: "754A476BC580A8BE"
 				type: "item"
+				item: "kubejs:chin_new"
+			}]
+			rewards: [{
+				id: "5D6D8B98598ABBF3"
+				type: "item"
 				item: "minecraft:granite"
+				count: 32
 			}]
 		}
 		{
-			x: -2.25d
-			y: -9.75d
-			size: 1.5d
+			title: "Diorite"
+			icon: "minecraft:diorite"
+			x: -1.5d
+			y: -9.0d
+			can_repeat: true
 			id: "222358C92566DA91"
 			tasks: [{
 				id: "4C8F05685B6DB265"
 				type: "item"
-				item: "minecraft:diorite"
+				item: "kubejs:chin_new"
 			}]
 			rewards: [{
 				id: "655EE1575714E2EC"
@@ -65,44 +83,76 @@
 			}]
 		}
 		{
+			title: "Andesite"
+			icon: "minecraft:andesite"
 			x: 0.0d
-			y: -9.75d
-			size: 1.5d
+			y: -9.0d
+			can_repeat: true
 			id: "0F2098D72E365ABD"
 			tasks: [{
 				id: "6752F3156200ECDC"
 				type: "item"
+				item: "kubejs:chin_new"
+			}]
+			rewards: [{
+				id: "03AFA270DC128B2B"
+				type: "item"
 				item: "minecraft:andesite"
+				count: 32
 			}]
 		}
 		{
-			x: -2.25d
+			title: "Calcite"
+			icon: "minecraft:calcite"
+			x: -1.5d
 			y: -7.5d
-			size: 1.5d
+			can_repeat: true
 			id: "5551E48B34027E2D"
 			tasks: [{
 				id: "0D2E706AC4D93D18"
 				type: "item"
+				item: "kubejs:chin_new"
+			}]
+			rewards: [{
+				id: "577BBD92C612B3D7"
+				type: "item"
 				item: "minecraft:calcite"
+				count: 32
 			}]
 		}
 		{
-			x: 2.25d
+			title: "Dirt"
+			icon: "minecraft:dirt"
+			x: 1.5d
 			y: -7.5d
-			size: 1.5d
+			can_repeat: true
 			id: "148AFA1E4141B86F"
 			tasks: [{
 				id: "72DE5EA040D643CA"
 				type: "item"
-				item: "minecraft:dirt"
+				item: "kubejs:chin_new"
 			}]
+			rewards: [
+				{
+					id: "167356FA2DAB5B0E"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 64
+				}
+				{
+					id: "563852B38F0E7C8E"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 32
+				}
+			]
 		}
 		{
-			title: "Oak Log x16"
+			title: "Oak Logs"
 			icon: "minecraft:oak_log"
-			x: -4.5d
-			y: -9.75d
-			size: 1.5d
+			x: -3.0d
+			y: -9.0d
+			can_repeat: true
 			id: "3E6034ED324A27C3"
 			tasks: [{
 				id: "7BCEDDBC863AF05B"
@@ -118,9 +168,8 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -3.0d
 			y: -7.5d
-			size: 1.5d
 			id: "60A1BEA25C9B1A56"
 			tasks: [{
 				id: "0A63DCA625483518"
@@ -143,11 +192,11 @@
 			]
 		}
 		{
-			title: "Spruce Logs x16"
+			title: "Spruce Logs"
 			icon: "minecraft:spruce_log"
-			x: -6.75d
-			y: -9.75d
-			size: 1.5d
+			x: -4.5d
+			y: -9.0d
+			can_repeat: true
 			id: "462C4912A06230DE"
 			tasks: [{
 				id: "6D63905C1B9A995D"
@@ -162,11 +211,11 @@
 			}]
 		}
 		{
-			title: "Spruce Planks x96"
+			title: "Spruce Planks"
 			icon: "minecraft:spruce_planks"
-			x: -6.75d
+			x: -4.5d
 			y: -7.5d
-			size: 1.5d
+			can_repeat: true
 			id: "7651DC26EA59EE18"
 			tasks: [{
 				id: "1AFC3E10DB83EC08"
@@ -189,47 +238,171 @@
 			]
 		}
 		{
-			x: 6.75d
-			y: -9.75d
-			size: 1.5d
+			title: "Birch Logs"
+			icon: "minecraft:birch_log"
+			x: 3.0d
+			y: -9.0d
+			can_repeat: true
 			id: "2F08B65795824BC5"
 			tasks: [{
-				id: "54184D29BE3DAD5C"
+				id: "51F0FFFEDC53B03F"
+				type: "item"
+				item: "kubejs:chin_new"
+			}]
+			rewards: [{
+				id: "097344AFFD27DB54"
 				type: "item"
 				item: "minecraft:birch_log"
+				count: 16
 			}]
 		}
 		{
-			x: 6.75d
+			title: "Birch Planks"
+			icon: "minecraft:birch_planks"
+			x: 3.0d
 			y: -7.5d
-			size: 1.5d
+			can_repeat: true
 			id: "2D1DEE2CA8985AA8"
 			tasks: [{
-				id: "633A6E5F74A5348C"
+				id: "1D76ACAA5C5C9B87"
 				type: "item"
-				item: "minecraft:birch_planks"
+				item: "kubejs:chin_new"
 			}]
+			rewards: [
+				{
+					id: "26B89120ED7DF677"
+					type: "item"
+					item: "minecraft:birch_planks"
+					count: 64
+				}
+				{
+					id: "73A98D67EEB6008C"
+					type: "item"
+					item: "minecraft:birch_planks"
+					count: 32
+				}
+			]
 		}
 		{
+			title: "Jungle Logs"
+			icon: "minecraft:jungle_log"
 			x: 4.5d
-			y: -9.75d
-			size: 1.5d
+			y: -9.0d
+			can_repeat: true
 			id: "77B597B72561E534"
 			tasks: [{
-				id: "6B89040F47CF7546"
+				id: "0944FAF1B973237C"
+				type: "item"
+				item: "kubejs:chin_new"
+			}]
+			rewards: [{
+				id: "7E0DDC567F00CEF1"
 				type: "item"
 				item: "minecraft:jungle_log"
+				count: 16
 			}]
 		}
 		{
+			title: "Jungle Planks"
+			icon: "minecraft:jungle_planks"
 			x: 4.5d
 			y: -7.5d
-			size: 1.5d
+			can_repeat: true
 			id: "77B6B3CFFB8DC880"
 			tasks: [{
-				id: "49589A8E15238621"
+				id: "166A9DC47FBF3D48"
 				type: "item"
-				item: "minecraft:jungle_planks"
+				item: "kubejs:chin_new"
+			}]
+			rewards: [
+				{
+					id: "41CB4583256E6ADD"
+					type: "item"
+					item: "minecraft:jungle_planks"
+					count: 64
+				}
+				{
+					id: "66E6F4D566D79886"
+					type: "item"
+					item: "minecraft:jungle_planks"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "Sand"
+			icon: "minecraft:sand"
+			x: 6.0d
+			y: -9.0d
+			can_repeat: true
+			id: "69CB659206F94D08"
+			tasks: [{
+				id: "3C49BAAA141194C3"
+				type: "item"
+				item: "kubejs:chin_new"
+			}]
+			rewards: [{
+				id: "6E2A58E0F83837E7"
+				type: "item"
+				item: "minecraft:sand"
+				count: 64
+			}]
+		}
+		{
+			title: "Gravel"
+			icon: "minecraft:gravel"
+			x: 6.0d
+			y: -7.5d
+			can_repeat: true
+			id: "15462D7D951814F9"
+			tasks: [{
+				id: "432B888F11A6A092"
+				type: "item"
+				item: "kubejs:chin_new"
+			}]
+			rewards: [{
+				id: "009EFF8EE66B59C4"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 64
+			}]
+		}
+		{
+			title: "Cobblestone"
+			icon: "minecraft:cobblestone"
+			x: -6.0d
+			y: -9.0d
+			can_repeat: true
+			id: "7EEDF4A94AE88FD7"
+			tasks: [{
+				id: "5CB403D95ED91FEE"
+				type: "item"
+				item: "kubejs:chin_new"
+			}]
+			rewards: [{
+				id: "4A49C5F84983A576"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64
+			}]
+		}
+		{
+			title: "Netherrack"
+			icon: "minecraft:netherrack"
+			x: -6.0d
+			y: -7.5d
+			can_repeat: true
+			id: "5BFC2F843375794B"
+			tasks: [{
+				id: "0A36DA4024537BC8"
+				type: "item"
+				item: "kubejs:chin_new"
+			}]
+			rewards: [{
+				id: "6540CB035804474E"
+				type: "item"
+				item: "minecraft:netherrack"
+				count: 64
 			}]
 		}
 	]
