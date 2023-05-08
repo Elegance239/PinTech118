@@ -94,6 +94,6 @@ onEvent('recipes', event => {
 		results: [
 			{item: 'minecraft:gold_nugget', chance: 0.9},
 		],
-		energy: 350,
+		energy: 700,
 	})
 })

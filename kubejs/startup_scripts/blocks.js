@@ -61,6 +61,10 @@ onEvent('block.registry', event => {
 	.texture('up', 'kubejs:item/machine_frame/supreme_top')
 	.texture('down', 'kubejs:item/machine_frame/supreme_bottom')
 	.material('metal')
+
+	event.create('gold_combine').displayName('Combined Gold Deposit')
+	.textureAll('kubejs:item/gold_combine')
+	.material('metal')
 })
 
 
