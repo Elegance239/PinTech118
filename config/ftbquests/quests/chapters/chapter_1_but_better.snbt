@@ -30,6 +30,7 @@
 		{
 			x: -17.0d
 			y: 0.0d
+			description: ["The Induction Smelter unlocks many new ores to process, as well as important alloys such as Electrum."]
 			dependencies: ["7F019A11B2FAC654"]
 			id: "113B0E1425C52A58"
 			tasks: [

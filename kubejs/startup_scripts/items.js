@@ -143,4 +143,5 @@ onEvent('item.registry', event => {
 	event.create('sieve').displayName('Sieve')
 	event.create('sieve_with_gold').displayName('Sieve with Gold')
 	event.create('ender_core').displayName('Ender Core')
+	event.create('diode').displayName('Diode')
 })

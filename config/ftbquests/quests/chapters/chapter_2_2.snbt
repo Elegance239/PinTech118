@@ -1,0 +1,36 @@
+{
+	id: "720248C47922F518"
+	group: "06FE0E7D4DE643D6"
+	order_index: 3
+	filename: "chapter_2_2"
+	title: "Chapter 2"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Outsourcing"
+		icon: "kubejs:reinforcement_catalyst"
+		x: -14.0d
+		y: 0.0d
+		shape: "gear"
+		size: 2.0d
+		id: "5C6472194AEDF044"
+		tasks: [
+			{
+				id: "3BCB93A1E9904FBB"
+				type: "item"
+				item: "kubejs:reinforced_casing"
+			}
+			{
+				id: "1877C4E28708DFAD"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}
+		]
+		rewards: [{
+			id: "388E33C9437E2F32"
+			type: "item"
+			item: "kubejs:reinforcement_catalyst"
+		}]
+	}]
+	quest_links: [ ]
+}

@@ -18,4 +18,8 @@ onEvent('recipes', event => {
     event.shapeless('mekanism:upgrade_speed', ['kubejs:upgrade_base','thermal:lumium_plate'])
     event.shapeless('mekanism:upgrade_energy', ['kubejs:upgrade_base','thermal:rf_coil'])
     event.shapeless('mekanism:upgrade_gas', ['kubejs:upgrade_base','kubejs:composite_mechanical_component'])
+    event.shapeless('mm:item_output_port', 'mm:item_input_port')
+    event.shapeless('mm:item_input_port', 'mm:item_output_port')
+    event.shapeless('mm:fluid_output_port', 'mm:fluid_input_port')
+    event.shapeless('mm:fluid_input_port', 'mm:fluid_output_port')
 })

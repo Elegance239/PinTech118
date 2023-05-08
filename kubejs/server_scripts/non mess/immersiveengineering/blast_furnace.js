@@ -8,7 +8,7 @@ onEvent('recipes', event => {
         "type": "immersiveengineering:blast_furnace",
         "result": { "item": "thermal:raw_silver" },
         "input": { "item": "kubejs:crushed_argentite" },
-        "slag": { "item": "thermal:slag" },
+        "slag": { "item": "immersiveengineering:slag" },
         "time": 1200
     })
 

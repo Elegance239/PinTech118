@@ -1726,5 +1726,57 @@ onEvent('recipes', event => {
 
   )
 
+  event.shaped('mm:energy_input_port',
+    [" A ", " B ", " A "],
+    {
+    "A": {
+        "item": "kubejs:modular_machine_framework"
+    },
+    "B": {
+        "item": "thermal:rf_coil"
+    }
+},
+)
+event.shaped('mm:item_input_port',
+[" A ", " B ", " A "],
+{
+"A": {
+    "item": "kubejs:modular_machine_framework"
+},
+"B": {
+    "item": "pneumaticcraft:omnidirectional_hopper"
+}
+},
+)
+
+event.shaped('mm:fluid_input_port',
+[" A ", " B ", " A "],
+{
+"A": {
+    "item": "kubejs:modular_machine_framework"
+},
+"B": {
+    "item": "pneumaticcraft:liquid_hopper"
+}
+},
+)
+
+event.shaped('pneumaticcraft:air_compressor',
+    ["ABA", "CDC", "CCC"],
+    {
+    "A": {
+        "item": "kubejs:compressed_iron_plate"
+    },
+    "B": {
+        "item": "pneumaticcraft:pressure_tube"
+    },
+    "C": {
+        "item": "pneumaticcraft:reinforced_bricks"
+    },
+    "D": {
+        "item": "thermal:dynamo_stirling"
+    }
+},
+)
   
 })

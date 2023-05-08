@@ -16,4 +16,10 @@ onEvent('recipes', event => {
 	event.replaceInput({id:'thermal:augments/machine_speed_augment'}, 'thermal:rf_coil', 'kubejs:augment_base')
 	event.replaceInput({id:'thermal:augments/machine_efficiency_augment'}, 'thermal:rf_coil', 'kubejs:augment_base')
 	event.replaceInput({id:'thermal:augments/dynamo_fuel_augment'}, '#thermal:glass_hardened', 'kubejs:augment_base')
-})
+	event.replaceInput({input:'mekanism:dust_quartz'}, 'mekanism:dust_quartz', 'thermal:quartz_dust')
+	event.replaceOutput({output:'mekanism:dust_quartz'}, 'mekanism:dust_quartz', 'thermal:quartz_dust')
+	event.replaceInput({input:'thermal:slag'}, 'thermal:slag', 'immersiveengineering:slag')
+	event.replaceOutput({output:'thermal:slag'}, 'thermal:slag', 'immersiveengineering:slag')
+	event.replaceInput({id:'pneumaticcraft:flux_compressor'}, 'minecraft:blast_furnace', 'thermal:dynamo_compression')
+
+})	

@@ -136,7 +136,7 @@
 			y: 1.5d
 			description: [
 				"The laws of physics have held you back long enough. Now it's time to break them."
-				"Begin diving into nanoengineering, and synthesize materials with previously impossible properties. Build the particle accelerator to peer into the quantum realm. Cosntruct the long hypothesized Quantum Computer, all while keeping up with the enormous power demand of your sprawling factory."
+				"Begin diving into nanoengineering, and synthesize materials with previously unattainable properties. Build the particle accelerator to peer into the quantum realm. Cosntruct the powerful Quantum Computer, all while keeping up with the enormous power demand of your sprawling factory."
 			]
 			dependencies: ["53486C827B31DC48"]
 			size: 1.5d
