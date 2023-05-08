@@ -28,5 +28,16 @@ onEvent('recipes', event => {
 
     })
 
+    event.custom({
+
+        "type": "immersiveengineering:blueprint",
+        "category": "molds",
+        "inputs": [
+            { "base_ingredient": { "tag": "forge:plates/steel" }, "count": 3 },
+            { "item": "immersiveengineering:wirecutter" }],
+
+        "result": { "item": "kubejs:mold_core" }
+
+    })
 
 })
