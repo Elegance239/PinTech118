@@ -1,0 +1,15 @@
+{
+	id: "0352776A2D4E010B"
+	order_index: 1
+	title: "Create Loot Reward"
+	loot_size: 1
+	rewards: [
+		{ item: "create:andesite_alloy", count: 5 }
+		{ item: "create:gearbox", count: 2 }
+		{ item: "create:cogwheel", count: 8 }
+		{ item: "create:large_cogwheel", count: 2 }
+		{ item: "create:pulse_repeater" }
+		{ item: "create:adjustable_chain_gearshift" }
+		{ item: "create:shaft", count: 16 }
+	]
+}

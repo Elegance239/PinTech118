@@ -1,0 +1,16 @@
+{
+	id: "66C3FB358873343D"
+	order_index: 5
+	title: "Chapter 3a High Tier Loot"
+	loot_size: 1
+	rewards: [
+		{ item: "mekanism:isotopic_centrifuge" }
+		{ item: "mekanism:solar_neutron_activator" }
+		{ item: "createchromaticreturn:chromatic_compound" }
+		{ item: "kubejs:superalloy_capsule" }
+		{ item: "mekanism:alloy_atomic" }
+		{ item: "mekanism:pressurized_reaction_chamber" }
+		{ item: "industrialforegoing:machine_frame_advanced" }
+		{ item: "mekanism:radioactive_waste_barrel", count: 32 }
+	]
+}

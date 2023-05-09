@@ -1,0 +1,31 @@
+{
+	id: "3ABA667021E01F9E"
+	order_index: 4
+	title: "Chapter 3a Loot "
+	loot_size: 1
+	rewards: [
+		{ item: "mekanism:upgrade_speed" }
+		{ item: "mekanism:upgrade_energy" }
+		{ item: "immersiveengineering:ingot_uranium", count: 8 }
+		{ item: "mekanism:fluorite_gem", count: 8 }
+		{ item: "thermal:enderium_ingot" }
+		{
+			title: "Fissile Fuel"
+			item: {
+				id: "mekanism:basic_chemical_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								gasName: "mekanism:fissile_fuel"
+								amount: 5000L
+							}
+						}]
+					}
+				}
+			}
+		}
+	]
+}

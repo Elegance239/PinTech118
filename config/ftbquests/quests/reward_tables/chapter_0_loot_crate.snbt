@@ -1,0 +1,14 @@
+{
+	id: "0ECFB6FB4FB8EDFB"
+	order_index: 0
+	title: "Chapter 0 Loot"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "minecraft:iron_ingot", count: 5 }
+		{ item: "minecraft:gold_ingot", count: 5 }
+		{ item: "thermal:tin_ingot", count: 5 }
+		{ item: "minecraft:redstone", count: 16 }
+		{ item: "minecraft:coal", count: 8 }
+	]
+}

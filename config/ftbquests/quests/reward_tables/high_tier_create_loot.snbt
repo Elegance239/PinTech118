@@ -1,0 +1,16 @@
+{
+	id: "761C7871BEB451E9"
+	order_index: 2
+	title: "High Tier Create Loot"
+	loot_size: 1
+	rewards: [
+		{ item: "create:precision_mechanism" }
+		{ item: "create:mechanical_crafter", count: 3 }
+		{ item: "create:steam_engine" }
+		{ item: "create:mechanical_mixer" }
+		{ item: "create:mechanical_press" }
+		{ item: "create:millstone" }
+		{ item: "createaddition:rolling_mill" }
+		{ item: "create:encased_fan" }
+	]
+}

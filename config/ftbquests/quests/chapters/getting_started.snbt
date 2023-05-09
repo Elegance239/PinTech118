@@ -1,6 +1,6 @@
 {
 	id: "4A4D7813E1F70537"
-	group: "06FE0E7D4DE643D6"
+	group: "69FAB89602C152B6"
 	order_index: 0
 	filename: "getting_started"
 	title: "Chapter 0"
@@ -151,9 +151,10 @@
 				item: "minecraft:blast_furnace"
 			}]
 			rewards: [{
-				id: "0335EB4D526EC94A"
-				type: "choice"
+				id: "373794318214C9B9"
+				type: "random"
 				exclude_from_claim_all: true
+				table_id: 1067272827200663035L
 			}]
 		}
 		{
@@ -207,6 +208,12 @@
 				type: "item"
 				item: "create:water_wheel"
 			}]
+			rewards: [{
+				id: "06BD46A90D25751E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
+			}]
 		}
 		{
 			x: 26.0d
@@ -219,6 +226,12 @@
 				id: "4FEC11E7B49BA828"
 				type: "item"
 				item: "create:mechanical_mixer"
+			}]
+			rewards: [{
+				id: "3FD1EDD0BE9FBE04"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
 			}]
 		}
 		{
@@ -240,6 +253,12 @@
 					item: "minecraft:water_bucket"
 				}
 			]
+			rewards: [{
+				id: "60C69E05485959EA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
+			}]
 		}
 		{
 			title: "Windmill"
@@ -275,10 +294,16 @@
 				type: "item"
 				item: "create:brass_ingot"
 			}]
+			rewards: [{
+				id: "688993796C61909A"
+				type: "random"
+				table_id: 239385028114383115L
+			}]
 		}
 		{
 			x: 26.0d
 			y: 3.0d
+			subtitle: "BONK!"
 			dependencies: [
 				"638DFC8F928BDF6D"
 				"1D4222E8AB47DE8A"
@@ -289,6 +314,12 @@
 				id: "3049C2144F5A794A"
 				type: "item"
 				item: "create:mechanical_press"
+			}]
+			rewards: [{
+				id: "7A76531FBBFB940C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
 			}]
 		}
 		{
@@ -324,6 +355,12 @@
 				type: "item"
 				item: "create:deployer"
 			}]
+			rewards: [{
+				id: "57D216E40DB414C0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
+			}]
 		}
 		{
 			x: 48.0d
@@ -337,6 +374,12 @@
 				type: "item"
 				item: "create:rotation_speed_controller"
 			}]
+			rewards: [{
+				id: "4C90214C0F3BFDA2"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8510809825749520873L
+			}]
 		}
 		{
 			x: 37.0d
@@ -348,6 +391,12 @@
 				id: "52A8CC503653C14B"
 				type: "item"
 				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "4BE9642311C82049"
+				type: "item"
+				item: "minecraft:coal"
+				count: 8
 			}]
 		}
 		{
@@ -363,6 +412,32 @@
 				type: "item"
 				item: "thermal:machine_frame"
 			}]
+			rewards: [
+				{
+					id: "6A4519C7890CAE23"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 8
+				}
+				{
+					id: "174F7880D1EA2C00"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 8
+				}
+				{
+					id: "2A668997472217C1"
+					type: "item"
+					item: "thermal:tin_ingot"
+					count: 8
+				}
+				{
+					id: "2F02744AA23667D6"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 8
+				}
+			]
 		}
 		{
 			title: "Steam Power"
@@ -378,6 +453,12 @@
 				id: "449A9752ABD271CA"
 				type: "item"
 				item: "create:steam_engine"
+			}]
+			rewards: [{
+				id: "2EE1B7ED30A7162E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
 			}]
 		}
 		{
@@ -418,6 +499,12 @@
 				type: "item"
 				item: "immersiveengineering:treated_wood_horizontal"
 			}]
+			rewards: [{
+				id: "69879EF484F44717"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 8
+			}]
 		}
 		{
 			x: 34.0d
@@ -432,6 +519,12 @@
 				id: "712044C4FA63C50A"
 				type: "item"
 				item: "thermal:steel_ingot"
+			}]
+			rewards: [{
+				id: "4921D10C6BB259DE"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1067272827200663035L
 			}]
 		}
 		{
@@ -448,6 +541,12 @@
 				id: "49303779BE824DAD"
 				type: "item"
 				item: "create:brass_casing"
+			}]
+			rewards: [{
+				id: "4823BE92995A2C34"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
 			}]
 		}
 		{
@@ -476,6 +575,12 @@
 				type: "item"
 				item: "thermal:silver_ingot"
 			}]
+			rewards: [{
+				id: "61F1F4AC5F03FB1F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1067272827200663035L
+			}]
 		}
 		{
 			x: 22.0d
@@ -490,6 +595,12 @@
 				type: "item"
 				item: "createaddition:rolling_mill"
 			}]
+			rewards: [{
+				id: "46A2783830D36C18"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
+			}]
 		}
 		{
 			x: 40.0d
@@ -500,6 +611,12 @@
 				id: "7243568D94010AB3"
 				type: "item"
 				item: "create:polished_rose_quartz"
+			}]
+			rewards: [{
+				id: "67556723467D0957"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1067272827200663035L
 			}]
 		}
 		{
@@ -518,6 +635,12 @@
 				type: "item"
 				item: "create:electron_tube"
 			}]
+			rewards: [{
+				id: "1E7DFAD50ED81E39"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1067272827200663035L
+			}]
 		}
 		{
 			x: 48.0d
@@ -530,6 +653,12 @@
 				id: "067B2AD26A0BCDC9"
 				type: "item"
 				item: "create:mechanical_crafter"
+			}]
+			rewards: [{
+				id: "41C9FFD1DECC4C8F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1067272827200663035L
 			}]
 		}
 		{
@@ -544,6 +673,12 @@
 				type: "item"
 				item: "create:crushing_wheel"
 				count: 2L
+			}]
+			rewards: [{
+				id: "0C840BE70421F07B"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8510809825749520873L
 			}]
 		}
 		{
@@ -575,6 +710,12 @@
 				type: "item"
 				item: "createaddition:alternator"
 			}]
+			rewards: [{
+				id: "00359634D685C17D"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8510809825749520873L
+			}]
 		}
 		{
 			x: 22.0d
@@ -599,6 +740,12 @@
 				id: "7925E98BFCA0717E"
 				type: "item"
 				item: "createaddition:electric_motor"
+			}]
+			rewards: [{
+				id: "03EB026D9552FA1E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
 			}]
 		}
 		{

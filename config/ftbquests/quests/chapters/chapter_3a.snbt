@@ -1,7 +1,7 @@
 {
 	id: "2F4CDF27066DC836"
-	group: "364B87E0D6424FF0"
-	order_index: 0
+	group: "69FAB89602C152B6"
+	order_index: 5
 	filename: "chapter_3a"
 	title: "Chapter 3a"
 	default_quest_shape: ""
@@ -70,6 +70,25 @@
 				}
 				match_nbt: true
 			}]
+			rewards: [{
+				id: "7979B97148F6CCC1"
+				type: "item"
+				item: {
+					id: "mekanism:basic_chemical_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									gasName: "mekanism:fissile_fuel"
+									amount: 32000L
+								}
+							}]
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -14.0d
@@ -82,6 +101,12 @@
 				item: "mekanism:chemical_oxidizer"
 				count: 2L
 			}]
+			rewards: [{
+				id: "495F1C23483C037E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 4231807431658708894L
+			}]
 		}
 		{
 			x: -14.0d
@@ -93,6 +118,12 @@
 				type: "item"
 				item: "mekanism:chemical_infuser"
 				count: 3L
+			}]
+			rewards: [{
+				id: "2E33B4D4D8B19117"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 4231807431658708894L
 			}]
 		}
 		{
@@ -127,6 +158,12 @@
 				type: "item"
 				item: "mekanism:chemical_dissolution_chamber"
 			}]
+			rewards: [{
+				id: "269CDEB1E3B79F83"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 4231807431658708894L
+			}]
 		}
 		{
 			x: -14.0d
@@ -148,6 +185,12 @@
 				id: "1BBC6A6D2E423B1E"
 				type: "item"
 				item: "mekanism:isotopic_centrifuge"
+			}]
+			rewards: [{
+				id: "4908027A98FC19EA"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 4231807431658708894L
 			}]
 		}
 		{
@@ -219,6 +262,12 @@
 					count: 4L
 				}
 			]
+			rewards: [{
+				id: "6B16D28657FC1034"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7405038419668317245L
+			}]
 		}
 		{
 			x: -4.5d
@@ -260,6 +309,8 @@
 		{
 			x: 4.0d
 			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["336A425683E29F01"]
 			id: "4B3E2F36905A2BB6"
 			tasks: [{
 				id: "1ED6F05E5939A900"
@@ -322,6 +373,12 @@
 				id: "45EF49E80E71EDF2"
 				type: "item"
 				item: "mekanism:alloy_atomic"
+			}]
+			rewards: [{
+				id: "751AA6EA6684140B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7405038419668317245L
 			}]
 		}
 		{
@@ -422,6 +479,12 @@
 				id: "2312606CDA32CE15"
 				type: "item"
 				item: "createchromaticreturn:chromatic_compound"
+			}]
+			rewards: [{
+				id: "341DBAEF92C88EA3"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 7405038419668317245L
 			}]
 		}
 		{
@@ -548,6 +611,12 @@
 				type: "item"
 				item: "createchromaticreturn:refined_radiance"
 			}]
+			rewards: [{
+				id: "262F88FA8AA6E7B4"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 7405038419668317245L
+			}]
 		}
 		{
 			x: 8.5d
@@ -559,6 +628,12 @@
 				id: "2E9C6FA67F93C553"
 				type: "item"
 				item: "kubejs:neoclydium_diode"
+			}]
+			rewards: [{
+				id: "4D931D4C47F89F34"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 4231807431658708894L
 			}]
 		}
 		{
@@ -588,12 +663,18 @@
 				type: "item"
 				item: "mekanism:ultimate_control_circuit"
 			}]
+			rewards: [{
+				id: "34770003C34502AA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 7405038419668317245L
+			}]
 		}
 		{
 			title: "Supercritical Phase Shifter"
 			x: 13.0d
 			y: 0.0d
-			description: ["You're so close. So so close. Feel the victory in your hands. Never have you fathomed the possibility of grasping antimatter in your very own hands. You will need at least one supercharged coil, which you can add depending on how much power you can generate. Search up Mekanism SPS if you have any questions."]
+			description: ["So close, so far. Feel the victory in your hands. Never have you fathomed the possibility of grasping antimatter in your very own hands. You will need at least one supercharged coil, which you can add depending on how much power you can generate. Search up Mekanism SPS if you have any questions."]
 			dependencies: [
 				"000D19491DA2B747"
 				"0F31B0FA208E8CD3"
@@ -630,6 +711,19 @@
 					item: "mekanism:supercharged_coil"
 				}
 			]
+			rewards: [
+				{
+					id: "0A1A9D5548282670"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 7405038419668317245L
+				}
+				{
+					id: "2FDA994C10192518"
+					type: "item"
+					item: "minecraft:dragon_egg"
+				}
+			]
 		}
 		{
 			x: 17.5d
@@ -649,12 +743,33 @@
 			subtitle: "Masochism at its finest."
 			description: ["Feel the pride surge through your veins. The rage, the suffering, the agony you've gone through just to acquire one antimatter pellet. "]
 			dependencies: ["20C611C294E5A009"]
+			size: 1.5d
 			id: "43810EEE044CE72C"
 			tasks: [{
 				id: "2068381982320E6F"
 				type: "item"
 				item: "mekanism:pellet_antimatter"
 			}]
+			rewards: [
+				{
+					id: "35C15A72321B34F0"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 7405038419668317245L
+				}
+				{
+					id: "7FC424230E95C979"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 7405038419668317245L
+				}
+				{
+					id: "2D416B4657997647"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 7405038419668317245L
+				}
+			]
 		}
 		{
 			x: 26.0d
@@ -679,6 +794,12 @@
 				type: "item"
 				item: "industrialforegoing:machine_frame_supreme"
 			}]
+			rewards: [{
+				id: "1F4A75A71065F0E8"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 7405038419668317245L
+			}]
 		}
 		{
 			x: 8.5d
@@ -689,6 +810,12 @@
 				id: "20413926131D8970"
 				type: "item"
 				item: "kubejs:neoclydium_ingot_test"
+			}]
+			rewards: [{
+				id: "634FDA6F4B3E7A7A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 4231807431658708894L
 			}]
 		}
 		{
