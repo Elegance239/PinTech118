@@ -280,4 +280,21 @@ onEvent("mm.recipes", event => {
             MMFluid('thermal_extra:dragon_enderium', 90),
         ]
     })
+
+    event.build("mm:blackstone", {
+        duration: 200,
+        structureId: "namespace:blender",
+        name: {
+            text: "Mixing: Blackstone Alloy"
+        },
+        inputs: [
+            MMEnergy(200),      
+            MMItem('mekanism:ingot_osmium', 1),
+            MMItem('minecraft:blackstone', 16),
+            MMItem('kubejs:pyrotheum', 2),
+        ],
+        outputs: [
+            MMItem('kubejs:blackstone_alloy', 9),
+        ]
+    })
 })

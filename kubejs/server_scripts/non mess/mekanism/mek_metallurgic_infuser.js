@@ -45,5 +45,17 @@ onEvent('recipes', event => {
 		],
 		output: { item: 'kubejs:reinforcement_catalyst', count:1},
 	})
+
+	event.custom({
+		type: 'mekanism:metallurgic_infusing',
+		chemicalInput: {"amount":20,"infuse_type":"kubejs:graphene"},
+		itemInput: [
+			{ingredient: 
+				
+				{item: 'kubejs:blackstone_alloy', count:1}
+			}
+		],
+		output: { item: 'kubejs:nanocomposite_alloy', count:1},
+	})
 })
 

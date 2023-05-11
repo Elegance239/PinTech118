@@ -52,18 +52,7 @@
 		}
 		{
 			x: -0.5d
-			y: 0.0d
-			subtitle: "40"
-			id: "404EB2F400C08EE5"
-			tasks: [{
-				id: "67F6EAABBE911829"
-				type: "item"
-				item: "thermal:dynamo_magmatic"
-			}]
-		}
-		{
-			x: -0.5d
-			y: 1.0d
+			y: 0.5d
 			subtitle: "60"
 			id: "1ECF7E4D0EE25487"
 			tasks: [{

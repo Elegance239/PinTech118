@@ -14,5 +14,5 @@ onEvent('mekanism.gas.registry', event => {
 onEvent('mekanism.infuse_type.registry', event => {
 
     event.create("poo").color(0x4E3612)
-    
+    event.create("graphene").color(0x111111)
 })

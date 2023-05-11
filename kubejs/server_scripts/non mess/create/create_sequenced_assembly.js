@@ -424,4 +424,21 @@ onEvent('recipes', event => {
             ]),
         ]
     ).transitionalItem('kubejs:phosphor_blend').loops(1)
+
+
+    event.recipes.createSequencedAssembly(
+        [Item.of('tconstruct:debris_nugget')],
+        'kubejs:nanocomposite_alloy',
+        [
+            event.recipes.createFilling('kubejs:nanocomposite_alloy', 
+            [
+                'kubejs:nanocomposite_alloy',
+                Fluid.of('tconstruct:blazing_blood', 5)
+            ]),
+            event.recipes.createPressing('kubejs:nanocomposite_alloy', 
+            [
+                'kubejs:nanocomposite_alloy',
+            ]),
+        ]
+    ).transitionalItem('kubejs:nanocomposite_alloy').loops(50)
 })

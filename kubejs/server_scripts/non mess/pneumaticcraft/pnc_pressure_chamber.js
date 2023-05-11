@@ -133,7 +133,7 @@ onEvent('recipes', event => {
 		inputs: [
 		  Item.of("immersiveengineering:wire_electrum").toJson(),
 		  Item.of("pneumaticcraft:plastic").toJson(),
-		  Item.of("thermal:signalum_coin").toJson(),
+		  Item.of("thermal:signalum_nugget").toJson(),
 		  Item.of("create:polished_rose_quartz").toJson(),
 		],
 		pressure: 1,
@@ -303,6 +303,18 @@ onEvent('recipes', event => {
 		pressure: 4,
 		results: [
 		  Item.of('kubejs:diamond_seed').toJson(),
+		]
+	})
+
+	event.custom({
+		type: "pneumaticcraft:pressure_chamber",
+		inputs: [
+		  Item.of('kubejs:resistor').toJson(),
+		  Item.of('refinedstorage:silicon').toJson(),
+		],
+		pressure: 1,
+		results: [
+		  Item.of('kubejs:diode').toJson(),
 		]
 	})
 })

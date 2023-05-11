@@ -50,6 +50,19 @@ event.remove({input: '#forge:raw_materials', output: '#forge:ores'})
 event.remove({input: 'minecraft:deepslate_gold_ore', output: 'minecraft:gold_nugget'})
 event.remove({input: 'minecraft:deepslate_gold_ore', output: 'minecraft:cobblestone'})
 
+
+const mekfactory = [
+    "compressing","smelting","enriching","crushing","combining","purifying","injecting","infusing","sawing"
+]
+const mektiers = ["basic","advanced","elite","ultimate"]
+
+mekfactory.forEach(factory => {
+    mektiers.forEach(tier =>{
+        event.remove({id:"mekanism:factory/"+tier+"/"+factory})
+    })
+})
+
+
 // I am dumb.
 let IE = (id) => 'immersiveengineering:'+id
 let IF = (id) => 'industrialforegoing:'+id
@@ -248,6 +261,9 @@ let SD = (id) => 'storagedrawers:'+id
         'enderstorage:ender_chest',
         'enderstorage:ender_tank',
         'mekanism:sps_casing',
+        'mekanism:advanced_tier_installer',
+        'mekanism:elite_tier_installer',
+        'mekanism:solar_neutron_activator'
     ]                                               
 
     removeid.forEach(item => {
@@ -314,6 +330,7 @@ let SD = (id) => 'storagedrawers:'+id
         'create:crushing/diorite_recycling',
         'thermal:machines/smelter/smelter_alloy_lumium',
         'createchromaticreturn:shadow_essence_recipe',
+        'jaopca:thermal_expansion.nugget_to_material.netherite_scrap'
     ]
 
     recipeId.forEach(item => {

@@ -101,13 +101,15 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 4.0d
+			title: "Crude Oil"
+			icon: "immersivepetroleum:crudeoil_bucket"
+			x: -6.5d
+			y: 6.5d
+			description: ["There are three mods that introduce crude oil - Pneumaticcraft, Thermal Series, and Immersive Petroleum. Use any one of them to progress."]
 			id: "546319BFBFC3E092"
 			tasks: [{
-				id: "3FBD04F1EB3C8DF4"
-				type: "item"
-				item: "pneumaticcraft:oil_bucket"
+				id: "0920B3057FA0374D"
+				type: "checkmark"
 			}]
 		}
 		{
@@ -179,8 +181,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 5.5d
+			x: -4.5d
+			y: 4.0d
 			dependencies: [
 				"31A8192A82CC27D9"
 				"546319BFBFC3E092"
@@ -708,6 +710,39 @@
 				type: "item"
 				item: "mekanism:advanced_control_circuit"
 			}]
+		}
+		{
+			title: "Pumpjack"
+			icon: "immersivepetroleum:pumpjack"
+			x: -4.5d
+			y: 6.5d
+			description: ["Use Immersive Petroleum's Pumpjack to gain access to large reservoirs of oil."]
+			dependencies: ["546319BFBFC3E092"]
+			id: "126AC4DF159256E9"
+			tasks: [
+				{
+					id: "2D8D47602B9BCC79"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "4740D72FAAF298AF"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					id: "470C3E75075C313B"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+					count: 2L
+				}
+				{
+					id: "43D06E996FCB93D8"
+					type: "item"
+					item: "immersiveengineering:sample_drill"
+				}
+			]
 		}
 	]
 	quest_links: [ ]

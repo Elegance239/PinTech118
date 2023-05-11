@@ -24,11 +24,10 @@
 			}]
 		}
 		{
-			x: -6.75d
+			x: -7.0d
 			y: -6.0d
 			subtitle: "Infinite Iron!!!!!!11111111111!!"
-			dependencies: ["36F17C16337A70BA"]
-			size: 1.5d
+			description: ["Simple, everyone starts somewhere."]
 			id: "06F2FB1113E0D08A"
 			tasks: [
 				{
@@ -46,7 +45,7 @@
 		{
 			x: 3.0d
 			y: -6.0d
-			size: 1.5d
+			description: ["Rather complex, but relatively low tech."]
 			id: "6A3CCC531C12F398"
 			tasks: [
 				{
@@ -62,10 +61,9 @@
 			]
 		}
 		{
-			x: 0.5d
+			x: 2.0d
 			y: -3.5d
 			dependencies: ["6A3CCC531C12F398"]
-			size: 1.5d
 			id: "0E3268FC6F7A0651"
 			tasks: [{
 				id: "069AA4BC33BBD333"
@@ -74,10 +72,9 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 4.0d
 			y: -3.5d
 			dependencies: ["6A3CCC531C12F398"]
-			size: 1.5d
 			id: "0A74E11066200303"
 			tasks: [{
 				id: "587C9BB1B1C536C9"
@@ -87,13 +84,12 @@
 		}
 		{
 			x: 3.0d
-			y: -1.0d
+			y: -2.0d
 			description: ["Do NOT use a traditional Cobble Generator. It will cause immense lag. An Igneous Extruder can produce cobblestone. Place lava and water next to it."]
 			dependencies: [
 				"0E3268FC6F7A0651"
 				"0A74E11066200303"
 			]
-			size: 1.5d
 			id: "012A9449C61F8789"
 			tasks: [{
 				id: "62B58313FDD3997D"
@@ -102,10 +98,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 0.75d
+			x: 3.0d
+			y: 0.0d
 			dependencies: ["012A9449C61F8789"]
-			size: 1.5d
 			id: "1775BD1F4538CB0A"
 			tasks: [{
 				id: "037B7A4C3B287F02"
@@ -114,10 +109,9 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 0.75d
+			x: 4.5d
+			y: 1.0d
 			dependencies: ["1775BD1F4538CB0A"]
-			size: 1.5d
 			id: "37BA697696B7BB03"
 			tasks: [{
 				id: "2BC8C567AD8160F6"
@@ -126,10 +120,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 			dependencies: ["37BA697696B7BB03"]
-			size: 1.5d
 			id: "193704A322237594"
 			tasks: [{
 				id: "4D8D23376580CDCB"
@@ -138,10 +131,9 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 3.0d
+			x: 3.0d
+			y: 3.5d
 			dependencies: ["193704A322237594"]
-			size: 1.5d
 			id: "3FE7A119D140151D"
 			tasks: [{
 				id: "6159E52EA7B0F382"
@@ -150,13 +142,12 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 5.25d
+			x: 3.0d
+			y: 5.0d
 			dependencies: [
 				"3FE7A119D140151D"
 				"78A8B0E4BC94AEC7"
 			]
-			size: 1.5d
 			id: "4B5C268D3B135ACF"
 			tasks: [{
 				id: "797DEF250C826BAA"
@@ -165,9 +156,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 5.25d
-			size: 1.5d
+			x: 1.0d
+			y: 5.0d
 			id: "78A8B0E4BC94AEC7"
 			tasks: [{
 				id: "1F0E489534BDC8D4"
@@ -176,13 +166,12 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 8.25d
+			x: 3.0d
+			y: 7.5d
 			dependencies: [
 				"4B5C268D3B135ACF"
 				"0B6A1DC752AAB4A5"
 			]
-			size: 1.5d
 			id: "23D9EDA648BDA7BD"
 			tasks: [{
 				id: "4D404CD0AC9860B6"
@@ -192,9 +181,8 @@
 		}
 		{
 			x: 3.0d
-			y: 10.5d
+			y: 9.5d
 			dependencies: ["23D9EDA648BDA7BD"]
-			size: 1.5d
 			id: "259403FBE886C347"
 			tasks: [{
 				id: "36C72D7BE7E5E433"
@@ -204,9 +192,8 @@
 		}
 		{
 			x: 3.0d
-			y: 13.0d
+			y: 12.0d
 			dependencies: ["259403FBE886C347"]
-			size: 1.5d
 			id: "1DEEF1BD55D4EA5A"
 			tasks: [{
 				id: "25CCD26A79E7F983"
@@ -215,10 +202,10 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 15.5d
+			x: 1.0d
+			y: 14.0d
 			dependencies: ["1DEEF1BD55D4EA5A"]
-			size: 2.5d
+			size: 2.0d
 			id: "3A3ED89E289D2A05"
 			tasks: [{
 				id: "65C700F7D9F23376"
@@ -228,10 +215,9 @@
 		}
 		{
 			x: 5.5d
-			y: 15.5d
+			y: 14.5d
 			description: ["What? Nuggets can fail? Yes, they are like you."]
 			dependencies: ["1DEEF1BD55D4EA5A"]
-			size: 1.5d
 			id: "4BD4DC3F50D3A6B2"
 			tasks: [{
 				id: "4AABBA5792F3CD7B"
@@ -241,7 +227,7 @@
 		}
 		{
 			x: 5.5d
-			y: 13.0d
+			y: 12.0d
 			id: "0D5B010ECF8EC270"
 			tasks: [{
 				id: "1D0FE07A18FABB27"
@@ -257,7 +243,7 @@
 		}
 		{
 			x: 0.5d
-			y: 13.0d
+			y: 12.0d
 			id: "713E95E765E1B49C"
 			tasks: [{
 				id: "32DD6FE6C02A7ADF"
@@ -266,13 +252,12 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 8.25d
+			x: 4.5d
+			y: 6.5d
 			dependencies: [
 				"1D08F01EDD62A151"
 				"1BD9596D064DBFA5"
 			]
-			size: 1.5d
 			id: "0B6A1DC752AAB4A5"
 			tasks: [{
 				id: "03BBF192BB4E321C"
@@ -281,10 +266,9 @@
 			}]
 		}
 		{
-			x: 9.75d
-			y: 8.25d
+			x: 6.5d
+			y: 6.5d
 			dependencies: ["6D59D569C7F89D91"]
-			size: 1.5d
 			id: "1D08F01EDD62A151"
 			tasks: [{
 				id: "75095BA8BF3C90E9"
@@ -293,10 +277,9 @@
 			}]
 		}
 		{
-			x: 9.75d
-			y: 5.25d
+			x: 6.5d
+			y: 3.5d
 			dependencies: ["142A7A70BD57C352"]
-			size: 1.5d
 			id: "6D59D569C7F89D91"
 			tasks: [{
 				id: "4D4AC54AC8500E1D"
@@ -305,9 +288,8 @@
 			}]
 		}
 		{
-			x: 9.75d
-			y: 2.25d
-			size: 1.5d
+			x: 6.5d
+			y: 0.5d
 			id: "142A7A70BD57C352"
 			tasks: [{
 				id: "350FF0FAAA2EFD37"
@@ -316,9 +298,8 @@
 			}]
 		}
 		{
-			x: 9.75d
-			y: 11.25d
-			size: 1.5d
+			x: 6.5d
+			y: 9.5d
 			id: "1BD9596D064DBFA5"
 			tasks: [{
 				id: "16CD3BAFE1559DA0"
@@ -327,10 +308,12 @@
 			}]
 		}
 		{
-			x: -6.75d
-			y: 0.0d
-			dependencies: ["21020C81A04BC716"]
-			size: 1.5d
+			x: -7.0d
+			y: -2.0d
+			dependencies: [
+				"473037DCB7AE29DF"
+				"06F2FB1113E0D08A"
+			]
 			id: "36F17C16337A70BA"
 			tasks: [{
 				id: "12A6F5CCABF89FB6"
@@ -339,10 +322,12 @@
 			}]
 		}
 		{
-			x: -6.75d
-			y: 8.25d
-			dependencies: ["3015E79CED426D62"]
-			size: 1.5d
+			x: -7.0d
+			y: 0.0d
+			dependencies: [
+				"678B8E53EDFD23C1"
+				"36F17C16337A70BA"
+			]
 			id: "21020C81A04BC716"
 			tasks: [{
 				id: "53D8862CE55A6CE1"
@@ -351,10 +336,13 @@
 			}]
 		}
 		{
-			x: -6.75d
-			y: 15.75d
-			dependencies: ["10DA394117A114AA"]
-			size: 2.5d
+			x: -7.0d
+			y: 5.0d
+			dependencies: [
+				"10DA394117A114AA"
+				"21020C81A04BC716"
+			]
+			size: 2.0d
 			id: "3015E79CED426D62"
 			tasks: [{
 				id: "3D75B0DB880CF04C"
@@ -363,11 +351,9 @@
 			}]
 		}
 		{
-			x: -12.0d
-			y: 0.0d
+			x: -8.5d
+			y: -3.0d
 			description: ["Do NOT use a traditional Cobble Generator. It will cause immense lag. An Igneous Extruder can produce cobblestone. Place lava and water next to it."]
-			dependencies: ["36F17C16337A70BA"]
-			size: 1.5d
 			id: "473037DCB7AE29DF"
 			tasks: [{
 				id: "574AD5C3B16D3FC4"
@@ -376,10 +362,8 @@
 			}]
 		}
 		{
-			x: -12.0d
-			y: 8.25d
-			dependencies: ["21020C81A04BC716"]
-			size: 1.5d
+			x: -8.5d
+			y: -1.0d
 			id: "678B8E53EDFD23C1"
 			tasks: [{
 				id: "6CC8E9A469D3050E"
@@ -388,9 +372,8 @@
 			}]
 		}
 		{
-			x: -6.75d
-			y: 21.0d
-			size: 1.5d
+			x: -8.5d
+			y: 3.0d
 			id: "10DA394117A114AA"
 			tasks: [{
 				id: "1AA28097808233E7"
@@ -403,7 +386,6 @@
 			y: -10.5d
 			subtitle: "Fossil fuel renewable? Huh?"
 			description: ["Since when were fossil fuels renewable? If you want coal, a big thing is that you have to decide between two crucial options: 1. Mine it normally, which is annoying as you have to search for deposit after deposit of this nonsense, or, 2, using the superior method, using piss and poo to make it. It's your decision."]
-			size: 1.5d
 			id: "2369FAB46B43DB34"
 			tasks: [
 				{
@@ -422,7 +404,6 @@
 			x: -12.0d
 			y: -15.0d
 			dependencies: ["2369FAB46B43DB34"]
-			size: 1.5d
 			id: "0A146F5CA2DA638F"
 			tasks: [{
 				id: "7357BEDCB1873B7B"
@@ -440,9 +421,7 @@
 		{
 			x: -6.75d
 			y: -10.5d
-			description: ["Look, Perilune requested that they wanted to make it crystal clear that they have absolutely nothing to do with this chain. What's the problem?"]
 			dependencies: ["2369FAB46B43DB34"]
-			size: 1.5d
 			id: "5799E88AAAA851FF"
 			tasks: [{
 				id: "63150FED81F8FC15"
@@ -454,7 +433,6 @@
 			x: -2.0d
 			y: -10.5d
 			dependencies: ["5799E88AAAA851FF"]
-			size: 1.5d
 			id: "513CF2EAA4869FA7"
 			tasks: [{
 				id: "432538687D642493"
@@ -466,7 +444,6 @@
 			x: 2.5d
 			y: -10.5d
 			dependencies: ["513CF2EAA4869FA7"]
-			size: 1.5d
 			id: "2F9F2FD18C269237"
 			tasks: [{
 				id: "744F7056078D0B0C"
@@ -478,7 +455,6 @@
 			x: 6.5d
 			y: -10.5d
 			dependencies: ["2F9F2FD18C269237"]
-			size: 1.5d
 			id: "422FB752141D2A0F"
 			tasks: [{
 				id: "3F607687F1AE2D2D"
@@ -490,7 +466,6 @@
 			x: 11.0d
 			y: -10.5d
 			dependencies: ["422FB752141D2A0F"]
-			size: 1.5d
 			id: "34718A63FC77B1AA"
 			tasks: [{
 				id: "55F21B1C56299DF0"
@@ -513,9 +488,9 @@
 		}
 		{
 			title: "Redstone"
-			x: 17.25d
+			x: 17.0d
 			y: -6.0d
-			size: 1.5d
+			description: ["Involves cyclical processing. Requires a source of nether quartz."]
 			id: "398A80F01C4FC7A8"
 			tasks: [
 				{
@@ -531,13 +506,12 @@
 			]
 		}
 		{
-			x: 17.25d
-			y: -0.75d
+			x: 17.0d
+			y: -3.0d
 			dependencies: [
 				"71688EC6827A784A"
 				"46BD5F122AB1D35F"
 			]
-			size: 1.5d
 			id: "65082F4DBEF8C540"
 			tasks: [{
 				id: "58BAC7B61C1861FB"
@@ -546,10 +520,9 @@
 			}]
 		}
 		{
-			x: 20.5d
-			y: -3.5d
+			x: 18.5d
+			y: -4.5d
 			dependencies: ["398A80F01C4FC7A8"]
-			size: 1.5d
 			id: "46BD5F122AB1D35F"
 			tasks: [{
 				id: "13A7FBC709EFED6D"
@@ -565,10 +538,9 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: -3.5d
+			x: 15.5d
+			y: -4.5d
 			dependencies: ["398A80F01C4FC7A8"]
-			size: 1.5d
 			id: "71688EC6827A784A"
 			tasks: [{
 				id: "53DA01BC664AF32D"
@@ -577,10 +549,12 @@
 			}]
 		}
 		{
-			x: 17.25d
-			y: 3.75d
-			dependencies: ["65082F4DBEF8C540"]
-			size: 1.5d
+			x: 17.0d
+			y: 0.0d
+			dependencies: [
+				"65082F4DBEF8C540"
+				"260B4010929521CA"
+			]
 			id: "6CADF664A0E4FEDF"
 			tasks: [{
 				id: "20D33EC391DE9874"
@@ -589,25 +563,12 @@
 			}]
 		}
 		{
-			x: 20.25d
-			y: 1.5d
-			dependencies: ["6CADF664A0E4FEDF"]
-			size: 1.5d
-			id: "6A494D5E33CC2E07"
-			tasks: [{
-				id: "78A4FD814553D4A2"
-				type: "item"
-				item: "kubejs:redstone_slag_powder"
-			}]
-		}
-		{
-			x: 17.25d
-			y: 7.5d
+			x: 17.0d
+			y: 2.0d
 			dependencies: [
 				"54B2CC653E513216"
 				"6CADF664A0E4FEDF"
 			]
-			size: 1.5d
 			id: "578E9C268DD82E5D"
 			tasks: [{
 				id: "64E73DCBF5BFA073"
@@ -616,9 +577,8 @@
 			}]
 		}
 		{
-			x: 22.5d
-			y: 7.5d
-			size: 1.5d
+			x: 15.5d
+			y: 0.5d
 			id: "54B2CC653E513216"
 			tasks: [{
 				id: "1AC02CDBCB8BC396"
@@ -627,18 +587,468 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 1.5d
-			dependencies: [
-				"6A494D5E33CC2E07"
-				"65082F4DBEF8C540"
-			]
-			size: 1.5d
+			x: 15.5d
+			y: -1.5d
 			id: "260B4010929521CA"
 			tasks: [{
 				id: "49940F7B2F9C0F16"
 				type: "item"
 				item: "thermal:machine_refinery"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -3.5d
+			dependencies: ["260B4010929521CA"]
+			id: "0FF9041C7094802B"
+			tasks: [{
+				id: "404C5A1214EA2A0E"
+				type: "item"
+				item: "kubejs:redstone_slag_powder"
+			}]
+		}
+		{
+			x: 25.0d
+			y: -6.0d
+			description: ["Time-intensive and low-yield."]
+			id: "5D019AA3828DA11E"
+			tasks: [{
+				id: "1D09D0F181626E09"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+		}
+		{
+			x: 25.0d
+			y: -3.0d
+			dependencies: [
+				"75F8AB61BE33686A"
+				"40EEFB0DD1F895F4"
+				"5D019AA3828DA11E"
+			]
+			id: "775666C6B7D6A0BE"
+			tasks: [{
+				id: "28092E82982A84B7"
+				type: "item"
+				item: "kubejs:silica_dust"
+			}]
+		}
+		{
+			x: 23.5d
+			y: -4.5d
+			id: "75F8AB61BE33686A"
+			tasks: [{
+				id: "483151D1D5E8044B"
+				type: "item"
+				item: "minecraft:glass"
+			}]
+		}
+		{
+			x: 26.5d
+			y: -4.5d
+			id: "40EEFB0DD1F895F4"
+			tasks: [{
+				id: "6E058E097B6A146E"
+				type: "item"
+				item: "thermal:quartz_dust"
+			}]
+		}
+		{
+			x: 25.0d
+			y: 0.0d
+			dependencies: [
+				"60C0C6D77493D302"
+				"775666C6B7D6A0BE"
+			]
+			id: "05BB6EF3C5D906A9"
+			tasks: [{
+				id: "692F7A46B0E696EB"
+				type: "item"
+				item: "kubejs:silica_rich_water_bucket"
+			}]
+		}
+		{
+			x: 26.5d
+			y: -1.0d
+			id: "60C0C6D77493D302"
+			tasks: [{
+				id: "3898633C80B1AF1D"
+				type: "item"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}]
+		}
+		{
+			x: 25.0d
+			y: 2.0d
+			dependencies: [
+				"7ACDEAFB1841AD80"
+				"05BB6EF3C5D906A9"
+				"33FCAC4727A036B4"
+			]
+			id: "71028907A30454BD"
+			tasks: [{
+				id: "27ED4576ECC12BE7"
+				type: "item"
+				item: "kubejs:impure_quartz_crystal"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 1.0d
+			id: "7ACDEAFB1841AD80"
+			tasks: [{
+				id: "4F42602E5B7EA665"
+				type: "item"
+				item: "thermal:quartz_dust"
+			}]
+		}
+		{
+			x: 26.5d
+			y: 3.0d
+			id: "0BED2FE9C6E10906"
+			tasks: [{
+				id: "6BADA059214AE44F"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+		}
+		{
+			x: 25.0d
+			y: 4.0d
+			dependencies: [
+				"71028907A30454BD"
+				"0BED2FE9C6E10906"
+			]
+			id: "783BB68DE8701291"
+			tasks: [{
+				id: "412D8417CEF6B929"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+		}
+		{
+			x: 31.5d
+			y: -6.0d
+			description: ["Slightly power-intensive, and very, very hungry for dripstone. Consider a vanilla dripstone farm."]
+			id: "4F62C49A87278D65"
+			tasks: [{
+				id: "1D1D2CEE20627745"
+				type: "item"
+				item: "minecraft:copper_ingot"
+			}]
+		}
+		{
+			x: 33.0d
+			y: -4.5d
+			id: "07E44D9EFCAF939B"
+			tasks: [{
+				id: "0345567B71C034F7"
+				type: "item"
+				item: "minecraft:pointed_dripstone"
+			}]
+		}
+		{
+			x: 30.0d
+			y: -4.5d
+			id: "34FC4D98CFA9F63A"
+			tasks: [{
+				id: "103DB5EE3A905513"
+				type: "item"
+				item: "immersiveengineering:crusher"
+			}]
+		}
+		{
+			x: 31.5d
+			y: -3.0d
+			dependencies: [
+				"34FC4D98CFA9F63A"
+				"07E44D9EFCAF939B"
+				"4F62C49A87278D65"
+			]
+			id: "1F05637E3C52484A"
+			tasks: [{
+				id: "587F8B033DC2C79E"
+				type: "item"
+				item: "kubejs:ground_dripstone"
+			}]
+		}
+		{
+			x: 31.5d
+			y: 0.0d
+			dependencies: [
+				"0E43B30B6DD1C37C"
+				"30C16B67D35DD1F2"
+				"1F05637E3C52484A"
+			]
+			id: "2B567AEAF2729F99"
+			tasks: [{
+				id: "20641AB2C2780FDB"
+				type: "item"
+				item: "kubejs:acidified_ground_dripstone"
+			}]
+		}
+		{
+			x: 26.5d
+			y: 1.0d
+			id: "33FCAC4727A036B4"
+			tasks: [{
+				id: "7706A52BADE77F5B"
+				type: "item"
+				item: "thermal:machine_crystallizer"
+			}]
+		}
+		{
+			x: 33.0d
+			y: -1.0d
+			id: "30C16B67D35DD1F2"
+			tasks: [{
+				id: "73DF4045461CBDF1"
+				type: "item"
+				item: "immersiveengineering:redstone_acid_bucket"
+			}]
+		}
+		{
+			x: 30.0d
+			y: -1.0d
+			id: "0E43B30B6DD1C37C"
+			tasks: [{
+				id: "6EBC34536B324A02"
+				type: "item"
+				item: "thermal:machine_bottler"
+			}]
+		}
+		{
+			x: 31.5d
+			y: 2.0d
+			dependencies: ["2B567AEAF2729F99"]
+			id: "2E6D5E514FE658F9"
+			tasks: [{
+				id: "116A70D84A2D3B09"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+		}
+		{
+			x: 36.5d
+			y: 2.0d
+			description: ["By using a pulverizer sacrificing a significant portion of the yield, you can also obtain tin as a side product."]
+			dependencies: ["2B567AEAF2729F99"]
+			id: "179EA2C7792E445D"
+			tasks: [{
+				id: "137E276B4C82E588"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+		}
+		{
+			x: 36.5d
+			y: 4.0d
+			dependencies: ["179EA2C7792E445D"]
+			id: "2806359433AE84A5"
+			tasks: [{
+				id: "605B89405610372F"
+				type: "item"
+				item: "kubejs:raw_tin_mote"
+			}]
+		}
+		{
+			x: 31.5d
+			y: 4.0d
+			dependencies: ["2E6D5E514FE658F9"]
+			id: "1F3387C12D607053"
+			tasks: [{
+				id: "5E881C7B6F26B973"
+				type: "item"
+				item: "kubejs:raw_copper_mote"
+			}]
+		}
+		{
+			x: 42.5d
+			y: -6.0d
+			subtitle: "Use lead contamination to your advantage"
+			description: ["Moderately complex. Relies on a steady source of biomass."]
+			id: "5CADCE1D8362EA36"
+			tasks: [{
+				id: "53A61B12FE062CDB"
+				type: "item"
+				item: "thermal:lead_ingot"
+			}]
+		}
+		{
+			x: 42.5d
+			y: 0.0d
+			dependencies: [
+				"423AC3B473819DFA"
+				"1849AECD44F2D5CC"
+				"6BEDE209DA9F812B"
+			]
+			id: "7FC1A728290F146E"
+			tasks: [{
+				id: "4F57F88EBE500B43"
+				type: "item"
+				item: "createaddition:biomass"
+			}]
+		}
+		{
+			x: 42.5d
+			y: -3.0d
+			dependencies: [
+				"5CADCE1D8362EA36"
+				"5F251D6642C28C76"
+			]
+			id: "6BEDE209DA9F812B"
+			tasks: [{
+				id: "4FF856463707ADB3"
+				type: "item"
+				item: "mekanism:bio_fuel"
+			}]
+		}
+		{
+			x: 44.5d
+			y: -4.5d
+			id: "5F251D6642C28C76"
+			tasks: [{
+				id: "6A1960E2EEA0B434"
+				type: "item"
+				item: "minecraft:oak_sapling"
+			}]
+		}
+		{
+			x: 40.0d
+			y: -2.0d
+			id: "423AC3B473819DFA"
+			tasks: [{
+				id: "065EBC501025C83A"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: 41.0d
+			y: -2.0d
+			id: "1849AECD44F2D5CC"
+			tasks: [{
+				id: "33A1FB4B975B9C32"
+				type: "item"
+				item: "thermal:machine_bottler"
+			}]
+		}
+		{
+			x: 42.5d
+			y: 2.0d
+			dependencies: [
+				"4325AC3657F0660F"
+				"7FC1A728290F146E"
+			]
+			id: "72ADF9C6C577AC3F"
+			tasks: [{
+				id: "6830E0C5CBFE06FE"
+				type: "item"
+				item: "kubejs:dehydrated_biomass"
+			}]
+		}
+		{
+			x: 41.0d
+			y: 1.0d
+			id: "4325AC3657F0660F"
+			tasks: [{
+				id: "4734BDD4D7CF10D2"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+		}
+		{
+			x: 42.5d
+			y: 4.0d
+			dependencies: [
+				"08A5F5072F419BF6"
+				"45641689561DC8DB"
+				"72ADF9C6C577AC3F"
+			]
+			id: "464E56197A0795CA"
+			tasks: [{
+				id: "2943071A202DE298"
+				type: "item"
+				item: "kubejs:desiccated_biomass"
+			}]
+		}
+		{
+			x: 41.0d
+			y: 3.0d
+			id: "08A5F5072F419BF6"
+			tasks: [{
+				id: "5107A14A4ECF2ED1"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: 46.0d
+			y: 3.0d
+			dependencies: ["55ACB3AC4DE1B61A"]
+			id: "45641689561DC8DB"
+			tasks: [{
+				id: "50A8D2275A67E862"
+				type: "item"
+				item: "kubejs:calcium_oxide"
+			}]
+		}
+		{
+			x: 46.0d
+			y: 1.0d
+			id: "55ACB3AC4DE1B61A"
+			tasks: [{
+				id: "004F135CFC3094DC"
+				type: "item"
+				item: "create:limestone"
+			}]
+		}
+		{
+			x: 42.5d
+			y: 6.0d
+			dependencies: [
+				"4AB8FCCFA43FEAC5"
+				"464E56197A0795CA"
+			]
+			id: "59022E493D803513"
+			tasks: [{
+				id: "3C485154D5E2835A"
+				type: "item"
+				item: "kubejs:vaporized_biomass"
+			}]
+		}
+		{
+			x: 41.0d
+			y: 5.0d
+			id: "4AB8FCCFA43FEAC5"
+			tasks: [{
+				id: "1E4A73654911E7E9"
+				type: "item"
+				item: "immersiveengineering:blast_furnace"
+			}]
+		}
+		{
+			x: 41.0d
+			y: 7.0d
+			id: "25BCEB27856409A2"
+			tasks: [{
+				id: "0AC47477EE08B15D"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+		}
+		{
+			x: 42.5d
+			y: 8.0d
+			dependencies: [
+				"25BCEB27856409A2"
+				"59022E493D803513"
+			]
+			id: "7C3190EBC4DA1F17"
+			tasks: [{
+				id: "2395E1ECFA186862"
+				type: "item"
+				item: "kubejs:raw_lead_mote"
 			}]
 		}
 	]

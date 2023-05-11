@@ -54,13 +54,13 @@ onEvent('recipes', event => {
 			"item": "pneumaticcraft:capacitor"
 		  },
 		  {
-			"item": "kubejs:resistor"
+			"item": "kubejs:diode"
 		  },
 		  {
-			"item": "kubejs:resistor"
+			"item": "kubejs:diode"
 		  },
 		  {
-			"item": "kubejs:resistor"
+			"item": "kubejs:diode"
 		  },
 		],
 		"inputFluid": "{Amount:90,FluidName:\"tconstruct:molten_tin\"}",

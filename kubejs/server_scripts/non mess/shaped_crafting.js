@@ -1830,4 +1830,40 @@ onEvent('recipes', event => {
     },
 
   )
+
+  event.shaped('mekanism:advanced_tier_installer',
+    ["ABA", "CDC", "ABA"],
+    {
+    "A": {
+        "item": "kubejs:composite_mechanical_component"
+    },
+    "B": {
+        "item": "mekanism:advanced_control_circuit"
+    },
+    "C": {
+        "item": "mekanism:alloy_infused"
+    },
+    "D": {
+        "item": "immersiveengineering:heavy_engineering"
+    }
+},
+)
+
+event.shaped('mekanism:elite_tier_installer',
+["ABA", "CDC", "ABA"],
+{
+"A": {
+    "item": "mekanism:hdpe_sheet"
+},
+"B": {
+    "item": "mekanism:elite_control_circuit"
+},
+"C": {
+    "item": "mekanism:ingot_osmium"
+},
+"D": {
+    "item": "mekanism:ingot_refined_glowstone"
+}
+},
+)
 })
