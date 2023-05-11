@@ -632,67 +632,13 @@ onEvent('recipes', event => {
 		"ingredient": {
 		  "item": "create:brass_casing"
 		},
-		"loops": 100,
+		"loops": 50,
 		"results": [
 		  {
 			"item": "kubejs:reinforced_casing"
 		  },
 		],
 		"sequence": [
-			{
-				"type": "create:filling",
-				"ingredients": [
-				  {
-					"item": "create:brass_casing"
-				  },
-				  {
-					"amount": 10,
-					"fluid": "tconstruct:molten_lead",
-					"nbt": {}
-				  }
-				],
-				"results": [
-				  {
-					"item": "create:brass_casing"
-				  }
-				]
-			},
-
-			{
-				"type": "create:filling",
-				"ingredients": [
-				  {
-					"item": "create:brass_casing"
-				  },
-				  {
-					"amount": 25,
-					"fluid": "thermal:resin",
-					"nbt": {}
-				  }
-				],
-				"results": [
-				  {
-					"item": "create:brass_casing"
-				  }
-				]
-			},
-
-			{
-				"type": "create:pressing",
-				"ingredients": [
-				  {
-					"item": "create:brass_casing"
-				  },
-				  {
-					"item": "create:brass_casing"
-				  }
-				],
-				"results": [
-				  {
-					"item": "create:brass_casing"
-				  }
-				]
-			  },	  
 
 			  {
 				"type": "create:filling",
@@ -701,7 +647,7 @@ onEvent('recipes', event => {
 					"item": "create:brass_casing"
 				  },
 				  {
-					"amount": 10,
+					"amount": 90,
 					"fluid": "tconstruct:molten_lead",
 					"nbt": {}
 				  }
@@ -720,173 +666,7 @@ onEvent('recipes', event => {
 					"item": "create:brass_casing"
 				  },
 				  {
-					"amount": 25,
-					"fluid": "thermal:resin",
-					"nbt": {}
-				  }
-				],
-				"results": [
-				  {
-					"item": "create:brass_casing"
-				  }
-				]
-			},
-
-			{
-				"type": "create:pressing",
-				"ingredients": [
-				  {
-					"item": "create:brass_casing"
-				  },
-				  {
-					"item": "create:brass_casing"
-				  }
-				],
-				"results": [
-				  {
-					"item": "create:brass_casing"
-				  }
-				]
-			  },	
-
-			
-			  {
-				"type": "create:filling",
-				"ingredients": [
-				  {
-					"item": "create:brass_casing"
-				  },
-				  {
-					"amount": 10,
-					"fluid": "tconstruct:molten_lead",
-					"nbt": {}
-				  }
-				],
-				"results": [
-				  {
-					"item": "create:brass_casing"
-				  }
-				]
-			},
-
-			{
-				"type": "create:filling",
-				"ingredients": [
-				  {
-					"item": "create:brass_casing"
-				  },
-				  {
-					"amount": 25,
-					"fluid": "thermal:resin",
-					"nbt": {}
-				  }
-				],
-				"results": [
-				  {
-					"item": "create:brass_casing"
-				  }
-				]
-			},
-
-			{
-				"type": "create:pressing",
-				"ingredients": [
-				  {
-					"item": "create:brass_casing"
-				  },
-				  {
-					"item": "create:brass_casing"
-				  }
-				],
-				"results": [
-				  {
-					"item": "create:brass_casing"
-				  }
-				]
-			  },	
-
-			  {
-				"type": "create:filling",
-				"ingredients": [
-				  {
-					"item": "create:brass_casing"
-				  },
-				  {
-					"amount": 10,
-					"fluid": "tconstruct:molten_lead",
-					"nbt": {}
-				  }
-				],
-				"results": [
-				  {
-					"item": "create:brass_casing"
-				  }
-				]
-			},
-
-			{
-				"type": "create:filling",
-				"ingredients": [
-				  {
-					"item": "create:brass_casing"
-				  },
-				  {
-					"amount": 25,
-					"fluid": "thermal:resin",
-					"nbt": {}
-				  }
-				],
-				"results": [
-				  {
-					"item": "create:brass_casing"
-				  }
-				]
-			},
-
-			{
-				"type": "create:pressing",
-				"ingredients": [
-				  {
-					"item": "create:brass_casing"
-				  },
-				  {
-					"item": "create:brass_casing"
-				  }
-				],
-				"results": [
-				  {
-					"item": "create:brass_casing"
-				  }
-				]
-			  },	
-			
-			  {
-				"type": "create:filling",
-				"ingredients": [
-				  {
-					"item": "create:brass_casing"
-				  },
-				  {
-					"amount": 10,
-					"fluid": "tconstruct:molten_lead",
-					"nbt": {}
-				  }
-				],
-				"results": [
-				  {
-					"item": "create:brass_casing"
-				  }
-				]
-			},
-
-			{
-				"type": "create:filling",
-				"ingredients": [
-				  {
-					"item": "create:brass_casing"
-				  },
-				  {
-					"amount": 25,
+					"amount": 100,
 					"fluid": "thermal:resin",
 					"nbt": {}
 				  }

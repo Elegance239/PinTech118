@@ -8,7 +8,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -20.0d
+			x: -12.0d
 			y: 4.0d
 			subtitle: "Tired of Mining? The title of this game is \"Minecraft\"."
 			description: [
@@ -24,7 +24,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -4.0d
 			y: -6.0d
 			subtitle: "Infinite Iron!!!!!!11111111111!!"
 			description: ["Simple, everyone starts somewhere."]
@@ -308,7 +308,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -4.0d
 			y: -2.0d
 			dependencies: [
 				"473037DCB7AE29DF"
@@ -322,7 +322,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -4.0d
 			y: 0.0d
 			dependencies: [
 				"678B8E53EDFD23C1"
@@ -336,7 +336,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -4.0d
 			y: 5.0d
 			dependencies: [
 				"10DA394117A114AA"
@@ -351,7 +351,7 @@
 			}]
 		}
 		{
-			x: -8.5d
+			x: -5.5d
 			y: -3.0d
 			description: ["Do NOT use a traditional Cobble Generator. It will cause immense lag. An Igneous Extruder can produce cobblestone. Place lava and water next to it."]
 			id: "473037DCB7AE29DF"
@@ -362,7 +362,7 @@
 			}]
 		}
 		{
-			x: -8.5d
+			x: -5.5d
 			y: -1.0d
 			id: "678B8E53EDFD23C1"
 			tasks: [{
@@ -372,8 +372,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 3.0d
+			x: -5.5d
+			y: 3.5d
 			id: "10DA394117A114AA"
 			tasks: [{
 				id: "1AA28097808233E7"
@@ -382,113 +382,8 @@
 			}]
 		}
 		{
-			x: -12.0d
-			y: -10.5d
-			subtitle: "Fossil fuel renewable? Huh?"
-			description: ["Since when were fossil fuels renewable? If you want coal, a big thing is that you have to decide between two crucial options: 1. Mine it normally, which is annoying as you have to search for deposit after deposit of this nonsense, or, 2, using the superior method, using piss and poo to make it. It's your decision."]
-			id: "2369FAB46B43DB34"
-			tasks: [
-				{
-					id: "035C2CC59F592D06"
-					type: "checkmark"
-					title: "Coal"
-				}
-				{
-					id: "43B5FB371EC799D5"
-					type: "item"
-					item: "minecraft:coal"
-				}
-			]
-		}
-		{
-			x: -12.0d
-			y: -15.0d
-			dependencies: ["2369FAB46B43DB34"]
-			id: "0A146F5CA2DA638F"
-			tasks: [{
-				id: "7357BEDCB1873B7B"
-				type: "item"
-				title: "Any #forge:tools/pickaxes"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:tools/pickaxes"
-					}
-				}
-			}]
-		}
-		{
-			x: -6.75d
-			y: -10.5d
-			dependencies: ["2369FAB46B43DB34"]
-			id: "5799E88AAAA851FF"
-			tasks: [{
-				id: "63150FED81F8FC15"
-				type: "item"
-				item: "kubejs:plant_matter"
-			}]
-		}
-		{
-			x: -2.0d
-			y: -10.5d
-			dependencies: ["5799E88AAAA851FF"]
-			id: "513CF2EAA4869FA7"
-			tasks: [{
-				id: "432538687D642493"
-				type: "item"
-				item: "kubejs:peat"
-			}]
-		}
-		{
-			x: 2.5d
-			y: -10.5d
-			dependencies: ["513CF2EAA4869FA7"]
-			id: "2F9F2FD18C269237"
-			tasks: [{
-				id: "744F7056078D0B0C"
-				type: "item"
-				item: "kubejs:poo_infused_peat"
-			}]
-		}
-		{
-			x: 6.5d
-			y: -10.5d
-			dependencies: ["2F9F2FD18C269237"]
-			id: "422FB752141D2A0F"
-			tasks: [{
-				id: "3F607687F1AE2D2D"
-				type: "item"
-				item: "kubejs:drenched_peat"
-			}]
-		}
-		{
-			x: 11.0d
-			y: -10.5d
-			dependencies: ["422FB752141D2A0F"]
-			id: "34718A63FC77B1AA"
-			tasks: [{
-				id: "55F21B1C56299DF0"
-				type: "item"
-				item: "kubejs:stinky_coal"
-			}]
-		}
-		{
-			x: 15.5d
-			y: -10.5d
-			subtitle: "This is very clean. I promise."
-			dependencies: ["34718A63FC77B1AA"]
-			size: 2.5d
-			id: "4F483072216A1CBC"
-			tasks: [{
-				id: "7C5D5B73C002DABE"
-				type: "item"
-				item: "minecraft:coal"
-			}]
-		}
-		{
 			title: "Redstone"
-			x: 17.0d
+			x: 14.0d
 			y: -6.0d
 			description: ["Involves cyclical processing. Requires a source of nether quartz."]
 			id: "398A80F01C4FC7A8"
@@ -506,7 +401,7 @@
 			]
 		}
 		{
-			x: 17.0d
+			x: 14.0d
 			y: -3.0d
 			dependencies: [
 				"71688EC6827A784A"
@@ -520,7 +415,7 @@
 			}]
 		}
 		{
-			x: 18.5d
+			x: 15.5d
 			y: -4.5d
 			dependencies: ["398A80F01C4FC7A8"]
 			id: "46BD5F122AB1D35F"
@@ -538,7 +433,7 @@
 			}]
 		}
 		{
-			x: 15.5d
+			x: 12.5d
 			y: -4.5d
 			dependencies: ["398A80F01C4FC7A8"]
 			id: "71688EC6827A784A"
@@ -549,7 +444,7 @@
 			}]
 		}
 		{
-			x: 17.0d
+			x: 14.0d
 			y: 0.0d
 			dependencies: [
 				"65082F4DBEF8C540"
@@ -563,7 +458,7 @@
 			}]
 		}
 		{
-			x: 17.0d
+			x: 14.0d
 			y: 2.0d
 			dependencies: [
 				"54B2CC653E513216"
@@ -577,7 +472,7 @@
 			}]
 		}
 		{
-			x: 15.5d
+			x: 12.5d
 			y: 0.5d
 			id: "54B2CC653E513216"
 			tasks: [{
@@ -587,7 +482,7 @@
 			}]
 		}
 		{
-			x: 15.5d
+			x: 12.5d
 			y: -1.5d
 			id: "260B4010929521CA"
 			tasks: [{
@@ -597,7 +492,7 @@
 			}]
 		}
 		{
-			x: 15.5d
+			x: 12.5d
 			y: -3.5d
 			dependencies: ["260B4010929521CA"]
 			id: "0FF9041C7094802B"
@@ -608,7 +503,7 @@
 			}]
 		}
 		{
-			x: 25.0d
+			x: 21.5d
 			y: -6.0d
 			description: ["Time-intensive and low-yield."]
 			id: "5D019AA3828DA11E"
@@ -619,7 +514,7 @@
 			}]
 		}
 		{
-			x: 25.0d
+			x: 21.5d
 			y: -3.0d
 			dependencies: [
 				"75F8AB61BE33686A"
@@ -634,7 +529,7 @@
 			}]
 		}
 		{
-			x: 23.5d
+			x: 20.0d
 			y: -4.5d
 			id: "75F8AB61BE33686A"
 			tasks: [{
@@ -644,7 +539,7 @@
 			}]
 		}
 		{
-			x: 26.5d
+			x: 23.0d
 			y: -4.5d
 			id: "40EEFB0DD1F895F4"
 			tasks: [{
@@ -654,7 +549,7 @@
 			}]
 		}
 		{
-			x: 25.0d
+			x: 21.5d
 			y: 0.0d
 			dependencies: [
 				"60C0C6D77493D302"
@@ -668,7 +563,7 @@
 			}]
 		}
 		{
-			x: 26.5d
+			x: 23.0d
 			y: -1.0d
 			id: "60C0C6D77493D302"
 			tasks: [{
@@ -678,7 +573,7 @@
 			}]
 		}
 		{
-			x: 25.0d
+			x: 21.5d
 			y: 2.0d
 			dependencies: [
 				"7ACDEAFB1841AD80"
@@ -693,7 +588,7 @@
 			}]
 		}
 		{
-			x: 23.5d
+			x: 20.0d
 			y: 1.0d
 			id: "7ACDEAFB1841AD80"
 			tasks: [{
@@ -703,7 +598,7 @@
 			}]
 		}
 		{
-			x: 26.5d
+			x: 23.0d
 			y: 3.0d
 			id: "0BED2FE9C6E10906"
 			tasks: [{
@@ -713,7 +608,7 @@
 			}]
 		}
 		{
-			x: 25.0d
+			x: 21.5d
 			y: 4.0d
 			dependencies: [
 				"71028907A30454BD"
@@ -727,7 +622,7 @@
 			}]
 		}
 		{
-			x: 31.5d
+			x: 28.5d
 			y: -6.0d
 			description: ["Slightly power-intensive, and very, very hungry for dripstone. Consider a vanilla dripstone farm."]
 			id: "4F62C49A87278D65"
@@ -738,7 +633,7 @@
 			}]
 		}
 		{
-			x: 33.0d
+			x: 30.0d
 			y: -4.5d
 			id: "07E44D9EFCAF939B"
 			tasks: [{
@@ -748,7 +643,7 @@
 			}]
 		}
 		{
-			x: 30.0d
+			x: 27.0d
 			y: -4.5d
 			id: "34FC4D98CFA9F63A"
 			tasks: [{
@@ -758,7 +653,7 @@
 			}]
 		}
 		{
-			x: 31.5d
+			x: 28.5d
 			y: -3.0d
 			dependencies: [
 				"34FC4D98CFA9F63A"
@@ -773,7 +668,7 @@
 			}]
 		}
 		{
-			x: 31.5d
+			x: 28.5d
 			y: 0.0d
 			dependencies: [
 				"0E43B30B6DD1C37C"
@@ -788,7 +683,7 @@
 			}]
 		}
 		{
-			x: 26.5d
+			x: 23.0d
 			y: 1.0d
 			id: "33FCAC4727A036B4"
 			tasks: [{
@@ -798,7 +693,7 @@
 			}]
 		}
 		{
-			x: 33.0d
+			x: 30.0d
 			y: -1.0d
 			id: "30C16B67D35DD1F2"
 			tasks: [{
@@ -808,7 +703,7 @@
 			}]
 		}
 		{
-			x: 30.0d
+			x: 27.0d
 			y: -1.0d
 			id: "0E43B30B6DD1C37C"
 			tasks: [{
@@ -818,7 +713,7 @@
 			}]
 		}
 		{
-			x: 31.5d
+			x: 28.5d
 			y: 2.0d
 			dependencies: ["2B567AEAF2729F99"]
 			id: "2E6D5E514FE658F9"
@@ -829,7 +724,7 @@
 			}]
 		}
 		{
-			x: 36.5d
+			x: 33.5d
 			y: 2.0d
 			description: ["By using a pulverizer sacrificing a significant portion of the yield, you can also obtain tin as a side product."]
 			dependencies: ["2B567AEAF2729F99"]
@@ -841,7 +736,7 @@
 			}]
 		}
 		{
-			x: 36.5d
+			x: 33.5d
 			y: 4.0d
 			dependencies: ["179EA2C7792E445D"]
 			id: "2806359433AE84A5"
@@ -852,7 +747,7 @@
 			}]
 		}
 		{
-			x: 31.5d
+			x: 28.5d
 			y: 4.0d
 			dependencies: ["2E6D5E514FE658F9"]
 			id: "1F3387C12D607053"
@@ -863,7 +758,7 @@
 			}]
 		}
 		{
-			x: 42.5d
+			x: 39.5d
 			y: -6.0d
 			subtitle: "Use lead contamination to your advantage"
 			description: ["Moderately complex. Relies on a steady source of biomass."]
@@ -875,7 +770,7 @@
 			}]
 		}
 		{
-			x: 42.5d
+			x: 39.5d
 			y: 0.0d
 			dependencies: [
 				"423AC3B473819DFA"
@@ -890,7 +785,7 @@
 			}]
 		}
 		{
-			x: 42.5d
+			x: 39.5d
 			y: -3.0d
 			dependencies: [
 				"5CADCE1D8362EA36"
@@ -904,7 +799,7 @@
 			}]
 		}
 		{
-			x: 44.5d
+			x: 41.5d
 			y: -4.5d
 			id: "5F251D6642C28C76"
 			tasks: [{
@@ -914,7 +809,7 @@
 			}]
 		}
 		{
-			x: 40.0d
+			x: 37.0d
 			y: -2.0d
 			id: "423AC3B473819DFA"
 			tasks: [{
@@ -924,7 +819,7 @@
 			}]
 		}
 		{
-			x: 41.0d
+			x: 38.0d
 			y: -2.0d
 			id: "1849AECD44F2D5CC"
 			tasks: [{
@@ -934,7 +829,7 @@
 			}]
 		}
 		{
-			x: 42.5d
+			x: 39.5d
 			y: 2.0d
 			dependencies: [
 				"4325AC3657F0660F"
@@ -948,7 +843,7 @@
 			}]
 		}
 		{
-			x: 41.0d
+			x: 38.0d
 			y: 1.0d
 			id: "4325AC3657F0660F"
 			tasks: [{
@@ -958,7 +853,7 @@
 			}]
 		}
 		{
-			x: 42.5d
+			x: 39.5d
 			y: 4.0d
 			dependencies: [
 				"08A5F5072F419BF6"
@@ -973,7 +868,7 @@
 			}]
 		}
 		{
-			x: 41.0d
+			x: 38.0d
 			y: 3.0d
 			id: "08A5F5072F419BF6"
 			tasks: [{
@@ -983,7 +878,7 @@
 			}]
 		}
 		{
-			x: 46.0d
+			x: 43.0d
 			y: 3.0d
 			dependencies: ["55ACB3AC4DE1B61A"]
 			id: "45641689561DC8DB"
@@ -994,7 +889,7 @@
 			}]
 		}
 		{
-			x: 46.0d
+			x: 43.0d
 			y: 1.0d
 			id: "55ACB3AC4DE1B61A"
 			tasks: [{
@@ -1004,7 +899,7 @@
 			}]
 		}
 		{
-			x: 42.5d
+			x: 39.5d
 			y: 6.0d
 			dependencies: [
 				"4AB8FCCFA43FEAC5"
@@ -1018,7 +913,7 @@
 			}]
 		}
 		{
-			x: 41.0d
+			x: 38.0d
 			y: 5.0d
 			id: "4AB8FCCFA43FEAC5"
 			tasks: [{
@@ -1028,7 +923,7 @@
 			}]
 		}
 		{
-			x: 41.0d
+			x: 38.0d
 			y: 7.0d
 			id: "25BCEB27856409A2"
 			tasks: [{
@@ -1038,7 +933,7 @@
 			}]
 		}
 		{
-			x: 42.5d
+			x: 39.5d
 			y: 8.0d
 			dependencies: [
 				"25BCEB27856409A2"
@@ -1049,6 +944,173 @@
 				id: "2395E1ECFA186862"
 				type: "item"
 				item: "kubejs:raw_lead_mote"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 18.0d
+			description: ["A rather complex chain which involves quite a number of problems to solve. Relies on probability for yield."]
+			id: "70859AA4982953C9"
+			tasks: [
+				{
+					id: "46712F66CD64EA82"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "4234D3200DDD4AC2"
+					type: "checkmark"
+					title: "Gold"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 20.5d
+			dependencies: ["70859AA4982953C9"]
+			id: "2924A69BDB8BFB98"
+			tasks: [{
+				id: "31E9BEA4D4621248"
+				type: "item"
+				title: "Any #forge:ores/gold"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ores/gold"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 23.0d
+			dependencies: [
+				"21995DB220A4802C"
+				"2924A69BDB8BFB98"
+			]
+			id: "71375329E6C4BAAD"
+			tasks: [{
+				id: "5649906BA1FD3300"
+				type: "item"
+				item: "create:crushed_gold_ore"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 23.0d
+			id: "21995DB220A4802C"
+			tasks: [{
+				id: "1C4869A98BBAA57D"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 25.5d
+			dependencies: [
+				"491664945CA2C98E"
+				"71375329E6C4BAAD"
+			]
+			id: "46060C96ACE55A7C"
+			tasks: [{
+				id: "6595DD709B8E5528"
+				type: "item"
+				item: "kubejs:sieve_with_gold"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 25.5d
+			id: "491664945CA2C98E"
+			tasks: [{
+				id: "3813B34401C24C97"
+				type: "item"
+				item: "kubejs:sieve"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 28.5d
+			dependencies: [
+				"46060C96ACE55A7C"
+				"2B471E0A1200CE4C"
+			]
+			id: "2A65647FE07E1539"
+			tasks: [{
+				id: "21034098F9A2CEF0"
+				type: "item"
+				item: "kubejs:impure_gold"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 31.0d
+			id: "2B471E0A1200CE4C"
+			tasks: [{
+				id: "3C90958DC965A853"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 28.5d
+			dependencies: [
+				"2A65647FE07E1539"
+				"348340BDC734DE2E"
+			]
+			id: "468D785F287BF437"
+			tasks: [{
+				id: "0CF75E6AD90D5281"
+				type: "item"
+				item: "kubejs:gold_drop"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 28.5d
+			id: "348340BDC734DE2E"
+			tasks: [{
+				id: "2251D1882BFC37C5"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 25.5d
+			dependencies: [
+				"468D785F287BF437"
+				"2D7B2BB5DA28652B"
+			]
+			id: "69B238AA86226BB3"
+			tasks: [{
+				id: "646930D2A2A7D5A1"
+				type: "item"
+				item: "kubejs:gold_combine"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 23.0d
+			dependencies: ["69B238AA86226BB3"]
+			id: "46482BC9D062F4E4"
+			tasks: [{
+				id: "53D915CB9DF595B0"
+				type: "item"
+				item: "create:crushed_gold_ore"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 25.5d
+			id: "2D7B2BB5DA28652B"
+			tasks: [{
+				id: "7771291406A64B8B"
+				type: "item"
+				item: "mekanism:combiner"
 			}]
 		}
 	]

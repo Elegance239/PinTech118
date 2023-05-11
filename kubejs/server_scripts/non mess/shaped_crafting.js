@@ -1834,36 +1834,52 @@ onEvent('recipes', event => {
   event.shaped('mekanism:advanced_tier_installer',
     ["ABA", "CDC", "ABA"],
     {
-    "A": {
+      "A": {
         "item": "kubejs:composite_mechanical_component"
-    },
-    "B": {
+      },
+      "B": {
         "item": "mekanism:advanced_control_circuit"
-    },
-    "C": {
+      },
+      "C": {
         "item": "mekanism:alloy_infused"
-    },
-    "D": {
+      },
+      "D": {
         "item": "immersiveengineering:heavy_engineering"
-    }
-},
-)
+      }
+    },
+  )
 
-event.shaped('mekanism:elite_tier_installer',
-["ABA", "CDC", "ABA"],
-{
-"A": {
-    "item": "mekanism:hdpe_sheet"
-},
-"B": {
-    "item": "mekanism:elite_control_circuit"
-},
-"C": {
-    "item": "mekanism:ingot_osmium"
-},
-"D": {
-    "item": "mekanism:ingot_refined_glowstone"
-}
-},
-)
+  event.shaped('mekanism:elite_tier_installer',
+    ["ABA", "CDC", "ABA"],
+    {
+      "A": {
+        "item": "mekanism:hdpe_sheet"
+      },
+      "B": {
+        "item": "mekanism:elite_control_circuit"
+      },
+      "C": {
+        "item": "mekanism:ingot_osmium"
+      },
+      "D": {
+        "item": "mekanism:ingot_refined_glowstone"
+      }
+    },
+  )
+
+  event.shaped('kubejs:sieve', 
+  [
+      "AAA",
+      "ABA",
+      "AAA"
+  ],
+   {
+      "A": {
+        "item": "minecraft:oak_planks"
+      },
+      "B": {
+        "item": "kubejs:mesh"
+      }
+    },
+  )
 })

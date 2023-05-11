@@ -19,6 +19,7 @@
 				id: "3BCB93A1E9904FBB"
 				type: "item"
 				item: "kubejs:reinforced_casing"
+				count: 2L
 			}
 			{
 				id: "1877C4E28708DFAD"

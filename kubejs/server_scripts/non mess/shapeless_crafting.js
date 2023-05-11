@@ -22,4 +22,5 @@ onEvent('recipes', event => {
     event.shapeless('mm:item_input_port', 'mm:item_output_port')
     event.shapeless('mm:fluid_output_port', 'mm:fluid_input_port')
     event.shapeless('mm:fluid_input_port', 'mm:fluid_output_port')
+    event.shapeless('kubejs:mesh', '9x minecraft:string')
 })
