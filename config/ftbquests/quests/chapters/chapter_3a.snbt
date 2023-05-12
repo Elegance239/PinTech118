@@ -36,7 +36,7 @@
 			title: "Fissile Fuel"
 			x: -9.0d
 			y: 0.0d
-			description: ["Prove your completion of generation of fissile fuel by filling an entire basic chemical tank with fissile fuel. "]
+			description: ["Prove your completion of generation of fissile fuel by filling an entire basic chemical tank with fissile fuel. Well, only click the checkmark when you've done it."]
 			dependencies: [
 				"398BAACC3765C32E"
 				"1B8F0B5094865117"
@@ -51,24 +51,9 @@
 			size: 1.5d
 			id: "30314CF2B247CED2"
 			tasks: [{
-				id: "2EA887C3C68480EA"
-				type: "item"
-				item: {
-					id: "mekanism:basic_chemical_tank"
-					Count: 1b
-					tag: {
-						mekData: {
-							GasTanks: [{
-								Tank: 0b
-								stored: {
-									gasName: "mekanism:fissile_fuel"
-									amount: 64000L
-								}
-							}]
-						}
-					}
-				}
-				match_nbt: true
+				id: "58CD0A001CB5EF81"
+				type: "checkmark"
+				title: "Fissile Fuel"
 			}]
 			rewards: [{
 				id: "7979B97148F6CCC1"
@@ -781,6 +766,12 @@
 				id: "3501DAEFF55D30EF"
 				type: "item"
 				item: "mekanism:antiprotonic_nucleosynthesizer"
+			}]
+			rewards: [{
+				id: "753E5031A4290C49"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2185577192427929305L
 			}]
 		}
 		{

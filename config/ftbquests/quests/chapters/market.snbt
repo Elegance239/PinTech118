@@ -168,13 +168,14 @@
 			}]
 		}
 		{
+			icon: "minecraft:oak_planks"
 			x: -3.0d
 			y: -7.5d
 			id: "60A1BEA25C9B1A56"
 			tasks: [{
-				id: "0A63DCA625483518"
+				id: "5E172741D5BA2628"
 				type: "item"
-				item: "minecraft:oak_planks"
+				item: "kubejs:chin_new"
 			}]
 			rewards: [
 				{

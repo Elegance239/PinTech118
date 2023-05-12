@@ -214,21 +214,10 @@
 				type: "checkmark"
 				title: "Chapter 1"
 			}]
-		}
-		{
-			x: -0.5d
-			y: 4.5d
-			can_repeat: true
-			id: "5B177B54CE7BF0FA"
-			tasks: [{
-				id: "6F18577E85F306C5"
-				type: "checkmark"
-			}]
 			rewards: [{
-				id: "187F752B3C8FC818"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 5032101358385251555L
+				id: "0DBA781E428890A4"
+				type: "item"
+				item: "kubejs:chin_new"
 			}]
 		}
 	]
