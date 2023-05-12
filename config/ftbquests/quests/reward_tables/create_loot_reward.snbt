@@ -2,7 +2,10 @@
 	id: "0352776A2D4E010B"
 	order_index: 1
 	title: "Create Loot Reward"
+	icon: "minecraft:chest"
 	loot_size: 1
+	hide_tooltip: true
+	use_title: true
 	rewards: [
 		{ item: "create:andesite_alloy", count: 5 }
 		{ item: "create:gearbox", count: 2 }
@@ -11,5 +14,16 @@
 		{ item: "create:pulse_repeater" }
 		{ item: "create:adjustable_chain_gearshift" }
 		{ item: "create:shaft", count: 16 }
+		{ item: "create:precision_mechanism" }
 	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		item_name: "Crate"
+		string_id: "create_loot_reward"
+	}
 }

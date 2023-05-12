@@ -1,0 +1,131 @@
+{
+	id: "45D59D86345044E3"
+	order_index: 6
+	title: "Generic Loot"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "farmersdelight:pasta_with_meatballs", count: 4, weight: 10 }
+		{ item: "farmersdelight:kelp_roll_slice", count: 8, weight: 10 }
+		{ item: "minecraft:ender_pearl", count: 4, weight: 5 }
+		{ item: "minecraft:quartz", count: 20, weight: 10 }
+		{
+			item: {
+				id: "thermal:flux_drill"
+				Count: 1b
+				tag: { }
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "thermal:flux_saw"
+				Count: 1b
+				tag: { }
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "minecraft:diamond_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3
+		}
+		{ item: "minecraft:cooked_beef", count: 10, weight: 10 }
+		{ item: "pipez:universal_pipe", count: 20, weight: 5 }
+		{ item: "create:experience_nugget", count: 50, weight: 5 }
+		{ item: "waystones:waystone", weight: 3 }
+		{
+			item: {
+				id: "grapplemod:longfallboots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3
+		}
+		{ item: "create:redstone_link", count: 4, weight: 3 }
+		{ item: "thermal:machine_speed_augment", count: 2, weight: 5 }
+		{ item: "farmersdelight:cake_slice", count: 10, weight: 10 }
+		{
+			item: {
+				id: "tconstruct:earth_slime_sling"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+		{ item: "tconstruct:queens_slime_ingot", count: 4 }
+		{ item: "tconstruct:manyullyn_ingot", count: 4 }
+		{ item: "thermal:machine_efficiency_augment", count: 2, weight: 5 }
+		{
+			item: {
+				id: "buildinggadgets:gadget_building"
+				Count: 1b
+				tag: {
+					state: {
+						serializer: "buildinggadgets:dummy_serializer"
+						state: {
+							Name: "minecraft:air"
+						}
+						data: { }
+					}
+				}
+			}
+			weight: 3
+		}
+		{ item: "minecraft:emerald", count: 4, weight: 5 }
+		{ item: "pipez:advanced_upgrade", count: 3, weight: 3 }
+		{ item: "waystones:warp_scroll", count: 8, weight: 5 }
+		{ item: "minecraft:totem_of_undying" }
+		{ item: "minecraft:bone_block", count: 5, weight: 10 }
+		{
+			item: {
+				id: "mekanism:electric_bow"
+				Count: 1b
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "120000"
+						}]
+					}
+				}
+			}
+			weight: 3
+		}
+		{ item: "immersiveengineering:hemp_fiber", count: 16, weight: 10 }
+		{ item: "minecraft:diamond", count: 4, weight: 3 }
+		{
+			item: {
+				id: "shrink:shrinking_device"
+				Count: 1b
+				tag: { }
+			}
+			weight: 3
+		}
+		{ item: "storagedrawers:iron_storage_upgrade", count: 2, weight: 5 }
+		{ item: "create:schematicannon", weight: 3 }
+		{ item: "tconstruct:blood_slime_ball", count: 10, weight: 10 }
+		{ item: "tconstruct:quartz_shuriken", count: 64, weight: 5 }
+		{
+			item: {
+				id: "create:extendo_grip"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3
+		}
+		{ item: "mekanism:upgrade_energy", weight: 5 }
+	]
+}

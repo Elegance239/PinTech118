@@ -109,20 +109,12 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 1.0d
-			dependencies: ["1775BD1F4538CB0A"]
-			id: "37BA697696B7BB03"
-			tasks: [{
-				id: "2BC8C567AD8160F6"
-				type: "item"
-				item: "create:millstone"
-			}]
-		}
-		{
 			x: 3.0d
 			y: 2.0d
-			dependencies: ["37BA697696B7BB03"]
+			dependencies: [
+				"36203F2AEB4FFD1D"
+				"1775BD1F4538CB0A"
+			]
 			id: "193704A322237594"
 			tasks: [{
 				id: "4D8D23376580CDCB"
@@ -147,6 +139,7 @@
 			dependencies: [
 				"3FE7A119D140151D"
 				"78A8B0E4BC94AEC7"
+				"74BF84D2B46B3188"
 			]
 			id: "4B5C268D3B135ACF"
 			tasks: [{
@@ -156,8 +149,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 5.0d
+			x: 4.5d
+			y: 4.0d
 			id: "78A8B0E4BC94AEC7"
 			tasks: [{
 				id: "1F0E489534BDC8D4"
@@ -385,7 +378,10 @@
 			title: "Redstone"
 			x: 14.0d
 			y: -6.0d
-			description: ["Involves cyclical processing. Requires a source of nether quartz."]
+			description: [
+				"Redstone in a liquid suspension has the strange property of sticking onto the surface of other granular materials, effectively giving other mundane materials its elctrical properties."
+				"Involves cyclical processing. Requires a source of nether quartz."
+			]
 			id: "398A80F01C4FC7A8"
 			tasks: [
 				{
@@ -505,7 +501,10 @@
 		{
 			x: 21.5d
 			y: -6.0d
-			description: ["Time-intensive and low-yield."]
+			description: [
+				"As a crystalline mineral, quartz can be grown artificially using a hydrothermal process from other substances containing silicon dioxide."
+				"Time-intensive and low yield."
+			]
 			id: "5D019AA3828DA11E"
 			tasks: [{
 				id: "1D09D0F181626E09"
@@ -563,8 +562,8 @@
 			}]
 		}
 		{
-			x: 23.0d
-			y: -1.0d
+			x: 20.0d
+			y: -1.5d
 			id: "60C0C6D77493D302"
 			tasks: [{
 				id: "3898633C80B1AF1D"
@@ -588,8 +587,8 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 1.0d
+			x: 23.0d
+			y: 0.5d
 			id: "7ACDEAFB1841AD80"
 			tasks: [{
 				id: "4F42602E5B7EA665"
@@ -598,8 +597,8 @@
 			}]
 		}
 		{
-			x: 23.0d
-			y: 3.0d
+			x: 20.0d
+			y: 2.5d
 			id: "0BED2FE9C6E10906"
 			tasks: [{
 				id: "6BADA059214AE44F"
@@ -624,7 +623,10 @@
 		{
 			x: 28.5d
 			y: -6.0d
-			description: ["Slightly power-intensive, and very, very hungry for dripstone. Consider a vanilla dripstone farm."]
+			description: [
+				"Copper is present in particularly high concentration in dripstone caves, along with small amounts of tin."
+				"Slightly power-intensive, and very, very hungry for dripstone. Consider a vanilla dripstone farm."
+			]
 			id: "4F62C49A87278D65"
 			tasks: [{
 				id: "1D1D2CEE20627745"
@@ -683,8 +685,8 @@
 			}]
 		}
 		{
-			x: 23.0d
-			y: 1.0d
+			x: 20.0d
+			y: 0.5d
 			id: "33FCAC4727A036B4"
 			tasks: [{
 				id: "7706A52BADE77F5B"
@@ -693,8 +695,9 @@
 			}]
 		}
 		{
-			x: 30.0d
+			x: 33.5d
 			y: -1.0d
+			dependencies: ["70D5CB31CE2F20ED"]
 			id: "30C16B67D35DD1F2"
 			tasks: [{
 				id: "73DF4045461CBDF1"
@@ -760,8 +763,10 @@
 		{
 			x: 39.5d
 			y: -6.0d
-			subtitle: "Use lead contamination to your advantage"
-			description: ["Moderately complex. Relies on a steady source of biomass."]
+			description: [
+				"The previous inhabitants of this world has recklessly polluted the soil with heavy metals such as lead, something you can now use to your advantage."
+				"Moderately complex. Relies on a steady source of biomass."
+			]
 			id: "5CADCE1D8362EA36"
 			tasks: [{
 				id: "53A61B12FE062CDB"
@@ -891,6 +896,7 @@
 		{
 			x: 43.0d
 			y: 1.0d
+			dependencies: ["79AAA4773C72BF2D"]
 			id: "55ACB3AC4DE1B61A"
 			tasks: [{
 				id: "004F135CFC3094DC"
@@ -1111,6 +1117,1019 @@
 				id: "7771291406A64B8B"
 				type: "item"
 				item: "mekanism:combiner"
+			}]
+		}
+		{
+			x: 33.5d
+			y: -3.0d
+			id: "70D5CB31CE2F20ED"
+			tasks: [{
+				id: "585CF0439F11F14C"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 18.0d
+			description: [
+				"As one of the most common elements in the earth's crust, aluminum can be refined from various minerals and ceramics using an electrolytic process."
+				"Very energy-intensive."
+			]
+			id: "7C65880D3850BD32"
+			tasks: [{
+				id: "5BCA6F97D75EC20B"
+				type: "item"
+				item: "immersiveengineering:ingot_aluminum"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 18.0d
+			description: [
+				"Artificial diamonds can be grown from carbon, under extremely high pressure and temperature. An additional process known as chemical vapor deposition can be used to improve its clarity."
+				"Extremely slow generation."
+			]
+			id: "3DFE142576FBC5AF"
+			tasks: [{
+				id: "344E088D76A239FB"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: 17.0d
+			y: 18.0d
+			description: [
+				"This peculiar blend of materials exhibit phosphorescence, emitting light when struck with small amounts of radiation. Combining it with nether materials gives something not far off from glowstone."
+				"Requires a wide range of materials, but has a high yield."
+			]
+			id: "2C2C1CF9A8E398C1"
+			tasks: [{
+				id: "2F00C6817F38C246"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+			}]
+		}
+		{
+			x: 30.5d
+			y: 18.0d
+			description: [
+				"The ancient element used to make netherite has long since depleted, but a combination of nanomaterials and arduous heat-forging can create a decent substitute."
+				"Involves bonking to the absolute maximal magnitude."
+			]
+			id: "2F4037C3D6678A72"
+			tasks: [{
+				id: "5586312B877BDD29"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 23.0d
+			dependencies: [
+				"7C65880D3850BD32"
+				"279DD7551892C47A"
+				"1DF2F08A813671F5"
+			]
+			id: "41B1F11BAE604FFC"
+			tasks: [{
+				id: "4FE941B12D40E2E3"
+				type: "item"
+				item: "kubejs:crude_alumina"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 20.5d
+			id: "1DF2F08A813671F5"
+			tasks: [{
+				id: "2C0BC66FE55D1D31"
+				type: "item"
+				item: "minecraft:brick"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 19.5d
+			id: "279DD7551892C47A"
+			tasks: [{
+				id: "65244ABC8DA4FE62"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 19.5d
+			description: ["Corundum can be optionally farmed and added to the processing chain to improve yield dramatically."]
+			id: "2CD22E3818C635C4"
+			tasks: [{
+				id: "75F55265F3AECAA5"
+				type: "item"
+				title: "Any #quark:corundum"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "quark:corundum"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 25.5d
+			dependencies: [
+				"29A7AB9790281EB8"
+				"41B1F11BAE604FFC"
+				"72E8E38BBF5A0C52"
+				"499D8E51F5DC48F7"
+			]
+			id: "198199F9F36AEB96"
+			tasks: [{
+				id: "6FF1A61A975CBFF8"
+				type: "item"
+				item: "kubejs:impure_alumina_solution_bucket"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 23.5d
+			id: "499D8E51F5DC48F7"
+			tasks: [{
+				id: "512FFE41D12DDAB3"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 24.5d
+			id: "72E8E38BBF5A0C52"
+			tasks: [{
+				id: "1AA60AA517D5981A"
+				type: "item"
+				item: "mm:blender_controller"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 24.5d
+			dependencies: [
+				"432999D4EE805265"
+				"2B568AC73EC861FD"
+			]
+			id: "29A7AB9790281EB8"
+			tasks: [{
+				id: "36BA21D8C1B01F01"
+				type: "item"
+				item: "mekanism:hydrofluoric_acid_bucket"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 22.5d
+			dependencies: ["4204141FFF1DD7F0"]
+			id: "2B568AC73EC861FD"
+			tasks: [{
+				id: "5FD647C5FC52A381"
+				type: "item"
+				item: "mekanism:sulfuric_acid_bucket"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 23.5d
+			id: "432999D4EE805265"
+			tasks: [{
+				id: "01CE5E59253A4BD8"
+				type: "item"
+				item: "mekanism:fluorite_gem"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 21.5d
+			id: "4204141FFF1DD7F0"
+			tasks: [{
+				id: "14A3D9429771F96B"
+				type: "item"
+				item: "thermal:sulfur"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 28.5d
+			dependencies: [
+				"16E57A86C812498C"
+				"198199F9F36AEB96"
+			]
+			id: "531130D860D1BA10"
+			tasks: [{
+				id: "4395CD30A3A3CA0A"
+				type: "item"
+				item: "kubejs:alumina_solution_bucket"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 27.0d
+			id: "16E57A86C812498C"
+			tasks: [{
+				id: "2E3EDD60B63B643B"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+		}
+		{
+			title: "Gaseous Aluminum"
+			icon: {
+				id: "mekanism:creative_chemical_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								gasName: "kubejs:gaseous_aluminum"
+								amount: 9223372036854775807L
+							}
+						}]
+					}
+				}
+			}
+			x: 7.5d
+			y: 31.0d
+			dependencies: [
+				"620CDB895A02C7BE"
+				"531130D860D1BA10"
+			]
+			id: "259E149E465B7AE1"
+			tasks: [{
+				id: "598C4BF7F691AC13"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Gaseous Impure Alumina"
+			icon: {
+				id: "mekanism:creative_chemical_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								gasName: "kubejs:gaseous_impure_alumina"
+								amount: 9223372036854775807L
+							}
+						}]
+					}
+				}
+			}
+			x: 8.5d
+			y: 26.0d
+			dependencies: ["531130D860D1BA10"]
+			id: "2DEB8CF6A78D07DF"
+			tasks: [{
+				id: "7566D3E149A17F3E"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 29.5d
+			id: "620CDB895A02C7BE"
+			tasks: [{
+				id: "16EC247828A4A438"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 32.0d
+			id: "5C8411EAD27857F8"
+			tasks: [{
+				id: "1975720226274C74"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 66.0d
+			id: "0CF6B8BD3F632000"
+			tasks: [{
+				id: "59AC2FA9B8D3AC7E"
+				type: "item"
+				item: "tconstruct:molten_aluminum_bucket"
+			}]
+		}
+		{
+			x: 28.5d
+			y: 33.5d
+			dependencies: [
+				"79818F6E067D7F53"
+				"44533BE5D4E6E328"
+			]
+			id: "53251DA7AD07C568"
+			tasks: [{
+				id: "28EBF43C3B11F466"
+				type: "item"
+				item: "industrialforegoing:laser_drill"
+			}]
+		}
+		{
+			x: 28.5d
+			y: 35.0d
+			dependencies: [
+				"44533BE5D4E6E328"
+				"012997C7579C9658"
+			]
+			id: "5870F3F851175070"
+			tasks: [{
+				id: "213C395CF4F4C5F9"
+				type: "item"
+				item: "industrialforegoing:ore_laser_base"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 33.5d
+			dependencies: [
+				"259E149E465B7AE1"
+				"5C8411EAD27857F8"
+			]
+			id: "669A6F3CCB0488ED"
+			tasks: [{
+				id: "228344E44AF238E8"
+				type: "item"
+				item: "tconstruct:molten_aluminum_bucket"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			id: "36203F2AEB4FFD1D"
+			tasks: [{
+				id: "397C38BCAF0971F9"
+				type: "item"
+				item: "create:millstone"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			id: "74BF84D2B46B3188"
+			tasks: [{
+				id: "370C3495429272B6"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 23.0d
+			dependencies: [
+				"6A1EB25BE2059CD1"
+				"1C6F3893606F1D45"
+				"2CF98D97375413C4"
+				"2D52ABF46AFCE355"
+			]
+			id: "1370410A6A80623F"
+			tasks: [{
+				id: "46F2F5B49A6DE51C"
+				type: "item"
+				item: "kubejs:diamond_seed"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 21.0d
+			dependencies: ["3DFE142576FBC5AF"]
+			id: "6A1EB25BE2059CD1"
+			tasks: [{
+				id: "0E74421C1193D112"
+				type: "item"
+				item: "kubejs:enriched_diamond_nugget"
+			}]
+		}
+		{
+			x: 26.5d
+			y: 22.0d
+			dependencies: ["5E3786F33135B130"]
+			id: "2CF98D97375413C4"
+			tasks: [{
+				id: "168BD4E70D1DE3D3"
+				type: "item"
+				item: "immersiveengineering:dust_hop_graphite"
+			}]
+		}
+		{
+			x: 25.0d
+			y: 21.5d
+			id: "1C6F3893606F1D45"
+			tasks: [{
+				id: "2C097BFDC4A18B6F"
+				type: "item"
+				item: "jaopca:dusts.cobalt"
+			}]
+		}
+		{
+			x: 26.5d
+			y: 20.0d
+			id: "5E3786F33135B130"
+			tasks: [{
+				id: "02A93A423381E285"
+				type: "item"
+				item: "minecraft:coal"
+			}]
+		}
+		{
+			x: 22.0d
+			y: 24.0d
+			id: "11DE4AB998B9D85B"
+			tasks: [{
+				id: "3F8252154B8837D8"
+				type: "item"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 25.5d
+			dependencies: [
+				"11DE4AB998B9D85B"
+				"1370410A6A80623F"
+			]
+			id: "26C2225B3BC575EA"
+			tasks: [{
+				id: "048F32184CC92B9B"
+				type: "item"
+				item: "kubejs:impure_diamond"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 28.5d
+			dependencies: [
+				"6DD95BB58E032FB8"
+				"26C2225B3BC575EA"
+				"5132C0907A8D87AF"
+				"6BD5CAFF7C840CB8"
+			]
+			id: "6CE9FC63263462A0"
+			tasks: [{
+				id: "402419210FBBFC6C"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: 22.0d
+			y: 27.0d
+			id: "6DD95BB58E032FB8"
+			tasks: [{
+				id: "4DB0F226E4D037AB"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+		}
+		{
+			x: 25.0d
+			y: 27.0d
+			dependencies: ["553D4A7F97EA2408"]
+			id: "5132C0907A8D87AF"
+			tasks: [{
+				id: "059AD9D77E1BBB34"
+				type: "item"
+				item: "mekanism:ethene_bucket"
+			}]
+		}
+		{
+			x: 26.5d
+			y: 27.0d
+			id: "6BD5CAFF7C840CB8"
+			tasks: [{
+				id: "1D4A2AB89DD10EFD"
+				type: "item"
+				item: "mekanism:hydrogen_bucket"
+			}]
+		}
+		{
+			x: 25.0d
+			y: 25.5d
+			id: "553D4A7F97EA2408"
+			tasks: [{
+				id: "6A323850F35BF763"
+				type: "item"
+				item: "pneumaticcraft:plastic"
+			}]
+		}
+		{
+			x: 17.0d
+			y: 23.0d
+			dependencies: [
+				"2C2C1CF9A8E398C1"
+				"1062D92FC3172181"
+				"4D8EA82CFD218535"
+				"03E931FF398BB000"
+				"4E42CD2E0A1761F4"
+			]
+			id: "1AC150888DB5A659"
+			tasks: [{
+				id: "120571D66FF9E21E"
+				type: "item"
+				item: "kubejs:phosphor_blend"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 21.0d
+			id: "1062D92FC3172181"
+			tasks: [{
+				id: "33A9EEE61721780F"
+				type: "item"
+				item: "immersiveengineering:dust_uranium"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 21.0d
+			id: "4E42CD2E0A1761F4"
+			tasks: [{
+				id: "38CAA929A88EA88A"
+				type: "item"
+				item: "kubejs:silica_dust"
+			}]
+		}
+		{
+			x: 19.0d
+			y: 22.0d
+			id: "03E931FF398BB000"
+			tasks: [{
+				id: "275F1C6C1DCEB8A3"
+				type: "item"
+				item: "jaopca:dusts.zinc"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 22.0d
+			id: "4D8EA82CFD218535"
+			tasks: [{
+				id: "2DFE557911A85006"
+				type: "item"
+				item: "thermal:sulfur_dust"
+			}]
+		}
+		{
+			x: 17.0d
+			y: 28.5d
+			dependencies: [
+				"1AC150888DB5A659"
+				"73E16702EFC8AA48"
+				"2EA22993DDFB7D0F"
+			]
+			id: "6B15010ADFE2638C"
+			tasks: [{
+				id: "0FABAEE5254710A7"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 27.0d
+			dependencies: ["2FA64130E590DB6B"]
+			id: "2EA22993DDFB7D0F"
+			tasks: [{
+				id: "272AB471CB2E6990"
+				type: "item"
+				item: "tconstruct:liquid_soul_bucket"
+			}]
+		}
+		{
+			x: 19.0d
+			y: 27.0d
+			id: "73E16702EFC8AA48"
+			tasks: [{
+				id: "117F7E5CE78BF3DE"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 25.0d
+			id: "2FA64130E590DB6B"
+			tasks: [{
+				id: "716960B9981CE93D"
+				type: "item"
+				item: "minecraft:soul_sand"
+			}]
+		}
+		{
+			x: 30.5d
+			y: 21.0d
+			dependencies: [
+				"07AF35F4D0B2B8C6"
+				"47B416AF2414A2DC"
+				"25B99C8219CBF0F5"
+				"2F4037C3D6678A72"
+				"2E59A912E5C63024"
+			]
+			id: "0579C94E2B670FBE"
+			tasks: [{
+				id: "2337D7B939DD3691"
+				type: "item"
+				item: "kubejs:blackstone_alloy"
+			}]
+		}
+		{
+			x: 32.0d
+			y: 19.0d
+			id: "47B416AF2414A2DC"
+			tasks: [{
+				id: "0AABC7F166F95464"
+				type: "item"
+				item: "mekanism:ingot_osmium"
+			}]
+		}
+		{
+			x: 33.0d
+			y: 19.5d
+			id: "25B99C8219CBF0F5"
+			tasks: [{
+				id: "2B9A5D75E9179B9D"
+				type: "item"
+				item: "minecraft:blackstone"
+			}]
+		}
+		{
+			x: 33.5d
+			y: 20.5d
+			id: "2E59A912E5C63024"
+			tasks: [{
+				id: "5A0A15EF6C831C60"
+				type: "item"
+				item: "kubejs:pyrotheum"
+			}]
+		}
+		{
+			x: 28.5d
+			y: 20.0d
+			id: "07AF35F4D0B2B8C6"
+			tasks: [{
+				id: "6B4FA0A8654B9311"
+				type: "item"
+				item: "mm:blender_controller"
+			}]
+		}
+		{
+			x: 30.5d
+			y: 23.0d
+			dependencies: [
+				"4BED66D41420A977"
+				"0579C94E2B670FBE"
+				"48DAFD8E10B4E4ED"
+			]
+			id: "4042DE403CD9D3AE"
+			tasks: [{
+				id: "602BD1B03602F704"
+				type: "item"
+				item: "kubejs:nanocomposite_alloy"
+			}]
+		}
+		{
+			x: 32.0d
+			y: 22.0d
+			id: "4BED66D41420A977"
+			tasks: [{
+				id: "62A7A3E3D1E70EA5"
+				type: "item"
+				item: "kubejs:graphene"
+			}]
+		}
+		{
+			x: 29.0d
+			y: 22.0d
+			id: "48DAFD8E10B4E4ED"
+			tasks: [{
+				id: "02FF60F13B0E12F9"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			x: 30.5d
+			y: 28.5d
+			dependencies: [
+				"10CAB7C3DA1ECA98"
+				"712F47845147D293"
+			]
+			id: "3B04B39CCA9DC304"
+			tasks: [{
+				id: "4946118DC4D956F4"
+				type: "item"
+				item: "tconstruct:debris_nugget"
+			}]
+		}
+		{
+			x: 32.0d
+			y: 27.5d
+			id: "10CAB7C3DA1ECA98"
+			tasks: [{
+				id: "05E62E773BF30E8B"
+				type: "item"
+				item: "tconstruct:blazing_blood_bucket"
+			}]
+		}
+		{
+			x: 30.5d
+			y: 26.5d
+			dependencies: ["2121AA53B9A57954"]
+			id: "4A982D6FC3C25449"
+			tasks: [{
+				id: "6E7DAA0F6412B2E1"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 30.5d
+			y: 25.5d
+			dependencies: ["64EFB6B6D7AA447A"]
+			id: "2121AA53B9A57954"
+			tasks: [{
+				id: "6B73E3380CB4DA24"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 30.5d
+			y: 24.5d
+			dependencies: ["4042DE403CD9D3AE"]
+			id: "64EFB6B6D7AA447A"
+			tasks: [{
+				id: "6CD647D2B4909115"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 30.5d
+			y: 27.5d
+			dependencies: ["4A982D6FC3C25449"]
+			id: "712F47845147D293"
+			tasks: [{
+				id: "32D79B8E8A092388"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 47.5d
+			y: -6.0d
+			description: [
+				"A chemical reaction between redstone and zinc can yield elemental silver. The reaction can be started using a massive ionization event, or in other words, lightning."
+				"Involves rather tricky automation, use your creativity."
+			]
+			id: "69D7237D00613A36"
+			tasks: [{
+				id: "783A7BF7BC280F0D"
+				type: "item"
+				item: "thermal:silver_ingot"
+			}]
+		}
+		{
+			x: 47.5d
+			y: -3.0d
+			dependencies: [
+				"76E57940B90C83E3"
+				"33FBA381C398841E"
+				"1DEE27F012444766"
+				"3BD5C3660F8BBCBF"
+				"088D9247E6DB9E39"
+				"69D7237D00613A36"
+			]
+			id: "06FA80E10FDAE021"
+			tasks: [{
+				id: "6D73F8BBA3538D20"
+				type: "item"
+				item: "kubejs:argentite"
+			}]
+		}
+		{
+			x: 46.0d
+			y: -4.5d
+			id: "088D9247E6DB9E39"
+			tasks: [{
+				id: "229677627DA742F1"
+				type: "item"
+				item: "minecraft:lightning_rod"
+			}]
+		}
+		{
+			x: 46.0d
+			y: -3.5d
+			id: "3BD5C3660F8BBCBF"
+			tasks: [{
+				id: "6BB29AFDAAA27259"
+				type: "item"
+				item: "thermal:lightning_charge"
+			}]
+		}
+		{
+			x: 49.0d
+			y: -5.0d
+			id: "1DEE27F012444766"
+			tasks: [{
+				id: "0E26F7A7A47D4FE8"
+				type: "item"
+				item: "jaopca:dusts.zinc"
+			}]
+		}
+		{
+			x: 50.0d
+			y: -5.0d
+			id: "33FBA381C398841E"
+			tasks: [{
+				id: "44F0B0D5E72B733D"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+		}
+		{
+			x: 51.5d
+			y: -4.0d
+			dependencies: ["3CA0DE6D5FE35065"]
+			id: "76E57940B90C83E3"
+			tasks: [{
+				id: "269B2679392F69DE"
+				type: "item"
+				item: "minecraft:diorite"
+			}]
+		}
+		{
+			x: 51.5d
+			y: -5.5d
+			id: "3CA0DE6D5FE35065"
+			tasks: [{
+				id: "00A1802EBFC71E10"
+				type: "item"
+				item: "minecraft:calcite"
+			}]
+		}
+		{
+			x: 43.0d
+			y: -1.0d
+			dependencies: [
+				"103ED77453DCF716"
+				"519CF5D540805B46"
+			]
+			id: "79AAA4773C72BF2D"
+			tasks: [{
+				id: "0C9D5363AC60755A"
+				type: "item"
+				item: "minecraft:calcite"
+			}]
+		}
+		{
+			x: 44.0d
+			y: -2.0d
+			id: "519CF5D540805B46"
+			tasks: [{
+				id: "63F9A520F6D518BA"
+				type: "item"
+				item: "minecraft:bone_meal"
+			}]
+		}
+		{
+			x: 42.0d
+			y: -2.0d
+			id: "103ED77453DCF716"
+			tasks: [{
+				id: "75394823E23D03A0"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+		}
+		{
+			x: 53.0d
+			y: -2.0d
+			dependencies: ["06FA80E10FDAE021"]
+			id: "16C8779087A7FD93"
+			tasks: [{
+				id: "3FDE82F0EE0EE91B"
+				type: "item"
+				item: "kubejs:zinc_chromate"
+			}]
+		}
+		{
+			x: 51.5d
+			y: -1.0d
+			id: "461DAD0D3805F5F3"
+			tasks: [{
+				id: "7600C1E841418F61"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+		}
+		{
+			x: 53.0d
+			y: 0.0d
+			dependencies: [
+				"461DAD0D3805F5F3"
+				"16C8779087A7FD93"
+			]
+			id: "0559427A2A7E8357"
+			tasks: [{
+				id: "1B7042ABB305FF5C"
+				type: "item"
+				item: "jaopca:dusts.zinc"
+			}]
+		}
+		{
+			x: 47.5d
+			y: 0.0d
+			dependencies: [
+				"6A64B12B77E378CF"
+				"06FA80E10FDAE021"
+			]
+			id: "7730C18B6FB1FFD2"
+			tasks: [{
+				id: "5D38DB59188D3FDB"
+				type: "item"
+				item: "kubejs:crushed_argentite"
+			}]
+		}
+		{
+			x: 46.0d
+			y: -2.0d
+			id: "6A64B12B77E378CF"
+			tasks: [{
+				id: "3B8F1FD111F022B2"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+		}
+		{
+			x: 47.5d
+			y: 2.0d
+			dependencies: [
+				"075F0EA982E32230"
+				"7730C18B6FB1FFD2"
+			]
+			id: "23B3B22EF263EAB1"
+			tasks: [{
+				id: "7684C8B4E26006A2"
+				type: "item"
+				item: "thermal:raw_silver"
+			}]
+		}
+		{
+			x: 46.0d
+			y: 0.5d
+			id: "075F0EA982E32230"
+			tasks: [{
+				id: "1CAA06C140E4996B"
+				type: "item"
+				item: "immersiveengineering:blast_furnace"
+			}]
+		}
+		{
+			x: 38.5d
+			y: 18.0d
+			id: "7D0D6B9280C8EE30"
+			tasks: [{
+				id: "54D022C012AFF8A7"
+				type: "item"
+				item: "minecraft:coal"
+			}]
+		}
+		{
+			x: 43.5d
+			y: 18.0d
+			id: "20E3FE43E5BC6957"
+			tasks: [{
+				id: "361CED95B5957F7D"
+				type: "item"
+				item: "immersiveengineering:ingot_uranium"
+			}]
+		}
+		{
+			x: 22.0d
+			y: 21.5d
+			id: "2D52ABF46AFCE355"
+			tasks: [{
+				id: "20E2DBB1F0342E84"
+				type: "item"
+				item: "pneumaticcraft:pressure_chamber_interface"
 			}]
 		}
 	]

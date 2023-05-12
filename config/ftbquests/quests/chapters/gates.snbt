@@ -261,20 +261,6 @@
 			}]
 		}
 		{
-			x: 28.5d
-			y: 1.5d
-			dependencies: [
-				"79818F6E067D7F53"
-				"44533BE5D4E6E328"
-			]
-			id: "53251DA7AD07C568"
-			tasks: [{
-				id: "28EBF43C3B11F466"
-				type: "item"
-				item: "industrialforegoing:laser_drill"
-			}]
-		}
-		{
 			x: -11.0d
 			y: -2.5d
 			dependencies: ["1D82A3A40C998353"]
@@ -892,20 +878,6 @@
 			}]
 		}
 		{
-			x: 28.5d
-			y: 3.0d
-			dependencies: [
-				"44533BE5D4E6E328"
-				"012997C7579C9658"
-			]
-			id: "5870F3F851175070"
-			tasks: [{
-				id: "213C395CF4F4C5F9"
-				type: "item"
-				item: "industrialforegoing:ore_laser_base"
-			}]
-		}
-		{
 			x: 24.0d
 			y: 1.5d
 			id: "4B284931715DF4B2"
@@ -1171,6 +1143,12 @@
 				id: "6686D7CEF20D7D65"
 				type: "item"
 				item: "kubejs:composite_mechanical_component"
+			}]
+			rewards: [{
+				id: "6C22AD71B964B132"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
 			}]
 		}
 		{

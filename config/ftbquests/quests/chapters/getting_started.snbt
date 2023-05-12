@@ -111,12 +111,21 @@
 				type: "item"
 				item: "minecraft:raw_iron"
 			}]
-			rewards: [{
-				id: "3D7700FDBB71B457"
-				type: "item"
-				item: "minecraft:raw_iron"
-				count: 5
-			}]
+			rewards: [
+				{
+					id: "3D7700FDBB71B457"
+					type: "item"
+					item: "minecraft:raw_iron"
+					count: 5
+				}
+				{
+					id: "29F9A317F4D68C22"
+					type: "loot"
+					icon: "minecraft:chest"
+					exclude_from_claim_all: true
+					table_id: 239385028114383115L
+				}
+			]
 		}
 		{
 			title: "Redstone!"
@@ -187,12 +196,20 @@
 				item: "create:andesite_alloy"
 				count: 10L
 			}]
-			rewards: [{
-				id: "76C3BE0E25258BDA"
-				type: "item"
-				item: "create:andesite_alloy"
-				count: 5
-			}]
+			rewards: [
+				{
+					id: "76C3BE0E25258BDA"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 5
+				}
+				{
+					id: "33CF775053F65C91"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
+				}
+			]
 		}
 		{
 			title: "Rotational Power!"
@@ -436,6 +453,13 @@
 					type: "item"
 					item: "minecraft:redstone"
 					count: 8
+				}
+				{
+					id: "50DE5687A42653B7"
+					type: "choice"
+					icon: "ironchest:crystal_chest"
+					exclude_from_claim_all: true
+					table_id: 2185577192427929305L
 				}
 			]
 		}

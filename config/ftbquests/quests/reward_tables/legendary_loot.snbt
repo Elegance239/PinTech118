@@ -1,0 +1,44 @@
+{
+	id: "1E54BAE077DCBED9"
+	order_index: 7
+	title: "Legendary Loot"
+	icon: "ironchest:crystal_chest"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "thermal_extra:dragon_integral_component", count: 3 }
+		{ item: "extrastorage:netherite_crafter", count: 2 }
+		{ item: "artifacts:everlasting_beef" }
+		{
+			item: {
+				id: "mekanism:atomic_disassembler"
+				Count: 1b
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "1000000"
+						}]
+					}
+				}
+			}
+		}
+		{ item: "industrialforegoing:supreme_black_hole_unit", count: 4 }
+		{ item: "sophisticatedbackpacks:netherite_backpack" }
+		{
+			item: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Unbreakable: 1b
+					Damage: 0
+					Potion: "minecraft:strong_swiftness"
+				}
+			}
+		}
+		{ item: "extrastorage:storagepart_256k" }
+		{ item: "mekanism:upgrade_speed", count: 25 }
+		{ item: "thermal:machine_speed_augment", count: 25 }
+	]
+}

@@ -210,6 +210,12 @@
 				type: "item"
 				item: "pneumaticcraft:plastic"
 			}]
+			rewards: [{
+				id: "3AB4783723CE0259"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 5032101358385251555L
+			}]
 		}
 		{
 			x: -14.0d
@@ -276,6 +282,12 @@
 				id: "1032F42397A26764"
 				type: "item"
 				item: "thermal:invar_ingot"
+			}]
+			rewards: [{
+				id: "7951041FC6270B0E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5032101358385251555L
 			}]
 		}
 		{
@@ -447,6 +459,11 @@
 				type: "item"
 				item: "mekanism:basic_control_circuit"
 			}]
+			rewards: [{
+				id: "7F57B665E8B1EEE1"
+				type: "random"
+				table_id: 5032101358385251555L
+			}]
 		}
 		{
 			x: 2.0d
@@ -613,6 +630,12 @@
 				type: "item"
 				item: "thermal:signalum_ingot"
 			}]
+			rewards: [{
+				id: "4DBA7AF58DB19923"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5032101358385251555L
+			}]
 		}
 		{
 			title: "Solid-state Electronics"
@@ -709,6 +732,12 @@
 				id: "6D2A25E8F1B080A7"
 				type: "item"
 				item: "mekanism:advanced_control_circuit"
+			}]
+			rewards: [{
+				id: "548B65177D77AAA1"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2185577192427929305L
 			}]
 		}
 		{
