@@ -2,7 +2,9 @@
 	id: "66C3FB358873343D"
 	order_index: 5
 	title: "Chapter 3a High Tier Loot"
+	icon: "ironchest:gold_chest"
 	loot_size: 1
+	hide_tooltip: true
 	rewards: [
 		{ item: "mekanism:isotopic_centrifuge" }
 		{ item: "mekanism:solar_neutron_activator" }

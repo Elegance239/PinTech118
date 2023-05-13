@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "69FAB89602C152B6", title: "Main Quest Chapters" }]
+	chapter_groups: [
+		{ id: "69FAB89602C152B6", title: "Main Quest Chapters" }
+		{ id: "1124685941068EBC", title: "Extras" }
+	]
 }

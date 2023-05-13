@@ -1,0 +1,28 @@
+{
+	id: "25774E469E0A4CE8"
+	group: "1124685941068EBC"
+	order_index: 1
+	filename: "chapter_1_extras_refined_storage"
+	title: "Extras: Refined Storage"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -6.5d
+		y: 0.0d
+		description: ["The Controller is the heart of your Refined Storage System."]
+		size: 1.5d
+		id: "1220AAF7C4A5FAF6"
+		tasks: [{
+			id: "07FE21F7014A202A"
+			type: "item"
+			item: "refinedstorage:controller"
+		}]
+		rewards: [{
+			id: "4A883D93BFF06672"
+			type: "random"
+			exclude_from_claim_all: true
+			table_id: 3387967830778867420L
+		}]
+	}]
+	quest_links: [ ]
+}

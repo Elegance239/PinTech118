@@ -1,0 +1,20 @@
+{
+	id: "2F047ACAB8066EDC"
+	order_index: 8
+	title: "Refined Storage Loot"
+	icon: "refinedstorage:quartz_enriched_iron_block"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "refinedstorage:quartz_enriched_iron", count: 5 }
+		{ item: "refinedstorage:cable", count: 16 }
+		{ item: "refinedstorage:basic_processor", count: 4 }
+		{ item: "refinedstorage:improved_processor", count: 3 }
+		{ item: "refinedstorage:advanced_processor", count: 2 }
+		{ item: "refinedstorage:construction_core", count: 2 }
+		{ item: "refinedstorage:destruction_core", count: 2 }
+		{ item: "refinedstorage:1k_storage_part" }
+		{ item: "refinedstorage:pattern", count: 3 }
+		{ item: "refinedstorage:speed_upgrade", count: 2 }
+	]
+}

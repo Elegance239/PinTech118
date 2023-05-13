@@ -2,7 +2,9 @@
 	id: "3ABA667021E01F9E"
 	order_index: 4
 	title: "Chapter 3a Loot "
+	icon: "ironchest:iron_chest"
 	loot_size: 1
+	hide_tooltip: true
 	rewards: [
 		{ item: "mekanism:upgrade_speed" }
 		{ item: "mekanism:upgrade_energy" }

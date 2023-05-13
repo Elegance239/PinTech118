@@ -649,8 +649,8 @@
 				item: "mekanism:ultimate_control_circuit"
 			}]
 			rewards: [{
-				id: "34770003C34502AA"
-				type: "random"
+				id: "4DEA631C6AE3D6FC"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 7405038419668317245L
 			}]
