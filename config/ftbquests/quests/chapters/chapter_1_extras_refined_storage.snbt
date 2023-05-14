@@ -6,23 +6,352 @@
 	title: "Extras: Refined Storage"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: -6.5d
-		y: 0.0d
-		description: ["The Controller is the heart of your Refined Storage System."]
-		size: 1.5d
-		id: "1220AAF7C4A5FAF6"
-		tasks: [{
-			id: "07FE21F7014A202A"
-			type: "item"
-			item: "refinedstorage:controller"
-		}]
-		rewards: [{
-			id: "4A883D93BFF06672"
-			type: "random"
-			exclude_from_claim_all: true
-			table_id: 3387967830778867420L
-		}]
-	}]
+	quests: [
+		{
+			icon: "refinedstorage:creative_controller"
+			x: 0.0d
+			y: 0.0d
+			description: ["The Controller is the heart of your Refined Storage System."]
+			size: 1.5d
+			id: "1220AAF7C4A5FAF6"
+			tasks: [{
+				id: "07FE21F7014A202A"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+			rewards: [{
+				id: "4A883D93BFF06672"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["1220AAF7C4A5FAF6"]
+			id: "1D81717FC3A43C59"
+			tasks: [{
+				id: "75A68090E919730E"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["1220AAF7C4A5FAF6"]
+			id: "28C3FA341165185B"
+			tasks: [{
+				id: "04C6C8A1A406D4FD"
+				type: "item"
+				item: "refinedstorage:pattern_grid"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["1220AAF7C4A5FAF6"]
+			id: "56819856B4867C2B"
+			tasks: [{
+				id: "3B7142A73F290938"
+				type: "item"
+				item: "refinedstorage:fluid_grid"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["1220AAF7C4A5FAF6"]
+			id: "5A540E2522F52C0A"
+			tasks: [{
+				id: "733E3C092BB44713"
+				type: "item"
+				item: "refinedstorage:crafting_monitor"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["28C3FA341165185B"]
+			id: "7A90C48E49AB3AC5"
+			tasks: [{
+				id: "24CAAD1279EBEA45"
+				type: "item"
+				item: "refinedstorage:pattern"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["56819856B4867C2B"]
+			id: "4FB11CA0E37DF205"
+			tasks: [{
+				id: "65C096C5AA27DD50"
+				type: "item"
+				item: "refinedstorage:wireless_fluid_grid"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["5A540E2522F52C0A"]
+			id: "5EDED681A7421826"
+			tasks: [{
+				id: "31EE3503C8384BB1"
+				type: "item"
+				item: "refinedstorage:wireless_crafting_monitor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["1D81717FC3A43C59"]
+			id: "780629DE69163610"
+			tasks: [{
+				id: "6819F4811E5188F8"
+				type: "item"
+				item: "refinedstorageaddons:wireless_crafting_grid"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			dependencies: ["1220AAF7C4A5FAF6"]
+			id: "7B6E9F7A02970530"
+			tasks: [{
+				id: "42A55009397D3224"
+				type: "item"
+				item: "refinedstorage:external_storage"
+			}]
+		}
+		{
+			title: "Importing and Exporting"
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["1220AAF7C4A5FAF6"]
+			id: "12565A7B57FC4ABD"
+			tasks: [
+				{
+					id: "6B8CA38DFEE4AAF3"
+					type: "item"
+					item: "refinedstorage:importer"
+				}
+				{
+					id: "6A2BDCA075BA4A7E"
+					type: "item"
+					item: "refinedstorage:exporter"
+				}
+			]
+		}
+		{
+			title: "Constructor and Destructor"
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["1220AAF7C4A5FAF6"]
+			id: "15B77E66B28F8DE0"
+			tasks: [
+				{
+					id: "00497E7B37979D21"
+					type: "item"
+					item: "refinedstorage:constructor"
+				}
+				{
+					id: "49FFA455E1F3B59E"
+					type: "item"
+					item: "refinedstorage:destructor"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["1220AAF7C4A5FAF6"]
+			id: "48E6672CBB46FCE8"
+			tasks: [{
+				id: "0C2DF22A4B2DF6E1"
+				type: "item"
+				item: "refinedstorage:detector"
+			}]
+		}
+		{
+			title: "Crafter Tier 1"
+			x: -4.0d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["1220AAF7C4A5FAF6"]
+			id: "299DAF7E3115A6F3"
+			tasks: [{
+				id: "44F759FADF5222AE"
+				type: "item"
+				item: "refinedstorage:crafter"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.0d
+			dependencies: ["299DAF7E3115A6F3"]
+			id: "5331B7533E5B19BB"
+			tasks: [{
+				id: "6F0D919A3B6F13B9"
+				type: "item"
+				item: "extrastorage:iron_crafter"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			dependencies: ["5331B7533E5B19BB"]
+			id: "33715B56FC6DEF1D"
+			tasks: [{
+				id: "47735A979A028267"
+				type: "item"
+				item: "extrastorage:gold_crafter"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			dependencies: ["33715B56FC6DEF1D"]
+			id: "673411F96F202637"
+			tasks: [{
+				id: "103EE4C86ED1A526"
+				type: "item"
+				item: "extrastorage:diamond_crafter"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			dependencies: ["673411F96F202637"]
+			id: "513FA6CFFE4EBB1C"
+			tasks: [{
+				id: "7CDFC1E88809D3E1"
+				type: "item"
+				item: "extrastorage:netherite_crafter"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -7.5d
+			dependencies: ["2B0556E1937BC728"]
+			id: "0E15C9CFC161CEB6"
+			tasks: [{
+				id: "6819BCB5083C15EC"
+				type: "item"
+				item: "refinedstorage:64k_storage_part"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -13.5d
+			dependencies: ["48DCDB27F3DA7E14"]
+			id: "2B0556E1937BC728"
+			tasks: [{
+				id: "4973892CF05778F1"
+				type: "item"
+				item: "refinedstorage:16k_storage_part"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -13.5d
+			dependencies: ["72A1ED064BDB8695"]
+			id: "48DCDB27F3DA7E14"
+			tasks: [{
+				id: "422DABD7590F7057"
+				type: "item"
+				item: "refinedstorage:4k_storage_part"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"1220AAF7C4A5FAF6"
+				"2E5E33D9EF78B8E1"
+			]
+			id: "72A1ED064BDB8695"
+			tasks: [{
+				id: "4587DA777568EA74"
+				type: "item"
+				item: "refinedstorage:1k_storage_part"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -12.0d
+			hide_dependency_lines: true
+			dependencies: ["0E15C9CFC161CEB6"]
+			id: "43890B069ED7C546"
+			tasks: [{
+				id: "6DD00BBD43638634"
+				type: "item"
+				item: "extrastorage:storagepart_256k"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -9.0d
+			dependencies: ["43890B069ED7C546"]
+			id: "274F0B452DEBB798"
+			tasks: [{
+				id: "5B8E63CAB10A8390"
+				type: "item"
+				item: "extrastorage:storagepart_1024k"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -9.0d
+			dependencies: ["274F0B452DEBB798"]
+			id: "563F5171F0A53269"
+			tasks: [{
+				id: "52F5F666E82C5BD8"
+				type: "item"
+				item: "extrastorage:storagepart_4096k"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -12.0d
+			dependencies: ["563F5171F0A53269"]
+			id: "6328400005FF8624"
+			tasks: [{
+				id: "4B4220AFE1A6179C"
+				type: "item"
+				item: "extrastorage:storagepart_16384k"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -10.5d
+			hide_dependency_lines: true
+			dependencies: ["1220AAF7C4A5FAF6"]
+			id: "2E5E33D9EF78B8E1"
+			tasks: [{
+				id: "4A1E458DB97AA2D6"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			hide_dependency_lines: true
+			dependencies: ["1220AAF7C4A5FAF6"]
+			id: "17671F4C2552C1E2"
+			tasks: [{
+				id: "1CA95545BE9109CA"
+				type: "item"
+				item: "refinedstorage:storage_housing"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

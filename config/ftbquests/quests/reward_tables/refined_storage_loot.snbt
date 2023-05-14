@@ -2,7 +2,7 @@
 	id: "2F047ACAB8066EDC"
 	order_index: 8
 	title: "Refined Storage Loot"
-	icon: "refinedstorage:quartz_enriched_iron_block"
+	icon: "refinedstorage:creative_controller"
 	loot_size: 1
 	hide_tooltip: true
 	rewards: [

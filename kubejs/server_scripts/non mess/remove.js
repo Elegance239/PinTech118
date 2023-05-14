@@ -330,7 +330,8 @@ let SD = (id) => 'storagedrawers:'+id
         'create:crushing/diorite_recycling',
         'thermal:machines/smelter/smelter_alloy_lumium',
         'createchromaticreturn:shadow_essence_recipe',
-        'jaopca:thermal_expansion.nugget_to_material.netherite_scrap'
+        'jaopca:thermal_expansion.nugget_to_material.netherite_scrap',
+        'jaopca:thermal_expansion.dust_to_material.refined_obsidian',
     ]
 
     recipeId.forEach(item => {
