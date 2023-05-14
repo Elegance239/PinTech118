@@ -1,0 +1,21 @@
+{
+	id: "3775171EC194C673"
+	group: "69FAB89602C152B6"
+	order_index: 4
+	filename: "chapter_3b"
+	title: "Chapter 3B"
+	icon: "kubejs:superconducting_magnet"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		size: 2.0d
+		id: "14B46BA89E462FEC"
+		tasks: [{
+			id: "2C7F40243AD28580"
+			type: "checkmark"
+		}]
+	}]
+	quest_links: [ ]
+}

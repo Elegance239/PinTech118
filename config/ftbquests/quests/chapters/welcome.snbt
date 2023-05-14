@@ -220,6 +220,23 @@
 				item: "kubejs:chin_new"
 			}]
 		}
+		{
+			x: 0.0d
+			y: 3.5d
+			can_repeat: true
+			id: "319C87783E689732"
+			tasks: [{
+				id: "6A0ACB181C387CCE"
+				type: "checkmark"
+				title: "Reward Test"
+			}]
+			rewards: [{
+				id: "569186105937EB8E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5032101358385251555L
+			}]
+		}
 	]
 	quest_links: [ ]
 }

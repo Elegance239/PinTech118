@@ -65,6 +65,10 @@ onEvent('block.registry', event => {
 	event.create('gold_combine').displayName('Combined Gold Deposit')
 	.textureAll('kubejs:item/gold_combine')
 	.material('metal')
+
+	event.create('basic_versatile_frame').material('metal').hardness(2.0).displayName('Basic Versatile Frame')
+
+	event.create('advanced_versatile_frame').material('metal').hardness(2.0).displayName('Advanced Versatile Frame')
 })
 
 

@@ -1,43 +1,600 @@
 {
 	id: "720248C47922F518"
 	group: "69FAB89602C152B6"
-	order_index: 3
+	order_index: 2
 	filename: "chapter_2_2"
 	title: "Chapter 2"
+	icon: "mekanism:laser"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "Outsourcing"
-		icon: "kubejs:reinforcement_catalyst"
-		x: -14.0d
-		y: 0.0d
-		shape: "gear"
-		size: 2.0d
-		id: "5C6472194AEDF044"
-		tasks: [
-			{
-				id: "3BCB93A1E9904FBB"
+	quests: [
+		{
+			title: "Outsourcing"
+			icon: "kubejs:reinforcement_catalyst"
+			x: -14.0d
+			y: 0.0d
+			shape: "gear"
+			size: 2.0d
+			id: "5C6472194AEDF044"
+			tasks: [
+				{
+					id: "3BCB93A1E9904FBB"
+					type: "item"
+					item: "kubejs:reinforced_casing"
+					count: 2L
+				}
+				{
+					id: "1877C4E28708DFAD"
+					type: "item"
+					item: "industrialforegoing:machine_frame_simple"
+				}
+				{
+					id: "6E77CA7842C61936"
+					type: "item"
+					item: "kubejs:storage_bundle"
+					count: 10L
+				}
+			]
+			rewards: [{
+				id: "388E33C9437E2F32"
 				type: "item"
-				item: "kubejs:reinforced_casing"
-				count: 2L
-			}
-			{
-				id: "1877C4E28708DFAD"
+				item: "kubejs:reinforcement_catalyst"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 0.0d
+			dependencies: ["5C6472194AEDF044"]
+			id: "48C126FCC8175A37"
+			tasks: [{
+				id: "7383855B6526D5E2"
 				type: "item"
-				item: "industrialforegoing:machine_frame_simple"
-			}
-			{
-				id: "6E77CA7842C61936"
+				item: "mekanism:alloy_reinforced"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -2.0d
+			dependencies: ["5C6472194AEDF044"]
+			id: "39C89DA58E5C674E"
+			tasks: [{
+				id: "3AC870CAB3E0D8AB"
 				type: "item"
-				item: "kubejs:storage_bundle"
-				count: 10L
+				item: "immersiveengineering:ingot_aluminum"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 0.0d
+			dependencies: [
+				"5513623B3E16B98E"
+				"48C126FCC8175A37"
+				"39C89DA58E5C674E"
+			]
+			size: 1.5d
+			id: "1D0DA97B5BAD8995"
+			tasks: [{
+				id: "2F2800A952FFD018"
+				type: "item"
+				item: "kubejs:composite_mechanical_component"
+			}]
+		}
+		{
+			title: "Multi-Assembler"
+			x: -11.0d
+			y: 2.0d
+			dependencies: ["5C6472194AEDF044"]
+			id: "5513623B3E16B98E"
+			tasks: [
+				{
+					id: "75D05346BFFDC184"
+					type: "item"
+					item: "mm:multi_assembler_controller"
+				}
+				{
+					id: "2066A581A00A08E8"
+					type: "item"
+					item: "mm:item_input_port"
+				}
+				{
+					id: "69E38E4C0322B5CD"
+					type: "item"
+					item: "mm:item_output_port"
+				}
+				{
+					id: "0F47D712F538957B"
+					type: "item"
+					item: "mm:energy_input_port"
+				}
+				{
+					id: "37AD266CE4A59B95"
+					type: "item"
+					item: "kubejs:modular_machine_framework"
+					count: 32L
+				}
+				{
+					id: "70CDA29240655D32"
+					type: "item"
+					item: "mekanism:structural_glass"
+					count: 6L
+				}
+				{
+					id: "084C5BADDAAF043B"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_import"
+				}
+				{
+					id: "7438429A230EDCE6"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_export"
+				}
+				{
+					id: "6FBE6781E2DC6541"
+					type: "item"
+					item: "pneumaticcraft:assembly_platform"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			dependencies: ["1D0DA97B5BAD8995"]
+			id: "0D71241BB7B5E404"
+			tasks: [{
+				id: "5904278B0830A1D1"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			dependencies: [
+				"29346E0A9AB1FE64"
+				"0D71241BB7B5E404"
+			]
+			size: 1.5d
+			id: "5F7A93A9F7C52BE8"
+			tasks: [{
+				id: "3F3B1E959B6DEFFA"
+				type: "item"
+				item: "mekanism:hdpe_sheet"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			dependencies: ["1D0DA97B5BAD8995"]
+			id: "0F32596D06EC6EE5"
+			tasks: [{
+				id: "05647AE282E2EA4E"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			dependencies: ["1D0DA97B5BAD8995"]
+			id: "29346E0A9AB1FE64"
+			tasks: [{
+				id: "41F6FC7E43D14618"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+		}
+		{
+			title: "Liquified Gases"
+			x: -3.5d
+			y: -3.0d
+			dependencies: [
+				"0F32596D06EC6EE5"
+				"29346E0A9AB1FE64"
+			]
+			id: "6D1D4F69C702B692"
+			tasks: [
+				{
+					id: "5A00FF546DD73305"
+					type: "item"
+					item: "mekanism:oxygen_bucket"
+				}
+				{
+					id: "5ACD0E5EEE899803"
+					type: "item"
+					item: "kubejs:liquid_nitrogen_bucket"
+				}
+			]
+		}
+		{
+			title: "Brine Production"
+			x: -3.5d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["1D0DA97B5BAD8995"]
+			optional: true
+			id: "3302D35A564A4AD5"
+			tasks: [
+				{
+					id: "12CDBEF428E18CF3"
+					type: "item"
+					item: "mekanism:thermal_evaporation_controller"
+				}
+				{
+					id: "44FC98F4C63255C2"
+					type: "item"
+					item: "pneumaticcraft:refinery"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			dependencies: [
+				"5F7A93A9F7C52BE8"
+				"0F0326CF68EC4540"
+			]
+			size: 1.5d
+			id: "1196A4BAE53ACB7B"
+			tasks: [{
+				id: "10107ABD4855DD02"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			dependencies: [
+				"6C0112C7656BA2C1"
+				"4E695A9B016A4436"
+			]
+			id: "3BAE78FF156D9093"
+			tasks: [{
+				id: "54148D6DA4AEFB33"
+				type: "item"
+				item: "kubejs:cooling_system"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			dependencies: ["757BA64047537C00"]
+			id: "4E695A9B016A4436"
+			tasks: [{
+				id: "6933F61E9E713216"
+				type: "item"
+				item: "kubejs:coolant_capsule"
+			}]
+		}
+		{
+			title: "Mixing Machine"
+			x: -1.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["6D1D4F69C702B692"]
+			optional: true
+			id: "179CA7A7F5BC50EC"
+			tasks: [
+				{
+					id: "362037788C2E9F0B"
+					type: "item"
+					item: "mm:blender_controller"
+				}
+				{
+					id: "2321A305CE900E94"
+					type: "item"
+					item: "immersiveengineering:refinery"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["6D1D4F69C702B692"]
+			id: "757BA64047537C00"
+			tasks: [{
+				id: "6C9E0DBBBCD75B1E"
+				type: "item"
+				item: "kubejs:cryogenic_coolant_bucket"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["29346E0A9AB1FE64"]
+			id: "7A421984E3A34CE6"
+			tasks: [{
+				id: "67B4E6CA00C029F5"
+				type: "item"
+				item: "mekanism:brine_bucket"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["7A421984E3A34CE6"]
+			id: "0F0326CF68EC4540"
+			tasks: [{
+				id: "5A1815FA30107548"
+				type: "item"
+				item: "mekanism:chlorine_bucket"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["7A421984E3A34CE6"]
+			id: "6C0112C7656BA2C1"
+			tasks: [{
+				id: "22FBB7E05987E103"
+				type: "item"
+				item: "mekanism:dust_lithium"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: [
+				"44E3936635495C75"
+				"3BAE78FF156D9093"
+			]
+			size: 1.5d
+			id: "7A5DDB1D27A24845"
+			tasks: [{
+				id: "1B18345D8C94931A"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["6C0112C7656BA2C1"]
+			id: "44E3936635495C75"
+			tasks: [{
+				id: "71FC3139BEAC9432"
+				type: "item"
+				item: "extrastorage:neural_processor"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			dependencies: ["3BAE78FF156D9093"]
+			id: "10D51DCB25E9A9EA"
+			tasks: [{
+				id: "0AD2B4FA641E0825"
+				type: "item"
+				item: "mekanism:laser"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			dependencies: [
+				"10D51DCB25E9A9EA"
+				"7A5DDB1D27A24845"
+				"1196A4BAE53ACB7B"
+				"3F04AC5D2091B376"
+			]
+			size: 1.5d
+			id: "4EB6A2BE9D2DC4D6"
+			tasks: [
+				{
+					id: "1CB04C7075217FF5"
+					type: "item"
+					item: "industrialforegoing:laser_drill"
+				}
+				{
+					id: "0115D0206CA811F4"
+					type: "item"
+					item: "industrialforegoing:ore_laser_base"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			id: "786E503579B51797"
+			tasks: [{
+				id: "43EE91ECCCE52FCF"
+				type: "item"
+				item: "industrialforegoing:laser_lens0"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			dependencies: ["786E503579B51797"]
+			id: "3F04AC5D2091B376"
+			tasks: [{
+				id: "38981A63B6986EE9"
+				type: "item"
+				item: "mekanismgenerators:laser_focus_matrix"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			dependencies: ["4EB6A2BE9D2DC4D6"]
+			id: "58AADDE1F9463CC9"
+			tasks: [{
+				id: "6C3214FF42B64BFD"
+				type: "item"
+				item: "mekanism:ingot_osmium"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 2.0d
+			description: [
+				"This pack uses custom Masterful Machinery multiblocks to add recipes. Unfortunately, it does not work well with JEI as it doesn't show which machines correspond to which recipe. You can determine the machine used by looking at its energy usage:"
+				"Blender: 200 RF/t"
+				"Multi-Assembler: 500 RF/t"
+				"Nanofabricator: 1000 RF/t"
+				"Tesla Infusion Chamber: 2000 RF/t"
+				"Linear Particle Accelerator: you'll know it when you see it"
+				"Additionally, you can use create schematics to build the multiblocks easily."
+			]
+			id: "38852C1E8646F4D7"
+			tasks: [{
+				id: "6D7C581BE052A2C6"
+				type: "checkmark"
+				title: "Guide to Masterful Machinery"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 0.0d
+			dependencies: ["58AADDE1F9463CC9"]
+			id: "03AC2987AA81187F"
+			tasks: [{
+				id: "6C5237D257D419F7"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 0.0d
+			dependencies: ["03AC2987AA81187F"]
+			id: "3BAA51729AC1ED22"
+			tasks: [{
+				id: "056D58C4C8F598AE"
+				type: "item"
+				item: "mekanism:ingot_refined_obsidian"
+			}]
+		}
+		{
+			x: 28.0d
+			y: 0.0d
+			dependencies: ["32F5549CE6E0D410"]
+			size: 2.0d
+			id: "1BD8C0F446371986"
+			tasks: [{
+				id: "6A3837023419A0D0"
+				type: "item"
+				item: "thermal:enderium_ingot"
+			}]
+			rewards: [{
+				id: "4DC20138276FEC8A"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 2185577192427929305L
+			}]
+		}
+		{
+			x: 24.0d
+			y: 0.0d
+			dependencies: ["61A9339D03093C9A"]
+			id: "32F5549CE6E0D410"
+			tasks: [{
+				id: "7D51CB91F55DFB52"
+				type: "item"
+				item: "kubejs:porous_enderium_dust"
+			}]
+		}
+		{
+			x: 22.0d
+			y: 0.0d
+			dependencies: [
+				"40FC829564121B28"
+				"0B697DD760E20907"
+				"0A4814C5EDA72492"
+			]
+			id: "61A9339D03093C9A"
+			tasks: [{
+				id: "2F143E61C818375C"
+				type: "item"
+				item: "kubejs:enderium_alloy_base"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 0.0d
+			dependencies: [
+				"7C3D9EAB0D173C3D"
+				"3BAA51729AC1ED22"
+			]
+			id: "0A4814C5EDA72492"
+			tasks: [{
+				id: "578773D3F09A0FAA"
+				type: "item"
+				item: "kubejs:crude_enderium_alloy_base"
+			}]
+		}
+		{
+			title: "Mixer"
+			icon: "immersiveengineering:mixer"
+			x: 18.0d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["7A5DDB1D27A24845"]
+			id: "7C3D9EAB0D173C3D"
+			tasks: [
+				{
+					id: "626E88D870995A02"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 4L
+				}
+				{
+					id: "26C089AA36FC4106"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+			]
+		}
+		{
+			x: 20.0d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["7A5DDB1D27A24845"]
+			id: "40FC829564121B28"
+			tasks: [{
+				id: "1756EB5B12F39A67"
+				type: "item"
+				item: "mekanism:chemical_injection_chamber"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["7A5DDB1D27A24845"]
+			id: "2FF6CB09EA27F1F3"
+			tasks: [{
+				id: "7388B1C6E7EB86EC"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+		}
+		{
+			title: "Hydrogen Chloride"
+			icon: {
+				id: "mekanism:creative_chemical_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								gasName: "mekanism:hydrogen_chloride"
+								amount: 9223372036854775807L
+							}
+						}]
+					}
+				}
 			}
-		]
-		rewards: [{
-			id: "388E33C9437E2F32"
-			type: "item"
-			item: "kubejs:reinforcement_catalyst"
-		}]
-	}]
+			x: 20.0d
+			y: 1.5d
+			dependencies: ["2FF6CB09EA27F1F3"]
+			id: "0B697DD760E20907"
+			tasks: [{
+				id: "14DAD4EB5C08CFA1"
+				type: "checkmark"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

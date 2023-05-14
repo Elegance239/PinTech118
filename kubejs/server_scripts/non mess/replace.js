@@ -15,6 +15,7 @@ onEvent('recipes', event => {
 	event.replaceInput({id:'thermal:augments/fluid_filter_augment'}, 'thermal:signalum_ingot', 'thermal:invar_ingot')
 	event.replaceInput({id:'thermal:augments/machine_speed_augment'}, 'thermal:rf_coil', 'kubejs:augment_base')
 	event.replaceInput({id:'thermal:augments/machine_efficiency_augment'}, 'thermal:rf_coil', 'kubejs:augment_base')
+	event.replaceInput({id:'thermal:augments/machine_efficiency_augment'}, 'thermal:lumium_plate', 'thermal:constantan_plate')
 	event.replaceInput({id:'thermal:augments/dynamo_fuel_augment'}, '#thermal:glass_hardened', 'kubejs:augment_base')
 	event.replaceInput({input:'mekanism:dust_quartz'}, 'mekanism:dust_quartz', 'thermal:quartz_dust')
 	event.replaceOutput({output:'mekanism:dust_quartz'}, 'mekanism:dust_quartz', 'thermal:quartz_dust')

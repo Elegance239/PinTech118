@@ -16,6 +16,7 @@
 				Count: 1b
 				tag: { }
 			}
+			only_one: true
 			weight: 3
 		}
 		{
@@ -24,6 +25,7 @@
 				Count: 1b
 				tag: { }
 			}
+			only_one: true
 			weight: 3
 		}
 		{
@@ -34,6 +36,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 			weight: 3
 		}
 		{ item: "minecraft:cooked_beef", count: 10, weight: 10 }
@@ -51,7 +54,6 @@
 			weight: 3
 		}
 		{ item: "create:redstone_link", count: 4, weight: 3 }
-		{ item: "thermal:machine_speed_augment", count: 2, weight: 5 }
 		{ item: "farmersdelight:cake_slice", count: 10, weight: 10 }
 		{
 			item: {
@@ -61,6 +63,7 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 			weight: 5
 		}
 		{ item: "tconstruct:queens_slime_ingot", count: 4 }
@@ -80,6 +83,7 @@
 					}
 				}
 			}
+			only_one: true
 			weight: 3
 		}
 		{ item: "minecraft:emerald", count: 4, weight: 5 }
@@ -100,6 +104,7 @@
 					}
 				}
 			}
+			only_one: true
 			weight: 3
 		}
 		{ item: "immersiveengineering:hemp_fiber", count: 16, weight: 10 }
@@ -110,12 +115,13 @@
 				Count: 1b
 				tag: { }
 			}
+			only_one: true
 			weight: 3
 		}
 		{ item: "storagedrawers:iron_storage_upgrade", count: 2, weight: 5 }
 		{ item: "create:schematicannon", weight: 3 }
-		{ item: "tconstruct:blood_slime_ball", count: 10, weight: 10 }
-		{ item: "tconstruct:quartz_shuriken", count: 64, weight: 5 }
+		{ item: "tconstruct:blood_slime_ball", count: 10, weight: 5 }
+		{ item: "tconstruct:quartz_shuriken", count: 32, weight: 5 }
 		{
 			item: {
 				id: "create:extendo_grip"
@@ -124,8 +130,15 @@
 					Damage: 0
 				}
 			}
+			only_one: true
 			weight: 3
 		}
 		{ item: "mekanism:upgrade_energy", weight: 5 }
+		{ item: "thermal:lumium_ingot", count: 4, weight: 5 }
+		{ item: "minecraft:slime_ball", count: 10, weight: 5 }
+		{ item: "farmersdelight:honey_glazed_ham_block", weight: 10 }
+		{ item: "kubejs:chin_new", weight: 3 }
+		{ item: "kubejs:augment_base", weight: 5 }
+		{ item: "kubejs:basic_versatile_frame" }
 	]
 }

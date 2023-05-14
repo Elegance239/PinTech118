@@ -175,6 +175,53 @@ onEvent("mm.recipes", event => {
         ]
     })
 
-})
+    event.build("mm:basic_versatile", {
+        duration: 200,
+        structureId: "namespace:multi_assembler",
+        name: {
+            text: "Assembling: Basic Versatile Frame"
+        },
+        inputs: [
+            {
+                type: "mm:per_tick",
+                ingredient: {
+                    type: "mm:energy",
+                    amount: 500
+                }
+            },
+            MMIngredient('mekanism:hdpe_sheet',2),
+            MMIngredient('mekanism:elite_control_circuit',1),
+            MMIngredient('mekanism:steel_casing',1),
+            
+        ],
+        outputs: [
+            MMIngredient("kubejs:basic_versatile_frame",2)
+        ]
+    })
 
+    event.build("mm:advanced_versatile", {
+        duration: 200,
+        structureId: "namespace:multi_assembler",
+        name: {
+            text: "Assembling: Basic Versatile Frame"
+        },
+        inputs: [
+            {
+                type: "mm:per_tick",
+                ingredient: {
+                    type: "mm:energy",
+                    amount: 500
+                }
+            },
+            MMIngredient('kubejs:conductive_polymer',1),
+            MMIngredient('mekanism:elite_control_circuit',1),
+            MMIngredient('kubejs:composite_mechanical_component',1),
+            MMIngredient('mekanism:steel_casing',1),
+            
+        ],
+        outputs: [
+            MMIngredient("kubejs:advanced_versatile_frame",2)
+        ]
+    })
+})
 

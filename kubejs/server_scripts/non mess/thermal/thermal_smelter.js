@@ -76,12 +76,12 @@ onEvent('recipes', event => {
 	event.custom({
 		type: 'thermal:smelter',
 		ingredients:[
-			{ item: 'thermal:electrum_ingot', count:1},
-			{ item: 'thermal:tin_ingot', count:3},
-			{ item: 'minecraft:glowstone_dust', count:4},
+			{ item: 'thermal:electrum_ingot', count:6},
+			{ item: 'thermal:tin_ingot', count:8},
+			{ item: 'minecraft:glowstone_dust', count:8},
 		],
 		results: [
-			{ item: 'thermal:lumium_ingot', count:2},
+			{ item: 'thermal:lumium_ingot', count:1},
 		],
 		energy: 4000,
 	})

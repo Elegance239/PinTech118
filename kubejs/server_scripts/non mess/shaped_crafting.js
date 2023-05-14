@@ -942,7 +942,7 @@ onEvent('recipes', event => {
   )
 
   event.shaped('advgenerators:turbine_rotor_tier2',
-    ["AAA", "BCB", "AAA"],
+    ["ADA", "BCB", "ADA"],
     {
       "A": {
         "item": "mekanism:alloy_infused"
@@ -952,12 +952,15 @@ onEvent('recipes', event => {
       },
       "C": {
         "item": "advgenerators:turbine_rotor_tier1"
-      }
+      },
+      "D": {
+        "item": "thermal:lumium_plate"
+      },
     },
   )
 
   event.shaped('advgenerators:turbine_kit_tier2',
-    ["AAA", "BCB", "AAA"],
+    ["ADA", "BCB", "ADA"],
     {
       "A": {
         "item": "mekanism:alloy_infused"
@@ -967,7 +970,10 @@ onEvent('recipes', event => {
       },
       "C": {
         "item": "advgenerators:upgrade_kit"
-      }
+      },
+      "D": {
+        "item": "thermal:lumium_plate"
+      },
     },
   )
 
@@ -1086,7 +1092,7 @@ onEvent('recipes', event => {
     ["ABA", "CDE", "ABA"],
     {
       "A": {
-        "item": "advgenerators:iron_frame"
+        "item": "thermal:lumium_plate"
       },
       "B": {
         "item": "advgenerators:turbine_rotor_tier3"
@@ -1637,10 +1643,10 @@ onEvent('recipes', event => {
         "item": "thermal:invar_plate"
       },
       "C": {
-        "item": "mekanism:basic_control_circuit"
+        "item": "thermal:obsidian_glass"
       },
       "D": {
-        "item": "thermal:rf_coil"
+        "item": "mekanism:basic_control_circuit"
       }
     },
   )
@@ -1653,10 +1659,10 @@ onEvent('recipes', event => {
       "B": {
         "item": "mekanism:alloy_infused"
       },
-      "C": {
+      "D": {
         "item": "mekanism:basic_control_circuit"
       },
-      "D": {
+      "C": {
         "item": "thermal:invar_plate"
       }
     },
@@ -1695,7 +1701,7 @@ onEvent('recipes', event => {
     [" A ", "ABA", " B "],
     {
       "A": {
-        "item": "thermal:lumium_ingot"
+        "item": "thermal:lumium_coin"
       },
       "B": {
         "item": "thermal:hazmat_fabric"

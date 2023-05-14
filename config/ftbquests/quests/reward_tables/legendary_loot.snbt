@@ -38,7 +38,7 @@
 			}
 		}
 		{ item: "extrastorage:storagepart_256k" }
-		{ item: "mekanism:upgrade_speed", count: 25 }
-		{ item: "thermal:machine_speed_augment", count: 25 }
+		{ item: "mekanism:upgrade_speed", count: 20 }
+		{ item: "thermal:machine_speed_augment", count: 20 }
 	]
 }
