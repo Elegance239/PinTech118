@@ -217,8 +217,8 @@
 				item: "pneumaticcraft:plastic"
 			}]
 			rewards: [{
-				id: "3AB4783723CE0259"
-				type: "random"
+				id: "14D772D41C14DF20"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 5032101358385251555L
 			}]
@@ -290,8 +290,9 @@
 				item: "thermal:invar_ingot"
 			}]
 			rewards: [{
-				id: "7951041FC6270B0E"
+				id: "4033DDD8781A107E"
 				type: "loot"
+				icon: "quark:oak_chest"
 				exclude_from_claim_all: true
 				table_id: 5032101358385251555L
 			}]
@@ -343,7 +344,7 @@
 			}]
 		}
 		{
-			x: -15.0d
+			x: -15.5d
 			y: 0.0d
 			dependencies: ["113B0E1425C52A58"]
 			id: "2C0394FD6F2DE315"

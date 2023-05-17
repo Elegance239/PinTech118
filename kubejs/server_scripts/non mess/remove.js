@@ -263,7 +263,9 @@ let SD = (id) => 'storagedrawers:'+id
         'mekanism:sps_casing',
         'mekanism:advanced_tier_installer',
         'mekanism:elite_tier_installer',
-        'mekanism:solar_neutron_activator'
+        'mekanism:solar_neutron_activator',
+        'thermal:machine_pyrolyzer',
+        'thermal:machine_bottler',
     ]                                               
 
     removeid.forEach(item => {
@@ -332,6 +334,8 @@ let SD = (id) => 'storagedrawers:'+id
         'createchromaticreturn:shadow_essence_recipe',
         'jaopca:thermal_expansion.nugget_to_material.netherite_scrap',
         'jaopca:thermal_expansion.dust_to_material.refined_obsidian',
+        'immersiveengineering:crafting/gunpowder_from_dusts',
+        'createchromaticreturn:cf_to_gp'
     ]
 
     recipeId.forEach(item => {

@@ -10,7 +10,7 @@ onEvent('recipes', event => {
             }
         },
         chemicalInput: {
-            amount: 1,
+            amount: 2,
             gas: "mekanism:sulfuric_acid"
         },
         output: {

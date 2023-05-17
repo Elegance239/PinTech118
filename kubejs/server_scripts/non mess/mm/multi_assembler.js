@@ -203,7 +203,7 @@ onEvent("mm.recipes", event => {
         duration: 200,
         structureId: "namespace:multi_assembler",
         name: {
-            text: "Assembling: Basic Versatile Frame"
+            text: "Assembling: Advanced Versatile Frame"
         },
         inputs: [
             {

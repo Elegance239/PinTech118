@@ -7,15 +7,337 @@
 	icon: "kubejs:superconducting_magnet"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.0d
-		y: 0.0d
-		size: 2.0d
-		id: "14B46BA89E462FEC"
-		tasks: [{
-			id: "2C7F40243AD28580"
-			type: "checkmark"
-		}]
-	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			size: 2.0d
+			id: "14B46BA89E462FEC"
+			tasks: [{
+				id: "2C7F40243AD28580"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: [
+				"024E6EDA89D0BE99"
+				"0AD73A8E646DE463"
+				"0B06454B363D543D"
+			]
+			size: 1.5d
+			id: "78EBEC53C917013F"
+			tasks: [{
+				id: "7153FE1D9987009B"
+				type: "item"
+				item: "kubejs:graphene"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["14B46BA89E462FEC"]
+			id: "024E6EDA89D0BE99"
+			tasks: [{
+				id: "3A0A62D6BF2341AE"
+				type: "item"
+				item: "mm:tesla_infusion_chamber_controller"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			dependencies: [
+				"78EBEC53C917013F"
+				"1B7DF9A449018040"
+			]
+			id: "67174F5D52706A9A"
+			tasks: [{
+				id: "4049AB363AF23D05"
+				type: "item"
+				item: "kubejs:superconductor"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["14B46BA89E462FEC"]
+			id: "1B7DF9A449018040"
+			tasks: [{
+				id: "75BF719C3BE1C4EE"
+				type: "item"
+				item: "thermal:enderium_ingot"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.0d
+			dependencies: ["5AB09D29B7BB78B3"]
+			id: "5CB68060BDD4D1B2"
+			tasks: [{
+				id: "668017F6FD371182"
+				type: "item"
+				item: "kubejs:advanced_component"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.0d
+			dependencies: ["78EBEC53C917013F"]
+			id: "5AB09D29B7BB78B3"
+			tasks: [{
+				id: "3692A90FAF4CC42A"
+				type: "item"
+				item: "kubejs:conductive_polymer"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			dependencies: ["14B46BA89E462FEC"]
+			id: "0AD73A8E646DE463"
+			tasks: [{
+				id: "213C6F34F4FBC8B0"
+				type: "item"
+				item: "immersiveengineering:dust_hop_graphite"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.0d
+			dependencies: [
+				"7CE602CD9D1914C9"
+				"5CB68060BDD4D1B2"
+				"0C3FAF4CDC0653A0"
+			]
+			id: "15016D456CDC89A4"
+			tasks: [{
+				id: "79511313C715A707"
+				type: "item"
+				item: "kubejs:superconducting_magnet"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.0d
+			dependencies: ["67174F5D52706A9A"]
+			id: "0C3FAF4CDC0653A0"
+			tasks: [{
+				id: "29890FE403BEFFAA"
+				type: "item"
+				item: "kubejs:superconducting_wire"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			dependencies: ["14B46BA89E462FEC"]
+			id: "1D6E327CCA27EDCE"
+			tasks: [{
+				id: "2E861223789F4F6D"
+				type: "item"
+				item: "kubejs:pyrotheum"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -4.0d
+			dependencies: ["1D6E327CCA27EDCE"]
+			id: "7CE602CD9D1914C9"
+			tasks: [{
+				id: "7A2E9DB5D0B062E9"
+				type: "item"
+				item: "thermal_extra:polarium_ingot"
+			}]
+		}
+		{
+			title: "Linear Particle Accelerator"
+			x: 16.5d
+			y: -3.0d
+			dependencies: ["15016D456CDC89A4"]
+			size: 3.0d
+			id: "2CEB255ACD9A9675"
+			tasks: [
+				{
+					id: "3F0589847E6E571F"
+					type: "item"
+					item: "mm:linear_particle_accelerator_controller"
+				}
+				{
+					id: "713E969933D43371"
+					type: "item"
+					item: "kubejs:accelerator_frame"
+					count: 772L
+				}
+				{
+					id: "75B35E6930791109"
+					type: "item"
+					item: "kubejs:advanced_modular_framework"
+					count: 40L
+				}
+				{
+					id: "4C86EF580C62BBF3"
+					type: "item"
+					item: "immersiveengineering:coil_lv"
+					count: 225L
+				}
+				{
+					id: "777CB4DBBA2E939A"
+					type: "item"
+					item: "kubejs:particle_collector"
+					count: 9L
+				}
+				{
+					id: "14FA7A4B04A5C2F4"
+					type: "item"
+					item: "kubejs:accelerator_magnet"
+					count: 60L
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: 1.5d
+			dependencies: ["15016D456CDC89A4"]
+			id: "70BB7487C84044FE"
+			tasks: [{
+				id: "2AEEA5C243BC3241"
+				type: "item"
+				item: "mm:nanofabricator_controller"
+			}]
+		}
+		{
+			x: 22.0d
+			y: 1.5d
+			dependencies: ["70BB7487C84044FE"]
+			id: "6B2C533D73ED63B4"
+			tasks: [{
+				id: "49DA5816ACA6703B"
+				type: "item"
+				item: "kubejs:superconducting_circuit"
+			}]
+		}
+		{
+			x: 20.0d
+			y: -2.0d
+			dependencies: ["2CEB255ACD9A9675"]
+			id: "0CF2063410C9706B"
+			tasks: [{
+				id: "05E419ABAFC457FD"
+				type: "item"
+				item: "kubejs:supersymmetric_particles"
+			}]
+		}
+		{
+			x: 20.0d
+			y: -4.0d
+			dependencies: ["2CEB255ACD9A9675"]
+			id: "0312C5060F4004F0"
+			tasks: [{
+				id: "374AF7FC52CBD0B3"
+				type: "item"
+				item: "kubejs:neutronium"
+			}]
+		}
+		{
+			x: 22.0d
+			y: 3.0d
+			dependencies: ["70BB7487C84044FE"]
+			id: "0E5ADB3052470B7F"
+			tasks: [{
+				id: "0F64DBB3C05CB43A"
+				type: "item"
+				item: "kubejs:quantum_cpu_package"
+			}]
+		}
+		{
+			x: 22.0d
+			y: -2.0d
+			dependencies: ["0CF2063410C9706B"]
+			id: "49F9D9BDDC4B4599"
+			tasks: [{
+				id: "6BA5FAE666E4ED8F"
+				type: "item"
+				item: "kubejs:supersymmetric_alloy"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 0.0d
+			dependencies: ["70BB7487C84044FE"]
+			id: "18488B4178CCC100"
+			tasks: [{
+				id: "20EDD157004DB9C0"
+				type: "item"
+				item: "kubejs:ion_trap"
+			}]
+		}
+		{
+			x: 22.0d
+			y: 0.0d
+			dependencies: ["18488B4178CCC100"]
+			id: "1AE94C7BC4C1F7E5"
+			tasks: [{
+				id: "1045A17B143CBC57"
+				type: "item"
+				item: "kubejs:activated_ion_trap"
+			}]
+		}
+		{
+			x: 24.5d
+			y: 0.0d
+			dependencies: [
+				"0E5ADB3052470B7F"
+				"1AE94C7BC4C1F7E5"
+				"49F9D9BDDC4B4599"
+				"6B2C533D73ED63B4"
+			]
+			id: "50A606F1168B657A"
+			tasks: [{
+				id: "0045E848FFA95A57"
+				type: "item"
+				item: "kubejs:quantum_cpu"
+			}]
+		}
+		{
+			x: 29.0d
+			y: 0.0d
+			dependencies: ["50A606F1168B657A"]
+			size: 2.0d
+			id: "16B1E34341FB1F1C"
+			tasks: [{
+				id: "444E8B4B5A7743BB"
+				type: "item"
+				item: "kubejs:quantum_computer"
+			}]
+		}
+		{
+			title: "Sulfuric Acid"
+			icon: {
+				id: "mekanism:creative_chemical_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								gasName: "mekanism:sulfuric_acid"
+								amount: 9223372036854775807L
+							}
+						}]
+					}
+				}
+			}
+			x: 3.5d
+			y: 4.0d
+			dependencies: ["14B46BA89E462FEC"]
+			id: "0B06454B363D543D"
+			tasks: [{
+				id: "111212048DAE9EEC"
+				type: "checkmark"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

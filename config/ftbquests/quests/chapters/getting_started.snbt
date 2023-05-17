@@ -205,8 +205,9 @@
 					count: 5
 				}
 				{
-					id: "33CF775053F65C91"
-					type: "random"
+					id: "69A2DEF6D891E003"
+					type: "loot"
+					icon: "quark:oak_chest"
 					exclude_from_claim_all: true
 					table_id: 5032101358385251555L
 				}

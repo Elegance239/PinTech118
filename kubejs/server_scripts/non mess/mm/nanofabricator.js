@@ -50,7 +50,7 @@ onEvent("mm.recipes", event => {
                 }
             },
             MMIngredient("kubejs:supersymmetric_alloy", 1),
-            MMIngredient("mekanism:elite_control_circuit", 1),
+            MMIngredient("mekanism:elite_control_circuit", 2),
             MMIngredient("kubejs:activated_ion_trap", 4),
             MMIngredient("kubejs:superconducting_circuit", 3),
             MMIngredient("kubejs:quantum_cpu_package", 1),
@@ -279,7 +279,7 @@ onEvent("mm.recipes", event => {
         duration: 100,
         structureId: "namespace:multi_assembler",
         name: {
-            text: "Assembling: Basic Versatile Frame"
+            text: "Assembling: Advanced Versatile Frame"
         },
         inputs: [
             {

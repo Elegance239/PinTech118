@@ -886,10 +886,10 @@ onEvent('recipes', event => {
   event.shaped('kubejs:quantum_computer',
     ["ABA",
       "CDC",
-      "ABA"],
+      "AEA"],
     {
       "A": {
-        "item": "thermal_extra:polarium_plate"
+        "item": "kubejs:advanced_modular_framework"
       },
       "B": {
         "item": "kubejs:conductive_polymer"
@@ -899,6 +899,9 @@ onEvent('recipes', event => {
       },
       "D": {
         "item": "thermal:upgrade_augment_3"
+      },
+      "E": {
+        "item": "kubejs:superconducting_magnet"
       }
     },
   )
@@ -1888,4 +1891,45 @@ onEvent('recipes', event => {
       }
     },
   )
+
+  event.shaped('thermal:machine_pyrolyzer',
+    ["AAA", "ABA", "CDC"],
+    {
+    "A": {
+        "item": "immersiveengineering:cokebrick"
+    },
+    "B": {
+        "item": "thermal:machine_frame"
+    },
+    "C": {
+        "item": "thermal:constantan_gear"
+    },
+    "D": {
+        "item": "immersiveengineering:furnace_heater"
+    }
+},
+)
+event.shaped('thermal:machine_bottler',
+["ABA", "CDC", "EFE"],
+{
+"A": {
+    "item": "thermal:obsidian_glass"
+},
+"B": {
+    "item": "mekanism:basic_fluid_tank"
+},
+"C": {
+    "item": "thermal:steel_plate"
+},
+"D": {
+    "item": "thermal:machine_frame"
+},
+"E": {
+    "item": "createaddition:copper_spool"
+},
+"F": {
+    "item": "thermal:silver_gear"
+}
+},
+)
 })

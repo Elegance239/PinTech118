@@ -22,5 +22,6 @@ onEvent('recipes', event => {
 	event.replaceInput({input:'thermal:slag'}, 'thermal:slag', 'immersiveengineering:slag')
 	event.replaceOutput({output:'thermal:slag'}, 'thermal:slag', 'immersiveengineering:slag')
 	event.replaceInput({id:'pneumaticcraft:flux_compressor'}, 'minecraft:blast_furnace', 'thermal:dynamo_compression')
+	event.replaceInput({id:'thermal:machine_crystallizer'}, 'thermal:invar_plate', 'thermal:signalum_plate')
 
 })	

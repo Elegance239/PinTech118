@@ -267,7 +267,7 @@ onEvent('recipes', event => {
 			"item": 'kubejs:conductive_polymer'
 		  },
 		  {
-			"item": 'extrastorage:neural_processor'
+			"item": 'mekanism:advanced_control_circuit'
 		  },
 		  {
 			"item": 'extrastorage:neural_processor'
