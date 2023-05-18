@@ -20,8 +20,8 @@
 				item: "refinedstorage:controller"
 			}]
 			rewards: [{
-				id: "4A883D93BFF06672"
-				type: "random"
+				id: "4EE3A34F0D7023A6"
+				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 3387967830778867420L
 			}]
@@ -37,6 +37,12 @@
 				type: "item"
 				item: "refinedstorage:crafting_grid"
 			}]
+			rewards: [{
+				id: "31B6FDC70BB085DA"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
+			}]
 		}
 		{
 			x: 2.5d
@@ -48,6 +54,12 @@
 				id: "04C6C8A1A406D4FD"
 				type: "item"
 				item: "refinedstorage:pattern_grid"
+			}]
+			rewards: [{
+				id: "6467B2EA93602B6D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
 			}]
 		}
 		{
@@ -61,6 +73,12 @@
 				type: "item"
 				item: "refinedstorage:fluid_grid"
 			}]
+			rewards: [{
+				id: "38EACB3BF1117043"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
+			}]
 		}
 		{
 			x: -2.5d
@@ -72,6 +90,12 @@
 				id: "733E3C092BB44713"
 				type: "item"
 				item: "refinedstorage:crafting_monitor"
+			}]
+			rewards: [{
+				id: "1CA542BD378BD7FA"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
 			}]
 		}
 		{
@@ -128,6 +152,12 @@
 				type: "item"
 				item: "refinedstorage:external_storage"
 			}]
+			rewards: [{
+				id: "39EA48848AFC4C34"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
+			}]
 		}
 		{
 			title: "Importing and Exporting"
@@ -147,6 +177,12 @@
 					item: "refinedstorage:exporter"
 				}
 			]
+			rewards: [{
+				id: "7468EF3C5E10F2FC"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
+			}]
 		}
 		{
 			title: "Constructor and Destructor"
@@ -166,6 +202,12 @@
 					item: "refinedstorage:destructor"
 				}
 			]
+			rewards: [{
+				id: "4AAA95463BA2AED7"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
+			}]
 		}
 		{
 			x: 2.5d
@@ -176,6 +218,12 @@
 				id: "0C2DF22A4B2DF6E1"
 				type: "item"
 				item: "refinedstorage:detector"
+			}]
+			rewards: [{
+				id: "5773B11CC76A784C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
 			}]
 		}
 		{
@@ -190,6 +238,12 @@
 				type: "item"
 				item: "refinedstorage:crafter"
 			}]
+			rewards: [{
+				id: "55E31223CB29B110"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
+			}]
 		}
 		{
 			x: -2.0d
@@ -201,6 +255,12 @@
 				type: "item"
 				item: "extrastorage:iron_crafter"
 			}]
+			rewards: [{
+				id: "0C67B20521D046B7"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
+			}]
 		}
 		{
 			x: 0.0d
@@ -211,6 +271,12 @@
 				id: "47735A979A028267"
 				type: "item"
 				item: "extrastorage:gold_crafter"
+			}]
+			rewards: [{
+				id: "2DA17246DBCF3761"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
 			}]
 		}
 		{
@@ -245,6 +311,12 @@
 				type: "item"
 				item: "refinedstorage:64k_storage_part"
 			}]
+			rewards: [{
+				id: "0722FAD7EDE5C918"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
+			}]
 		}
 		{
 			x: 3.0d
@@ -256,6 +328,12 @@
 				type: "item"
 				item: "refinedstorage:16k_storage_part"
 			}]
+			rewards: [{
+				id: "31A6F40133B2C31D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
+			}]
 		}
 		{
 			x: -3.0d
@@ -266,6 +344,12 @@
 				id: "422DABD7590F7057"
 				type: "item"
 				item: "refinedstorage:4k_storage_part"
+			}]
+			rewards: [{
+				id: "6AD46E4EDF71737F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
 			}]
 		}
 		{
@@ -281,6 +365,12 @@
 				id: "4587DA777568EA74"
 				type: "item"
 				item: "refinedstorage:1k_storage_part"
+			}]
+			rewards: [{
+				id: "1C30F3D608EDCF87"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
 			}]
 		}
 		{
@@ -343,6 +433,7 @@
 		{
 			x: 0.0d
 			y: -7.5d
+			description: ["Turn your storage parts into storage disks, then insert them into your disk drive and connect it to your RS system."]
 			hide_dependency_lines: true
 			dependencies: ["1220AAF7C4A5FAF6"]
 			id: "17671F4C2552C1E2"
