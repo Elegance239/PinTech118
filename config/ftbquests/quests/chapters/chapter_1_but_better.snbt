@@ -53,7 +53,7 @@
 			]
 		}
 		{
-			x: -17.0d
+			x: -15.5d
 			y: 4.0d
 			dependencies: ["27416E7E118DD7BD"]
 			dependency_requirement: "all_started"
@@ -65,18 +65,38 @@
 			}]
 		}
 		{
-			x: -14.0d
+			title: "Pressure Chamber"
+			x: -11.5d
 			y: 4.0d
+			description: [
+				"This quest only teaches you how to make a basic 3x3 pressure chamber. Optimally, switch to a 5x5 pressure chamber with a lot of volume upgrades and speed upgrades for more optimal results. You can replace the central side blocks with pressure chamber glass to see the operation in action. The interfaces must be placed in opposite directions, which you can configure with a pneumatic wrench. For more information, search up pressure chamber from PNC."
+				"{image:kubejs:textures/item/images/pressure_chamber.png width:75 height:75 align:1}"
+			]
 			dependencies: [
 				"113B0E1425C52A58"
 				"3399B8578002A397"
 			]
+			size: 1.5d
 			id: "430AB2498EB4336A"
-			tasks: [{
-				id: "506918663BB719E7"
-				type: "item"
-				item: "pneumaticcraft:pressure_chamber_wall"
-			}]
+			tasks: [
+				{
+					id: "13A66DF4E0928664"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					count: 23L
+				}
+				{
+					id: "712A32C3771984B2"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+				}
+				{
+					id: "57313CAA0238C213"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					count: 2L
+				}
+			]
 		}
 		{
 			x: -5.5d
@@ -312,8 +332,10 @@
 			}]
 		}
 		{
-			x: -19.0d
+			x: -17.0d
 			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["7F019A11B2FAC654"]
 			id: "27416E7E118DD7BD"
 			tasks: [{
 				id: "722D65485BCB5C25"
@@ -385,6 +407,8 @@
 		{
 			x: -18.5d
 			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["7F019A11B2FAC654"]
 			id: "20F8EA678041A777"
 			tasks: [{
 				id: "4147F7CD53434042"
@@ -395,6 +419,8 @@
 		{
 			x: -18.5d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["7F019A11B2FAC654"]
 			id: "1A5D92BC40DB975A"
 			tasks: [{
 				id: "311C2D8133A0B449"
@@ -779,6 +805,17 @@
 					item: "immersiveengineering:sample_drill"
 				}
 			]
+		}
+		{
+			x: -17.0d
+			y: 2.0d
+			dependencies: ["113B0E1425C52A58"]
+			id: "4FE4E25BF36D701B"
+			tasks: [{
+				id: "0FB3A28041501A68"
+				type: "item"
+				item: "thermal:tin_ingot"
+			}]
 		}
 	]
 	quest_links: [ ]

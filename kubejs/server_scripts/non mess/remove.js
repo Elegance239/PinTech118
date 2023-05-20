@@ -50,6 +50,7 @@ event.remove({input: '#forge:raw_materials', output: '#forge:ores'})
 event.remove({input: 'minecraft:deepslate_gold_ore', output: 'minecraft:gold_nugget'})
 event.remove({input: 'minecraft:deepslate_gold_ore', output: 'minecraft:cobblestone'})
 event.remove({output: '#forge:dusts', mod: 'thermal_extra', type: 'thermal:smelter'})
+event.remove({output: '#forge:plates', input: '#immersiveengineering:tools/hammers', mod: 'immersiveengineering'})
 
 const mekfactory = [
     "compressing","smelting","enriching","crushing","combining","purifying","injecting","infusing","sawing"

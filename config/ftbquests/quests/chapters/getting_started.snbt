@@ -74,9 +74,10 @@
 				item: "minecraft:furnace"
 			}]
 			rewards: [{
-				id: "40A3946A1BD717B2"
+				id: "2A77D3641D8373EC"
 				type: "loot"
 				exclude_from_claim_all: true
+				table_id: 5032101358385251555L
 			}]
 		}
 		{
@@ -241,11 +242,18 @@
 			dependencies: ["638DFC8F928BDF6D"]
 			size: 2.0d
 			id: "3C08C2679E5AF651"
-			tasks: [{
-				id: "4FEC11E7B49BA828"
-				type: "item"
-				item: "create:mechanical_mixer"
-			}]
+			tasks: [
+				{
+					id: "4FEC11E7B49BA828"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "77A796212AFC6CAF"
+					type: "item"
+					item: "create:basin"
+				}
+			]
 			rewards: [{
 				id: "3FD1EDD0BE9FBE04"
 				type: "random"
@@ -323,10 +331,7 @@
 			x: 26.0d
 			y: 3.0d
 			subtitle: "BONK!"
-			dependencies: [
-				"638DFC8F928BDF6D"
-				"1D4222E8AB47DE8A"
-			]
+			dependencies: ["638DFC8F928BDF6D"]
 			size: 2.0d
 			id: "19D287CB9CFBE5F4"
 			tasks: [{
@@ -669,7 +674,7 @@
 			}]
 		}
 		{
-			x: 48.0d
+			x: 49.0d
 			y: 0.0d
 			description: ["When in doubt, ponder."]
 			dependencies: ["4414F50500F81331"]
@@ -688,7 +693,7 @@
 			}]
 		}
 		{
-			x: 51.0d
+			x: 53.0d
 			y: 0.0d
 			description: ["Ponder."]
 			dependencies: ["41C711440563D33E"]
@@ -708,26 +713,14 @@
 			}]
 		}
 		{
-			x: 54.0d
-			y: 0.0d
-			dependencies: ["7D97F95C71567B5F"]
-			size: 2.0d
-			id: "2BD71E0B17790DFB"
-			tasks: [{
-				id: "5246351DDE0CBF9F"
-				type: "item"
-				item: "thermal:tin_ingot"
-			}]
-		}
-		{
 			x: 58.5d
 			y: 0.0d
 			shape: "square"
 			subtitle: "Nabla x E = -dB/dt"
 			description: ["When in doubt, ponder. But this is the last thing you can ponder on. "]
 			dependencies: [
-				"2BD71E0B17790DFB"
 				"08EBCB6CC12D5164"
+				"7D97F95C71567B5F"
 			]
 			size: 3.0d
 			id: "4BDFB30BEB4F3AA2"
@@ -803,9 +796,9 @@
 			size: 1.5d
 			id: "390A0A51A68A04AE"
 			tasks: [{
-				id: "01B9A80C6D7169AE"
-				type: "dimension"
-				dimension: "minecraft:overworld"
+				id: "14148997AE9BF337"
+				type: "checkmark"
+				title: "Tick!"
 			}]
 		}
 		{
@@ -813,6 +806,7 @@
 			x: 29.0d
 			y: -2.0d
 			description: ["One of the special features of this pack is our unique ore generation and processing. At this stage, you can already obtain infinite iron. Check the ore generation quest tab for more."]
+			dependencies: ["19D287CB9CFBE5F4"]
 			size: 2.0d
 			id: "1D4222E8AB47DE8A"
 			tasks: [{

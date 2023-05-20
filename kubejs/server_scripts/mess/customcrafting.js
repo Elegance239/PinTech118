@@ -30,14 +30,13 @@ onEvent('recipes', event => {
 		P:'minecraft:piston'
 	})
 	event.shaped('create:deployer', [
-		'IEI',
+		'I I',
 		'ASA',
 		'IBI'
 	], {
 		A:'create:andesite_casing',
 		S:'create:shaft',
 		I:'#forge:plates/iron',
-		E:'create:electron_tube',
 		B:'create:brass_hand',
 	})
 	event.shaped('create:mechanical_mixer', [
@@ -233,12 +232,11 @@ onEvent('recipes', event => {
 	})
 
 	event.shaped('industrialforegoing:dissolution_chamber', [
-		'SAS',
+		'SSS',
 		'SMS',
 		'SFS',
 	], {
 		S:'thermal:silver_plate',
-		A:'immersiveengineering:component_electronic_adv',
 		M:'industrialforegoing:machine_frame_simple',
 		F:'thermal:machine_refinery'
 	})
@@ -320,9 +318,9 @@ onEvent('recipes', event => {
 		M:'thermal:machine_frame'
 	})
 	event.shaped('mekanism:metallurgic_infuser', [
-		'HFH',
+		'HCH',
 		'RSR',
-		'BCB',
+		'BFB',
 	], {
 		H:'thermal:obsidian_glass',
 		F:'minecraft:blast_furnace',
