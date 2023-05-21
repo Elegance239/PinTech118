@@ -19,11 +19,39 @@
 				type: "checkmark"
 				title: "Welcome to the Utilities Chapter!"
 			}]
-			rewards: [{
-				id: "1001A65B827ED8BA"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "1001A65B827ED8BA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "12854679B2DECF5C"
+					type: "item"
+					item: {
+						id: "apotheosis:potion_charm"
+						Count: 1b
+						tag: {
+							Unbreakable: 1b
+							Damage: 0
+							Potion: "minecraft:strong_regeneration"
+						}
+					}
+				}
+				{
+					id: "69FB2E7269D25EA0"
+					type: "item"
+					item: {
+						id: "apotheosis:potion_charm"
+						Count: 1b
+						tag: {
+							Unbreakable: 1b
+							Damage: 0
+							Potion: "apotheosis:strong_resistance"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: -7.5d

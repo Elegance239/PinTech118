@@ -206,18 +206,30 @@ onEvent('recipes', event => {
 		A:'create:andesite_casing',
 		O:'minecraft:obsidian'
 	})
-	event.shaped('industrialforegoing:machine_frame_simple', [
-		'HAH',
-		'SCS',
-		'FPF',
-	], {
-		H:'thermal:upgrade_augment_1',
-		A:'immersiveengineering:component_electronic_adv',
-		S:'thermal:steel_gear',
-		C:'mekanism:steel_casing',
-		F:'thermal:rf_coil',
-		P:'industrialforegoing:machine_frame_pity',
-	})
+	event.shaped('industrialforegoing:machine_frame_simple', 
+	[
+		  "ABA",
+		  "CDC",
+		  "AEA"
+	],
+		{
+		  "A": {
+			"item": "thermal:tin_plate"
+		  },
+		  "B": {
+			"item": "thermal:rf_coil"
+		  },
+		  "C": {
+			"item": "thermal:upgrade_augment_1"
+		  },
+		  "D": {
+			"item": "mekanism:steel_casing"
+		  },
+		  "E": {
+			"item": "industrialforegoing:machine_frame_pity"
+		  }
+		},
+	)
 	event.shaped('2x industrialforegoing:machine_frame_simple', [
 		'HAH',
 		'SCS',

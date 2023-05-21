@@ -129,9 +129,11 @@
 		{
 			title: "Crude Oil"
 			icon: "immersivepetroleum:crudeoil_bucket"
-			x: -6.5d
-			y: 6.5d
+			x: -7.0d
+			y: 6.0d
 			description: ["There are three mods that introduce crude oil - Pneumaticcraft, Thermal Series, and Immersive Petroleum. Use any one of them to progress."]
+			hide_dependency_lines: true
+			dependencies: ["7F019A11B2FAC654"]
 			id: "546319BFBFC3E092"
 			tasks: [{
 				id: "0920B3057FA0374D"
@@ -197,8 +199,8 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: 9.0d
+			x: -0.5d
+			y: 7.5d
 			id: "13A89048A7A713E0"
 			tasks: [{
 				id: "48CCEF5F02170853"
@@ -510,7 +512,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 10.0d
 			y: 4.0d
 			dependencies: ["7A8F6E809C93FD33"]
 			id: "64CCFF996BCCF28C"
@@ -521,9 +523,9 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 7.5d
 			y: 4.0d
-			dependencies: ["21ED47EF05A0600F"]
+			dependencies: ["5D4B7E4F7CE76556"]
 			id: "7A8F6E809C93FD33"
 			tasks: [
 				{
@@ -617,6 +619,35 @@
 					item: "immersiveengineering:blastbrick_reinforced"
 					count: 27L
 				}
+				{
+					id: "6883A67A5459B045"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					count: 14L
+				}
+				{
+					id: "1EA72DF6CD58EA36"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 8L
+				}
+				{
+					id: "30B6768553A9DF58"
+					type: "item"
+					item: "thermal:steel_block"
+					count: 6L
+				}
+				{
+					id: "429B021B580C7933"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "364B97145555FBF9"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
 			]
 		}
 		{
@@ -638,6 +669,35 @@
 					id: "2C5E2E6BE3A37F5B"
 					type: "item"
 					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "58DAFF074C48EE7F"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "63B4EC9894790CA8"
+					type: "item"
+					item: "immersiveengineering:wooden_barrel"
+					count: 4L
+				}
+				{
+					id: "71CCCE0DE71E9B56"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 3L
+				}
+				{
+					id: "321E01A10A40057C"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 2L
+				}
+				{
+					id: "24201FD6E49EDB6C"
+					type: "item"
+					item: "minecraft:piston"
 				}
 			]
 		}
@@ -777,7 +837,7 @@
 			title: "Pumpjack"
 			icon: "immersivepetroleum:pumpjack"
 			x: -4.5d
-			y: 6.5d
+			y: 6.0d
 			description: ["Use Immersive Petroleum's Pumpjack to gain access to large reservoirs of oil."]
 			dependencies: ["546319BFBFC3E092"]
 			id: "126AC4DF159256E9"
@@ -815,6 +875,17 @@
 				id: "0FB3A28041501A68"
 				type: "item"
 				item: "thermal:tin_ingot"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			dependencies: ["21ED47EF05A0600F"]
+			id: "5D4B7E4F7CE76556"
+			tasks: [{
+				id: "5EE44AA2024AF42C"
+				type: "item"
+				item: "pneumaticcraft:uv_light_box"
 			}]
 		}
 	]

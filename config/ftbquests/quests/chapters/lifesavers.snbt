@@ -1,0 +1,66 @@
+{
+	id: "52DF7976F3429DAC"
+	group: ""
+	order_index: 7
+	filename: "lifesavers"
+	title: "Lifesavers"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: 0.0d
+			description: ["The Morphing Tool allows you to use one tool to mimic all wrench like items in the game. To add wrenches to the tool, simply craft the Morph-o-Tool with the desired wrench, and it will add automatically."]
+			id: "6C79D20D161282BD"
+			tasks: [{
+				id: "37B2568DB97695F4"
+				type: "item"
+				item: "morphtool:tool"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			description: ["The Projector allows you to visualize builds for Immersive Machines. Use this when you need to build the multiblocks."]
+			id: "1B2013C5BDF1FC91"
+			tasks: [{
+				id: "4DBC8F7512B7B3A0"
+				type: "item"
+				item: {
+					id: "immersivepetroleum:projector"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 0
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: ["The Schematicannon allows you to build our Masterful Machinery Structures at the cost of gunpowder. Insert a book into the schematicannon with the schematic loaded to see the ingredients required and whether you've matched them. Put an inventory next to the cannon and put the items inside to insert items."]
+			id: "1DA8B0B98D426946"
+			tasks: [
+				{
+					id: "193266BCDD93CC90"
+					type: "item"
+					item: "create:schematicannon"
+				}
+				{
+					id: "7FF1A4FF2FB53A87"
+					type: "item"
+					item: "create:schematic_table"
+				}
+				{
+					id: "36CD238258C7D760"
+					type: "item"
+					item: "create:empty_schematic"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}
