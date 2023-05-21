@@ -76,5 +76,7 @@ onEvent('recipes', event => {
 	ingotstofluid.forEach(ingot => {
 		event.recipes.thermal.crucible(Fluid.of(ingot[1], 90), ingot[0])
 	})
+
+	event.recipes.thermal.crucible(Fluid.of('tconstruct:molten_glass', 1000), '#forge:glass')
 })
 

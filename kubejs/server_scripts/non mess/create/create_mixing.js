@@ -174,4 +174,9 @@ onEvent('recipes', event => {
 		[Fluid.of('kubejs:waste', 500), Item.of('kubejs:sieve'), Item.of('9x kubejs:impure_gold').withChance(0.7), Item.of('6x kubejs:impure_gold').withChance(0.5), Item.of('3x kubejs:impure_gold').withChance(0.3), Item.of('1x kubejs:impure_gold').withChance(0.1)],
 		[Fluid.of('minecraft:water', 1000), Item.of('kubejs:sieve_with_gold')]	
 	)
+
+	event.recipes.create.mixing(
+		Fluid.of('pneumaticcraft:etching_acid', 1000),
+		[Item.of('2x minecraft:gunpowder'), Item.of('2x minecraft:spider_eye'), Item.of('2x minecraft:rotten_flesh')]
+	)
 })
