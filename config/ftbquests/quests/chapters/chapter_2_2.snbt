@@ -395,6 +395,8 @@
 		{
 			x: 2.5d
 			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["5C6472194AEDF044"]
 			id: "786E503579B51797"
 			tasks: [{
 				id: "43EE91ECCCE52FCF"

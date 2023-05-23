@@ -52,6 +52,7 @@ event.remove({input: 'minecraft:deepslate_gold_ore', output: 'minecraft:cobblest
 event.remove({output: '#forge:dusts', mod: 'thermal_extra', type: 'thermal:smelter'})
 event.remove({output: '#forge:plates', input: '#immersiveengineering:tools/hammers', mod: 'immersiveengineering'})
 event.remove({input: 'mekanism:dust_refined_obsidian', output: 'mekanism:ingot_refined_obsidian'})
+event.remove({input: 'immersiveengineering:raw_aluminum', output: 'immersiveengineering:ingot_aluminum'})
 
 const mekfactory = [
     "compressing","smelting","enriching","crushing","combining","purifying","injecting","infusing","sawing"
@@ -268,6 +269,7 @@ let SD = (id) => 'storagedrawers:'+id
         'mekanism:solar_neutron_activator',
         'thermal:machine_pyrolyzer',
         'thermal:machine_bottler',
+        'industrialforegoing:mob_slaughter_factory',
     ]                                               
 
     removeid.forEach(item => {
@@ -337,7 +339,8 @@ let SD = (id) => 'storagedrawers:'+id
         'jaopca:thermal_expansion.nugget_to_material.netherite_scrap',
         'jaopca:thermal_expansion.dust_to_material.refined_obsidian',
         'immersiveengineering:crafting/gunpowder_from_dusts',
-        'createchromaticreturn:cf_to_gp'
+        'createchromaticreturn:cf_to_gp',
+        'create:splashing/red_sand',
     ]
 
     recipeId.forEach(item => {

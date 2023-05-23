@@ -29,6 +29,7 @@
 		{
 			x: 0.0d
 			y: -2.5d
+			description: ["Crafting, Refined."]
 			hide_dependency_lines: true
 			dependencies: ["1220AAF7C4A5FAF6"]
 			id: "1D81717FC3A43C59"
@@ -47,6 +48,7 @@
 		{
 			x: 2.5d
 			y: 0.0d
+			description: ["Using patterns allow you to set recipes for processing or crafting. This enables you to put them into crafters, which will send items automatically to perform autocrafting."]
 			hide_dependency_lines: true
 			dependencies: ["1220AAF7C4A5FAF6"]
 			id: "28C3FA341165185B"
@@ -65,6 +67,7 @@
 		{
 			x: 0.0d
 			y: 2.5d
+			description: ["Monitor your stockpile of fluids in this grid."]
 			hide_dependency_lines: true
 			dependencies: ["1220AAF7C4A5FAF6"]
 			id: "56819856B4867C2B"
@@ -83,6 +86,7 @@
 		{
 			x: -2.5d
 			y: 0.0d
+			description: ["The Crafting Monitor allows you to inspect the progress of your autocrafting, which helps you debug potential issues in your system."]
 			hide_dependency_lines: true
 			dependencies: ["1220AAF7C4A5FAF6"]
 			id: "5A540E2522F52C0A"
@@ -228,8 +232,8 @@
 		}
 		{
 			title: "Crafter Tier 1"
-			x: -4.0d
-			y: 7.0d
+			x: -8.0d
+			y: -4.0d
 			hide_dependency_lines: true
 			dependencies: ["1220AAF7C4A5FAF6"]
 			id: "299DAF7E3115A6F3"
@@ -246,8 +250,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 7.0d
+			x: -8.0d
+			y: -2.0d
 			dependencies: ["299DAF7E3115A6F3"]
 			id: "5331B7533E5B19BB"
 			tasks: [{
@@ -263,8 +267,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 7.0d
+			x: -8.0d
+			y: 0.0d
 			dependencies: ["5331B7533E5B19BB"]
 			id: "33715B56FC6DEF1D"
 			tasks: [{
@@ -280,8 +284,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 7.0d
+			x: -8.0d
+			y: 2.0d
 			dependencies: ["33715B56FC6DEF1D"]
 			id: "673411F96F202637"
 			tasks: [{
@@ -291,8 +295,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 7.0d
+			x: -8.0d
+			y: 4.0d
 			dependencies: ["673411F96F202637"]
 			id: "513FA6CFFE4EBB1C"
 			tasks: [{
@@ -441,6 +445,188 @@
 				id: "1CA95545BE9109CA"
 				type: "item"
 				item: "refinedstorage:storage_housing"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["1220AAF7C4A5FAF6"]
+			id: "10ED46B9364CF43E"
+			tasks: [{
+				id: "54DA7568987B2EFE"
+				type: "item"
+				item: "refinedstorage:64k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "73A00BB1EAFA4822"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 13.5d
+			dependencies: ["10ED46B9364CF43E"]
+			id: "75FBD7EA5979CE45"
+			tasks: [{
+				id: "2D78F48920C38F21"
+				type: "item"
+				item: "refinedstorage:256k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "06173CF8C818AF98"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 13.5d
+			dependencies: ["75FBD7EA5979CE45"]
+			id: "44DA2688D9E15020"
+			tasks: [{
+				id: "6CDAAF283A297960"
+				type: "item"
+				item: "refinedstorage:1024k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "5A8B35459DF70596"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.5d
+			dependencies: ["44DA2688D9E15020"]
+			id: "163292A24E47BC9A"
+			tasks: [{
+				id: "0929F7AB23417420"
+				type: "item"
+				item: "refinedstorage:4096k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "4711ADDBF29D4596"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3387967830778867420L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 12.0d
+			hide_dependency_lines: true
+			dependencies: ["163292A24E47BC9A"]
+			id: "69A35392A3042957"
+			tasks: [{
+				id: "64FDD3D0E2971FE3"
+				type: "item"
+				item: "extrastorage:storagepart_16384k_fluid"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 9.0d
+			dependencies: ["69A35392A3042957"]
+			id: "6517D6E869D865E2"
+			tasks: [{
+				id: "274F033CD07B5A14"
+				type: "item"
+				item: "extrastorage:storagepart_65536k_fluid"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 9.0d
+			dependencies: ["6517D6E869D865E2"]
+			id: "40A1CFE861605757"
+			tasks: [{
+				id: "5ED67E8C46D793DC"
+				type: "item"
+				item: "extrastorage:storagepart_262144k_fluid"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 12.0d
+			dependencies: ["40A1CFE861605757"]
+			id: "6DFCEED74C483F49"
+			tasks: [{
+				id: "5F8F1FCB6294246B"
+				type: "item"
+				item: "extrastorage:storagepart_1048576k_fluid"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: ["1220AAF7C4A5FAF6"]
+			id: "17E1A6742B303F99"
+			tasks: [{
+				id: "7B57BC04A5ABE1D4"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["1220AAF7C4A5FAF6"]
+			id: "36BD8CCAED12DB7F"
+			tasks: [{
+				id: "53DD05ACA0F2C673"
+				type: "item"
+				item: "refinedstorage:upgrade"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			dependencies: ["36BD8CCAED12DB7F"]
+			id: "2C5B696701392694"
+			tasks: [{
+				id: "076045DC2897ED3B"
+				type: "item"
+				item: "refinedstorage:speed_upgrade"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["36BD8CCAED12DB7F"]
+			id: "56B7895F6CCF19B7"
+			tasks: [{
+				id: "6ADD6D5168C1FAFD"
+				type: "item"
+				item: "refinedstorage:crafting_upgrade"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			dependencies: ["36BD8CCAED12DB7F"]
+			id: "3B4C42A9B379989F"
+			tasks: [{
+				id: "579B77C9BD201E50"
+				type: "item"
+				item: "refinedstorage:stack_upgrade"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.0d
+			dependencies: ["36BD8CCAED12DB7F"]
+			id: "1A0E61A7A05249EC"
+			tasks: [{
+				id: "411B060BF3686B39"
+				type: "item"
+				item: "refinedstorage:range_upgrade"
 			}]
 		}
 	]

@@ -3,7 +3,7 @@
 	group: "1124685941068EBC"
 	order_index: 2
 	filename: "automation"
-	title: "Automation"
+	title: "Extras: Automation"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]

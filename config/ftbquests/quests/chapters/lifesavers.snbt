@@ -61,6 +61,62 @@
 				}
 			]
 		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["A fully configurable text displaying board with incredible capabilities! "]
+			id: "6C43A6A2167AB996"
+			tasks: [
+				{
+					id: "19FDBCAB11378F9C"
+					type: "item"
+					item: "create:display_board"
+				}
+				{
+					id: "7752845D8E09598D"
+					type: "item"
+					item: "create:display_link"
+				}
+			]
+		}
+		{
+			title: "Building Gadgets"
+			x: 2.0d
+			y: 0.0d
+			description: ["Building with mods has never been easier. Set your keybind, and complete builds effortlessly with technology."]
+			id: "19B2BC56951433F5"
+			tasks: [
+				{
+					id: "16ADB1703D5A23C7"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_building"
+						Count: 1b
+						tag: {
+							state: {
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+								data: { }
+							}
+						}
+					}
+				}
+				{
+					id: "125B4B57A55E16B5"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_destruction"
+						Count: 1b
+						tag: {
+							overlay: 1b
+							fuzzy: 1b
+						}
+					}
+				}
+			]
+		}
 	]
 	quest_links: [ ]
 }
