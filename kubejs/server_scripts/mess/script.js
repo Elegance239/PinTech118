@@ -466,7 +466,7 @@ onEvent('recipes', event => {
 		"input": {
 		  "item": "thermal:steel_ingot",
 		},
-		"loss_rate": 55,
+		"loss_rate": 75,
 		"results": [
 		  {
 			"item": "pneumaticcraft:ingot_iron_compressed"

@@ -50,5 +50,10 @@ onEvent('recipes', event => {
 		'kubejs:iron_oxide', 
 		[Fluid.of('mekanism:oxygen', 100), Item.of('thermal:iron_dust')]
 	).energy(2000)
+
+	event.recipes.thermal.bottler(
+		'kubejs:ender_core',
+		[Fluid.of('tconstruct:molten_electrum', 270), Item.of('minecraft:ender_eye')]
+	).energy(2000)
 })
 

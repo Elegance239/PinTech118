@@ -147,4 +147,5 @@ onEvent('item.registry', event => {
 	event.create('diode').displayName('Diode')
 	event.create('gold_drop').displayName('Gold Drop')
 	event.create('mesh').displayName('Mesh')
+	event.create('pressurized_ender_core').displayName('Pressurized Ender Core')
 })

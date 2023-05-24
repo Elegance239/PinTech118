@@ -118,7 +118,7 @@ onEvent('recipes', event => {
 
 	event.recipes.create.mixing(
 		Fluid.of('thermal_extra:vukaium', 500),
-		[Fluid.of('create_enchantment_industry:experience', 1000), Fluid.of('tconstruct:molten_uranium', 90)]
+		[Fluid.of('create_enchantment_industry:experience', 250), Fluid.of('tconstruct:molten_uranium', 90)]
 	)
 
 	event.recipes.create.mixing(

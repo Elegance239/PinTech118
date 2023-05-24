@@ -205,7 +205,7 @@ onEvent("mm.recipes", event => {
         },
         inputs: [
             MMEnergy(200),      
-            MMFluid('create_enchantment_indsutry:experience', 1000),
+            MMFluid('create_enchantment_indsutry:experience', 250),
             MMFluid('tconstruct:molten_uranium', 90),
         ],
         outputs: [

@@ -1152,17 +1152,6 @@
 			}]
 		}
 		{
-			x: 29.5d
-			y: -2.0d
-			dependencies: ["6647DDCD8D3D9BB3"]
-			id: "5533181FC2EA72F5"
-			tasks: [{
-				id: "5AAB1EF130ABE21F"
-				type: "item"
-				item: "thermal:machine_frame"
-			}]
-		}
-		{
 			x: 36.5d
 			y: -6.0d
 			id: "10B7A598CE7DFC65"
@@ -1962,6 +1951,17 @@
 				id: "5672231D4D8149B6"
 				type: "item"
 				item: "advgenerators:turbine_rotor_tier1"
+			}]
+		}
+		{
+			x: 29.5d
+			y: -2.0d
+			dependencies: ["6647DDCD8D3D9BB3"]
+			id: "28B4FB9B5CBE8A41"
+			tasks: [{
+				id: "1EFE56770C12C3DF"
+				type: "item"
+				item: "kubejs:basic_versatile_frame"
 			}]
 		}
 	]

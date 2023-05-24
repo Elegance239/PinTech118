@@ -223,5 +223,26 @@ onEvent("mm.recipes", event => {
             MMIngredient("kubejs:advanced_versatile_frame",2)
         ]
     })
+
+    event.build("mm:pressure_ender_core", {
+        duration: 50,
+        structureId: "namespace:multi_assembler",
+        name: {
+            text: "Assembling: Pressurized Ender Core"
+        },
+        inputs: [
+            {
+                type: "mm:per_tick",
+                ingredient: {
+                    type: "mm:energy",
+                    amount: 500
+                }
+            },
+            MMIngredient('kubejs:ender_core',1),
+        ],
+        outputs: [
+            MMIngredient("kubejs:pressurized_ender_core",1)
+        ]
+    })
 })
 

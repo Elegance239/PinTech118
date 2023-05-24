@@ -270,6 +270,8 @@ let SD = (id) => 'storagedrawers:'+id
         'thermal:machine_pyrolyzer',
         'thermal:machine_bottler',
         'industrialforegoing:mob_slaughter_factory',
+        'fluxnetworks:flux_core',
+        'refinedstorageaddons:wireless_crafting_grid',
     ]                                               
 
     removeid.forEach(item => {

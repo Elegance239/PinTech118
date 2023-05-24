@@ -20,4 +20,9 @@ onEvent('recipes', event => {
 		  }
 	)
 
+	event.recipes.createFilling('kubejs:ender_core', [
+		'minecraft:ender_eye',
+		Fluid.of('tconstruct:molten_electrum', 270)
+	  ])
+
 })

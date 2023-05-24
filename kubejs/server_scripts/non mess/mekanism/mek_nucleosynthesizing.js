@@ -22,4 +22,5 @@ onEvent('recipes', event => {
         )
     }
     nucleosynthesizing(50, 3, 'farmersdelight:milk_bottle', 'minecraft:dragon_breath')
+    nucleosynthesizing(50, 5, 'mekanism:alloy_reinforced', 'mekanism:alloy_atomic')
 })

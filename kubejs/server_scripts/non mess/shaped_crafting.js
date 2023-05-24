@@ -1809,7 +1809,7 @@ onEvent('recipes', event => {
         "item": "ironchest:obsidian_chest"
       },
       "E": {
-        "item": "minecraft:ender_eye"
+        "item": "kubejs:pressurized_ender_core"
       }
     },
   )
@@ -1834,7 +1834,7 @@ onEvent('recipes', event => {
         "item": "mekanism:advanced_fluid_tank"
       },
       "E": {
-        "item": "minecraft:ender_eye"
+        "item": "kubejs:pressurized_ender_core"
       }
     },
 
@@ -1876,13 +1876,13 @@ onEvent('recipes', event => {
     },
   )
 
-  event.shaped('kubejs:sieve', 
-  [
+  event.shaped('kubejs:sieve',
+    [
       "AAA",
       "ABA",
       "AAA"
-  ],
-   {
+    ],
+    {
       "A": {
         "item": "minecraft:oak_planks"
       },
@@ -1895,41 +1895,85 @@ onEvent('recipes', event => {
   event.shaped('thermal:machine_pyrolyzer',
     ["AAA", "ABA", "CDC"],
     {
-    "A": {
+      "A": {
         "item": "immersiveengineering:cokebrick"
-    },
-    "B": {
+      },
+      "B": {
         "item": "thermal:machine_frame"
-    },
-    "C": {
+      },
+      "C": {
         "item": "thermal:constantan_gear"
-    },
-    "D": {
+      },
+      "D": {
         "item": "immersiveengineering:furnace_heater"
-    }
-},
-)
-event.shaped('thermal:machine_bottler',
-["ABA", "CDC", "EFE"],
-{
-"A": {
-    "item": "thermal:obsidian_glass"
-},
-"B": {
-    "item": "mekanism:basic_fluid_tank"
-},
-"C": {
-    "item": "thermal:steel_plate"
-},
-"D": {
-    "item": "thermal:machine_frame"
-},
-"E": {
-    "item": "createaddition:copper_spool"
-},
-"F": {
-    "item": "thermal:silver_gear"
-}
-},
-)
+      }
+    },
+  )
+  event.shaped('thermal:machine_bottler',
+    ["ABA", "CDC", "EFE"],
+    {
+      "A": {
+        "item": "thermal:obsidian_glass"
+      },
+      "B": {
+        "item": "mekanism:basic_fluid_tank"
+      },
+      "C": {
+        "item": "thermal:steel_plate"
+      },
+      "D": {
+        "item": "thermal:machine_frame"
+      },
+      "E": {
+        "item": "createaddition:copper_spool"
+      },
+      "F": {
+        "item": "thermal:silver_gear"
+      }
+    },
+  )
+
+  event.shaped('fluxnetworks:flux_core',
+    [
+      "ABA",
+      "BCB",
+      "ABA"
+    ],
+    {
+      "A": {
+        "item": "fluxnetworks:flux_dust"
+      },
+      "B": {
+        "item": "minecraft:obsidian"
+      },
+      "C": {
+        "item": "kubejs:pressurized_ender_core"
+      }
+    },
+  )
+
+  event.shaped('refinedstorageaddons:wireless_crafting_grid',
+    [
+      "ABA",
+      "CDC",
+      "AEA"
+    ],
+    {
+      "A": {
+        "item": "mekanism:hdpe_sheet"
+      },
+      "B": {
+        "item": "refinedstorage:advanced_processor"
+      },
+      "C": {
+        "item": "mekanism:alloy_reinforced"
+      },
+      "D": {
+        "item": "refinedstorage:crafting_grid"
+      },
+      "E": {
+        "item": "kubejs:pressurized_ender_core"
+      }
+    },
+  )
 })
