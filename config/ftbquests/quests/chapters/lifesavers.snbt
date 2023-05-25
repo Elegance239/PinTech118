@@ -1,7 +1,7 @@
 {
 	id: "52DF7976F3429DAC"
 	group: ""
-	order_index: 7
+	order_index: 9
 	filename: "lifesavers"
 	title: "Lifesavers"
 	default_quest_shape: ""
@@ -116,6 +116,95 @@
 					}
 				}
 			]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			id: "3C83EF9FADCDADA3"
+			tasks: [{
+				id: "23CE9C5456FB324C"
+				type: "item"
+				item: "storagedrawers:drawer_key"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			id: "28DD530736772F32"
+			tasks: [{
+				id: "00C32492C55879AB"
+				type: "item"
+				item: {
+					id: "rftoolsutility:charged_porter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			id: "570509FE4243A191"
+			tasks: [{
+				id: "7E07B89083B60282"
+				type: "item"
+				item: "waystones:warp_scroll"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			id: "0E6A24E5D83325E2"
+			tasks: [{
+				id: "588F2809A1ACFDF9"
+				type: "item"
+				item: "create:redstone_link"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			id: "7A3358885EC7ADBD"
+			tasks: [
+				{
+					id: "66FB1010A9B1B44E"
+					type: "item"
+					item: "rftoolsutility:screen"
+				}
+				{
+					id: "1AF9081549CD79C5"
+					type: "item"
+					item: "rftoolsutility:screen_controller"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			id: "237D020CE2E78BF6"
+			tasks: [{
+				id: "5A52854835CC7766"
+				type: "item"
+				item: {
+					id: "create:extendo_grip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.5d
+			id: "2EBBE57444D0C350"
+			tasks: [{
+				id: "3A82FBC758CA1E10"
+				type: "item"
+				item: "apotheosis:weapon_tome"
+			}]
 		}
 	]
 	quest_links: [ ]

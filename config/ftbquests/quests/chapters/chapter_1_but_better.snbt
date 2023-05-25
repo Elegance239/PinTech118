@@ -9,6 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Chapter 1 Start"
 			x: -20.0d
 			y: 0.0d
 			shape: "gear"

@@ -11,13 +11,16 @@
 			title: "Welcome to the Market!"
 			x: 0.0d
 			y: 0.0d
-			description: ["The Market is the place where you can use your hard-earned chin to buy raw materials, which may or may not aid you in your quest. "]
+			description: [
+				"The Market is the place where you can use your hard-earned NOT chin to buy raw materials, which may or may not aid you in your quest. "
+				"Currency TBD"
+			]
 			size: 2.0d
 			id: "3BB8A98068B70F0C"
 			tasks: [{
-				id: "0FCE1AC16432355F"
+				id: "7F46EE088F96C5A5"
 				type: "item"
-				item: "kubejs:chin_new"
+				item: "thermal_extra:nebulium_coin"
 			}]
 			rewards: [{
 				id: "365B26F4905CEAC1"
@@ -404,6 +407,281 @@
 				type: "item"
 				item: "minecraft:netherrack"
 				count: 64
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			id: "2474D2981E98A614"
+			tasks: [{
+				id: "6D7E2451DC3C8896"
+				type: "item"
+				item: "minecraft:white_concrete_powder"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.0d
+			id: "5E0EC3FF61C7AF93"
+			tasks: [{
+				id: "18DE021E0DDBFC4B"
+				type: "item"
+				item: "minecraft:glass"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			id: "2F10E673A41C6006"
+			tasks: [{
+				id: "00A0E91B237A3275"
+				type: "item"
+				item: "minecraft:deepslate"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			id: "02A8F449C552AED8"
+			tasks: [{
+				id: "561EEBAB3BE78A93"
+				type: "item"
+				item: "minecraft:terracotta"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -5.0d
+			subtitle: "DO NOT DO THESE MANUALLY!!! I will find a way to automate making these quests, these are just ideas"
+			size: 2.0d
+			id: "6892911084143D8C"
+			tasks: [{
+				id: "38C6E18F2D9E4762"
+				type: "item"
+				item: "engineersdecor:sign_caution"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			id: "5469B0193A79CE15"
+			tasks: [{
+				id: "53F88791F6182333"
+				type: "item"
+				item: "quark:iron_plate"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			id: "31F25BC6F450AF3D"
+			tasks: [{
+				id: "57B00797AAB03544"
+				type: "item"
+				item: "immersiveengineering:sheetmetal_colored_white"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			id: "30C01F68C542A79E"
+			tasks: [{
+				id: "494B9D125FF0576A"
+				type: "item"
+				item: "minecraft:bone"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			id: "07458712EE29A84F"
+			tasks: [{
+				id: "76DBA9CC6BF0F48B"
+				type: "item"
+				item: "minecraft:gunpowder"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			id: "72CD2CA4E4308894"
+			tasks: [{
+				id: "71ECA48031C98522"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			id: "020AB3DD7266E120"
+			tasks: [{
+				id: "3B90DA1C1D5637D8"
+				type: "item"
+				item: "minecraft:slime_ball"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			id: "473238290F3AFE67"
+			tasks: [{
+				id: "4735E3EC63C11A59"
+				type: "item"
+				item: "minecraft:string"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			id: "05E227C50BB6A295"
+			tasks: [{
+				id: "6FF501EC1A1BEA94"
+				type: "item"
+				item: "minecraft:glowstone"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			id: "2ACDFAC32081510D"
+			tasks: [{
+				id: "496C808BF9CE7A85"
+				type: "item"
+				item: "minecraft:sea_lantern"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -6.0d
+			id: "653AB455AE875D60"
+			tasks: [{
+				id: "702A0FDB0ED1AAD7"
+				type: "item"
+				item: "minecraft:prismarine"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			id: "76AE3294B3F39DBD"
+			tasks: [{
+				id: "165E183E5F903572"
+				type: "item"
+				item: "minecraft:oak_leaves"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			id: "7E21F06D46AC4822"
+			tasks: [{
+				id: "526905988CE1B95A"
+				type: "item"
+				item: "minecraft:bricks"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			id: "070DF76C81CB6667"
+			tasks: [{
+				id: "2FF9A5DA8F651B3D"
+				type: "item"
+				item: "minecraft:sugar_cane"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			id: "7C569180D9420EF7"
+			tasks: [{
+				id: "167243C3D54A024A"
+				type: "item"
+				item: "minecraft:cactus"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			id: "126604CF01219EB0"
+			tasks: [{
+				id: "33C0E7802E6C1DF6"
+				type: "item"
+				item: "minecraft:ink_sac"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			id: "0D6F515CED21BC23"
+			tasks: [{
+				id: "4F0A1167CC261104"
+				type: "item"
+				item: "thermal:lumium_ingot"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			id: "2F39C54100B0E928"
+			tasks: [{
+				id: "6419A726E6E0EEFC"
+				type: "item"
+				item: "thermal:refined_fuel_bucket"
+			}]
+		}
+		{
+			title: "Late game section"
+			x: -8.0d
+			y: 3.5d
+			subtitle: "Ch3 prereq or something"
+			description: ["everything is super expensive, to keep money relevant even in late game"]
+			id: "0FB0A8BCBC1A9DC6"
+			tasks: [{
+				id: "10BA797D7B61FFD4"
+				type: "item"
+				item: "engineersdecor:sign_caution"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			id: "20C94F961402B1BC"
+			tasks: [{
+				id: "66E312DA9EB2F36A"
+				type: "item"
+				item: "kubejs:modular_machine_framework"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.5d
+			id: "7DFA4B536DCC443D"
+			tasks: [{
+				id: "20AE163730B1DB05"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			id: "6F8C14E9B548CF35"
+			tasks: [{
+				id: "6A0F536A97CE2E14"
+				type: "item"
+				item: "extrastorage:neural_processor"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			id: "66B6F27670D98038"
+			tasks: [{
+				id: "11CC39534D1C3277"
+				type: "item"
+				item: "kubejs:advanced_versatile_frame"
 			}]
 		}
 	]

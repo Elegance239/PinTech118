@@ -1,0 +1,205 @@
+{
+	id: "02E638C85C583749"
+	group: ""
+	order_index: 7
+	filename: "purchase_orders"
+	title: "Purchase Orders"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 3.0d
+			description: [
+				"The new currency is intended to not have a renewable source. It can come from exploration, random rewards, but mainly from here."
+				"These are one-time quests that reward a large amount of this currency, scattered throughout different stages. Rewards are not intended to be balanced (i.e. some are easier than others)"
+				"Quest inputs are consumed."
+				"Values need heavy tweaking, feedback appreciated."
+			]
+			size: 2.0d
+			id: "3851B34CD6FCADE8"
+			tasks: [{
+				id: "47CDDE7293112E3A"
+				type: "item"
+				item: "thermal_extra:nebulium_coin"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			id: "77D11DBF29BCCC68"
+			tasks: [{
+				id: "54DB40DCF9C13A26"
+				type: "item"
+				item: "createaddition:alternator"
+				count: 5L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			id: "48223170BE0DC6B9"
+			tasks: [{
+				id: "22C7C3F6B3E01CB5"
+				type: "item"
+				item: "create:andesite_casing"
+				count: 30L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			id: "6C999B6AA20DEE25"
+			tasks: [{
+				id: "5089349648892BC3"
+				type: "item"
+				item: "thermal:steel_ingot"
+				count: 64L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			id: "2FD519939A811561"
+			tasks: [{
+				id: "4E1B4245967FF549"
+				type: "item"
+				item: "thermal:machine_frame"
+				count: 8L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			id: "2810C774422CAA74"
+			tasks: [{
+				id: "32B7996574E5E25D"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+				count: 5L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			subtitle: "tank"
+			id: "045DAE0F67E65A31"
+			tasks: [{
+				id: "4FA2531FA23099E7"
+				type: "item"
+				item: "pneumaticcraft:lpg_bucket"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			id: "151038F2BD1C3B03"
+			tasks: [{
+				id: "4500F4C23A6ACCD1"
+				type: "item"
+				item: "kubejs:engineering_block_frame"
+				count: 10L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			id: "601552736E04FFCC"
+			tasks: [{
+				id: "2D80C564629F9ACA"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+				count: 16L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			id: "6607A00EA5B946A2"
+			tasks: [{
+				id: "5D20B2DE62B543FF"
+				type: "item"
+				item: "thermal:signalum_ingot"
+				count: 16L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			id: "0EBA60B4C949650C"
+			tasks: [{
+				id: "6C0C2D329FCBF225"
+				type: "item"
+				item: "kubejs:composite_mechanical_component"
+				count: 12L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			id: "2A3DBBDBACB3ED66"
+			tasks: [{
+				id: "4B384179BE725004"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+				count: 8L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			id: "6FB0B447F0440778"
+			tasks: [{
+				id: "4BEF2462A05D20EB"
+				type: "item"
+				item: "mekanism:ingot_osmium"
+				count: 64L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			id: "4B8057B5DF79F64F"
+			tasks: [{
+				id: "31AAA4FF262F1870"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+				count: 2L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			id: "715D34F265C17D45"
+			tasks: [{
+				id: "19752457A4619EAC"
+				type: "item"
+				item: "thermal:enderium_ingot"
+				count: 12L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			id: "5B4987FD1C8A2B55"
+			tasks: [{
+				id: "283B6FAA61FFDF53"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+				count: 64L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			id: "63015FBFE800D0C3"
+			tasks: [{
+				id: "3145947E721B6EEC"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+				count: 20L
+			}]
+		}
+	]
+	quest_links: [ ]
+}
