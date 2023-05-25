@@ -171,6 +171,7 @@
 			}]
 		}
 		{
+			title: "Planks"
 			icon: "minecraft:oak_planks"
 			x: -3.0d
 			y: -7.5d
@@ -682,6 +683,17 @@
 				id: "11CC39534D1C3277"
 				type: "item"
 				item: "kubejs:advanced_versatile_frame"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			id: "10FE8F8F74E24087"
+			tasks: [{
+				id: "37A7525657B7A7FF"
+				type: "item"
+				item: "thermal_extra:polarium_ingot"
+				count: 12L
 			}]
 		}
 	]

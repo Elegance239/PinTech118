@@ -66,9 +66,9 @@ onEvent('block.registry', event => {
 	.textureAll('kubejs:item/gold_combine')
 	.material('metal')
 
-	event.create('basic_versatile_frame').material('metal').hardness(2.0).displayName('Basic Versatile Frame').rarity('uncommon')
+	event.create('basic_versatile_frame').material('metal').hardness(2.0).displayName('Basic Versatile Frame')
 
-	event.create('advanced_versatile_frame').material('metal').hardness(2.0).displayName('Advanced Versatile Frame').rarity('epic')
+	event.create('advanced_versatile_frame').material('metal').hardness(2.0).displayName('Advanced Versatile Frame')
 })
 
 

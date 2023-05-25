@@ -28,7 +28,6 @@
 			title: "Power Starter Pack"
 			x: -4.0d
 			y: -3.5d
-			subtitle: "replace bucket with tank full"
 			dependencies: ["7F019A11B2FAC654"]
 			id: "200D8C4F5DEC5154"
 			tasks: [
@@ -38,9 +37,23 @@
 					item: "thermal:dynamo_compression"
 				}
 				{
-					id: "41E86BBF050077B2"
+					id: "1D4FA1A7758A2DAA"
 					type: "item"
-					item: "thermal:refined_fuel_bucket"
+					item: {
+						id: "mekanism:basic_fluid_tank"
+						Count: 1b
+						tag: {
+							mekData: {
+								FluidTanks: [{
+									Tank: 0b
+									stored: {
+										FluidName: "thermal:refined_fuel"
+										Amount: 32000
+									}
+								}]
+							}
+						}
+					}
 				}
 			]
 		}
@@ -187,20 +200,12 @@
 			x: -2.5d
 			y: -2.0d
 			id: "140658AB7599FD5B"
-			tasks: [
-				{
-					id: "012EFC1E6BD53F88"
-					type: "item"
-					item: "kubejs:basic_versatile_frame"
-					count: 4L
-				}
-				{
-					id: "45360B9A9BA1BA04"
-					type: "item"
-					item: "kubejs:advanced_versatile_frame"
-					count: 2L
-				}
-			]
+			tasks: [{
+				id: "012EFC1E6BD53F88"
+				type: "item"
+				item: "kubejs:basic_versatile_frame"
+				count: 4L
+			}]
 		}
 		{
 			x: -1.0d
@@ -269,6 +274,7 @@
 				id: "17064872CD00447C"
 				type: "item"
 				item: "minecraft:shulker_box"
+				count: 3L
 			}]
 		}
 		{
@@ -318,6 +324,28 @@
 				id: "4351CC87CDD446D1"
 				type: "item"
 				item: "engineersdecor:sign_caution"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.5d
+			id: "4A3181F158148569"
+			tasks: [{
+				id: "686420A63FDBB0F7"
+				type: "item"
+				item: "minecraft:dragon_egg"
+				count: 3L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.0d
+			id: "6B23F2B74D3954E4"
+			tasks: [{
+				id: "521F6FB22F78954E"
+				type: "item"
+				item: "createchromaticreturn:industrium_ingot"
+				count: 5L
 			}]
 		}
 	]

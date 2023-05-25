@@ -27,6 +27,7 @@
 		{
 			x: -2.5d
 			y: -2.0d
+			description: ["Can we reduce this value because no one actually will need 5 alternators?"]
 			id: "77D11DBF29BCCC68"
 			tasks: [{
 				id: "54DB40DCF9C13A26"
@@ -85,9 +86,23 @@
 			subtitle: "tank"
 			id: "045DAE0F67E65A31"
 			tasks: [{
-				id: "4FA2531FA23099E7"
+				id: "2D8A369491BE2671"
 				type: "item"
-				item: "pneumaticcraft:lpg_bucket"
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "pneumaticcraft:lpg"
+									Amount: 32000
+								}
+							}]
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -198,6 +213,58 @@
 				type: "item"
 				item: "industrialforegoing:machine_frame_simple"
 				count: 20L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			id: "5F0E9F4A3DF706AB"
+			tasks: [{
+				id: "464FCC6A4C9AD579"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			id: "4263F4F2390ED33C"
+			tasks: [{
+				id: "1DB8411858C76CC7"
+				type: "item"
+				item: "kubejs:neoclydium_ingot_test"
+				count: 2L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			id: "1B2FC11CBFF847B0"
+			tasks: [{
+				id: "03843DE9738D6B2A"
+				type: "item"
+				item: "kubejs:supersymmetric_alloy"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			id: "1AEAC51706FD9DC0"
+			tasks: [{
+				id: "349E674FF82C8A5D"
+				type: "item"
+				item: "kubejs:quantum_cpu"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			id: "5C024383AFDDC0DE"
+			tasks: [{
+				id: "1F9E2F4BDEE86347"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+				count: 2L
 			}]
 		}
 	]

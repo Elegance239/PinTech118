@@ -179,4 +179,9 @@ onEvent('recipes', event => {
 		Fluid.of('pneumaticcraft:etching_acid', 1000),
 		[Item.of('2x minecraft:gunpowder'), Item.of('2x minecraft:spider_eye'), Item.of('2x minecraft:rotten_flesh')]
 	)
+
+	event.recipes.create.mixing(
+		Item.of('thermal_extra:polarium_ingot'),
+		[Item.of('kubejs:highly_enriched_carbon'), Item.of('mekanism:alloy_reinforced'), Item.of('thermal:nickel_ingot'), Item.of('pneumaticcraft:ingot_iron_compressed')]
+	).superheated()
 })

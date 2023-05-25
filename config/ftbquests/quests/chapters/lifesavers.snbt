@@ -120,6 +120,7 @@
 		{
 			x: -6.0d
 			y: 2.5d
+			description: ["Lock a drawer to control its input even when it is empty - with the drawer key."]
 			id: "3C83EF9FADCDADA3"
 			tasks: [{
 				id: "23CE9C5456FB324C"
@@ -130,22 +131,36 @@
 		{
 			x: -4.0d
 			y: 2.5d
+			description: ["The classic teleportation tool. Place a matter transmitter and matter receiver to teleport yourself to the desired destination."]
 			id: "28DD530736772F32"
-			tasks: [{
-				id: "00C32492C55879AB"
-				type: "item"
-				item: {
-					id: "rftoolsutility:charged_porter"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "00C32492C55879AB"
+					type: "item"
+					item: {
+						id: "rftoolsutility:charged_porter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "55F69EC0DFEE06B0"
+					type: "item"
+					item: "rftoolsutility:matter_transmitter"
+				}
+				{
+					id: "4C465F9BFD59716A"
+					type: "item"
+					item: "rftoolsutility:matter_receiver"
+				}
+			]
 		}
 		{
 			x: -2.0d
 			y: 2.5d
+			description: ["Warp Scrolls are used as a one-time item to teleport the user to specified coordinates. You can crouch click to set the desired coordinates."]
 			id: "570509FE4243A191"
 			tasks: [{
 				id: "7E07B89083B60282"
@@ -156,6 +171,7 @@
 		{
 			x: 0.0d
 			y: 2.5d
+			description: ["Redstone Links are used to send redstone signals wirelessly! Configure the channels by right clicking on them with items in the 1st and 2nd slots. Avoid clashing with others!"]
 			id: "0E6A24E5D83325E2"
 			tasks: [{
 				id: "588F2809A1ACFDF9"
@@ -183,6 +199,7 @@
 		{
 			x: -6.0d
 			y: 4.5d
+			description: ["Your hand is born to be short and small. Don't worry, extend your reach with the extendo grip."]
 			id: "237D020CE2E78BF6"
 			tasks: [{
 				id: "5A52854835CC7766"
@@ -199,11 +216,23 @@
 		{
 			x: -4.0d
 			y: 4.5d
+			description: ["All Apotheosis Tomes are capable of holding enchantments of their respective kind. This can be used as a substitute for books in enchanting."]
 			id: "2EBBE57444D0C350"
 			tasks: [{
 				id: "3A82FBC758CA1E10"
 				type: "item"
 				item: "apotheosis:weapon_tome"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			description: ["A powerful drain to store your XP. Stand on it to convert your XP into liquid experience. Liquid Experience can be stored. Ponder for more information."]
+			id: "5ABD5EB17CD9E402"
+			tasks: [{
+				id: "09145D8BBCB0B7C7"
+				type: "item"
+				item: "create_enchantment_industry:disenchanter"
 			}]
 		}
 	]
