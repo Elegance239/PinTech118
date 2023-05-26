@@ -151,7 +151,7 @@
 			icon: "engineersdecor:factory_dropper"
 			x: 0.0d
 			y: 3.5d
-			description: ["The mod name says it all, it's for engineers. Control+Shift on the items will show you their usages."]
+			description: ["The mod name says it all, it's for engineers. Control+Shift on the items will show you their usages. Again, this is not the whole list. Search up @decor in JEI."]
 			dependencies: ["4A51960978F3CA62"]
 			id: "56F638BB9485E214"
 			tasks: [{
@@ -202,6 +202,64 @@
 				id: "28E7B995FD117945"
 				type: "item"
 				item: "engineersdecor:factory_hopper"
+			}]
+		}
+		{
+			title: "Gauges and Switches"
+			icon: "rsgauges:industrial_lever"
+			x: -4.0d
+			y: 0.0d
+			description: ["Gauges and Switches adds a ton of functionality to redstone and opens up many possibilities for automation. Pressing Control+Shift will give the description for the corresponding switch. Only some are listed here. Search up the whole list by typing in \"@gauge\" in JEI."]
+			dependencies: ["4A51960978F3CA62"]
+			id: "138A9E8A5EE17B4E"
+			tasks: [{
+				id: "797D34790A5A1116"
+				type: "checkmark"
+				title: "Acknowledgement"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			dependencies: ["138A9E8A5EE17B4E"]
+			id: "6F350D0D6834EF24"
+			tasks: [{
+				id: "3FE154CE9B1083EC"
+				type: "item"
+				item: "rsgauges:industrial_lever"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.5d
+			dependencies: ["6F350D0D6834EF24"]
+			id: "60BA3161D0A4401C"
+			tasks: [{
+				id: "5BA4374A8157116B"
+				type: "item"
+				item: "rsgauges:industrial_entity_detector"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 0.0d
+			dependencies: ["6F350D0D6834EF24"]
+			id: "605A40674E55E02F"
+			tasks: [{
+				id: "448748597EC86F7F"
+				type: "item"
+				item: "rsgauges:industrial_interval_timer"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.5d
+			dependencies: ["6F350D0D6834EF24"]
+			id: "64EF6B8E42EDECEE"
+			tasks: [{
+				id: "7E0CD64B9F02440B"
+				type: "item"
+				item: "rsgauges:industrial_day_timer"
 			}]
 		}
 	]
