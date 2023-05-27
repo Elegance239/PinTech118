@@ -1,12 +1,12 @@
 {
-	"item": "minecraft:diamond",
-	"machines": ["custommachinery:power_crusher"],
+	"item": "mekanism:upgrade_speed",
+	"machines": ["custommachinery:blender"],
 	"modifiers": [
 		{
 			"requirement": "custommachinery:speed",
 			"mode": "input",
 			"operation": "multiplication",
-			"modifier": 0.5
+			"modifier": 0.9
 		}
 	]
 }

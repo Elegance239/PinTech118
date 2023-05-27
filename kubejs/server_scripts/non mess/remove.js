@@ -1,7 +1,7 @@
 // priority: 0
 
 onEvent('recipes', event => {
-event.remove({type:'minecraft:smelting', output:'#forge:ingots', not:[{input:"#forge:dusts"},{input:"#forge:raw_materials"}]})
+event.remove({type:'minecraft:smelting', output:'#forge:ingots', not:[{input:"#forge:dusts"},{input:"#forge:raw_materials"}, {output: 'minecraft:brick'}]})
 event.remove({type:'minecraft:blasting', output:'#forge:ingots', not:[{input:"#forge:dusts"},{input:"#forge:raw_materials"}]})
 event.remove({output:'create:electron_tube'})
 event.remove({output:'create:mechanical_press'})

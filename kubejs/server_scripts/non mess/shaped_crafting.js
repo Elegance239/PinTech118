@@ -1393,7 +1393,7 @@ onEvent('recipes', event => {
     },
   )
 
-  event.shaped('mm:blender_controller',
+  event.shaped(Item.of('custommachinery:custom_machine_item', {machine:"custommachinery:blender"}),
     ["ABA", "CDC", "EEE"],
     {
       "A": {
