@@ -4,7 +4,7 @@ onEvent('recipes', event => {
         {
             "type":"mekanism:oxidizing",
             "input":{"ingredient":{"item":"kubejs:chromatic_dust"}},
-            "output":{"amount":1000,"gas":"kubejs:chromatic_gas"}
+            "output":{"amount":2000,"gas":"kubejs:chromatic_gas"}
         }
     )
 

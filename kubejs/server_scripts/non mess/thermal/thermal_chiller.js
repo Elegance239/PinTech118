@@ -47,10 +47,10 @@ onEvent('recipes', event => {
 		energy: 10000
 	})
 
-	event.recipes.thermal.chiller('createchromaticreturn:shadow_steel', [Fluid.of('createchromaticreturn:shadow_essence', 1000), 'thermal:chiller_ingot_cast']).energy(5000).id('thermal:chiller/shadow_steel')
+	event.recipes.thermal.chiller('createchromaticreturn:shadow_steel', [Fluid.of('createchromaticreturn:shadow_essence', 2000), 'thermal:chiller_ingot_cast']).energy(5000).id('thermal:chiller/shadow_steel')
 
-	event.recipes.thermal.chiller('createchromaticreturn:refined_radiance', [Fluid.of('createchromaticreturn:refined_mixture', 1000), 'thermal:chiller_ingot_cast']).energy(5000).id('thermal:chiller/refined_radiance')
+	event.recipes.thermal.chiller('createchromaticreturn:refined_radiance', [Fluid.of('createchromaticreturn:refined_mixture', 2000), 'thermal:chiller_ingot_cast']).energy(5000).id('thermal:chiller/refined_radiance')
 
-	event.recipes.thermal.chiller('createchromaticreturn:chromatic_compound', [Fluid.of('createchromaticreturn:chromatic_mixture', 1000), 'thermal:chiller_ingot_cast']).energy(5000).id('thermal:chiller/chromatic_compound')
+	event.recipes.thermal.chiller('createchromaticreturn:chromatic_compound', [Fluid.of('createchromaticreturn:chromatic_mixture', 2000), 'thermal:chiller_ingot_cast']).energy(5000).id('thermal:chiller/chromatic_compound')
 })
 
