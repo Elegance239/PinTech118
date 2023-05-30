@@ -1,7 +1,7 @@
 {
 	id: "71D9BF693C6A594B"
 	group: "1124685941068EBC"
-	order_index: 0
+	order_index: 1
 	filename: "utilities"
 	title: "Extras: Utilities"
 	default_quest_shape: ""
@@ -11,8 +11,8 @@
 			title: "Welcome to the Storage Chapter!"
 			x: 0.0d
 			y: 0.0d
-			description: ["All your storage solutions can be found in this chapter, ranging from early game to late game."]
-			size: 3.0d
+			description: ["All your utility solutions can be found in this chapter, ranging from early game to late game."]
+			size: 2.0d
 			id: "5D8ABBA7B8FA87EB"
 			tasks: [{
 				id: "4115FEEF02C3ED19"
@@ -26,12 +26,12 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -15.75d
+			title: "Sophisticated Backpacks"
+			x: -7.0d
+			y: -15.0d
 			description: ["Sophisticated Backpacks is the backpack mod for this pack. It is highly configurable and allows you to do a variety of things, not limited to storing items only."]
 			hide_dependency_lines: true
-			dependencies: ["5D8ABBA7B8FA87EB"]
-			size: 1.5d
+			dependencies: ["022A93ACB20B274A"]
 			id: "1EA79DC4EDCC64CA"
 			tasks: [{
 				id: "76A8DEB2309BC8C1"
@@ -40,10 +40,9 @@
 			}]
 		}
 		{
-			x: -3.75d
-			y: -15.75d
+			x: -3.5d
+			y: -15.0d
 			dependencies: ["1EA79DC4EDCC64CA"]
-			size: 1.5d
 			id: "14F0A9A15B805F5B"
 			tasks: [{
 				id: "3D19799EF3876FEC"
@@ -53,9 +52,8 @@
 		}
 		{
 			x: 0.0d
-			y: -15.75d
+			y: -15.0d
 			dependencies: ["14F0A9A15B805F5B"]
-			size: 1.5d
 			id: "0D4B65D29014E5B3"
 			tasks: [{
 				id: "055F9E8F4C69529B"
@@ -64,10 +62,9 @@
 			}]
 		}
 		{
-			x: 3.75d
-			y: -15.75d
+			x: 3.5d
+			y: -15.0d
 			dependencies: ["0D4B65D29014E5B3"]
-			size: 1.5d
 			id: "4D50ADE979985F1F"
 			tasks: [{
 				id: "79F3694A58D773C1"
@@ -76,10 +73,9 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -15.75d
+			x: 7.0d
+			y: -15.0d
 			dependencies: ["4D50ADE979985F1F"]
-			size: 1.5d
 			id: "76E3A0F891472AE8"
 			tasks: [{
 				id: "137C1553EAD2DEC3"
@@ -88,10 +84,9 @@
 			}]
 		}
 		{
-			x: -3.75d
-			y: -12.75d
+			x: -3.5d
+			y: -18.0d
 			dependencies: ["1D66A7F280BB2594"]
-			size: 1.5d
 			id: "16010CBA3EFF3427"
 			tasks: [{
 				id: "41720E198EFEB097"
@@ -101,9 +96,8 @@
 		}
 		{
 			x: 0.0d
-			y: -12.75d
+			y: -18.0d
 			dependencies: ["16010CBA3EFF3427"]
-			size: 1.5d
 			id: "528ED0D84117448F"
 			tasks: [{
 				id: "0403C7AC77EB0278"
@@ -112,10 +106,9 @@
 			}]
 		}
 		{
-			x: 3.75d
-			y: -12.75d
+			x: 3.5d
+			y: -18.0d
 			dependencies: ["528ED0D84117448F"]
-			size: 1.5d
 			id: "6686544A6B519E13"
 			tasks: [{
 				id: "13F8E3D560127417"
@@ -124,10 +117,9 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -12.75d
+			x: 7.0d
+			y: -18.0d
 			dependencies: ["6686544A6B519E13"]
-			size: 1.5d
 			id: "07B560B4A2CE761B"
 			tasks: [{
 				id: "550A17EC4AEB95DF"
@@ -137,10 +129,9 @@
 		}
 		{
 			x: 0.0d
-			y: -9.75d
+			y: -16.5d
 			hide_dependency_lines: true
 			dependencies: ["1D66A7F280BB2594"]
-			size: 1.5d
 			id: "125EEF8308F19D29"
 			tasks: [{
 				id: "234C1CCF786CBD1A"
@@ -149,11 +140,10 @@
 			}]
 		}
 		{
-			x: -3.75d
-			y: -9.75d
+			x: -3.5d
+			y: -16.5d
 			hide_dependency_lines: true
 			dependencies: ["1D66A7F280BB2594"]
-			size: 1.5d
 			id: "772230A0D1C7314E"
 			tasks: [{
 				id: "57B364D20A18F06E"
@@ -162,11 +152,10 @@
 			}]
 		}
 		{
-			x: 3.75d
-			y: -9.75d
+			x: 3.5d
+			y: -16.5d
 			hide_dependency_lines: true
 			dependencies: ["1D66A7F280BB2594"]
-			size: 1.5d
 			id: "55ED1620038AA1BB"
 			tasks: [{
 				id: "4D11445DD6B45607"
@@ -175,10 +164,10 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -12.75d
+			x: -7.0d
+			y: -18.0d
+			description: ["Upgrades! These are not all the upgrades, search @sophisticated in JEI for more!"]
 			dependencies: ["1EA79DC4EDCC64CA"]
-			size: 1.5d
 			id: "1D66A7F280BB2594"
 			tasks: [{
 				id: "61E67B3B66171472"
@@ -187,16 +176,522 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -9.75d
+			x: 7.0d
+			y: -16.5d
 			hide_dependency_lines: true
 			dependencies: ["1D66A7F280BB2594"]
-			size: 1.5d
 			id: "72E9BF40F6022251"
 			tasks: [{
 				id: "2AC140853833A267"
 				type: "item"
 				item: "sophisticatedbackpacks:crafting_upgrade"
+			}]
+		}
+		{
+			title: "Storage"
+			icon: "ironchest:dirt_chest"
+			x: 0.0d
+			y: -5.5d
+			description: ["Our Modpack Features 4 storage solutions: Sophisticated Backpacks, Iron Chests and Storage Drawers and Refined Storage. Refined Storage has an exclusive chapter for it."]
+			dependencies: ["5D8ABBA7B8FA87EB"]
+			id: "022A93ACB20B274A"
+			tasks: [{
+				id: "1F3C9D90C20B5CBD"
+				type: "checkmark"
+				title: "OK"
+			}]
+			rewards: [{
+				id: "3CBC57F79EA0FB8E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Iron Chests"
+			x: -14.0d
+			y: -10.5d
+			hide_dependency_lines: true
+			dependencies: ["022A93ACB20B274A"]
+			id: "4C17A27224DEDB9D"
+			tasks: [{
+				id: "6430C39991DD7D0E"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -10.5d
+			dependencies: ["3F3E110A9115A106"]
+			id: "3FD1DDD99869E967"
+			tasks: [{
+				id: "2E272AB55196B2C9"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -10.5d
+			dependencies: ["4C17A27224DEDB9D"]
+			id: "3F3E110A9115A106"
+			tasks: [{
+				id: "345FA4242108A72F"
+				type: "item"
+				item: "ironchest:copper_chest"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -10.5d
+			dependencies: ["3FD1DDD99869E967"]
+			id: "7878C550A1102C36"
+			tasks: [{
+				id: "0D94AAA559A0166A"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -10.5d
+			dependencies: ["7878C550A1102C36"]
+			id: "1D83054AAD551716"
+			tasks: [{
+				id: "65719C8ABC5F6F51"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -8.5d
+			description: ["Transparency!"]
+			dependencies: ["1D83054AAD551716"]
+			id: "16CF640A74EF1782"
+			tasks: [{
+				id: "655E8C51DDA2061E"
+				type: "item"
+				item: "ironchest:crystal_chest"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -8.5d
+			description: ["Reinforcement!"]
+			dependencies: ["1D83054AAD551716"]
+			id: "5F526C1F808F498E"
+			tasks: [{
+				id: "06801593249F41B2"
+				type: "item"
+				item: "ironchest:obsidian_chest"
+			}]
+		}
+		{
+			title: "Upgrades!"
+			x: -10.0d
+			y: -8.5d
+			description: ["You can craft the corresponding variant of upgrade you need. Just right click your existing chest with the upgrade to upgrade it. No more breaking."]
+			hide_dependency_lines: true
+			dependencies: ["4C17A27224DEDB9D"]
+			id: "4C9743D3862958EA"
+			tasks: [{
+				id: "7973F704FF8A04E3"
+				type: "item"
+				item: "ironchest:iron_to_gold_chest_upgrade"
+			}]
+		}
+		{
+			title: "Storage Drawers"
+			x: 6.0d
+			y: -10.5d
+			description: ["Drawers! The perfect cheap solution to storing items externally with easy input and output. They come in various shapes and sizes, well, not shapes, but size matters, so pick the one you want the most. @drawers in JEI."]
+			hide_dependency_lines: true
+			dependencies: ["022A93ACB20B274A"]
+			id: "09828EEB6C434A19"
+			tasks: [{
+				id: "1C0DB35A293E0751"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -8.5d
+			dependencies: ["09828EEB6C434A19"]
+			id: "5640D79EDD6E08BE"
+			tasks: [{
+				id: "12331F8BEC74453F"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -8.5d
+			dependencies: ["5640D79EDD6E08BE"]
+			id: "26BFBE7E229EB5F4"
+			tasks: [{
+				id: "5A9291FC43D8E5EE"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -8.5d
+			dependencies: ["26BFBE7E229EB5F4"]
+			id: "6C36A493DB9D2375"
+			tasks: [{
+				id: "7BB974FCCAC71DEE"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -8.5d
+			dependencies: ["6C36A493DB9D2375"]
+			id: "4423C8108FC67516"
+			tasks: [{
+				id: "21D82728862B9AE8"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -8.5d
+			dependencies: ["4423C8108FC67516"]
+			id: "5A204C2EFE7BD68D"
+			tasks: [{
+				id: "2CA956B388AE2A8D"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -10.5d
+			dependencies: ["09828EEB6C434A19"]
+			id: "3E35946808E9BD94"
+			tasks: [{
+				id: "01C2AE66A2289A7A"
+				type: "item"
+				item: "storagedrawers:quantify_key"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -10.5d
+			dependencies: ["09828EEB6C434A19"]
+			id: "5C2BA0CCA2955FD4"
+			tasks: [{
+				id: "2F5C242AEF34FB5D"
+				type: "item"
+				item: "storagedrawers:conversion_upgrade"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -10.5d
+			dependencies: ["09828EEB6C434A19"]
+			id: "3231363A8B90A7F8"
+			tasks: [{
+				id: "163C02214696245D"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -10.5d
+			dependencies: ["09828EEB6C434A19"]
+			id: "056DB3A2173FF947"
+			tasks: [{
+				id: "6FA9794B604D9A10"
+				type: "item"
+				item: "storagedrawers:drawer_key"
+			}]
+		}
+		{
+			title: "Decor"
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["5D8ABBA7B8FA87EB"]
+			id: "1C6A6807820194C1"
+			tasks: [{
+				id: "2900EE064C7FEEDC"
+				type: "item"
+				item: "rechiseled:chisel"
+			}]
+		}
+		{
+			title: "Automation"
+			icon: "pneumaticcraft:programmable_controller"
+			x: 0.0d
+			y: 6.0d
+			description: ["Welcome to the Automation Chapter! This chapter will introduce you to the mods we have to offer for all things automation. "]
+			dependencies: ["5D8ABBA7B8FA87EB"]
+			id: "3248719A0AA3B59C"
+			tasks: [{
+				id: "0F39726C902B17DB"
+				type: "checkmark"
+				title: "Acknowledgement"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 16.0d
+			dependencies: ["4F6CB2615429B185"]
+			id: "677FE3C003CF057C"
+			tasks: [{
+				id: "4C6B1BBEBDDC6D1A"
+				type: "item"
+				item: "engineersdecor:factory_dropper"
+			}]
+		}
+		{
+			title: "Engineer's Decor"
+			icon: "engineersdecor:factory_dropper"
+			x: -3.5d
+			y: 14.5d
+			description: ["The mod name says it all, it's for engineers. Control+Shift on the items will show you their usages. Again, this is not the whole list. Search up @decor in JEI."]
+			hide_dependency_lines: true
+			dependencies: ["3248719A0AA3B59C"]
+			id: "4F6CB2615429B185"
+			tasks: [{
+				id: "08869E25654FD95B"
+				type: "checkmark"
+				title: "Acknowledgement"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 16.0d
+			dependencies: ["4F6CB2615429B185"]
+			id: "0343392D4B42D2E4"
+			tasks: [{
+				id: "199C5A6FECE4AD1E"
+				type: "item"
+				item: "engineersdecor:factory_hopper"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 18.0d
+			dependencies: ["4F6CB2615429B185"]
+			id: "5192BE46526DEB6F"
+			tasks: [{
+				id: "1328DAECEB9BA339"
+				type: "item"
+				item: "engineersdecor:factory_placer"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 18.0d
+			dependencies: ["4F6CB2615429B185"]
+			id: "3611F502F29293FC"
+			tasks: [{
+				id: "287B524D2235D099"
+				type: "item"
+				item: "engineersdecor:small_block_breaker"
+			}]
+		}
+		{
+			title: "Gauges and Switches"
+			icon: "rsgauges:industrial_lever"
+			x: -7.0d
+			y: 9.5d
+			description: ["Gauges and Switches adds a ton of functionality to redstone and opens up many possibilities for automation. Pressing Control+Shift will give the description for the corresponding switch. Only some are listed here. Search up the whole list by typing in \"@gauge\" in JEI."]
+			hide_dependency_lines: true
+			dependencies: ["3248719A0AA3B59C"]
+			id: "1343BA1502D88ECB"
+			tasks: [{
+				id: "4721CD412024645D"
+				type: "checkmark"
+				title: "Acknowledgement"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 9.5d
+			dependencies: ["1343BA1502D88ECB"]
+			id: "0BCED9EF5857E426"
+			tasks: [{
+				id: "788057A02A89D947"
+				type: "item"
+				item: "rsgauges:industrial_lever"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 7.0d
+			dependencies: ["1343BA1502D88ECB"]
+			id: "08EE629509E74879"
+			tasks: [{
+				id: "203F19D4D6BAF819"
+				type: "item"
+				item: "rsgauges:industrial_entity_detector"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 9.5d
+			dependencies: ["1343BA1502D88ECB"]
+			id: "471BF6DB05E6D5CA"
+			tasks: [{
+				id: "5453EBCC5E8F0312"
+				type: "item"
+				item: "rsgauges:industrial_interval_timer"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 12.0d
+			dependencies: ["1343BA1502D88ECB"]
+			id: "0EFB52A319F02C1C"
+			tasks: [{
+				id: "2696BA73AFA7FD92"
+				type: "item"
+				item: "rsgauges:industrial_day_timer"
+			}]
+		}
+		{
+			title: "XNet"
+			x: 7.0d
+			y: 9.5d
+			description: ["XNet is one of the most powerful automation mods, allowing you to precisely control inputs, outputs, timing and logic with 8 channels."]
+			hide_dependency_lines: true
+			dependencies: ["3248719A0AA3B59C"]
+			id: "70E83AE9C414DCDC"
+			tasks: [{
+				id: "295E6A4CF0E2A173"
+				type: "item"
+				item: "xnet:controller"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 9.5d
+			description: [
+				"A basic XNet setup is to use two connectors and some cable along with a controller. Remember to supply your controller with energy!"
+				""
+				"{image:kubejs:textures/item/images/xnet.png width:170 height:100 align:1}"
+				""
+				"The chests are just placeholders. You can use any machine, inventory. To configure them, remember to give the connectors names that are easy to remember or identify i.e. Sawmill, and select the desired channel type in the controller: Item/Fluid/Mekanism Gas/Energy/Logic. Then, you can fully configure how you want things to flow."
+			]
+			dependencies: ["70E83AE9C414DCDC"]
+			id: "7BA8865388B54A15"
+			tasks: [
+				{
+					id: "67AED318439530B6"
+					type: "item"
+					item: "xnet:netcable_red"
+					count: 16L
+				}
+				{
+					id: "0DFCC0FEF436F45B"
+					type: "item"
+					item: "xnet:connector_red"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 9.5d
+			description: ["Routers can connect different XNet controllers. This is useful to merge two systems into one. "]
+			dependencies: ["7BA8865388B54A15"]
+			id: "7D39DBB1D6DE27CB"
+			tasks: [
+				{
+					id: "2FE81BA128A8F651"
+					type: "item"
+					item: "xnet:router"
+				}
+				{
+					id: "156CE6F310E3BB57"
+					type: "item"
+					item: "xnet:wireless_router"
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 7.0d
+			description: ["Routing Connectors take into account the channels involved, other than that they are also regular connectors."]
+			dependencies: ["7BA8865388B54A15"]
+			id: "6325C5C72E47705B"
+			tasks: [
+				{
+					id: "191AD19B0F41EB26"
+					type: "item"
+					item: "xnet:connector_routing"
+				}
+				{
+					id: "3509712100C43CA4"
+					type: "item"
+					item: "xnet:advanced_connector_routing"
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 12.0d
+			description: ["Advanced Connectors allow you to control the input side. For instance, if your connector is connecting to the left side of a machine, you can configure in the controller to insert/extract from the right/top/bottom/all sides."]
+			dependencies: ["7BA8865388B54A15"]
+			id: "3DEA1E568B197F70"
+			tasks: [{
+				id: "1F6F6DFC83E0D17E"
+				type: "item"
+				item: "xnet:advanced_connector_red"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 17.0d
+			description: ["Ender Tanks work the same way as ender chests, but they store fluids."]
+			dependencies: ["73DEC5C66B46FD30"]
+			id: "441374B0F20946C2"
+			tasks: [{
+				id: "3B78BFAC568DDFEA"
+				type: "item"
+				item: "enderstorage:ender_tank"
+			}]
+		}
+		{
+			title: "Ender Chests"
+			icon: "minecraft:ender_chest"
+			x: 3.5d
+			y: 14.5d
+			description: ["Ever wanted to transport fluids or items wirelessly? Ender Chests is a mod which allows you to do so precisely. "]
+			hide_dependency_lines: true
+			dependencies: ["3248719A0AA3B59C"]
+			id: "73DEC5C66B46FD30"
+			tasks: [{
+				id: "70E939541F7C8BC1"
+				type: "checkmark"
+				title: "Acknowledgement"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 17.0d
+			description: ["Ender Chests are configurable chests defined by their color code (As you can see, the current one says White/White/White) and can be changed using any color of dye. The resulting color combination is like a portal - Items stored inside this specific color combination will also appear in other chests with the same color code, in short, colored regular ender chests."]
+			dependencies: ["73DEC5C66B46FD30"]
+			id: "4170C992115B713E"
+			tasks: [{
+				id: "2E0D476F0706F164"
+				type: "item"
+				item: "enderstorage:ender_chest"
 			}]
 		}
 	]

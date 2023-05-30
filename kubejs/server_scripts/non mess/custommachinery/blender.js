@@ -69,7 +69,7 @@ onEvent('recipes', event => {
 
     event.recipes.custommachinery.custom_machine("custommachinery:blender", 40)
         .requireEnergyPerTick(200)
-        .requireFluid(Fluid.of("create_enchantment_industry:experience", 50))
+        .requireFluid(Fluid.of("create_enchantment_industry:experience", 500))
         .requireFluid(Fluid.of("tconstruct:molten_uranium", 90))
         .produceFluid(Fluid.of("thermal_extra:vukaium", 500))
 
@@ -86,8 +86,8 @@ onEvent('recipes', event => {
         .requireItem(Item.of("thermal:tar", 3))
         .requireItem(Item.of("minecraft:obsidian", 2))
         .requireItem(Item.of("minecraft:dragon_egg", 1))
-        .requireFluid(Fluid.of("createchromaticreturn:refined_mixture", 5000))
-        .produceFluid(Fluid.of("createchromaticreturn:shadow_essence", 5000))
+        .requireFluid(Fluid.of("createchromaticreturn:refined_mixture", 1000))
+        .produceFluid(Fluid.of("createchromaticreturn:shadow_essence", 1000))
 
     event.recipes.custommachinery.custom_machine("custommachinery:blender", 40)
         .requireEnergyPerTick(200)

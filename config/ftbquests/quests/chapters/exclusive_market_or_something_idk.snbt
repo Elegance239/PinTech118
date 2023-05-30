@@ -84,6 +84,7 @@
 			]
 		}
 		{
+			title: "Beginner's Flight Apparatus"
 			icon: {
 				id: "simplyjetpacks:jetpack_mek1"
 				Count: 1b
@@ -141,6 +142,7 @@
 			}]
 		}
 		{
+			title: "Amateur Storage Parts"
 			icon: "refinedstorage:16k_storage_part"
 			x: -1.0d
 			y: -3.5d
@@ -351,7 +353,7 @@
 			]
 		}
 		{
-			title: "Shulker Box"
+			title: "Portable Storage Package"
 			icon: "minecraft:shulker_box"
 			x: -4.0d
 			y: 3.0d
@@ -431,6 +433,11 @@
 						}
 					}
 				}
+				{
+					id: "7992ADE22FB41538"
+					type: "item"
+					item: "mekanism:chargepad"
+				}
 			]
 		}
 		{
@@ -472,6 +479,7 @@
 			}]
 		}
 		{
+			title: "Cwwwweate"
 			icon: "allthecompressed:dirt_block_9x"
 			x: -5.5d
 			y: -2.0d
