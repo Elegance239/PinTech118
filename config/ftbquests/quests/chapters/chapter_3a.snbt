@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Input: Uranium"
+			title: "Chapter 3A Start"
 			x: -19.0d
 			y: 0.0d
 			description: ["There is no better time for this - You've brought a factory up from the dirt. Do not turn it into waste. Begin your journey in Chapter 3a as you turn the pile of uranium in your storage into refined radioactive materials."]

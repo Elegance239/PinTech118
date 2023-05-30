@@ -22,6 +22,11 @@ onEvent('recipes', event => {
 	event.replaceInput({input:'thermal:slag'}, 'thermal:slag', 'immersiveengineering:slag')
 	event.replaceOutput({output:'thermal:slag'}, 'thermal:slag', 'immersiveengineering:slag')
 	event.replaceInput({id:'pneumaticcraft:flux_compressor'}, 'minecraft:blast_furnace', 'thermal:dynamo_compression')
-	event.replaceInput({id:'thermal:machine_crystallizer'}, 'thermal:invar_plate', 'thermal:signalum_plate')
-
+	event.replaceInput({id:'thermal:machine_crystallizer'},'thermal:signalum_plate','thermal:invar_plate')
+	event.replaceInput({id:'simplyjetpacks:mek/jetpack_mek1'},'mekanism:ingot_osmium','thermal:invar_plate')
+	event.replaceInput({id:'simplyjetpacks:mek/jetpack_mek2'},'mekanism:ingot_osmium','thermal:signalum_plate')
+	event.replaceInput({id:'simplyjetpacks:mek/jetpack_mek3'},'mekanism:ingot_osmium','immersiveengineering:plate_aluminum')
+	event.replaceInput({id:'simplyjetpacks:mek/jetpack_mek4'},'mekanism:ingot_osmium','thermal_extra:polarium_plate')
+	event.replaceInput({id:'simplyjetpacks:mek/jetpack_mek1'},'mekanism:basic_control_circuit','immersiveengineering:component_electronic_adv')
+	event.replaceInput({id:'simplyjetpacks:mek/jetpack_mek4'},'mekanism:ultimate_control_circuit','mekanism:elite_control_circuit')
 })	

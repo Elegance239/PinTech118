@@ -235,6 +235,16 @@
 				item: "create_enchantment_industry:disenchanter"
 			}]
 		}
+		{
+			x: 0.0d
+			y: 4.5d
+			id: "68B39813A07A57D4"
+			tasks: [{
+				id: "3C47216663F00BDF"
+				type: "item"
+				item: "create:brown_toolbox"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

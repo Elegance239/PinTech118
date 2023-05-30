@@ -3,7 +3,8 @@
 	group: ""
 	order_index: 6
 	filename: "exclusive_market_or_something_idk"
-	title: "Exclusive Market (or something idk)"
+	title: "Exclusive Market"
+	icon: "kubejs:chin_new"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -14,7 +15,7 @@
 				"use chin here"
 				"All deals are one time only"
 				"good stuff on top, dumb stuff on bottom"
-				"Varying costs"
+				"For now: players are expected to get 50 chin in total through the whole pack"
 			]
 			size: 2.0d
 			id: "67041AC0F48F9302"
@@ -26,15 +27,24 @@
 		}
 		{
 			title: "Power Starter Pack"
+			icon: "thermal:dynamo_compression"
 			x: -4.0d
 			y: -3.5d
 			dependencies: ["7F019A11B2FAC654"]
 			id: "200D8C4F5DEC5154"
-			tasks: [
+			tasks: [{
+				id: "5C1F32CD5C96D119"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
 				{
 					id: "664345BE9192FF01"
 					type: "item"
 					item: "thermal:dynamo_compression"
+					count: 2
 				}
 				{
 					id: "1D4FA1A7758A2DAA"
@@ -55,78 +65,69 @@
 						}
 					}
 				}
+				{
+					id: "3E9777857AF139C1"
+					type: "item"
+					item: {
+						id: "mekanism:basic_energy_cube"
+						Count: 1b
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "4000000"
+								}]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
+			icon: {
+				id: "simplyjetpacks:jetpack_mek1"
+				Count: 1b
+				tag: { }
+			}
 			x: -2.5d
 			y: -3.5d
+			dependencies: ["7F019A11B2FAC654"]
 			id: "6CF9F24E04E44E44"
 			tasks: [{
-				id: "075603B045703113"
+				id: "05B9B5A19FC0367A"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "64F374FBBE41D51F"
 				type: "item"
 				item: {
-					id: "simplyjetpacks:jetpack_vanilla1"
+					id: "simplyjetpacks:jetpack_mek1"
 					Count: 1b
-					tag: {
-						Energy: 80000
-					}
+					tag: { }
 				}
 			}]
 		}
 		{
+			icon: "farmersdelight:ratatouille"
 			x: -2.5d
 			y: 1.5d
 			id: "7EDFF89B3D979135"
 			tasks: [{
-				id: "62EF15EA985C5C0C"
-				type: "item"
-				item: "farmersdelight:ratatouille"
-				count: 64L
-			}]
-		}
-		{
-			title: "sample out"
-			icon: "minecraft:paper"
-			x: -8.0d
-			y: -3.5d
-			id: "0748A6D6D916860E"
-			tasks: [{
-				id: "5C1F32CD5C96D119"
+				id: "4CCDB7513F022A3B"
 				type: "item"
 				item: "kubejs:chin_new"
+				count: 3L
+				consume_items: true
 			}]
-			rewards: [
-				{
-					id: "7EED241D60984DAD"
-					type: "item"
-					item: "minecraft:paper"
-				}
-				{
-					id: "3E054DBF89EF8AE8"
-					type: "item"
-					item: "minecraft:polished_granite"
-					count: 10
-				}
-			]
-		}
-		{
-			title: "sample in"
-			x: -9.0d
-			y: -3.5d
-			id: "7695D9D13EC3BADA"
-			tasks: [
-				{
-					id: "4248B276493B7452"
-					type: "item"
-					item: "minecraft:paper"
-				}
-				{
-					id: "4552BAA2FE545EE2"
-					type: "item"
-					item: "minecraft:polished_granite"
-					count: 10L
-				}
-			]
+			rewards: [{
+				id: "62EF15EA985C5C0C"
+				type: "item"
+				item: "farmersdelight:roast_chicken"
+				count: 64
+			}]
 		}
 		{
 			title: "ignore these"
@@ -140,78 +141,116 @@
 			}]
 		}
 		{
+			icon: "refinedstorage:16k_storage_part"
 			x: -1.0d
 			y: -3.5d
 			id: "7AD359547E17E36B"
 			tasks: [{
-				id: "1386990B2CE3842F"
+				id: "5755974C36DB0DBC"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "318FEC29FDCCF626"
 				type: "item"
 				item: "refinedstorage:16k_storage_part"
 			}]
 		}
 		{
-			x: 0.5d
-			y: -3.5d
-			id: "6A491B247691B074"
-			tasks: [{
-				id: "366312621C0CE265"
-				type: "item"
-				item: "thermal:lumium_ingot"
-			}]
-		}
-		{
+			title: "Tinker's Selection"
+			icon: "tconstruct:manyullyn_ingot"
 			x: -4.0d
 			y: -2.0d
 			id: "70CF486E6179A2BF"
-			tasks: [
+			tasks: [{
+				id: "6CA711CCEF633A71"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
 				{
 					id: "722DAF1D75854874"
 					type: "item"
 					item: "tconstruct:manyullyn_ingot"
-					count: 4L
+					count: 4
 				}
 				{
 					id: "08730AA3C7AB739C"
 					type: "item"
 					item: "tconstruct:cobalt_ingot"
-					count: 4L
+					count: 4
 				}
 				{
 					id: "58A6F58694E1F274"
 					type: "item"
 					item: "tconstruct:queens_slime_ingot"
-					count: 4L
+					count: 4
 				}
 				{
 					id: "1ED51CB654C148AF"
 					type: "item"
 					item: "tconstruct:hepatizon_ingot"
-					count: 4L
+					count: 4
 				}
 				{
 					id: "5B98EDC4C8466DC7"
 					type: "item"
 					item: "tconstruct:slimesteel_ingot"
-					count: 4L
+					count: 4
 				}
 			]
 		}
 		{
-			x: -2.5d
-			y: -2.0d
-			id: "140658AB7599FD5B"
-			tasks: [{
-				id: "012EFC1E6BD53F88"
-				type: "item"
-				item: "kubejs:basic_versatile_frame"
-				count: 4L
-			}]
-		}
-		{
+			title: "Factory Stimulus Package II"
+			icon: "kubejs:advanced_versatile_frame"
 			x: -1.0d
 			y: -2.0d
+			dependencies: [
+				"3ED57D358176DAC6"
+				"14B46BA89E462FEC"
+			]
+			dependency_requirement: "one_completed"
+			id: "140658AB7599FD5B"
+			tasks: [{
+				id: "0F7C67383C7ADDE7"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "012EFC1E6BD53F88"
+					type: "item"
+					item: "kubejs:basic_versatile_frame"
+					count: 5
+				}
+				{
+					id: "5E04718F58A5C798"
+					type: "item"
+					item: "kubejs:advanced_versatile_frame"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Beaconator"
+			icon: "minecraft:beacon"
+			x: 0.5d
+			y: -3.5d
 			id: "20844B780F8D1AC2"
-			tasks: [
+			tasks: [{
+				id: "2F7F8E899EB18A5B"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
 				{
 					id: "79B6B0D3C933F812"
 					type: "item"
@@ -221,67 +260,130 @@
 					id: "3A41A606E88517B7"
 					type: "item"
 					item: "minecraft:iron_block"
-					count: 9L
+					count: 9
 				}
 			]
 		}
 		{
+			title: "Bees?"
+			icon: "minecraft:bee_spawn_egg"
 			x: -4.0d
 			y: 1.5d
 			id: "0C69A9F1FB8B1BE8"
 			tasks: [{
+				id: "54E14226231313CE"
+				type: "item"
+				item: "kubejs:chin_new"
+				consume_items: true
+			}]
+			rewards: [{
 				id: "364749717BFED06A"
 				type: "item"
 				item: "minecraft:bee_spawn_egg"
+				count: 10
 			}]
 		}
 		{
+			icon: "minecraft:netherite_ingot"
 			x: 0.5d
 			y: -2.0d
+			dependencies: ["5C6472194AEDF044"]
 			id: "7BDC8EE23D5C3E37"
 			tasks: [{
+				id: "594E3C476EC95463"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
 				id: "044E7F00C10CC6C4"
 				type: "item"
 				item: "minecraft:netherite_ingot"
+				count: 4
 			}]
 		}
 		{
+			title: "Shiny Cube"
+			icon: "minecraft:diamond_block"
 			x: -1.0d
 			y: 1.5d
 			id: "0C105483551CA33C"
 			tasks: [{
+				id: "6598BCF5AC615C0F"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
 				id: "2CF6E867A756B08C"
 				type: "item"
 				item: "minecraft:diamond_block"
 			}]
 		}
 		{
+			title: "WMD"
+			icon: "minecraft:tnt"
 			x: 0.5d
 			y: 1.5d
 			id: "73C47E89F7218F08"
 			tasks: [{
-				id: "31C78210E213CE29"
+				id: "094B5D66545D780E"
 				type: "item"
-				item: "minecraft:tnt"
-				count: 30L
+				item: "kubejs:chin_new"
+				count: 2L
+				consume_items: true
 			}]
+			rewards: [
+				{
+					id: "31C78210E213CE29"
+					type: "item"
+					item: "minecraft:tnt"
+					count: 30
+				}
+				{
+					id: "48D6FC9B298FDE77"
+					type: "item"
+					item: "thermal:explosive_grenade"
+					count: 20
+				}
+			]
 		}
 		{
+			title: "Shulker Box"
+			icon: "minecraft:shulker_box"
 			x: -4.0d
 			y: 3.0d
 			id: "662A57FA6C1AB021"
 			tasks: [{
+				id: "0342E23453733E32"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
 				id: "17064872CD00447C"
 				type: "item"
 				item: "minecraft:shulker_box"
-				count: 3L
+				count: 3
 			}]
 		}
 		{
+			title: "Enchanting Starter Kit"
+			icon: "minecraft:enchanting_table"
 			x: -2.5d
 			y: 3.0d
 			id: "7CC82A3E70044F51"
-			tasks: [
+			tasks: [{
+				id: "26DC28855C7B4718"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
 				{
 					id: "0B3E0792470C1BAF"
 					type: "item"
@@ -291,61 +393,338 @@
 					id: "644602CAEDAE31D2"
 					type: "item"
 					item: "minecraft:bookshelf"
-					count: 5L
+					count: 5
 				}
 			]
 		}
 		{
+			title: "Fren :)"
+			icon: "mekanism:robit"
 			x: -1.0d
 			y: 3.0d
 			id: "2C7ADFAC55D355CC"
 			tasks: [{
-				id: "38C1AD12E9EE9115"
+				id: "37D45A2E624CF1BF"
 				type: "item"
-				item: "mekanism:robit"
+				item: "kubejs:chin_new"
+				consume_items: true
 			}]
+			rewards: [
+				{
+					id: "38C1AD12E9EE9115"
+					type: "item"
+					item: "mekanism:robit"
+				}
+				{
+					id: "7AC8D64D78AE704B"
+					type: "item"
+					item: {
+						id: "mekanism:energy_tablet"
+						Count: 1b
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "1000000"
+								}]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
+			title: "387420489 dirt"
+			icon: "allthecompressed:dirt_block_9x"
 			x: 0.5d
 			y: 3.0d
 			id: "4E2BD7AF22A8DB1C"
 			tasks: [{
+				id: "492565F4941F6B9C"
+				type: "item"
+				item: "kubejs:chin_new"
+				consume_items: true
+			}]
+			rewards: [{
 				id: "6434F2F8DD899120"
 				type: "item"
 				item: "allthecompressed:dirt_block_9x"
 			}]
 		}
 		{
-			x: -1.5d
-			y: 0.0d
-			subtitle: "Feel free to add more, simply create a quest normally, with the reward as the input, and I will change the input to output later all at once"
-			id: "1A0CFDBCEF6C02C5"
-			tasks: [{
-				id: "4351CC87CDD446D1"
-				type: "item"
-				item: "engineersdecor:sign_caution"
-			}]
-		}
-		{
+			title: "Egggggggggg"
+			icon: "minecraft:dragon_egg"
 			x: -5.5d
 			y: -3.5d
 			id: "4A3181F158148569"
 			tasks: [{
+				id: "45CA3C529A16E895"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
 				id: "686420A63FDBB0F7"
 				type: "item"
 				item: "minecraft:dragon_egg"
-				count: 3L
+				count: 3
 			}]
 		}
 		{
+			icon: "allthecompressed:dirt_block_9x"
 			x: -5.5d
 			y: -2.0d
 			id: "6B23F2B74D3954E4"
 			tasks: [{
+				id: "7AD450304B22AE7D"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
 				id: "521F6FB22F78954E"
 				type: "item"
 				item: "createchromaticreturn:industrium_ingot"
-				count: 5L
+				count: 5
+			}]
+		}
+		{
+			title: "Morphing Tool (Includes All)"
+			icon: "morphtool:tool"
+			x: 2.0d
+			y: 1.5d
+			id: "23CA064A9DE30D65"
+			tasks: [{
+				id: "10DF619B97F33713"
+				type: "item"
+				item: "kubejs:chin_new"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "60C042D81F7AF069"
+				type: "item"
+				item: {
+					id: "morphtool:tool"
+					Count: 1b
+					tag: {
+						"morphtool:data": {
+							mekanism: {
+								Count: 1b
+								id: "mekanism:configurator"
+								tag: {
+									mekData: {
+										EnergyContainers: [{
+											Container: 0b
+											stored: "60000"
+										}]
+									}
+								}
+							}
+							pneumaticcraft: {
+								Count: 1b
+								id: "pneumaticcraft:pneumatic_wrench"
+								tag: {
+									"pneumaticcraft:air": 30000
+								}
+							}
+							pipez: {
+								Count: 1b
+								id: "pipez:wrench"
+							}
+							thermal: {
+								Count: 1b
+								id: "thermal:wrench"
+							}
+							create: {
+								Count: 1b
+								id: "create:wrench"
+							}
+							rftoolsbase: {
+								Count: 1b
+								id: "rftoolsbase:smartwrench"
+							}
+							refinedstorage: {
+								Count: 1b
+								id: "refinedstorage:wrench"
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Factory Stimulus Package I"
+			icon: "kubejs:basic_versatile_frame"
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["7F019A11B2FAC654"]
+			id: "2E0C9794E2597EF9"
+			tasks: [{
+				id: "0BAC6A69E627273B"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0EB97B89EC53B6D8"
+				type: "item"
+				item: "kubejs:basic_versatile_frame"
+				count: 2
+			}]
+		}
+		{
+			icon: "createchromaticreturn:radiant_glow_saber"
+			x: 0.0d
+			y: 4.5d
+			id: "2EB00B7B110D7911"
+			tasks: [{
+				id: "3650D905BD702DBA"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "22064FCB1AFB86B0"
+				type: "item"
+				item: "createchromaticreturn:radiant_glow_saber"
+			}]
+		}
+		{
+			icon: {
+				id: "immersiveengineering:railgun"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 3
+						Items: [ ]
+					}
+				}
+			}
+			x: -1.5d
+			y: 4.5d
+			id: "6571F8169023D883"
+			tasks: [{
+				id: "3CD856D0DA285B89"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7921DE4FA9EEFE0F"
+					type: "item"
+					item: {
+						id: "immersiveengineering:railgun"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 3
+								Items: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3AAC74D52B9F4D55"
+					type: "item"
+					item: "immersiveengineering:stick_steel"
+					count: 20
+				}
+			]
+		}
+		{
+			icon: {
+				id: "immersiveengineering:revolver"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 21
+						Items: [ ]
+					}
+				}
+			}
+			x: -3.0d
+			y: 4.5d
+			id: "70BF269E51656E0F"
+			tasks: [{
+				id: "3603AC84E73E38E2"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "69E529AF1AB1D49B"
+					type: "item"
+					item: {
+						id: "immersiveengineering:revolver"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 21
+								Items: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "761F9C05549DFF5E"
+					type: "item"
+					item: "immersiveengineering:casull"
+					count: 8
+				}
+			]
+		}
+		{
+			icon: {
+				id: "mekanism:flamethrower"
+				Count: 1b
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								gasName: "mekanism:hydrogen"
+								amount: 24000L
+							}
+						}]
+					}
+				}
+			}
+			x: 1.5d
+			y: 4.5d
+			id: "5B294EEBA8E0B8D6"
+			tasks: [{
+				id: "7141A91CA67D6320"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "32017ADDFDC65683"
+				type: "item"
+				item: {
+					id: "mekanism:flamethrower"
+					Count: 1b
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									gasName: "mekanism:hydrogen"
+									amount: 24000L
+								}
+							}]
+						}
+					}
+				}
 			}]
 		}
 	]

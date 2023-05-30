@@ -14,7 +14,7 @@ onEvent('recipes', event => {
 		
 		],
 
-		energy: 20000
+		energy: 2000
 	})
 	event.custom({
 		type: 'thermal:crystallizer',
@@ -24,12 +24,12 @@ onEvent('recipes', event => {
 			{ tag: 'forge:dusts/quartz', count:1}
 		],
 		results: [
-            { item: 'kubejs:impure_quartz_crystal', count:4},
+            { item: 'kubejs:impure_quartz_crystal', count:5},
 
 		
 		],
 
-		energy: 20000
+		energy: 15000
 	})
 	/*
 	event.custom({

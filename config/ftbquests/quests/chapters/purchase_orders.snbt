@@ -35,6 +35,11 @@
 				item: "createaddition:alternator"
 				count: 5L
 			}]
+			rewards: [{
+				id: "3C37566B726B36F5"
+				type: "item"
+				item: "thermal:copper_coin"
+			}]
 		}
 		{
 			x: -4.0d
@@ -45,6 +50,11 @@
 				type: "item"
 				item: "create:andesite_casing"
 				count: 30L
+			}]
+			rewards: [{
+				id: "30FFE28F2F2D6702"
+				type: "item"
+				item: "thermal:copper_coin"
 			}]
 		}
 		{
@@ -57,6 +67,11 @@
 				item: "thermal:steel_ingot"
 				count: 64L
 			}]
+			rewards: [{
+				id: "5D162BB87E3231BD"
+				type: "item"
+				item: "thermal:copper_coin"
+			}]
 		}
 		{
 			x: 0.5d
@@ -68,6 +83,11 @@
 				item: "thermal:machine_frame"
 				count: 8L
 			}]
+			rewards: [{
+				id: "00D87B717882D942"
+				type: "item"
+				item: "thermal:copper_coin"
+			}]
 		}
 		{
 			x: 2.0d
@@ -78,6 +98,11 @@
 				type: "item"
 				item: "industrialforegoing:machine_frame_simple"
 				count: 5L
+			}]
+			rewards: [{
+				id: "03FF2C41C4B1E518"
+				type: "item"
+				item: "thermal:copper_coin"
 			}]
 		}
 		{
@@ -104,6 +129,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "55083E28705B3AD2"
+				type: "item"
+				item: "thermal:copper_coin"
+			}]
 		}
 		{
 			x: 5.0d
@@ -114,6 +144,11 @@
 				type: "item"
 				item: "kubejs:engineering_block_frame"
 				count: 10L
+			}]
+			rewards: [{
+				id: "4B07F173693475A8"
+				type: "item"
+				item: "thermal:copper_coin"
 			}]
 		}
 		{
@@ -137,6 +172,11 @@
 				item: "thermal:signalum_ingot"
 				count: 16L
 			}]
+			rewards: [{
+				id: "5B6214471892D4B5"
+				type: "item"
+				item: "thermal:copper_coin"
+			}]
 		}
 		{
 			x: -4.0d
@@ -147,6 +187,11 @@
 				type: "item"
 				item: "kubejs:composite_mechanical_component"
 				count: 12L
+			}]
+			rewards: [{
+				id: "24078E444D162D27"
+				type: "item"
+				item: "thermal:copper_coin"
 			}]
 		}
 		{
@@ -159,6 +204,11 @@
 				item: "mekanism:elite_control_circuit"
 				count: 8L
 			}]
+			rewards: [{
+				id: "4D5C93804BAE2E2D"
+				type: "item"
+				item: "thermal:copper_coin"
+			}]
 		}
 		{
 			x: -1.0d
@@ -169,6 +219,11 @@
 				type: "item"
 				item: "mekanism:ingot_osmium"
 				count: 64L
+			}]
+			rewards: [{
+				id: "3FDF60EC2910B7A4"
+				type: "item"
+				item: "thermal:copper_coin"
 			}]
 		}
 		{
@@ -181,6 +236,11 @@
 				item: "industrialforegoing:machine_frame_advanced"
 				count: 2L
 			}]
+			rewards: [{
+				id: "689C06C6EE3D4A43"
+				type: "item"
+				item: "thermal:copper_coin"
+			}]
 		}
 		{
 			x: 2.0d
@@ -191,6 +251,11 @@
 				type: "item"
 				item: "thermal:enderium_ingot"
 				count: 12L
+			}]
+			rewards: [{
+				id: "0C31C78A3398F3D8"
+				type: "item"
+				item: "thermal:copper_coin"
 			}]
 		}
 		{
@@ -224,6 +289,11 @@
 				type: "item"
 				item: "mekanism:pellet_antimatter"
 			}]
+			rewards: [{
+				id: "79035256ADC393AC"
+				type: "item"
+				item: "thermal:copper_coin"
+			}]
 		}
 		{
 			x: 3.5d
@@ -235,6 +305,11 @@
 				item: "kubejs:neoclydium_ingot_test"
 				count: 2L
 			}]
+			rewards: [{
+				id: "096D10DD7F655509"
+				type: "item"
+				item: "thermal:copper_coin"
+			}]
 		}
 		{
 			x: 6.5d
@@ -244,6 +319,11 @@
 				id: "03843DE9738D6B2A"
 				type: "item"
 				item: "kubejs:supersymmetric_alloy"
+			}]
+			rewards: [{
+				id: "155D06E02EA5EC3F"
+				type: "item"
+				item: "thermal:copper_coin"
 			}]
 		}
 		{
@@ -255,6 +335,11 @@
 				type: "item"
 				item: "kubejs:quantum_cpu"
 			}]
+			rewards: [{
+				id: "4647B6938DC5B2B2"
+				type: "item"
+				item: "thermal:copper_coin"
+			}]
 		}
 		{
 			x: -4.0d
@@ -265,6 +350,33 @@
 				type: "item"
 				item: "mekanism:ultimate_control_circuit"
 				count: 2L
+			}]
+			rewards: [{
+				id: "0DA84DE6E3FBE34F"
+				type: "item"
+				item: "thermal:copper_coin"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.0d
+			id: "5A320EFBBC99B877"
+			tasks: [{
+				id: "369D2EE29EA4619F"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 1000L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			id: "6B31E2FE4AB29E12"
+			tasks: [{
+				id: "723E4FFA60345E8C"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				count: 1000L
 			}]
 		}
 	]

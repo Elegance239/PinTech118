@@ -4,6 +4,7 @@
 	order_index: 5
 	filename: "market"
 	title: "Market"
+	icon: "thermal:copper_coin"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -20,7 +21,7 @@
 			tasks: [{
 				id: "7F46EE088F96C5A5"
 				type: "item"
-				item: "thermal_extra:nebulium_coin"
+				item: "thermal:copper_coin"
 			}]
 			rewards: [{
 				id: "365B26F4905CEAC1"
@@ -38,7 +39,7 @@
 			tasks: [{
 				id: "47D7F7CBE6CA0C1D"
 				type: "item"
-				item: "kubejs:chin_new"
+				item: "thermal:copper_coin"
 			}]
 			rewards: [{
 				id: "293A39D9241E982F"
@@ -57,7 +58,7 @@
 			tasks: [{
 				id: "754A476BC580A8BE"
 				type: "item"
-				item: "kubejs:chin_new"
+				item: "thermal:copper_coin"
 			}]
 			rewards: [{
 				id: "5D6D8B98598ABBF3"
@@ -76,7 +77,7 @@
 			tasks: [{
 				id: "4C8F05685B6DB265"
 				type: "item"
-				item: "kubejs:chin_new"
+				item: "thermal:copper_coin"
 			}]
 			rewards: [{
 				id: "655EE1575714E2EC"
@@ -95,7 +96,7 @@
 			tasks: [{
 				id: "6752F3156200ECDC"
 				type: "item"
-				item: "kubejs:chin_new"
+				item: "thermal:copper_coin"
 			}]
 			rewards: [{
 				id: "03AFA270DC128B2B"
@@ -114,7 +115,7 @@
 			tasks: [{
 				id: "0D2E706AC4D93D18"
 				type: "item"
-				item: "kubejs:chin_new"
+				item: "thermal:copper_coin"
 			}]
 			rewards: [{
 				id: "577BBD92C612B3D7"
@@ -133,7 +134,7 @@
 			tasks: [{
 				id: "72DE5EA040D643CA"
 				type: "item"
-				item: "kubejs:chin_new"
+				item: "thermal:copper_coin"
 			}]
 			rewards: [
 				{
@@ -160,8 +161,8 @@
 			tasks: [{
 				id: "7BCEDDBC863AF05B"
 				type: "item"
-				icon: "kubejs:chin_new"
-				item: "kubejs:chin_new"
+				icon: "thermal:copper_coin"
+				item: "thermal:copper_coin"
 			}]
 			rewards: [{
 				id: "586FFF30F11973B3"
@@ -179,7 +180,7 @@
 			tasks: [{
 				id: "5E172741D5BA2628"
 				type: "item"
-				item: "kubejs:chin_new"
+				item: "thermal:copper_coin"
 			}]
 			rewards: [
 				{
@@ -206,7 +207,7 @@
 			tasks: [{
 				id: "6D63905C1B9A995D"
 				type: "item"
-				item: "kubejs:chin_new"
+				item: "thermal:copper_coin"
 			}]
 			rewards: [{
 				id: "3136B37002DDDD0D"
@@ -225,7 +226,7 @@
 			tasks: [{
 				id: "1AFC3E10DB83EC08"
 				type: "item"
-				item: "kubejs:chin_new"
+				item: "thermal:copper_coin"
 			}]
 			rewards: [
 				{
@@ -252,7 +253,7 @@
 			tasks: [{
 				id: "51F0FFFEDC53B03F"
 				type: "item"
-				item: "kubejs:chin_new"
+				item: "thermal:copper_coin"
 			}]
 			rewards: [{
 				id: "097344AFFD27DB54"
@@ -271,7 +272,7 @@
 			tasks: [{
 				id: "1D76ACAA5C5C9B87"
 				type: "item"
-				item: "kubejs:chin_new"
+				item: "thermal:copper_coin"
 			}]
 			rewards: [
 				{
@@ -298,7 +299,7 @@
 			tasks: [{
 				id: "0944FAF1B973237C"
 				type: "item"
-				item: "kubejs:chin_new"
+				item: "thermal:copper_coin"
 			}]
 			rewards: [{
 				id: "7E0DDC567F00CEF1"
@@ -317,7 +318,7 @@
 			tasks: [{
 				id: "166A9DC47FBF3D48"
 				type: "item"
-				item: "kubejs:chin_new"
+				item: "thermal:copper_coin"
 			}]
 			rewards: [
 				{
@@ -344,7 +345,7 @@
 			tasks: [{
 				id: "3C49BAAA141194C3"
 				type: "item"
-				item: "kubejs:chin_new"
+				item: "thermal:copper_coin"
 			}]
 			rewards: [{
 				id: "6E2A58E0F83837E7"
@@ -363,7 +364,7 @@
 			tasks: [{
 				id: "432B888F11A6A092"
 				type: "item"
-				item: "kubejs:chin_new"
+				item: "thermal:copper_coin"
 			}]
 			rewards: [{
 				id: "009EFF8EE66B59C4"
@@ -382,7 +383,7 @@
 			tasks: [{
 				id: "5CB403D95ED91FEE"
 				type: "item"
-				item: "kubejs:chin_new"
+				item: "thermal:copper_coin"
 			}]
 			rewards: [{
 				id: "4A49C5F84983A576"
@@ -401,7 +402,7 @@
 			tasks: [{
 				id: "0A36DA4024537BC8"
 				type: "item"
-				item: "kubejs:chin_new"
+				item: "thermal:copper_coin"
 			}]
 			rewards: [{
 				id: "6540CB035804474E"
@@ -463,163 +464,322 @@
 			}]
 		}
 		{
+			title: "Iron Plate"
+			icon: "quark:iron_plate"
 			x: 0.0d
 			y: -5.0d
+			can_repeat: true
 			id: "5469B0193A79CE15"
 			tasks: [{
 				id: "53F88791F6182333"
 				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "44006EBC2D85B316"
+				type: "item"
 				item: "quark:iron_plate"
+				count: 64
 			}]
 		}
 		{
+			title: "Sheetmetal"
+			icon: "immersiveengineering:sheetmetal_colored_white"
 			x: 1.5d
 			y: -5.0d
+			can_repeat: true
 			id: "31F25BC6F450AF3D"
 			tasks: [{
 				id: "57B00797AAB03544"
 				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "199335E260E6A266"
+				type: "item"
 				item: "immersiveengineering:sheetmetal_colored_white"
+				count: 64
 			}]
 		}
 		{
+			title: "Bone"
+			icon: "minecraft:bone"
 			x: -6.0d
 			y: -3.0d
+			can_repeat: true
 			id: "30C01F68C542A79E"
 			tasks: [{
 				id: "494B9D125FF0576A"
 				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "02EF7180C9AF3F8F"
+				type: "item"
 				item: "minecraft:bone"
+				count: 64
 			}]
 		}
 		{
+			title: "Gunpowder"
+			icon: "minecraft:gunpowder"
 			x: -4.5d
 			y: -3.0d
+			can_repeat: true
 			id: "07458712EE29A84F"
 			tasks: [{
 				id: "76DBA9CC6BF0F48B"
 				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "227038F91AC10D26"
+				type: "item"
 				item: "minecraft:gunpowder"
+				count: 64
 			}]
 		}
 		{
+			title: "Ender Pearl"
+			icon: "minecraft:ender_pearl"
 			x: -3.0d
 			y: -3.0d
+			can_repeat: true
 			id: "72CD2CA4E4308894"
 			tasks: [{
 				id: "71ECA48031C98522"
 				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6E67190F6DB975EC"
+				type: "item"
 				item: "minecraft:ender_pearl"
+				count: 64
 			}]
 		}
 		{
+			title: "Slimeball"
+			icon: "minecraft:slime_ball"
 			x: -1.5d
 			y: -3.0d
+			can_repeat: true
 			id: "020AB3DD7266E120"
 			tasks: [{
 				id: "3B90DA1C1D5637D8"
 				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "71CD7019258762EF"
+				type: "item"
 				item: "minecraft:slime_ball"
+				count: 64
 			}]
 		}
 		{
+			title: "String"
+			icon: "minecraft:string"
 			x: 0.0d
 			y: -3.0d
+			can_repeat: true
 			id: "473238290F3AFE67"
 			tasks: [{
 				id: "4735E3EC63C11A59"
 				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3160822F68C9C516"
+				type: "item"
 				item: "minecraft:string"
+				count: 64
 			}]
 		}
 		{
+			title: "Glowstone"
+			icon: "minecraft:glowstone"
 			x: 3.0d
 			y: -5.0d
+			can_repeat: true
 			id: "05E227C50BB6A295"
 			tasks: [{
 				id: "6FF501EC1A1BEA94"
 				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3EE9166DE0028029"
+				type: "item"
 				item: "minecraft:glowstone"
+				count: 64
 			}]
 		}
 		{
+			title: "Sea Lantern"
+			icon: "minecraft:sea_lantern"
 			x: 4.5d
 			y: -5.0d
+			can_repeat: true
 			id: "2ACDFAC32081510D"
 			tasks: [{
 				id: "496C808BF9CE7A85"
 				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "70CE6E2A5769BDE3"
+				type: "item"
 				item: "minecraft:sea_lantern"
+				count: 64
 			}]
 		}
 		{
-			x: -6.0d
-			y: -6.0d
+			title: "Prismarine"
+			icon: "minecraft:prismarine"
+			x: -4.5d
+			y: -4.0d
+			can_repeat: true
 			id: "653AB455AE875D60"
 			tasks: [{
 				id: "702A0FDB0ED1AAD7"
 				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "34C86031F7004D50"
+				type: "item"
 				item: "minecraft:prismarine"
+				count: 64
 			}]
 		}
 		{
+			icon: "minecraft:oak_leaves"
 			x: 6.0d
 			y: -5.0d
+			can_repeat: true
 			id: "76AE3294B3F39DBD"
 			tasks: [{
 				id: "165E183E5F903572"
 				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "59F29EB313355BE9"
+				type: "item"
 				item: "minecraft:oak_leaves"
+				count: 64
 			}]
 		}
 		{
+			title: "Bricks"
+			icon: "minecraft:bricks"
 			x: -6.0d
 			y: -4.0d
+			can_repeat: true
 			id: "7E21F06D46AC4822"
 			tasks: [{
 				id: "526905988CE1B95A"
 				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "08F1486AF4FB19FE"
+				type: "item"
 				item: "minecraft:bricks"
+				count: 64
 			}]
 		}
 		{
+			title: "Sugar Cane"
+			icon: "minecraft:sugar_cane"
 			x: -6.0d
 			y: -2.0d
+			can_repeat: true
 			id: "070DF76C81CB6667"
 			tasks: [{
 				id: "2FF9A5DA8F651B3D"
 				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1EA3A9E789BA132C"
+				type: "item"
 				item: "minecraft:sugar_cane"
+				count: 64
 			}]
 		}
 		{
+			title: "Cactus"
+			icon: "minecraft:cactus"
 			x: -4.5d
 			y: -2.0d
+			can_repeat: true
 			id: "7C569180D9420EF7"
 			tasks: [{
 				id: "167243C3D54A024A"
 				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "362C42535E12076C"
+				type: "item"
 				item: "minecraft:cactus"
+				count: 64
 			}]
 		}
 		{
+			title: "Ink Sac"
+			icon: "minecraft:ink_sac"
 			x: -3.0d
 			y: -2.0d
+			can_repeat: true
 			id: "126604CF01219EB0"
 			tasks: [{
 				id: "33C0E7802E6C1DF6"
 				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "260CFA89F1D7962E"
+				type: "item"
 				item: "minecraft:ink_sac"
+				count: 64
 			}]
 		}
 		{
+			title: "Lumium Ingot"
+			icon: "thermal:lumium_ingot"
 			x: -6.0d
 			y: -0.5d
+			can_repeat: true
 			id: "0D6F515CED21BC23"
 			tasks: [{
 				id: "4F0A1167CC261104"
 				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3AD4A027378F0F70"
+				type: "item"
 				item: "thermal:lumium_ingot"
+				count: 64
 			}]
 		}
 		{
@@ -676,7 +836,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: 0.0d
 			y: 3.5d
 			id: "66B6F27670D98038"
 			tasks: [{
@@ -686,7 +846,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 1.5d
 			y: 3.5d
 			id: "10FE8F8F74E24087"
 			tasks: [{
@@ -695,6 +855,62 @@
 				item: "thermal_extra:polarium_ingot"
 				count: 12L
 			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			id: "6C7C00C54EFE92FC"
+			tasks: [{
+				id: "00B7E816865CA51F"
+				type: "item"
+				item: "kubejs:basic_versatile_frame"
+			}]
+		}
+		{
+			title: "sample out"
+			x: -11.0d
+			y: -2.5d
+			id: "7695D9D13EC3BADA"
+			tasks: [
+				{
+					id: "4248B276493B7452"
+					type: "item"
+					item: "minecraft:paper"
+				}
+				{
+					id: "4552BAA2FE545EE2"
+					type: "item"
+					item: "minecraft:polished_granite"
+					count: 10L
+				}
+			]
+		}
+		{
+			title: "sample out"
+			icon: "minecraft:paper"
+			x: -10.0d
+			y: -2.5d
+			can_repeat: true
+			id: "0748A6D6D916860E"
+			tasks: [{
+				id: "122D2FC9C75835B0"
+				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7EED241D60984DAD"
+					type: "item"
+					item: "minecraft:paper"
+				}
+				{
+					id: "3E054DBF89EF8AE8"
+					type: "item"
+					item: "minecraft:polished_granite"
+					count: 10
+				}
+			]
 		}
 	]
 	quest_links: [ ]

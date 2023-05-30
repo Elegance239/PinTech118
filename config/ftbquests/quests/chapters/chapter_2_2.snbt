@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Outsourcing"
+			title: "Chapter 2 Start"
 			icon: "kubejs:reinforcement_catalyst"
 			x: -14.0d
 			y: 0.0d

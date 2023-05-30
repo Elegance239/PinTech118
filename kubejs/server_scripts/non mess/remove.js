@@ -53,6 +53,8 @@ event.remove({output: '#forge:dusts', mod: 'thermal_extra', type: 'thermal:smelt
 event.remove({output: '#forge:plates', input: '#immersiveengineering:tools/hammers', mod: 'immersiveengineering'})
 event.remove({input: 'mekanism:dust_refined_obsidian', output: 'mekanism:ingot_refined_obsidian'})
 event.remove({input: 'immersiveengineering:raw_aluminum', output: 'immersiveengineering:ingot_aluminum'})
+event.remove({input: 'thermal:copper_coin'})
+event.remove({output: 'thermal:copper_coin'})
 
 const mekfactory = [
     "compressing","smelting","enriching","crushing","combining","purifying","injecting","infusing","sawing"
@@ -272,6 +274,13 @@ let SD = (id) => 'storagedrawers:'+id
         'industrialforegoing:mob_slaughter_factory',
         'fluxnetworks:flux_core',
         'refinedstorageaddons:wireless_crafting_grid',
+        'simplyjetpacks:jetpack_vanilla1',
+        'simplyjetpacks:jetpack_te1',
+        'simplyjetpacks:jetpack_ie1',
+        'simplyjetpacks:thruster_mek1',
+        'simplyjetpacks:thruster_mek2',
+        'simplyjetpacks:thruster_mek3',
+        'simplyjetpacks:thruster_mek4',
     ]                                               
 
     removeid.forEach(item => {

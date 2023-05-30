@@ -1174,10 +1174,7 @@
 		{
 			x: 30.5d
 			y: 18.0d
-			description: [
-				"The ancient element used to make netherite has long since depleted, but a combination of nanomaterials and arduous heat-forging can create a decent substitute."
-				"Involves bonking to the absolute maximal magnitude."
-			]
+			description: ["The ancient element used to make netherite has long since depleted, but a combination of nanomaterials and arduous heat-forging can create a decent substitute."]
 			id: "2F4037C3D6678A72"
 			tasks: [{
 				id: "5586312B877BDD29"
@@ -2109,7 +2106,7 @@
 			tasks: [{
 				id: "54D022C012AFF8A7"
 				type: "item"
-				item: "minecraft:coal"
+				item: "thermal:coal_coke"
 			}]
 		}
 		{
