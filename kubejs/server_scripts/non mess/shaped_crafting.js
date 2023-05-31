@@ -1393,7 +1393,7 @@ onEvent('recipes', event => {
     },
   )
 
-  event.shaped(Item.of('custommachinery:custom_machine_item', {machine:"custommachinery:blender"}),
+  event.shaped(Item.of('custommachinery:custom_machine_item', { machine: "custommachinery:blender" }),
     ["ABA", "CDC", "EEE"],
     {
       "A": {
@@ -1980,81 +1980,99 @@ onEvent('recipes', event => {
   event.shaped('simplyjetpacks:thruster_mek1',
     ["ABA", "CDC", "AEA"],
     {
-    "A": {
+      "A": {
         "item": "mekanism:alloy_infused"
-    },
-    "B": {
+      },
+      "B": {
         "item": "immersiveengineering:component_electronic_adv"
-    },
-    "C": {
+      },
+      "C": {
         "item": "thermal:dynamo_compression"
-    },
-    "D": {
+      },
+      "D": {
         "item": "mekanism:steel_casing"
-    },
-    "E": {
+      },
+      "E": {
         "item": "thermal:lumium_ingot"
-    }
-},
-)
-event.shaped('simplyjetpacks:thruster_mek2',
+      }
+    },
+  )
+  event.shaped('simplyjetpacks:thruster_mek2',
     ["ABA", "CDC", "AEA"],
     {
-    "A": {
+      "A": {
         "item": "pneumaticcraft:plastic"
-    },
-    "B": {
+      },
+      "B": {
         "item": "mekanism:advanced_control_circuit"
-    },
-    "C": {
+      },
+      "C": {
         "item": "advgenerators:turbine_rotor_tier1"
-    },
-    "D": {
+      },
+      "D": {
         "item": "industrialforegoing:machine_frame_simple"
-    },
-    "E": {
+      },
+      "E": {
         "item": "immersiveengineering:heavy_engineering"
-    }
-},
-)
-event.shaped('simplyjetpacks:thruster_mek3',
+      }
+    },
+  )
+  event.shaped('simplyjetpacks:thruster_mek3',
     ["ABA", "CDC", "AEA"],
     {
-    "A": {
+      "A": {
         "item": "mekanism:hdpe_sheet"
-    },
-    "B": {
+      },
+      "B": {
         "item": "mekanism:elite_control_circuit"
-    },
-    "C": {
+      },
+      "C": {
         "item": "kubejs:composite_mechanical_component"
-    },
-    "D": {
+      },
+      "D": {
         "item": "industrialforegoing:machine_frame_advanced"
-    },
-    "E": {
+      },
+      "E": {
         "item": "kubejs:coolant_capsule"
-    }
-},
-)
-event.shaped('simplyjetpacks:thruster_mek4',
+      }
+    },
+  )
+  event.shaped('simplyjetpacks:thruster_mek4',
     ["ABA", "CDC", "AEA"],
     {
-    "A": {
+      "A": {
         "item": "kubejs:conductive_polymer"
-    },
-    "B": {
+      },
+      "B": {
         "item": "kubejs:superconducting_magnet"
-    },
-    "C": {
+      },
+      "C": {
         "item": "kubejs:advanced_component"
-    },
-    "D": {
+      },
+      "D": {
         "item": "industrialforegoing:machine_frame_advanced"
-    },
-    "E": {
+      },
+      "E": {
         "item": "thermal:enderium_gear"
-    }
-},
-)
+      }
+
+
+
+    },
+  )
+  event.shaped('mekanism:induction_casing',
+    [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    {
+      "A": {
+        "item": "kubejs:modular_machine_framework"
+      },
+      "B": {
+        "item": "mekanism:elite_control_circuit"
+      }
+    },
+  )
 })

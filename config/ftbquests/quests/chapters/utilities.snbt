@@ -8,7 +8,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Welcome to the Storage Chapter!"
+			title: "Welcome to the Utilities Chapter!"
 			x: 0.0d
 			y: 0.0d
 			description: ["All your utility solutions can be found in this chapter, ranging from early game to late game."]
@@ -437,7 +437,7 @@
 			title: "Automation"
 			icon: "pneumaticcraft:programmable_controller"
 			x: 0.0d
-			y: 6.0d
+			y: 5.5d
 			description: ["Welcome to the Automation Chapter! This chapter will introduce you to the mods we have to offer for all things automation. "]
 			dependencies: ["5D8ABBA7B8FA87EB"]
 			id: "3248719A0AA3B59C"

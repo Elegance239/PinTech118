@@ -316,14 +316,20 @@
 			id: "179CA7A7F5BC50EC"
 			tasks: [
 				{
-					id: "362037788C2E9F0B"
-					type: "item"
-					item: "mm:blender_controller"
-				}
-				{
 					id: "2321A305CE900E94"
 					type: "item"
 					item: "immersiveengineering:refinery"
+				}
+				{
+					id: "6964475583CBC865"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:blender"
+						}
+					}
 				}
 			]
 		}
@@ -497,7 +503,7 @@
 			y: 2.0d
 			description: [
 				"This pack uses custom Masterful Machinery multiblocks to add recipes. Unfortunately, it does not work well with JEI as it doesn't show which machines correspond to which recipe. You can determine the machine used by looking at its energy usage:"
-				"Blender: 200 RF/t"
+				"Osmium Drill: 150RF/t"
 				"Multi-Assembler: 500 RF/t"
 				"Nanofabricator: 1000 RF/t"
 				"Tesla Infusion Chamber: 2000 RF/t"

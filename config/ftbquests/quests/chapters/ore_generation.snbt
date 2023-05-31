@@ -1426,34 +1426,6 @@
 			}]
 		}
 		{
-			x: 28.5d
-			y: 33.5d
-			dependencies: [
-				"79818F6E067D7F53"
-				"44533BE5D4E6E328"
-			]
-			id: "53251DA7AD07C568"
-			tasks: [{
-				id: "28EBF43C3B11F466"
-				type: "item"
-				item: "industrialforegoing:laser_drill"
-			}]
-		}
-		{
-			x: 28.5d
-			y: 35.0d
-			dependencies: [
-				"44533BE5D4E6E328"
-				"012997C7579C9658"
-			]
-			id: "5870F3F851175070"
-			tasks: [{
-				id: "213C395CF4F4C5F9"
-				type: "item"
-				item: "industrialforegoing:ore_laser_base"
-			}]
-		}
-		{
 			x: 7.5d
 			y: 33.5d
 			dependencies: [
@@ -1540,9 +1512,9 @@
 			y: 20.0d
 			id: "5E3786F33135B130"
 			tasks: [{
-				id: "02A93A423381E285"
+				id: "1DAFFDF9B06124FB"
 				type: "item"
-				item: "minecraft:coal"
+				item: "thermal:coal_coke"
 			}]
 		}
 		{
@@ -1781,9 +1753,15 @@
 			y: 20.0d
 			id: "07AF35F4D0B2B8C6"
 			tasks: [{
-				id: "6B4FA0A8654B9311"
+				id: "4CA553E9AA9C447C"
 				type: "item"
-				item: "mm:blender_controller"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:blender"
+					}
+				}
 			}]
 		}
 		{
@@ -2110,7 +2088,7 @@
 			}]
 		}
 		{
-			x: 43.5d
+			x: 44.0d
 			y: 18.0d
 			id: "20E3FE43E5BC6957"
 			tasks: [{
@@ -2127,6 +2105,41 @@
 				id: "20E2DBB1F0342E84"
 				type: "item"
 				item: "pneumaticcraft:pressure_chamber_interface"
+			}]
+		}
+		{
+			x: 38.5d
+			y: 20.0d
+			dependencies: [
+				"4B9478CAB6111449"
+				"7D0D6B9280C8EE30"
+			]
+			id: "342D9C8ECEE19164"
+			tasks: [{
+				id: "2A641DA3EEA2CC48"
+				type: "item"
+				item: "minecraft:charcoal"
+			}]
+		}
+		{
+			x: 40.5d
+			y: 20.0d
+			id: "4B9478CAB6111449"
+			tasks: [{
+				id: "5DA408957FEC9F61"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			x: 38.5d
+			y: 22.0d
+			dependencies: ["342D9C8ECEE19164"]
+			id: "7165A39987D320BE"
+			tasks: [{
+				id: "7BC1F3AAEE90581C"
+				type: "item"
+				item: "thermal:coal_coke"
 			}]
 		}
 	]

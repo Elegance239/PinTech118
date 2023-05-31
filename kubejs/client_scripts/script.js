@@ -21,5 +21,5 @@ onEvent('client.generate_assets', event => {
     rename('createaddition:capacitor', 'Primitive Capacitor')
     rename('immersiveengineering:graphite_electrode', 'Reinforced Electrode')
     rename('industrialforegoing:plastic', 'Crude Plastic')
-    
+    rename('thermal_extra:polarium_dust', 'Superalloy Dust')
   })
