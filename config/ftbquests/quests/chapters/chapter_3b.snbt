@@ -12,6 +12,7 @@
 			title: "Chapter 3B Start"
 			x: 0.0d
 			y: 0.0d
+			dependencies: ["1BD8C0F446371986"]
 			size: 2.0d
 			id: "14B46BA89E462FEC"
 			tasks: [{
@@ -34,6 +35,11 @@
 				type: "item"
 				item: "kubejs:graphene"
 			}]
+			rewards: [{
+				id: "796F02C66CE3A4CC"
+				type: "item"
+				item: "kubejs:chin_new"
+			}]
 		}
 		{
 			x: 3.5d
@@ -51,24 +57,13 @@
 			y: -2.0d
 			dependencies: [
 				"78EBEC53C917013F"
-				"1B7DF9A449018040"
+				"14B46BA89E462FEC"
 			]
 			id: "67174F5D52706A9A"
 			tasks: [{
 				id: "4049AB363AF23D05"
 				type: "item"
 				item: "kubejs:superconductor"
-			}]
-		}
-		{
-			x: 3.5d
-			y: -2.0d
-			dependencies: ["14B46BA89E462FEC"]
-			id: "1B7DF9A449018040"
-			tasks: [{
-				id: "75BF719C3BE1C4EE"
-				type: "item"
-				item: "thermal:enderium_ingot"
 			}]
 		}
 		{
@@ -112,11 +107,17 @@
 				"5CB68060BDD4D1B2"
 				"0C3FAF4CDC0653A0"
 			]
+			size: 1.5d
 			id: "15016D456CDC89A4"
 			tasks: [{
 				id: "79511313C715A707"
 				type: "item"
 				item: "kubejs:superconducting_magnet"
+			}]
+			rewards: [{
+				id: "280AD3B41818204F"
+				type: "item"
+				item: "kubejs:chin_new"
 			}]
 		}
 		{
@@ -196,6 +197,12 @@
 					count: 60L
 				}
 			]
+			rewards: [{
+				id: "6F209FF02A91616C"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 3
+			}]
 		}
 		{
 			x: 16.5d
@@ -312,6 +319,20 @@
 				type: "item"
 				item: "kubejs:quantum_computer"
 			}]
+			rewards: [
+				{
+					id: "7B9502A38F689C5E"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2185577192427929305L
+				}
+				{
+					id: "2A38D5B9DF54ECBC"
+					type: "item"
+					item: "kubejs:chin_new"
+					count: 5
+				}
+			]
 		}
 		{
 			title: "Sulfuric Acid"

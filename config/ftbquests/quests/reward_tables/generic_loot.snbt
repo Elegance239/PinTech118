@@ -151,5 +151,6 @@
 			weight: 3
 		}
 		{ item: "artifacts:novelty_drinking_hat" }
+		{ item: "createchromaticreturn:industrium_ingot", weight: 3 }
 	]
 }

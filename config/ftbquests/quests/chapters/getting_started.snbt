@@ -208,9 +208,13 @@
 				{
 					id: "69A2DEF6D891E003"
 					type: "loot"
-					icon: "quark:oak_chest"
 					exclude_from_claim_all: true
 					table_id: 5032101358385251555L
+				}
+				{
+					id: "687885D49E8FC756"
+					type: "item"
+					item: "kubejs:chin_new"
 				}
 			]
 		}
@@ -321,11 +325,18 @@
 				type: "item"
 				item: "create:brass_ingot"
 			}]
-			rewards: [{
-				id: "688993796C61909A"
-				type: "random"
-				table_id: 239385028114383115L
-			}]
+			rewards: [
+				{
+					id: "688993796C61909A"
+					type: "random"
+					table_id: 239385028114383115L
+				}
+				{
+					id: "0F7050C70D81FEB8"
+					type: "item"
+					item: "kubejs:chin_new"
+				}
+			]
 		}
 		{
 			x: 26.0d
@@ -467,6 +478,12 @@
 					icon: "ironchest:crystal_chest"
 					exclude_from_claim_all: true
 					table_id: 2185577192427929305L
+				}
+				{
+					id: "422A4C6E06DDE9BE"
+					type: "item"
+					item: "kubejs:chin_new"
+					count: 5
 				}
 			]
 		}

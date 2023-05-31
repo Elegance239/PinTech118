@@ -57,5 +57,17 @@ onEvent('recipes', event => {
 		],
 		output: { item: 'kubejs:nanocomposite_alloy', count:1},
 	})
+
+	event.custom({
+		type: 'mekanism:metallurgic_infusing',
+		chemicalInput: {"amount":80,"infuse_type":"mekanism:carbon"},
+		itemInput: [
+			{ingredient: 
+				
+				{item: 'minecraft:charcoal', count:1}
+			}
+		],
+		output: { item: 'thermal:coal_coke', count:1},
+	})
 })
 

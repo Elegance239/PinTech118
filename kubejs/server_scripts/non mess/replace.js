@@ -29,4 +29,5 @@ onEvent('recipes', event => {
 	event.replaceInput({id:'simplyjetpacks:mek/jetpack_mek4'},'mekanism:ingot_osmium','thermal_extra:polarium_plate')
 	event.replaceInput({id:'simplyjetpacks:mek/jetpack_mek1'},'mekanism:basic_control_circuit','immersiveengineering:component_electronic_adv')
 	event.replaceInput({id:'simplyjetpacks:mek/jetpack_mek4'},'mekanism:ultimate_control_circuit','mekanism:elite_control_circuit')
+	event.replaceInput({id:'mekanism:transmitter/logistical_transporter/basic'},'mekanism:basic_control_circuit','create:chute')
 })	

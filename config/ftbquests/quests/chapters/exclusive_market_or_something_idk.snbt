@@ -28,7 +28,7 @@
 		{
 			title: "Power Starter Pack"
 			icon: "thermal:dynamo_compression"
-			x: -4.0d
+			x: -1.5d
 			y: -3.5d
 			dependencies: ["7F019A11B2FAC654"]
 			id: "200D8C4F5DEC5154"
@@ -90,7 +90,7 @@
 				Count: 1b
 				tag: { }
 			}
-			x: -2.5d
+			x: 0.0d
 			y: -3.5d
 			dependencies: ["7F019A11B2FAC654"]
 			id: "6CF9F24E04E44E44"
@@ -98,7 +98,7 @@
 				id: "05B9B5A19FC0367A"
 				type: "item"
 				item: "kubejs:chin_new"
-				count: 3L
+				count: 4L
 				consume_items: true
 			}]
 			rewards: [{
@@ -113,38 +113,27 @@
 		}
 		{
 			icon: "farmersdelight:ratatouille"
-			x: -2.5d
-			y: 1.5d
+			x: -1.5d
+			y: 2.0d
 			id: "7EDFF89B3D979135"
 			tasks: [{
 				id: "4CCDB7513F022A3B"
 				type: "item"
 				item: "kubejs:chin_new"
-				count: 3L
+				count: 2L
 				consume_items: true
 			}]
 			rewards: [{
 				id: "62EF15EA985C5C0C"
 				type: "item"
 				item: "farmersdelight:roast_chicken"
-				count: 64
-			}]
-		}
-		{
-			title: "ignore these"
-			x: -9.0d
-			y: -2.5d
-			id: "21DDFFECFA6459B3"
-			tasks: [{
-				id: "6D98268E9747A13D"
-				type: "item"
-				item: "engineersdecor:sign_caution"
+				count: 30
 			}]
 		}
 		{
 			title: "Amateur Storage Parts"
 			icon: "refinedstorage:16k_storage_part"
-			x: -1.0d
+			x: 1.5d
 			y: -3.5d
 			id: "7AD359547E17E36B"
 			tasks: [{
@@ -163,7 +152,7 @@
 		{
 			title: "Tinker's Selection"
 			icon: "tconstruct:manyullyn_ingot"
-			x: -4.0d
+			x: -1.5d
 			y: -2.0d
 			id: "70CF486E6179A2BF"
 			tasks: [{
@@ -209,7 +198,7 @@
 		{
 			title: "Factory Stimulus Package II"
 			icon: "kubejs:advanced_versatile_frame"
-			x: -1.0d
+			x: 1.5d
 			y: -2.0d
 			dependencies: [
 				"3ED57D358176DAC6"
@@ -242,7 +231,7 @@
 		{
 			title: "Beaconator"
 			icon: "minecraft:beacon"
-			x: 0.5d
+			x: 3.0d
 			y: -3.5d
 			id: "20844B780F8D1AC2"
 			tasks: [{
@@ -269,8 +258,8 @@
 		{
 			title: "Bees?"
 			icon: "minecraft:bee_spawn_egg"
-			x: -4.0d
-			y: 1.5d
+			x: -3.0d
+			y: 2.0d
 			id: "0C69A9F1FB8B1BE8"
 			tasks: [{
 				id: "54E14226231313CE"
@@ -287,7 +276,7 @@
 		}
 		{
 			icon: "minecraft:netherite_ingot"
-			x: 0.5d
+			x: 3.0d
 			y: -2.0d
 			dependencies: ["5C6472194AEDF044"]
 			id: "7BDC8EE23D5C3E37"
@@ -295,27 +284,27 @@
 				id: "594E3C476EC95463"
 				type: "item"
 				item: "kubejs:chin_new"
-				count: 2L
+				count: 3L
 				consume_items: true
 			}]
 			rewards: [{
 				id: "044E7F00C10CC6C4"
 				type: "item"
 				item: "minecraft:netherite_ingot"
-				count: 4
+				count: 3
 			}]
 		}
 		{
 			title: "Shiny Cube"
 			icon: "minecraft:diamond_block"
-			x: -1.0d
-			y: 1.5d
+			x: -3.0d
+			y: -3.5d
 			id: "0C105483551CA33C"
 			tasks: [{
 				id: "6598BCF5AC615C0F"
 				type: "item"
 				item: "kubejs:chin_new"
-				count: 3L
+				count: 2L
 				consume_items: true
 			}]
 			rewards: [{
@@ -327,8 +316,8 @@
 		{
 			title: "WMD"
 			icon: "minecraft:tnt"
-			x: 0.5d
-			y: 1.5d
+			x: 1.5d
+			y: 2.0d
 			id: "73C47E89F7218F08"
 			tasks: [{
 				id: "094B5D66545D780E"
@@ -355,8 +344,8 @@
 		{
 			title: "Portable Storage Package"
 			icon: "minecraft:shulker_box"
-			x: -4.0d
-			y: 3.0d
+			x: -3.0d
+			y: 3.5d
 			id: "662A57FA6C1AB021"
 			tasks: [{
 				id: "0342E23453733E32"
@@ -375,8 +364,8 @@
 		{
 			title: "Enchanting Starter Kit"
 			icon: "minecraft:enchanting_table"
-			x: -2.5d
-			y: 3.0d
+			x: -1.5d
+			y: 3.5d
 			id: "7CC82A3E70044F51"
 			tasks: [{
 				id: "26DC28855C7B4718"
@@ -402,8 +391,8 @@
 		{
 			title: "Fren :)"
 			icon: "mekanism:robit"
-			x: -1.0d
-			y: 3.0d
+			x: 0.0d
+			y: 3.5d
 			id: "2C7ADFAC55D355CC"
 			tasks: [{
 				id: "37D45A2E624CF1BF"
@@ -443,8 +432,8 @@
 		{
 			title: "387420489 dirt"
 			icon: "allthecompressed:dirt_block_9x"
-			x: 0.5d
-			y: 3.0d
+			x: 1.5d
+			y: 3.5d
 			id: "4E2BD7AF22A8DB1C"
 			tasks: [{
 				id: "492565F4941F6B9C"
@@ -461,8 +450,8 @@
 		{
 			title: "Egggggggggg"
 			icon: "minecraft:dragon_egg"
-			x: -5.5d
-			y: -3.5d
+			x: 0.0d
+			y: 2.0d
 			id: "4A3181F158148569"
 			tasks: [{
 				id: "45CA3C529A16E895"
@@ -480,8 +469,8 @@
 		}
 		{
 			title: "Cwwwweate"
-			icon: "allthecompressed:dirt_block_9x"
-			x: -5.5d
+			icon: "createchromaticreturn:industrium_ingot"
+			x: -3.0d
 			y: -2.0d
 			id: "6B23F2B74D3954E4"
 			tasks: [{
@@ -501,8 +490,8 @@
 		{
 			title: "Morphing Tool (Includes All)"
 			icon: "morphtool:tool"
-			x: 2.0d
-			y: 1.5d
+			x: 3.0d
+			y: 2.0d
 			id: "23CA064A9DE30D65"
 			tasks: [{
 				id: "10DF619B97F33713"
@@ -565,7 +554,7 @@
 		{
 			title: "Factory Stimulus Package I"
 			icon: "kubejs:basic_versatile_frame"
-			x: -2.5d
+			x: 0.0d
 			y: -2.0d
 			dependencies: ["7F019A11B2FAC654"]
 			id: "2E0C9794E2597EF9"
@@ -584,9 +573,11 @@
 			}]
 		}
 		{
+			title: "A Fine Addition"
 			icon: "createchromaticreturn:radiant_glow_saber"
-			x: 0.0d
-			y: 4.5d
+			x: 0.75d
+			y: 5.035714285714278d
+			subtitle: "to my collection"
 			id: "2EB00B7B110D7911"
 			tasks: [{
 				id: "3650D905BD702DBA"
@@ -612,8 +603,8 @@
 					}
 				}
 			}
-			x: -1.5d
-			y: 4.5d
+			x: -0.75d
+			y: 5.035714285714278d
 			id: "6571F8169023D883"
 			tasks: [{
 				id: "3CD856D0DA285B89"
@@ -656,14 +647,14 @@
 					}
 				}
 			}
-			x: -3.0d
-			y: 4.5d
+			x: -2.25d
+			y: 5.035714285714278d
 			id: "70BF269E51656E0F"
 			tasks: [{
 				id: "3603AC84E73E38E2"
 				type: "item"
 				item: "kubejs:chin_new"
-				count: 3L
+				count: 2L
 				consume_items: true
 			}]
 			rewards: [
@@ -690,6 +681,7 @@
 			]
 		}
 		{
+			title: "War Crimes"
 			icon: {
 				id: "mekanism:flamethrower"
 				Count: 1b
@@ -705,8 +697,9 @@
 					}
 				}
 			}
-			x: 1.5d
-			y: 4.5d
+			x: 2.25d
+			y: 5.035714285714278d
+			subtitle: "Funny"
 			id: "5B294EEBA8E0B8D6"
 			tasks: [{
 				id: "7141A91CA67D6320"
@@ -733,6 +726,101 @@
 						}
 					}
 				}
+			}]
+		}
+		{
+			title: "Loot Box"
+			icon: "minecraft:gold_block"
+			x: 3.0d
+			y: 3.5d
+			id: "5C17CDD51ABA8BC5"
+			tasks: [{
+				id: "361C2972400B8964"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "28C6D9019E4DB876"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
+				}
+				{
+					id: "7859AA32326D93C1"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
+				}
+				{
+					id: "22E1A334219233DE"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
+				}
+				{
+					id: "09396C5246019693"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
+				}
+				{
+					id: "54649BECA03DD00C"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
+				}
+				{
+					id: "49108E91119666E5"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
+				}
+				{
+					id: "126888222C81561B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
+				}
+				{
+					id: "6526DFED494385FA"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
+				}
+				{
+					id: "36254DFAE96AC0B2"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
+				}
+				{
+					id: "44ACE7D2F78C5A8F"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
+				}
+			]
+		}
+		{
+			title: "XP"
+			icon: "minecraft:experience_bottle"
+			x: 4.5d
+			y: 2.0d
+			id: "5788942D0317E19E"
+			tasks: [{
+				id: "6D335C5CD4FF811E"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "46694A84A0567785"
+				type: "xp"
+				xp: 6969
 			}]
 		}
 	]

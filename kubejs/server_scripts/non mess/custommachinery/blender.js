@@ -101,4 +101,6 @@ onEvent('recipes', event => {
         .requireItem(Item.of("minecraft:blackstone", 16))
         .requireItem(Item.of("kubejs:pyrotheum", 2))
         .produceItem(Item.of("kubejs:blackstone_alloy", 9))
+
+
 })

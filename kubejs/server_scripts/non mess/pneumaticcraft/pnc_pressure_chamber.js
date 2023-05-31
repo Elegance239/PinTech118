@@ -133,7 +133,11 @@ onEvent('recipes', event => {
 		inputs: [
 		  Item.of("immersiveengineering:wire_electrum").toJson(),
 		  Item.of("pneumaticcraft:plastic").toJson(),
-		  Item.of("thermal:signalum_nugget").toJson(),
+		  {
+			"type": "pneumaticcraft:stacked_item",
+			"count": 2,
+			"item": "thermal:signalum_nugget"
+		  },
 		  Item.of("create:polished_rose_quartz").toJson(),
 		],
 		pressure: 1,
@@ -295,10 +299,25 @@ onEvent('recipes', event => {
 		  Item.of('kubejs:enriched_diamond_nugget').toJson(),
 		  {
 			"type": "pneumaticcraft:stacked_item",
-			"count": 8,
+			"count": 6,
 			"item": "immersiveengineering:dust_hop_graphite"
 		  },
 		  Item.of('jaopca:dusts.cobalt').toJson(),
+		],
+		pressure: 4,
+		results: [
+		  Item.of('kubejs:diamond_seed').toJson(),
+		]
+	})
+	event.custom({
+		type: "pneumaticcraft:pressure_chamber",
+		inputs: [
+		  Item.of('kubejs:enriched_diamond_nugget').toJson(),
+		  {
+			"type": "pneumaticcraft:stacked_item",
+			"count": 10,
+			"item": "immersiveengineering:dust_hop_graphite"
+		  },
 		],
 		pressure: 4,
 		results: [

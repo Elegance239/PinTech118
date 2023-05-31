@@ -15,6 +15,7 @@
 			shape: "gear"
 			subtitle: "The actual beginning of the early-game"
 			description: ["Wake up! Hand-holding is over. Recipes will become harder to prevent you from mining using fortune. Consider looking at the \"Ore Generation\" quest tab after you unlock the induction smelter."]
+			dependencies: ["784BF5DEA003561C"]
 			size: 2.0d
 			id: "7F019A11B2FAC654"
 			tasks: [
@@ -132,6 +133,7 @@
 			icon: "immersivepetroleum:crudeoil_bucket"
 			x: -7.0d
 			y: 6.0d
+			subtitle: "You are being democratized, please do not resist"
 			description: ["There are three mods that introduce crude oil - Pneumaticcraft, Thermal Series, and Immersive Petroleum. Use any one of them to progress."]
 			hide_dependency_lines: true
 			dependencies: ["7F019A11B2FAC654"]
@@ -239,12 +241,19 @@
 				type: "item"
 				item: "pneumaticcraft:plastic"
 			}]
-			rewards: [{
-				id: "14D772D41C14DF20"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 5032101358385251555L
-			}]
+			rewards: [
+				{
+					id: "14D772D41C14DF20"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
+				}
+				{
+					id: "229BC99FE7838D05"
+					type: "item"
+					item: "kubejs:chin_new"
+				}
+			]
 		}
 		{
 			x: -14.0d
@@ -312,13 +321,19 @@
 				type: "item"
 				item: "thermal:invar_ingot"
 			}]
-			rewards: [{
-				id: "4033DDD8781A107E"
-				type: "loot"
-				icon: "quark:oak_chest"
-				exclude_from_claim_all: true
-				table_id: 5032101358385251555L
-			}]
+			rewards: [
+				{
+					id: "4033DDD8781A107E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
+				}
+				{
+					id: "7A78F561D65E9B96"
+					type: "item"
+					item: "kubejs:chin_new"
+				}
+			]
 		}
 		{
 			x: -10.0d
@@ -435,12 +450,26 @@
 			x: -14.0d
 			y: -5.0d
 			dependencies: ["00F30C034E74B458"]
+			size: 1.5d
 			id: "5F433C2039C36F6A"
 			tasks: [{
 				id: "176C6A50F74E4693"
 				type: "item"
 				item: "immersiveengineering:component_electronic_adv"
 			}]
+			rewards: [
+				{
+					id: "7202DC4DB27515EA"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
+				}
+				{
+					id: "17A07F533F81B9C8"
+					type: "item"
+					item: "kubejs:chin_new"
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -481,8 +510,7 @@
 		{
 			x: 9.75d
 			y: -3.0d
-			subtitle: "todo alt recipe"
-			description: ["Note: alt recipe"]
+			description: ["A cheaper alternate recipe is unlocked after unlocking PCBs."]
 			dependencies: [
 				"7A23F9D8718773BB"
 				"39C470DE5EBB877C"
@@ -495,11 +523,18 @@
 				type: "item"
 				item: "mekanism:basic_control_circuit"
 			}]
-			rewards: [{
-				id: "7F57B665E8B1EEE1"
-				type: "random"
-				table_id: 5032101358385251555L
-			}]
+			rewards: [
+				{
+					id: "7F57B665E8B1EEE1"
+					type: "random"
+					table_id: 5032101358385251555L
+				}
+				{
+					id: "6AEE548B357B3425"
+					type: "item"
+					item: "kubejs:chin_new"
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -724,12 +759,19 @@
 				type: "item"
 				item: "thermal:signalum_ingot"
 			}]
-			rewards: [{
-				id: "4DBA7AF58DB19923"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 5032101358385251555L
-			}]
+			rewards: [
+				{
+					id: "4DBA7AF58DB19923"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
+				}
+				{
+					id: "1E6C36DBBE812DC9"
+					type: "item"
+					item: "kubejs:chin_new"
+				}
+			]
 		}
 		{
 			title: "Solid-state Electronics"
@@ -832,12 +874,20 @@
 				type: "item"
 				item: "mekanism:advanced_control_circuit"
 			}]
-			rewards: [{
-				id: "548B65177D77AAA1"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 2185577192427929305L
-			}]
+			rewards: [
+				{
+					id: "548B65177D77AAA1"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 2185577192427929305L
+				}
+				{
+					id: "7947A61A0D6BF6A8"
+					type: "item"
+					item: "kubejs:chin_new"
+					count: 5
+				}
+			]
 		}
 		{
 			title: "Pumpjack"

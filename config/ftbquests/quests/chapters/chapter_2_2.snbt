@@ -14,6 +14,7 @@
 			x: -14.0d
 			y: 0.0d
 			shape: "gear"
+			dependencies: ["26F8D4EEEC76EBCE"]
 			size: 2.0d
 			id: "5C6472194AEDF044"
 			tasks: [
@@ -78,6 +79,19 @@
 				type: "item"
 				item: "kubejs:composite_mechanical_component"
 			}]
+			rewards: [
+				{
+					id: "32C02568A40F2DAB"
+					type: "item"
+					item: "kubejs:chin_new"
+				}
+				{
+					id: "7B59B49890F1EC09"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
+				}
+			]
 		}
 		{
 			title: "Multi-Assembler"
@@ -160,6 +174,19 @@
 				type: "item"
 				item: "mekanism:hdpe_sheet"
 			}]
+			rewards: [
+				{
+					id: "4A3666999A19981B"
+					type: "item"
+					item: "kubejs:chin_new"
+				}
+				{
+					id: "253E3E0225167212"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -240,6 +267,19 @@
 				type: "item"
 				item: "industrialforegoing:machine_frame_advanced"
 			}]
+			rewards: [
+				{
+					id: "01EF00DB04653733"
+					type: "item"
+					item: "kubejs:chin_new"
+				}
+				{
+					id: "00CD67EF6E873360"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -345,6 +385,19 @@
 				type: "item"
 				item: "mekanism:elite_control_circuit"
 			}]
+			rewards: [
+				{
+					id: "566C7F64F9F16F90"
+					type: "item"
+					item: "kubejs:chin_new"
+				}
+				{
+					id: "6B784F398EC8791F"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -389,6 +442,19 @@
 					id: "0115D0206CA811F4"
 					type: "item"
 					item: "industrialforegoing:ore_laser_base"
+				}
+			]
+			rewards: [
+				{
+					id: "4AC03AE9DACAAC8E"
+					type: "item"
+					item: "kubejs:chin_new"
+				}
+				{
+					id: "5727519B51F4B7D0"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 5032101358385251555L
 				}
 			]
 		}
@@ -478,12 +544,20 @@
 				type: "item"
 				item: "thermal:enderium_ingot"
 			}]
-			rewards: [{
-				id: "4DC20138276FEC8A"
-				type: "choice"
-				exclude_from_claim_all: true
-				table_id: 2185577192427929305L
-			}]
+			rewards: [
+				{
+					id: "4DC20138276FEC8A"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2185577192427929305L
+				}
+				{
+					id: "6BCAD61946D342AF"
+					type: "item"
+					item: "kubejs:chin_new"
+					count: 5
+				}
+			]
 		}
 		{
 			x: 24.0d

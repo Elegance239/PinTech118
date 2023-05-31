@@ -198,7 +198,7 @@
 		}
 		{
 			x: -6.0d
-			y: 4.5d
+			y: 5.0d
 			description: ["Your hand is born to be short and small. Don't worry, extend your reach with the extendo grip."]
 			id: "237D020CE2E78BF6"
 			tasks: [{
@@ -215,7 +215,7 @@
 		}
 		{
 			x: -4.0d
-			y: 4.5d
+			y: 5.0d
 			description: ["All Apotheosis Tomes are capable of holding enchantments of their respective kind. This can be used as a substitute for books in enchanting."]
 			id: "2EBBE57444D0C350"
 			tasks: [{
@@ -226,7 +226,7 @@
 		}
 		{
 			x: -2.0d
-			y: 4.5d
+			y: 5.0d
 			description: ["A powerful drain to store your XP. Stand on it to convert your XP into liquid experience. Liquid Experience can be stored. Ponder for more information."]
 			id: "5ABD5EB17CD9E402"
 			tasks: [{
@@ -237,12 +237,26 @@
 		}
 		{
 			x: 0.0d
-			y: 4.5d
+			y: 5.0d
 			id: "68B39813A07A57D4"
 			tasks: [{
 				id: "3C47216663F00BDF"
 				type: "item"
 				item: "create:brown_toolbox"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			id: "71D8D5ECAE4A6E27"
+			tasks: [{
+				id: "482A0525ED568DCF"
+				type: "item"
+				item: {
+					id: "thermal:xp_crystal"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 	]

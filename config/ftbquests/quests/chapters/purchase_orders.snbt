@@ -21,12 +21,12 @@
 			tasks: [{
 				id: "47CDDE7293112E3A"
 				type: "item"
-				item: "thermal_extra:nebulium_coin"
+				item: "thermal:copper_coin"
 			}]
 		}
 		{
-			x: -2.5d
-			y: -2.0d
+			x: -4.5d
+			y: -1.5d
 			description: ["Can we reduce this value because no one actually will need 5 alternators?"]
 			id: "77D11DBF29BCCC68"
 			tasks: [{
@@ -34,80 +34,90 @@
 				type: "item"
 				item: "createaddition:alternator"
 				count: 5L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "3C37566B726B36F5"
 				type: "item"
 				item: "thermal:copper_coin"
+				count: 30
 			}]
 		}
 		{
-			x: -4.0d
-			y: -2.0d
+			x: -6.0d
+			y: -1.5d
 			id: "48223170BE0DC6B9"
 			tasks: [{
 				id: "22C7C3F6B3E01CB5"
 				type: "item"
 				item: "create:andesite_casing"
 				count: 30L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "30FFE28F2F2D6702"
 				type: "item"
 				item: "thermal:copper_coin"
+				count: 30
 			}]
 		}
 		{
-			x: -1.0d
-			y: -2.0d
+			x: -3.0d
+			y: -1.5d
 			id: "6C999B6AA20DEE25"
 			tasks: [{
 				id: "5089349648892BC3"
 				type: "item"
 				item: "thermal:steel_ingot"
 				count: 64L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "5D162BB87E3231BD"
 				type: "item"
 				item: "thermal:copper_coin"
+				count: 30
 			}]
 		}
 		{
-			x: 0.5d
-			y: -2.0d
+			x: -1.5d
+			y: -1.5d
 			id: "2FD519939A811561"
 			tasks: [{
 				id: "4E1B4245967FF549"
 				type: "item"
 				item: "thermal:machine_frame"
 				count: 8L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "00D87B717882D942"
 				type: "item"
 				item: "thermal:copper_coin"
+				count: 30
 			}]
 		}
 		{
-			x: 2.0d
-			y: -2.0d
+			x: 0.0d
+			y: -1.5d
 			id: "2810C774422CAA74"
 			tasks: [{
 				id: "32B7996574E5E25D"
 				type: "item"
 				item: "industrialforegoing:machine_frame_simple"
 				count: 5L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "03FF2C41C4B1E518"
 				type: "item"
 				item: "thermal:copper_coin"
+				count: 30
 			}]
 		}
 		{
-			x: 3.5d
-			y: -2.0d
+			x: 1.5d
+			y: -1.5d
 			subtitle: "tank"
 			id: "045DAE0F67E65A31"
 			tasks: [{
@@ -128,256 +138,451 @@
 						}
 					}
 				}
+				consume_items: true
 			}]
 			rewards: [{
 				id: "55083E28705B3AD2"
 				type: "item"
 				item: "thermal:copper_coin"
+				count: 30
 			}]
 		}
 		{
-			x: 5.0d
-			y: -2.0d
+			x: 3.0d
+			y: -1.5d
 			id: "151038F2BD1C3B03"
 			tasks: [{
 				id: "4500F4C23A6ACCD1"
 				type: "item"
 				item: "kubejs:engineering_block_frame"
-				count: 10L
+				count: 20L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "4B07F173693475A8"
 				type: "item"
 				item: "thermal:copper_coin"
+				count: 30
 			}]
 		}
 		{
-			x: 6.5d
-			y: -2.0d
+			x: 4.5d
+			y: -1.5d
 			id: "601552736E04FFCC"
 			tasks: [{
 				id: "2D80C564629F9ACA"
 				type: "item"
 				item: "mekanism:basic_control_circuit"
 				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7C5A2AB7AF50C4FF"
+				type: "item"
+				item: "thermal:copper_coin"
+				count: 30
 			}]
 		}
 		{
-			x: 8.0d
-			y: -2.0d
+			x: 6.0d
+			y: -1.5d
 			id: "6607A00EA5B946A2"
 			tasks: [{
 				id: "5D20B2DE62B543FF"
 				type: "item"
 				item: "thermal:signalum_ingot"
-				count: 16L
+				count: 20L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "5B6214471892D4B5"
 				type: "item"
 				item: "thermal:copper_coin"
+				count: 30
 			}]
 		}
 		{
-			x: -4.0d
-			y: -0.5d
+			x: -6.0d
+			y: 0.0d
 			id: "0EBA60B4C949650C"
 			tasks: [{
 				id: "6C0C2D329FCBF225"
 				type: "item"
 				item: "kubejs:composite_mechanical_component"
 				count: 12L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "24078E444D162D27"
 				type: "item"
 				item: "thermal:copper_coin"
+				count: 30
 			}]
 		}
 		{
-			x: -2.5d
-			y: -0.5d
+			x: -4.5d
+			y: 0.0d
 			id: "2A3DBBDBACB3ED66"
 			tasks: [{
 				id: "4B384179BE725004"
 				type: "item"
 				item: "mekanism:elite_control_circuit"
 				count: 8L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "4D5C93804BAE2E2D"
 				type: "item"
 				item: "thermal:copper_coin"
+				count: 30
 			}]
 		}
 		{
-			x: -1.0d
-			y: -0.5d
-			id: "6FB0B447F0440778"
-			tasks: [{
-				id: "4BEF2462A05D20EB"
-				type: "item"
-				item: "mekanism:ingot_osmium"
-				count: 64L
-			}]
-			rewards: [{
-				id: "3FDF60EC2910B7A4"
-				type: "item"
-				item: "thermal:copper_coin"
-			}]
-		}
-		{
-			x: 0.5d
-			y: -0.5d
+			x: -3.0d
+			y: 0.0d
 			id: "4B8057B5DF79F64F"
 			tasks: [{
 				id: "31AAA4FF262F1870"
 				type: "item"
 				item: "industrialforegoing:machine_frame_advanced"
-				count: 2L
+				count: 4L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "689C06C6EE3D4A43"
 				type: "item"
 				item: "thermal:copper_coin"
+				count: 30
 			}]
 		}
 		{
-			x: 2.0d
-			y: -0.5d
+			x: -1.5d
+			y: 0.0d
 			id: "715D34F265C17D45"
 			tasks: [{
 				id: "19752457A4619EAC"
 				type: "item"
 				item: "thermal:enderium_ingot"
 				count: 12L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "0C31C78A3398F3D8"
 				type: "item"
 				item: "thermal:copper_coin"
+				count: 30
 			}]
 		}
 		{
-			x: 6.5d
-			y: -3.0d
+			x: 4.5d
+			y: -2.5d
 			id: "5B4987FD1C8A2B55"
 			tasks: [{
 				id: "283B6FAA61FFDF53"
 				type: "item"
 				item: "mekanism:basic_control_circuit"
 				count: 64L
+				consume_items: true
 			}]
+			rewards: [
+				{
+					id: "0B5F09151F226C0C"
+					type: "item"
+					item: "thermal:copper_coin"
+					count: 30
+				}
+				{
+					id: "58F3FF38209416AA"
+					type: "item"
+					item: "kubejs:chin_new"
+					count: 3
+				}
+			]
 		}
 		{
-			x: 2.0d
-			y: -3.0d
+			x: 0.0d
+			y: -2.5d
 			id: "63015FBFE800D0C3"
 			tasks: [{
 				id: "3145947E721B6EEC"
 				type: "item"
 				item: "industrialforegoing:machine_frame_simple"
 				count: 20L
+				consume_items: true
 			}]
+			rewards: [
+				{
+					id: "09DBAB6ED50E117E"
+					type: "item"
+					item: "thermal:copper_coin"
+					count: 30
+				}
+				{
+					id: "1E940CCA578581C7"
+					type: "item"
+					item: "kubejs:chin_new"
+					count: 3
+				}
+			]
 		}
 		{
-			x: 5.0d
-			y: -0.5d
+			x: 1.5d
+			y: 0.0d
 			id: "5F0E9F4A3DF706AB"
 			tasks: [{
 				id: "464FCC6A4C9AD579"
 				type: "item"
 				item: "mekanism:pellet_antimatter"
+				count: 5L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "79035256ADC393AC"
 				type: "item"
 				item: "thermal:copper_coin"
+				count: 30
 			}]
 		}
 		{
-			x: 3.5d
-			y: -0.5d
+			x: 0.0d
+			y: 0.0d
 			id: "4263F4F2390ED33C"
 			tasks: [{
 				id: "1DB8411858C76CC7"
 				type: "item"
 				item: "kubejs:neoclydium_ingot_test"
 				count: 2L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "096D10DD7F655509"
 				type: "item"
 				item: "thermal:copper_coin"
+				count: 30
 			}]
 		}
 		{
-			x: 6.5d
-			y: -0.5d
+			x: 3.0d
+			y: 0.0d
 			id: "1B2FC11CBFF847B0"
 			tasks: [{
 				id: "03843DE9738D6B2A"
 				type: "item"
 				item: "kubejs:supersymmetric_alloy"
+				count: 16L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "155D06E02EA5EC3F"
 				type: "item"
 				item: "thermal:copper_coin"
+				count: 30
 			}]
 		}
 		{
-			x: 8.0d
-			y: -0.5d
+			x: 4.5d
+			y: 0.0d
 			id: "1AEAC51706FD9DC0"
 			tasks: [{
 				id: "349E674FF82C8A5D"
 				type: "item"
 				item: "kubejs:quantum_cpu"
+				count: 4L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "4647B6938DC5B2B2"
 				type: "item"
 				item: "thermal:copper_coin"
+				count: 30
 			}]
 		}
 		{
-			x: -4.0d
-			y: 1.0d
+			x: 6.0d
+			y: 0.0d
 			id: "5C024383AFDDC0DE"
 			tasks: [{
 				id: "1F9E2F4BDEE86347"
 				type: "item"
 				item: "mekanism:ultimate_control_circuit"
-				count: 2L
+				count: 4L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "0DA84DE6E3FBE34F"
 				type: "item"
 				item: "thermal:copper_coin"
+				count: 30
 			}]
 		}
 		{
-			x: -4.0d
-			y: 5.0d
+			x: -3.5d
+			y: 6.0d
 			id: "5A320EFBBC99B877"
 			tasks: [{
 				id: "369D2EE29EA4619F"
 				type: "item"
 				item: "minecraft:iron_ingot"
 				count: 1000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0FEE10B9F2250109"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 2
 			}]
 		}
 		{
 			x: -2.5d
-			y: 5.0d
+			y: 6.0d
 			id: "6B31E2FE4AB29E12"
 			tasks: [{
 				id: "723E4FFA60345E8C"
 				type: "item"
 				item: "minecraft:copper_ingot"
 				count: 1000L
+				consume_items: true
 			}]
+			rewards: [{
+				id: "0681038AC42DA15F"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			id: "52F6D6F1255BC186"
+			tasks: [{
+				id: "2A8069FCDA2D3E24"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 1000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "33E3DF3869384143"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: 6.0d
+			id: "3566FEDD3CD4745C"
+			tasks: [{
+				id: "4B9BF7EAE316AC91"
+				type: "item"
+				item: "thermal:silver_ingot"
+				count: 1000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5551B4873A229997"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			id: "18E114923863FEC4"
+			tasks: [{
+				id: "4287E7B05C72E356"
+				type: "item"
+				item: "thermal:tin_ingot"
+				count: 1000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4038DC374C91E245"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			id: "6CE8FB9A59459A4C"
+			tasks: [{
+				id: "2C1561F9812F8193"
+				type: "item"
+				item: "thermal:lead_ingot"
+				count: 1000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "03C1823485C8D5A0"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			id: "12C4E6E2F764D383"
+			tasks: [{
+				id: "4F5C3302260C2613"
+				type: "item"
+				item: "immersiveengineering:ingot_aluminum"
+				count: 1000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7D7413D8FB245A6E"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.0d
+			id: "28CDEED95CB36E68"
+			tasks: [{
+				id: "63A6028C799C1807"
+				type: "item"
+				item: "mekanism:ingot_osmium"
+				count: 1000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0600F1ABC2C6F110"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			id: "5010E8049767B19E"
+			tasks: [{
+				id: "6FE3BE1437FE6A42"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "1F84249371FBF45F"
+					type: "item"
+					item: "thermal:copper_coin"
+					count: 30
+				}
+				{
+					id: "2C6ED48B9E73CF68"
+					type: "item"
+					item: "kubejs:chin_new"
+					count: 3
+				}
+			]
 		}
 	]
 	quest_links: [ ]
