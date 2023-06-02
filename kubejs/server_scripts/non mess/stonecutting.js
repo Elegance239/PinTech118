@@ -22,4 +22,5 @@ onEvent('recipes', (event) => {
     event.stonecutting("mekanism:rotary_condensentrator", 'kubejs:advanced_versatile_frame')
     event.stonecutting("mekanism:chemical_oxidizer", 'kubejs:advanced_versatile_frame')
     event.stonecutting("industrialforegoing:dissolution_chamber", 'kubejs:advanced_versatile_frame')
+    event.stonecutting("mekanism:chemical_crystallizer", 'kubejs:advanced_versatile_frame')
 })

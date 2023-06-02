@@ -12,6 +12,8 @@ onEvent('recipes', (event) => {
             { input: 'pneumaticcraft:lpg', energy: 1800000 },
             { input: 'pneumaticcraft:ethanol', energy: 400000 },
             { input: 'immersiveengineering:ethanol', energy: 400000 },
+            { input: 'kubejs:quasi_antientropic_fuel', energy: 200000000 },
+            
         ]
     };
     data.recipes.forEach((recipe) => {

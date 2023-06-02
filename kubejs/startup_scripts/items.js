@@ -45,7 +45,7 @@ onEvent('item.registry', event => {
 	event.create('calcium_oxide').displayName('Calcium Oxide')
 	event.create('impure_gold').displayName('Impure Gold')
 	event.create('highly_enriched_carbon').displayName('Highly Enriched Carbon')
-	event.create('logic_gate').displayName('Logic Gate')
+	event.create('logic_gate').displayName('Digital Circuit')
 	event.create('processed_raw_lead').displayName('Processed Raw Lead')
 	event.create('processed_raw_nickel').displayName('Processed Raw Nickel')
 	event.create('processed_raw_silver').displayName('Processed Raw Silver')
@@ -80,6 +80,8 @@ onEvent('item.registry', event => {
 	event.create('raw_silver_mote').displayName('Raw Silver Mote')
 	event.create('raw_bauxite_mote').displayName('Raw Bauxite Mote')
 	event.create('raw_nickel_mote').displayName('Raw Nickel Mote')
+	event.create('raw_iron_mote').displayName('Raw Iron Mote')
+	event.create('raw_uranium_mote').displayName('Raw Uranium Mote')
 
 	event.create('neoclydium_ingot_test').displayName('Neoclydium Ingot').rarity('epic').maxStackSize(16).texture("kubejs:item/neoclydium_ingot_test")
 	event.create('graphene').displayName('Graphene')
@@ -148,4 +150,8 @@ onEvent('item.registry', event => {
 	event.create('gold_drop').displayName('Gold Drop')
 	event.create('mesh').displayName('Mesh')
 	event.create('pressurized_ender_core').displayName('Pressurized Ender Core')
+	event.create('enriched_charcoal').displayName('Enriched Charcoal')
+	event.create('radioactive_ender_regolith').displayName('Radioactive Ender Regolith')
+	event.create('enriched_ender_regolith').displayName('Enriched Ender Regolith')
+
 })

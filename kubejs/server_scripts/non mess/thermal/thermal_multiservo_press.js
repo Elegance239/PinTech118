@@ -88,7 +88,7 @@ onEvent('recipes', event => {
 	event.custom({
 		type: 'thermal:press',
 		ingredients: [
-			Ingredient.of('32x kubejs:raw_copper_mote').toJson(),
+			Ingredient.of('36x kubejs:raw_copper_mote').toJson(),
 		],
 		results: [
 			Item.of('minecraft:raw_copper').toJson(),
@@ -98,10 +98,37 @@ onEvent('recipes', event => {
 	event.custom({
 		type: 'thermal:press',
 		ingredients: [
-			Ingredient.of('32x kubejs:raw_lead_mote').toJson(),
+			Ingredient.of('36x kubejs:raw_lead_mote').toJson(),
 		],
 		results: [
 			Item.of('thermal:raw_lead').toJson(),
+		]
+	})
+	event.custom({
+		type: 'thermal:press',
+		ingredients: [
+			Ingredient.of('36x kubejs:raw_tin_mote').toJson(),
+		],
+		results: [
+			Item.of('thermal:raw_tin').toJson(),
+		]
+	})
+	event.custom({
+		type: 'thermal:press',
+		ingredients: [
+			Ingredient.of('36x kubejs:raw_uranium_mote').toJson(),
+		],
+		results: [
+			Item.of('immersiveengineering:raw_uranium').toJson(),
+		]
+	})
+	event.custom({
+		type: 'thermal:press',
+		ingredients: [
+			Ingredient.of('36x kubejs:raw_iron_mote').toJson(),
+		],
+		results: [
+			Item.of('minecraft:raw_iron').toJson(),
 		]
 	})
 

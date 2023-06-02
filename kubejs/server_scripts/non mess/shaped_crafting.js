@@ -2075,4 +2075,24 @@ onEvent('recipes', event => {
       }
     },
   )
+  event.shaped('mekanism:chemical_crystallizer',
+    ["AAA", "BCB", "DED"],
+    {
+    "A": {
+        "item": "immersiveengineering:plate_aluminum"
+    },
+    "B": {
+        "item": "mekanism:elite_control_circuit"
+    },
+    "C": {
+        "item": "thermal:machine_crystallizer"
+    },
+    "D": {
+        "item": "kubejs:composite_mechanical_component"
+    },
+    "E": {
+        "item": "thermal:signalum_gear"
+    }
+},
+)
 })

@@ -36,6 +36,8 @@ onEvent('item.tags', event => {
     event.remove('forge:raw_materials/osmium', 'mekanism:raw_osmium')
 
     event.add('thermal:crafting/dies', 'immersiveengineering:mold_rod')
+
+    event.add('kubejs:blueprints', 'kubejs:graphene') //this is a test
   })
 
   onEvent('fluid.tags', event =>{

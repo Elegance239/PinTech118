@@ -64,7 +64,7 @@ onEvent('recipes', event => {
 		itemInput: [
 			{ingredient: 
 				
-				{item: 'minecraft:charcoal', count:1}
+				{item: 'kubejs:enriched_charcoal', count:1}
 			}
 		],
 		output: { item: 'thermal:coal_coke', count:1},

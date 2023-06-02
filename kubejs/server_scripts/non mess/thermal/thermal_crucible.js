@@ -78,5 +78,6 @@ onEvent('recipes', event => {
 	})
 
 	event.recipes.thermal.crucible(Fluid.of('tconstruct:molten_glass', 1000), '#forge:glass')
+	event.recipes.thermal.crucible(Fluid.of('kubejs:quasi_antientropic_fuel', 1000), 'kubejs:supersymmetric_particles').energy(1000000)
 })
 

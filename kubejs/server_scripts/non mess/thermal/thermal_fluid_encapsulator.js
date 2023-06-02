@@ -55,5 +55,9 @@ onEvent('recipes', event => {
 		'kubejs:ender_core',
 		[Fluid.of('tconstruct:molten_electrum', 270), Item.of('minecraft:ender_eye')]
 	).energy(2000)
+	event.recipes.thermal.bottler(
+		'kubejs:enriched_ender_regolith',
+		[Fluid.of('tconstruct:molten_refined_glowstone', 10), Item.of('kubejs:radioactive_ender_regolith')]
+	).energy(2000)
 })
 

@@ -2109,21 +2109,21 @@
 		}
 		{
 			x: 38.5d
-			y: 20.0d
+			y: 23.0d
 			dependencies: [
 				"4B9478CAB6111449"
-				"7D0D6B9280C8EE30"
+				"6C54EAA2B8F6DF11"
 			]
 			id: "342D9C8ECEE19164"
 			tasks: [{
 				id: "2A641DA3EEA2CC48"
 				type: "item"
-				item: "minecraft:charcoal"
+				item: "thermal:coal_coke"
 			}]
 		}
 		{
-			x: 40.5d
-			y: 20.0d
+			x: 37.0d
+			y: 21.5d
 			id: "4B9478CAB6111449"
 			tasks: [{
 				id: "5DA408957FEC9F61"
@@ -2133,13 +2133,105 @@
 		}
 		{
 			x: 38.5d
-			y: 22.0d
-			dependencies: ["342D9C8ECEE19164"]
-			id: "7165A39987D320BE"
+			y: 21.0d
+			dependencies: [
+				"43C6AC277FC6E9C1"
+				"7D0D6B9280C8EE30"
+				"21F354FA3C3C1EDE"
+			]
+			id: "6C54EAA2B8F6DF11"
 			tasks: [{
-				id: "7BC1F3AAEE90581C"
+				id: "4208C20E6609D761"
 				type: "item"
-				item: "thermal:coal_coke"
+				item: "kubejs:enriched_charcoal"
+			}]
+		}
+		{
+			x: 37.0d
+			y: 19.5d
+			id: "43C6AC277FC6E9C1"
+			tasks: [{
+				id: "332FF052A64C8BAE"
+				type: "item"
+				item: "thermal:machine_pyrolyzer"
+			}]
+		}
+		{
+			x: 40.0d
+			y: 19.5d
+			id: "21F354FA3C3C1EDE"
+			tasks: [{
+				id: "34BBB9E9544853BC"
+				type: "item"
+				item: "minecraft:charcoal"
+			}]
+		}
+		{
+			x: 44.0d
+			y: 21.0d
+			id: "1FDD65D0486A4F21"
+			tasks: [{
+				id: "53ECE5C7D82E4B9C"
+				type: "item"
+				item: "kubejs:radioactive_ender_regolith"
+			}]
+		}
+		{
+			x: 44.0d
+			y: 23.0d
+			id: "03B28FC06732EB09"
+			tasks: [{
+				id: "34FAC2633D392F23"
+				type: "item"
+				item: "kubejs:enriched_ender_regolith"
+			}]
+		}
+		{
+			x: 44.0d
+			y: 25.0d
+			id: "1FA553C62FBA78B5"
+			tasks: [{
+				id: "5FA368CE5C1A082A"
+				type: "item"
+				item: {
+					id: "mekanism:creative_chemical_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									gasName: "kubejs:radioisotope_mixture"
+									amount: 9223372036854775807L
+								}
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 44.0d
+			y: 27.0d
+			id: "40728BCB69177291"
+			tasks: [{
+				id: "7F7F4CFB1DD14B8B"
+				type: "item"
+				item: {
+					id: "mekanism:creative_chemical_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									gasName: "kubejs:uranium"
+									amount: 9223372036854775807L
+								}
+							}]
+						}
+					}
+				}
 			}]
 		}
 	]

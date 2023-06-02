@@ -282,6 +282,7 @@ let SD = (id) => 'storagedrawers:'+id
         'simplyjetpacks:thruster_mek3',
         'simplyjetpacks:thruster_mek4',
         'mekanism:jetpack',
+        "mekanism:chemical_crystallizer"
     ]                                               
 
     removeid.forEach(item => {
@@ -353,6 +354,8 @@ let SD = (id) => 'storagedrawers:'+id
         'immersiveengineering:crafting/gunpowder_from_dusts',
         'createchromaticreturn:cf_to_gp',
         'create:splashing/red_sand',
+        'thermal:machines/pyrolyzer/pyrolyzer_coal',
+        'thermal:machines/pyrolyzer/pyrolyzer_logs',
     ]
 
     recipeId.forEach(item => {

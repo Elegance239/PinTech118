@@ -9,6 +9,8 @@ onEvent('mekanism.gas.registry', event => {
     event.create("radiant_gas").color(0xFDFCFF)
     event.create("gaseous_aluminum").color(0xCCCCCC)
     event.create("gaseous_impure_alumina").color(0xada59c)
+    event.create("radioisotope_mixture").color(0x377A63)
+    event.create("uranium").color(0x2A5427)
 })
 
 onEvent('mekanism.infuse_type.registry', event => {

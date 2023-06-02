@@ -15,5 +15,11 @@ onEvent('recipes', event => {
             "output":{"amount":100,"gas":"kubejs:glowing_gas"}
         }
     )
-
+    event.custom(
+        {
+            "type":"mekanism:oxidizing",
+            "input":{"ingredient":{"item":"kubejs:enriched_ender_regolith"}},
+            "output":{"amount":20,"gas":"kubejs:radioisotope_mixture"}
+        }
+    )
 })
