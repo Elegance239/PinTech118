@@ -29,36 +29,22 @@
 			subtitle: "Infinite Iron!!!!!!11111111111!!"
 			description: ["Simple, everyone starts somewhere."]
 			id: "06F2FB1113E0D08A"
-			tasks: [
-				{
-					id: "54B9906232E02452"
-					type: "checkmark"
-					title: "Iron"
-				}
-				{
-					id: "2D41F195975AB718"
-					type: "item"
-					item: "minecraft:iron_ingot"
-				}
-			]
+			tasks: [{
+				id: "2D41F195975AB718"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: 3.0d
 			y: -6.0d
 			description: ["Rather complex, but relatively low tech."]
 			id: "6A3CCC531C12F398"
-			tasks: [
-				{
-					id: "25366A6934C788CB"
-					type: "checkmark"
-					title: "Zinc"
-				}
-				{
-					id: "2F8258379F6FA56A"
-					type: "item"
-					item: "create:zinc_ingot"
-				}
-			]
+			tasks: [{
+				id: "10631920B77F07B9"
+				type: "item"
+				item: "create:zinc_ingot"
+			}]
 		}
 		{
 			x: 2.0d
@@ -338,9 +324,9 @@
 			size: 2.0d
 			id: "3015E79CED426D62"
 			tasks: [{
-				id: "3D75B0DB880CF04C"
+				id: "10494198BA446CC9"
 				type: "item"
-				item: "minecraft:iron_nugget"
+				item: "kubejs:raw_iron_mote"
 			}]
 		}
 		{
@@ -383,18 +369,11 @@
 				"Involves cyclical processing. Requires a source of nether quartz."
 			]
 			id: "398A80F01C4FC7A8"
-			tasks: [
-				{
-					id: "252B13B3640A2CAC"
-					type: "item"
-					item: "minecraft:redstone"
-				}
-				{
-					id: "39547E3874371931"
-					type: "checkmark"
-					title: "Redstone"
-				}
-			]
+			tasks: [{
+				id: "252B13B3640A2CAC"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
 		}
 		{
 			x: 14.0d
@@ -2232,6 +2211,52 @@
 						}
 					}
 				}
+			}]
+		}
+		{
+			x: 23.5d
+			y: 8.5d
+			description: ["Simple and affordable - this goes in your toothpaste very nicely."]
+			id: "4A364E4C3E6DDC0B"
+			tasks: [{
+				id: "0929F6424D22B452"
+				type: "item"
+				item: "mekanism:fluorite_gem"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 10.5d
+			dependencies: ["4A364E4C3E6DDC0B"]
+			id: "6497F75849C0F7CB"
+			tasks: [{
+				id: "61B8D4B2261A799C"
+				type: "item"
+				item: "kubejs:fluorite_seed"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 12.5d
+			dependencies: [
+				"6497F75849C0F7CB"
+				"58F712A11313E287"
+			]
+			id: "4E688F348094E7B0"
+			tasks: [{
+				id: "7091AD5C1534C3BA"
+				type: "item"
+				item: "mekanism:fluorite_gem"
+			}]
+		}
+		{
+			x: 25.5d
+			y: 10.5d
+			id: "58F712A11313E287"
+			tasks: [{
+				id: "2F234FAB3B4CECA3"
+				type: "item"
+				item: "minecraft:water_bucket"
 			}]
 		}
 	]

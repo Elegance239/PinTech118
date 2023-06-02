@@ -108,7 +108,7 @@ onEvent('recipes', event => {
 		'EME',
 		'SSS',
 	], {
-		E:'immersiveengineering:coil_mv',
+		E:'immersiveengineering:wirecoil_electrum',
 		M:'thermal:machine_frame',
 		S:'thermal:steel_plate',
 	})

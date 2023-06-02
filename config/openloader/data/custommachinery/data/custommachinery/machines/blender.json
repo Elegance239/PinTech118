@@ -167,13 +167,13 @@
       "type": "custommachinery:slot"
     },
     {
-      "id": "itemoutput1",
+      "id": "itemoutput2",
       "x": 145,
       "y": 35,
       "type": "custommachinery:slot"
     },
     {
-      "id": "itemoutput1",
+      "id": "itemoutput3",
       "x": 145,
       "y": 54,
       "type": "custommachinery:slot"

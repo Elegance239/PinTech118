@@ -1,1 +1,424 @@
-{"controllerId":"mm:osmium_drill","name":{},"layout":[["         ","         ","         ","    O    ","   OKO   ","    O    ","         ","         ","        "],["         ","         ","    O    ","   PPP   ","  OPKPO  ","   PPP   ","    O    ","         ","         "],["         ","         ","         ","         ","    N    ","         ","         ","         ","         "],["         ","         ","         ","         ","    M    ","         ","         ","         ","         "],["         ","         ","         ","         ","    M    ","         ","         ","         ","         "],["         ","         ","         ","         ","    M    ","         ","         ","         ","         "],["         ","         ","         ","         ","    M    ","         ","         ","         ","         "],["         ","         ","         ","   KKK   ","   KLK   ","   KKK   ","         ","         ","         "],["         ","         ","         ","   K K   ","    C    ","   K K   ","         ","         ","         "],["         "," JJJJJJJ "," J     J "," J KKK J "," J KKK J "," J KBK J "," J     J "," JJJJJJJ ","         "],["         "," IIIIIII "," IIIIIII "," IIIBIII "," IIB BII "," IIIBIII "," III III "," IIIIIII ","         "],["         ","         ","         ","    B    ","   B B   ","    B    ","         ","         ","         "],["         ","         ","         ","    B    ","   B B   ","    B    ","         ","         ","         "],["         ","         ","         ","    B    ","   B B   ","    B    ","         ","         ","         "],["         ","         ","         ","    B    ","   B B   ","    B    ","         ","         ","         "],["         ","         ","         ","    B    ","   B B   ","    B    ","         ","         ","         "],["         ","         ","         ","    B    ","   B B   ","    B    ","         ","         ","         "],["         ","         ","         ","    B    ","   B B   ","    B    ","         ","         ","         "],["         ","         ","         ","    B    ","   B B   ","    B    ","         ","         ","         "],["         ","         ","         ","    B    ","   B B   ","    B    ","         ","         ","         "],["         "," HHHHHHH "," HIIIIIH "," HIIIIIH "," HII IIH "," HIIIIIH "," HIIIIIH "," HHHHHHH ","         "],["BGGGGGGGB","G   B   G","G       G","G       G","GB     BG","G       G","G       G","G   B   G","BGGGGGGGB"],["BDDDDDDDB","D       D","D       D","D       D","D       D","D       D","D       D","D       D","BDDDDDDDB"],["BDDDDDDDB","D       D","D       D","D       D","D       D","D       D","D       D","D       D","BDDDDDDDB"],["BDDDDDDDB","D       D","D       D","D       D","D       D","D       D","D       D","D       D","BDDDDDDDB"],["BDDDDDDDB","D       D","D       D","D       D","D       D","D       D","D       D","D       D","BDDDDDDDB"],["BDDDDDDDB","D       D","D       D","D       D","D       D","D       D","D       D","D       D","BDDDDDDDB"],["BDDDDDDDB","D       D","D       D","D       D","D       D","D       D","D       D","D       D","BDDDDDDDB"],["BDDDDDDDB","D       D","D       D","D       D","D       D","D       D","D       D","D       D","BDDDDDDDB"],["BDDDDDDDB","DAAAAAAAD","DAAAAAAAD","DAAEFEAAD","DAAF FAAD","DAAEFEAAD","DAAAAAAAD","DAAAAAAAD","BDDDDDDDB"],["AAAAAAAAA","AAAAAAAAA","AAAAAAAAA","AAAAAAAAA","AAAAAAAAA","AAAAAAAAA","AAAAAAAAA","AAAAAAAAA","AAAAAAAAA"]],"key":{"A":{"type":"mm:block","block":"engineersdecor:rebar_concrete"},"B":{"type":"mm:block","block":"immersiveengineering:steel_scaffolding_grate_top"},"D":{"type":"mm:block","block":"tconstruct:light_gray_clear_stained_glass"},"E":{"type":"mm:block","block":"engineersdecor:rebar_concrete_slab"},"F":{"type":"mm:block","block":"engineersdecor:rebar_concrete_stairs"},"G":{"type":"mm:block","block":"immersiveengineering:steel_scaffolding_wooden_top"},"H":{"type":"mm:block","block":"immersiveengineering:stairs_steel_scaffolding_wooden_top"},"I":{"type":"mm:block","block":"immersiveengineering:treated_scaffold"},"J":{"type":"mm:block","block":"immersiveengineering:steel_fence"},"K":{"type":"mm:block","block":"immersiveengineering:treated_wood_horizontal"},"L":{"type":"mm:block","block":"engineersdecor:treated_wood_pole_head"},"M":{"type":"mm:block","block":"engineersdecor:treated_wood_pole"},"N":{"type":"mm:block","block":"engineersdecor:treated_wood_pole_support"},"O":{"type":"mm:block","block":"immersiveengineering:slab_treated_wood_horizontal"},"P":{"type":"mm:block","block":"immersiveengineering:stairs_treated_wood_horizontal"},"Q":{"type":"mm:block","block":"minecraft:grass_block"}}}
+{
+    "controllerId": "mm:osmium_drill",
+    "name": {"text": "Osmium Drill"},
+    "layout": [
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    P    ",
+            "   PNP   ",
+            "    P    ",
+            "         ",
+            "         ",
+            "        "
+        ],
+        [
+            "         ",
+            "         ",
+            "    P    ",
+            "   SSS   ",
+            "  PSNSP  ",
+            "   SSS   ",
+            "    P    ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "         ",
+            "    R    ",
+            "         ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "         ",
+            "    O    ",
+            "         ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "         ",
+            "    O    ",
+            "         ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "         ",
+            "    O    ",
+            "         ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "         ",
+            "    O    ",
+            "         ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "   NPN   ",
+            "   PQP   ",
+            "   NPN   ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "   O O   ",
+            "    C    ",
+            "   O O   ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            " MMMMMMM ",
+            " M     M ",
+            " M NNN M ",
+            " M NNN M ",
+            " M NBN M ",
+            " M     M ",
+            " MMMMMMM ",
+            "         "
+        ],
+        [
+            "         ",
+            " LLLLLLL ",
+            " LLLLLLL ",
+            " LLLBLLL ",
+            " LLB BLL ",
+            " LLLBLLL ",
+            " LLL LLL ",
+            " LLLLLLL ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   B B   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   B B   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   B B   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   B B   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   B B   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   B B   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   B B   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   B B   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   B B   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            " KKKKKKK ",
+            " KLLLLLK ",
+            " KLLLLLK ",
+            " KLL LLK ",
+            " KLLLLLK ",
+            " KLLLLLK ",
+            " KKKKKKK ",
+            "         "
+        ],
+        [
+            "BJJJJJJJB",
+            "J   B   J",
+            "J       J",
+            "J       J",
+            "JB     BJ",
+            "J       J",
+            "J       J",
+            "J   B   J",
+            "BJJJJJJJB"
+        ],
+        [
+            "BDDDDDDDB",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "BDDDDDDDB"
+        ],
+        [
+            "BDDDDDDDB",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "BDDDDDDDB"
+        ],
+        [
+            "BDDDDDDDB",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "BDDDDDDDB"
+        ],
+        [
+            "BDDDDDDDB",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "BDDDDDDDB"
+        ],
+        [
+            "BDDDDDDDB",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "BDDDDDDDB"
+        ],
+        [
+            "BDDDDDDDB",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "BDDDDDDDB"
+        ],
+        [
+            "BDDDDDDDB",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "BDDDDDDDB"
+        ],
+        [
+            "BDDDDDDDB",
+            "DAAAAAAAD",
+            "DAAAAAAAD",
+            "DAAEFEAAD",
+            "GAAF FAAH",
+            "DAAEFEAAD",
+            "DAAAAAAAD",
+            "DAAAAAAAD",
+            "BDDDIDDDB"
+        ],
+        [
+            "AAAAAAAAA",
+            "AAAAAAAAA",
+            "AAAAAAAAA",
+            "AAAAAAAAA",
+            "AAAAAAAAA",
+            "AAAAAAAAA",
+            "AAAAAAAAA",
+            "AAAAAAAAA",
+            "AAAAAAAAA"
+        ]
+    ],
+    "key": {
+        "A": {
+            "type": "mm:block",
+            "block": "engineersdecor:rebar_concrete"
+        },
+        "B": {
+            "type": "mm:block",
+            "block": "immersiveengineering:steel_scaffolding_grate_top"
+        },
+        "D": {
+            "type": "mm:block",
+            "block": "tconstruct:light_gray_clear_stained_glass"
+        },
+        "E": {
+            "type": "mm:block",
+            "block": "engineersdecor:rebar_concrete_slab"
+        },
+        "F": {
+            "type": "mm:block",
+            "block": "engineersdecor:rebar_concrete_stairs"
+        },
+        "G": {
+            "type": "mm:port",
+            "port": "mm:item",
+            "input": true
+        },
+        "H": {
+            "type": "mm:port",
+            "port": "mm:item",
+            "input": false
+        },
+        "I": {
+            "type": "mm:port",
+            "port": "mm:energy",
+            "input": true
+        },
+        "J": {
+            "type": "mm:block",
+            "block": "immersiveengineering:steel_scaffolding_wooden_top"
+        },
+        "K": {
+            "type": "mm:block",
+            "block": "immersiveengineering:stairs_steel_scaffolding_wooden_top"
+        },
+        "L": {
+            "type": "mm:block",
+            "block": "immersiveengineering:treated_scaffold"
+        },
+        "M": {
+            "type": "mm:block",
+            "block": "immersiveengineering:steel_fence"
+        },
+        "N": {
+            "type": "mm:block",
+            "block": "immersiveengineering:treated_wood_horizontal"
+        },
+        "O": {
+            "type": "mm:block",
+            "block": "engineersdecor:treated_wood_pole"
+        },
+        "P": {
+            "type": "mm:block",
+            "block": "immersiveengineering:slab_treated_wood_horizontal"
+        },
+        "Q": {
+            "type": "mm:block",
+            "block": "engineersdecor:treated_wood_pole_head"
+        },
+        "R": {
+            "type": "mm:block",
+            "block": "engineersdecor:treated_wood_pole_support"
+        },
+        "S": {
+            "type": "mm:block",
+            "block": "immersiveengineering:stairs_treated_wood_horizontal"
+        }
+    }
+}

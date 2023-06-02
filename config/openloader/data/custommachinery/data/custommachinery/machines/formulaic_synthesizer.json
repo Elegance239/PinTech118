@@ -54,6 +54,16 @@
         "mode": "output",
         "id": "itemoutput1",
         "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "itemoutput2",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "itemoutput3",
+        "type": "custommachinery:item"
       }
     ],
     "gui": [
@@ -78,37 +88,37 @@
       },
       {
         "id": "iteminput1",
-        "x": 75,
+        "x": 60,
         "y": 16,
         "type": "custommachinery:slot"
       },
       {
         "id": "iteminput2",
-        "x": 94,
+        "x": 79,
         "y": 16,
         "type": "custommachinery:slot"
       },
       {
         "id": "iteminput3",
-        "x": 75,
+        "x": 60,
         "y": 35,
         "type": "custommachinery:slot"
       },
       {
         "id": "iteminput4",
-        "x": 94,
+        "x": 79,
         "y": 35,
         "type": "custommachinery:slot"
       },
       {
         "id": "iteminput5",
-        "x": 75,
+        "x": 60,
         "y": 54,
         "type": "custommachinery:slot"
       },
       {
         "id": "iteminput6",
-        "x": 94,
+        "x": 79,
         "y": 54,
         "type": "custommachinery:slot"
       },
@@ -119,14 +129,26 @@
       },
       {
         "id": "blueprint",
-        "x": 116,
-        "y": 16,
+        "x": 119,
+        "y": 54,
         "type": "custommachinery:slot"
       },
       {
         "id": "itemoutput1",
-        "x": 145,
+        "x": 160,
+        "y": 16,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "itemoutput2",
+        "x": 160,
         "y": 35,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "itemoutput3",
+        "x": 160,
+        "y": 54,
         "type": "custommachinery:slot"
       },
       {

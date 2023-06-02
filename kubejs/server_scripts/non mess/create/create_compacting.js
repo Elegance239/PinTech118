@@ -46,4 +46,6 @@ onEvent('recipes', event => {
         ],
         heatRequirement: "heated"
     })
+
+    event.recipes.createCompacting('minecraft:raw_iron', Item.of('48x kubejs:raw_iron_mote'))
 })

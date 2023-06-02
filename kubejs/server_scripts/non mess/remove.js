@@ -55,6 +55,9 @@ event.remove({input: 'mekanism:dust_refined_obsidian', output: 'mekanism:ingot_r
 event.remove({input: 'immersiveengineering:raw_aluminum', output: 'immersiveengineering:ingot_aluminum'})
 event.remove({input: 'thermal:copper_coin'})
 event.remove({output: 'thermal:copper_coin'})
+event.remove({input: '#forge:ores', output: '#forge:ingots'})
+event.remove({input: '#forge:ores', output: '#create:crushed_ores'})
+event.remove({input: '#forge:ores', output: '#forge:dusts'})
 
 const mekfactory = [
     "compressing","smelting","enriching","crushing","combining","purifying","injecting","infusing","sawing"
@@ -356,6 +359,8 @@ let SD = (id) => 'storagedrawers:'+id
         'create:splashing/red_sand',
         'thermal:machines/pyrolyzer/pyrolyzer_coal',
         'thermal:machines/pyrolyzer/pyrolyzer_logs',
+        'create:splashing/gravel',
+        'createchromaticreturn:q_to_fluorite',
     ]
 
     recipeId.forEach(item => {

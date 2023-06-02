@@ -31,4 +31,9 @@ onEvent('recipes', event => {
 			Item.of('industrialforegoing:machine_frame_supreme').toJson(),
 		]
 	})
+
+	event.recipes.createSplashing(
+		[Item.of('minecraft:flint').withChance(0.25), Item.of('3x kubejs:raw_iron_mote').withChance(0.12)],
+		Item.of('minecraft:gravel')
+	)
 })

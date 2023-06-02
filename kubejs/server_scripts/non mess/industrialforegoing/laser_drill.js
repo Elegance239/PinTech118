@@ -1,4 +1,4 @@
-onEvent('recipes', event => {
+/* onEvent('recipes', event => {
 	event.custom({
         "type": "forge:conditional",
         "recipes": [
@@ -61,4 +61,4 @@ onEvent('recipes', event => {
           }
         ]
       })
-})
+}) */

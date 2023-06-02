@@ -441,4 +441,31 @@ onEvent('recipes', event => {
             ]),
         ]
     ).transitionalItem('kubejs:nanocomposite_alloy').loops(50)
+
+    event.recipes.createSequencedAssembly(
+        [Item.of('mekanism:fluorite_gem')],
+        'kubejs:fluorite_seed',
+        [
+            event.recipes.createFilling('kubejs:fluorite_seed',
+                [
+                    'kubejs:fluorite_seed',
+                    Fluid.of('minecraft:water', 400)
+                ]
+            ),
+
+            event.recipes.createFilling('kubejs:fluorite_seed',
+                [
+                    'kubejs:fluorite_seed',
+                    Fluid.of('minecraft:water', 400)
+                ]
+            ),
+
+            event.recipes.createFilling('kubejs:fluorite_seed',
+                [
+                    'kubejs:fluorite_seed',
+                    Fluid.of('minecraft:water', 400)
+                ]
+            ),
+        ]
+    ).transitionalItem('kubejs:fluorite_seed').loops(3)
 })

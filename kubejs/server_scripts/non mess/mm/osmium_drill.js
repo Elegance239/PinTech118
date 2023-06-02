@@ -25,10 +25,10 @@ function MMIngredient(item, count) {
                 }
                 
             },
-            MMIngredient("thermal:steel_ingot", 1)
+            MMIngredient("minecraft:raw_iron", 1)
         ],
         outputs: [
-            MMIngredient("mekanism:ingot_osmium", 1),
+            MMIngredient("kubejs:processed_raw_osmium", 1),
         ]
     })
 
