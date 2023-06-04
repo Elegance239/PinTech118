@@ -733,7 +733,7 @@
 			x: 58.5d
 			y: 0.0d
 			shape: "square"
-			subtitle: "Nabla x E = -dB/dt"
+			subtitle: "Faraday's Law"
 			description: ["When in doubt, ponder. But this is the last thing you can ponder on. "]
 			dependencies: [
 				"08EBCB6CC12D5164"

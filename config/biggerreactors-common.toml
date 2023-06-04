@@ -45,13 +45,13 @@
     # Valid range: (0,)
     # Default: 1.0
     #
-    FuelUsageMultiplier = 1.5
+    FuelUsageMultiplier = 5.0
 
     #
     # Valid range: (0,)
     # Default: 1.0
     #
-    OutputMultiplier = 0.5
+    OutputMultiplier = 1.0
 
     [Reactor.GUI]
         #

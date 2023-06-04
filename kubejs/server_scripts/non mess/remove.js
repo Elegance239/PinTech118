@@ -285,7 +285,15 @@ let SD = (id) => 'storagedrawers:'+id
         'simplyjetpacks:thruster_mek3',
         'simplyjetpacks:thruster_mek4',
         'mekanism:jetpack',
-        "mekanism:chemical_crystallizer"
+        "mekanism:chemical_crystallizer",
+        "biggerreactors:turbine_casing",
+        "biggerreactors:reactor_casing",
+        "biggerreactors:reactor_terminal",
+        'biggerreactors:reactor_fuel_rod',
+        'simplyjetpacks:armorplating_mek1',
+        'simplyjetpacks:armorplating_mek2',
+        'simplyjetpacks:armorplating_mek3',
+        'simplyjetpacks:armorplating_mek4',
     ]                                               
 
     removeid.forEach(item => {

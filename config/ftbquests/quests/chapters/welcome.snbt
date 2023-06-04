@@ -60,11 +60,6 @@
 				type: "checkmark"
 				title: "0"
 			}]
-			rewards: [{
-				id: "0E7519FA8CB85276"
-				type: "item"
-				item: "kubejs:chin_new"
-			}]
 		}
 		{
 			title: "Chapter 1"
@@ -82,11 +77,6 @@
 				id: "01333AA11106E32B"
 				type: "checkmark"
 				title: "1"
-			}]
-			rewards: [{
-				id: "7575B0A3E7E73ECD"
-				type: "item"
-				item: "kubejs:chin_new"
 			}]
 		}
 		{
@@ -106,11 +96,6 @@
 				type: "checkmark"
 				title: "2"
 			}]
-			rewards: [{
-				id: "28A99EDE0C75BBF0"
-				type: "item"
-				item: "kubejs:chin_new"
-			}]
 		}
 		{
 			title: "Chapter 3a"
@@ -128,11 +113,6 @@
 				id: "4F3DF157524FF89F"
 				type: "checkmark"
 				title: "3"
-			}]
-			rewards: [{
-				id: "41A998E38691D53E"
-				type: "item"
-				item: "kubejs:chin_new"
 			}]
 		}
 		{
@@ -152,11 +132,6 @@
 				type: "checkmark"
 				title: "3b"
 			}]
-			rewards: [{
-				id: "012A389E6D32EF64"
-				type: "item"
-				item: "kubejs:chin_new"
-			}]
 		}
 		{
 			title: "Chapter 4"
@@ -174,11 +149,6 @@
 				type: "checkmark"
 				title: "4"
 			}]
-			rewards: [{
-				id: "589CF8A8F1F4F58F"
-				type: "item"
-				item: "kubejs:chin_new"
-			}]
 		}
 		{
 			title: "Baby Steps"
@@ -191,11 +161,6 @@
 			tasks: [{
 				id: "6B0AC083F18BF3E5"
 				type: "checkmark"
-			}]
-			rewards: [{
-				id: "10BE646B05F2B9FB"
-				type: "item"
-				item: "kubejs:chin_new"
 			}]
 		}
 		{
@@ -213,11 +178,6 @@
 				id: "0E36FE87AAEC044A"
 				type: "checkmark"
 				title: "Chapter 1"
-			}]
-			rewards: [{
-				id: "0DBA781E428890A4"
-				type: "item"
-				item: "kubejs:chin_new"
 			}]
 		}
 	]

@@ -59,5 +59,10 @@ onEvent('recipes', event => {
 		'kubejs:enriched_ender_regolith',
 		[Fluid.of('tconstruct:molten_refined_glowstone', 10), Item.of('kubejs:radioactive_ender_regolith')]
 	).energy(2000)
+
+	event.recipes.thermal.bottler(
+		'kubejs:enriched_ender_regolith',
+		[Fluid.of('thermal:glowstone', 125), Item.of('kubejs:radioactive_ender_regolith')]
+	).energy(2000)
 })
 

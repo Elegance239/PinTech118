@@ -14,6 +14,7 @@
 			x: -14.0d
 			y: 0.0d
 			shape: "gear"
+			description: ["The Reinforcement Catalyst is the key to unlocking stronger materials, but it must be purchased for a steep, steep price."]
 			dependencies: ["26F8D4EEEC76EBCE"]
 			size: 2.0d
 			id: "5C6472194AEDF044"
@@ -380,6 +381,7 @@
 		{
 			x: 6.0d
 			y: 0.0d
+			description: ["Reaching the limits of computing, this circuit generates extreme amounts of heat."]
 			dependencies: [
 				"44E3936635495C75"
 				"3BAE78FF156D9093"
@@ -430,6 +432,7 @@
 		{
 			x: 9.0d
 			y: 0.0d
+			description: ["The rare metal Osmium has long been depleted from this world, and special equipment is needed to extract what little is left."]
 			dependencies: [
 				"10D51DCB25E9A9EA"
 				"7A5DDB1D27A24845"

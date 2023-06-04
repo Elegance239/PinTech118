@@ -14,7 +14,7 @@
 			y: 0.0d
 			shape: "gear"
 			subtitle: "The actual beginning of the early-game"
-			description: ["Wake up! Hand-holding is over. Recipes will become harder to prevent you from mining using fortune. Consider looking at the \"Ore Generation\" quest tab after you unlock the induction smelter."]
+			description: ["Wake up! Hand-holding is over. Consider looking at the \"Ore Generation\" quest tab after you unlock the induction smelter."]
 			dependencies: ["784BF5DEA003561C"]
 			size: 2.0d
 			id: "7F019A11B2FAC654"
@@ -144,6 +144,7 @@
 			}]
 		}
 		{
+			title: "Rubber Synthesis"
 			x: -9.0d
 			y: 7.5d
 			dependencies: ["44D2AC4ACEAD5C04"]
@@ -313,6 +314,7 @@
 		{
 			x: -8.25d
 			y: 0.0d
+			description: ["This heat-resistant alloy will be useful to build machines that can handle extreme temperatures."]
 			dependencies: ["491798492D43C061"]
 			size: 1.5d
 			id: "1C8D006B9FF467A5"
@@ -352,6 +354,7 @@
 		{
 			x: -17.0d
 			y: 4.0d
+			description: ["Go blow up some steel."]
 			hide_dependency_lines: true
 			dependencies: ["7F019A11B2FAC654"]
 			id: "27416E7E118DD7BD"
@@ -449,6 +452,7 @@
 		{
 			x: -14.0d
 			y: -5.0d
+			subtitle: "Not exactly advanced"
 			dependencies: ["00F30C034E74B458"]
 			size: 1.5d
 			id: "5F433C2039C36F6A"
@@ -510,7 +514,7 @@
 		{
 			x: 9.75d
 			y: -3.0d
-			description: ["A cheaper alternate recipe is unlocked after unlocking PCBs."]
+			description: ["A cheaper alternate recipe is available after unlocking PCBs."]
 			dependencies: [
 				"7A23F9D8718773BB"
 				"39C470DE5EBB877C"
@@ -751,6 +755,7 @@
 		{
 			x: 6.0d
 			y: 2.5d
+			description: ["This highly conductive alloy has some very useful electrical properties."]
 			dependencies: ["2020A4467D5A40DB"]
 			size: 1.5d
 			id: "7A1FD7DE54378DE2"
@@ -826,6 +831,7 @@
 			}]
 		}
 		{
+			title: "Assembly Setup"
 			x: 15.0d
 			y: 0.0d
 			dependencies: ["2A3C8B333B349A7A"]
@@ -866,6 +872,7 @@
 		{
 			x: 17.5d
 			y: 0.0d
+			subtitle: "Turing Complete"
 			dependencies: ["21DBA648210F8002"]
 			size: 1.5d
 			id: "26F8D4EEEC76EBCE"

@@ -1400,7 +1400,7 @@ onEvent('recipes', event => {
         "item": "mekanism:alloy_reinforced"
       },
       "B": {
-        "item": "thermal:diamond_gear"
+        "item": "thermal:invar_gear"
       },
       "C": {
         "item": "mekanism:advanced_control_circuit"
@@ -2092,6 +2092,123 @@ onEvent('recipes', event => {
     },
     "E": {
         "item": "thermal:signalum_gear"
+    }
+},
+)
+event.shaped('4x biggerreactors:reactor_casing',
+    ["ABA", "BCB", "ADA"],
+    {
+    "A": {
+        "item": "thermal:lead_plate"
+    },
+    "B": {
+        "item": "biggerreactors:graphite_ingot"
+    },
+    "C": {
+        "item": "immersiveengineering:heavy_engineering"
+    },
+    "D": {
+      "item": "kubejs:composite_mechanical_component"
+  }
+},
+)
+
+event.shaped('4x biggerreactors:turbine_casing',
+    ["ABA", "CDC", "ABA"],
+    {
+    "A": {
+        "item": "immersiveengineering:plate_aluminum"
+    },
+    "B": {
+        "item": "biggerreactors:cyanite_ingot"
+    },
+    "C": {
+        "item": "biggerreactors:graphite_ingot"
+    },
+    "D": {
+        "item": "immersiveengineering:light_engineering"
+    }
+},
+)
+event.shaped('biggerreactors:reactor_terminal',
+    ["AAA", "BCB", "AAA"],
+    {
+    "A": {
+        "item": "biggerreactors:reactor_casing"
+    },
+    "B": {
+        "item": "mekanism:elite_control_circuit"
+    },
+    "C": {
+        "item": "industrialforegoing:machine_frame_advanced"
+    }
+},
+)
+event.shaped('2x biggerreactors:reactor_fuel_rod',
+    ["ABA", "ACA", "ABA"],
+    {
+    "A": {
+        "item": "biggerreactors:reactor_casing"
+    },
+    "B": {
+        "item": "thermal:lead_plate"
+    },
+    "C": {
+        "item": "kubejs:cooling_system"
+    }
+},
+)
+event.shaped('simplyjetpacks:armorplating_mek1',
+    ["AAA", "ABA", "AAA"],
+    {
+    "A": {
+        "item": "kubejs:compressed_iron_plate"
+    },
+    "B": {
+        "item": "mekanism:basic_control_circuit"
+    }
+},
+)
+event.shaped('simplyjetpacks:armorplating_mek2',
+    ["ABA", "BCB", "ABA"],
+    {
+    "A": {
+        "item": "thermal:invar_plate"
+    },
+    "B": {
+        "item": "mekanism:alloy_infused"
+    },
+    "C": {
+        "item": "simplyjetpacks:armorplating_mek1"
+    }
+},
+)
+
+event.shaped('simplyjetpacks:armorplating_mek3',
+    ["ABA", "BCB", "ABA"],
+    {
+    "A": {
+        "item": "mekanism:hdpe_sheet"
+    },
+    "B": {
+        "item": "kubejs:composite_mechanical_component"
+    },
+    "C": {
+        "item": "simplyjetpacks:armorplating_mek2"
+    }
+},
+)
+event.shaped('simplyjetpacks:armorplating_mek4',
+    ["ABA", "BCB", "ABA"],
+    {
+    "A": {
+        "item": "thermal:netherite_plate"
+    },
+    "B": {
+        "item": "kubejs:graphene"
+    },
+    "C": {
+        "item": "simplyjetpacks:armorplating_mek3"
     }
 },
 )

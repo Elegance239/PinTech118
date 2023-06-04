@@ -30,4 +30,7 @@ onEvent('recipes', event => {
 	event.replaceInput({id:'simplyjetpacks:mek/jetpack_mek1'},'mekanism:basic_control_circuit','immersiveengineering:component_electronic_adv')
 	event.replaceInput({id:'simplyjetpacks:mek/jetpack_mek4'},'mekanism:ultimate_control_circuit','mekanism:elite_control_circuit')
 	event.replaceInput({id:'mekanism:transmitter/logistical_transporter/basic'},'mekanism:basic_control_circuit','create:chute')
+	event.replaceInput({id:'tiab:time_in_a_bottle'},'minecraft:clock','thermal:lumium_block')
+	event.replaceInput({id:'biggerreactors:crafting/cyanite_reprocessor'},'biggerreactors:reactor_fuel_rod','mekanism:isotopic_centrifuge')
+	event.replaceInput({id:'biggerreactors:crafting/turbine_terminal'},'minecraft:diamond','mekanism:elite_control_circuit')
 })	

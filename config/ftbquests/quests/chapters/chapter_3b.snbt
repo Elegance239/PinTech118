@@ -23,6 +23,7 @@
 		{
 			x: 6.0d
 			y: 0.0d
+			subtitle: "I swear this recipe is somewhat realistic"
 			dependencies: [
 				"024E6EDA89D0BE99"
 				"0AD73A8E646DE463"
@@ -55,6 +56,7 @@
 		{
 			x: 8.5d
 			y: -2.0d
+			subtitle: "Zero resistance????"
 			dependencies: [
 				"78EBEC53C917013F"
 				"14B46BA89E462FEC"
@@ -134,6 +136,7 @@
 		{
 			x: 3.5d
 			y: -4.0d
+			description: [""]
 			dependencies: ["14B46BA89E462FEC"]
 			id: "1D6E327CCA27EDCE"
 			tasks: [{
@@ -157,6 +160,8 @@
 			title: "Linear Particle Accelerator"
 			x: 16.5d
 			y: -3.0d
+			subtitle: "haha atoms go smoosh"
+			description: ["Engineering a machine to peer into the quantum realm may be... a little costly."]
 			dependencies: ["15016D456CDC89A4"]
 			size: 3.0d
 			id: "2CEB255ACD9A9675"

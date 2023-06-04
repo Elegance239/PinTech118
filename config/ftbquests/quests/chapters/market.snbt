@@ -314,6 +314,7 @@
 			}]
 		}
 		{
+			title: "White Concrete Powder"
 			icon: "minecraft:white_concrete_powder"
 			x: -6.0d
 			y: -5.0d
@@ -322,7 +323,7 @@
 				id: "4A2E6FE8B0521D8D"
 				type: "item"
 				item: "thermal:copper_coin"
-				count: 2L
+				count: 3L
 				consume_items: true
 			}]
 			rewards: [{
@@ -333,6 +334,7 @@
 			}]
 		}
 		{
+			title: "Glass"
 			icon: "minecraft:glass"
 			x: -4.5d
 			y: -5.0d
@@ -352,6 +354,7 @@
 			}]
 		}
 		{
+			title: "Deepslate"
 			icon: "minecraft:deepslate"
 			x: -3.0d
 			y: -5.0d
@@ -371,6 +374,7 @@
 			}]
 		}
 		{
+			title: "Terracotta"
 			icon: "minecraft:terracotta"
 			x: -1.5d
 			y: -5.0d
@@ -607,6 +611,7 @@
 			}]
 		}
 		{
+			title: "Oak Leaves"
 			icon: "minecraft:oak_leaves"
 			x: 6.0d
 			y: -5.0d
