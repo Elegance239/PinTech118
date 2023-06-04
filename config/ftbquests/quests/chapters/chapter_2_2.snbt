@@ -23,18 +23,43 @@
 					id: "3BCB93A1E9904FBB"
 					type: "item"
 					item: "kubejs:reinforced_casing"
-					count: 2L
+					count: 10L
 				}
 				{
 					id: "1877C4E28708DFAD"
 					type: "item"
 					item: "industrialforegoing:machine_frame_simple"
+					count: 20L
 				}
 				{
 					id: "6E77CA7842C61936"
 					type: "item"
 					item: "kubejs:storage_bundle"
 					count: 10L
+				}
+				{
+					id: "3887F2581537FC8E"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+					count: 15L
+				}
+				{
+					id: "670B6795C95FB23A"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 15L
+				}
+				{
+					id: "76E0901DB7BDBBB2"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 15L
+				}
+				{
+					id: "6DA7A769C9B64DB0"
+					type: "item"
+					item: "mekanism:advanced_control_circuit"
+					count: 20L
 				}
 			]
 			rewards: [{

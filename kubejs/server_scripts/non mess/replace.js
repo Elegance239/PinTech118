@@ -33,4 +33,5 @@ onEvent('recipes', event => {
 	event.replaceInput({id:'tiab:time_in_a_bottle'},'minecraft:clock','thermal:lumium_block')
 	event.replaceInput({id:'biggerreactors:crafting/cyanite_reprocessor'},'biggerreactors:reactor_fuel_rod','mekanism:isotopic_centrifuge')
 	event.replaceInput({id:'biggerreactors:crafting/turbine_terminal'},'minecraft:diamond','mekanism:elite_control_circuit')
+	event.replaceInput({mod:'refinedstorage'}, 'minecraft:ender_pearl', 'kubejs:pressurized_ender_core')
 })	
