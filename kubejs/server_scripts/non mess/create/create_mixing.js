@@ -96,55 +96,112 @@ onEvent('recipes', event => {
 		heatRequirement: 'heated',
 	})
 
-	event.recipes.create.mixing(
-		Fluid.of('tconstruct:molten_obsidian', 1000), 
-		[Fluid.of('minecraft:water', 500), 'minecraft:obsidian']
-		).superheated().id('create:mixing/molten_obsidian')
+	event.custom({
+		type: 'create:mixing',
+		ingredients: [
+			Ingredient.of('minecraft:obsidian').toJson(),
+			{ fluid: 'minecraft:water', amount: 500 }
+		],
+		results: [ { fluid: 'tconstruct:molten_obsidian', amount: 1000 } ],
+		heatRequirement: 'superheated',
+		id: 'create:mixing/molten_obsidian'
+	});
 
-	event.recipes.create.mixing(
-		Fluid.of('thermal_extra:zauvium', 500),
-		[Fluid.of('thermal:redstone', 1000), Fluid.of('tconstruct:molten_signalum', 90)]
-	)
+	event.custom({
+		type: 'create:mixing',
+		ingredients: [
+			Fluid.of('thermal:redstone', 1000).toJson(),
+			Fluid.of('tconstruct:molten_signalum', 90).toJson()
+		],
+		results: [Fluid.of('thermal_extra:zauvium', 500).toJson()],
+		id: 'create:mixing/zauvium'
+	});
 
-	event.recipes.create.mixing(
-		Fluid.of('thermal_extra:nectium', 500),
-		[Fluid.of('tconstruct:molten_refined_glowstone', 1000), Fluid.of('tconstruct:molten_lumium', 90)]
-	)
+	event.custom({
+		type: 'create:mixing',
+		ingredients: [
+			Fluid.of('tconstruct:molten_refined_glowstone', 270).toJson(),
+			Fluid.of('tconstruct:molten_lumium', 90).toJson()
+		],
+		results: [Fluid.of('thermal_extra:nectium', 500).toJson()],
+		id: 'create:mixing/nectium'
+	});
 
-	event.recipes.create.mixing(
-		Fluid.of('thermal_extra:nebulium', 500),
-		[Fluid.of('industrialforegoing:pink_slime', 1000), Fluid.of('tconstruct:molten_refined_obsidian', 90)]
-	)
+	event.custom({
+		type: 'create:mixing',
+		ingredients: [
+			Fluid.of('industrialforegoing:pink_slime', 500).toJson(),
+			Fluid.of('tconstruct:molten_refined_obsidian', 90).toJson()
+		],
+		results: [Fluid.of('thermal_extra:nebulium', 500).toJson()],
+		id: 'create:mixing/nebulium'
+	});
 
-	event.recipes.create.mixing(
-		Fluid.of('thermal_extra:vukaium', 500),
-		[Fluid.of('create_enchantment_industry:experience', 500), Fluid.of('tconstruct:molten_uranium', 90)]
-	)
+	event.custom({
+		type: 'create:mixing',
+		ingredients: [
+			Fluid.of('create_enchantment_industry:experience', 500).toJson(),
+			Fluid.of('tconstruct:molten_uranium', 90).toJson()
+		],
+		results: [Fluid.of('thermal_extra:vukaium', 500).toJson()],
+		id: 'create:mixing/vukaium'
+	});
+	
+	event.custom({
+		type: 'create:mixing',
+		ingredients: [
+			Fluid.of('kubejs:cryogenic_coolant', 1000).toJson(),
+			Fluid.of('tconstruct:molten_enderium', 90).toJson()
+		],
+		results: [Fluid.of('thermal_extra:drownium', 500).toJson()],
+		id: 'create:mixing/drownium_enderium'
+	});
+	
+	event.custom({
+		type: 'create:mixing',
+		ingredients: [
+			Fluid.of('kubejs:cryogenic_coolant', 1000).toJson(),
+			Fluid.of('thermal_extra:dragon_enderium', 45).toJson()
+		],
+		results: [Fluid.of('thermal_extra:drownium', 500).toJson()],
+		id: 'create:mixing/drownium_dragon_enderium'
+	});
+	
+	event.custom({
+		type: 'create:mixing',
+		ingredients: [
+			Item.of('minecraft:dragon_breath').toJson(),
+			Fluid.of('tconstruct:molten_enderium', 45).toJson()
+		],
+		results: [Fluid.of('thermal_extra:dragon_enderium', 90).toJson()],
+		heatRequirement: 'heated',
+		id: 'create:mixing/dragon_enderium'
+	});
+	
+	event.custom({
+		type: 'create:mixing',
+		ingredients: [
+			Item.of('createchromaticreturn:refined_radiance').toJson(),
+			Item.of('createchromaticreturn:refined_radiance').toJson(),
+			Fluid.of('tconstruct:molten_electrum', 450).toJson()
+		],
+		results: [Item.of('kubejs:neoclydium_ingot_test').toJson()],
+		heatRequirement: 'superheated',
+		id: 'create:mixing/neoclydium_ingot_test'
+	});
 
-	event.recipes.create.mixing(
-		Fluid.of('thermal_extra:drownium', 500),
-		[Fluid.of('kubejs:cryogenic_coolant', 1000), Fluid.of('tconstruct:molten_enderium', 90)]
-	)
-
-	event.recipes.create.mixing(
-		Fluid.of('thermal_extra:drownium', 500),
-		[Fluid.of('kubejs:cryogenic_coolant', 1000), Fluid.of('thermal_extra:dragon_enderium', 45)]
-	)
-
-	event.recipes.create.mixing(
-		Fluid.of('thermal_extra:dragon_enderium', 90),
-		[Item.of('minecraft:dragon_breath'), Fluid.of('tconstruct:molten_enderium', 45)]
-	).heated()
-
-	event.recipes.create.mixing(
-		Item.of('kubejs:neoclydium_ingot_test'),
-		[Item.of('2x createchromaticreturn:refined_radiance'), Fluid.of('tconstruct:molten_electrum', 450)]
-	).superheated()
-
-	event.recipes.create.mixing(
-		Item.of('kubejs:plutonium_superalloy'),
-		[Item.of('mekanism:pellet_plutonium'), Item.of('2x immersiveengineering:ingot_hop_graphite'), Item.of('thermal_extra:polarium_ingot'), Fluid.of('minecraft:water', 500)]
-	)
+	event.custom({
+		type: 'create:mixing',
+		ingredients: [
+			Item.of('mekanism:pellet_plutonium').toJson(),
+			Item.of('immersiveengineering:ingot_hop_graphite').toJson(),
+			Item.of('immersiveengineering:ingot_hop_graphite').toJson(),
+			Item.of('thermal_extra:polarium_ingot').toJson(),
+			Fluid.of('minecraft:water', 500).toJson()
+		],
+		results: [Item.of('kubejs:plutonium_superalloy').toJson()],
+		id: 'create:mixing/plutonium_superalloy'
+	});
 
 	event.custom({
 		type: 'create:mixing',
@@ -157,31 +214,73 @@ onEvent('recipes', event => {
 		],
 	})
 
-	event.recipes.create.mixing(
-		Item.of('kubejs:desiccated_biomass'),
-		[Item.of('kubejs:dehydrated_biomass'), Item.of('kubejs:calcium_oxide')]
-	)
-
-
 	event.replaceInput({id:"createaddition:mixing/biomass_from_sticks"}, 'minecraft:stick', '8x mekanism:bio_fuel')
 
-	event.recipes.create.mixing(
-		Item.of('kubejs:pyrotheum'),
-		[Item.of('2x kubejs:iron_oxide'), Item.of('2x immersiveengineering:dust_aluminum'), Item.of('mekanism:dust_lithium'), Item.of('minecraft:blaze_powder')]
-	)
-
-	event.recipes.create.mixing(
-		[Fluid.of('kubejs:waste', 500), Item.of('kubejs:sieve'), Item.of('9x kubejs:impure_gold').withChance(0.7), Item.of('6x kubejs:impure_gold').withChance(0.5), Item.of('3x kubejs:impure_gold').withChance(0.3), Item.of('1x kubejs:impure_gold').withChance(0.1)],
-		[Fluid.of('minecraft:water', 1000), Item.of('kubejs:sieve_with_gold')]	
-	)
-
-	event.recipes.create.mixing(
-		Fluid.of('pneumaticcraft:etching_acid', 1000),
-		[Item.of('2x minecraft:gunpowder'), Item.of('2x minecraft:spider_eye'), Item.of('2x minecraft:rotten_flesh')]
-	)
-
-	event.recipes.create.mixing(
-		Item.of('thermal_extra:polarium_ingot'),
-		[Item.of('kubejs:highly_enriched_carbon'), Item.of('mekanism:alloy_reinforced'), Item.of('thermal:nickel_ingot'), Item.of('pneumaticcraft:ingot_iron_compressed')]
-	).superheated()
+	event.custom({
+		type: 'create:mixing',
+		ingredients: [
+			Item.of('kubejs:dehydrated_biomass').toJson(),
+			Item.of('kubejs:calcium_oxide').toJson()
+		],
+		results: [Item.of('kubejs:desiccated_biomass').toJson()],
+		id: 'create:mixing/desiccated_biomass'
+	});
+	
+	event.custom({
+		type: 'create:mixing',
+		ingredients: [
+			Item.of('kubejs:iron_oxide').toJson(),
+			Item.of('kubejs:iron_oxide').toJson(),
+			Item.of('immersiveengineering:dust_aluminum').toJson(),
+			Item.of('immersiveengineering:dust_aluminum').toJson(),
+			Item.of('mekanism:dust_lithium').toJson(),
+			Item.of('minecraft:blaze_powder').toJson()
+		],
+		results: [Item.of('kubejs:pyrotheum').toJson()],
+		id: 'create:mixing/pyrotheum'
+	});
+	
+	event.custom({
+		type: 'create:mixing',
+		ingredients: [
+			Fluid.of('kubejs:waste', 500).toJson(),
+			Item.of('kubejs:sieve').toJson(),
+			Item.of('kubejs:impure_gold', 9).withChance(0.7).toJson(),
+			Item.of('kubejs:impure_gold', 6).withChance(0.5).toJson(),
+			Item.of('kubejs:impure_gold', 3).withChance(0.3).toJson(),
+			Item.of('kubejs:impure_gold').withChance(0.1).toJson()
+		],
+		results: [
+			Fluid.of('minecraft:water', 1000).toJson(),
+			Item.of('kubejs:sieve_with_gold').toJson()
+		],
+		id: 'create:mixing/waste_sieving'
+	});
+	
+	event.custom({
+		type: 'create:mixing',
+		ingredients: [
+			Item.of('minecraft:gunpowder').toJson(),
+			Item.of('minecraft:gunpowder').toJson(),
+			Item.of('minecraft:spider_eye').toJson(),
+			Item.of('minecraft:spider_eye').toJson(),
+			Item.of('minecraft:rotten_flesh').toJson(),
+			Item.of('minecraft:rotten_flesh').toJson(),
+		],
+		results: [Fluid.of('pneumaticcraft:etching_acid', 1000).toJson(),],
+		id: 'create:mixing/etching_acid'
+	});
+	
+	event.custom({
+		type: 'create:mixing',
+		ingredients: [
+			Item.of('kubejs:highly_enriched_carbon').toJson(),
+			Item.of('mekanism:alloy_reinforced').toJson(),
+			Item.of('thermal:nickel_ingot').toJson(),
+			Item.of('pneumaticcraft:ingot_iron_compressed').toJson()
+		],
+		results: [Item.of('thermal_extra:polarium_ingot').toJson()],
+		id: 'create:mixing/polarium_ingot',
+		heatRequirement: 'superheated'
+	});
 })

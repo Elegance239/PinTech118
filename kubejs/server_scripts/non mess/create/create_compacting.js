@@ -1,6 +1,6 @@
 onEvent('recipes', event => {
     event.custom({
-        type:'create:compacting',
+        type: 'create:compacting',
         ingredients: [
             Ingredient.of('kubejs:lens_stuck_in_mold').toJson(),
         ],
@@ -11,7 +11,7 @@ onEvent('recipes', event => {
     })
 
     event.custom({
-        type:'create:compacting',
+        type: 'create:compacting',
         ingredients: [
             Ingredient.of('kubejs:superconducting_mixture').toJson(),
             Ingredient.of('kubejs:graphene').toJson(),
@@ -24,12 +24,12 @@ onEvent('recipes', event => {
     })
 
     event.custom({
-        type:'create:compacting',
+        type: 'create:compacting',
         ingredients: [
-            Ingredient.of('minecraft:egg').toJson(),
-            Ingredient.of('minecraft:sugar').toJson(),
-            Ingredient.of('create:cinder_flour').toJson(),
-            Item.of('24x kubejs:pyrotheum').toJson(),
+            Item.of('minecraft:egg').toJson(),
+            Item.of('minecraft:sugar').toJson(),
+            Item.of('create:cinder_flour').toJson(),
+            {ingredient: 'kubejs:pyrotheum', count: 24}
         ],
         results: [
             Item.of('create:blaze_cake_base').toJson(),
@@ -37,7 +37,7 @@ onEvent('recipes', event => {
     })
 
     event.custom({
-        type:'create:compacting',
+        type: 'create:compacting',
         ingredients: [
             Ingredient.of('tconstruct:grout').toJson(),
         ],
@@ -47,5 +47,13 @@ onEvent('recipes', event => {
         heatRequirement: "heated"
     })
 
-    event.recipes.createCompacting('minecraft:raw_iron', Item.of('48x kubejs:raw_iron_mote'))
+    event.custom({
+        type: 'create:compacting',
+        ingredients: [
+            Ingredient.of('48x kubejs:raw_iron_mote').toJson(),
+        ],
+        results: [
+            Item.of('minecraft:raw_iron').toJson(),
+        ],
+    })
 })

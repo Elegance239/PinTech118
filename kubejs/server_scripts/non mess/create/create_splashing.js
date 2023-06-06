@@ -32,8 +32,19 @@ onEvent('recipes', event => {
 		]
 	})
 
-	event.recipes.createSplashing(
+	/* event.recipes.createSplashing(
 		[Item.of('minecraft:flint').withChance(0.25), Item.of('3x kubejs:raw_iron_mote').withChance(0.12)],
 		Item.of('minecraft:gravel')
-	)
+	) */
+
+	event.custom({
+		type: 'create:splashing',
+		ingredients: [
+			Ingredient.of('minecraft:gravel').toJson(),
+		],
+		results: [
+			Item.of('minecraft:flint').withChance(0.25),
+			Item.of('3x kubejs:raw_iron_mote').withChance(0.12),
+		]
+	})
 })

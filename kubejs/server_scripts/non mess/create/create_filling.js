@@ -19,10 +19,26 @@ onEvent('recipes', event => {
 			]
 		  }
 	)
-
-	event.recipes.createFilling('kubejs:ender_core', [
-		'minecraft:ender_eye',
-		Fluid.of('tconstruct:molten_electrum', 270)
-	  ])
+	
+	event.custom(
+		{
+			type: "create:filling",
+			ingredients: [
+			  {
+				item: "minecraft:ender_eye"
+			  },
+			  {
+				"amount": 270,
+				"fluid": "tconstruct:molten_electrum",
+				"nbt": {}
+			  }
+			],
+			"results": [
+			  {
+				"item": "kubejs:ender_core"
+			  }
+			]
+		  }
+	)
 
 })

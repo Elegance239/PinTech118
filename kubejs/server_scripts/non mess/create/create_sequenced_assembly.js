@@ -344,7 +344,97 @@ onEvent('recipes', event => {
         }
     })
 
-    event.recipes.createSequencedAssembly(
+    let input4 = "create:basin"
+    event.custom({
+        
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+        "item": input4
+        },
+        "loops": 1,
+        "results": [
+            Item.of("kubejs:mixture_basin").toJson(),
+        ],
+        "sequence": [
+        {
+            "type": "create:filling",
+            "ingredients": [
+            {
+                "item": input4,
+                
+            },
+            { fluid: 'thermal_extra:zauvium', amount: 500 }
+            ],
+            "results": [
+            {
+                "item": input4
+            }
+            ]
+        },
+        {
+            "type": "create:filling",
+            "ingredients": [
+            {
+                "item": input4,
+                
+            },
+            { fluid: 'thermal_extra:nectium', amount: 500 }
+            ],
+            "results": [
+            {
+                "item": input4
+            }
+            ]
+        },
+        {
+            "type": "create:filling",
+            "ingredients": [
+            {
+                "item": input4,
+            },
+            { fluid: 'thermal_extra:drownium', amount: 500 }
+            ],
+            "results": [
+            {
+                "item": input4
+            }
+            ]
+        },
+        {
+            "type": "create:filling",
+            "ingredients": [
+            {
+                "item": input4,
+                
+            },
+            { fluid: 'thermal_extra:nebulium', amount: 500 }
+            ],
+            "results": [
+            {
+                "item": input4
+            }
+            ]
+        },
+        {
+            "type": "create:filling",
+            "ingredients": [
+            {
+                "item": input4,
+            },
+            { fluid: 'thermal_extra:vukaium', amount: 500 }
+            ],
+            "results": [
+            {
+                "item": input4
+            }
+            ]
+        },
+        ],
+        "transitionalItem": {
+        "item": input4
+        }
+    })
+    /* event.recipes.createSequencedAssembly(
         [Item.of('kubejs:mixture_basin')],
         'create:basin',
         [
@@ -374,9 +464,9 @@ onEvent('recipes', event => {
                 Fluid.of('thermal_extra:vukaium', 500)
             ]),
         ]
-    ).transitionalItem('create:basin').loops(2)
+    ).transitionalItem('create:basin').loops(2) */
 
-    event.recipes.createSequencedAssembly(
+    /* event.recipes.createSequencedAssembly(
         'kubejs:plated_machine_frame',
         'kubejs:cut_machine_frame',
         [
@@ -401,71 +491,141 @@ onEvent('recipes', event => {
                 ['kubejs:cut_machine_frame', 'immersiveengineering:hammer']
             ).keepHeldItem(),
         ]
-    ).transitionalItem('kubejs:cut_machine_frame').loops(1)
+    ).transitionalItem('kubejs:cut_machine_frame').loops(1) */
 
-    event.recipes.createSequencedAssembly(
-        [Item.of('16x minecraft:glowstone_dust')],
-        'kubejs:phosphor_blend',
-        [
-            event.recipes.createFilling('kubejs:phosphor_blend', 
-            [
-                'kubejs:phosphor_blend',
-                Fluid.of('tconstruct:liquid_soul', 1000)
-            ]),
-            event.recipes.createFilling('kubejs:phosphor_blend', 
-            [
-                'kubejs:phosphor_blend',
-                Fluid.of('tconstruct:liquid_soul', 1000)
-            ]),
-            event.recipes.createFilling('kubejs:phosphor_blend', 
-            [
-                'kubejs:phosphor_blend',
-                Fluid.of('minecraft:lava', 1000)
-            ]),
-        ]
-    ).transitionalItem('kubejs:phosphor_blend').loops(1)
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: { item: 'kubejs:cut_machine_frame' },
+        results: [ Item.of('kubejs:plated_machine_frame').toJson() ],
+        sequence: [
+            {
+                type: 'create:deploying',
+                ingredients: [
+                    { item: 'kubejs:cut_machine_frame' },
+                    { tag: 'create:sandpaper' }
+                ],
+                results: [ { item: 'kubejs:cut_machine_frame' } ],
+                keepHeldItem: true
+            },
+            {
+                type: 'create:deploying',
+                ingredients: [
+                    { item: 'kubejs:cut_machine_frame' },
+                    { item: 'kubejs:superalloy_plate_bundle' }
+                ],
+                results: [ { item: 'kubejs:cut_machine_frame' } ]
+            },
+            {
+                type: 'create:deploying',
+                ingredients: [
+                    { item: 'kubejs:cut_machine_frame' },
+                    { item: 'kubejs:superalloy_plate_bundle' }
+                ],
+                results: [ { item: 'kubejs:cut_machine_frame' } ]
+            },
+            {
+                type: 'create:deploying',
+                ingredients: [
+                    { item: 'kubejs:cut_machine_frame' },
+                    { item: 'immersiveengineering:hammer' }
+                ],
+                results: [ { item: 'kubejs:cut_machine_frame' } ],
+                keepHeldItem: true
+            }
+        ],
+        transitionalItem: { item: 'kubejs:cut_machine_frame' },
+        loops: 1
+    });
+
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: [ Item.of('kubejs:phosphor_blend').toJson() ],
+        results: [{item: 'minecraft:glowstone_dust', count: 16}],
+        sequence: [
+            {
+                type: 'create:filling',
+                ingredients: [
+                    { item: 'kubejs:phosphor_blend' },
+                    { fluid: 'tconstruct:liquid_soul', amount: 1000 }
+                ],
+                results: [ { item: 'kubejs:phosphor_blend' } ]
+            },
+            {
+                type: 'create:filling',
+                ingredients: [
+                    { item: 'kubejs:phosphor_blend' },
+                    { fluid: 'tconstruct:liquid_soul', amount: 1000 }
+                ],
+                results: [ { item: 'kubejs:phosphor_blend' } ]
+            },
+            {
+                type: 'create:filling',
+                ingredients: [
+                    { item: 'kubejs:phosphor_blend' },
+                    { fluid: 'minecraft:lava', amount: 1000 }
+                ],
+                results: [ { item: 'kubejs:phosphor_blend' } ]
+            }
+        ],
+        transitionalItem: { item: 'kubejs:phosphor_blend' },
+        loops: 1
+    });
 
 
-    event.recipes.createSequencedAssembly(
-        [Item.of('tconstruct:debris_nugget')],
-        'kubejs:nanocomposite_alloy',
-        [
-            event.recipes.createFilling('kubejs:nanocomposite_alloy', 
-            [
-                'kubejs:nanocomposite_alloy',
-                Fluid.of('tconstruct:blazing_blood', 5)
-            ]),
-            event.recipes.createPressing('kubejs:nanocomposite_alloy', 
-            [
-                'kubejs:nanocomposite_alloy',
-            ]),
-        ]
-    ).transitionalItem('kubejs:nanocomposite_alloy').loops(50)
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: Item.of('kubejs:nanocomposite_alloy').toJson(),
+        results: [ Item.of('tconstruct:debris_nugget').toJson() ],
+        sequence: [
+            {
+                type: 'create:filling',
+                ingredients: [
+                    { item: 'kubejs:nanocomposite_alloy' },
+                    { fluid: 'tconstruct:blazing_blood', amount: 5 }
+                ],
+                results: [ { item: 'kubejs:nanocomposite_alloy' } ]
+            },
+            {
+                type: 'create:pressing',
+                ingredients: [ { item: 'kubejs:nanocomposite_alloy' } ],
+                results: [ { item: 'kubejs:nanocomposite_alloy' } ]
+            }
+        ],
+        transitionalItem: { item: 'kubejs:nanocomposite_alloy' },
+        loops: 50
+    });
 
-    event.recipes.createSequencedAssembly(
-        [Item.of('mekanism:fluorite_gem')],
-        'kubejs:fluorite_seed',
-        [
-            event.recipes.createFilling('kubejs:fluorite_seed',
-                [
-                    'kubejs:fluorite_seed',
-                    Fluid.of('minecraft:water', 400)
-                ]
-            ),
-
-            event.recipes.createFilling('kubejs:fluorite_seed',
-                [
-                    'kubejs:fluorite_seed',
-                    Fluid.of('minecraft:water', 400)
-                ]
-            ),
-
-            event.recipes.createFilling('kubejs:fluorite_seed',
-                [
-                    'kubejs:fluorite_seed',
-                    Fluid.of('minecraft:water', 400)
-                ]
-            ),
-        ]
-    ).transitionalItem('kubejs:fluorite_seed').loops(3)
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: Item.of('kubejs:fluorite_seed').toJson(),
+        results: [ Item.of('mekanism:fluorite_gem').toJson() ],
+        sequence: [
+            {
+                type: 'create:filling',
+                ingredients: [
+                    { item: 'kubejs:fluorite_seed' },
+                    { fluid: 'minecraft:water', amount: 400 }
+                ],
+                results: [ { item: 'kubejs:fluorite_seed' } ]
+            },
+            {
+                type: 'create:filling',
+                ingredients: [
+                    { item: 'kubejs:fluorite_seed' },
+                    { fluid: 'minecraft:water', amount: 400 }
+                ],
+                results: [ { item: 'kubejs:fluorite_seed' } ]
+            },
+            {
+                type: 'create:filling',
+                ingredients: [
+                    { item: 'kubejs:fluorite_seed' },
+                    { fluid: 'minecraft:water', amount: 400 }
+                ],
+                results: [ { item: 'kubejs:fluorite_seed' } ]
+            }
+        ],
+        transitionalItem: { item: 'kubejs:fluorite_seed' },
+        loops: 3
+    });
 })
