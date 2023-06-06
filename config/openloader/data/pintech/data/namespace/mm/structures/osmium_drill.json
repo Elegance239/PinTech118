@@ -7,7 +7,7 @@
             "         ",
             "         ",
             "    P    ",
-            "   PNP   ",
+            "   POP   ",
             "    P    ",
             "         ",
             "         ",
@@ -17,9 +17,9 @@
             "         ",
             "         ",
             "    P    ",
-            "   SSS   ",
-            "  PSNSP  ",
-            "   SSS   ",
+            "   RRR   ",
+            "  PRORP  ",
+            "   RRR   ",
             "    P    ",
             "         ",
             "         "
@@ -29,7 +29,7 @@
             "         ",
             "         ",
             "         ",
-            "    R    ",
+            "    Q    ",
             "         ",
             "         ",
             "         ",
@@ -40,7 +40,7 @@
             "         ",
             "         ",
             "         ",
-            "    O    ",
+            "    J    ",
             "         ",
             "         ",
             "         ",
@@ -51,7 +51,7 @@
             "         ",
             "         ",
             "         ",
-            "    O    ",
+            "    J    ",
             "         ",
             "         ",
             "         ",
@@ -62,7 +62,7 @@
             "         ",
             "         ",
             "         ",
-            "    O    ",
+            "    J    ",
             "         ",
             "         ",
             "         ",
@@ -73,7 +73,7 @@
             "         ",
             "         ",
             "         ",
-            "    O    ",
+            "    J    ",
             "         ",
             "         ",
             "         ",
@@ -83,9 +83,9 @@
             "         ",
             "         ",
             "         ",
-            "   NPN   ",
-            "   PQP   ",
-            "   NPN   ",
+            "   OPO   ",
+            "   PJP   ",
+            "   OPO   ",
             "         ",
             "         ",
             "         "
@@ -94,162 +94,162 @@
             "         ",
             "         ",
             "         ",
-            "   O O   ",
-            "    C    ",
-            "   O O   ",
+            "   J J   ",
+            "    J    ",
+            "   J J   ",
             "         ",
             "         ",
+            "         "
+        ],
+        [
+            "         ",
+            " NNNNNNN ",
+            " N     N ",
+            " N OOO N ",
+            " N OJO N ",
+            " N OBO N ",
+            " N     N ",
+            " NNNNNNN ",
             "         "
         ],
         [
             "         ",
             " MMMMMMM ",
-            " M     M ",
-            " M NNN M ",
-            " M NNN M ",
-            " M NBN M ",
-            " M     M ",
+            " MMMMMMM ",
+            " MMMBMMM ",
+            " MMBJBMM ",
+            " MMMBMMM ",
+            " MMM MMM ",
             " MMMMMMM ",
             "         "
         ],
         [
             "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   BJB   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   BJB   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   BJB   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   BJB   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   BJB   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   BJB   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   BJB   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   BJB   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   BJB   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
             " LLLLLLL ",
+            " LMMMMML ",
+            " LMMMMML ",
+            " LMMJMML ",
+            " LMMMMML ",
+            " LMMMMML ",
             " LLLLLLL ",
-            " LLLBLLL ",
-            " LLB BLL ",
-            " LLLBLLL ",
-            " LLL LLL ",
-            " LLLLLLL ",
             "         "
         ],
         [
-            "         ",
-            "         ",
-            "         ",
-            "    B    ",
-            "   B B   ",
-            "    B    ",
-            "         ",
-            "         ",
-            "         "
-        ],
-        [
-            "         ",
-            "         ",
-            "         ",
-            "    B    ",
-            "   B B   ",
-            "    B    ",
-            "         ",
-            "         ",
-            "         "
-        ],
-        [
-            "         ",
-            "         ",
-            "         ",
-            "    B    ",
-            "   B B   ",
-            "    B    ",
-            "         ",
-            "         ",
-            "         "
-        ],
-        [
-            "         ",
-            "         ",
-            "         ",
-            "    B    ",
-            "   B B   ",
-            "    B    ",
-            "         ",
-            "         ",
-            "         "
-        ],
-        [
-            "         ",
-            "         ",
-            "         ",
-            "    B    ",
-            "   B B   ",
-            "    B    ",
-            "         ",
-            "         ",
-            "         "
-        ],
-        [
-            "         ",
-            "         ",
-            "         ",
-            "    B    ",
-            "   B B   ",
-            "    B    ",
-            "         ",
-            "         ",
-            "         "
-        ],
-        [
-            "         ",
-            "         ",
-            "         ",
-            "    B    ",
-            "   B B   ",
-            "    B    ",
-            "         ",
-            "         ",
-            "         "
-        ],
-        [
-            "         ",
-            "         ",
-            "         ",
-            "    B    ",
-            "   B B   ",
-            "    B    ",
-            "         ",
-            "         ",
-            "         "
-        ],
-        [
-            "         ",
-            "         ",
-            "         ",
-            "    B    ",
-            "   B B   ",
-            "    B    ",
-            "         ",
-            "         ",
-            "         "
-        ],
-        [
-            "         ",
-            " KKKKKKK ",
-            " KLLLLLK ",
-            " KLLLLLK ",
-            " KLL LLK ",
-            " KLLLLLK ",
-            " KLLLLLK ",
-            " KKKKKKK ",
-            "         "
-        ],
-        [
-            "BJJJJJJJB",
-            "J   B   J",
-            "J       J",
-            "J       J",
-            "JB     BJ",
-            "J       J",
-            "J       J",
-            "J   B   J",
-            "BJJJJJJJB"
+            "BKKKKKKKB",
+            "K   B   K",
+            "K       K",
+            "K       K",
+            "KB  J  BK",
+            "K       K",
+            "K       K",
+            "K   B   K",
+            "BKKKKKKKB"
         ],
         [
             "BDDDDDDDB",
             "D       D",
             "D       D",
             "D       D",
-            "D       D",
+            "D   J   D",
             "D       D",
             "D       D",
             "D       D",
@@ -260,18 +260,7 @@
             "D       D",
             "D       D",
             "D       D",
-            "D       D",
-            "D       D",
-            "D       D",
-            "D       D",
-            "BDDDDDDDB"
-        ],
-        [
-            "BDDDDDDDB",
-            "D       D",
-            "D       D",
-            "D       D",
-            "D       D",
+            "D   J   D",
             "D       D",
             "D       D",
             "D       D",
@@ -282,18 +271,7 @@
             "D       D",
             "D       D",
             "D       D",
-            "D       D",
-            "D       D",
-            "D       D",
-            "D       D",
-            "BDDDDDDDB"
-        ],
-        [
-            "BDDDDDDDB",
-            "D       D",
-            "D       D",
-            "D       D",
-            "D       D",
+            "D   J   D",
             "D       D",
             "D       D",
             "D       D",
@@ -304,7 +282,7 @@
             "D       D",
             "D       D",
             "D       D",
-            "D       D",
+            "D   J   D",
             "D       D",
             "D       D",
             "D       D",
@@ -315,7 +293,29 @@
             "D       D",
             "D       D",
             "D       D",
+            "D   J   D",
             "D       D",
+            "D       D",
+            "D       D",
+            "BDDDDDDDB"
+        ],
+        [
+            "BDDDDDDDB",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D   J   D",
+            "D       D",
+            "D       D",
+            "D       D",
+            "BDDDDDDDB"
+        ],
+        [
+            "BDDDDDDDB",
+            "D       D",
+            "D       D",
+            "D       D",
+            "D   C   D",
             "D       D",
             "D       D",
             "D       D",
@@ -326,7 +326,7 @@
             "DAAAAAAAD",
             "DAAAAAAAD",
             "DAAEFEAAD",
-            "GAAF FAAH",
+            "GAAFAFAAH",
             "DAAEFEAAD",
             "DAAAAAAAD",
             "DAAAAAAAD",
@@ -382,27 +382,27 @@
         },
         "J": {
             "type": "mm:block",
-            "block": "immersiveengineering:steel_scaffolding_wooden_top"
+            "block": "engineersdecor:treated_wood_pole"
         },
         "K": {
             "type": "mm:block",
-            "block": "immersiveengineering:stairs_steel_scaffolding_wooden_top"
+            "block": "immersiveengineering:steel_scaffolding_wooden_top"
         },
         "L": {
             "type": "mm:block",
-            "block": "immersiveengineering:treated_scaffold"
+            "block": "immersiveengineering:stairs_steel_scaffolding_wooden_top"
         },
         "M": {
             "type": "mm:block",
-            "block": "immersiveengineering:steel_fence"
+            "block": "immersiveengineering:treated_scaffold"
         },
         "N": {
             "type": "mm:block",
-            "block": "immersiveengineering:treated_wood_horizontal"
+            "block": "immersiveengineering:steel_fence"
         },
         "O": {
             "type": "mm:block",
-            "block": "engineersdecor:treated_wood_pole"
+            "block": "immersiveengineering:treated_wood_horizontal"
         },
         "P": {
             "type": "mm:block",
@@ -410,13 +410,9 @@
         },
         "Q": {
             "type": "mm:block",
-            "block": "engineersdecor:treated_wood_pole_head"
-        },
-        "R": {
-            "type": "mm:block",
             "block": "engineersdecor:treated_wood_pole_support"
         },
-        "S": {
+        "R": {
             "type": "mm:block",
             "block": "immersiveengineering:stairs_treated_wood_horizontal"
         }

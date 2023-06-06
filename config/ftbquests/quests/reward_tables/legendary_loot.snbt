@@ -8,7 +8,7 @@
 	use_title: true
 	rewards: [
 		{ item: "thermal_extra:dragon_integral_component", count: 3 }
-		{ item: "extrastorage:netherite_crafter", count: 2 }
+		{ item: "extrastorage:netherite_crafter" }
 		{ item: "artifacts:everlasting_beef" }
 		{
 			item: {
