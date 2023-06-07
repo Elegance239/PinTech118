@@ -37,7 +37,7 @@ onEvent('item.tags', event => {
 
     event.add('thermal:crafting/dies', 'immersiveengineering:mold_rod')
 
-    event.add('kubejs:blueprints', 'kubejs:graphene') //this is a test
+    event.add('kubejs:blueprints', "kubejs:formula") 
   })
 
   onEvent('fluid.tags', event =>{

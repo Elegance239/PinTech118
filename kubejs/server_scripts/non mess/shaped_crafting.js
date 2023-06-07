@@ -1331,26 +1331,22 @@ onEvent('recipes', event => {
   )
 
   event.shaped('thermal:upgrade_augment_2',
-    [
-      "ABA",
-      "CDC",
-      "ABA"
-    ],
-    {
-      "A": {
-        "item": "thermal:lumium_ingot"
-      },
-      "B": {
-        "item": "thermal:lumium_glass"
-      },
-      "C": {
-        "item": "immersiveengineering:component_steel"
-      },
-      "D": {
-        "item": "thermal:upgrade_augment_1"
-      }
-    },
-  )
+  ["ABA", "CDC", "ABA"],
+  {
+  "A": {
+      "item": "pneumaticcraft:printed_circuit_board"
+  },
+  "B": {
+      "item": "mekanism:alloy_infused"
+  },
+  "C": {
+      "item": "thermal:lumium_ingot"
+  },
+  "D": {
+      "item": "thermal:upgrade_augment_1"
+  }
+},
+)
 
   event.shaped('thermal:upgrade_augment_3',
     [

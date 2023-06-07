@@ -11,7 +11,7 @@
 		{
 			title: "Welcome to the Market!"
 			x: 0.0d
-			y: 0.0d
+			y: -11.0d
 			description: [
 				"The Market is the place where you can use your hard-earned NOT chin to buy raw materials, which may or may not aid you in your quest. "
 				"Currency TBD"
@@ -33,8 +33,8 @@
 		{
 			title: "Stone"
 			icon: "minecraft:stone"
-			x: 0.0d
-			y: -7.5d
+			x: 1.5d
+			y: -5.5d
 			can_repeat: true
 			id: "1D6E901C4CA685A7"
 			tasks: [{
@@ -53,8 +53,8 @@
 		{
 			title: "Granite"
 			icon: "minecraft:granite"
-			x: 1.5d
-			y: -9.0d
+			x: 3.0d
+			y: -7.0d
 			can_repeat: true
 			id: "626956CD3835C34E"
 			tasks: [{
@@ -73,8 +73,8 @@
 		{
 			title: "Diorite"
 			icon: "minecraft:diorite"
-			x: -1.5d
-			y: -9.0d
+			x: 0.0d
+			y: -7.0d
 			can_repeat: true
 			id: "222358C92566DA91"
 			tasks: [{
@@ -93,8 +93,8 @@
 		{
 			title: "Andesite"
 			icon: "minecraft:andesite"
-			x: 0.0d
-			y: -9.0d
+			x: 1.5d
+			y: -7.0d
 			can_repeat: true
 			id: "0F2098D72E365ABD"
 			tasks: [{
@@ -113,8 +113,8 @@
 		{
 			title: "Calcite"
 			icon: "minecraft:calcite"
-			x: -1.5d
-			y: -7.5d
+			x: 0.0d
+			y: -5.5d
 			can_repeat: true
 			id: "5551E48B34027E2D"
 			tasks: [{
@@ -133,8 +133,8 @@
 		{
 			title: "Dirt"
 			icon: "minecraft:dirt"
-			x: 1.5d
-			y: -7.5d
+			x: 3.0d
+			y: -5.5d
 			can_repeat: true
 			id: "148AFA1E4141B86F"
 			tasks: [{
@@ -153,8 +153,8 @@
 		{
 			title: "Oak Logs"
 			icon: "minecraft:oak_log"
-			x: -3.0d
-			y: -9.0d
+			x: -1.5d
+			y: -7.0d
 			can_repeat: true
 			id: "3E6034ED324A27C3"
 			tasks: [{
@@ -174,8 +174,8 @@
 		{
 			title: "Spruce Logs"
 			icon: "minecraft:spruce_log"
-			x: -4.5d
-			y: -9.0d
+			x: -3.0d
+			y: -7.0d
 			can_repeat: true
 			id: "462C4912A06230DE"
 			tasks: [{
@@ -194,8 +194,8 @@
 		{
 			title: "Birch Logs"
 			icon: "minecraft:birch_log"
-			x: 3.0d
-			y: -9.0d
+			x: -3.0d
+			y: -5.5d
 			can_repeat: true
 			id: "2F08B65795824BC5"
 			tasks: [{
@@ -214,8 +214,8 @@
 		{
 			title: "Jungle Logs"
 			icon: "minecraft:jungle_log"
-			x: 4.5d
-			y: -9.0d
+			x: -1.5d
+			y: -5.5d
 			can_repeat: true
 			id: "77B597B72561E534"
 			tasks: [{
@@ -234,8 +234,8 @@
 		{
 			title: "Sand"
 			icon: "minecraft:sand"
-			x: 6.0d
-			y: -9.0d
+			x: 4.5d
+			y: -7.0d
 			can_repeat: true
 			id: "69CB659206F94D08"
 			tasks: [{
@@ -255,8 +255,8 @@
 		{
 			title: "Gravel"
 			icon: "minecraft:gravel"
-			x: 6.0d
-			y: -7.5d
+			x: 4.5d
+			y: -5.5d
 			can_repeat: true
 			id: "15462D7D951814F9"
 			tasks: [{
@@ -276,8 +276,8 @@
 		{
 			title: "Cobblestone"
 			icon: "minecraft:cobblestone"
-			x: -6.0d
-			y: -9.0d
+			x: -4.5d
+			y: -7.0d
 			can_repeat: true
 			id: "7EEDF4A94AE88FD7"
 			tasks: [{
@@ -296,8 +296,8 @@
 		{
 			title: "Netherrack"
 			icon: "minecraft:netherrack"
-			x: -6.0d
-			y: -7.5d
+			x: -4.5d
+			y: -5.5d
 			can_repeat: true
 			id: "5BFC2F843375794B"
 			tasks: [{
@@ -316,8 +316,9 @@
 		{
 			title: "White Concrete Powder"
 			icon: "minecraft:white_concrete_powder"
-			x: -6.0d
-			y: -5.0d
+			x: -4.5d
+			y: -3.0d
+			can_repeat: true
 			id: "2474D2981E98A614"
 			tasks: [{
 				id: "4A2E6FE8B0521D8D"
@@ -336,8 +337,9 @@
 		{
 			title: "Glass"
 			icon: "minecraft:glass"
-			x: -4.5d
-			y: -5.0d
+			x: -3.0d
+			y: -3.0d
+			can_repeat: true
 			id: "5E0EC3FF61C7AF93"
 			tasks: [{
 				id: "09163D671BE15DB0"
@@ -356,8 +358,9 @@
 		{
 			title: "Deepslate"
 			icon: "minecraft:deepslate"
-			x: -3.0d
-			y: -5.0d
+			x: -1.5d
+			y: -3.0d
+			can_repeat: true
 			id: "2F10E673A41C6006"
 			tasks: [{
 				id: "747DB734902C1DD9"
@@ -376,8 +379,9 @@
 		{
 			title: "Terracotta"
 			icon: "minecraft:terracotta"
-			x: -1.5d
-			y: -5.0d
+			x: -4.5d
+			y: -1.5d
+			can_repeat: true
 			id: "02A8F449C552AED8"
 			tasks: [{
 				id: "107CEC7F30E63972"
@@ -394,22 +398,10 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: -5.0d
-			subtitle: "DO NOT DO THESE MANUALLY!!! I will find a way to automate making these quests, these are just ideas"
-			size: 2.0d
-			id: "6892911084143D8C"
-			tasks: [{
-				id: "38C6E18F2D9E4762"
-				type: "item"
-				item: "engineersdecor:sign_caution"
-			}]
-		}
-		{
 			title: "Iron Plate"
 			icon: "quark:iron_plate"
-			x: 0.0d
-			y: -5.0d
+			x: 1.5d
+			y: -3.0d
 			can_repeat: true
 			id: "5469B0193A79CE15"
 			tasks: [{
@@ -429,8 +421,8 @@
 		{
 			title: "Sheetmetal"
 			icon: "immersiveengineering:sheetmetal_colored_white"
-			x: 1.5d
-			y: -5.0d
+			x: 3.0d
+			y: -3.0d
 			can_repeat: true
 			id: "31F25BC6F450AF3D"
 			tasks: [{
@@ -450,8 +442,8 @@
 		{
 			title: "Bone"
 			icon: "minecraft:bone"
-			x: -6.0d
-			y: -3.0d
+			x: -4.5d
+			y: 0.0d
 			can_repeat: true
 			id: "30C01F68C542A79E"
 			tasks: [{
@@ -464,14 +456,14 @@
 				id: "02EF7180C9AF3F8F"
 				type: "item"
 				item: "minecraft:bone"
-				count: 16
+				count: 8
 			}]
 		}
 		{
 			title: "Gunpowder"
 			icon: "minecraft:gunpowder"
-			x: -4.5d
-			y: -3.0d
+			x: -3.0d
+			y: 0.0d
 			can_repeat: true
 			id: "07458712EE29A84F"
 			tasks: [{
@@ -484,14 +476,14 @@
 				id: "227038F91AC10D26"
 				type: "item"
 				item: "minecraft:gunpowder"
-				count: 16
+				count: 8
 			}]
 		}
 		{
 			title: "Ender Pearl"
 			icon: "minecraft:ender_pearl"
-			x: -3.0d
-			y: -3.0d
+			x: -1.5d
+			y: 0.0d
 			can_repeat: true
 			id: "72CD2CA4E4308894"
 			tasks: [{
@@ -510,8 +502,8 @@
 		{
 			title: "Slimeball"
 			icon: "minecraft:slime_ball"
-			x: -1.5d
-			y: -3.0d
+			x: 0.0d
+			y: 0.0d
 			can_repeat: true
 			id: "020AB3DD7266E120"
 			tasks: [{
@@ -524,14 +516,14 @@
 				id: "71CD7019258762EF"
 				type: "item"
 				item: "minecraft:slime_ball"
-				count: 16
+				count: 10
 			}]
 		}
 		{
 			title: "String"
 			icon: "minecraft:string"
-			x: 0.0d
-			y: -3.0d
+			x: 1.5d
+			y: 0.0d
 			can_repeat: true
 			id: "473238290F3AFE67"
 			tasks: [{
@@ -544,14 +536,14 @@
 				id: "3160822F68C9C516"
 				type: "item"
 				item: "minecraft:string"
-				count: 16
+				count: 10
 			}]
 		}
 		{
 			title: "Glowstone"
 			icon: "minecraft:glowstone"
-			x: 3.0d
-			y: -5.0d
+			x: -1.5d
+			y: -1.5d
 			can_repeat: true
 			id: "05E227C50BB6A295"
 			tasks: [{
@@ -571,8 +563,8 @@
 		{
 			title: "Sea Lantern"
 			icon: "minecraft:sea_lantern"
-			x: 4.5d
-			y: -5.0d
+			x: 0.0d
+			y: -1.5d
 			can_repeat: true
 			id: "2ACDFAC32081510D"
 			tasks: [{
@@ -592,8 +584,8 @@
 		{
 			title: "Prismarine"
 			icon: "minecraft:prismarine"
-			x: -4.5d
-			y: -4.0d
+			x: -3.0d
+			y: -1.5d
 			can_repeat: true
 			id: "653AB455AE875D60"
 			tasks: [{
@@ -613,8 +605,8 @@
 		{
 			title: "Oak Leaves"
 			icon: "minecraft:oak_leaves"
-			x: 6.0d
-			y: -5.0d
+			x: 1.5d
+			y: -1.5d
 			can_repeat: true
 			id: "76AE3294B3F39DBD"
 			tasks: [{
@@ -634,8 +626,8 @@
 		{
 			title: "Bricks"
 			icon: "minecraft:bricks"
-			x: -6.0d
-			y: -4.0d
+			x: 0.0d
+			y: -3.0d
 			can_repeat: true
 			id: "7E21F06D46AC4822"
 			tasks: [{
@@ -655,8 +647,8 @@
 		{
 			title: "Sugar Cane"
 			icon: "minecraft:sugar_cane"
-			x: -6.0d
-			y: -2.0d
+			x: -4.5d
+			y: 1.5d
 			can_repeat: true
 			id: "070DF76C81CB6667"
 			tasks: [{
@@ -675,8 +667,8 @@
 		{
 			title: "Cactus"
 			icon: "minecraft:cactus"
-			x: -4.5d
-			y: -2.0d
+			x: -3.0d
+			y: 1.5d
 			can_repeat: true
 			id: "7C569180D9420EF7"
 			tasks: [{
@@ -695,8 +687,8 @@
 		{
 			title: "Ink Sac"
 			icon: "minecraft:ink_sac"
-			x: -3.0d
-			y: -2.0d
+			x: -1.5d
+			y: 1.5d
 			can_repeat: true
 			id: "126604CF01219EB0"
 			tasks: [{
@@ -715,8 +707,8 @@
 		{
 			title: "Lumium Ingot"
 			icon: "thermal:lumium_ingot"
-			x: -6.0d
-			y: -0.5d
+			x: -4.5d
+			y: 3.0d
 			can_repeat: true
 			id: "0D6F515CED21BC23"
 			tasks: [{
@@ -734,8 +726,8 @@
 		}
 		{
 			title: "Late game section"
-			x: -8.0d
-			y: 3.5d
+			x: -7.0d
+			y: 6.0d
 			subtitle: "Ch3 prereq or something"
 			description: ["everything is super expensive, to keep money relevant even in late game"]
 			id: "0FB0A8BCBC1A9DC6"
@@ -746,8 +738,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 3.5d
+			x: -5.0d
+			y: 6.0d
 			id: "20C94F961402B1BC"
 			tasks: [{
 				id: "66E312DA9EB2F36A"
@@ -756,8 +748,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 3.5d
+			x: -3.5d
+			y: 6.0d
 			id: "7DFA4B536DCC443D"
 			tasks: [{
 				id: "20AE163730B1DB05"
@@ -766,8 +758,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 3.5d
+			x: -2.0d
+			y: 6.0d
 			id: "6F8C14E9B548CF35"
 			tasks: [{
 				id: "6A0F536A97CE2E14"
@@ -776,8 +768,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 3.5d
+			x: 1.0d
+			y: 6.0d
 			id: "66B6F27670D98038"
 			tasks: [{
 				id: "11CC39534D1C3277"
@@ -786,8 +778,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 3.5d
+			x: 2.5d
+			y: 6.0d
 			id: "10FE8F8F74E24087"
 			tasks: [{
 				id: "37A7525657B7A7FF"
@@ -797,8 +789,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 3.5d
+			x: -0.5d
+			y: 6.0d
 			id: "6C7C00C54EFE92FC"
 			tasks: [{
 				id: "00B7E816865CA51F"
@@ -807,76 +799,10 @@
 			}]
 		}
 		{
-			title: "sample out"
-			x: -11.0d
-			y: -2.5d
-			id: "7695D9D13EC3BADA"
-			tasks: [
-				{
-					id: "4248B276493B7452"
-					type: "item"
-					item: "minecraft:paper"
-				}
-				{
-					id: "4552BAA2FE545EE2"
-					type: "item"
-					item: "minecraft:polished_granite"
-					count: 10L
-				}
-			]
-		}
-		{
-			title: "sample out"
-			icon: "minecraft:paper"
-			x: -10.0d
-			y: -2.5d
-			can_repeat: true
-			id: "0748A6D6D916860E"
-			tasks: [{
-				id: "122D2FC9C75835B0"
-				type: "item"
-				item: "thermal:copper_coin"
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "7EED241D60984DAD"
-					type: "item"
-					item: "minecraft:paper"
-				}
-				{
-					id: "3E054DBF89EF8AE8"
-					type: "item"
-					item: "minecraft:polished_granite"
-					count: 10
-				}
-			]
-		}
-		{
-			title: "Calcite"
-			icon: "minecraft:calcite"
-			x: -3.0d
-			y: -7.5d
-			can_repeat: true
-			id: "503A6BC0EFA30087"
-			tasks: [{
-				id: "1DA736AE71F17618"
-				type: "item"
-				item: "thermal:copper_coin"
-				consume_items: true
-			}]
-			rewards: [{
-				id: "3845AC639AFCE967"
-				type: "item"
-				item: "minecraft:calcite"
-				count: 32
-			}]
-		}
-		{
 			title: "Hardened Integral Components"
 			icon: "thermal:upgrade_augment_1"
-			x: -4.5d
-			y: -0.5d
+			x: -3.0d
+			y: 3.0d
 			can_repeat: true
 			id: "422CBD5603E33FC5"
 			tasks: [{
@@ -890,6 +816,26 @@
 				id: "22E324A3A3044CC2"
 				type: "item"
 				item: "thermal:upgrade_augment_1"
+			}]
+		}
+		{
+			title: "Leather"
+			icon: "minecraft:leather"
+			x: 3.0d
+			y: 0.0d
+			can_repeat: true
+			id: "30C93BE5637C7DC0"
+			tasks: [{
+				id: "29AF7D16B9F27044"
+				type: "item"
+				item: "thermal:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6A54D3461C23CD74"
+				type: "item"
+				item: "minecraft:leather"
+				count: 8
 			}]
 		}
 	]

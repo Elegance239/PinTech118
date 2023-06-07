@@ -131,7 +131,8 @@
         "id": "blueprint",
         "x": 119,
         "y": 54,
-        "type": "custommachinery:slot"
+        "type": "custommachinery:slot",
+        "ghost": "kubejs:formula"
       },
       {
         "id": "itemoutput1",

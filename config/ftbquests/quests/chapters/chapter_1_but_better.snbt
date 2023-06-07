@@ -127,6 +127,12 @@
 				type: "item"
 				item: "pneumaticcraft:refinery"
 			}]
+			rewards: [{
+				id: "4D5D347BF41C33E5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5032101358385251555L
+			}]
 		}
 		{
 			title: "Crude Oil"
@@ -201,6 +207,12 @@
 					item: "kubejs:engineering_block_frame"
 				}
 			]
+			rewards: [{
+				id: "70A18B3080207766"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5032101358385251555L
+			}]
 		}
 		{
 			x: -0.5d
@@ -257,8 +269,8 @@
 			]
 		}
 		{
-			x: -14.0d
-			y: -3.0d
+			x: -14.5d
+			y: -1.5d
 			dependencies: ["113B0E1425C52A58"]
 			id: "5CCC7AA44B7512BC"
 			tasks: [{
@@ -279,7 +291,7 @@
 			}]
 		}
 		{
-			x: -11.5d
+			x: -13.0d
 			y: -3.0d
 			dependencies: ["5CCC7AA44B7512BC"]
 			id: "6D8767B3A019FA6F"
@@ -287,6 +299,12 @@
 				id: "65164A8E72EF90DA"
 				type: "item"
 				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [{
+				id: "342E264C32C1CD63"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5032101358385251555L
 			}]
 		}
 		{
@@ -301,7 +319,7 @@
 			}]
 		}
 		{
-			x: -11.0d
+			x: -11.5d
 			y: 0.0d
 			dependencies: ["53F348197CEAFFBC"]
 			id: "4BD0F15223F962B6"
@@ -384,6 +402,12 @@
 				id: "10EDA002C7B3262E"
 				type: "item"
 				item: "industrialforegoing:machine_frame_simple"
+			}]
+			rewards: [{
+				id: "1049174B89D20EA7"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5032101358385251555L
 			}]
 		}
 		{
@@ -595,6 +619,7 @@
 			icon: "minecraft:netherite_ingot"
 			x: -0.5d
 			y: 2.5d
+			description: ["Netherite's extremely high heat tolerance makes it a good material to produce arc furnace electrodes."]
 			dependencies: [
 				"1C82A02848204D57"
 				"4A5BF347BA5E9E0B"
@@ -618,6 +643,7 @@
 			icon: "immersiveengineering:arc_furnace"
 			x: 4.0d
 			y: 2.5d
+			subtitle: "The power of the sun in the palm of my hand"
 			dependencies: [
 				"04CA6BDDE5F61F2F"
 				"68D92493EEAFF1B0"
@@ -689,6 +715,12 @@
 					item: "minecraft:cauldron"
 				}
 			]
+			rewards: [{
+				id: "02840B37938D13C6"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5032101358385251555L
+			}]
 		}
 		{
 			title: "Industrial Squeezer"
@@ -815,6 +847,12 @@
 				type: "item"
 				item: "pneumaticcraft:printed_circuit_board"
 			}]
+			rewards: [{
+				id: "6405E49BF545D88B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5032101358385251555L
+			}]
 		}
 		{
 			x: 12.5d
@@ -868,6 +906,12 @@
 					item: "pneumaticcraft:assembly_program_drill_laser"
 				}
 			]
+			rewards: [{
+				id: "7DC8B51716DF6212"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5032101358385251555L
+			}]
 		}
 		{
 			x: 17.5d
@@ -950,6 +994,64 @@
 				type: "item"
 				item: "pneumaticcraft:uv_light_box"
 			}]
+		}
+		{
+			title: "Advanced Generators"
+			x: 17.5d
+			y: 2.5d
+			shape: "rsquare"
+			dependencies: ["26F8D4EEEC76EBCE"]
+			optional: true
+			id: "3F47CC2B204F81B2"
+			tasks: [{
+				id: "0F5C053C734AA4EE"
+				type: "item"
+				item: "advgenerators:fuel_turbine_controller"
+			}]
+		}
+		{
+			title: "Refined Storage II"
+			icon: "refinedstorage:disk_drive"
+			x: 17.5d
+			y: -2.5d
+			shape: "rsquare"
+			dependencies: ["26F8D4EEEC76EBCE"]
+			optional: true
+			id: "733301FF3E50EB0E"
+			tasks: [
+				{
+					id: "38ADE99537FA75EC"
+					type: "item"
+					item: "refinedstorage:disk_drive"
+				}
+				{
+					id: "25BC1063517FBFB8"
+					type: "item"
+					item: "refinedstorage:1k_storage_part"
+				}
+			]
+		}
+		{
+			title: "Refined Storage I"
+			icon: "refinedstorage:creative_controller"
+			x: 9.75d
+			y: -5.0d
+			shape: "rsquare"
+			dependencies: ["4CF1DC2E1E41056A"]
+			optional: true
+			id: "6A10C697113F7329"
+			tasks: [
+				{
+					id: "6E35F95E254B8271"
+					type: "item"
+					item: "refinedstorage:controller"
+				}
+				{
+					id: "6943D81612B0CBB3"
+					type: "item"
+					item: "refinedstorage:external_storage"
+				}
+			]
 		}
 	]
 	quest_links: [ ]

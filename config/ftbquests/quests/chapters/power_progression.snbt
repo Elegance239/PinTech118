@@ -85,7 +85,7 @@
 		}
 		{
 			title: "Fission Reactor"
-			x: 5.0d
+			x: 4.0d
 			y: 0.5d
 			subtitle: "A Fuck Ton RF/t"
 			id: "58F16845D6929EB6"
@@ -96,7 +96,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 6.0d
 			y: 0.5d
 			subtitle: "A GigaFuck Ton RF/t"
 			id: "6104A7ABCEFEC954"
@@ -181,7 +181,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 4.0d
 			y: 2.5d
 			id: "6527CC9251308215"
 			tasks: [{

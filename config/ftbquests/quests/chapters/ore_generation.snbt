@@ -2069,6 +2069,7 @@
 		{
 			x: 44.0d
 			y: 18.0d
+			description: ["Ever wonder why it's not completely dark in the end? Now you know."]
 			id: "20E3FE43E5BC6957"
 			tasks: [{
 				id: "361CED95B5957F7D"

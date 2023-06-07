@@ -45,6 +45,7 @@
 		{
 			x: 3.5d
 			y: 0.0d
+			subtitle: "haha machine go zap... where's all my energy"
 			dependencies: ["14B46BA89E462FEC"]
 			id: "024E6EDA89D0BE99"
 			tasks: [{

@@ -96,4 +96,18 @@ onEvent('recipes', event => {
 		],
 		energy: 700,
 	})
+
+	event.custom({
+		type: 'thermal:smelter',
+		ingredients:[
+			{ item: 'mekanism:alloy_reinforced', count:40},
+			{ item: 'minecraft:netherite_ingot', count:4},
+			Ingredient.of('kubejs:reinforcement_catalyst').toJson(),
+		],
+		results: [
+			
+			Ingredient.of('2x kubejs:contaminated_reinforcement_catalyst').toJson(),
+		],
+		energy: 8000,
+	})
 })

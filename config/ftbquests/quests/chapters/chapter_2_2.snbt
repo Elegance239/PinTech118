@@ -705,6 +705,19 @@
 				type: "checkmark"
 			}]
 		}
+		{
+			title: "Bigger Reactors"
+			x: 6.0d
+			y: -1.5d
+			shape: "rsquare"
+			dependencies: ["7A5DDB1D27A24845"]
+			id: "0DC6F9B828FA4AD1"
+			tasks: [{
+				id: "5F7CD5B8726214F7"
+				type: "item"
+				item: "biggerreactors:reactor_terminal"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

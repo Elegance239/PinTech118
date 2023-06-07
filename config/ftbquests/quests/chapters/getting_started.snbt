@@ -844,6 +844,22 @@
 				title: "Automation"
 			}]
 		}
+		{
+			title: "Tinker's Smeltery"
+			x: 37.0d
+			y: 8.5d
+			shape: "rsquare"
+			description: ["Tinker's Construct's Smeltery allows you to create powerful custom tools."]
+			dependencies: ["7FC0FF0A4945731F"]
+			size: 2.0d
+			optional: true
+			id: "57E93FF294925C87"
+			tasks: [{
+				id: "71A7A0C6C3285AC9"
+				type: "item"
+				item: "tconstruct:seared_brick"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

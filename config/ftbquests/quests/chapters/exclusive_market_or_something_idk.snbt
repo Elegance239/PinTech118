@@ -210,7 +210,7 @@
 				id: "0F7C67383C7ADDE7"
 				type: "item"
 				item: "kubejs:chin_new"
-				count: 4L
+				count: 5L
 				consume_items: true
 			}]
 			rewards: [
@@ -573,11 +573,11 @@
 			}]
 		}
 		{
-			title: "A Fine Addition"
+			title: "An Elegant Weapon"
 			icon: "createchromaticreturn:radiant_glow_saber"
 			x: 0.75d
 			y: 5.035714285714278d
-			subtitle: "to my collection"
+			subtitle: "for a more civilized age"
 			id: "2EB00B7B110D7911"
 			tasks: [{
 				id: "3650D905BD702DBA"
@@ -593,6 +593,7 @@
 			}]
 		}
 		{
+			title: "Railgun"
 			icon: {
 				id: "immersiveengineering:railgun"
 				Count: 1b
@@ -637,9 +638,15 @@
 			]
 		}
 		{
+			title: "Revolver"
 			icon: {
 				id: "immersiveengineering:revolver"
 				Count: 1b
+				tag: {
+					bullets: {
+						Items: [ ]
+					}
+				}
 				ForgeCaps: {
 					Parent: {
 						Size: 21
@@ -649,6 +656,7 @@
 			}
 			x: -2.25d
 			y: 5.035714285714278d
+			subtitle: "It's high noon"
 			id: "70BF269E51656E0F"
 			tasks: [{
 				id: "3603AC84E73E38E2"
@@ -681,7 +689,7 @@
 			]
 		}
 		{
-			title: "War Crimes"
+			title: "Flamethrower"
 			icon: {
 				id: "mekanism:flamethrower"
 				Count: 1b
@@ -699,7 +707,7 @@
 			}
 			x: 2.25d
 			y: 5.035714285714278d
-			subtitle: "Funny"
+			subtitle: "war crimes funny"
 			id: "5B294EEBA8E0B8D6"
 			tasks: [{
 				id: "7141A91CA67D6320"
