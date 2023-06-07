@@ -520,11 +520,18 @@
 			y: 0.0d
 			dependencies: ["4EB6A2BE9D2DC4D6"]
 			id: "58AADDE1F9463CC9"
-			tasks: [{
-				id: "6C3214FF42B64BFD"
-				type: "item"
-				item: "mekanism:ingot_osmium"
-			}]
+			tasks: [
+				{
+					id: "6C3214FF42B64BFD"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+				}
+				{
+					id: "56E757239FB305AD"
+					type: "item"
+					item: "kubejs:processed_raw_osmium"
+				}
+			]
 		}
 		{
 			x: -14.0d

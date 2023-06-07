@@ -2,7 +2,7 @@
     "name": "Formulaic Synthesizer",
     "appearance": {
       "idle": {
-        "block": "testresourcepack:machine/stone_generator_model"
+        "block": "kubejs:formulaic_synthesizer_model"
       },
       "running": {
         "lightlevel": 15

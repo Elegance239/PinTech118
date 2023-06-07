@@ -7,7 +7,6 @@ onEvent('jei.add.items', event => {
 })
 
 onEvent('jei.hide.items', event => {
-  event.hide(Item.of('mm:osmium_drill_controller'))
   event.hide(Item.of('mm:osmium_drill_laser_input_port'))
   //event.hide(Item.of('mekanism:structural_glass'))
   const tiers = ['1','2','3','4','5']
@@ -29,4 +28,6 @@ onEvent('jei.hide.items', event => {
   })
   event.hide(Item.of('simplyjetpacks:jetpack_te5_enderium'))
   event.hide(Item.of('simplyjetpacks:armorplating_te5_enderium'))
+  event.hide(Item.of('kubejs:blender_model'))
+  event.hide(Item.of('kubejs:formulaic_synthesizer_model'))
 })

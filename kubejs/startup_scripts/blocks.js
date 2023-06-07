@@ -69,6 +69,14 @@ onEvent('block.registry', event => {
 	event.create('basic_versatile_frame').material('metal').hardness(2.0).displayName('Basic Versatile Frame')
 
 	event.create('advanced_versatile_frame').material('metal').hardness(2.0).displayName('Advanced Versatile Frame')
+
+	event.create('blender_model').displayName('Blender Model')
+	.textureAll('kubejs:item/custom_machine_side')
+	.texture('north', 'kubejs:item/blender')
+
+	event.create('formulaic_synthesizer_model').displayName('Formulaic Synthesizer Model')
+	.textureAll('kubejs:item/custom_machine_side')
+	.texture('north', 'kubejs:item/formulaic_synthesizer')
 })
 
 

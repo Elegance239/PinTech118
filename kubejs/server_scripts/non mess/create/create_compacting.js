@@ -29,7 +29,7 @@ onEvent('recipes', event => {
             Item.of('minecraft:egg').toJson(),
             Item.of('minecraft:sugar').toJson(),
             Item.of('create:cinder_flour').toJson(),
-            {ingredient: 'kubejs:pyrotheum', count: 24}
+            {item: 'kubejs:pyrotheum', count: 24}
         ],
         results: [
             Item.of('create:blaze_cake_base').toJson(),

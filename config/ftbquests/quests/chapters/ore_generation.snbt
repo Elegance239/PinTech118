@@ -978,7 +978,7 @@
 			tasks: [{
 				id: "5649906BA1FD3300"
 				type: "item"
-				item: "create:crushed_gold_ore"
+				item: "create:crushed_raw_gold"
 			}]
 		}
 		{
@@ -1085,7 +1085,7 @@
 			tasks: [{
 				id: "53D915CB9DF595B0"
 				type: "item"
-				item: "create:crushed_gold_ore"
+				item: "create:crushed_raw_gold"
 			}]
 		}
 		{

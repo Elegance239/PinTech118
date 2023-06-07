@@ -2,7 +2,7 @@
   "name": "Blender",
   "appearance": {
     "idle": {
-      "block": "testresourcepack:machine/stone_generator_model"
+      "block": "kubejs:blender_model"
     },
     "running": {
       "lightlevel": 15

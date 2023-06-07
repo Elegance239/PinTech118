@@ -102,11 +102,11 @@ onEvent('recipes', event => {
 		ingredients:[
 			{ item: 'mekanism:alloy_reinforced', count:40},
 			{ item: 'minecraft:netherite_ingot', count:4},
-			Ingredient.of('kubejs:reinforcement_catalyst').toJson(),
+			{ item: 'kubejs:reinforcement_catalyst' },
 		],
 		results: [
 			
-			Ingredient.of('2x kubejs:contaminated_reinforcement_catalyst').toJson(),
+			Item.of('2x kubejs:contaminated_reinforcement_catalyst'),
 		],
 		energy: 8000,
 	})
