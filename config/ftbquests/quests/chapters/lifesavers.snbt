@@ -1,7 +1,7 @@
 {
 	id: "52DF7976F3429DAC"
 	group: ""
-	order_index: 8
+	order_index: 7
 	filename: "lifesavers"
 	title: "Lifesavers"
 	default_quest_shape: ""
@@ -257,6 +257,18 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			subtitle: "todo desc"
+			description: ["Silk Touch 3 required"]
+			id: "22465E10FCEC5230"
+			tasks: [{
+				id: "778C391DE542CD49"
+				type: "item"
+				item: "minecraft:spawner"
 			}]
 		}
 	]

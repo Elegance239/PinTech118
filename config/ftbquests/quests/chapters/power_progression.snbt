@@ -1,9 +1,9 @@
 {
 	id: "24F8A8C46323FF36"
 	group: ""
-	order_index: 4
+	order_index: 3
 	filename: "power_progression"
-	title: "power progression"
+	title: "Power Sources"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

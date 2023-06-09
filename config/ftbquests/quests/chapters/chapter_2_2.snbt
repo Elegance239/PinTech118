@@ -93,6 +93,7 @@
 		{
 			x: -8.5d
 			y: 0.0d
+			subtitle: "Harder, Better, Faster, Stronger"
 			dependencies: [
 				"5513623B3E16B98E"
 				"48C126FCC8175A37"
@@ -362,6 +363,7 @@
 		{
 			x: -1.5d
 			y: -3.0d
+			subtitle: "cold + cold = colder?? don't overthink it"
 			dependencies: ["6D1D4F69C702B692"]
 			id: "757BA64047537C00"
 			tasks: [{
@@ -406,6 +408,7 @@
 		{
 			x: 6.0d
 			y: 0.0d
+			subtitle: "Overclocked"
 			description: ["Reaching the limits of computing, this circuit generates extreme amounts of heat."]
 			dependencies: [
 				"44E3936635495C75"

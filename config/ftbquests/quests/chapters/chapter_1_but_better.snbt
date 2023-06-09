@@ -538,6 +538,7 @@
 		{
 			x: 9.75d
 			y: -3.0d
+			subtitle: "Turing Complete"
 			description: ["A cheaper alternate recipe is available after unlocking PCBs."]
 			dependencies: [
 				"7A23F9D8718773BB"
@@ -916,7 +917,7 @@
 		{
 			x: 17.5d
 			y: 0.0d
-			subtitle: "Turing Complete"
+			subtitle: "Digital Age"
 			dependencies: ["21DBA648210F8002"]
 			size: 1.5d
 			id: "26F8D4EEEC76EBCE"

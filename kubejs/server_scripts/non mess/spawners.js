@@ -3,12 +3,13 @@ onEvent('recipes', (event) => {
     const id_prefix = 'pintech:apotheosis/spawner_modifier/';
     const recipes = [
         {
-            mainhand: { item: 'ars_nouveau:glyph_freeze' },
+            mainhand: { item: 'mekanism:basic_control_circuit' },
             stat_changes: [{ id: 'no_ai', value: true }],
             id: 'apotheosis:spawner/no_ai'
         },
         {
-            mainhand: { item: 'ars_nouveau:glyph_freeze' },
+            mainhand: { item: 'mekanism:basic_control_circuit' },
+            offhand: { item: 'minecraft:quartz' },
             stat_changes: [{ id: 'no_ai', value: false }],
             id: 'apotheosis:spawner/no_ai_inverted'
         },
@@ -56,6 +57,7 @@ onEvent('recipes', (event) => {
         },
         {
             mainhand: { item: 'ars_nouveau:glyph_linger' },
+            
             stat_changes: [
                 {
                     id: 'max_nearby_entities',
@@ -67,23 +69,24 @@ onEvent('recipes', (event) => {
             id: 'apotheosis:spawner/max_nearby_inverted'
         },
         {
-            mainhand: { item: 'ars_nouveau:glyph_delay' },
+            mainhand: { item: 'mekanism:upgrade_speed' },
             stat_changes: [
                 {
                     id: 'min_delay',
-                    value: -5,
-                    min: 100,
+                    value: -10,
+                    min: 80,
                     max: -1
                 }
             ],
             id: 'apotheosis:spawner/min_delay'
         },
         {
-            mainhand: { item: 'ars_nouveau:glyph_delay' },
+            mainhand: { item: 'mekanism:upgrade_speed' },
+            offhand: { item: 'minecraft:quartz' },
             stat_changes: [
                 {
                     id: 'min_delay',
-                    value: 5,
+                    value: 10,
                     min: -1,
                     max: -1
                 }
@@ -91,7 +94,32 @@ onEvent('recipes', (event) => {
             id: 'apotheosis:spawner/min_delay_inverted'
         },
         {
-            mainhand: { item: 'ars_nouveau:glyph_summon_decoy' },
+            mainhand: { item: 'thermal:machine_speed_augment' },
+            stat_changes: [
+                {
+                    id: 'max_delay',
+                    value: -10,
+                    min: 160,
+                    max: -1
+                }
+            ],
+            id: 'apotheosis:spawner/max_delay'
+        },
+        {
+            mainhand: { item: 'thermal:machine_speed_augment' },
+            offhand: { item: 'minecraft:quartz' },
+            stat_changes: [
+                {
+                    id: 'max_delay',
+                    value: 10,
+                    min: -1,
+                    max: -1
+                }
+            ],
+            id: 'apotheosis:spawner/max_delay_inverted'
+        },
+        {
+            mainhand: { item: 'thermal:lumium_ingot' },
             stat_changes: [
                 {
                     id: 'spawn_count',
@@ -103,7 +131,8 @@ onEvent('recipes', (event) => {
             id: 'apotheosis:spawner/spawn_count'
         },
         {
-            mainhand: { item: 'ars_nouveau:glyph_summon_decoy' },
+            mainhand: { item: 'thermal:lumium_ingot' },
+            offhand: { item: 'minecraft:quartz' },
             stat_changes: [
                 {
                     id: 'spawn_count',

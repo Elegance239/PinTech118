@@ -1,7 +1,7 @@
 {
 	id: "02E638C85C583749"
 	group: ""
-	order_index: 7
+	order_index: 6
 	filename: "purchase_orders"
 	title: "Purchase Orders"
 	default_quest_shape: ""
@@ -27,7 +27,7 @@
 		{
 			x: -4.5d
 			y: -1.5d
-			description: ["Can we reduce this value because no one actually will need 5 alternators?"]
+			description: [""]
 			id: "77D11DBF29BCCC68"
 			tasks: [{
 				id: "54DB40DCF9C13A26"

@@ -10,7 +10,7 @@
 	quests: [
 		{
 			title: "First Steps"
-			x: -11.0d
+			x: -8.0d
 			y: 0.0d
 			shape: "square"
 			subtitle: "Chop down your first trees!"
@@ -40,7 +40,7 @@
 		}
 		{
 			title: "You'll need some of these..."
-			x: -7.0d
+			x: -4.0d
 			y: -3.0d
 			description: ["And then you go and mine stone."]
 			dependencies: ["722CDE337A4DB0F5"]
@@ -60,7 +60,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -2.0d
 			y: 3.0d
 			subtitle: "Make a Furnace. Not difficult, eh?"
 			description: ["Processing Ores is going to be a big theme of this pack. There will be many ores that you can't smelt in a furnace now, and that's okay, because we intended to."]
@@ -82,7 +82,7 @@
 		}
 		{
 			title: "Shiny!"
-			x: 0.0d
+			x: 3.0d
 			y: -3.0d
 			subtitle: "Gold is one of the base ores in this pack. "
 			dependencies: ["19A9CAC021E1C3CD"]
@@ -102,8 +102,8 @@
 		}
 		{
 			title: "Iron!"
-			x: 0.0d
-			y: 3.0d
+			x: 7.0d
+			y: 0.0d
 			subtitle: "The beginning of your expert journey."
 			dependencies: ["19A9CAC021E1C3CD"]
 			size: 2.0d
@@ -131,7 +131,7 @@
 		}
 		{
 			title: "Redstone!"
-			x: 0.0d
+			x: 3.0d
 			y: 8.5d
 			dependencies: ["19A9CAC021E1C3CD"]
 			size: 2.0d
@@ -149,29 +149,9 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 3.0d
-			subtitle: "The Blast Furnace is your first way to process elementary ores."
-			description: ["Oh, and make a couple of these. You'll know soon..."]
-			dependencies: ["3C50EB8483313882"]
-			size: 3.0d
-			id: "369471B984582E15"
-			tasks: [{
-				id: "16D474070EDC70C0"
-				type: "item"
-				item: "minecraft:blast_furnace"
-			}]
-			rewards: [{
-				id: "373794318214C9B9"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 1067272827200663035L
-			}]
-		}
-		{
-			x: 10.0d
-			y: 3.0d
-			dependencies: ["369471B984582E15"]
+			x: 7.0d
+			y: 6.0d
+			dependencies: ["19A9CAC021E1C3CD"]
 			size: 2.0d
 			id: "49D1051908697A35"
 			tasks: [{
@@ -189,6 +169,7 @@
 			dependencies: [
 				"49D1051908697A35"
 				"390A0A51A68A04AE"
+				"3C50EB8483313882"
 			]
 			size: 3.0d
 			id: "09800CB0FF81EF57"
@@ -765,6 +746,7 @@
 			y: 12.0d
 			description: ["These goggles are a must have for create."]
 			size: 2.0d
+			optional: true
 			id: "3EA5C3B13E5414EE"
 			tasks: [{
 				id: "6FCE5299F5B3545E"
@@ -795,6 +777,7 @@
 			title: "Tree Farm"
 			x: 29.0d
 			y: 12.0d
+			shape: "rsquare"
 			subtitle: "Trees can grow even though there's a spinning contraption in its way. Welcome to Create."
 			description: ["You are now able to automate logs and planks. Look up Create Tree Farm/Use the Ponder Scenes on the Mechanical Saw to learn more."]
 			size: 1.5d
@@ -829,6 +812,7 @@
 			title: "Iron!"
 			x: 29.0d
 			y: -2.0d
+			shape: "rsquare"
 			description: ["One of the special features of this pack is our unique ore generation and processing. At this stage, you can already obtain infinite iron. Check the ore generation quest tab for more."]
 			dependencies: ["19D287CB9CFBE5F4"]
 			size: 2.0d

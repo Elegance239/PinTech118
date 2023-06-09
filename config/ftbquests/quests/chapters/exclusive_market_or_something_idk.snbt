@@ -1,7 +1,7 @@
 {
 	id: "077A0362CEAA3055"
 	group: ""
-	order_index: 6
+	order_index: 5
 	filename: "exclusive_market_or_something_idk"
 	title: "Exclusive Market"
 	icon: "kubejs:chin_new"
@@ -112,6 +112,7 @@
 			}]
 		}
 		{
+			title: "mmmmm chikn"
 			icon: "farmersdelight:ratatouille"
 			x: -1.5d
 			y: 2.0d

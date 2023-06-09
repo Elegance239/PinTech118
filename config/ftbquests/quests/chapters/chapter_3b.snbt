@@ -137,7 +137,7 @@
 		{
 			x: 3.5d
 			y: -4.0d
-			description: [""]
+			subtitle: "Highly Exothermic"
 			dependencies: ["14B46BA89E462FEC"]
 			id: "1D6E327CCA27EDCE"
 			tasks: [{
@@ -213,6 +213,7 @@
 		{
 			x: 16.5d
 			y: 1.5d
+			subtitle: "Nanomachines, son"
 			dependencies: ["15016D456CDC89A4"]
 			id: "70BB7487C84044FE"
 			tasks: [{
@@ -235,6 +236,7 @@
 		{
 			x: 20.0d
 			y: -2.0d
+			subtitle: "(P×Z).Q.(L×B) or something idk im not a physicist"
 			dependencies: ["2CEB255ACD9A9675"]
 			id: "0CF2063410C9706B"
 			tasks: [{
@@ -301,6 +303,7 @@
 		{
 			x: 24.5d
 			y: 0.0d
+			subtitle: "Look I haven't taken QM yet, I'm just making this up"
 			dependencies: [
 				"0E5ADB3052470B7F"
 				"1AE94C7BC4C1F7E5"
