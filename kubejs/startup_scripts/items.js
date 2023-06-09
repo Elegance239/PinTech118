@@ -155,5 +155,5 @@ onEvent('item.registry', event => {
 	event.create('enriched_ender_regolith').displayName('Enriched Ender Regolith')
 	event.create('fluorite_seed').displayName('Fluorite Seed')
 	event.create('formula').displayName('Formula')
-
+	event.create('enderium_core').displayName('Enderium Core')
 })

@@ -56,7 +56,7 @@ event.remove({input: 'immersiveengineering:raw_aluminum', output: 'immersiveengi
 event.remove({input: 'thermal:copper_coin'})
 event.remove({output: 'thermal:copper_coin'})
 event.remove({input: '#forge:ores', output: '#forge:ingots'})
-event.remove({input: '#forge:ores', output: '#create:crushed_ores'})
+event.remove({input: '#forge:ores', output: '#create:crushed_raw_materials'})
 event.remove({input: '#forge:ores', output: '#forge:dusts'})
 
 const mekfactory = [
@@ -369,6 +369,13 @@ let SD = (id) => 'storagedrawers:'+id
         'thermal:machines/pyrolyzer/pyrolyzer_logs',
         'create:splashing/gravel',
         'createchromaticreturn:q_to_fluorite',
+        'createchromaticreturn:cf_to_rs',
+        'create:filling/redstone',
+        'create:filling/glowstone',
+        'thermal:compat/create/bottler_create_glowstone',
+        'thermal:compat/create/bottler_create_redstone',
+        'create:splashing/crushed_raw_gold',
+        
     ]
 
     recipeId.forEach(item => {

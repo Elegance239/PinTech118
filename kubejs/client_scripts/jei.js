@@ -30,4 +30,5 @@ onEvent('jei.hide.items', event => {
   event.hide(Item.of('simplyjetpacks:armorplating_te5_enderium'))
   event.hide(Item.of('kubejs:blender_model'))
   event.hide(Item.of('kubejs:formulaic_synthesizer_model'))
+  event.hide(Item.of('mm:osmium_drill_laser_input_port'))
 })

@@ -227,11 +227,18 @@
 			dependencies: ["09800CB0FF81EF57"]
 			size: 2.0d
 			id: "638DFC8F928BDF6D"
-			tasks: [{
-				id: "09243193071BDB87"
-				type: "item"
-				item: "create:water_wheel"
-			}]
+			tasks: [
+				{
+					id: "09243193071BDB87"
+					type: "item"
+					item: "create:water_wheel"
+				}
+				{
+					id: "18EB9397E3ECE47C"
+					type: "item"
+					item: "create:large_water_wheel"
+				}
+			]
 			rewards: [{
 				id: "06BD46A90D25751E"
 				type: "random"

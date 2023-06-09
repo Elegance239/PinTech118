@@ -733,20 +733,23 @@ onEvent('recipes', event => {
   )
 
   event.shaped('2x mekanismgenerators:fission_fuel_assembly',
-    [
-      "AAA",
+  [
       "ABA",
-      "ACA"
-    ],
+      "BCB",
+      "ADA"
+  ],
     {
       "A": {
         "item": "thermal_extra:polarium_plate"
       },
       "B": {
-        "item": "kubejs:enderium_rod_bundle"
+        "item": "thermal:lead_plate"
       },
       "C": {
         "item": "mekanism:elite_chemical_tank"
+      },
+      "D": {
+        "item": "kubejs:enderium_core"
       }
     },
   )

@@ -351,7 +351,7 @@ onEvent('recipes', event => {
         "ingredient": {
         "item": input4
         },
-        "loops": 1,
+        "loops": 2,
         "results": [
             Item.of("kubejs:mixture_basin").toJson(),
         ],

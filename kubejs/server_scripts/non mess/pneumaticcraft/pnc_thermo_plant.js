@@ -230,6 +230,27 @@ onEvent('recipes', event => {
 			min_temp: 2223
 		}
 	})
+
+	event.custom({
+
+		type: "pneumaticcraft:thermo_plant",
+		exothermic: false,
+		fluid_input: {
+			type: "pneumaticcraft:fluid",
+			amount: 360,
+			fluid: "tconstruct:molten_enderium"
+		},
+		item_input: {
+			item: "kubejs:pressurized_ender_core"
+		},
+		item_output: {
+			item: "kubejs:enderium_core"
+		},
+		temperature: {
+			min_temp: 473
+		}
+	})
+	
 })
 
 

@@ -47,4 +47,14 @@ onEvent('recipes', event => {
 			Item.of('3x kubejs:raw_iron_mote').withChance(0.12),
 		]
 	})
+
+	event.custom({
+		type: 'create:splashing',
+		ingredients: [
+			Ingredient.of('create:crushed_raw_gold').toJson(),
+		],
+		results: [
+			Item.of('9x minecraft:gold_nugget').toJson(),
+		]
+	})
 })
