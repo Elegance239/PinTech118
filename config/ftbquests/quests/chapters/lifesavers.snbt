@@ -261,7 +261,7 @@
 		}
 		{
 			x: -2.0d
-			y: 6.5d
+			y: 7.0d
 			subtitle: "todo desc"
 			description: ["Silk Touch 3 required"]
 			id: "22465E10FCEC5230"

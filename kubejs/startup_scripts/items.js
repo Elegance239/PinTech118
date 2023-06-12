@@ -105,7 +105,7 @@ onEvent('item.registry', event => {
 	event.create('animal_flesh').displayName('Extreme Violence')
 	event.create('chromatic_dust').displayName('Chromatic Dust').rarity('uncommon')
 	event.create('neoclydium_core').displayName('Neoclydium Core').rarity('epic').texture("kubejs:item/neoclydium_core")
-	event.create('superalloy_capsule').displayName('Superalloy Capsule')
+	event.create('superalloy_capsule').displayName('Polarium Capsule')
 	event.create('plutonium_superalloy').displayName('Plutonium Superalloy').rarity('uncommon')
 	event.create('plutonium_superalloy_plate').displayName('Plutonium Superalloy Plate').rarity('uncommon')
 	event.create('ion_trap').displayName('Ion Trap')
@@ -140,7 +140,7 @@ onEvent('item.registry', event => {
 	event.create('diamond_seed').displayName('Diamond Seed')
 	event.create('unassembled_advanced_control_circuit').displayName('Unassembled Advanced Control Circuit')
 	event.create('vukaium_plate_bundle').displayName('Vukaium Plate Bundle')
-	event.create('superalloy_plate_bundle').displayName('Superalloy Plate Bundle')
+	event.create('superalloy_plate_bundle').displayName('Polarium Plate Bundle')
 	event.create('upgrade_base').displayName('Upgrade Base')
 	event.create('augment_base').displayName('Augment Base')
 	event.create('sieve').displayName('Sieve')
@@ -157,3 +157,16 @@ onEvent('item.registry', event => {
 	event.create('formula').displayName('Formula')
 	event.create('enderium_core').displayName('Enderium Core')
 })
+
+onEvent('item.modification', event => {
+	event.modify('createarmory:nine_mm', item => {
+	  item.maxStackSize = 256
+	})
+	event.modify('createarmory:fifty_cal', item => {
+		item.maxStackSize = 256
+	  })
+	event.modify('createarmory:five_five_six', item => {
+		item.maxStackSize = 256
+	  })
+
+  })

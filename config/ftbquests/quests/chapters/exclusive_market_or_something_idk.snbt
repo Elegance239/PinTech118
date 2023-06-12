@@ -392,8 +392,8 @@
 		{
 			title: "Fren :)"
 			icon: "mekanism:robit"
-			x: -3.0d
-			y: 5.0d
+			x: -4.5d
+			y: 3.5d
 			id: "2C7ADFAC55D355CC"
 			tasks: [{
 				id: "37D45A2E624CF1BF"
@@ -831,6 +831,11 @@
 				type: "xp"
 				xp: 6969
 			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			id: "0CEAA68BBFF5E6F6"
 		}
 	]
 	quest_links: [ ]

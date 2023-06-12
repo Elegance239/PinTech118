@@ -249,11 +249,18 @@
 					count: 4L
 				}
 			]
-			rewards: [{
-				id: "6B16D28657FC1034"
-				type: "random"
-				table_id: 7405038419668317245L
-			}]
+			rewards: [
+				{
+					id: "6B16D28657FC1034"
+					type: "random"
+					table_id: 7405038419668317245L
+				}
+				{
+					id: "156D9F1007927B63"
+					type: "item"
+					item: "kubejs:chin_new"
+				}
+			]
 		}
 		{
 			x: -4.5d
@@ -530,18 +537,27 @@
 				"231D45C5D1A73174"
 				"77D52A100132A810"
 			]
+			size: 1.5d
 			id: "000D19491DA2B747"
 			tasks: [{
 				id: "68D0B0D17106DA07"
 				type: "item"
 				item: "mekanism:ultimate_control_circuit"
 			}]
-			rewards: [{
-				id: "4DEA631C6AE3D6FC"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 7405038419668317245L
-			}]
+			rewards: [
+				{
+					id: "4DEA631C6AE3D6FC"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 7405038419668317245L
+				}
+				{
+					id: "3F741C127B800C36"
+					type: "item"
+					item: "kubejs:chin_new"
+					count: 2
+				}
+			]
 		}
 		{
 			title: "Supercritical Phase Shifter"
@@ -595,6 +611,12 @@
 					id: "2FDA994C10192518"
 					type: "item"
 					item: "minecraft:dragon_egg"
+				}
+				{
+					id: "46462CDE8BEB8C29"
+					type: "item"
+					item: "kubejs:chin_new"
+					count: 2
 				}
 			]
 		}
@@ -655,12 +677,20 @@
 				type: "item"
 				item: "mekanism:antiprotonic_nucleosynthesizer"
 			}]
-			rewards: [{
-				id: "753E5031A4290C49"
-				type: "choice"
-				exclude_from_claim_all: true
-				table_id: 2185577192427929305L
-			}]
+			rewards: [
+				{
+					id: "753E5031A4290C49"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 2185577192427929305L
+				}
+				{
+					id: "066EB43A42ABE631"
+					type: "item"
+					item: "kubejs:chin_new"
+					count: 5
+				}
+			]
 		}
 		{
 			x: 13.0d

@@ -11,8 +11,6 @@ onEvent('client.generate_assets', event => {
     // rename all items with e in their path to EEEEEEEEEEEE
     // Ingredient.of(/:.*e/).stacks.forEach(item => rename(item, "EEEEEEEEEEEE"))
     rename('create:chromatic_compound', 'Chromatic Compound Base')
-    rename('thermal_extra:polarium_ingot', 'Nickel-Based Superalloy')
-    rename('thermal_extra:polarium_plate', 'Superalloy Plate')
     rename('refinedstorage:crafter', 'Crafter Tier 1')
     rename('extrastorage:iron_crafter', 'Crafter Tier 2')
     rename('extrastorage:gold_crafter', 'Crafter Tier 3')
@@ -21,5 +19,4 @@ onEvent('client.generate_assets', event => {
     rename('createaddition:capacitor', 'Primitive Capacitor')
     rename('immersiveengineering:graphite_electrode', 'Reinforced Electrode')
     rename('industrialforegoing:plastic', 'Crude Plastic')
-    rename('thermal_extra:polarium_dust', 'Superalloy Dust')
   })

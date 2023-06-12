@@ -31,4 +31,5 @@ onEvent('jei.hide.items', event => {
   event.hide(Item.of('kubejs:blender_model'))
   event.hide(Item.of('kubejs:formulaic_synthesizer_model'))
   event.hide(Item.of('mm:osmium_drill_laser_input_port'))
+  event.hide(Item.of('mm:blender_controller'))
 })
