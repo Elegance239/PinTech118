@@ -392,8 +392,8 @@
 		{
 			title: "Fren :)"
 			icon: "mekanism:robit"
-			x: -4.5d
-			y: 3.5d
+			x: 0.0d
+			y: 6.5d
 			id: "2C7ADFAC55D355CC"
 			tasks: [{
 				id: "37D45A2E624CF1BF"
@@ -833,9 +833,30 @@
 			}]
 		}
 		{
+			title: "The US"
+			icon: "createarmory:barret"
 			x: -3.0d
 			y: 5.0d
 			id: "0CEAA68BBFF5E6F6"
+			tasks: [{
+				id: "795F8BCC796125C6"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "34B18E4E1A0A8DE6"
+					type: "item"
+					item: "createarmory:barret"
+				}
+				{
+					id: "12967B69370BE854"
+					type: "item"
+					item: "createarmory:fifty_cal"
+					count: 10
+				}
+			]
 		}
 	]
 	quest_links: [ ]

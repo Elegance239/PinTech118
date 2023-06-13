@@ -501,6 +501,7 @@
 			title: "Coke Oven"
 			x: 29.0d
 			y: 3.0d
+			subtitle: "Cocaine is a tropane alkaloid and central nervous system stimulant. As an extract, it is mainly used recreationally, and often illegally for its euphoric and rewarding effects."
 			description: ["Right click on the central block (3x3x3) with the hammer."]
 			dependencies: ["19D287CB9CFBE5F4"]
 			size: 2.0d

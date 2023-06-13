@@ -194,7 +194,7 @@
 			x: -8.0d
 			y: 0.5d
 			description: [
-				"All the (viable*) power sources in the modpack, roughly sorted by tech level. You may notice you base will use quite a serious amount of power, between the storage network, the ore generation and processing setups, crafting setups, and farms. Be ready to create a much bigger power setup than you might be comfortable with."
+				"All the (viable*) power sources in the modpack, roughly sorted by tech level. You may notice your base will use quite a serious amount of power, between the storage network, the ore generation and processing setups, crafting setups, and farms. Be ready to create a much bigger power setup than you might be comfortable with."
 				"(*or come up with an alternative. I don't care.)"
 			]
 			id: "441CA656145C187E"

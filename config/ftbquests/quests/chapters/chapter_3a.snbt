@@ -669,6 +669,7 @@
 		{
 			x: 26.0d
 			y: 0.0d
+			subtitle: "Jedi Survivor Recommended Spec"
 			description: ["Using antimatter to convert items is one of the most broken, illegal things there is. And now you have the capability to do it."]
 			dependencies: ["43810EEE044CE72C"]
 			id: "6536FBACD01195AE"

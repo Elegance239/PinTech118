@@ -410,7 +410,7 @@ onEvent('recipes', event => {
   event.shaped('mm:osmium_drill_controller', [
     "AAA",
     "ABA",
-    "AAA"
+    "ACA"
   ],
     {
       "A": {
@@ -418,6 +418,9 @@ onEvent('recipes', event => {
       },
       "B": {
         "item": "industrialforegoing:laser_drill"
+      },
+      "C": {
+        "item": "industrialforegoing:ore_laser_base"
       }
     },
   )
