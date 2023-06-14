@@ -437,7 +437,7 @@
 			title: "Automation"
 			icon: "pneumaticcraft:programmable_controller"
 			x: 0.0d
-			y: 5.5d
+			y: 6.0d
 			description: ["Welcome to the Automation Chapter! This chapter will introduce you to the mods we have to offer for all things automation. "]
 			dependencies: ["5D8ABBA7B8FA87EB"]
 			id: "3248719A0AA3B59C"
@@ -509,7 +509,7 @@
 		{
 			title: "Gauges and Switches"
 			icon: "rsgauges:industrial_lever"
-			x: -7.0d
+			x: -4.5d
 			y: 9.5d
 			description: ["Gauges and Switches adds a ton of functionality to redstone and opens up many possibilities for automation. Pressing Control+Shift will give the description for the corresponding switch. Only some are listed here. Search up the whole list by typing in \"@gauge\" in JEI."]
 			hide_dependency_lines: true
@@ -522,7 +522,7 @@
 			}]
 		}
 		{
-			x: -9.5d
+			x: -7.0d
 			y: 9.5d
 			dependencies: ["1343BA1502D88ECB"]
 			id: "0BCED9EF5857E426"
@@ -533,7 +533,7 @@
 			}]
 		}
 		{
-			x: -9.5d
+			x: -7.0d
 			y: 7.0d
 			dependencies: ["1343BA1502D88ECB"]
 			id: "08EE629509E74879"
@@ -544,7 +544,7 @@
 			}]
 		}
 		{
-			x: -12.0d
+			x: -9.5d
 			y: 9.5d
 			dependencies: ["1343BA1502D88ECB"]
 			id: "471BF6DB05E6D5CA"
@@ -555,7 +555,7 @@
 			}]
 		}
 		{
-			x: -9.5d
+			x: -7.0d
 			y: 12.0d
 			dependencies: ["1343BA1502D88ECB"]
 			id: "0EFB52A319F02C1C"
@@ -567,7 +567,7 @@
 		}
 		{
 			title: "XNet"
-			x: 7.0d
+			x: 4.5d
 			y: 9.5d
 			description: ["XNet is one of the most powerful automation mods, allowing you to precisely control inputs, outputs, timing and logic with 8 channels."]
 			hide_dependency_lines: true
@@ -580,7 +580,7 @@
 			}]
 		}
 		{
-			x: 9.5d
+			x: 7.0d
 			y: 9.5d
 			description: [
 				"A basic XNet setup is to use two connectors and some cable along with a controller. Remember to supply your controller with energy!"
@@ -606,7 +606,7 @@
 			]
 		}
 		{
-			x: 12.0d
+			x: 9.5d
 			y: 9.5d
 			description: ["Routers can connect different XNet controllers. This is useful to merge two systems into one. "]
 			dependencies: ["7BA8865388B54A15"]
@@ -625,7 +625,7 @@
 			]
 		}
 		{
-			x: 9.5d
+			x: 7.0d
 			y: 7.0d
 			description: ["Routing Connectors take into account the channels involved, other than that they are also regular connectors."]
 			dependencies: ["7BA8865388B54A15"]
@@ -644,7 +644,7 @@
 			]
 		}
 		{
-			x: 9.5d
+			x: 7.0d
 			y: 12.0d
 			description: ["Advanced Connectors allow you to control the input side. For instance, if your connector is connecting to the left side of a machine, you can configure in the controller to insert/extract from the right/top/bottom/all sides."]
 			dependencies: ["7BA8865388B54A15"]
@@ -692,6 +692,27 @@
 				id: "2E0D476F0706F164"
 				type: "item"
 				item: "enderstorage:ender_chest"
+			}]
+		}
+		{
+			title: "Fun Stuff"
+			x: -6.0d
+			y: 0.0d
+			dependencies: ["5D8ABBA7B8FA87EB"]
+			id: "0E4D8C931028EC70"
+			tasks: [{
+				id: "309140C179CDB2E3"
+				type: "item"
+				item: {
+					id: "immersiveengineering:railgun"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 3
+							Items: [ ]
+						}
+					}
+				}
 			}]
 		}
 	]
