@@ -738,17 +738,7 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 6.0d
-			id: "20C94F961402B1BC"
-			tasks: [{
-				id: "66E312DA9EB2F36A"
-				type: "item"
-				item: "kubejs:modular_machine_framework"
-			}]
-		}
-		{
-			x: -3.5d
+			x: -4.5d
 			y: 6.0d
 			id: "7DFA4B536DCC443D"
 			tasks: [{
@@ -758,7 +748,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -3.0d
 			y: 6.0d
 			id: "6F8C14E9B548CF35"
 			tasks: [{
@@ -768,7 +758,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 1.5d
 			y: 6.0d
 			id: "66B6F27670D98038"
 			tasks: [{
@@ -778,7 +768,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 3.0d
 			y: 6.0d
 			id: "10FE8F8F74E24087"
 			tasks: [{
@@ -789,7 +779,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: 0.0d
 			y: 6.0d
 			id: "6C7C00C54EFE92FC"
 			tasks: [{

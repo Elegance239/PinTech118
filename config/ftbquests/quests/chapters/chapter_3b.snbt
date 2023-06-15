@@ -320,6 +320,7 @@
 		{
 			x: 29.0d
 			y: 0.0d
+			subtitle: "Jedi Survivor Minimum Spec"
 			dependencies: ["50A606F1168B657A"]
 			size: 2.0d
 			id: "16B1E34341FB1F1C"

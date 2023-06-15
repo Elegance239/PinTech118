@@ -530,7 +530,6 @@
 		{
 			x: 8.5d
 			y: 0.0d
-			subtitle: "Jedi Survivor Minimum Spec"
 			description: ["The Ultimate Control Circuit is arguably one of the most groundbreaking achievements you will have achieved so far. Consider yourself filled with limitless power."]
 			dependencies: [
 				"42D4C9695D962E3C"

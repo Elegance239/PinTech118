@@ -644,7 +644,7 @@
 			icon: "immersiveengineering:arc_furnace"
 			x: 4.0d
 			y: 2.5d
-			subtitle: "The power of the sun in the palm of my hand"
+			subtitle: "Harness the power of lightning"
 			dependencies: [
 				"04CA6BDDE5F61F2F"
 				"68D92493EEAFF1B0"

@@ -78,6 +78,12 @@
 				type: "item"
 				item: "mekanism:alloy_reinforced"
 			}]
+			rewards: [{
+				id: "78BAC6A760A6404D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5032101358385251555L
+			}]
 		}
 		{
 			x: -11.0d
@@ -311,6 +317,7 @@
 		{
 			x: 2.5d
 			y: -3.0d
+			subtitle: "Clausius (not) Approved"
 			dependencies: [
 				"6C0112C7656BA2C1"
 				"4E695A9B016A4436"
@@ -320,6 +327,12 @@
 				id: "54148D6DA4AEFB33"
 				type: "item"
 				item: "kubejs:cooling_system"
+			}]
+			rewards: [{
+				id: "1DF7A0AC8876E5BD"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5032101358385251555L
 			}]
 		}
 		{
@@ -403,6 +416,12 @@
 				id: "22FBB7E05987E103"
 				type: "item"
 				item: "mekanism:dust_lithium"
+			}]
+			rewards: [{
+				id: "7BBAA874474E4DB1"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5032101358385251555L
 			}]
 		}
 		{
@@ -517,6 +536,12 @@
 				type: "item"
 				item: "mekanismgenerators:laser_focus_matrix"
 			}]
+			rewards: [{
+				id: "0C527E126F9019C1"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5032101358385251555L
+			}]
 		}
 		{
 			x: 12.0d
@@ -564,6 +589,12 @@
 				id: "6C5237D257D419F7"
 				type: "item"
 				item: "mekanism:osmium_compressor"
+			}]
+			rewards: [{
+				id: "5A715EA088BB4018"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 5032101358385251555L
 			}]
 		}
 		{
@@ -720,6 +751,7 @@
 			x: 6.0d
 			y: -1.5d
 			shape: "rsquare"
+			description: ["Not enough power? Too much uranium? I have just the thing for you."]
 			dependencies: ["7A5DDB1D27A24845"]
 			id: "0DC6F9B828FA4AD1"
 			tasks: [{

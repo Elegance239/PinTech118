@@ -41,7 +41,7 @@ onEvent('recipes', event => {
     })
     event.custom({
         "type":"immersiveengineering:arc_furnace",
-        "additives":[{item:'mekanism:alloy_reinforced', count:4},{tag:'forge:dusts/ender_pearl'}],
+        "additives":[{item:'mekanism:alloy_reinforced', count:10},{tag:'forge:dusts/ender_pearl', count:2}],
         "energy":409600,
         "input":{item:'kubejs:enderium_alloy_base'},
         "results":[{"item":'kubejs:porous_enderium_dust'}],
