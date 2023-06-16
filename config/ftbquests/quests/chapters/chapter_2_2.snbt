@@ -499,6 +499,11 @@
 					type: "item"
 					item: "industrialforegoing:ore_laser_base"
 				}
+				{
+					id: "7DFE518019694B63"
+					type: "item"
+					item: "mm:osmium_drill_controller"
+				}
 			]
 			rewards: [
 				{
