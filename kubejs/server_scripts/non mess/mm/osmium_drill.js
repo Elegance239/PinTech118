@@ -11,7 +11,7 @@ function MMIngredient(item, count) {
 
   onEvent("mm.recipes", event => {
     event.build("mm:osmium", {
-        duration: 500,
+        duration: 800,
         structureId: "namespace:osmium_drill",
         name: {
             text: "Synthesizing: Osmium"
@@ -25,7 +25,6 @@ function MMIngredient(item, count) {
                 }
                 
             },
-            MMIngredient("minecraft:raw_iron", 1)
         ],
         outputs: [
             MMIngredient("kubejs:processed_raw_osmium", 1),

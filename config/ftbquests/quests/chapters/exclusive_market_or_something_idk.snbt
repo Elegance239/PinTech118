@@ -613,7 +613,7 @@
 				id: "3CD856D0DA285B89"
 				type: "item"
 				item: "kubejs:chin_new"
-				count: 3L
+				count: 2L
 				consume_items: true
 			}]
 			rewards: [
@@ -843,7 +843,7 @@
 				id: "795F8BCC796125C6"
 				type: "item"
 				item: "kubejs:chin_new"
-				count: 2L
+				count: 3L
 			}]
 			rewards: [
 				{
@@ -855,7 +855,7 @@
 					id: "12967B69370BE854"
 					type: "item"
 					item: "createarmory:fifty_cal"
-					count: 10
+					count: 4
 				}
 			]
 		}
