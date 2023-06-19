@@ -20,6 +20,22 @@ onEvent("lootjs", (event) => {
         .addWeightedLoot([1, 1], [
             Item.of("kubejs:chin_new"),
         ]);
+
+        event
+        .addLootTypeModifier(LootType.CHEST)
+        .randomChance(0.05)
+        .addWeightedLoot([1, 1], [
+            Item.of("kubejs:formula1"),
+            Item.of("kubejs:formula2"),
+            Item.of("kubejs:formula3"),
+            Item.of("kubejs:formula4"),
+            Item.of("kubejs:formula5"),
+            Item.of("kubejs:formula6"),
+            Item.of("kubejs:formula7"),
+            Item.of("kubejs:formula8"),
+            Item.of("kubejs:formula9"),
+        ]);
+    
     event
         .addLootTypeModifier(LootType.CHEST)
         .removeLoot("pneumaticcraft:transistor");

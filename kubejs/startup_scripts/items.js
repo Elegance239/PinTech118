@@ -156,6 +156,25 @@ onEvent('item.registry', event => {
 	event.create('fluorite_seed').displayName('Fluorite Seed')
 	event.create('formula').displayName('Formula')
 	event.create('enderium_core').displayName('Enderium Core')
+
+	event.create('formula1').displayName('Formula: Prefab Composite Component').texture("kubejs:item/formula").rarity('epic')
+	event.create('formula2').displayName('Formula: Overclocked Circuit').texture("kubejs:item/formula").rarity('epic')
+	event.create('formula3').displayName('Formula: Recycled Polymer').texture("kubejs:item/formula").rarity('epic')
+	event.create('formula4').displayName('Formula: Autoregulated Cooling System').texture("kubejs:item/formula").rarity('epic')
+	event.create('formula5').displayName('Formula: MOSFET Transistor').texture("kubejs:item/formula").rarity('epic')
+	event.create('formula6').displayName('Formula: Retrofitted Engineering Block').texture("kubejs:item/formula").rarity('epic')
+	event.create('formula7').displayName('Formula: Supercharged Electromagnet').texture("kubejs:item/formula").rarity('epic')
+	event.create('formula8').displayName('Formula: Simplified Signalum Alloy').texture("kubejs:item/formula").rarity('epic')
+	event.create('formula9').displayName('Formula: Enriched Graphite').texture("kubejs:item/formula").rarity('epic')
+
+	event.create('propulsion_module').displayName('Propulsion Module')
+	event.create('structure_module').displayName('Structure Module')
+	event.create('power_module').displayName('Power Module')
+	event.create('payload_module').displayName('Payload Module')
+	event.create('guidance_module').displayName('Guidance Module')
+	event.create('shielding_module').displayName('Shielding Module')
+
+
 })
 
 onEvent('item.modification', event => {
