@@ -393,7 +393,7 @@
 		{
 			title: "Fren :)"
 			icon: "mekanism:robit"
-			x: 0.0d
+			x: -1.5d
 			y: 6.5d
 			id: "2C7ADFAC55D355CC"
 			tasks: [{
@@ -479,7 +479,6 @@
 				id: "7AD450304B22AE7D"
 				type: "item"
 				item: "kubejs:chin_new"
-				count: 5L
 				consume_items: true
 			}]
 			rewards: [{
@@ -860,9 +859,10 @@
 			]
 		}
 		{
+			title: "Factory in a Block"
 			icon: "industrialforegoing:material_stonework_factory"
-			x: 4.5d
-			y: 3.5d
+			x: 1.5d
+			y: 6.5d
 			dependencies: ["7F019A11B2FAC654"]
 			id: "031B7723AE6B3260"
 			tasks: [{

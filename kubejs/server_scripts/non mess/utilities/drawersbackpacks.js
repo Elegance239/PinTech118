@@ -112,7 +112,7 @@ onEvent('recipes', event => {
     ],
     {
       S: SD('diamond_storage_upgrade'),
-      I: 'mekanism:enriched_diamond',
+      I: 'thermal:signalum_plate',
       T: 'thermal:diving_fabric',
       B: SB('gold_backpack'),
     })

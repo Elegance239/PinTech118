@@ -271,6 +271,20 @@
 				item: "minecraft:spawner"
 			}]
 		}
+		{
+			x: -4.0d
+			y: 7.0d
+			id: "0B49E2EF34C88B1C"
+			tasks: [{
+				id: "70390E8E1E7B3FC2"
+				type: "item"
+				item: {
+					id: "tiab:time_in_a_bottle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

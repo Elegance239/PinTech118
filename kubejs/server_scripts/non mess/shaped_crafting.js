@@ -2073,7 +2073,7 @@ onEvent('recipes', event => {
         "item": "kubejs:modular_machine_framework"
       },
       "B": {
-        "item": "mekanism:elite_control_circuit"
+        "item": "mekanism:energy_tablet"
       }
     },
   )

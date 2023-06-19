@@ -6,30 +6,30 @@
             "         ",
             "         ",
             "         ",
+            "    O    ",
+            "   ONO   ",
+            "    O    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "    O    ",
+            "   QQQ   ",
+            "  OQNQO  ",
+            "   QQQ   ",
+            "    O    ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "         ",
             "    P    ",
-            "   POP   ",
-            "    P    ",
-            "         ",
-            "         ",
-            "        "
-        ],
-        [
-            "         ",
-            "         ",
-            "    P    ",
-            "   RRR   ",
-            "  PRORP  ",
-            "   RRR   ",
-            "    P    ",
-            "         ",
-            "         "
-        ],
-        [
-            "         ",
-            "         ",
-            "         ",
-            "         ",
-            "    Q    ",
             "         ",
             "         ",
             "         ",
@@ -40,7 +40,7 @@
             "         ",
             "         ",
             "         ",
-            "    J    ",
+            "    I    ",
             "         ",
             "         ",
             "         ",
@@ -51,7 +51,7 @@
             "         ",
             "         ",
             "         ",
-            "    J    ",
+            "    I    ",
             "         ",
             "         ",
             "         ",
@@ -62,7 +62,7 @@
             "         ",
             "         ",
             "         ",
-            "    J    ",
+            "    I    ",
             "         ",
             "         ",
             "         ",
@@ -73,7 +73,7 @@
             "         ",
             "         ",
             "         ",
-            "    J    ",
+            "    I    ",
             "         ",
             "         ",
             "         ",
@@ -83,9 +83,9 @@
             "         ",
             "         ",
             "         ",
-            "   OPO   ",
-            "   PJP   ",
-            "   OPO   ",
+            "   NON   ",
+            "   OIO   ",
+            "   NON   ",
             "         ",
             "         ",
             "         "
@@ -94,162 +94,162 @@
             "         ",
             "         ",
             "         ",
-            "   J J   ",
-            "    J    ",
-            "   J J   ",
+            "   I I   ",
+            "    I    ",
+            "   I I   ",
             "         ",
             "         ",
-            "         "
-        ],
-        [
-            "         ",
-            " NNNNNNN ",
-            " N     N ",
-            " N OOO N ",
-            " N OJO N ",
-            " N OBO N ",
-            " N     N ",
-            " NNNNNNN ",
             "         "
         ],
         [
             "         ",
             " MMMMMMM ",
+            " M     M ",
+            " M NNN M ",
+            " M NIN M ",
+            " M NBN M ",
+            " M     M ",
             " MMMMMMM ",
-            " MMMBMMM ",
-            " MMBJBMM ",
-            " MMMBMMM ",
-            " MMM MMM ",
-            " MMMMMMM ",
-            "         "
-        ],
-        [
-            "         ",
-            "         ",
-            "         ",
-            "    B    ",
-            "   BJB   ",
-            "    B    ",
-            "         ",
-            "         ",
-            "         "
-        ],
-        [
-            "         ",
-            "         ",
-            "         ",
-            "    B    ",
-            "   BJB   ",
-            "    B    ",
-            "         ",
-            "         ",
-            "         "
-        ],
-        [
-            "         ",
-            "         ",
-            "         ",
-            "    B    ",
-            "   BJB   ",
-            "    B    ",
-            "         ",
-            "         ",
-            "         "
-        ],
-        [
-            "         ",
-            "         ",
-            "         ",
-            "    B    ",
-            "   BJB   ",
-            "    B    ",
-            "         ",
-            "         ",
-            "         "
-        ],
-        [
-            "         ",
-            "         ",
-            "         ",
-            "    B    ",
-            "   BJB   ",
-            "    B    ",
-            "         ",
-            "         ",
-            "         "
-        ],
-        [
-            "         ",
-            "         ",
-            "         ",
-            "    B    ",
-            "   BJB   ",
-            "    B    ",
-            "         ",
-            "         ",
-            "         "
-        ],
-        [
-            "         ",
-            "         ",
-            "         ",
-            "    B    ",
-            "   BJB   ",
-            "    B    ",
-            "         ",
-            "         ",
-            "         "
-        ],
-        [
-            "         ",
-            "         ",
-            "         ",
-            "    B    ",
-            "   BJB   ",
-            "    B    ",
-            "         ",
-            "         ",
-            "         "
-        ],
-        [
-            "         ",
-            "         ",
-            "         ",
-            "    B    ",
-            "   BJB   ",
-            "    B    ",
-            "         ",
-            "         ",
             "         "
         ],
         [
             "         ",
             " LLLLLLL ",
-            " LMMMMML ",
-            " LMMMMML ",
-            " LMMJMML ",
-            " LMMMMML ",
-            " LMMMMML ",
+            " LLLLLLL ",
+            " LLLBLLL ",
+            " LLBIBLL ",
+            " LLLBLLL ",
+            " LLL LLL ",
             " LLLLLLL ",
             "         "
         ],
         [
-            "BKKKKKKKB",
-            "K   B   K",
-            "K       K",
-            "K       K",
-            "KB  J  BK",
-            "K       K",
-            "K       K",
-            "K   B   K",
-            "BKKKKKKKB"
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   BIB   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   BIB   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   BIB   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   BIB   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   BIB   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   BIB   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   BIB   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   BIB   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            "         ",
+            "         ",
+            "    B    ",
+            "   BIB   ",
+            "    B    ",
+            "         ",
+            "         ",
+            "         "
+        ],
+        [
+            "         ",
+            " KKKKKKK ",
+            " KLLLLLK ",
+            " KLLLLLK ",
+            " KLLILLK ",
+            " KLLLLLK ",
+            " KLLLLLK ",
+            " KKKKKKK ",
+            "         "
+        ],
+        [
+            "BJJJJJJJB",
+            "J   B   J",
+            "J       J",
+            "J       J",
+            "JB  I  BJ",
+            "J       J",
+            "J       J",
+            "J   B   J",
+            "BJJJJJJJB"
         ],
         [
             "BDDDDDDDB",
             "D       D",
             "D       D",
             "D       D",
-            "D   J   D",
+            "D   I   D",
             "D       D",
             "D       D",
             "D       D",
@@ -260,7 +260,7 @@
             "D       D",
             "D       D",
             "D       D",
-            "D   J   D",
+            "D   I   D",
             "D       D",
             "D       D",
             "D       D",
@@ -271,7 +271,7 @@
             "D       D",
             "D       D",
             "D       D",
-            "D   J   D",
+            "D   I   D",
             "D       D",
             "D       D",
             "D       D",
@@ -282,7 +282,7 @@
             "D       D",
             "D       D",
             "D       D",
-            "D   J   D",
+            "D   I   D",
             "D       D",
             "D       D",
             "D       D",
@@ -293,7 +293,7 @@
             "D       D",
             "D       D",
             "D       D",
-            "D   J   D",
+            "D   I   D",
             "D       D",
             "D       D",
             "D       D",
@@ -304,7 +304,7 @@
             "D       D",
             "D       D",
             "D       D",
-            "D   J   D",
+            "D   I   D",
             "D       D",
             "D       D",
             "D       D",
@@ -326,11 +326,11 @@
             "DAAAAAAAD",
             "DAAAAAAAD",
             "DAAEFEAAD",
-            "GAAFAFAAH",
+            "DAAFAFAAG",
             "DAAEFEAAD",
             "DAAAAAAAD",
             "DAAAAAAAD",
-            "BDDDIDDDB"
+            "BDDDHDDDB"
         ],
         [
             "AAAAAAAAA",
@@ -368,51 +368,46 @@
         "G": {
             "type": "mm:port",
             "port": "mm:item",
-            "input": true
-        },
-        "H": {
-            "type": "mm:port",
-            "port": "mm:item",
             "input": false
         },
-        "I": {
+        "H": {
             "type": "mm:port",
             "port": "mm:energy",
             "input": true
         },
-        "J": {
+        "I": {
             "type": "mm:block",
             "block": "engineersdecor:treated_wood_pole"
         },
-        "K": {
+        "J": {
             "type": "mm:block",
             "block": "immersiveengineering:steel_scaffolding_wooden_top"
         },
-        "L": {
+        "K": {
             "type": "mm:block",
             "block": "immersiveengineering:stairs_steel_scaffolding_wooden_top"
         },
-        "M": {
+        "L": {
             "type": "mm:block",
             "block": "immersiveengineering:treated_scaffold"
         },
-        "N": {
+        "M": {
             "type": "mm:block",
             "block": "immersiveengineering:steel_fence"
         },
-        "O": {
+        "N": {
             "type": "mm:block",
             "block": "immersiveengineering:treated_wood_horizontal"
         },
-        "P": {
+        "O": {
             "type": "mm:block",
             "block": "immersiveengineering:slab_treated_wood_horizontal"
         },
-        "Q": {
+        "P": {
             "type": "mm:block",
             "block": "engineersdecor:treated_wood_pole_support"
         },
-        "R": {
+        "Q": {
             "type": "mm:block",
             "block": "immersiveengineering:stairs_treated_wood_horizontal"
         }

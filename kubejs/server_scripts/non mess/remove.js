@@ -294,6 +294,7 @@ let SD = (id) => 'storagedrawers:'+id
         'simplyjetpacks:armorplating_mek2',
         'simplyjetpacks:armorplating_mek3',
         'simplyjetpacks:armorplating_mek4',
+        'mekanism:induction_casing',
     ]                                               
 
     removeid.forEach(item => {

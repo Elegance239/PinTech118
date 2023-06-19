@@ -191,7 +191,7 @@
 			title: "Storage"
 			icon: "ironchest:dirt_chest"
 			x: 0.0d
-			y: -5.5d
+			y: -10.0d
 			description: ["Our Modpack Features 4 storage solutions: Sophisticated Backpacks, Iron Chests and Storage Drawers and Refined Storage. Refined Storage has an exclusive chapter for it."]
 			dependencies: ["5D8ABBA7B8FA87EB"]
 			id: "022A93ACB20B274A"
@@ -423,7 +423,7 @@
 		}
 		{
 			title: "Decor"
-			x: 6.0d
+			x: 10.0d
 			y: 0.0d
 			dependencies: ["5D8ABBA7B8FA87EB"]
 			id: "1C6A6807820194C1"
@@ -437,7 +437,7 @@
 			title: "Automation"
 			icon: "pneumaticcraft:programmable_controller"
 			x: 0.0d
-			y: 6.0d
+			y: 10.0d
 			description: ["Welcome to the Automation Chapter! This chapter will introduce you to the mods we have to offer for all things automation. "]
 			dependencies: ["5D8ABBA7B8FA87EB"]
 			id: "3248719A0AA3B59C"
@@ -696,7 +696,7 @@
 		}
 		{
 			title: "Fun Stuff"
-			x: -6.0d
+			x: -10.0d
 			y: 0.0d
 			dependencies: ["5D8ABBA7B8FA87EB"]
 			id: "0E4D8C931028EC70"
@@ -713,6 +713,190 @@
 						}
 					}
 				}
+			}]
+		}
+		{
+			title: "Create Armory"
+			x: -17.0d
+			y: -2.5d
+			description: ["Create Armory provides affordable guns for players - Search up @armory."]
+			hide_dependency_lines: true
+			dependencies: ["0E4D8C931028EC70"]
+			id: "48BEF3D8D08C2470"
+			tasks: [{
+				id: "3B7FB0399945C207"
+				type: "item"
+				item: "createarmory:barret"
+			}]
+		}
+		{
+			x: -17.0d
+			y: 2.5d
+			description: ["Shrink is a mod that allows you to modify your player size, which allows you to fit through one block gaps, or be a giant at your will."]
+			hide_dependency_lines: true
+			dependencies: ["0E4D8C931028EC70"]
+			id: "7B892DFCEBB853DA"
+			tasks: [{
+				id: "04E0333AB866517D"
+				type: "item"
+				item: {
+					id: "shrink:shrinking_device"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: -2.5d
+			description: ["Take pictures in game and frame them on walls!"]
+			hide_dependency_lines: true
+			dependencies: ["0E4D8C931028EC70"]
+			id: "534CB9220945304A"
+			tasks: [{
+				id: "5AEC8D8534D02F58"
+				type: "item"
+				item: "camera:camera"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 2.5d
+			description: ["Nothing better than a grapple."]
+			hide_dependency_lines: true
+			dependencies: ["0E4D8C931028EC70"]
+			id: "4F9BF6529799A824"
+			tasks: [{
+				id: "727437B1704B9CEE"
+				type: "item"
+				item: {
+					id: "grapplemod:grapplinghook"
+					Count: 1b
+					tag: {
+						Damage: 0
+						custom: {
+							doublehook: 0b
+							motor: 0b
+							phaserope: 0b
+							attract: 0b
+							rocket: 0b
+							hookgravity: 1.0d
+							repelforce: 1.0d
+							attractradius: 3.0d
+							pullbackwards: 1b
+							smartmotor: 0b
+							detachonkeyrelease: 0b
+							angle: 20.0d
+							crc32: 2252267022L
+							rocket_vertical_angle: 0.0d
+							rocket_force: 1.0d
+							rocket_refuel_ratio: 15.0d
+							motorwhencrouching: 0b
+							motorwhennotcrouching: 1b
+							motordampener: 0b
+							rocket_active_time: 0.5d
+							throwspeed: 2.0d
+							motoracceleration: 0.2d
+							enderstaff: 0b
+							oneropepull: 0b
+							sneakingverticalthrowangle: 0.0d
+							smartdoublemotor: 1b
+							repel: 0b
+							sneakingangle: 10.0d
+							motormaxspeed: 4.0d
+							playermovementmult: 1.0d
+							reelin: 1b
+							sticky: 0b
+							verticalthrowangle: 0.0d
+							maxlen: 30.0d
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -20.0d
+			y: -2.5d
+			description: ["No context needed."]
+			hide_dependency_lines: true
+			dependencies: ["0E4D8C931028EC70"]
+			id: "767C41D80837B42E"
+			tasks: [{
+				id: "19BF77CD5E89264A"
+				type: "item"
+				item: "mahoutsukai:murky_bucket"
+			}]
+		}
+		{
+			x: -20.0d
+			y: 2.5d
+			subtitle: "Mmmmmmm Mmmmmmmmm Mmmmmmmm"
+			description: ["Test your damage of weapons on this dummy. "]
+			hide_dependency_lines: true
+			dependencies: ["0E4D8C931028EC70"]
+			id: "55F29750BFE3DBDC"
+			tasks: [{
+				id: "7D154F38EDB5580C"
+				type: "item"
+				item: "dummmmmmy:target_dummy_placer"
+			}]
+		}
+		{
+			x: -23.0d
+			y: 2.5d
+			description: ["The classic, easy to use and efficient elevators."]
+			hide_dependency_lines: true
+			dependencies: ["0E4D8C931028EC70"]
+			id: "6384A881CF98890A"
+			tasks: [{
+				id: "11805F2C9C507A57"
+				type: "item"
+				item: "elevatorid:elevator_white"
+			}]
+		}
+		{
+			x: -23.0d
+			y: -2.5d
+			description: ["Redstone should be and can be placed wherever and however you want - all with the redstone pen."]
+			hide_dependency_lines: true
+			dependencies: ["0E4D8C931028EC70"]
+			id: "6E260C3BC8384C97"
+			tasks: [{
+				id: "7C9907F7F0CE0D3B"
+				type: "item"
+				item: {
+					id: "redstonepen:pen"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -26.0d
+			y: -2.5d
+			description: ["Spy on others, protect your base, reinforce your items with SecurityCraft."]
+			hide_dependency_lines: true
+			dependencies: ["0E4D8C931028EC70"]
+			id: "6EF1B97F5A50808A"
+			tasks: [{
+				id: "4C58C34897172A92"
+				type: "item"
+				item: "securitycraft:security_camera"
+			}]
+		}
+		{
+			x: -26.0d
+			y: 2.5d
+			description: ["Show off your items on a pedestal."]
+			hide_dependency_lines: true
+			dependencies: ["0E4D8C931028EC70"]
+			id: "78ED1FEB2F908D0C"
+			tasks: [{
+				id: "385FE670C93ACF7F"
+				type: "item"
+				item: "supplementaries:pedestal"
 			}]
 		}
 	]

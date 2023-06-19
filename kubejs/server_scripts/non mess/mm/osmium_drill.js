@@ -11,7 +11,7 @@ function MMIngredient(item, count) {
 
   onEvent("mm.recipes", event => {
     event.build("mm:osmium", {
-        duration: 800,
+        duration: 1200,
         structureId: "namespace:osmium_drill",
         name: {
             text: "Synthesizing: Osmium"
