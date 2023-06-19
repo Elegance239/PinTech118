@@ -438,7 +438,7 @@
 			icon: "pneumaticcraft:programmable_controller"
 			x: 0.0d
 			y: 10.0d
-			description: ["Welcome to the Automation Chapter! This chapter will introduce you to the mods we have to offer for all things automation. "]
+			description: ["Automation is the backbone of this pack. Here, the quests will introduce you to the mods we have to offer for all things automation. "]
 			dependencies: ["5D8ABBA7B8FA87EB"]
 			id: "3248719A0AA3B59C"
 			tasks: [{
@@ -730,8 +730,8 @@
 			}]
 		}
 		{
-			x: -17.0d
-			y: 2.5d
+			x: -14.0d
+			y: 0.0d
 			description: ["Shrink is a mod that allows you to modify your player size, which allows you to fit through one block gaps, or be a giant at your will."]
 			hide_dependency_lines: true
 			dependencies: ["0E4D8C931028EC70"]
@@ -828,7 +828,7 @@
 			}]
 		}
 		{
-			x: -20.0d
+			x: -17.0d
 			y: 2.5d
 			subtitle: "Mmmmmmm Mmmmmmmmm Mmmmmmmm"
 			description: ["Test your damage of weapons on this dummy. "]
@@ -842,7 +842,7 @@
 			}]
 		}
 		{
-			x: -23.0d
+			x: -20.0d
 			y: 2.5d
 			description: ["The classic, easy to use and efficient elevators."]
 			hide_dependency_lines: true
@@ -856,7 +856,7 @@
 		}
 		{
 			x: -23.0d
-			y: -2.5d
+			y: 0.0d
 			description: ["Redstone should be and can be placed wherever and however you want - all with the redstone pen."]
 			hide_dependency_lines: true
 			dependencies: ["0E4D8C931028EC70"]
@@ -874,8 +874,8 @@
 			}]
 		}
 		{
-			x: -26.0d
-			y: -2.5d
+			x: -20.0d
+			y: 0.0d
 			description: ["Spy on others, protect your base, reinforce your items with SecurityCraft."]
 			hide_dependency_lines: true
 			dependencies: ["0E4D8C931028EC70"]
@@ -887,8 +887,8 @@
 			}]
 		}
 		{
-			x: -26.0d
-			y: 2.5d
+			x: -17.0d
+			y: 0.0d
 			description: ["Show off your items on a pedestal."]
 			hide_dependency_lines: true
 			dependencies: ["0E4D8C931028EC70"]

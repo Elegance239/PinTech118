@@ -276,6 +276,8 @@
 		{
 			x: 4.5d
 			y: -2.5d
+			dependencies: ["601552736E04FFCC"]
+			hide: true
 			id: "5B4987FD1C8A2B55"
 			tasks: [{
 				id: "283B6FAA61FFDF53"
@@ -302,6 +304,8 @@
 		{
 			x: 0.0d
 			y: -2.5d
+			dependencies: ["2810C774422CAA74"]
+			hide: true
 			id: "63015FBFE800D0C3"
 			tasks: [{
 				id: "3145947E721B6EEC"
@@ -562,6 +566,9 @@
 		{
 			x: -3.0d
 			y: 1.0d
+			dependencies: ["4B8057B5DF79F64F"]
+			hide: true
+			hide_details_until_startable: true
 			id: "5010E8049767B19E"
 			tasks: [{
 				id: "6FE3BE1437FE6A42"

@@ -150,6 +150,13 @@
 				type: "checkmark"
 				title: "4"
 			}]
+			rewards: [{
+				id: "1DA109EFF673CBB3"
+				type: "command"
+				icon: "artifacts:crystal_heart"
+				command: "/say Welcome to PinTech, @p!"
+				player_command: false
+			}]
 		}
 		{
 			title: "Baby Steps"
@@ -179,6 +186,24 @@
 				id: "0E36FE87AAEC044A"
 				type: "checkmark"
 				title: "Chapter 1"
+			}]
+		}
+		{
+			title: "Developer's Note"
+			icon: "minecraft:paper"
+			x: 0.0d
+			y: 4.0d
+			description: [""]
+			id: "3485A18F44BD65F0"
+			tasks: [{
+				id: "41B540F698638184"
+				type: "checkmark"
+				title: "Alright."
+			}]
+			rewards: [{
+				id: "0251DCC705A42CB7"
+				type: "xp_levels"
+				xp_levels: 1
 			}]
 		}
 	]
