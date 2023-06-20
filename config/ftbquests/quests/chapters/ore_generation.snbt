@@ -365,7 +365,7 @@
 			x: 14.0d
 			y: -6.0d
 			description: [
-				"Redstone in a liquid suspension has the strange property of sticking onto the surface of other granular materials, effectively giving other mundane materials its elctrical properties."
+				"Redstone in a liquid suspension has the strange property of sticking onto the surface of other granular materials, effectively giving other mundane materials its useful elctrical properties."
 				"Involves cyclical processing. Requires a source of nether quartz."
 			]
 			id: "398A80F01C4FC7A8"

@@ -833,7 +833,7 @@
 			}]
 		}
 		{
-			title: "The US"
+			title: "2nd Amendment Rights"
 			icon: "createarmory:barret"
 			x: -3.0d
 			y: 5.0d
@@ -842,7 +842,7 @@
 				id: "795F8BCC796125C6"
 				type: "item"
 				item: "kubejs:chin_new"
-				count: 3L
+				count: 4L
 			}]
 			rewards: [
 				{
@@ -875,6 +875,26 @@
 				id: "66316B26D199DB05"
 				type: "item"
 				item: "industrialforegoing:material_stonework_factory"
+			}]
+		}
+		{
+			title: "Formula"
+			icon: "kubejs:formula1"
+			x: 0.0d
+			y: 6.5d
+			id: "2C34CCB851D461B4"
+			tasks: [{
+				id: "25AC6AAB233BBA37"
+				type: "item"
+				item: "kubejs:chin_new"
+				count: 5L
+			}]
+			rewards: [{
+				id: "3F75EE8D6DF43120"
+				type: "choice"
+				icon: "kubejs:formula1"
+				exclude_from_claim_all: true
+				table_id: 4354799021660066564L
 			}]
 		}
 	]

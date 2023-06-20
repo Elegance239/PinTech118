@@ -2214,4 +2214,22 @@ event.shaped('simplyjetpacks:armorplating_mek4',
     }
 },
 )
+
+event.shaped(Item.of('custommachinery:custom_machine_item', { machine: "custommachinery:formulaic_synthesizer" }),
+    ["ABA", "BCB", "ADA"],
+    {
+    "A": {
+        "item": "thermal:invar_plate"
+    },
+    "B": {
+        "item": "mekanism:basic_control_circuit"
+    },
+    "C": {
+        "item": "mekanism:formulaic_assemblicator"
+    },
+    "D": {
+        "item": "thermal:lumium_gear"
+    }
+},
+)
 })

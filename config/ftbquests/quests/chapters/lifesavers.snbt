@@ -8,7 +8,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -6.0d
+			x: -4.0d
 			y: 0.0d
 			description: ["The Morphing Tool allows you to use one tool to mimic all wrench like items in the game. To add wrenches to the tool, simply craft the Morph-o-Tool with the desired wrench, and it will add automatically."]
 			id: "6C79D20D161282BD"
@@ -19,8 +19,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 0.0d
+			x: -6.0d
+			y: 7.5d
 			description: ["The Projector allows you to visualize builds for Immersive Machines. Use this when you need to build the multiblocks."]
 			id: "1B2013C5BDF1FC91"
 			tasks: [{
@@ -261,9 +261,14 @@
 		}
 		{
 			x: -2.0d
-			y: 7.0d
-			subtitle: "todo desc"
-			description: ["Silk Touch 3 required"]
+			y: 7.5d
+			description: [
+				"Spawners can be collected with a pickaxe enchanted with Silk Touch III."
+				""
+				"Wait, what?"
+				""
+				"Only Silk Touch I can be obtained normally. Combine enchantments to obtain Silk Touch III. "
+			]
 			id: "22465E10FCEC5230"
 			tasks: [{
 				id: "778C391DE542CD49"
@@ -273,13 +278,35 @@
 		}
 		{
 			x: -4.0d
-			y: 7.0d
+			y: 7.5d
+			description: [
+				"Time in a Bottle allows you to speed up blocks using accumulated time."
+				"It has been *slightly* nerfed."
+			]
 			id: "0B49E2EF34C88B1C"
 			tasks: [{
 				id: "70390E8E1E7B3FC2"
 				type: "item"
 				item: {
 					id: "tiab:time_in_a_bottle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			description: [
+				"Jetpacks allow you to fly. Pretty cool."
+				"Note: All jetpacks other than Mekanism tiers (Basic -> Advanced -> Elite -> Ultimate)  have been disabled."
+			]
+			id: "1DD89C21B9288712"
+			tasks: [{
+				id: "56E43DE9F4725329"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_mek1"
 					Count: 1b
 					tag: { }
 				}

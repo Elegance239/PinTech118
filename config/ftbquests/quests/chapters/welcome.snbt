@@ -51,7 +51,7 @@
 			y: -0.75d
 			description: [
 				"Starting off with a totally original idea: Create!"
-				"To kickstart an industry, you will need power, but the magic of electricity is still far away. Use mechanical power to your advantage, and unlock several important materials and devices to pave your way towards electricity."
+				"To kickstart an industry, you will need energy, but electricity is still far away. Use mechanical power to your advantage, and unlock several important materials and devices to pave your way towards electricity."
 			]
 			dependencies: ["41451BC9F9190E52"]
 			size: 1.5d
@@ -60,24 +60,6 @@
 				id: "27FC76D872D195C6"
 				type: "checkmark"
 				title: "0"
-			}]
-		}
-		{
-			title: "Chapter 1"
-			icon: "refinedstorage:disk_drive"
-			x: -4.5d
-			y: 1.5d
-			description: [
-				""
-				"To your own RS/AE2 Storage System considerably early, so you don't have to search around for chests non-stop."
-			]
-			dependencies: ["7FDA6E3D0EE47C97"]
-			size: 1.5d
-			id: "3A0E7F6978D87173"
-			tasks: [{
-				id: "01333AA11106E32B"
-				type: "checkmark"
-				title: "1"
 			}]
 		}
 		{

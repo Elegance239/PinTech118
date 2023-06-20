@@ -1,0 +1,17 @@
+{
+	id: "3C6F5AA332445304"
+	order_index: 9
+	title: "Formula"
+	loot_size: 1
+	rewards: [
+		{ item: "kubejs:formula1" }
+		{ item: "kubejs:formula2" }
+		{ item: "kubejs:formula3" }
+		{ item: "kubejs:formula4" }
+		{ item: "kubejs:formula5" }
+		{ item: "kubejs:formula6" }
+		{ item: "kubejs:formula7" }
+		{ item: "kubejs:formula8" }
+		{ item: "kubejs:formula9" }
+	]
+}

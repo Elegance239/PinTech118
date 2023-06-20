@@ -6,6 +6,67 @@
 	title: "Chapter 4"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "2946B6170D5BFCBA"
+			tasks: [{
+				id: "304DDA98E82D2548"
+				type: "item"
+				item: "kubejs:propulsion_module"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			id: "6A99FDEBD8462F6E"
+			tasks: [{
+				id: "1F9BDCC9B3F63EFC"
+				type: "item"
+				item: "kubejs:structure_module"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			id: "083B7AC78109A2ED"
+			tasks: [{
+				id: "5FB245D12E0E1D2D"
+				type: "item"
+				item: "kubejs:power_module"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "33CDC61F55A20C6B"
+			tasks: [{
+				id: "426017BC5CFFE36A"
+				type: "item"
+				item: "kubejs:payload_module"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "4571FDAA1129C3AD"
+			tasks: [{
+				id: "383295E65B4B8FFE"
+				type: "item"
+				item: "kubejs:guidance_module"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			id: "6363C9EB4BBA78CA"
+			tasks: [{
+				id: "2ED6A6203CD69F09"
+				type: "item"
+				item: "kubejs:shielding_module"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

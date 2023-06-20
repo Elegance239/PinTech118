@@ -38,6 +38,15 @@ onEvent('item.tags', event => {
     event.add('thermal:crafting/dies', 'immersiveengineering:mold_rod')
 
     event.add('kubejs:blueprints', "kubejs:formula") 
+    event.add('kubejs:blueprints', "kubejs:formula1") 
+    event.add('kubejs:blueprints', "kubejs:formula2") 
+    event.add('kubejs:blueprints', "kubejs:formula3") 
+    event.add('kubejs:blueprints', "kubejs:formula4") 
+    event.add('kubejs:blueprints', "kubejs:formula5") 
+    event.add('kubejs:blueprints', "kubejs:formula6") 
+    event.add('kubejs:blueprints', "kubejs:formula7") 
+    event.add('kubejs:blueprints', "kubejs:formula8") 
+    event.add('kubejs:blueprints', "kubejs:formula9") 
   })
 
   onEvent('fluid.tags', event =>{
