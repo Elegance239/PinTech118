@@ -229,7 +229,7 @@ onEvent("mm.recipes", event => {
 
     event.build("mm:elite_control_circuit_n", {
         duration: 100,
-        structureId: "namespace:multi_assembler",
+        structureId: "namespace:nanofabricator",
         name: {
             text: "Assembling: Elite Control Circuit"
         },
@@ -253,7 +253,7 @@ onEvent("mm.recipes", event => {
 
     event.build("mm:basic_versatile_n", {
         duration: 100,
-        structureId: "namespace:multi_assembler",
+        structureId: "namespace:nanofabricator",
         name: {
             text: "Assembling: Basic Versatile Frame"
         },
@@ -277,7 +277,7 @@ onEvent("mm.recipes", event => {
 
     event.build("mm:advanced_versatile_n", {
         duration: 100,
-        structureId: "namespace:multi_assembler",
+        structureId: "namespace:nanofabricator",
         name: {
             text: "Assembling: Advanced Versatile Frame"
         },
@@ -300,6 +300,86 @@ onEvent("mm.recipes", event => {
         ]
     })
 
+    event.build("mm:power_module", {
+        duration: 200,
+        structureId: "namespace:nanofabricator",
+        name: {
+            text: "Assembling: Power Module"
+        },
+        inputs: [
+            {
+                type: "mm:per_tick",
+                ingredient: {
+                    type: "mm:energy",
+                    amount: 1000
+                }
+            },
+            MMIngredient("mekanismgenerators:fusion_reactor_frame", 75),
+            MMIngredient("mekanismgenerators:fusion_reactor_port", 2),
+            MMIngredient("mekanismgenerators:fusion_reactor_controller", 1),
+            MMIngredient("mekanismgenerators:reactor_glass", 8),
+            MMIngredient("mekanismgenerators:laser_focus_matrix", 1),
+            MMIngredient("advgenerators:turbine_tier5", 30),
+            MMIngredient("mekanism:ultimate_induction_provider", 2),
+            MMIngredient("mekanism:ultimate_induction_cell", 4),
+            MMIngredient("kubejs:lv_bundle", 1),
+            MMIngredient("kubejs:mv_bundle", 1),
+            MMIngredient("kubejs:dt_capsule", 50),
+        ],
+        outputs: [
+            MMIngredient("kubejs:power_module",1)
+        ]
+    })
+
+    event.build("mm:payload_module", {
+        duration: 200,
+        structureId: "namespace:nanofabricator",
+        name: {
+            text: "Assembling: Payload Module"
+        },
+        inputs: [
+            {
+                type: "mm:per_tick",
+                ingredient: {
+                    type: "mm:energy",
+                    amount: 1000
+                }
+            },
+            MMIngredient('kubejs:pyrotheum', 100),
+            MMIngredient('mekanism:pellet_plutonium', 400),
+            MMIngredient('kubejs:neutronium', 400),
+
+        ],
+        outputs: [
+            MMIngredient("kubejs:payload_module",1)
+        ]
+    })
+
+    event.build("mm:structure_module", {
+        duration: 200,
+        structureId: "namespace:nanofabricator",
+        name: {
+            text: "Assembling: Structure Module"
+        },
+        inputs: [
+            {
+                type: "mm:per_tick",
+                ingredient: {
+                    type: "mm:energy",
+                    amount: 1000
+                }
+            },
+            MMIngredient('industrialforegoing:machine_frame_supreme', 30),
+            MMIngredient('kubejs:advanced_component', 128),
+            MMIngredient('thermal_extra:dragon_integral_component', 32),
+            MMIngredient('kubejs:advanced_modular_framework', 100)
+            /* MMIngredient('kubejs:structural_chassis', ?) */
+
+        ],
+        outputs: [
+            MMIngredient("kubejs:structure_module",1)
+        ]
+    })
 
 })
 

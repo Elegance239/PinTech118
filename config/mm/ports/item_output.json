@@ -6,7 +6,7 @@
        "port": "mm:item",
        "input": false,
        "config": {
-        "slotRows": 3,
-        "slotCols": 3
+        "slotRows": 4,
+        "slotCols": 4
        }
     }

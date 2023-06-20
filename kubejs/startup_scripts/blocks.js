@@ -77,6 +77,18 @@ onEvent('block.registry', event => {
 	event.create('formulaic_synthesizer_model').displayName('Formulaic Synthesizer Model')
 	.textureAll('kubejs:item/custom_machine_side')
 	.texture('north', 'kubejs:item/formulaic_synthesizer')
+
+	event.create('lv_bundle')
+    .textureAll('kubejs:block/lv_side')
+    .texture('up', 'kubejs:block/storage_bundle_top')
+	.texture('down', 'kubejs:block/storage_bundle_bottom')
+	.displayName('LV Bundle')
+
+	event.create('mv_bundle')
+    .textureAll('kubejs:block/mv_side')
+    .texture('up', 'kubejs:block/storage_bundle_top')
+	.texture('down', 'kubejs:block/storage_bundle_bottom')
+	.displayName('MV Bundle')
 })
 
 

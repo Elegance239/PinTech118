@@ -173,12 +173,14 @@ onEvent('item.registry', event => {
 	event.create('payload_module').displayName('Payload Module')
 	event.create('guidance_module').displayName('Guidance Module')
 	event.create('shielding_module').displayName('Shielding Module')
+	
+	event.create('dt_capsule').displayName('D-T Fuel Capsule')
 
 
 })
 
 onEvent('item.modification', event => {
-	event.modify('createarmory:nine_mm', item => {
+	/* event.modify('createarmory:nine_mm', item => {
 	  item.maxStackSize = 256
 	})
 	event.modify('createarmory:fifty_cal', item => {
@@ -186,6 +188,6 @@ onEvent('item.modification', event => {
 	  })
 	event.modify('createarmory:five_five_six', item => {
 		item.maxStackSize = 256
-	  })
+	  }) */
 
   })

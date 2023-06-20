@@ -1725,7 +1725,7 @@ onEvent('recipes', event => {
         "item": "mekanism:alloy_infused"
       },
       "B": {
-        "item": "allthecompressed:cobblestone_block_1x"
+        "item": "minecraft:cobblestone"
       },
       "C": {
         "item": "mekanism:basic_control_circuit"

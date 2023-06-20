@@ -303,7 +303,7 @@ onEvent('recipes', event => {
 	], {
 		P:'create:mechanical_press',
 		B:'create:basin',
-		C:'allthecompressed:cobblestone_block_1x',
+		C:'minecraft:cobblestone',
 		S:'#forge:storage_blocks/steel',
 	})
 
@@ -314,7 +314,7 @@ onEvent('recipes', event => {
 	], {
 		R:'minecraft:comparator',
 		S:'thermal:redstone_servo',
-		C:'allthecompressed:cobblestone_block_1x',
+		C:'minecraft:cobblestone',
 		B:'#forge:storage_blocks/steel',
 		M:'thermal:machine_frame'
 	})

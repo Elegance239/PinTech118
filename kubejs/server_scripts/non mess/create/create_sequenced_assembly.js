@@ -493,6 +493,28 @@ onEvent('recipes', event => {
         ]
     ).transitionalItem('kubejs:cut_machine_frame').loops(1) */
 
+    event.recipes.createSequencedAssembly(
+        'kubejs:lv_bundle',
+        'mekanism:cardboard_box',
+        [
+            event.recipes.createDeploying(
+                'mekanism:cardboard_box',
+                ['mekanism:cardboard_box', 'immersiveengineering:coil_lv']
+            )
+        ]
+    ).transitionalItem('mekanism:cardboard_box').loops(1000)
+
+    event.recipes.createSequencedAssembly(
+        'kubejs:mv_bundle',
+        'mekanism:cardboard_box',
+        [
+            event.recipes.createDeploying(
+                'mekanism:cardboard_box',
+                ['mekanism:cardboard_box', 'immersiveengineering:coil_mv']
+            )
+        ]
+    ).transitionalItem('mekanism:cardboard_box').loops(1000)
+
     event.custom({
         type: 'create:sequenced_assembly',
         ingredient: { item: 'kubejs:cut_machine_frame' },

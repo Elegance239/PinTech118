@@ -330,5 +330,43 @@ onEvent('recipes', event => {
 		},
 		"processingTime": 320
 	  })
+
+	  event.custom({
+		"type": "industrialforegoing:dissolution_chamber",
+		"input": [
+		  {
+			"item": "thermal_extra:polarium_plate"
+		  },
+		  {
+			"item": "thermal_extra:polarium_plate"
+		  },
+		  {
+			"item": "thermal_extra:polarium_plate"
+		  },
+		  {
+			"item": "thermal_extra:polarium_plate"
+		  },
+		  {
+			"item": "kubejs:aqueous_ingot"
+		  },
+		  {
+			"item": "kubejs:aqueous_ingot"
+		  },
+		  {
+			"item": "kubejs:aqueous_ingot"
+		  },
+		  {
+			"item": "kubejs:aqueous_ingot"
+		  },
+		  
+
+		],
+		"inputFluid": "{Amount:2000,FluidName:\"mekanismgenerators:fusion_fuel\"}",
+		"output": {
+		  "count": 1,
+		  "item": "kubejs:dt_capsule"
+		},
+		"processingTime": 300
+	  })
 })
 
