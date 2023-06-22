@@ -725,70 +725,6 @@
 			}]
 		}
 		{
-			title: "Late game section"
-			x: -7.0d
-			y: 6.0d
-			subtitle: "Ch3 prereq or something"
-			description: ["everything is super expensive, to keep money relevant even in late game"]
-			id: "0FB0A8BCBC1A9DC6"
-			tasks: [{
-				id: "10BA797D7B61FFD4"
-				type: "item"
-				item: "engineersdecor:sign_caution"
-			}]
-		}
-		{
-			x: -4.5d
-			y: 6.0d
-			id: "7DFA4B536DCC443D"
-			tasks: [{
-				id: "20AE163730B1DB05"
-				type: "item"
-				item: "industrialforegoing:machine_frame_advanced"
-			}]
-		}
-		{
-			x: -3.0d
-			y: 6.0d
-			id: "6F8C14E9B548CF35"
-			tasks: [{
-				id: "6A0F536A97CE2E14"
-				type: "item"
-				item: "extrastorage:neural_processor"
-			}]
-		}
-		{
-			x: 1.5d
-			y: 6.0d
-			id: "66B6F27670D98038"
-			tasks: [{
-				id: "11CC39534D1C3277"
-				type: "item"
-				item: "kubejs:advanced_versatile_frame"
-			}]
-		}
-		{
-			x: 3.0d
-			y: 6.0d
-			id: "10FE8F8F74E24087"
-			tasks: [{
-				id: "37A7525657B7A7FF"
-				type: "item"
-				item: "thermal_extra:polarium_ingot"
-				count: 12L
-			}]
-		}
-		{
-			x: 0.0d
-			y: 6.0d
-			id: "6C7C00C54EFE92FC"
-			tasks: [{
-				id: "00B7E816865CA51F"
-				type: "item"
-				item: "kubejs:basic_versatile_frame"
-			}]
-		}
-		{
 			title: "Hardened Integral Components"
 			icon: "thermal:upgrade_augment_1"
 			x: -3.0d
@@ -826,6 +762,25 @@
 				type: "item"
 				item: "minecraft:leather"
 				count: 8
+			}]
+		}
+		{
+			title: "Basic Tier Installer"
+			icon: "mekanism:basic_tier_installer"
+			x: -1.5d
+			y: 3.0d
+			can_repeat: true
+			id: "7B1D18E36A43642D"
+			tasks: [{
+				id: "74B3CDA876C7D7B0"
+				type: "item"
+				item: "thermal:copper_coin"
+				count: 25L
+			}]
+			rewards: [{
+				id: "665A7A104B9CFBF7"
+				type: "item"
+				item: "mekanism:basic_tier_installer"
 			}]
 		}
 	]

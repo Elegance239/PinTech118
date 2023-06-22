@@ -174,8 +174,8 @@ onEvent('item.registry', event => {
 	event.create('guidance_module').displayName('Guidance Module')
 	event.create('shielding_module').displayName('Shielding Module')
 	
-	event.create('dt_capsule').displayName('D-T Fuel Capsule')
-
+	event.create('dt_capsule').displayName('Fusion Fuel Capsule')
+	event.create('structural_chassis').displayName('Structural Chassis')
 
 })
 

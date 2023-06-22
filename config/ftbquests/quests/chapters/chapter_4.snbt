@@ -10,6 +10,7 @@
 		{
 			x: 0.0d
 			y: -2.0d
+			description: ["Antimatter-matter annihilation is the most energetic reaction known to man. By directing and controlling its detonation using a powerful magnetic nozzle, the energy produced can propel a vehicle to relativistic speeds with incredible efficiency."]
 			id: "2946B6170D5BFCBA"
 			tasks: [{
 				id: "304DDA98E82D2548"
@@ -20,6 +21,7 @@
 		{
 			x: -2.0d
 			y: -1.0d
+			description: ["Building a massive vehicle that can sustain constant acceleration and arrive at its destination in one piece, while maintaining radiation resistance and a low mass, will require the most advanced materials known to man."]
 			id: "6A99FDEBD8462F6E"
 			tasks: [{
 				id: "1F9BDCC9B3F63EFC"
@@ -30,6 +32,7 @@
 		{
 			x: -2.0d
 			y: 1.0d
+			description: ["To maintain electromagnetic confinement of antimatter and neutronium onboard, the missile will need a powerful onboard power source in the form of a minature fusion reactor. Fuel and energy storage is also required."]
 			id: "083B7AC78109A2ED"
 			tasks: [{
 				id: "5FB245D12E0E1D2D"
@@ -40,6 +43,7 @@
 		{
 			x: 0.0d
 			y: 2.0d
+			description: ["An explosion of extremely dense neutronium going at .97c, propagated by a conventional plutonium fission reaction, will destabilize the core of the planet and eliminate any possibility of life."]
 			id: "33CDC61F55A20C6B"
 			tasks: [{
 				id: "426017BC5CFFE36A"
@@ -50,6 +54,7 @@
 		{
 			x: 2.0d
 			y: 1.0d
+			description: ["The missile will require a complex navigation system to stay on a tiny target light-years away, and to avoid any large obstacles in deep space."]
 			id: "4571FDAA1129C3AD"
 			tasks: [{
 				id: "383295E65B4B8FFE"
@@ -60,6 +65,7 @@
 		{
 			x: 2.0d
 			y: -1.0d
+			description: ["At relativistic speeds, even micrometeorites and interstellar dust can become extremely dangerous on impact. A powerful magnetic field can repel small hazards, while also shielding against a portion of cosmic radiation."]
 			id: "6363C9EB4BBA78CA"
 			tasks: [{
 				id: "2ED6A6203CD69F09"
