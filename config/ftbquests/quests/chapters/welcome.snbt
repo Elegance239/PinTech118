@@ -42,6 +42,20 @@
 					exclude_from_claim_all: true
 					table_id: 5032101358385251555L
 				}
+				{
+					id: "25D4467DD0C1ED9C"
+					type: "command"
+					auto: "enabled"
+					command: "/say Welcome to PinTech, @p!"
+					player_command: false
+				}
+				{
+					id: "56976BFA93023A0D"
+					type: "command"
+					auto: "invisible"
+					command: "/give @p written_book{pages:['{\"text\":\"Welcome. You are amongst the last remnants of human civilization. For too long, our planet has been plagued by a relentless and destructive alien species known as the Felnar. \"}','{\"text\":\"They have driven the human species to near extinction, before they were repelled from Earth, but not without a high cost. \\\\n But now, with your arrival, we believe we can end this threat once and for all. You will devise a weapon that will target their one weakness: their homeworld. \"}','{\"text\":\"All infrastructure has been lost, but you can rebuild industry from scratch with your ingenuity alone. \\\\n Start from the Stone Age, and work your way back up to the glorious technology of the ancients. \"}','{\"text\":\"Your goal is to construct and launch a Relativistic Kill Missile - RKM for short - towards the Felnar homeworld and destroy their planet before they come back and destroy us. This will not be an easy task, but the survival of human civilization is at risk. Do what you must.\\\\n\\\\n \"}','{\"text\":\"Good luck.\"}'],title:\"Urgent - Please Read\",author:\"WhyReason and Perilune\",display:{Lore:[\"Humanity's last hope\"]}}"
+					player_command: false
+				}
 			]
 		}
 		{
@@ -120,7 +134,7 @@
 			title: "Chapter 4"
 			x: 9.0d
 			y: -0.75d
-			description: ["The time has come. Do [the thing that you have been waiting for, which the whole point of the modpack]. If this placeholder is still here by the time you play this modpack, we have failed and we sincerely apologize."]
+			description: ["The time has come. "]
 			dependencies: [
 				"7845DB3083B6ABDA"
 				"4265D52794B427C5"
@@ -131,13 +145,6 @@
 				id: "528CB7C132FE52F3"
 				type: "checkmark"
 				title: "4"
-			}]
-			rewards: [{
-				id: "1DA109EFF673CBB3"
-				type: "command"
-				icon: "artifacts:crystal_heart"
-				command: "/say Welcome to PinTech, @p!"
-				player_command: false
 			}]
 		}
 		{

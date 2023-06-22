@@ -370,10 +370,10 @@ onEvent("mm.recipes", event => {
                 }
             },
             MMIngredient('industrialforegoing:machine_frame_supreme', 30),
-            MMIngredient('kubejs:advanced_component', 128),
+            MMIngredient('kubejs:advanced_component', 300),
             MMIngredient('thermal_extra:dragon_integral_component', 32),
-            MMIngredient('kubejs:advanced_modular_framework', 100)
-            /* MMIngredient('kubejs:structural_chassis', ?) */
+            MMIngredient('kubejs:advanced_modular_framework', 100),
+            MMIngredient('kubejs:structural_chassis', 200)
 
         ],
         outputs: [

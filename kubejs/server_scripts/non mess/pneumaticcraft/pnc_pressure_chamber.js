@@ -336,4 +336,35 @@ onEvent('recipes', event => {
 		  Item.of('kubejs:diode').toJson(),
 		]
 	})
+
+	event.custom({
+		type: "pneumaticcraft:pressure_chamber",
+		inputs: [
+		  Item.of('kubejs:neoclydium_core').toJson(),
+		  {
+			"type": "pneumaticcraft:stacked_item",
+			"count": 40,
+			"item": "kubejs:compressed_iron_rod"
+		  },
+		  {
+			"type": "pneumaticcraft:stacked_item",
+			"count": 10,
+			"item": "thermal_extra:polarium_plate"
+		  },
+		  {
+			"type": "pneumaticcraft:stacked_item",
+			"count": 3,
+			"item": "mekanism:alloy_atomic"
+		  },
+		  {
+			"type": "pneumaticcraft:stacked_item",
+			"count": 10,
+			"item": "kubejs:conductive_polymer"
+		  },
+		],
+		pressure: 4.5,
+		results: [
+		  Item.of('kubejs:structural_chassis').toJson(),
+		]
+	})
 })

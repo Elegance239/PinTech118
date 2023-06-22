@@ -160,7 +160,7 @@
 				id: "6CA711CCEF633A71"
 				type: "item"
 				item: "kubejs:chin_new"
-				count: 3L
+				count: 2L
 				consume_items: true
 			}]
 			rewards: [
@@ -432,8 +432,8 @@
 			]
 		}
 		{
-			title: "387420489 dirt"
-			icon: "allthecompressed:dirt_block_9x"
+			title: "2G dirt"
+			icon: "minecraft:dirt"
 			x: 1.5d
 			y: 3.5d
 			id: "4E2BD7AF22A8DB1C"
@@ -444,9 +444,24 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "6434F2F8DD899120"
+				id: "7293D09A849CAB3E"
 				type: "item"
-				item: "allthecompressed:dirt_block_9x"
+				item: {
+					id: "mekanism:creative_bin"
+					Count: 1b
+					tag: {
+						mekData: {
+							Items: [{
+								Item: {
+									Count: -1b
+									id: "minecraft:dirt"
+								}
+								Slot: 0b
+								SizeOverride: 2147483647
+							}]
+						}
+					}
+				}
 			}]
 		}
 		{
