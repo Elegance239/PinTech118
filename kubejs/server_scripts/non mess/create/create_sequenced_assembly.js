@@ -515,6 +515,17 @@ onEvent('recipes', event => {
         ]
     ).transitionalItem('mekanism:cardboard_box').loops(1000)
 
+    event.recipes.createSequencedAssembly(
+        'kubejs:hv_bundle',
+        'mekanism:cardboard_box',
+        [
+            event.recipes.createDeploying(
+                'mekanism:cardboard_box',
+                ['mekanism:cardboard_box', 'immersiveengineering:coil_hv']
+            )
+        ]
+    ).transitionalItem('mekanism:cardboard_box').loops(1000)
+
     event.custom({
         type: 'create:sequenced_assembly',
         ingredient: { item: 'kubejs:cut_machine_frame' },
