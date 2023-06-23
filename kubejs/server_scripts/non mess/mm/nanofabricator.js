@@ -301,7 +301,7 @@ onEvent("mm.recipes", event => {
     })
 
     event.build("mm:power_module", {
-        duration: 200,
+        duration: 10000,
         structureId: "namespace:nanofabricator",
         name: {
             text: "Assembling: Power Module"
@@ -323,8 +323,9 @@ onEvent("mm.recipes", event => {
             MMIngredient("mekanism:ultimate_induction_provider", 2),
             MMIngredient("mekanism:ultimate_induction_cell", 4),
             MMIngredient("kubejs:lv_bundle", 1),
-            MMIngredient("kubejs:mv_bundle", 1),
+            MMIngredient("kubejs:hv_bundle", 1),
             MMIngredient("kubejs:dt_capsule", 50),
+            MMIngredient('kubejs:quantum_computer', 10)
         ],
         outputs: [
             MMIngredient("kubejs:power_module",1)
@@ -332,7 +333,7 @@ onEvent("mm.recipes", event => {
     })
 
     event.build("mm:payload_module", {
-        duration: 200,
+        duration: 10000,
         structureId: "namespace:nanofabricator",
         name: {
             text: "Assembling: Payload Module"
@@ -348,7 +349,8 @@ onEvent("mm.recipes", event => {
             MMIngredient('kubejs:pyrotheum', 100),
             MMIngredient('mekanism:pellet_plutonium', 400),
             MMIngredient('kubejs:neutronium', 400),
-
+            MMIngredient('kubejs:chaos_mechanism', 1),
+            MMIngredient('kubejs:quantum_computer', 10)
         ],
         outputs: [
             MMIngredient("kubejs:payload_module",1)
@@ -356,7 +358,7 @@ onEvent("mm.recipes", event => {
     })
 
     event.build("mm:structure_module", {
-        duration: 200,
+        duration: 10000,
         structureId: "namespace:nanofabricator",
         name: {
             text: "Assembling: Structure Module"
@@ -370,14 +372,91 @@ onEvent("mm.recipes", event => {
                 }
             },
             MMIngredient('industrialforegoing:machine_frame_supreme', 30),
-            MMIngredient('kubejs:advanced_component', 300),
+            MMIngredient('kubejs:composite_mechanical_component', 500),
             MMIngredient('thermal_extra:dragon_integral_component', 32),
             MMIngredient('kubejs:advanced_modular_framework', 100),
             MMIngredient('kubejs:structural_chassis', 200),
-            MMIngredient('kubejs:chaos_mechanism', 1)
+            MMIngredient('kubejs:quantum_computer', 10)
+            
+
         ],
         outputs: [
             MMIngredient("kubejs:structure_module",1)
+        ]
+    })
+
+    event.build("mm:shielding_module", {
+        duration: 10000,
+        structureId: "namespace:nanofabricator",
+        name: {
+            text: "Assembling: Shielding Module"
+        },
+        inputs: [
+            {
+                type: "mm:per_tick",
+                ingredient: {
+                    type: "mm:energy",
+                    amount: 1000
+                }
+            },
+            MMIngredient('kubejs:superconducting_magnet', 300),
+            MMIngredient('thermal:netherite_plate', 500),
+            MMIngredient('kubejs:mv_bundle', 1),
+            MMIngredient('kubejs:quantum_computer', 10)
+
+        ],
+        outputs: [
+            MMIngredient("kubejs:shielding_module", 1)
+        ]
+    })
+
+    event.build("mm:propulsion_module", {
+        duration: 10000,
+        structureId: "namespace:nanofabricator",
+        name: {
+            text: "Assembling: Propulsion Module"
+        },
+        inputs: [
+            {
+                type: "mm:per_tick",
+                ingredient: {
+                    type: "mm:energy",
+                    amount: 1000
+                }
+            },
+            MMIngredient('mekanism:pellet_antimatter', 300),
+            MMIngredient('kubejs:magnetic_nozzle', 100),
+            MMIngredient('kubejs:quantum_computer', 10)
+
+        ],
+        outputs: [
+            MMIngredient("kubejs:propulsion_module", 1)
+        ]
+    })
+
+
+    event.build("mm:guidance_module", {
+        duration: 10000,
+        structureId: "namespace:nanofabricator",
+        name: {
+            text: "Assembling: Guidance Module"
+        },
+        inputs: [
+            {
+                type: "mm:per_tick",
+                ingredient: {
+                    type: "mm:energy",
+                    amount: 1000
+                }
+            },
+            MMIngredient('mekanism:ultimate_control_circuit', 200),
+            MMIngredient('mekanism:teleportation_core', 50),
+            MMIngredient('kubejs:neoclydium_diode', 20),
+            MMIngredient('kubejs:quantum_computer', 100)
+
+        ],
+        outputs: [
+            MMIngredient("kubejs:guidance_module", 1)
         ]
     })
 

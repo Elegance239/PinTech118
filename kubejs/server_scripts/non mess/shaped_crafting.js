@@ -2232,4 +2232,25 @@ event.shaped(Item.of('custommachinery:custom_machine_item', { machine: "customma
     }
 },
 )
+
+event.shaped('kubejs:magnetic_nozzle',
+    ["ABA", "CDC", "CEC"],
+    {
+    "A": {
+        "item": "kubejs:cooling_system"
+    },
+    "B": {
+        "item": "kubejs:superconducting_wire"
+    },
+    "C": {
+        "item": "thermal_extra:polarium_plate"
+    },
+    "D": {
+        "item": "kubejs:advanced_component"
+    },
+    "E": {
+        "item": "kubejs:neutronium_plate"
+    }
+},
+)
 })

@@ -177,6 +177,11 @@ onEvent('item.registry', event => {
 	event.create('dt_capsule').displayName('Fusion Fuel Capsule')
 	event.create('structural_chassis').displayName('Structural Chassis')
 
+	event.create('lv_bundle').displayName('LV Bundle')
+	event.create('mv_bundle').displayName('MV Bundle')
+	event.create('hv_bundle').displayName('HV Bundle')
+
+	event.create('magnetic_nozzle').displayName('Magnetic Nozzle')
 })
 
 onEvent('item.modification', event => {
