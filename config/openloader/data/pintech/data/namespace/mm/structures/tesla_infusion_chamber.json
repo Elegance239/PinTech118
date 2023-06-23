@@ -1,28 +1,34 @@
 {
     "controllerId": "mm:tesla_infusion_chamber",
-    "name": {
-        "text": "Tesla Infusion Chamber"
-    },
+    "name": {"text": "Tesla Infusion Chamber"},
     "layout": [
         [
-            "G G",
-            "   ",
-            "G G"
+            "AAAAA",
+            "AAAAA",
+            "AAAAA",
+            "AAAAA",
+            "AAAAA"
         ],
         [
-            "G G",
-            " H ",
-            "G G"
+            "AAAAA",
+            "FG GF",
+            "F   F",
+            "FG GF",
+            "AAAAA"
         ],
         [
-            "ADA",
-            "AEC",
-            "AFA"
+            "AAEAA",
+            "FG GF",
+            "F H F",
+            "FG GF",
+            "AAIAA"
         ],
         [
-            "A A",
-            " B ",
-            "A A"
+            "AAAAA",
+            "AAAAA",
+            "BADAC",
+            "AAAAA",
+            "AAAAA"
         ]
     ],
     "key": {
@@ -36,18 +42,17 @@
             "input": true
         },
         "D": {
+            "type": "mm:block",
+            "block": "immersiveengineering:coil_hv"
+        },
+        "E": {
             "type": "mm:port",
             "port": "mm:item",
             "input": false
         },
-        "E": {
-            "type": "mm:block",
-            "block": "immersiveengineering:coil_hv"
-        },
         "F": {
-            "type": "mm:port",
-            "port": "mm:item",
-            "input": true
+            "type": "mm:block",
+            "block": "mekanism:structural_glass"
         },
         "G": {
             "type": "mm:block",
@@ -56,6 +61,11 @@
         "H": {
             "type": "mm:block",
             "block": "create:depot"
+        },
+        "I": {
+            "type": "mm:port",
+            "port": "mm:item",
+            "input": true
         }
     }
 }

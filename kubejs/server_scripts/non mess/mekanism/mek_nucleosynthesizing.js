@@ -4,7 +4,7 @@ onEvent('recipes', event => {
         {
             "type": "mekanism:nucleosynthesizing",
             "duration": 200,
-            "gasInput": { "amount": 15, "gas": "mekanism:antimatter" },
+            "gasInput": { "amount": 30, "gas": "mekanism:antimatter" },
             "itemInput": { "ingredient": { "item": "mekanism:elite_control_circuit" }},
             "output": { "item": "mekanism:ultimate_control_circuit" }
         }
@@ -22,5 +22,5 @@ onEvent('recipes', event => {
         )
     }
     nucleosynthesizing(50, 3, 'farmersdelight:milk_bottle', 'minecraft:dragon_breath')
-    nucleosynthesizing(50, 5, 'mekanism:alloy_reinforced', 'mekanism:alloy_atomic')
+    nucleosynthesizing(50, 10, 'mekanism:alloy_reinforced', 'mekanism:alloy_atomic')
 })

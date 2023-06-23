@@ -43,7 +43,7 @@ onEvent('recipes', event => {
 		energy: 10000
 	})
 
-	event.recipes.thermal.crucible(Fluid.of('createchromaticreturn:chromatic_mixture', 5000), 'createchromaticreturn:chromatic_compound')
+	event.recipes.thermal.crucible(Fluid.of('createchromaticreturn:chromatic_mixture', 2000), 'createchromaticreturn:chromatic_compound')
 
 	const ingotstofluid = [
 		['minecraft:iron_ingot', 'tconstruct:molten_iron'],
