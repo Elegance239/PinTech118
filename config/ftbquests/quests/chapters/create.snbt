@@ -87,6 +87,12 @@
 				type: "item"
 				item: "create:crushing_wheel"
 			}]
+			rewards: [{
+				id: "0784891F755D8C7F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
+			}]
 		}
 		{
 			x: 7.0d
@@ -97,6 +103,12 @@
 				id: "110B4C304C7D22C0"
 				type: "item"
 				item: "create:deployer"
+			}]
+			rewards: [{
+				id: "608784AB465D0510"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
 			}]
 		}
 		{
@@ -200,6 +212,12 @@
 				type: "item"
 				item: "create:mechanical_plough"
 			}]
+			rewards: [{
+				id: "323D8EF94C9249C6"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
+			}]
 		}
 		{
 			x: 20.0d
@@ -210,6 +228,12 @@
 				id: "682DB915D87F9DDA"
 				type: "item"
 				item: "create:mechanical_saw"
+			}]
+			rewards: [{
+				id: "0A426A2043AAB572"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
 			}]
 		}
 		{
@@ -222,6 +246,12 @@
 				type: "item"
 				item: "create:mechanical_drill"
 			}]
+			rewards: [{
+				id: "20DE1CE4E28A30F0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
+			}]
 		}
 		{
 			x: 20.0d
@@ -232,6 +262,12 @@
 				id: "3976202265B2D47D"
 				type: "item"
 				item: "create:mechanical_harvester"
+			}]
+			rewards: [{
+				id: "54B45138D1F83121"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
 			}]
 		}
 		{
@@ -251,6 +287,12 @@
 					item: "create:portable_fluid_interface"
 				}
 			]
+			rewards: [{
+				id: "4000CC34845E7456"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
+			}]
 		}
 		{
 			title: "SU Generation"
@@ -292,6 +334,12 @@
 				type: "item"
 				item: "create:steam_engine"
 			}]
+			rewards: [{
+				id: "4D7A824A4FC3CA15"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
+			}]
 		}
 		{
 			x: 7.0d
@@ -302,6 +350,12 @@
 				id: "768483E1A3F24474"
 				type: "item"
 				item: "createaddition:electric_motor"
+			}]
+			rewards: [{
+				id: "25935F24AEB733A3"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
 			}]
 		}
 		{
@@ -378,6 +432,12 @@
 				type: "item"
 				item: "create:smart_chute"
 			}]
+			rewards: [{
+				id: "259218563AAB36A9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
+			}]
 		}
 		{
 			x: -3.0d
@@ -388,6 +448,12 @@
 				id: "300ABC3372CE986B"
 				type: "item"
 				item: "create:depot"
+			}]
+			rewards: [{
+				id: "0ECB6E8113804CE4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
 			}]
 		}
 		{
@@ -411,6 +477,12 @@
 				type: "item"
 				item: "create:brass_funnel"
 			}]
+			rewards: [{
+				id: "69A3DD0930CC85B3"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
+			}]
 		}
 		{
 			x: -1.5d
@@ -421,6 +493,12 @@
 				id: "37569F4B752D6436"
 				type: "item"
 				item: "create:mechanical_arm"
+			}]
+			rewards: [{
+				id: "453699F7C4B65437"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
 			}]
 		}
 		{
@@ -443,6 +521,12 @@
 				id: "5A78800E85E0FD94"
 				type: "item"
 				item: "create:brass_tunnel"
+			}]
+			rewards: [{
+				id: "7ECCD04C1077586D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
 			}]
 		}
 		{
@@ -507,6 +591,12 @@
 				type: "item"
 				item: "create:adjustable_chain_gearshift"
 			}]
+			rewards: [{
+				id: "7F68B713A9C59E44"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
+			}]
 		}
 		{
 			x: -3.0d
@@ -518,6 +608,12 @@
 				type: "item"
 				item: "create:encased_chain_drive"
 			}]
+			rewards: [{
+				id: "6ADBF4B9F416D39A"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
+			}]
 		}
 		{
 			x: -1.5d
@@ -528,6 +624,12 @@
 				id: "22CCA144A8FF2A30"
 				type: "item"
 				item: "create:rotation_speed_controller"
+			}]
+			rewards: [{
+				id: "0D70A0E4C83FB5C9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
 			}]
 		}
 		{
@@ -551,6 +653,12 @@
 				type: "item"
 				item: "create:fluid_tank"
 			}]
+			rewards: [{
+				id: "5E1408550A37AA82"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
+			}]
 		}
 		{
 			x: -6.0d
@@ -561,6 +669,12 @@
 				id: "399AF7CAB9E41586"
 				type: "item"
 				item: "create:mechanical_pump"
+			}]
+			rewards: [{
+				id: "36B3C79DD94053D3"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
 			}]
 		}
 		{
@@ -585,6 +699,12 @@
 				type: "item"
 				item: "create:smart_fluid_pipe"
 			}]
+			rewards: [{
+				id: "5F0A45D6364065AE"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
+			}]
 		}
 		{
 			x: -8.0d
@@ -595,6 +715,12 @@
 				id: "2756C86718869D85"
 				type: "item"
 				item: "create:hose_pulley"
+			}]
+			rewards: [{
+				id: "337D01598588E06F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
 			}]
 		}
 		{
@@ -628,6 +754,12 @@
 				id: "528FF11774C438DF"
 				type: "item"
 				item: "create:linear_chassis"
+			}]
+			rewards: [{
+				id: "796CB8F232FEA0D2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
 			}]
 		}
 		{
@@ -675,6 +807,12 @@
 				id: "5D20B7400062D335"
 				type: "item"
 				item: "create:weighted_ejector"
+			}]
+			rewards: [{
+				id: "680C7019DEA2C23C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 239385028114383115L
 			}]
 		}
 		{

@@ -423,6 +423,7 @@
 		}
 		{
 			title: "Decor"
+			icon: "minecraft:painting"
 			x: 10.0d
 			y: 0.0d
 			dependencies: ["5D8ABBA7B8FA87EB"]
@@ -897,6 +898,104 @@
 				id: "385FE670C93ACF7F"
 				type: "item"
 				item: "supplementaries:pedestal"
+			}]
+		}
+		{
+			title: "Create Deco"
+			x: 14.0d
+			y: 0.0d
+			description: ["Create Deco is a decoration mod in the style of Create."]
+			id: "730B01CEEE776567"
+			tasks: [{
+				id: "6172D27942165980"
+				type: "item"
+				item: "createdeco:worn_brick_tiles"
+			}]
+		}
+		{
+			title: "Re-Chiseled"
+			x: 14.0d
+			y: -2.5d
+			description: ["Re-Chiseled unlocks variants for existing blocks, giving them an alternate style or feel. Start by crafting the chisel, then use its GUI to chisel blocks."]
+			id: "109D1DF8BF31D7C6"
+			tasks: [{
+				id: "147F32008329AF6C"
+				type: "item"
+				item: "rechiseled:chisel"
+			}]
+		}
+		{
+			title: "Supplementaries"
+			x: 14.0d
+			y: 2.5d
+			description: ["Supplementaries is a mod that adds various themes of items to the game, mainly decoration. It includes some vanilla features in 1.20, some deco blocks, and some functional stuff to mess with."]
+			id: "3EC0431A057CDB79"
+			tasks: [{
+				id: "5BF232A0914FD592"
+				type: "item"
+				item: "supplementaries:globe"
+			}]
+		}
+		{
+			x: -23.0d
+			y: 2.5d
+			description: ["Hey, beds can move!"]
+			hide_dependency_lines: true
+			dependencies: ["0E4D8C931028EC70"]
+			id: "22A75B2B8EBABFD5"
+			tasks: [{
+				id: "6D2C46BD3C7AD08C"
+				type: "item"
+				item: "comforts:sleeping_bag_white"
+			}]
+		}
+		{
+			title: "McCaw's Lights and Lamps"
+			x: 17.0d
+			y: -2.5d
+			description: ["As per the title, this mod gives some lighting options."]
+			id: "51B38E1238055940"
+			tasks: [{
+				id: "2537503972B11D57"
+				type: "item"
+				item: "mcwlights:white_lamp"
+			}]
+		}
+		{
+			title: "Simply Lights"
+			x: 17.0d
+			y: 0.0d
+			description: ["The modern lighting option."]
+			id: "1B524DC93EC730A7"
+			tasks: [{
+				id: "64512537396FF73C"
+				type: "item"
+				item: "simplylight:wall_lamp"
+			}]
+		}
+		{
+			x: -23.0d
+			y: -2.5d
+			description: ["No more mobs!"]
+			hide_dependency_lines: true
+			dependencies: ["0E4D8C931028EC70"]
+			id: "19E2411AD2395129"
+			tasks: [{
+				id: "1C3C1D505CB0CAEE"
+				type: "item"
+				item: "magnumtorch:diamond_magnum_torch"
+			}]
+		}
+		{
+			title: "MrCrayFish's Furniture Mod"
+			x: 17.0d
+			y: 2.5d
+			description: ["The largest furniture mod for minecraft!"]
+			id: "24966FF2A89CA768"
+			tasks: [{
+				id: "4CEA98640259310B"
+				type: "item"
+				item: "cfm:light_gray_sofa"
 			}]
 		}
 	]

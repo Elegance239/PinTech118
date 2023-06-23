@@ -12,10 +12,8 @@
 			x: 0.0d
 			y: 0.0d
 			description: [
-				"use chin here"
-				"All deals are one time only"
-				"good stuff on top, dumb stuff on bottom"
-				"For now: players are expected to get 50 chin in total through the whole pack"
+				"Use your Chin here!"
+				"All deals are one time only. "
 			]
 			size: 2.0d
 			id: "67041AC0F48F9302"

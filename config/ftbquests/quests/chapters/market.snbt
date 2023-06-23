@@ -13,8 +13,8 @@
 			x: 0.0d
 			y: -11.0d
 			description: [
-				"The Market is the place where you can use your hard-earned NOT chin to buy raw materials, which may or may not aid you in your quest. "
-				"Currency TBD"
+				"The Market is the place where you can use your hard-earned PinCoins to buy raw materials, which may or may not aid you in your quest. "
+				""
 			]
 			size: 2.0d
 			id: "3BB8A98068B70F0C"

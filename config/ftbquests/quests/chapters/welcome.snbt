@@ -132,9 +132,10 @@
 		}
 		{
 			title: "Chapter 4"
+			icon: "kubejs:payload_module"
 			x: 9.0d
 			y: -0.75d
-			description: ["The time has come. "]
+			description: ["The time has come. Construct the electromagnetic catapult and launch the RKM - towards the Felnar's homeworld. "]
 			dependencies: [
 				"7845DB3083B6ABDA"
 				"4265D52794B427C5"
@@ -182,7 +183,7 @@
 			icon: "minecraft:paper"
 			x: 0.0d
 			y: 4.0d
-			description: [""]
+			description: ["Hello, WhyReason here. I would like to thank you for downloading this pack as an invited player. This pack would never have been possible with the support of Perilune, who initiated the idea of developing a modpack. Originally, this was meant to give me motivation, and to recall vivid memories of Ubuntu, Arch, Baysee and more. This was also supposed to be a relatively lightly-tweaked pack, but given our 5 months of developing time until now, we have completely overhauled the original progression with 4 unique chapters (Chapter 0, 3a aren't unique), with 3b carrying a gargantuan amount of custom items. Idea development and progression lines of Chapter 2, 3b were made by Perilune completely, 3a and the bonus section by WhyReason completely, and the rest in cooperation. The idea of ore generation through processing has been brought up by Perilune, as well as the markets, and most of it was done by them as well, while I focused mostly on tweaking values, utility progression, and Quality of Life changes. This has been a long 5 months of opening and closing our testing worlds, and we truly hope that you will enjoy this pack, albeit the amount of suffering induced."]
 			id: "3485A18F44BD65F0"
 			tasks: [{
 				id: "41B540F698638184"
