@@ -373,8 +373,8 @@ onEvent("mm.recipes", event => {
             MMIngredient('kubejs:advanced_component', 300),
             MMIngredient('thermal_extra:dragon_integral_component', 32),
             MMIngredient('kubejs:advanced_modular_framework', 100),
-            MMIngredient('kubejs:structural_chassis', 200)
-
+            MMIngredient('kubejs:structural_chassis', 200),
+            MMIngredient('kubejs:chaos_mechanism', 1)
         ],
         outputs: [
             MMIngredient("kubejs:structure_module",1)
