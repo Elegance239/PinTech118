@@ -391,7 +391,7 @@
 		{
 			title: "Fren :)"
 			icon: "mekanism:robit"
-			x: -1.5d
+			x: 0.0d
 			y: 6.5d
 			id: "2C7ADFAC55D355CC"
 			tasks: [{
@@ -485,8 +485,8 @@
 		{
 			title: "Cwwwweate"
 			icon: "createchromaticreturn:industrium_ingot"
-			x: -3.0d
-			y: -2.0d
+			x: 3.0d
+			y: 2.0d
 			id: "6B23F2B74D3954E4"
 			tasks: [{
 				id: "7AD450304B22AE7D"
@@ -504,8 +504,8 @@
 		{
 			title: "Morphing Tool (Includes All)"
 			icon: "morphtool:tool"
-			x: 3.0d
-			y: 2.0d
+			x: 0.0d
+			y: -5.0d
 			id: "23CA064A9DE30D65"
 			tasks: [{
 				id: "10DF619B97F33713"
@@ -874,8 +874,8 @@
 		{
 			title: "Factory in a Block"
 			icon: "industrialforegoing:material_stonework_factory"
-			x: 1.5d
-			y: 6.5d
+			x: -3.0d
+			y: -2.0d
 			dependencies: ["7F019A11B2FAC654"]
 			id: "031B7723AE6B3260"
 			tasks: [{
@@ -883,6 +883,7 @@
 				type: "item"
 				item: "kubejs:chin_new"
 				count: 3L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "66316B26D199DB05"
@@ -891,21 +892,56 @@
 			}]
 		}
 		{
-			title: "Formula"
+			title: "Formula: Alternate Recipe"
 			icon: "kubejs:formula1"
-			x: 0.0d
-			y: 6.5d
+			x: -1.5d
+			y: -5.0d
+			description: ["A Formula provides an alternate recipe that can be more efficient than normal recipes, but with drawbacks. Additional formulae can be found rarely in loot chests."]
 			id: "2C34CCB851D461B4"
 			tasks: [{
 				id: "25AC6AAB233BBA37"
 				type: "item"
 				item: "kubejs:chin_new"
 				count: 5L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "3F75EE8D6DF43120"
 				type: "choice"
 				icon: "kubejs:formula1"
+				exclude_from_claim_all: true
+				table_id: 4354799021660066564L
+			}]
+		}
+		{
+			title: "Formula Reroll"
+			x: 1.5d
+			y: -5.0d
+			id: "54EA0E619C9F0967"
+			tasks: [
+				{
+					id: "3F489D1B22E67B6A"
+					type: "item"
+					title: "Any #kubejs:blueprints"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "kubejs:blueprints"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5A89E5CB773A0C03"
+					type: "item"
+					item: "kubejs:chin_new"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4116DDF064C2755B"
+				type: "random"
 				exclude_from_claim_all: true
 				table_id: 4354799021660066564L
 			}]

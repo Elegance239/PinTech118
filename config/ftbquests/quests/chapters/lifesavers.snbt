@@ -248,6 +248,7 @@
 		{
 			x: 2.0d
 			y: 5.0d
+			description: ["The Insightful Crystal can store your XP in case you die. Which you will."]
 			id: "71D8D5ECAE4A6E27"
 			tasks: [{
 				id: "482A0525ED568DCF"

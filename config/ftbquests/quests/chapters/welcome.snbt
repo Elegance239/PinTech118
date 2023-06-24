@@ -61,8 +61,8 @@
 		{
 			title: "Chapter 0"
 			icon: "create:electron_tube"
-			x: -9.0d
-			y: -0.75d
+			x: -6.75d
+			y: -0.25d
 			description: [
 				"Starting off with a totally original idea: Create!"
 				"To kickstart an industry, you will need energy, but electricity is still far away. Use mechanical power to your advantage, and unlock several important materials and devices to pave your way towards electricity."
@@ -79,8 +79,8 @@
 		{
 			title: "Chapter 2"
 			icon: "mekanism:laser"
-			x: 0.0d
-			y: -0.75d
+			x: 2.5d
+			y: -0.25d
 			description: [
 				"You now have an excellent manufacturing base, churning out a diverse selection of components. Now it's time to go a step further."
 				"Seek out stronger materials; obtain the elusive reinforcement catalyst, and refine previously unattainable minerals. Harness temperature extremes and high energy processes, create complex manufacturing and processing setups, and go as far as the laws of physics would let you."
@@ -97,8 +97,8 @@
 		{
 			title: "Chapter 3a"
 			icon: "mekanismgenerators:control_rod_assembly"
-			x: 4.5d
-			y: -3.0d
+			x: 6.75d
+			y: -2.5d
 			description: [
 				"You begin thinking the uranium pile sitting in storage may be good for something, other than making the air spicy."
 				"Split the atom. Harvest limitless untapped energy, and synthesize superheavy elements. Create alloys with materials that God never intended to combine."
@@ -115,8 +115,8 @@
 		{
 			title: "Chapter 3b"
 			icon: "kubejs:quantum_computer"
-			x: 4.5d
-			y: 1.5d
+			x: 6.75d
+			y: 2.0d
 			description: [
 				"The laws of physics have held you back long enough. Now it's time to break them."
 				"Begin diving into nanoengineering, and synthesize materials with previously unattainable properties. Build the particle accelerator to peer into the quantum realm. Construct the powerful Quantum Computer, all while keeping up with the enormous power demand of your sprawling factory."
@@ -133,8 +133,8 @@
 		{
 			title: "Chapter 4"
 			icon: "kubejs:payload_module"
-			x: 9.0d
-			y: -0.75d
+			x: 11.25d
+			y: -0.25d
 			description: ["The time has come. Construct the electromagnetic catapult and launch the RKM - towards the Felnar's homeworld. "]
 			dependencies: [
 				"7845DB3083B6ABDA"
@@ -151,8 +151,8 @@
 		{
 			title: "Baby Steps"
 			icon: "minecraft:oak_log"
-			x: -12.75d
-			y: -0.75d
+			x: -10.5d
+			y: -0.25d
 			description: ["A journey must begin with you punching a tree. Or maybe you'll find wood in chests. I don't know. But technically you're supposed to punch a tree. So go and punch a tree."]
 			size: 1.5d
 			id: "41451BC9F9190E52"
@@ -163,8 +163,9 @@
 		}
 		{
 			icon: "pneumaticcraft:assembly_drill"
-			x: -4.5d
-			y: -0.75d
+			x: -2.25d
+			y: -0.25d
+			shape: "gear"
 			description: [
 				"Now the fun can begin."
 				"With the power of electricity, you can set up some serious manufacturing. As technology marches forward, high strength alloys, precision machined parts, and solid-state circuitry are at your fingertips. But to reach these heights, you will need a robust supply chain of raw materials, and an efficient processing chain aided by heavy machinery. Luckily, more logistics and organization options open up as you explore the power of digital technology."

@@ -45,6 +45,7 @@ onEvent('recipes', event => {
 		results: [
 			Item.of('minecraft:flint').withChance(0.25),
 			Item.of('3x kubejs:raw_iron_mote').withChance(0.12),
+			Item.of('1x kubejs:raw_nickel_mote').withChance(0.01),
 		]
 	})
 	event.recipes.createSplashing(

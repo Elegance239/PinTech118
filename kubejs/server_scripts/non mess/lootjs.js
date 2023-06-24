@@ -23,7 +23,7 @@ onEvent("lootjs", (event) => {
 
         event
         .addLootTypeModifier(LootType.CHEST)
-        .randomChance(0.05)
+        .randomChance(0.08)
         .addWeightedLoot([1, 1], [
             Item.of("kubejs:formula1"),
             Item.of("kubejs:formula2"),

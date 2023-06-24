@@ -84,7 +84,6 @@
 			title: "Shiny!"
 			x: 3.0d
 			y: -3.0d
-			subtitle: "Gold is one of the base ores in this pack. "
 			dependencies: ["19A9CAC021E1C3CD"]
 			size: 2.0d
 			id: "3F5E6A6B62CCC467"

@@ -116,6 +116,15 @@ onEvent('recipes', event => {
 	event.custom({
 		type: 'thermal:press',
 		ingredients: [
+			Ingredient.of('36x kubejs:raw_nickel_mote').toJson(),
+		],
+		results: [
+			Item.of('thermal:raw_nickel').toJson(),
+		]
+	})
+	event.custom({
+		type: 'thermal:press',
+		ingredients: [
 			Ingredient.of('36x kubejs:raw_uranium_mote').toJson(),
 		],
 		results: [

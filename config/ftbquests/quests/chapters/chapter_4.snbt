@@ -10,7 +10,7 @@
 		{
 			x: 0.0d
 			y: -2.0d
-			description: ["Antimatter-matter annihilation is the most energetic reaction known to man. By directing and controlling its detonation using a powerful magnetic nozzle, the energy produced can propel a vehicle to relativistic speeds with incredible efficiency."]
+			description: ["Antimatter-matter annihilation is the most energetic reaction in known science. By directing and controlling its detonation using a powerful magnetic nozzle, the energy produced can propel a vehicle to relativistic speeds with incredible efficiency."]
 			hide_dependency_lines: true
 			dependencies: ["76BE6625DF736C65"]
 			id: "2946B6170D5BFCBA"
@@ -36,7 +36,7 @@
 		{
 			x: -2.0d
 			y: 1.0d
-			description: ["To maintain electromagnetic confinement of antimatter and neutronium onboard, the missile will need a powerful onboard power source in the form of a minature fusion reactor. Fuel and energy storage is also required."]
+			description: ["To maintain electromagnetic confinement of antimatter and neutronium onboard, the missile will need a compact onboard power source in the form of a minature fusion reactor. Fuel and energy storage is also required."]
 			hide_dependency_lines: true
 			dependencies: ["76BE6625DF736C65"]
 			id: "083B7AC78109A2ED"
@@ -49,7 +49,7 @@
 		{
 			x: 0.0d
 			y: 2.0d
-			description: ["An explosion of extremely dense neutronium going at .97c, propagated by a conventional plutonium fission reaction, will destabilize the core of the planet and eliminate any possibility of life."]
+			description: ["A shower of extremely dense neutronium going at .97c, propagated by a conventional plutonium fission explosive, will destabilize the core of the planet and eliminate any possibility of life."]
 			hide_dependency_lines: true
 			dependencies: ["76BE6625DF736C65"]
 			id: "33CDC61F55A20C6B"
@@ -86,8 +86,18 @@
 			}]
 		}
 		{
+			title: "Revenge is a dish..."
 			x: -7.0d
 			y: 0.0d
+			description: [
+				"A Relativistic Kill Missile is a man-made object accelerated to a high percentage of the speed of light, such as 97%. The sheer amount of kinetic energy means nothing in known physics can stop such an attack on a planet."
+				"With your advanced technology, construct an Electromagnetic Catapult to launch the materials and begin the orbital assembly of this missile."
+				"The Felnar home system is 5.6 light years away. Godspeed."
+			]
+			dependencies: [
+				"6536FBACD01195AE"
+				"16B1E34341FB1F1C"
+			]
 			size: 2.0d
 			id: "76BE6625DF736C65"
 			tasks: [{
@@ -95,6 +105,50 @@
 				type: "item"
 				item: "mm:electromagnetic_catapult_controller"
 			}]
+		}
+		{
+			title: "...best served cold."
+			icon: "minecraft:skeleton_skull"
+			x: 7.0d
+			y: 0.0d
+			description: ["Casus Belli: End Threat."]
+			hide_dependency_lines: true
+			dependencies: [
+				"2946B6170D5BFCBA"
+				"083B7AC78109A2ED"
+				"6363C9EB4BBA78CA"
+				"6A99FDEBD8462F6E"
+				"33CDC61F55A20C6B"
+				"4571FDAA1129C3AD"
+			]
+			size: 2.0d
+			id: "4217852C7EE47E9E"
+			tasks: [{
+				id: "513FE969836511AD"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "31A176D0AF0C7667"
+					type: "item"
+					item: "kubejs:chin_new"
+					count: 64
+				}
+				{
+					id: "45CBED2F6A173B3E"
+					type: "item"
+					item: {
+						id: "minecraft:paper"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Continuation of Human Civilization\"}"
+							}
+						}
+					}
+				}
+			]
 		}
 	]
 	quest_links: [ ]

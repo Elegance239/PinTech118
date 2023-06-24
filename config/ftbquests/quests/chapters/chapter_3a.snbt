@@ -562,7 +562,7 @@
 			title: "Supercritical Phase Shifter"
 			x: 13.0d
 			y: 0.0d
-			description: ["So close, so far. Feel the victory in your hands. Never have you fathomed the possibility of grasping antimatter in your very own hands. You will need at least one supercharged coil, which you can add depending on how much power you can generate. Search up Mekanism SPS if you have any questions."]
+			description: ["So close, so far. Feel the victory in your hands. Never have you fathomed the possibility of grasping antimatter in your very own hands (doctors not recommended). You will need at least one supercharged coil, which you can add depending on how much power you can generate. Search up Mekanism SPS if you have any questions."]
 			dependencies: [
 				"000D19491DA2B747"
 				"0F31B0FA208E8CD3"
