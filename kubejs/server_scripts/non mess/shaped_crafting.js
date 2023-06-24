@@ -736,11 +736,11 @@ onEvent('recipes', event => {
   )
 
   event.shaped('2x mekanismgenerators:fission_fuel_assembly',
-  [
+    [
       "ABA",
       "BCB",
       "ADA"
-  ],
+    ],
     {
       "A": {
         "item": "thermal_extra:polarium_plate"
@@ -1337,22 +1337,22 @@ onEvent('recipes', event => {
   )
 
   event.shaped('thermal:upgrade_augment_2',
-  ["ABA", "CDC", "ABA"],
-  {
-  "A": {
-      "item": "pneumaticcraft:printed_circuit_board"
-  },
-  "B": {
-      "item": "mekanism:alloy_infused"
-  },
-  "C": {
-      "item": "thermal:lumium_ingot"
-  },
-  "D": {
-      "item": "thermal:upgrade_augment_1"
-  }
-},
-)
+    ["ABA", "CDC", "ABA"],
+    {
+      "A": {
+        "item": "pneumaticcraft:printed_circuit_board"
+      },
+      "B": {
+        "item": "mekanism:alloy_infused"
+      },
+      "C": {
+        "item": "thermal:lumium_ingot"
+      },
+      "D": {
+        "item": "thermal:upgrade_augment_1"
+      }
+    },
+  )
 
   event.shaped('thermal:upgrade_augment_3',
     [
@@ -2080,177 +2080,214 @@ onEvent('recipes', event => {
   event.shaped('mekanism:chemical_crystallizer',
     ["AAA", "BCB", "DED"],
     {
-    "A": {
+      "A": {
         "item": "immersiveengineering:plate_aluminum"
-    },
-    "B": {
+      },
+      "B": {
         "item": "mekanism:elite_control_circuit"
-    },
-    "C": {
+      },
+      "C": {
         "item": "thermal:machine_crystallizer"
-    },
-    "D": {
+      },
+      "D": {
         "item": "kubejs:composite_mechanical_component"
-    },
-    "E": {
+      },
+      "E": {
         "item": "thermal:signalum_gear"
-    }
-},
-)
-event.shaped('4x biggerreactors:reactor_casing',
+      }
+    },
+  )
+  event.shaped('4x biggerreactors:reactor_casing',
     ["ABA", "BCB", "ADA"],
     {
-    "A": {
+      "A": {
         "item": "thermal:lead_plate"
-    },
-    "B": {
+      },
+      "B": {
         "item": "biggerreactors:graphite_ingot"
-    },
-    "C": {
+      },
+      "C": {
         "item": "immersiveengineering:heavy_engineering"
+      },
+      "D": {
+        "item": "kubejs:composite_mechanical_component"
+      }
     },
-    "D": {
-      "item": "kubejs:composite_mechanical_component"
-  }
-},
-)
+  )
 
-event.shaped('4x biggerreactors:turbine_casing',
+  event.shaped('4x biggerreactors:turbine_casing',
     ["ABA", "CDC", "ABA"],
     {
-    "A": {
+      "A": {
         "item": "immersiveengineering:plate_aluminum"
-    },
-    "B": {
+      },
+      "B": {
         "item": "biggerreactors:cyanite_ingot"
-    },
-    "C": {
+      },
+      "C": {
         "item": "biggerreactors:graphite_ingot"
-    },
-    "D": {
+      },
+      "D": {
         "item": "immersiveengineering:light_engineering"
-    }
-},
-)
-event.shaped('biggerreactors:reactor_terminal',
+      }
+    },
+  )
+  event.shaped('biggerreactors:reactor_terminal',
     ["AAA", "BCB", "AAA"],
     {
-    "A": {
+      "A": {
         "item": "biggerreactors:reactor_casing"
-    },
-    "B": {
+      },
+      "B": {
         "item": "mekanism:elite_control_circuit"
-    },
-    "C": {
+      },
+      "C": {
         "item": "industrialforegoing:machine_frame_advanced"
-    }
-},
-)
-event.shaped('2x biggerreactors:reactor_fuel_rod',
+      }
+    },
+  )
+  event.shaped('2x biggerreactors:reactor_fuel_rod',
     ["ABA", "ACA", "ABA"],
     {
-    "A": {
+      "A": {
         "item": "biggerreactors:reactor_casing"
-    },
-    "B": {
+      },
+      "B": {
         "item": "thermal:lead_plate"
-    },
-    "C": {
+      },
+      "C": {
         "item": "kubejs:cooling_system"
-    }
-},
-)
-event.shaped('simplyjetpacks:armorplating_mek1',
+      }
+    },
+  )
+  event.shaped('simplyjetpacks:armorplating_mek1',
     ["AAA", "ABA", "AAA"],
     {
-    "A": {
+      "A": {
         "item": "kubejs:compressed_iron_plate"
-    },
-    "B": {
+      },
+      "B": {
         "item": "mekanism:basic_control_circuit"
-    }
-},
-)
-event.shaped('simplyjetpacks:armorplating_mek2',
+      }
+    },
+  )
+  event.shaped('simplyjetpacks:armorplating_mek2',
     ["ABA", "BCB", "ABA"],
     {
-    "A": {
+      "A": {
         "item": "thermal:invar_plate"
-    },
-    "B": {
+      },
+      "B": {
         "item": "mekanism:alloy_infused"
-    },
-    "C": {
+      },
+      "C": {
         "item": "simplyjetpacks:armorplating_mek1"
-    }
-},
-)
+      }
+    },
+  )
 
-event.shaped('simplyjetpacks:armorplating_mek3',
+  event.shaped('simplyjetpacks:armorplating_mek3',
     ["ABA", "BCB", "ABA"],
     {
-    "A": {
+      "A": {
         "item": "mekanism:hdpe_sheet"
-    },
-    "B": {
+      },
+      "B": {
         "item": "kubejs:composite_mechanical_component"
-    },
-    "C": {
+      },
+      "C": {
         "item": "simplyjetpacks:armorplating_mek2"
-    }
-},
-)
-event.shaped('simplyjetpacks:armorplating_mek4',
+      }
+    },
+  )
+  event.shaped('simplyjetpacks:armorplating_mek4',
     ["ABA", "BCB", "ABA"],
     {
-    "A": {
+      "A": {
         "item": "thermal:netherite_plate"
-    },
-    "B": {
+      },
+      "B": {
         "item": "kubejs:graphene"
-    },
-    "C": {
+      },
+      "C": {
         "item": "simplyjetpacks:armorplating_mek3"
-    }
-},
-)
+      }
+    },
+  )
 
-event.shaped(Item.of('custommachinery:custom_machine_item', { machine: "custommachinery:formulaic_synthesizer" }),
+  event.shaped(Item.of('custommachinery:custom_machine_item', { machine: "custommachinery:formulaic_synthesizer" }),
     ["ABA", "BCB", "ADA"],
     {
-    "A": {
+      "A": {
         "item": "thermal:invar_plate"
-    },
-    "B": {
+      },
+      "B": {
         "item": "mekanism:basic_control_circuit"
-    },
-    "C": {
+      },
+      "C": {
         "item": "mekanism:formulaic_assemblicator"
-    },
-    "D": {
+      },
+      "D": {
         "item": "thermal:lumium_gear"
-    }
-},
-)
+      }
+    },
+  )
 
-event.shaped('kubejs:magnetic_nozzle',
+  event.shaped('kubejs:magnetic_nozzle',
     ["ABA", "CDC", "CEC"],
     {
-    "A": {
+      "A": {
         "item": "kubejs:cooling_system"
-    },
-    "B": {
+      },
+      "B": {
         "item": "kubejs:superconducting_wire"
-    },
-    "C": {
+      },
+      "C": {
         "item": "thermal_extra:polarium_plate"
-    },
-    "D": {
+      },
+      "D": {
         "item": "kubejs:advanced_component"
-    },
-    "E": {
+      },
+      "E": {
         "item": "kubejs:neutronium_plate"
-    }
-},
-)
+      }
+    },
+  )
+
+  event.shaped('mm:large_energy_input_port',
+    ["AAA", "ABA", "AAA"],
+    {
+      "A": {
+        "item": "mm:energy_input_port"
+      },
+      "B": {
+        "item": "kubejs:superconducting_wire"
+      }
+    },
+  )
+
+  event.shaped('mm:electromagnetic_catapult_controller',
+    [
+      "ABA",
+      "CDC",
+      "ABA"
+    ],
+    {
+      "A": {
+        "item": "kubejs:quantum_computer"
+      },
+      "B": {
+        "item": "thermal:enderium_gear"
+      },
+      "C": {
+        "item": "kubejs:superconducting_magnet"
+      },
+      "D": {
+        "item": "mekanism:ultimate_control_circuit"
+      }
+    },
+
+
+  )
+
 })

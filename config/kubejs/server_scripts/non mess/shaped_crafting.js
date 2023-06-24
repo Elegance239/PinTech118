@@ -465,4 +465,27 @@ onEvent('recipes', event => {
           }
         },
     )
+
+    event.shaped('mm:electromagnetic_catapult_controller', 
+    [
+        "ABA",
+        "CDC",
+        "ABA"
+      ],
+    {
+        "A": {
+          "item": "kubejs:quantum_computer"
+        },
+        "B": {
+          "item": "thermal:enderium_gear"
+        },
+        "C": {
+          "item": "kubejs:superconducting_magnet"
+        },
+        "D": {
+          "item": "mekanism:ultimate_control_circuit"
+        }
+      },
+
+    )
 })

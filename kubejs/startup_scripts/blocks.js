@@ -77,6 +77,8 @@ onEvent('block.registry', event => {
 	event.create('formulaic_synthesizer_model').displayName('Formulaic Synthesizer Model')
 	.textureAll('kubejs:item/custom_machine_side')
 	.texture('north', 'kubejs:item/formulaic_synthesizer')
+
+	event.create('gold_trophy').displayName('Cool X-Ray Trophy')
 })
 
 
