@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/large_energy_input_port"
+    }
+  }
+}

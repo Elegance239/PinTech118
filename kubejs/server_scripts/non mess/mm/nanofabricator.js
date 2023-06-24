@@ -452,7 +452,9 @@ onEvent("mm.recipes", event => {
             MMIngredient('mekanism:ultimate_control_circuit', 200),
             MMIngredient('mekanism:teleportation_core', 50),
             MMIngredient('kubejs:neoclydium_diode', 20),
+            MMIngredient('extrastorage:storagepart_256k', 10),
             MMIngredient('kubejs:quantum_computer', 100)
+
 
         ],
         outputs: [

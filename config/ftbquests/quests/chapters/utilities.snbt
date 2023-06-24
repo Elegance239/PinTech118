@@ -913,15 +913,15 @@
 			}]
 		}
 		{
-			title: "Re-Chiseled"
+			title: "Builder's Delight"
 			x: 14.0d
 			y: -2.5d
-			description: ["Re-Chiseled unlocks variants for existing blocks, giving them an alternate style or feel. Start by crafting the chisel, then use its GUI to chisel blocks."]
+			description: ["Builder's Delight unlocks variants for existing blocks, giving them an alternate style or feel. Start by crafting the chisel, then use its GUI to chisel blocks."]
 			id: "109D1DF8BF31D7C6"
 			tasks: [{
-				id: "147F32008329AF6C"
+				id: "2D750387028C40F8"
 				type: "item"
-				item: "rechiseled:chisel"
+				item: "buildersdelight:iron_chisel"
 			}]
 		}
 		{
