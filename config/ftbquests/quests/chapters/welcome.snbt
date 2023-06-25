@@ -20,9 +20,16 @@
 			size: 3.0d
 			id: "43476F918B83BEF7"
 			tasks: [{
-				id: "2E77B2134A78A3CC"
-				type: "dimension"
-				dimension: "minecraft:overworld"
+				id: "2F2F97BF1722B203"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
 			}]
 			rewards: [
 				{

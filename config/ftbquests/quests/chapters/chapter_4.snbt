@@ -148,6 +148,11 @@
 						}
 					}
 				}
+				{
+					id: "1B4510072AE59B66"
+					type: "item"
+					item: "kubejs:gold_trophy"
+				}
 			]
 		}
 	]

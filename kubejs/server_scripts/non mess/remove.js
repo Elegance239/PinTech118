@@ -376,7 +376,6 @@ let SD = (id) => 'storagedrawers:'+id
         'thermal:compat/create/bottler_create_glowstone',
         'thermal:compat/create/bottler_create_redstone',
         'create:splashing/crushed_raw_gold',
-        
     ]
 
     recipeId.forEach(item => {
